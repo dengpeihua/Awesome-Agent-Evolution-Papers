@@ -1,0 +1,38 @@
+[project]
+name = "awesome-agent-evolution-papers"
+version = "0.1.0"
+description = "Daily agent evolution, memory, and LLM continual training paper digest for AstrBot"
+requires-python = ">=3.12"
+dependencies = [
+  "httpx>=0.28,<1",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.4,<9",
+  "pytest-asyncio>=1.1,<2",
+  "pytest-cov>=6.2,<7",
+  "ruff>=0.12,<1",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["agent_paper_digest"]
+
+[tool.coverage.report]
+fail_under = 80
+show_missing = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "ASYNC"]
+
