@@ -13,18 +13,18 @@ and **LLM continual training**, powered by AstrBot.
 
 ## 🚀 Quick Start
 
-See the [Deployment Guide](docs/deployment.md) to install the AstrBot plugin,
+See [Deployment Guide](docs/deployment.md) to install the AstrBot plugin,
 configure an enterprise WeChat group webhook, and enable GitHub sync.
 
 ## 📊 Statistics
 
 | Metric | Count |
 | --- | ---: |
-| Total papers | 0 |
-| Agent self-evolving | 0 |
-| Agent memory | 0 |
+| Total papers | 9 |
+| Agent self-evolving | 6 |
+| Agent memory | 3 |
 | LLM continual training | 0 |
-| Daily archives | 0 |
+| Daily archives | 1 |
 
 ## 📋 Table of Contents
 
@@ -37,11 +37,19 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 
 | Published | Track | Paper | Links |
 | --- | --- | --- | --- |
-| - | - | No papers archived yet | - |
+| 2026-07-15 | Agent Self-Evolving | [A Self-Evolving Agent for Longitudinal Personal Health Management](https://arxiv.org/abs/2607.13940v1) | [Paper](https://arxiv.org/abs/2607.13940v1) / [PDF](https://arxiv.org/pdf/2607.13940v1) |
+| 2026-07-15 | Agent Self-Evolving | [Self-Evolving Agent Harnesses via Gated Semantic Quality-Diversity](https://arxiv.org/abs/2607.13683v1) | [Paper](https://arxiv.org/abs/2607.13683v1) / [PDF](https://arxiv.org/pdf/2607.13683v1) |
+| 2026-07-14 | Agent Self-Evolving | [Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable](https://arxiv.org/abs/2607.13285v1) | [Paper](https://arxiv.org/abs/2607.13285v1) / [PDF](https://arxiv.org/pdf/2607.13285v1) |
+| 2026-07-14 | Agent Memory | [Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents](https://arxiv.org/abs/2607.13157v1) | [Paper](https://arxiv.org/abs/2607.13157v1) / [PDF](https://arxiv.org/pdf/2607.13157v1) |
+| 2026-07-14 | Agent Self-Evolving | [Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents](https://arxiv.org/abs/2607.12790v1) | [Paper](https://arxiv.org/abs/2607.12790v1) / [PDF](https://arxiv.org/pdf/2607.12790v1) |
+| 2026-07-14 | Agent Self-Evolving | [Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104v1) | [Paper](https://arxiv.org/abs/2607.13104v1) / [PDF](https://arxiv.org/pdf/2607.13104v1) |
+| 2026-07-09 | Agent Memory | [Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents](https://arxiv.org/abs/2607.08448v3) | [Paper](https://arxiv.org/abs/2607.08448v3) / [PDF](https://arxiv.org/pdf/2607.08448v3) |
+| 2026-06-30 | Agent Memory | [ECHO: Prune To Act, Trace To Learn With Selective Turn Memory In Agentic RL](https://arxiv.org/abs/2606.31650v3) | [Paper](https://arxiv.org/abs/2606.31650v3) / [PDF](https://arxiv.org/pdf/2606.31650v3) |
+| 2026-06-18 | Agent Self-Evolving | [AgenticDB: Self-Evolving Reconfiguration Framework for Database Workloads](https://arxiv.org/abs/2606.20318v3) | [Paper](https://arxiv.org/abs/2606.20318v3) / [PDF](https://arxiv.org/pdf/2606.20318v3) |
 
 ## 🗓️ Daily Archive
 
-No daily runs have been archived yet.
+- [2026-07-16](papers/2026/07/2026-07-16.md)
 
 ## 🔎 Search Scope
 
@@ -52,4 +60,3 @@ No daily runs have been archived yet.
 ## License
 
 Code is released under the MIT License. Paper metadata remains subject to its source terms.
-
