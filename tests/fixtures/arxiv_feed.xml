@@ -6,7 +6,8 @@
     <updated>2026-07-15T12:30:00Z</updated>
     <published>2026-07-14T08:00:00Z</published>
     <title>  Memory   for Self-Evolving Agents </title>
-    <summary> We study durable memory.\nThe agent improves over time. </summary>
+    <summary> We study durable memory.
+The agent improves over time. </summary>
     <author><name>Alice Example</name></author>
     <author><name>Bob Example</name></author>
     <arxiv:primary_category term="cs.AI" />
@@ -16,4 +17,3 @@
     <link title="pdf" href="https://arxiv.org/pdf/2607.01234v2" rel="related" type="application/pdf" />
   </entry>
 </feed>
-
