@@ -18,6 +18,17 @@ from agent_paper_digest.settings import DigestSettings  # noqa: E402
 from agent_paper_digest.wecom import WeComNotifier  # noqa: E402
 
 
+def load_config(path: Path) -> dict[str, object]:
+    """Load JSON configuration written by AstrBot or a text editor.
+
+    AstrBot's Windows configuration files may include a UTF-8 byte-order mark,
+    so ``utf-8-sig`` is used to accept both BOM and non-BOM JSON files.
+    """
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8-sig"))
+
+
 async def main() -> int:
     """Run the complete pipeline once from a local JSON configuration."""
     parser = argparse.ArgumentParser(description="Run the agent paper digest once")
@@ -25,9 +36,7 @@ async def main() -> int:
     parser.add_argument("--no-notify", action="store_true")
     parser.add_argument("--no-push", action="store_true")
     args = parser.parse_args()
-    values = (
-        json.loads(args.config.read_text(encoding="utf-8")) if args.config.exists() else {}
-    )
+    values = load_config(args.config)
     settings = DigestSettings.from_mapping(values, default_archive_dir=PROJECT_ROOT)
     notifier = None
     if settings.wecom_webhook_url and not args.no_notify:
@@ -61,4 +70,3 @@ async def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(asyncio.run(main()))
-
