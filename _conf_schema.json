@@ -1,0 +1,91 @@
+{
+  "enabled": {
+    "type": "bool",
+    "description": "启用每日论文检索任务",
+    "default": true
+  },
+  "archive_dir": {
+    "type": "string",
+    "description": "论文归档 Git 仓库的绝对路径",
+    "default": "",
+    "hint": "留空时使用插件仓库根目录"
+  },
+  "timezone": {
+    "type": "string",
+    "description": "IANA 时区",
+    "default": "Asia/Shanghai"
+  },
+  "schedule_hour": {
+    "type": "int",
+    "description": "每日执行小时（0-23）",
+    "default": 9
+  },
+  "schedule_minute": {
+    "type": "int",
+    "description": "每日执行分钟（0-59）",
+    "default": 0
+  },
+  "lookback_days": {
+    "type": "int",
+    "description": "每次回看最近多少天，去重后不会重复推送",
+    "default": 2
+  },
+  "max_results_per_topic": {
+    "type": "int",
+    "description": "每个主题单次最多读取的 arXiv 结果数",
+    "default": 20
+  },
+  "max_push_papers": {
+    "type": "int",
+    "description": "企业微信单次摘要最多展示的论文数",
+    "default": 8
+  },
+  "wecom_webhook_url": {
+    "type": "string",
+    "description": "企业微信群机器人 Webhook URL",
+    "default": "",
+    "hint": "仅保存在 AstrBot 本地配置中，不要提交到 Git"
+  },
+  "repository_url": {
+    "type": "string",
+    "description": "GitHub 仓库公开 URL",
+    "default": "",
+    "hint": "例如 https://github.com/your-name/Awesome-Agent-Evolution-Papers"
+  },
+  "git_remote": {
+    "type": "string",
+    "description": "Git 远端名称",
+    "default": "origin"
+  },
+  "git_branch": {
+    "type": "string",
+    "description": "GitHub 推送分支",
+    "default": "main"
+  },
+  "git_auto_push": {
+    "type": "bool",
+    "description": "归档后自动提交并推送到 GitHub",
+    "default": true
+  },
+  "git_author_name": {
+    "type": "string",
+    "description": "自动提交作者名",
+    "default": "Agent Paper Digest Bot"
+  },
+  "git_author_email": {
+    "type": "string",
+    "description": "自动提交作者邮箱",
+    "default": "agent-paper-digest@users.noreply.github.com"
+  },
+  "run_on_startup": {
+    "type": "bool",
+    "description": "插件启动后立即运行一次",
+    "default": false
+  },
+  "notify_when_empty": {
+    "type": "bool",
+    "description": "没有新论文时仍推送检索完成通知",
+    "default": true
+  }
+}
+

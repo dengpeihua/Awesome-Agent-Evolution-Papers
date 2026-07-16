@@ -1,0 +1,17 @@
+{
+  "archive_dir": "C:/Users/your-name/Projects/Awesome-Agent-Evolution-Papers",
+  "timezone": "Asia/Shanghai",
+  "schedule_hour": 9,
+  "schedule_minute": 0,
+  "lookback_days": 2,
+  "max_results_per_topic": 20,
+  "max_push_papers": 8,
+  "wecom_webhook_url": "",
+  "repository_url": "https://github.com/your-name/Awesome-Agent-Evolution-Papers",
+  "git_remote": "origin",
+  "git_branch": "main",
+  "git_auto_push": false,
+  "run_on_startup": false,
+  "notify_when_empty": true
+}
+
