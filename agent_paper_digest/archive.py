@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
@@ -39,6 +40,23 @@ class ArchiveRepository:
         values = json.loads(dataset_path.read_text(encoding="utf-8"))
         return [Paper.from_dict(value) for value in values]
 
+    def _load_discoveries(self) -> dict[str, list[str]]:
+        discovery_path = self.root / "data" / "discoveries.json"
+        if discovery_path.exists():
+            values = json.loads(discovery_path.read_text(encoding="utf-8"))
+            return {str(day): list(ids) for day, ids in values.items()}
+
+        # Migrate archives created before discovery tracking was introduced.
+        discoveries: dict[str, list[str]] = {}
+        for daily_path in (self.root / "papers").glob("*/*/*.md"):
+            matches = re.findall(
+                r"https://arxiv\.org/abs/([^)\s]+)",
+                daily_path.read_text(encoding="utf-8"),
+            )
+            ids = sorted({re.sub(r"v\d+$", "", match) for match in matches})
+            discoveries[daily_path.stem] = ids
+        return discoveries
+
     def update(self, discovery_date: date, papers: list[Paper]) -> ArchiveResult:
         """Persist a run and rebuild all derived Markdown files.
 
@@ -51,6 +69,7 @@ class ArchiveRepository:
         """
         self.root.mkdir(parents=True, exist_ok=True)
         existing = {paper.arxiv_id: paper for paper in self._load()}
+        discoveries = self._load_discoveries()
         known_ids = set(existing)
         new_papers: list[Paper] = []
         for paper in papers:
@@ -74,6 +93,18 @@ class ArchiveRepository:
             encoding="utf-8",
         )
 
+        day_key = discovery_date.isoformat()
+        day_ids = discoveries.setdefault(day_key, [])
+        for paper in new_papers:
+            if paper.arxiv_id not in day_ids:
+                day_ids.append(paper.arxiv_id)
+        day_ids.sort()
+        (data_dir / "discoveries.json").write_text(
+            json.dumps(dict(sorted(discoveries.items())), ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        daily_papers = [existing[arxiv_id] for arxiv_id in day_ids if arxiv_id in existing]
+
         daily_path = (
             self.root
             / "papers"
@@ -83,7 +114,7 @@ class ArchiveRepository:
         )
         daily_path.parent.mkdir(parents=True, exist_ok=True)
         daily_path.write_text(
-            self._render_daily(discovery_date, new_papers),
+            self._render_daily(discovery_date, daily_papers),
             encoding="utf-8",
         )
         (self.root / "README.md").write_text(
