@@ -63,3 +63,20 @@ def test_update_records_an_empty_day(tmp_path) -> None:
     text = result.daily_path.read_text(encoding="utf-8")
     assert "No new papers were discovered" in text
 
+
+def test_same_day_rerun_preserves_papers_already_discovered_that_day(tmp_path) -> None:
+    archive = ArchiveRepository(tmp_path)
+    paper = make_paper("2607.00001", topics=("agent-memory",))
+    first = archive.update(date(2026, 7, 16), [paper])
+
+    second = archive.update(date(2026, 7, 16), [])
+
+    assert first.new_papers == (paper,)
+    assert second.new_papers == ()
+    text = second.daily_path.read_text(encoding="utf-8")
+    assert "Paper 2607.00001" in text
+    assert "No new papers were discovered" not in text
+    discoveries = json.loads(
+        (tmp_path / "data" / "discoveries.json").read_text(encoding="utf-8")
+    )
+    assert discoveries == {"2026-07-16": ["2607.00001"]}
