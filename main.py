@@ -11,12 +11,20 @@ from astrbot.api import logger
 from astrbot.api.event import AstrMessageEvent, filter
 from astrbot.api.star import Context, Star, register
 
-from agent_paper_digest.archive import ArchiveRepository
-from agent_paper_digest.arxiv import ArxivSource
-from agent_paper_digest.git_sync import GitSync
-from agent_paper_digest.pipeline import DailyDigestPipeline
-from agent_paper_digest.settings import DigestSettings
-from agent_paper_digest.wecom import WeComNotifier
+if __package__:
+    from .agent_paper_digest.archive import ArchiveRepository
+    from .agent_paper_digest.arxiv import ArxivSource
+    from .agent_paper_digest.git_sync import GitSync
+    from .agent_paper_digest.pipeline import DailyDigestPipeline
+    from .agent_paper_digest.settings import DigestSettings
+    from .agent_paper_digest.wecom import WeComNotifier
+else:
+    from agent_paper_digest.archive import ArchiveRepository
+    from agent_paper_digest.arxiv import ArxivSource
+    from agent_paper_digest.git_sync import GitSync
+    from agent_paper_digest.pipeline import DailyDigestPipeline
+    from agent_paper_digest.settings import DigestSettings
+    from agent_paper_digest.wecom import WeComNotifier
 
 
 @register(
@@ -148,4 +156,3 @@ class AgentPaperDigestPlugin(Star):
         if self.scheduler is not None:
             self.scheduler.shutdown(wait=False)
             self.scheduler = None
-
