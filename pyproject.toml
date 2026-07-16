@@ -5,6 +5,7 @@ description = "Daily agent evolution, memory, and LLM continual training paper d
 requires-python = ">=3.12"
 dependencies = [
   "httpx>=0.28,<1",
+  "tzdata>=2026.1",
 ]
 
 [dependency-groups]
@@ -35,4 +36,3 @@ target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "ASYNC"]
-
