@@ -102,17 +102,22 @@ class ArxivSource:
         """Return high-precision queries for the three requested research tracks."""
         return {
             "agent-self-evolving": (
-                '(all:"self-evolving agent" OR all:"self-improving agent" '
-                'OR all:"agent self-evolution" OR all:"evolving agent")'
+                '((all:"self-evolving" OR all:"self-improving" '
+                'OR all:"agent self-evolution" OR all:"evolving agent" '
+                'OR all:"evolving skills" OR all:"self-consolidation") '
+                'AND (all:"agent" OR all:"agentic"))'
             ),
             "agent-memory": (
-                '(all:"agent memory" OR all:"memory-augmented agent" '
-                'OR all:"long-term memory agent" OR all:"memory for agents")'
+                '(all:"agent memory" OR all:"agentic memory" '
+                'OR all:"memory-augmented agent" OR all:"long-term memory agent" '
+                'OR all:"episodic memory agent" OR all:"memory for agents")'
             ),
             "llm-continual-training": (
                 '((all:"continual learning" OR all:"continual training" '
-                'OR all:"lifelong learning") AND (all:"large language model" '
-                'OR all:"language model" OR all:"LLM"))'
+                'OR all:"continual adaptation" OR all:"continual pre-training" '
+                'OR all:"continual fine-tuning" OR all:"lifelong learning") '
+                'AND (all:"large language model" OR all:"language model" '
+                'OR all:"foundation model" OR all:"LLM"))'
             ),
         }
 
@@ -158,4 +163,3 @@ class ArxivSource:
             if owns_client:
                 await client.aclose()
         return sorted(merged.values(), key=lambda paper: paper.updated, reverse=True)
-

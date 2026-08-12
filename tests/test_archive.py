@@ -1,4 +1,5 @@
 import json
+from dataclasses import replace
 from datetime import UTC, date, datetime
 
 from agent_paper_digest.archive import ArchiveRepository
@@ -33,11 +34,15 @@ def test_update_creates_daily_archive_dataset_and_awesome_index(tmp_path) -> Non
     assert result.daily_path == daily
     assert daily.exists()
     assert "## Agent Memory" in daily.read_text(encoding="utf-8")
+    monthly = tmp_path / "papers" / "2026" / "07" / "README.md"
+    assert monthly.exists()
+    assert "# 2026-07 Agent Evolution Papers" in monthly.read_text(encoding="utf-8")
     readme = (tmp_path / "README.md").read_text(encoding="utf-8")
     assert "# Awesome Agent Evolution Papers" in readme
     assert "## 📊 Statistics" in readme
     assert "## 🗓️ Daily Archive" in readme
     assert "papers/2026/07/2026-07-16.md" in readme
+    assert "papers/2026/07/README.md" in readme
     dataset = json.loads((tmp_path / "data" / "papers.json").read_text(encoding="utf-8"))
     assert dataset[0]["arxiv_id"] == "2607.00001"
 
@@ -80,3 +85,28 @@ def test_same_day_rerun_preserves_papers_already_discovered_that_day(tmp_path) -
         (tmp_path / "data" / "discoveries.json").read_text(encoding="utf-8")
     )
     assert discoveries == {"2026-07-16": ["2607.00001"]}
+
+
+def test_enrichment_round_trip_and_highlight_rendering(tmp_path) -> None:
+    paper = replace(
+        make_paper("2607.00002", topics=("agent-self-evolving",)),
+        venue="ACL 2026 (Main)",
+        venue_tier="top",
+        github_url="https://github.com/example/project",
+        github_stars=1_234,
+        citation_count=12,
+        citation_source="Google Scholar",
+        industry_affiliations=("Example Research",),
+        verified_at="2026-08-12",
+    )
+
+    ArchiveRepository(tmp_path).replace_dataset([paper])
+
+    restored = ArchiveRepository(tmp_path)._load()[0]
+    assert restored == paper
+    readme = (tmp_path / "README.md").read_text(encoding="utf-8")
+    assert "🔥 Very popular code" in readme
+    assert "📈 Highly cited" in readme
+    assert "🏢 Industry" in readme
+    assert "🏆 Top venue" in readme
+    assert "Citations: 12 (Google Scholar)" in readme

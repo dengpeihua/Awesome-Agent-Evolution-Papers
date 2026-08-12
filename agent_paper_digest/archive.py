@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+from collections import defaultdict
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
@@ -13,6 +14,16 @@ TOPIC_TITLES = {
     "agent-memory": "Agent Memory",
     "llm-continual-training": "LLM Continual Training",
 }
+
+TOPIC_SHORT = {
+    "agent-self-evolving": "Self-Evolving",
+    "agent-memory": "Memory",
+    "llm-continual-training": "Continual Training",
+}
+
+POPULAR_CODE_STARS = 100
+VERY_POPULAR_CODE_STARS = 1_000
+HIGH_CITATION_COUNT = 10
 
 
 @dataclass(frozen=True, slots=True)
@@ -56,6 +67,35 @@ class ArchiveRepository:
             ids = sorted({re.sub(r"v\d+$", "", match) for match in matches})
             discoveries[daily_path.stem] = ids
         return discoveries
+
+    def replace_dataset(self, papers: list[Paper]) -> tuple[Paper, ...]:
+        """Replace the curated dataset and rebuild monthly and root indexes.
+
+        This is intended for historical backfills. It deliberately leaves daily
+        discovery records untouched so a backfill is not presented as one day's feed.
+        """
+        merged: dict[str, Paper] = {}
+        for paper in papers:
+            current = merged.get(paper.arxiv_id)
+            merged[paper.arxiv_id] = current.merge(paper) if current else paper
+        all_papers = sorted(
+            merged.values(),
+            key=lambda item: (item.published, item.updated, item.arxiv_id),
+            reverse=True,
+        )
+        data_dir = self.root / "data"
+        data_dir.mkdir(parents=True, exist_ok=True)
+        (data_dir / "papers.json").write_text(
+            json.dumps([paper.to_dict() for paper in all_papers], ensure_ascii=False, indent=2)
+            + "\n",
+            encoding="utf-8",
+        )
+        self._write_monthly_archives(all_papers)
+        (self.root / "README.md").write_text(
+            self._render_readme(all_papers),
+            encoding="utf-8",
+        )
+        return tuple(all_papers)
 
     def update(self, discovery_date: date, papers: list[Paper]) -> ArchiveResult:
         """Persist a run and rebuild all derived Markdown files.
@@ -117,6 +157,7 @@ class ArchiveRepository:
             self._render_daily(discovery_date, daily_papers),
             encoding="utf-8",
         )
+        self._write_monthly_archives(all_papers)
         (self.root / "README.md").write_text(
             self._render_readme(all_papers),
             encoding="utf-8",
@@ -159,7 +200,8 @@ class ArchiveRepository:
                         f"- **Authors:** {authors}",
                         f"- **Published:** {paper.published.date().isoformat()}",
                         f"- **Categories:** {', '.join(paper.categories)}",
-                        f"- **Links:** [Paper]({paper.url}) · [PDF]({paper.pdf_url})",
+                        f"- **Links:** [Paper]({paper.url}) · [PDF]({paper.pdf_url})"
+                        + (f" · [Code]({paper.github_url})" if paper.github_url else ""),
                         "",
                         paper.abstract,
                         "",
@@ -167,8 +209,106 @@ class ArchiveRepository:
                 )
         return "\n".join(lines)
 
+    @staticmethod
+    def _flags(paper: Paper) -> str:
+        flags: list[str] = []
+        if paper.github_stars is not None and paper.github_stars >= VERY_POPULAR_CODE_STARS:
+            flags.append("🔥 Very popular code")
+        elif paper.github_stars is not None and paper.github_stars >= POPULAR_CODE_STARS:
+            flags.append("⭐ Popular code")
+        if paper.citation_count is not None and paper.citation_count >= HIGH_CITATION_COUNT:
+            flags.append("📈 Highly cited")
+        if paper.industry_affiliations:
+            flags.append("🏢 Industry")
+        if paper.venue_tier == "top":
+            flags.append("🏆 Top venue")
+        flags.extend(reason for reason in paper.highlight_reasons if reason not in flags)
+        return "<br>".join(flags) if flags else "—"
+
+    @staticmethod
+    def _metrics(paper: Paper) -> str:
+        values: list[str] = []
+        if paper.github_url:
+            stars = f"{paper.github_stars:,}" if paper.github_stars is not None else "n/a"
+            values.append(f"[GitHub ★ {stars}]({paper.github_url})")
+        if paper.citation_count is not None:
+            source = paper.citation_source or "citation source"
+            values.append(f"Citations: {paper.citation_count} ({source})")
+        return "<br>".join(values) if values else "—"
+
+    def _write_monthly_archives(self, papers: list[Paper]) -> None:
+        grouped: dict[tuple[int, int], list[Paper]] = defaultdict(list)
+        for paper in papers:
+            grouped[(paper.published.year, paper.published.month)].append(paper)
+        years = sorted({paper.published.year for paper in papers} | {date.today().year})
+        for year in years:
+            months = range(1, 13)
+            if year == date.today().year:
+                months = range(1, date.today().month + 1)
+            for month in months:
+                month_papers = sorted(
+                    grouped.get((year, month), []),
+                    key=lambda item: (item.published, item.arxiv_id),
+                    reverse=True,
+                )
+                path = self.root / "papers" / str(year) / f"{month:02d}" / "README.md"
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(
+                    self._render_month(year, month, month_papers),
+                    encoding="utf-8",
+                )
+
+    def _render_month(self, year: int, month: int, papers: list[Paper]) -> str:
+        topic_counts = {
+            topic: sum(topic in paper.topics for paper in papers) for topic in TOPIC_TITLES
+        }
+        lines = [
+            f"# {year}-{month:02d} Agent Evolution Papers",
+            "",
+            "[← Back to main index](../../../README.md)",
+            "",
+            f"> {len(papers)} unique papers · "
+            f"Self-Evolving {topic_counts['agent-self-evolving']} · "
+            f"Memory {topic_counts['agent-memory']} · "
+            f"Continual Training {topic_counts['llm-continual-training']}",
+            "",
+            "| Date | Track | Paper | Venue | Signals | Metrics |",
+            "| --- | --- | --- | --- | --- | --- |",
+        ]
+        for paper in papers:
+            topics = "<br>".join(TOPIC_SHORT.get(topic, topic) for topic in paper.topics)
+            title = paper.title.replace("|", "\\|")
+            venue = paper.venue or "arXiv"
+            links = f"[{title}]({paper.url})<br>[PDF]({paper.pdf_url})"
+            lines.append(
+                f"| {paper.published.date().isoformat()} | {topics} | {links} | {venue} | "
+                f"{self._flags(paper)} | {self._metrics(paper)} |"
+            )
+        if not papers:
+            lines.append("| — | — | No in-scope papers found in the verified corpus | — | — | — |")
+        lines.extend(
+            [
+                "",
+                "## Notes",
+                "",
+                "- A paper can appear in more than one track, but is counted once in the "
+                "unique total.",
+                "- Metrics are snapshots; see the main README for thresholds and "
+                "verification policy.",
+                "",
+            ]
+        )
+        return "\n".join(lines)
+
     def _render_readme(self, papers: list[Paper]) -> str:
-        daily_paths = sorted((self.root / "papers").glob("*/*/*.md"), reverse=True)
+        daily_paths = sorted(
+            (
+                path
+                for path in (self.root / "papers").glob("*/*/*.md")
+                if path.name != "README.md"
+            ),
+            reverse=True,
+        )
         topic_counts = {
             topic: sum(topic in paper.topics for paper in papers) for topic in TOPIC_TITLES
         }
@@ -201,18 +341,73 @@ class ArchiveRepository:
             f"| LLM continual training | {topic_counts['llm-continual-training']} |",
             f"| Daily archives | {len(daily_paths)} |",
             "",
-            "## 📋 Table of Contents",
+            "## 📚 Table of Contents",
             "",
-            "- [Latest Papers](#-latest-papers)",
-            "- [Daily Archive](#️-daily-archive)",
+            "- [Highlighted Papers](#highlighted-papers)",
+            "- [2026 Monthly Index](#2026-monthly-index)",
+            "- [Latest Papers](#latest-papers)",
+            "- [Daily Archive](#daily-archive)",
             "- [Dataset](data/papers.json)",
+            "- [Curation Policy](docs/curation.md)",
+            "- [Literature Audit](allinone.md)",
             "- [Deployment Guide](docs/deployment.md)",
             "",
-            "## 📝 Latest Papers",
+            "## 🌟 Highlighted Papers",
+            "",
+            "> Signals are independently verified. A paper is highlighted when it has popular "
+            "code, strong citation traction, an industry affiliation, or a top-venue publication.",
+            "",
+            "| Paper | Published | Venue | Why it matters | Metrics |",
+            "| --- | --- | --- | --- | --- |",
+        ]
+        highlighted = [paper for paper in papers if self._flags(paper) != "—"]
+        highlighted.sort(
+            key=lambda item: (
+                item.venue_tier == "top",
+                item.citation_count or -1,
+                item.github_stars or -1,
+                item.published,
+            ),
+            reverse=True,
+        )
+        for paper in highlighted[:30]:
+            title = paper.title.replace("|", "\\|")
+            lines.append(
+                f"| [{title}]({paper.url}) | {paper.published.date().isoformat()} | "
+                f"{paper.venue or 'arXiv'} | {self._flags(paper)} | {self._metrics(paper)} |"
+            )
+        if not highlighted:
+            lines.append("| No highlighted papers yet | — | — | — | — |")
+        lines.extend(
+            [
+                "",
+                "## 🗓️ 2026 Monthly Index",
+                "",
+                "| Month | Papers | Self-Evolving | Memory | Continual Training |",
+                "| --- | ---: | ---: | ---: | ---: |",
+            ]
+        )
+        for month in range(1, 9):
+            month_papers = [
+                paper
+                for paper in papers
+                if paper.published.year == 2026 and paper.published.month == month
+            ]
+            lines.append(
+                f"| [{month:02d}](papers/2026/{month:02d}/README.md) | {len(month_papers)} | "
+                f"{sum('agent-self-evolving' in p.topics for p in month_papers)} | "
+                f"{sum('agent-memory' in p.topics for p in month_papers)} | "
+                f"{sum('llm-continual-training' in p.topics for p in month_papers)} |"
+            )
+        lines.extend(
+            [
+                "",
+                "## 📝 Latest Papers",
             "",
             "| Published | Track | Paper | Links |",
             "| --- | --- | --- | --- |",
-        ]
+            ]
+        )
         for paper in papers[:30]:
             topics = ", ".join(TOPIC_TITLES.get(topic, topic) for topic in paper.topics)
             title = paper.title.replace("|", "\\|")
@@ -232,12 +427,20 @@ class ArchiveRepository:
         lines.extend(
             [
                 "",
-                "## 🔎 Search Scope",
+                "## 🔎 Scope and Verification",
                 "",
                 "- **Agent Self-Evolving:** self-evolving, self-improving, and evolving agents",
                 "- **Agent Memory:** long-term, memory-augmented, and persistent agent memory",
                 "- **LLM Continual Training:** continual, lifelong, and post-deployment "
                 "LLM learning",
+                "- **Very popular code:** at least 1,000 GitHub stars; **popular code:** at least "
+                "100 stars",
+                "- **Highly cited:** at least 10 citations for a 2026 paper; every count records "
+                "its source and snapshot date",
+                "- **Industry / top venue:** marked only when verified from the paper, publisher, "
+                "or official project page",
+                "- Missing metrics are shown as `n/a`, never guessed. Stars and citations are "
+                "time-sensitive snapshots.",
                 "",
                 "## License",
                 "",
