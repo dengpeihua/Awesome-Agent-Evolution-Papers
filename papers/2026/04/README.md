@@ -2,12 +2,14 @@
 
 [← Back to main index](../../../README.md)
 
-> 69 unique papers · Self-Evolving 8 · Memory 63 · Continual Training 3
+> 77 unique papers · Self-Evolving 12 · Memory 65 · Continual Training 6
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 2026-04-30 | Memory | [Contextual Agentic Memory is a Memo, Not True Memory](https://arxiv.org/abs/2604.27707)<br>[PDF](https://arxiv.org/pdf/2604.27707) | arXiv | — | — |
+| 2026-04-30 | Memory | [From Unstructured Recall to Schema-Grounded Memory: Reliable AI Memory via Iterative, Schema-Aware Extraction](https://arxiv.org/abs/2604.27906v3)<br>[PDF](https://arxiv.org/pdf/2604.27906v3) | arXiv | — | — |
+| 2026-04-30 | Memory | [Contextual Agentic Memory is a Memo, Not True Memory](https://arxiv.org/abs/2604.27707v2)<br>[PDF](https://arxiv.org/pdf/2604.27707v2) | arXiv | — | — |
 | 2026-04-30 | Memory | [Learning When to Remember: Risk-Sensitive Contextual Bandits for Abstention-Aware Memory Retrieval in LLM-Based Coding Agents](https://arxiv.org/abs/2604.27283)<br>[PDF](https://arxiv.org/pdf/2604.27283) | arXiv | — | — |
+| 2026-04-29 | Self-Evolving | [Discovering physical mechanisms from experiment-simulation mismatches](https://arxiv.org/abs/2604.26703v2)<br>[PDF](https://arxiv.org/pdf/2604.26703v2) | arXiv | — | — |
 | 2026-04-29 | Memory | [Detecting Clinical Discrepancies in Health Coaching Agents: A Dual-Stream Memory and Reconciliation Architecture](https://arxiv.org/abs/2604.27045)<br>[PDF](https://arxiv.org/pdf/2604.27045) | arXiv | — | — |
 | 2026-04-29 | Memory<br>Continual Training | [When Continual Learning Moves to Memory: A Study of Experience Reuse in LLM Agents](https://arxiv.org/abs/2604.27003)<br>[PDF](https://arxiv.org/pdf/2604.27003) | arXiv | — | — |
 | 2026-04-29 | Memory | [OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory](https://arxiv.org/abs/2604.26622)<br>[PDF](https://arxiv.org/pdf/2604.26622) | arXiv | — | — |
@@ -31,6 +33,7 @@
 | 2026-04-20 | Memory | [EmbodiedLGR: Integrating Lightweight Graph Representation and Retrieval for Semantic-Spatial Memory in Robotic Agents](https://arxiv.org/abs/2604.18271)<br>[PDF](https://arxiv.org/pdf/2604.18271) | arXiv | — | — |
 | 2026-04-19 | Self-Evolving | [Towards Self-Improving Error Diagnosis in Multi-Agent Systems](https://arxiv.org/abs/2604.17658)<br>[PDF](https://arxiv.org/pdf/2604.17658) | arXiv | — | — |
 | 2026-04-19 | Memory | [MemSearch-o1: Empowering Large Language Models with Reasoning-Aligned Memory Growth in Agentic Search](https://arxiv.org/abs/2604.17265)<br>[PDF](https://arxiv.org/pdf/2604.17265) | arXiv | — | — |
+| 2026-04-18 | Self-Evolving | [FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills](https://arxiv.org/abs/2607.21596v2)<br>[PDF](https://arxiv.org/pdf/2607.21596v2) | COLM 2026 | 🏆 Top venue: COLM 2026 | — |
 | 2026-04-18 | Self-Evolving | [GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)](https://arxiv.org/abs/2604.17091)<br>[PDF](https://arxiv.org/pdf/2604.17091) | arXiv | 🔥 Very popular code | [GitHub ★ 13,748](https://github.com/lsdefine/GenericAgent)<br>Citations: 9 (Google Scholar) |
 | 2026-04-18 | Memory | [Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory Poisoning](https://arxiv.org/abs/2604.16966)<br>[PDF](https://arxiv.org/pdf/2604.16966) | arXiv | — | — |
 | 2026-04-18 | Memory | [MEMRES: A Memory-Augmented Resolver with Confidence Cascade for Agentic Python Dependency Resolution](https://arxiv.org/abs/2604.16941)<br>[PDF](https://arxiv.org/pdf/2604.16941) | arXiv | — | — |
@@ -39,7 +42,7 @@
 | 2026-04-17 | Memory | [Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents](https://arxiv.org/abs/2604.15877)<br>[PDF](https://arxiv.org/pdf/2604.15877) | arXiv | — | — |
 | 2026-04-17 | Memory | [MemEvoBench: Benchmarking Safety Risks from Memory Misevolution in LLM Agents](https://arxiv.org/abs/2604.15774)<br>[PDF](https://arxiv.org/pdf/2604.15774) | arXiv | — | — |
 | 2026-04-17 | Memory | [Long-Term Memory for VLA-based Agents in Open-World Task Execution](https://arxiv.org/abs/2604.15671)<br>[PDF](https://arxiv.org/pdf/2604.15671) | arXiv | — | — |
-| 2026-04-16 | Self-Evolving | [Autonomous Evolution of EDA Tools: Multi-Agent Self-Evolved ABC](https://arxiv.org/abs/2604.15082)<br>[PDF](https://arxiv.org/pdf/2604.15082) | DAC 2026 | 🏆 Top venue | Citations: 7 (Google Scholar) |
+| 2026-04-16 | Self-Evolving | [Autonomous Evolution of EDA Tools: Multi-Agent Self-Evolved ABC](https://arxiv.org/abs/2604.15082)<br>[PDF](https://arxiv.org/pdf/2604.15082) | DAC 2026 | 🏆 Top venue: DAC 2026 | Citations: 7 (Google Scholar) |
 | 2026-04-16 | Self-Evolving | [SAGER: Self-Evolving User Policy Skills for Recommendation Agent](https://arxiv.org/abs/2604.14972)<br>[PDF](https://arxiv.org/pdf/2604.14972) | arXiv | — | — |
 | 2026-04-15 | Memory | [APEX-MEM: Agentic Semi-Structured Memory with Temporal Reasoning for Long-Term Conversational AI](https://arxiv.org/abs/2604.14362)<br>[PDF](https://arxiv.org/pdf/2604.14362) | arXiv | — | — |
 | 2026-04-15 | Memory | [Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents](https://arxiv.org/abs/2604.14004)<br>[PDF](https://arxiv.org/pdf/2604.14004) | arXiv | — | — |
@@ -49,8 +52,9 @@
 | 2026-04-14 | Memory | [Thought-Retriever: Don't Just Retrieve Raw Data, Retrieve Thoughts for Memory-Augmented Agentic Systems](https://arxiv.org/abs/2604.12231)<br>[PDF](https://arxiv.org/pdf/2604.12231) | arXiv | — | — |
 | 2026-04-13 | Self-Evolving | [Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks](https://arxiv.org/abs/2604.11610)<br>[PDF](https://arxiv.org/pdf/2604.11610) | arXiv | — | — |
 | 2026-04-13 | Memory | [Time is Not a Label: Continuous Phase Rotation for Temporal Knowledge Graphs and Agentic Memory](https://arxiv.org/abs/2604.11544)<br>[PDF](https://arxiv.org/pdf/2604.11544) | arXiv | — | — |
-| 2026-04-13 | Memory<br>Self-Evolving | [Mem$^2$Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation](https://arxiv.org/abs/2604.10923)<br>[PDF](https://arxiv.org/pdf/2604.10923) | ACL 2026 (Main) | 🏆 Top venue | [GitHub ★ 1](https://github.com/BUAA-IRIP-LLM/Mem2Evolve)<br>Citations: 9 (Google Scholar) |
+| 2026-04-13 | Memory<br>Self-Evolving | [Mem$^2$Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation](https://arxiv.org/abs/2604.10923)<br>[PDF](https://arxiv.org/pdf/2604.10923) | ACL 2026 (Main) | 🏆 Top venue: ACL 2026 (Main) | [GitHub ★ 1](https://github.com/BUAA-IRIP-LLM/Mem2Evolve)<br>Citations: 9 (Google Scholar) |
 | 2026-04-11 | Memory | [ClawVM: Harness-Managed Virtual Memory for Stateful Tool-Using LLM Agents](https://arxiv.org/abs/2604.10352)<br>[PDF](https://arxiv.org/pdf/2604.10352) | arXiv | — | — |
+| 2026-04-10 | Self-Evolving | [SkillMOO: Multi-Objective Optimization of Agent Skills for Software Engineering](https://arxiv.org/abs/2604.09297v3)<br>[PDF](https://arxiv.org/pdf/2604.09297v3) | arXiv | — | — |
 | 2026-04-10 | Memory | [ADAM: A Systematic Data Extraction Attack on Agent Memory via Adaptive Querying](https://arxiv.org/abs/2604.09747)<br>[PDF](https://arxiv.org/pdf/2604.09747) | arXiv | — | — |
 | 2026-04-10 | Memory | [Constraint-Aware Corrective Memory for Language-Based Drug Discovery Agents](https://arxiv.org/abs/2604.09308)<br>[PDF](https://arxiv.org/pdf/2604.09308) | arXiv | — | — |
 | 2026-04-10 | Memory | [StreamMeCo: Long-Term Agent Memory Compression for Efficient Streaming Video Understanding](https://arxiv.org/abs/2604.09000)<br>[PDF](https://arxiv.org/pdf/2604.09000) | arXiv | — | [GitHub ★ 13](https://github.com/Celina-love-sweet/StreamMeCo) |
@@ -60,9 +64,10 @@
 | 2026-04-09 | Memory | [Task-Adaptive Retrieval over Agentic Multi-Modal Web Histories via Learned Graph Memory](https://arxiv.org/abs/2604.07863)<br>[PDF](https://arxiv.org/pdf/2604.07863) | arXiv | — | [GitHub ★ 0](https://github.com/S-Forouzandeh/ACGM-Agentic-Web) |
 | 2026-04-09 | Memory | [Lightweight LLM Agent Memory with Small Language Models](https://arxiv.org/abs/2604.07798)<br>[PDF](https://arxiv.org/pdf/2604.07798) | arXiv | — | — |
 | 2026-04-09 | Memory<br>Self-Evolving | [SEARL: Joint Optimization of Policy and Tool Graph Memory for Self-Evolving Agents](https://arxiv.org/abs/2604.07791)<br>[PDF](https://arxiv.org/pdf/2604.07791) | arXiv | — | — |
+| 2026-04-08 | Memory<br>Continual Training | [Joint Optimization of Reasoning and Dual-Memory for Self-Learning Diagnostic Agent](https://arxiv.org/abs/2604.07269v2)<br>[PDF](https://arxiv.org/pdf/2604.07269v2) | arXiv | — | — |
 | 2026-04-08 | Memory | [Prism: An Evolutionary Memory Substrate for Multi-Agent Open-Ended Discovery](https://arxiv.org/abs/2604.19795)<br>[PDF](https://arxiv.org/pdf/2604.19795) | arXiv | — | — |
 | 2026-04-08 | Memory | [PRIME: Training Free Proactive Reasoning via Iterative Memory Evolution for User-Centric Agent](https://arxiv.org/abs/2604.07645)<br>[PDF](https://arxiv.org/pdf/2604.07645) | arXiv | — | — |
-| 2026-04-08 | Memory | [Joint Optimization of Reasoning and Dual-Memory for Self-Learning Diagnostic Agent](https://arxiv.org/abs/2604.07269)<br>[PDF](https://arxiv.org/pdf/2604.07269) | arXiv | — | — |
+| 2026-04-07 | Continual Training | [Continual Visual Anomaly Detection on the Edge: Benchmark and Efficient Solutions](https://arxiv.org/abs/2604.06435v2)<br>[PDF](https://arxiv.org/pdf/2604.06435v2) | arXiv | — | — |
 | 2026-04-06 | Memory | [MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents](https://arxiv.org/abs/2604.04853)<br>[PDF](https://arxiv.org/pdf/2604.04853) | arXiv | — | — |
 | 2026-04-06 | Memory | [Springdrift: An Auditable Persistent Runtime for LLM Agents with Case-Based Memory, Normative Safety, and Ambient Self-Perception](https://arxiv.org/abs/2604.04660)<br>[PDF](https://arxiv.org/pdf/2604.04660) | arXiv | — | [GitHub ★ 44](https://github.com/seamus-brady/springdrift) |
 | 2026-04-06 | Memory | [SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems](https://arxiv.org/abs/2604.04514)<br>[PDF](https://arxiv.org/pdf/2604.04514) | arXiv | ⭐ Popular code | [GitHub ★ 212](https://github.com/qualixar/superlocalmemory)<br>Citations: 2 (Google Scholar) |
@@ -70,6 +75,9 @@
 | 2026-04-04 | Memory | [Rashomon Memory: Towards Argumentation-Driven Retrieval for Multi-Perspective Agent Memory](https://arxiv.org/abs/2604.03588)<br>[PDF](https://arxiv.org/pdf/2604.03588) | arXiv | — | — |
 | 2026-04-03 | Memory | [Aligning Progress and Feasibility: A Neuro-Symbolic Dual Memory Framework for Long-Horizon LLM Agents](https://arxiv.org/abs/2604.02734)<br>[PDF](https://arxiv.org/pdf/2604.02734) | arXiv | — | — |
 | 2026-04-03 | Memory | [Poison Once, Exploit Forever: Environment-Injected Memory Poisoning Attacks on Web Agents](https://arxiv.org/abs/2604.02623)<br>[PDF](https://arxiv.org/pdf/2604.02623) | arXiv | — | — |
+| 2026-04-02 | Memory | [Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework](https://arxiv.org/abs/2604.01707v3)<br>[PDF](https://arxiv.org/pdf/2604.01707v3) | arXiv | — | — |
+| 2026-04-02 | Self-Evolving | [CoEvoSkills: Self-Evolving Agent Skills via Co-Evolutionary Verification](https://arxiv.org/abs/2604.01687v3)<br>[PDF](https://arxiv.org/pdf/2604.01687v3) | COLM | 🏆 Top venue: COLM | — |
+| 2026-04-02 | Continual Training | [Matching Accuracy, Different Geometry: Evolution Strategies vs GRPO in LLM Post-Training](https://arxiv.org/abs/2604.01499v3)<br>[PDF](https://arxiv.org/pdf/2604.01499v3) | COLM 2026 | 🏆 Top venue: COLM 2026 | — |
 | 2026-04-02 | Memory | [Novel Memory Forgetting Techniques for Autonomous AI Agents: Balancing Relevance and Efficiency](https://arxiv.org/abs/2604.02280)<br>[PDF](https://arxiv.org/pdf/2604.02280) | arXiv | — | — |
 | 2026-04-02 | Memory | [Hierarchical Memory Orchestration for Personalized Persistent Agents](https://arxiv.org/abs/2604.01670)<br>[PDF](https://arxiv.org/pdf/2604.01670) | arXiv | — | — |
 | 2026-04-02 | Memory | [ByteRover: Agent-Native Memory Through LLM-Curated Hierarchical Context](https://arxiv.org/abs/2604.01599)<br>[PDF](https://arxiv.org/pdf/2604.01599) | arXiv | — | — |

@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 71 unique papers · Self-Evolving 12 · Memory 61 · Continual Training 6
+> 72 unique papers · Self-Evolving 12 · Memory 61 · Continual Training 7
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -29,7 +29,7 @@
 | 2026-03-20 | Memory | [Memory poisoning and secure multi-agent systems](https://arxiv.org/abs/2603.20357)<br>[PDF](https://arxiv.org/pdf/2603.20357) | arXiv | — | — |
 | 2026-03-20 | Memory | [Memori: A Persistent Memory Layer for Efficient, Context-Aware LLM Agents](https://arxiv.org/abs/2603.19935)<br>[PDF](https://arxiv.org/pdf/2603.19935) | arXiv | — | — |
 | 2026-03-20 | Memory<br>Continual Training | [All-Mem: Agentic Lifelong Memory via Dynamic Topology Evolution](https://arxiv.org/abs/2603.19595)<br>[PDF](https://arxiv.org/pdf/2603.19595) | arXiv | — | [GitHub ★ 5](https://github.com/LvCan926/All-Mem) |
-| 2026-03-19 | Self-Evolving | [Hyperagents](https://arxiv.org/abs/2603.19461)<br>[PDF](https://arxiv.org/pdf/2603.19461) | arXiv | 🔥 Very popular code<br>📈 Highly cited<br>🏢 Industry | [GitHub ★ 2,675](https://github.com/facebookresearch/HyperAgents)<br>Citations: 33 (Google Scholar) |
+| 2026-03-19 | Self-Evolving | [Hyperagents](https://arxiv.org/abs/2603.19461)<br>[PDF](https://arxiv.org/pdf/2603.19461) | arXiv | 🔥 Very popular code<br>📈 Highly cited<br>🏢 Industry: Meta | [GitHub ★ 2,675](https://github.com/facebookresearch/HyperAgents)<br>Citations: 33 (Google Scholar) |
 | 2026-03-19 | Memory | [Memento-Skills: Let Agents Design Agents](https://arxiv.org/abs/2603.18743)<br>[PDF](https://arxiv.org/pdf/2603.18743) | arXiv | 🔥 Very popular code<br>📈 Highly cited | [GitHub ★ 1,541](https://github.com/Memento-Teams/Memento-Skills)<br>Citations: 36 (Google Scholar) |
 | 2026-03-19 | Memory<br>Self-Evolving | [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718)<br>[PDF](https://arxiv.org/pdf/2603.18718) | arXiv | — | [GitHub ★ 19](https://github.com/ventr1c/memma) |
 | 2026-03-19 | Memory | [D-Mem: A Dual-Process Memory System for LLM Agents](https://arxiv.org/abs/2603.18631)<br>[PDF](https://arxiv.org/pdf/2603.18631) | arXiv | — | — |
@@ -46,10 +46,11 @@
 | 2026-03-15 | Memory | [SuperLocalMemory V3: Information-Geometric Foundations for Zero-LLM Enterprise Agent Memory](https://arxiv.org/abs/2603.14588)<br>[PDF](https://arxiv.org/pdf/2603.14588) | arXiv | ⭐ Popular code | [GitHub ★ 212](https://github.com/qualixar/superlocalmemory) |
 | 2026-03-15 | Memory | [Memory as Asset: From Agent-centric to Human-centric Memory Management](https://arxiv.org/abs/2603.14212)<br>[PDF](https://arxiv.org/pdf/2603.14212) | arXiv | — | — |
 | 2026-03-14 | Memory<br>Self-Evolving | [TheraAgent: Multi-Agent Framework with Self-Evolving Memory and Evidence-Calibrated Reasoning for PET Theranostics](https://arxiv.org/abs/2603.13676)<br>[PDF](https://arxiv.org/pdf/2603.13676) | arXiv | — | — |
+| 2026-03-13 | Continual Training | [Beyond Static Models: An Evolving Framework for Continual Learning in Large Language Models across Training Stages](https://arxiv.org/abs/2603.12658v2)<br>[PDF](https://arxiv.org/pdf/2603.12658v2) | arXiv | — | — |
 | 2026-03-13 | Self-Evolving | [MineEvolve: Self-Evolution with Accumulated Knowledge for Long-Horizon Embodied Minecraft Agents](https://arxiv.org/abs/2603.13131)<br>[PDF](https://arxiv.org/pdf/2603.13131) | arXiv | — | [GitHub ★ 11](https://github.com/xzw-ustc/MC-MineEvolve) |
 | 2026-03-13 | Memory | [Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation](https://arxiv.org/abs/2603.13017)<br>[PDF](https://arxiv.org/pdf/2603.13017) | arXiv | — | [GitHub ★ 11](https://github.com/Process-Point-Technologies-Corporation/searchat) |
-| 2026-03-13 | Continual Training | [Beyond Static Models: An Evolving Framework for Continual Learning in Large Language Models across Training Stages](https://arxiv.org/abs/2603.12658)<br>[PDF](https://arxiv.org/pdf/2603.12658) | arXiv | — | — |
 | 2026-03-13 | Memory | [Joint Optimization of Multi-agent Memory System](https://arxiv.org/abs/2603.12631)<br>[PDF](https://arxiv.org/pdf/2603.12631) | arXiv | — | — |
+| 2026-03-12 | Continual Training | [Continual Learning with Vision-Language Models via Semantic-Geometry Preservation](https://arxiv.org/abs/2603.12055v3)<br>[PDF](https://arxiv.org/pdf/2603.12055v3) | arXiv | — | — |
 | 2026-03-12 | Memory | [BrainMem: Brain-Inspired Evolving Memory for Embodied Agent Task Planning](https://arxiv.org/abs/2604.16331)<br>[PDF](https://arxiv.org/pdf/2604.16331) | arXiv | — | — |
 | 2026-03-12 | Memory | [Compiled Memory: Not More Information, but More Precise Instructions for Language Agents](https://arxiv.org/abs/2603.15666)<br>[PDF](https://arxiv.org/pdf/2603.15666) | arXiv | — | — |
 | 2026-03-12 | Memory | [Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework](https://arxiv.org/abs/2603.11768)<br>[PDF](https://arxiv.org/pdf/2603.11768) | arXiv | — | — |
