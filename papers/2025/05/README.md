@@ -2,11 +2,12 @@
 
 [← Back to main index](../../../README.md)
 
-> 0 unique papers · Self-Evolving 0 · Memory 0 · Continual Training 0
+> 2 unique papers · Self-Evolving 0 · Memory 0 · Continual Training 2
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| — | — | No in-scope papers found in the verified corpus | — | — | — |
+| 2025-05-30 | Continual Training | [Advantageous Parameter Expansion Training Makes Better Large Language Models](https://arxiv.org/abs/2505.24241v2)<br>[PDF](https://arxiv.org/pdf/2505.24241v2) | arXiv.org | — | — |
+| 2025-05-28 | Continual Training | [Learning Composable Chains-of-Thought](https://arxiv.org/abs/2505.22635v2)<br>[PDF](https://arxiv.org/pdf/2505.22635v2) | arXiv.org | — | — |
 
 ## Notes
 

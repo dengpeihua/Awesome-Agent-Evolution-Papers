@@ -2,11 +2,11 @@
 
 [← Back to main index](../../../README.md)
 
-> 72 unique papers · Self-Evolving 12 · Memory 61 · Continual Training 7
+> 75 unique papers · Self-Evolving 12 · Memory 62 · Continual Training 9
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 2026-03-31 | Memory | [Oblivion: Self-Adaptive Agentic Memory Control through Decay-Driven Activation](https://arxiv.org/abs/2604.00131)<br>[PDF](https://arxiv.org/pdf/2604.00131) | arXiv | — | [GitHub ★ 6](https://github.com/nec-research/oblivion) |
+| 2026-03-31 | Memory | [Oblivion: Self-Adaptive Agentic Memory Control through Decay-Driven Activation](https://arxiv.org/abs/2604.00131v3)<br>[PDF](https://arxiv.org/pdf/2604.00131v3) | arXiv.org | — | [GitHub ★ 6](https://github.com/nec-research/oblivion) |
 | 2026-03-31 | Memory | [MemFactory: Unified Inference & Training Framework for Agent Memory](https://arxiv.org/abs/2603.29493)<br>[PDF](https://arxiv.org/pdf/2603.29493) | arXiv | — | [GitHub ★ 37](https://github.com/MemTensor/MemFactory) |
 | 2026-03-31 | Memory | [Multi-Layered Memory Architectures for LLM Agents: An Experimental Evaluation of Long-Term Context Retention](https://arxiv.org/abs/2603.29194)<br>[PDF](https://arxiv.org/pdf/2603.29194) | arXiv | — | — |
 | 2026-03-30 | Memory | [GEMS: Agent-Native Multimodal Generation with Memory and Skills](https://arxiv.org/abs/2603.28088)<br>[PDF](https://arxiv.org/pdf/2603.28088) | arXiv | — | — |
@@ -22,10 +22,11 @@
 | 2026-03-25 | Memory | [VehicleMemBench: An Executable Benchmark for Multi-User Long-Term Memory in In-Vehicle Agents](https://arxiv.org/abs/2603.23840)<br>[PDF](https://arxiv.org/pdf/2603.23840) | arXiv | — | — |
 | 2026-03-24 | Memory | [PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments](https://arxiv.org/abs/2603.23231)<br>[PDF](https://arxiv.org/pdf/2603.23231) | arXiv | — | [GitHub ★ 8](https://github.com/PolarisLiu1/PERMA) |
 | 2026-03-24 | Memory | [Knowledge Access Beats Model Size: Memory Augmented Routing for Persistent AI Agents](https://arxiv.org/abs/2603.23013)<br>[PDF](https://arxiv.org/pdf/2603.23013) | arXiv | — | — |
+| 2026-03-23 | Continual Training | [Stable but Wrong: When Learning Stabilizes Away from the Truth](https://arxiv.org/abs/2603.21491v2)<br>[PDF](https://arxiv.org/pdf/2603.21491v2) | arXiv | — | — |
 | 2026-03-23 | Self-Evolving | [GSEM: Graph-based Self-Evolving Memory for Experience Augmented Clinical Reasoning](https://arxiv.org/abs/2603.22096)<br>[PDF](https://arxiv.org/pdf/2603.22096) | arXiv | — | [GitHub ★ 8](https://github.com/xhan1022/gsem) |
 | 2026-03-23 | Memory | [Toward a Theory of Hierarchical Memory for Language Agents](https://arxiv.org/abs/2603.21564)<br>[PDF](https://arxiv.org/pdf/2603.21564) | arXiv | — | — |
 | 2026-03-23 | Self-Evolving | [Generalizable Self-Evolving Memory for Automatic Prompt Optimization](https://arxiv.org/abs/2603.21520)<br>[PDF](https://arxiv.org/pdf/2603.21520) | arXiv | — | — |
-| 2026-03-21 | Memory | [MemoNoveltyAgent: A Historical Research Memory-Aware Agent Workflow for Paper Novelty Assessment](https://arxiv.org/abs/2603.20884)<br>[PDF](https://arxiv.org/pdf/2603.20884) | arXiv | — | [GitHub ★ 7](https://github.com/SStan1/MemoNoveltyAgent) |
+| 2026-03-21 | Memory | [MemoNoveltyAgent: A Historical Research Memory-Aware Agent Workflow for Paper Novelty Assessment](https://arxiv.org/abs/2603.20884v4)<br>[PDF](https://arxiv.org/pdf/2603.20884v4) | arXiv | — | [GitHub ★ 7](https://github.com/SStan1/MemoNoveltyAgent) |
 | 2026-03-20 | Memory | [Memory poisoning and secure multi-agent systems](https://arxiv.org/abs/2603.20357)<br>[PDF](https://arxiv.org/pdf/2603.20357) | arXiv | — | — |
 | 2026-03-20 | Memory | [Memori: A Persistent Memory Layer for Efficient, Context-Aware LLM Agents](https://arxiv.org/abs/2603.19935)<br>[PDF](https://arxiv.org/pdf/2603.19935) | arXiv | — | — |
 | 2026-03-20 | Memory<br>Continual Training | [All-Mem: Agentic Lifelong Memory via Dynamic Topology Evolution](https://arxiv.org/abs/2603.19595)<br>[PDF](https://arxiv.org/pdf/2603.19595) | arXiv | — | [GitHub ★ 5](https://github.com/LvCan926/All-Mem) |
@@ -33,6 +34,7 @@
 | 2026-03-19 | Memory | [Memento-Skills: Let Agents Design Agents](https://arxiv.org/abs/2603.18743)<br>[PDF](https://arxiv.org/pdf/2603.18743) | arXiv | 🔥 Very popular code<br>📈 Highly cited | [GitHub ★ 1,541](https://github.com/Memento-Teams/Memento-Skills)<br>Citations: 36 (Google Scholar) |
 | 2026-03-19 | Memory<br>Self-Evolving | [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718)<br>[PDF](https://arxiv.org/pdf/2603.18718) | arXiv | — | [GitHub ★ 19](https://github.com/ventr1c/memma) |
 | 2026-03-19 | Memory | [D-Mem: A Dual-Process Memory System for LLM Agents](https://arxiv.org/abs/2603.18631)<br>[PDF](https://arxiv.org/pdf/2603.18631) | arXiv | — | — |
+| 2026-03-18 | Memory | [Retrieval-Augmented LLM Agents: Learning to Learn from Experience](https://arxiv.org/abs/2603.18272v2)<br>[PDF](https://arxiv.org/pdf/2603.18272v2) | arXiv.org | 🏆 Top venue: arXiv.org | — |
 | 2026-03-18 | Memory | [Governed Memory: A Production Architecture for Multi-Agent Workflows](https://arxiv.org/abs/2603.17787)<br>[PDF](https://arxiv.org/pdf/2603.17787) | arXiv | — | [GitHub ★ 50](https://github.com/personizeai/governed-memory) |
 | 2026-03-18 | Memory | [VeriAgent: A Tool-Integrated Multi-Agent System with Evolving Memory for PPA-Aware RTL Code Generation](https://arxiv.org/abs/2603.17613)<br>[PDF](https://arxiv.org/pdf/2603.17613) | arXiv | — | — |
 | 2026-03-18 | Memory | [Graph-Native Cognitive Memory for AI Agents: Formal Belief Revision Semantics for Versioned Memory Architectures](https://arxiv.org/abs/2603.17244)<br>[PDF](https://arxiv.org/pdf/2603.17244) | arXiv | — | — |
@@ -71,6 +73,7 @@
 | 2026-03-04 | Memory | [Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory](https://arxiv.org/abs/2603.04257)<br>[PDF](https://arxiv.org/pdf/2603.04257) | arXiv | — | — |
 | 2026-03-03 | Memory | [Multi-Agent Debate with Memory Masking](https://arxiv.org/abs/2603.20215)<br>[PDF](https://arxiv.org/pdf/2603.20215) | arXiv | — | — |
 | 2026-03-03 | Memory | [CraniMem: Cranial Inspired Gated and Bounded Memory for Agentic Systems](https://arxiv.org/abs/2603.15642)<br>[PDF](https://arxiv.org/pdf/2603.15642) | arXiv | — | [GitHub ★ 7](https://github.com/PearlMody05/Cranimem) |
+| 2026-03-02 | Continual Training | [DynaTokens: Controlling Token Dynamics for Continual Video-Language Understanding](https://arxiv.org/abs/2603.06662v3)<br>[PDF](https://arxiv.org/pdf/2603.06662v3) | EMNLP 2026 | 🏆 Top venue: EMNLP 2026 | — |
 | 2026-03-02 | Memory | [Persistent Identity in AI Agents: A Multi-Anchor Architecture for Resilient Memory and Continuity](https://arxiv.org/abs/2604.09588)<br>[PDF](https://arxiv.org/pdf/2604.09588) | arXiv | — | [GitHub ★ 60](https://github.com/menonpg/soul.py) |
 | 2026-03-02 | Memory | [Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory](https://arxiv.org/abs/2603.02473)<br>[PDF](https://arxiv.org/pdf/2603.02473) | arXiv | — | [GitHub ★ 17](https://github.com/boqiny/memory-probe) |
 | 2026-03-02 | Memory | [AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations](https://arxiv.org/abs/2603.01966)<br>[PDF](https://arxiv.org/pdf/2603.01966) | arXiv | — | — |

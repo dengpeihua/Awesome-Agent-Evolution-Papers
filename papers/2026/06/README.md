@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 107 unique papers · Self-Evolving 26 · Memory 81 · Continual Training 6
+> 112 unique papers · Self-Evolving 29 · Memory 81 · Continual Training 8
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,7 @@
 | 2026-06-30 | Memory | [From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents](https://arxiv.org/abs/2607.00233)<br>[PDF](https://arxiv.org/pdf/2607.00233) | arXiv | — | — |
 | 2026-06-30 | Memory | [What Memory Do GUI Agents Really Need? From Passive Records to Active Task-Driving States](https://arxiv.org/abs/2606.31612)<br>[PDF](https://arxiv.org/pdf/2606.31612) | arXiv | — | — |
 | 2026-06-29 | Self-Evolving | [AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance](https://arxiv.org/abs/2606.30949v2)<br>[PDF](https://arxiv.org/pdf/2606.30949v2) | arXiv | — | — |
-| 2026-06-29 | Self-Evolving | [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639)<br>[PDF](https://arxiv.org/pdf/2606.30639) | arXiv | — | — |
+| 2026-06-29 | Self-Evolving | [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2)<br>[PDF](https://arxiv.org/pdf/2606.30639v2) | arXiv.org | — | — |
 | 2026-06-29 | Memory | [Forensic Trajectory Signatures for Agent Memory Poisoning Detection](https://arxiv.org/abs/2606.30566)<br>[PDF](https://arxiv.org/pdf/2606.30566) | arXiv | — | — |
 | 2026-06-29 | Self-Evolving | [ManimAgent: Self-Evolving Multimodal Agents for Visual Education](https://arxiv.org/abs/2606.30296)<br>[PDF](https://arxiv.org/pdf/2606.30296) | arXiv | — | [GitHub ★ 6](https://github.com/jwj1342/Paper2Manim) |
 | 2026-06-29 | Memory | [DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation](https://arxiv.org/abs/2606.29961)<br>[PDF](https://arxiv.org/pdf/2606.29961) | arXiv | — | — |
@@ -24,7 +24,7 @@
 | 2026-06-27 | Self-Evolving | [Self-Evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution](https://arxiv.org/abs/2606.28971)<br>[PDF](https://arxiv.org/pdf/2606.28971) | arXiv | — | — |
 | 2026-06-27 | Memory | [HyphaeDB: A Living Knowledge Topology for Agent-First Memory](https://arxiv.org/abs/2606.28781)<br>[PDF](https://arxiv.org/pdf/2606.28781) | arXiv | — | — |
 | 2026-06-26 | Continual Training | [BashCoder-R1: Towards Robust and Explainable Bash Code Generation with Robustness-Aware Group Relative Policy Optimization](https://arxiv.org/abs/2606.27733v3)<br>[PDF](https://arxiv.org/pdf/2606.27733v3) | arXiv | — | — |
-| 2026-06-25 | Memory | [DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection](https://arxiv.org/abs/2606.27499)<br>[PDF](https://arxiv.org/pdf/2606.27499) | arXiv | — | [GitHub ★ 3](https://github.com/yyyujintang/DMV-Bench) |
+| 2026-06-25 | Memory | [DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection](https://arxiv.org/abs/2606.27499v2)<br>[PDF](https://arxiv.org/pdf/2606.27499v2) | arXiv.org | 🏆 Top venue: arXiv.org | [GitHub ★ 3](https://github.com/yyyujintang/DMV-Bench) |
 | 2026-06-25 | Memory | [Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents](https://arxiv.org/abs/2606.27472)<br>[PDF](https://arxiv.org/pdf/2606.27472) | arXiv | — | [GitHub ★ 1](https://github.com/Vrin-cloud/supersede) |
 | 2026-06-24 | Memory | [Staying In Character: Perspective-Bounded Memory For Book-Based Role-Playing Agents](https://arxiv.org/abs/2606.25632)<br>[PDF](https://arxiv.org/pdf/2606.25632) | arXiv | — | — |
 | 2026-06-24 | Memory | [Memory Makes the Difference: Evaluating How Different Memory Roles Shape Conversational Agents](https://arxiv.org/abs/2606.25361)<br>[PDF](https://arxiv.org/pdf/2606.25361) | arXiv | — | — |
@@ -43,8 +43,9 @@
 | 2026-06-20 | Memory | [When Does Belief-Based Agent Memory Help? Reliability-Conditional Updating and Provenance-Capped Poisoning Defense](https://arxiv.org/abs/2606.22030)<br>[PDF](https://arxiv.org/pdf/2606.22030) | arXiv | — | — |
 | 2026-06-19 | Memory | [When Does Overlap Help? OSU-Mem and a Cell-Conditional Analysis of Trajectory Memory for LLM Agents](https://arxiv.org/abs/2606.28376)<br>[PDF](https://arxiv.org/pdf/2606.28376) | arXiv | — | — |
 | 2026-06-19 | Memory | [EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory](https://arxiv.org/abs/2606.21649)<br>[PDF](https://arxiv.org/pdf/2606.21649) | arXiv | — | — |
+| 2026-06-18 | Memory | [Learning What Not to Forget: Long-Horizon Agent Memory from a Few Kilobytes of Learning](https://arxiv.org/abs/2606.20954v2)<br>[PDF](https://arxiv.org/pdf/2606.20954v2) | arXiv.org | — | — |
+| 2026-06-18 | Self-Evolving | [AgenticDB: Self-Evolving Reconfiguration Framework for Database Workloads](https://arxiv.org/abs/2606.20318v4)<br>[PDF](https://arxiv.org/pdf/2606.20318v4) | arXiv | — | — |
 | 2026-06-18 | Self-Evolving | [Empowering Polymeric Materials Discovery by Artificial Intelligence](https://arxiv.org/abs/2606.20753v2)<br>[PDF](https://arxiv.org/pdf/2606.20753v2) | arXiv | — | — |
-| 2026-06-18 | Memory | [Learning What Not to Forget: Long-Horizon Agent Memory from a Few Kilobytes of Learning](https://arxiv.org/abs/2606.20954)<br>[PDF](https://arxiv.org/pdf/2606.20954) | arXiv | — | — |
 | 2026-06-18 | Memory | [MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management](https://arxiv.org/abs/2606.19926)<br>[PDF](https://arxiv.org/pdf/2606.19926) | arXiv | — | — |
 | 2026-06-18 | Memory | [Multi-Agent Transactive Memory](https://arxiv.org/abs/2606.19911)<br>[PDF](https://arxiv.org/pdf/2606.19911) | arXiv | — | — |
 | 2026-06-18 | Memory | [AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts](https://arxiv.org/abs/2606.19847)<br>[PDF](https://arxiv.org/pdf/2606.19847) | arXiv | — | — |
@@ -53,12 +54,13 @@
 | 2026-06-16 | Memory | [CoreMem: Riemannian Retrieval and Fisher-Guided Distillation for Long-Term Memory in Dialogue Agents](https://arxiv.org/abs/2606.18406)<br>[PDF](https://arxiv.org/pdf/2606.18406) | arXiv | — | — |
 | 2026-06-16 | Self-Evolving | [EvolveNav: Proactive Preflection and Self-Evolving Memory for Zero-Shot Object Goal Navigation](https://arxiv.org/abs/2606.18235)<br>[PDF](https://arxiv.org/pdf/2606.18235) | arXiv | — | — |
 | 2026-06-16 | Self-Evolving | [SEAGym: An Evaluation Environment for Self-Evolving LLM Agents](https://arxiv.org/abs/2606.17546)<br>[PDF](https://arxiv.org/pdf/2606.17546) | arXiv | — | — |
+| 2026-06-15 | Continual Training | [Medical Heuristic Learning: An LLM-Driven Framework for Interpretable and Auditable Clinical Decision Rules](https://arxiv.org/abs/2606.16337v4)<br>[PDF](https://arxiv.org/pdf/2606.16337v4) | arXiv.org | — | — |
 | 2026-06-15 | Memory | [MemSlides: A Hierarchical Memory Driven Agent Framework for Personalized Slide Generation with Multi-turn Local Revision](https://arxiv.org/abs/2606.17162)<br>[PDF](https://arxiv.org/pdf/2606.17162) | arXiv | — | — |
 | 2026-06-15 | Memory | [User as Code: Executable Memory for Personalized Agents](https://arxiv.org/abs/2606.16707)<br>[PDF](https://arxiv.org/pdf/2606.16707) | arXiv | — | — |
 | 2026-06-14 | Memory | [Control-Plane Placement Shapes Forgetting: An Architectural Study of Agent Memory Across Thirteen System Configurations](https://arxiv.org/abs/2606.15903)<br>[PDF](https://arxiv.org/pdf/2606.15903) | arXiv | — | [GitHub ★ 5](https://github.com/deeplethe/lethe) |
 | 2026-06-14 | Memory | [FragFuse: Bypassing Access Control of Large Language Model Agents via Memory-Based Query Fragmentation and Fusion](https://arxiv.org/abs/2606.15609)<br>[PDF](https://arxiv.org/pdf/2606.15609) | arXiv | — | — |
+| 2026-06-12 | Memory | [StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance](https://arxiv.org/abs/2606.14571v2)<br>[PDF](https://arxiv.org/pdf/2606.14571v2) | arXiv.org | — | [GitHub ★ 23](https://github.com/landian60/StreamMemBench) |
 | 2026-06-12 | Memory | [Are Online Skill and Memory Modules Always Worth Their Tokens? A Budget-Constrained Study of Web Agents](https://arxiv.org/abs/2606.15017)<br>[PDF](https://arxiv.org/pdf/2606.15017) | arXiv | — | — |
-| 2026-06-12 | Memory | [StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance](https://arxiv.org/abs/2606.14571)<br>[PDF](https://arxiv.org/pdf/2606.14571) | arXiv | — | [GitHub ★ 23](https://github.com/landian60/StreamMemBench) |
 | 2026-06-12 | Memory | [GitOfThoughts: Version-Controlled Reasoning and Agent Memory You Can Replay, Diff, and Merge](https://arxiv.org/abs/2606.14470)<br>[PDF](https://arxiv.org/pdf/2606.14470) | arXiv | — | — |
 | 2026-06-12 | Memory | [Naive Visual Memory is Not Enough: A Failure-Mode Study of GUI Agents](https://arxiv.org/abs/2606.14106)<br>[PDF](https://arxiv.org/pdf/2606.14106) | arXiv | — | — |
 | 2026-06-11 | Self-Evolving | [SkillCAT: Contrastive, Assessment-Augmented and Topology-AwareSkill Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.13317v2)<br>[PDF](https://arxiv.org/pdf/2606.13317v2) | arXiv | — | — |
@@ -84,6 +86,8 @@
 | 2026-06-05 | Memory | [Less Context, More Accuracy: A Bi-Temporal Memory Engine for LLM Agents Where a Lean Retrieved Context Beats the Full History](https://arxiv.org/abs/2606.09900)<br>[PDF](https://arxiv.org/pdf/2606.09900) | arXiv | — | [GitHub ★ 11](https://github.com/ly-wang19/engram) |
 | 2026-06-05 | Self-Evolving | [Self-evolving LLM agents with in-distribution Optimization](https://arxiv.org/abs/2606.07367)<br>[PDF](https://arxiv.org/pdf/2606.07367) | ICML 2026 | 🏆 Top venue: ICML 2026 | Citations: 3 (Google Scholar) |
 | 2026-06-05 | Memory | [AdMem: Advanced Memory for Task-solving Agents](https://arxiv.org/abs/2606.06787)<br>[PDF](https://arxiv.org/pdf/2606.06787) | arXiv | — | — |
+| 2026-06-04 | Continual Training | [RECAP: Regression Evaluation for Continual Adaptation of Prompts](https://arxiv.org/abs/2606.06698v4)<br>[PDF](https://arxiv.org/pdf/2606.06698v4) | arXiv.org | 🏢 Industry: Tencent | — |
+| 2026-06-04 | Self-Evolving | [Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference](https://arxiv.org/abs/2606.05922v3)<br>[PDF](https://arxiv.org/pdf/2606.05922v3) | arXiv.org | — | — |
 | 2026-06-04 | Self-Evolving | [MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery](https://arxiv.org/abs/2606.06473)<br>[PDF](https://arxiv.org/pdf/2606.06473) | arXiv | ⭐ Popular code | [GitHub ★ 417](https://github.com/InternScience/MLEvolve)<br>Citations: 5 (Google Scholar) |
 | 2026-06-04 | Memory | [Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads](https://arxiv.org/abs/2606.06448)<br>[PDF](https://arxiv.org/pdf/2606.06448) | arXiv | — | — |
 | 2026-06-04 | Memory | [TOKI: A Bitemporal Operator Algebra for Contradiction Resolution in LLM-Agent Persistent Memory](https://arxiv.org/abs/2606.06240)<br>[PDF](https://arxiv.org/pdf/2606.06240) | arXiv | — | [GitHub ★ n/a](https://github.com/ZenAlexa/toki-bitemporal-memory) |
@@ -112,6 +116,7 @@
 | 2026-06-02 | Memory | [eMEM: A Hybrid Spatio-Temporal Memory System For Embodied Agents](https://arxiv.org/abs/2606.03374)<br>[PDF](https://arxiv.org/pdf/2606.03374) | arXiv | — | — |
 | 2026-06-02 | Memory<br>Self-Evolving | [PhotoCraft: Agentic Reasoning with Hierarchical Self-Evolving Memory for Deep Image Search](https://arxiv.org/abs/2606.03099)<br>[PDF](https://arxiv.org/pdf/2606.03099) | arXiv | — | — |
 | 2026-06-02 | Self-Evolving | [SkillDAG: Self-Evolving Typed Skill Graphs for LLM Skill Selection at Scale](https://arxiv.org/abs/2606.03056)<br>[PDF](https://arxiv.org/pdf/2606.03056) | arXiv | — | — |
+| 2026-06-01 | Self-Evolving | [CoMAP: Co-Evolving World Models and Agent Policies for LLM Agents](https://arxiv.org/abs/2606.02372v2)<br>[PDF](https://arxiv.org/pdf/2606.02372v2) | arXiv.org | 🏆 Top venue: arXiv.org | — |
 | 2026-06-01 | Memory | [Joint Agent Memory and Exploration Learning via Novelty Signals](https://arxiv.org/abs/2606.01528)<br>[PDF](https://arxiv.org/pdf/2606.01528) | arXiv | — | [GitHub ★ 13](https://github.com/MobileLLM/JAMEL) |
 
 ## Notes

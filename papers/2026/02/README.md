@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 67 unique papers · Self-Evolving 14 · Memory 53 · Continual Training 6
+> 70 unique papers · Self-Evolving 15 · Memory 53 · Continual Training 8
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -30,12 +30,14 @@
 | 2026-02-17 | Memory | [SuperLocalMemory: Privacy-Preserving Multi-Agent Memory with Bayesian Trust Defense Against Memory Poisoning](https://arxiv.org/abs/2603.02240)<br>[PDF](https://arxiv.org/pdf/2603.02240) | arXiv | ⭐ Popular code | [GitHub ★ 212](https://github.com/varun369/SuperLocalMemoryV2)<br>Citations: 9 (Google Scholar) |
 | 2026-02-17 | Self-Evolving | [Zombie Agents: Persistent Control of Self-Evolving LLM Agents via Self-Reinforcing Injections](https://arxiv.org/abs/2602.15654)<br>[PDF](https://arxiv.org/pdf/2602.15654) | arXiv | — | — |
 | 2026-02-17 | Memory | [EventMemAgent: Hierarchical Event-Centric Memory for Online Video Understanding with Adaptive Tool Use](https://arxiv.org/abs/2602.15329)<br>[PDF](https://arxiv.org/pdf/2602.15329) | arXiv | — | [GitHub ★ 8](https://github.com/lingcco/EventMemAgent) |
-| 2026-02-16 | Self-Evolving | [ST-EVO: Towards Generative Spatio-Temporal Evolution of Multi-Agent Communication Topologies](https://arxiv.org/abs/2602.14681v4)<br>[PDF](https://arxiv.org/pdf/2602.14681v4) | arXiv | — | — |
+| 2026-02-16 | Self-Evolving | [ST-EVO: Towards Generative Spatio-Temporal Evolution of Multi-Agent Communication Topologies](https://arxiv.org/abs/2602.14681v5)<br>[PDF](https://arxiv.org/pdf/2602.14681v5) | arXiv.org | — | — |
 | 2026-02-16 | Memory<br>Self-Evolving | [FactorMiner: A Self-Evolving Agent with Skills and Experience Memory for Financial Alpha Discovery](https://arxiv.org/abs/2602.14670v2)<br>[PDF](https://arxiv.org/pdf/2602.14670v2) | arXiv | — | — |
 | 2026-02-15 | Memory | [Choosing How to Remember: Adaptive Memory Structures for LLM Agents](https://arxiv.org/abs/2602.14038)<br>[PDF](https://arxiv.org/pdf/2602.14038) | arXiv | — | — |
 | 2026-02-14 | Memory | [Hippocampus: An Efficient and Scalable Memory Module for Agentic AI](https://arxiv.org/abs/2602.13594)<br>[PDF](https://arxiv.org/pdf/2602.13594) | arXiv | — | — |
 | 2026-02-13 | Memory | [Learning to Remember: End-to-End Training of Memory Agents for Long-Context Reasoning](https://arxiv.org/abs/2602.18493)<br>[PDF](https://arxiv.org/pdf/2602.18493) | arXiv | — | — |
 | 2026-02-13 | Memory | [REMem: Reasoning with Episodic Memory in Language Agent](https://arxiv.org/abs/2602.13530)<br>[PDF](https://arxiv.org/pdf/2602.13530) | arXiv | — | — |
+| 2026-02-12 | Self-Evolving | [Scene2Demo: Self-Evolving Embodied Data Generation via Object-Action Graph](https://arxiv.org/abs/2602.12065v2)<br>[PDF](https://arxiv.org/pdf/2602.12065v2) | arXiv | — | — |
+| 2026-02-11 | Continual Training | [GeoGR: Enabling Spatio-Temporal Aware Industrial-scale Generative POI Recommendations](https://arxiv.org/abs/2602.10411v2)<br>[PDF](https://arxiv.org/pdf/2602.10411v2) | arXiv | — | — |
 | 2026-02-11 | Memory | [Evaluating Memory Structure in LLM Agents](https://arxiv.org/abs/2602.11243)<br>[PDF](https://arxiv.org/pdf/2602.11243) | arXiv | — | — |
 | 2026-02-11 | Self-Evolving | [RISE: Self-Improving Robot Policy with Compositional World Model](https://arxiv.org/abs/2602.11075)<br>[PDF](https://arxiv.org/pdf/2602.11075) | RSS 2026 | ⭐ Popular code<br>📈 Highly cited<br>🏆 Top venue: RSS 2026 | [GitHub ★ 338](https://github.com/OpenDriveLab/RISE)<br>Citations: 23 (Google Scholar) |
 | 2026-02-11 | Memory | [Locomo-Plus: Beyond-Factual Cognitive Memory Evaluation Framework for LLM Agents](https://arxiv.org/abs/2602.10715)<br>[PDF](https://arxiv.org/pdf/2602.10715) | arXiv | — | [GitHub ★ 32](https://github.com/xjtuleeyf/Locomo-Plus) |
@@ -57,11 +59,12 @@
 | 2026-02-05 | Memory<br>Self-Evolving | [UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents](https://arxiv.org/abs/2602.05832)<br>[PDF](https://arxiv.org/pdf/2602.05832) | arXiv | — | — |
 | 2026-02-05 | Memory | [Graph-based Agent Memory: Taxonomy, Techniques, and Applications](https://arxiv.org/abs/2602.05665)<br>[PDF](https://arxiv.org/pdf/2602.05665) | arXiv | ⭐ Popular code<br>📈 Highly cited | [GitHub ★ 332](https://github.com/DEEP-PolyU/Awesome-GraphMemory)<br>Citations: 31 (Google Scholar) |
 | 2026-02-05 | Memory | [AI Agent Systems for Supply Chains: Structured Decision Prompts and Memory Retrieval](https://arxiv.org/abs/2602.05524)<br>[PDF](https://arxiv.org/pdf/2602.05524) | arXiv | — | — |
+| 2026-02-04 | Continual Training | [Modular Expert Merging for Biomedical Retrieval](https://arxiv.org/abs/2602.04731v3)<br>[PDF](https://arxiv.org/pdf/2602.04731v3) | arXiv | — | — |
 | 2026-02-04 | Memory | [ActMem: Bridging the Gap Between Memory Retrieval and Reasoning in LLM Agents](https://arxiv.org/abs/2603.00026)<br>[PDF](https://arxiv.org/pdf/2603.00026) | arXiv | — | — |
 | 2026-02-04 | Self-Evolving | [Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing](https://arxiv.org/abs/2602.04837)<br>[PDF](https://arxiv.org/pdf/2602.04837) | arXiv | — | — |
 | 2026-02-04 | Self-Evolving | [Self-evolving Embodied AI](https://arxiv.org/abs/2602.04411)<br>[PDF](https://arxiv.org/pdf/2602.04411) | arXiv | — | — |
 | 2026-02-04 | Self-Evolving | [Empirical-MCTS: Continuous Agent Evolution via Dual-Experience Monte Carlo Tree Search](https://arxiv.org/abs/2602.04248)<br>[PDF](https://arxiv.org/pdf/2602.04248) | arXiv | — | — |
-| 2026-02-03 | Memory | [MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075v2)<br>[PDF](https://arxiv.org/pdf/2602.06075v2) | arXiv | — | — |
+| 2026-02-03 | Memory | [MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments](https://arxiv.org/abs/2602.06075v3)<br>[PDF](https://arxiv.org/pdf/2602.06075v3) | arXiv.org | — | — |
 | 2026-02-03 | Memory | [MAPLE: A Sub-Agent Architecture for Memory, Learning, and Personalization in Agentic AI Systems](https://arxiv.org/abs/2602.13258)<br>[PDF](https://arxiv.org/pdf/2602.13258) | arXiv | — | [GitHub ★ 1](https://github.com/prdeepakbabu/maple-framework) |
 | 2026-02-03 | Memory | [TAME: A Trustworthy Test-Time Evolution of Agent Memory with Systematic Benchmarking](https://arxiv.org/abs/2602.03224)<br>[PDF](https://arxiv.org/pdf/2602.03224) | arXiv | — | — |
 | 2026-02-03 | Memory | [LatentMem: Customizing Latent Memory for Multi-Agent Systems](https://arxiv.org/abs/2602.03036)<br>[PDF](https://arxiv.org/pdf/2602.03036) | arXiv | — | — |

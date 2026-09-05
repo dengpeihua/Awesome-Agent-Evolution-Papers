@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 113 unique papers · Self-Evolving 24 · Memory 94 · Continual Training 6
+> 116 unique papers · Self-Evolving 27 · Memory 95 · Continual Training 6
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -15,6 +15,7 @@
 | 2026-05-29 | Memory | [Eywa: Provenance-Grounded Long-Term Memory for AI Agents](https://arxiv.org/abs/2605.30771)<br>[PDF](https://arxiv.org/pdf/2605.30771) | arXiv | — | — |
 | 2026-05-29 | Memory | [SAGE: A Novelty Gate for Efficient Memory Evolution in Agentic LLMs](https://arxiv.org/abs/2605.30711)<br>[PDF](https://arxiv.org/pdf/2605.30711) | arXiv | — | [GitHub ★ 5](https://github.com/swang1024/SAGE) |
 | 2026-05-29 | Memory | [ElasticMem: Latent Memory as a Learnable Resource for LLM Agents](https://arxiv.org/abs/2605.30690)<br>[PDF](https://arxiv.org/pdf/2605.30690) | arXiv | — | [GitHub ★ n/a](https://github.com/ulab-uiuc/ElasticMem) |
+| 2026-05-28 | Self-Evolving | [EvoRepair: Enhancing Vulnerability Repair Agents Through Experience-Based Self-Evolution](https://arxiv.org/abs/2605.30105v2)<br>[PDF](https://arxiv.org/pdf/2605.30105v2) | arXiv.org | — | — |
 | 2026-05-28 | Self-Evolving | [GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents](https://arxiv.org/abs/2605.29668v3)<br>[PDF](https://arxiv.org/pdf/2605.29668v3) | EMNLP 2026 | 🏆 Top venue: EMNLP 2026 | — |
 | 2026-05-28 | Memory | [Learning User-Aware Recall: Personalized Retrieval in Long-Term Conversational Memory](https://arxiv.org/abs/2607.00017)<br>[PDF](https://arxiv.org/pdf/2607.00017) | arXiv | — | — |
 | 2026-05-28 | Memory | [Meta-Cognitive Memory Policy Optimization for Long-Horizon LLM Agents](https://arxiv.org/abs/2605.30159)<br>[PDF](https://arxiv.org/pdf/2605.30159) | arXiv | — | — |
@@ -23,6 +24,7 @@
 | 2026-05-28 | Memory | [WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction](https://arxiv.org/abs/2605.29341)<br>[PDF](https://arxiv.org/pdf/2605.29341) | arXiv | — | — |
 | 2026-05-27 | Memory | [MemCog: From Memory-as-Tool to Memory-as-Cognition in Conversational Agents](https://arxiv.org/abs/2605.28046)<br>[PDF](https://arxiv.org/pdf/2605.28046) | arXiv | — | — |
 | 2026-05-27 | Memory | [MRMMIA: Membership Inference Attacks on Memory in Chat Agents](https://arxiv.org/abs/2605.27825)<br>[PDF](https://arxiv.org/pdf/2605.27825) | arXiv | — | — |
+| 2026-05-26 | Self-Evolving | [PEAR: Permutation-Equivariant Adaptive Routing Multi-Agent Debate](https://arxiv.org/abs/2606.20621v2)<br>[PDF](https://arxiv.org/pdf/2606.20621v2) | arXiv.org | 🏆 Top venue: arXiv.org | — |
 | 2026-05-26 | Memory | [PEAM: Parametric Embodied Agent Memory through Contrastive Internalization of Experience in Minecraft](https://arxiv.org/abs/2605.27762)<br>[PDF](https://arxiv.org/pdf/2605.27762) | arXiv | — | — |
 | 2026-05-26 | Memory<br>Self-Evolving | [MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation](https://arxiv.org/abs/2605.27366)<br>[PDF](https://arxiv.org/pdf/2605.27366) | arXiv | — | — |
 | 2026-05-26 | Memory | [ENPMR-Bench: Benchmarking Proactive Memory Retrieval for Emotional Support Agents](https://arxiv.org/abs/2605.27240)<br>[PDF](https://arxiv.org/pdf/2605.27240) | arXiv | — | — |
@@ -30,7 +32,7 @@
 | 2026-05-25 | Memory | [Is Agent Memory a Database? Rethinking Data Foundations for Long-Term AI Agent Memory](https://arxiv.org/abs/2605.26252)<br>[PDF](https://arxiv.org/pdf/2605.26252) | arXiv | — | — |
 | 2026-05-25 | Memory | [Mitigating Provenance-Role Collapse in Long-Term Agents via Typed Memory Representation](https://arxiv.org/abs/2605.25869)<br>[PDF](https://arxiv.org/pdf/2605.25869) | arXiv | — | — |
 | 2026-05-25 | Memory | [Personalize-then-Store: Benchmarking and Learning Personalized Memory for Long-horizon Agents](https://arxiv.org/abs/2605.25535)<br>[PDF](https://arxiv.org/pdf/2605.25535) | arXiv | — | — |
-| 2026-05-24 | Memory | [MemMark: State-Evolution Attribution Watermarking for Agent Long-Term Memory Systems](https://arxiv.org/abs/2605.25002v3)<br>[PDF](https://arxiv.org/pdf/2605.25002v3) | arXiv | — | — |
+| 2026-05-24 | Memory | [MemMark: State-Evolution Attribution Watermarking for Agent Long-Term Memory Systems](https://arxiv.org/abs/2605.25002v4)<br>[PDF](https://arxiv.org/pdf/2605.25002v4) | arXiv.org | — | — |
 | 2026-05-24 | Memory | [MemMorph: Tool Hijacking in LLM Agents via Memory Poisoning](https://arxiv.org/abs/2605.26154)<br>[PDF](https://arxiv.org/pdf/2605.26154) | arXiv | — | — |
 | 2026-05-24 | Memory | [Memory-Induced Tool-Drift in LLM Agents](https://arxiv.org/abs/2605.24941)<br>[PDF](https://arxiv.org/pdf/2605.24941) | arXiv | — | — |
 | 2026-05-23 | Memory | [SAM: State-Adaptive Memory for Long-Horizon Reasoning Agent](https://arxiv.org/abs/2605.24468)<br>[PDF](https://arxiv.org/pdf/2605.24468) | arXiv | — | — |
@@ -75,6 +77,7 @@
 | 2026-05-14 | Memory | [GroupMemBench: Benchmarking LLM Agent Memory in Multi-Party Conversations](https://arxiv.org/abs/2605.14498)<br>[PDF](https://arxiv.org/pdf/2605.14498) | arXiv | — | — |
 | 2026-05-14 | Memory | [MemLineage: Lineage-Guided Enforcement for LLM Agent Memory](https://arxiv.org/abs/2605.14421)<br>[PDF](https://arxiv.org/pdf/2605.14421) | arXiv | — | — |
 | 2026-05-13 | Memory | [CogniFold: Always-On Proactive Memory via Cognitive Folding](https://arxiv.org/abs/2605.13438v5)<br>[PDF](https://arxiv.org/pdf/2605.13438v5) | arXiv | — | — |
+| 2026-05-13 | Memory<br>Self-Evolving | [Useful Memories Become Faulty When Continuously Updated by LLMs](https://arxiv.org/abs/2605.12978v2)<br>[PDF](https://arxiv.org/pdf/2605.12978v2) | arXiv.org | — | — |
 | 2026-05-13 | Memory<br>Self-Evolving | [EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents](https://arxiv.org/abs/2605.13941)<br>[PDF](https://arxiv.org/pdf/2605.13941) | arXiv | 🔥 Very popular code | [GitHub ★ 3,687](https://github.com/aiming-lab/SimpleMem)<br>Citations: 9 (Google Scholar) |
 | 2026-05-12 | Memory | [The Misattribution Gap: When Memory Poisoning Looks Like Model Failure in Agentic AI Systems](https://arxiv.org/abs/2605.22842)<br>[PDF](https://arxiv.org/pdf/2605.22842) | arXiv | — | — |
 | 2026-05-12 | Memory | [LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues](https://arxiv.org/abs/2605.12493)<br>[PDF](https://arxiv.org/pdf/2605.12493) | arXiv | — | — |
