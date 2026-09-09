@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 116 unique papers · Self-Evolving 27 · Memory 95 · Continual Training 6
+> 117 unique papers · Self-Evolving 28 · Memory 95 · Continual Training 6
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -91,6 +91,7 @@
 | 2026-05-11 | Self-Evolving | [MAGE: Multi-Agent Self-Evolution with Co-Evolutionary Knowledge Graphs](https://arxiv.org/abs/2605.10064)<br>[PDF](https://arxiv.org/pdf/2605.10064) | arXiv | — | — |
 | 2026-05-11 | Self-Evolving | [Swarm Skills: A Portable, Self-Evolving Multi-Agent System Specification for Coordination Engineering](https://arxiv.org/abs/2605.10052)<br>[PDF](https://arxiv.org/pdf/2605.10052) | arXiv | — | — |
 | 2026-05-11 | Memory | [HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution](https://arxiv.org/abs/2605.09942)<br>[PDF](https://arxiv.org/pdf/2605.09942) | arXiv | — | [GitHub ★ 15](https://github.com/FredJiang0324/HAGE_MVPReview) |
+| 2026-05-10 | Self-Evolving | [Empowering VLMs for Few-Shot Multimodal Time Series Classification via Tailored Agentic Reasoning](https://arxiv.org/abs/2605.09395v3)<br>[PDF](https://arxiv.org/pdf/2605.09395v3) | arXiv.org | 🏢 Industry: Xiaomi | — |
 | 2026-05-10 | Memory | [Portable Agent Memory: A Protocol for Cryptographically-Verified Memory Transfer Across Heterogeneous AI Agents](https://arxiv.org/abs/2605.11032)<br>[PDF](https://arxiv.org/pdf/2605.11032) | arXiv | — | — |
 | 2026-05-10 | Memory | [MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents](https://arxiv.org/abs/2605.09530)<br>[PDF](https://arxiv.org/pdf/2605.09530) | arXiv | — | — |
 | 2026-05-10 | Memory | [The Trap of Trajectory: Towards Understanding and Mitigating Spurious Correlations in Agentic Memory](https://arxiv.org/abs/2605.09330)<br>[PDF](https://arxiv.org/pdf/2605.09330) | arXiv | — | — |

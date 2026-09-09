@@ -103,7 +103,7 @@
 | 2026-08-19 | Continual Training | [Harness Continual Learning: Continual Adaptation Beyond Model Parameters](https://arxiv.org/abs/2608.19013v1)<br>[PDF](https://arxiv.org/pdf/2608.19013v1) | arXiv | — | — |
 | 2026-08-19 | Self-Evolving | [SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution](https://arxiv.org/abs/2608.18933v1)<br>[PDF](https://arxiv.org/pdf/2608.18933v1) | arXiv | — | — |
 | 2026-08-18 | Continual Training | [TTSD-FAR: Test-Time Self-Distillation with Fisher-Anchored Restoration for Missing-Modality Emotion Recognition in LVLMs](https://arxiv.org/abs/2608.18386v1)<br>[PDF](https://arxiv.org/pdf/2608.18386v1) | arXiv | — | — |
-| 2026-08-18 | Memory<br>Self-Evolving | [On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification](https://arxiv.org/abs/2608.18066v1)<br>[PDF](https://arxiv.org/pdf/2608.18066v1) | arXiv | — | — |
+| 2026-08-18 | Memory<br>Self-Evolving | [On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification](https://arxiv.org/abs/2608.18066v2)<br>[PDF](https://arxiv.org/pdf/2608.18066v2) | arXiv | — | — |
 | 2026-08-18 | Continual Training | [Chain-of-Experience for Continual LLM Improvement](https://arxiv.org/abs/2608.18027v1)<br>[PDF](https://arxiv.org/pdf/2608.18027v1) | arXiv | — | — |
 | 2026-08-18 | Self-Evolving | [EvoTS-Agent: A Self-Evolving LLM Agent for Financial Time Series Change Point Detection](https://arxiv.org/abs/2608.17933v1)<br>[PDF](https://arxiv.org/pdf/2608.17933v1) | arXiv | — | — |
 | 2026-08-18 | Self-Evolving | [Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks](https://arxiv.org/abs/2608.17774v1)<br>[PDF](https://arxiv.org/pdf/2608.17774v1) | arXiv | — | — |

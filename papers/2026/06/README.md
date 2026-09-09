@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 112 unique papers · Self-Evolving 29 · Memory 81 · Continual Training 8
+> 113 unique papers · Self-Evolving 29 · Memory 82 · Continual Training 8
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -36,6 +36,7 @@
 | 2026-06-23 | Memory | [ReM-MoA: Reasoning Memory Sustains Mixture-of-Agents Scaling](https://arxiv.org/abs/2606.24437)<br>[PDF](https://arxiv.org/pdf/2606.24437) | arXiv | — | — |
 | 2026-06-23 | Memory | [Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees](https://arxiv.org/abs/2606.24322)<br>[PDF](https://arxiv.org/pdf/2606.24322) | arXiv | — | — |
 | 2026-06-22 | Continual Training | [CADRE: Stable, Parameter Efficient Adaptation of Medical Vision Language Models with Bounded Forgetting and Prior Drift](https://arxiv.org/abs/2606.23487v2)<br>[PDF](https://arxiv.org/pdf/2606.23487v2) | arXiv | — | — |
+| 2026-06-22 | Memory | [Understanding the (In)Security of Vibe-Coded Applications](https://arxiv.org/abs/2606.23130v3)<br>[PDF](https://arxiv.org/pdf/2606.23130v3) | arXiv.org | — | — |
 | 2026-06-22 | Memory | [HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory](https://arxiv.org/abs/2606.23565)<br>[PDF](https://arxiv.org/pdf/2606.23565) | arXiv | — | — |
 | 2026-06-22 | Memory | [Memory Contagion: Cross-Temporal Propagation of Evaluator Bias via Agent Memory](https://arxiv.org/abs/2606.23195)<br>[PDF](https://arxiv.org/pdf/2606.23195) | arXiv | — | — |
 | 2026-06-22 | Memory | [Managing Procedural Memory in LLM Agents: Control, Adaptation, and Evaluation](https://arxiv.org/abs/2606.23127)<br>[PDF](https://arxiv.org/pdf/2606.23127) | arXiv | — | — |
@@ -88,6 +89,7 @@
 | 2026-06-05 | Memory | [AdMem: Advanced Memory for Task-solving Agents](https://arxiv.org/abs/2606.06787)<br>[PDF](https://arxiv.org/pdf/2606.06787) | arXiv | — | — |
 | 2026-06-04 | Continual Training | [RECAP: Regression Evaluation for Continual Adaptation of Prompts](https://arxiv.org/abs/2606.06698v4)<br>[PDF](https://arxiv.org/pdf/2606.06698v4) | arXiv.org | 🏢 Industry: Tencent | — |
 | 2026-06-04 | Self-Evolving | [Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference](https://arxiv.org/abs/2606.05922v3)<br>[PDF](https://arxiv.org/pdf/2606.05922v3) | arXiv.org | — | — |
+| 2026-06-04 | Memory<br>Self-Evolving | [Membrane: A Self-Evolving Contrastive Safety Memory for LLM Agent Defense](https://arxiv.org/abs/2606.05743v2)<br>[PDF](https://arxiv.org/pdf/2606.05743v2) | arXiv.org | — | — |
 | 2026-06-04 | Self-Evolving | [MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery](https://arxiv.org/abs/2606.06473)<br>[PDF](https://arxiv.org/pdf/2606.06473) | arXiv | ⭐ Popular code | [GitHub ★ 417](https://github.com/InternScience/MLEvolve)<br>Citations: 5 (Google Scholar) |
 | 2026-06-04 | Memory | [Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads](https://arxiv.org/abs/2606.06448)<br>[PDF](https://arxiv.org/pdf/2606.06448) | arXiv | — | — |
 | 2026-06-04 | Memory | [TOKI: A Bitemporal Operator Algebra for Contradiction Resolution in LLM-Agent Persistent Memory](https://arxiv.org/abs/2606.06240)<br>[PDF](https://arxiv.org/pdf/2606.06240) | arXiv | — | [GitHub ★ n/a](https://github.com/ZenAlexa/toki-bitemporal-memory) |
@@ -97,7 +99,6 @@
 | 2026-06-04 | Memory | [Beyond Similarity: Trustworthy Memory Search for Personal AI Agents](https://arxiv.org/abs/2606.06054)<br>[PDF](https://arxiv.org/pdf/2606.06054) | arXiv | — | — |
 | 2026-06-04 | Memory | [Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents](https://arxiv.org/abs/2606.06036)<br>[PDF](https://arxiv.org/pdf/2606.06036) | arXiv | — | — |
 | 2026-06-04 | Memory | [SubtleMemory: A Benchmark for Fine-Grained Relational Memory Discrimination in Long-Horizon AI Agents](https://arxiv.org/abs/2606.05761)<br>[PDF](https://arxiv.org/pdf/2606.05761) | arXiv | — | — |
-| 2026-06-04 | Memory<br>Self-Evolving | [Membrane: A Self-Evolving Contrastive Safety Memory for LLM Agent Defense](https://arxiv.org/abs/2606.05743)<br>[PDF](https://arxiv.org/pdf/2606.05743) | arXiv | — | — |
 | 2026-06-04 | Memory | [AdaMEM: Test-Time Adaptive Memory for Language Agents](https://arxiv.org/abs/2606.05684)<br>[PDF](https://arxiv.org/pdf/2606.05684) | arXiv | — | [GitHub ★ 8](https://github.com/yunx-z/AdaMEM) |
 | 2026-06-03 | Memory | [HMARS: A Hierarchical Multi-Agent Memory System for Long-Context Reasoning](https://arxiv.org/abs/2606.28349)<br>[PDF](https://arxiv.org/pdf/2606.28349) | arXiv | — | — |
 | 2026-06-03 | Self-Evolving | [EpiEvolve: Self-Evolving Agents for Streaming Pandemic Forecasting under Regime Shifts](https://arxiv.org/abs/2606.05513)<br>[PDF](https://arxiv.org/pdf/2606.05513) | arXiv | — | — |

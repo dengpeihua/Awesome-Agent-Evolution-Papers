@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 81 unique papers · Self-Evolving 14 · Memory 65 · Continual Training 8
+> 82 unique papers · Self-Evolving 15 · Memory 65 · Continual Training 8
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -39,6 +39,7 @@
 | 2026-04-18 | Memory | [Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory Poisoning](https://arxiv.org/abs/2604.16966)<br>[PDF](https://arxiv.org/pdf/2604.16966) | arXiv | — | — |
 | 2026-04-18 | Memory | [MEMRES: A Memory-Augmented Resolver with Confidence Cascade for Agentic Python Dependency Resolution](https://arxiv.org/abs/2604.16941)<br>[PDF](https://arxiv.org/pdf/2604.16941) | arXiv | — | — |
 | 2026-04-18 | Memory | [HeLa-Mem: Hebbian Learning and Associative Memory for LLM Agents](https://arxiv.org/abs/2604.16839)<br>[PDF](https://arxiv.org/pdf/2604.16839) | arXiv | — | [GitHub ★ 15](https://github.com/ReinerBRO/HeLa-Mem) |
+| 2026-04-17 | Self-Evolving | [AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation](https://arxiv.org/abs/2604.16625v2)<br>[PDF](https://arxiv.org/pdf/2604.16625v2) | arXiv.org | — | — |
 | 2026-04-17 | Memory | [A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle](https://arxiv.org/abs/2604.16548)<br>[PDF](https://arxiv.org/pdf/2604.16548) | arXiv | — | — |
 | 2026-04-17 | Memory | [Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents](https://arxiv.org/abs/2604.15877)<br>[PDF](https://arxiv.org/pdf/2604.15877) | arXiv | — | — |
 | 2026-04-17 | Memory | [MemEvoBench: Benchmarking Safety Risks from Memory Misevolution in LLM Agents](https://arxiv.org/abs/2604.15774)<br>[PDF](https://arxiv.org/pdf/2604.15774) | arXiv | — | — |

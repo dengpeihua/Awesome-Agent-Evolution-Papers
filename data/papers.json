@@ -5025,7 +5025,7 @@
   {
     "arxiv_id": "2608.18066",
     "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
-    "abstract": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two memory-based methods, broadening the scope of evaluation along two axes: (1) including multiple runs to quantify variance, and (2) randomly shuffling the tasks to investigate the effect of task order. Through these experiments, we make two observations that expose the fragility of current methods: First, agent evaluation is inherently noisy in complex environments and on multi-step tasks, and stacking a self-improving loop on top can further amplify this noise. Second, the agent's improvement is highly dependent on task order. Prior works often adopt default orderings that impose an implicit curriculum, acting as a hidden prerequisite for success. To better understand this fragility, we manually examine the agents' memory and hypothesize that task and environment underspecification contribute to this fragility. We validate this hypothesis by incorporating information that enables better specification, such as detailed rubrics and environment feedback, into the memory construction process. While this added information partially closes the performance degradation in previous experiments, significant gaps still remain, suggesting that other uncharacterized factors contribute to this fragility. Looking ahead, our work advocates for more rigorous evaluation protocols for self-improving agents by reporting results across multiple runs and stress-testing them under challenging conditions. Moreover, our findings on underspecification call for systems and interfaces that enable effective human oversight, preventing agents from failing in unforeseeable ways.",
+    "abstract": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two memory-based methods, broadening the scope of evaluation along two axes: (1) including multiple self-improving runs to quantify variance, and (2) shuffling the tasks to investigate the effect of task order. Through these experiments, we make two observations that expose the fragility of current methods: First, agent evaluation is inherently noisy in complex environments and on multi-step tasks, and stacking a self-improving loop on top can further amplify this noise. Second, the agent's improvement is highly dependent on task order. Prior works often adopt default orderings that impose an implicit curriculum, acting as a hidden prerequisite for success. To better understand this fragility, we manually examine the agents' memory and hypothesize that task and environment underspecification contribute to this fragility. We validate this hypothesis by incorporating information that enables better specification, such as detailed rubrics and environment feedback, into the memory construction process. While this added information partially closes the performance degradation in previous experiments, significant gaps still remain, suggesting that other uncharacterized factors contribute to this fragility. Looking ahead, our work advocates for more rigorous evaluation protocols for self-improving agents by reporting results across multiple runs and stress-testing them under challenging conditions. Moreover, our findings on underspecification call for systems and interfaces that enable effective human oversight, preventing agents from failing in unforeseeable ways.",
     "authors": [
       "Qinyuan Ye",
       "Yu Li",
@@ -5034,9 +5034,9 @@
       "Chien-Sheng Wu"
     ],
     "published": "2026-08-18T17:55:07+00:00",
-    "updated": "2026-08-18T17:55:07+00:00",
-    "url": "https://arxiv.org/abs/2608.18066v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.18066v1",
+    "updated": "2026-09-06T01:12:37+00:00",
+    "url": "https://arxiv.org/abs/2608.18066v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.18066v2",
     "primary_category": "cs.AI",
     "categories": [
       "cs.AI",
@@ -5058,11 +5058,15 @@
     "github_stars": null,
     "citation_count": null,
     "citation_source": "",
-    "affiliations": [],
-    "first_author_affiliations": [],
+    "affiliations": [
+      "University of Southern California"
+    ],
+    "first_author_affiliations": [
+      "University of Southern California"
+    ],
     "industry_affiliations": [],
     "industry_first_author_affiliations": [],
-    "affiliation_source": "",
+    "affiliation_source": "Semantic Scholar author profiles",
     "highlight_reasons": [],
     "verified_at": ""
   },
@@ -18476,6 +18480,46 @@
     "verified_at": ""
   },
   {
+    "arxiv_id": "2606.23130",
+    "title": "Understanding the (In)Security of Vibe-Coded Applications",
+    "abstract": "Recent advances in large language models (LLMs) have enabled vibe coding, an emerging software development paradigm in which users create applications primarily through natural-language interactions with AI agents. Due to its low barrier to entry, vibe coding is rapidly gaining adoption in practice. Unlike conventional AI-assisted programming, where developers remain responsible for implementation and code review, vibe coding delegates a substantial portion of the development process to AI systems. This shift raises a fundamental question: how (in)secure are applications developed through vibe coding? In this paper, we conduct a systematic study of the security of real-world vibe-coded applications. We collect 9,041 open-source applications developed using popular AI agents (Claude Code and Lovable), and audit 200 publicly deployed applications, uncovering 1,186 vulnerabilities. Our study of these applications and vulnerabilities reveals several key findings: (1) insecurity is the norm rather than the exception: 91.0\\% of audited applications contain at least one vulnerability, and 65.77\\% of identified vulnerabilities are rated Critical or High severity, concentrated in broken access control, injection, and authentication failures; (2) these vulnerabilities are traceable to eight recurring failure modes rooted in three systematic limitations of AI agents: memory defects, objective defects, and knowledge defects; and (3) while improved agent harness and prompting strategies can reduce the incidence of vulnerabilities, they do not eliminate the underlying security risks. Overall, our study provides an empirical understanding of the security landscape of vibe-coded applications and lays the groundwork for addressing the security risks in the growing delegation of software development to AI systems.",
+    "authors": [
+      "Junquan Deng",
+      "Zhiyu Fan",
+      "Ruijie Meng"
+    ],
+    "published": "2026-06-22T10:19:07+00:00",
+    "updated": "2026-09-05T17:07:17+00:00",
+    "url": "https://arxiv.org/abs/2606.23130v3",
+    "pdf_url": "https://arxiv.org/pdf/2606.23130v3",
+    "primary_category": "cs.CR",
+    "categories": [
+      "cs.CR",
+      "cs.SE"
+    ],
+    "topics": [
+      "agent-memory"
+    ],
+    "doi": "",
+    "comment": "",
+    "journal_ref": "",
+    "venue": "arXiv.org",
+    "venue_tier": "",
+    "venue_source": "Semantic Scholar publication metadata",
+    "acceptance_evidence": "",
+    "github_url": "",
+    "github_stars": null,
+    "citation_count": null,
+    "citation_source": "",
+    "affiliations": [],
+    "first_author_affiliations": [],
+    "industry_affiliations": [],
+    "industry_first_author_affiliations": [],
+    "affiliation_source": "",
+    "highlight_reasons": [],
+    "verified_at": ""
+  },
+  {
     "arxiv_id": "2606.23195",
     "title": "Memory Contagion: Cross-Temporal Propagation of Evaluator Bias via Agent Memory",
     "abstract": "Large Language Model (LLM) agents increasingly rely on memory systems to maintain long-term coherence. Recent work shows that agent memories degrade during continuous consolidation. However, existing research assumes memories are derived from unbiased experiences. In this work, we identify and formalize a novel phenomenon: Memory Contagion -- the cross-temporal propagation of evaluator bias through agent memory. We show that when agents are trained or guided by biased evaluators, their experiences become biased; when these trajectories are stored and consolidated into memory, the bias propagates to future agents retrieving from the same memory store, even when consolidation is perfect (oracle). Across two bias types (length preference, authority bias) and four experimental phases, we demonstrate: (1) Memory Contagion occurs for length bias even with perfect consolidation on older models (Gamma_A = 13.18, DeepSeek V4-Chat), while newer models (V4-Pro, Claude) are immune, proving both that biased input is a sufficient cause and that contagion is model-generation-dependent; (2) authority bias fails to propagate in all 15 controlled multi-seed experiments (Gamma_A = 0.00), revealing that not all evaluator biases can cross temporal boundaries through current memory architectures; (3) No observed safe threshold: length bias propagation is detected at contamination rates as low as p=0.2. Our findings expose a critical but contingent vulnerability in current agent memory designs and provide formal tools for measuring cross-temporal bias propagation.",
@@ -20692,6 +20736,52 @@
     "verified_at": ""
   },
   {
+    "arxiv_id": "2606.05743",
+    "title": "Membrane: A Self-Evolving Contrastive Safety Memory for LLM Agent Defense",
+    "abstract": "Despite advances in safety alignment, large language models remain vulnerable to continuously evolving jailbreaks. Existing fine-tuned safety classifiers cannot adapt to these evolving attacks, while adaptive memory-based guardrails tend to over-refuse benign queries that resemble stored attacks. We propose Membrane, a self-evolving guardrail built on Contrastive Safety Memory (CSM): each cell pairs the conditions for blocking a harmful query with those for permitting a superficially similar benign request. Without retraining, Membrane evolves CSM by distilling each harmful interaction and its benign counterpart into a contrastive cell indexed by the underlying attack strategy, so that one cell generalizes across topical variants of the same mechanism. At inference, retrieved cells serve as grounding context for precise safety decisions. Across model-level safety on HarmBench and agent-level safety on AgentHarm, Membrane achieves the highest F1 on all six modern jailbreak attacks. Notably, benign refusal on AgentHarm stays at 7-14%, well below the 28-85% range of prior guards. Memory cells also retain 87-88% F1 under cross-attack transfer and remain stable under memory poisoning.",
+    "authors": [
+      "Minseok Choi",
+      "Seungbin Yang",
+      "Dongjin Kim",
+      "Subin Kim",
+      "Jungmin Son",
+      "Yunseung Lee",
+      "Jaegul Choo",
+      "Youngjun Kwak"
+    ],
+    "published": "2026-06-04T06:14:08+00:00",
+    "updated": "2026-09-05T09:52:31+00:00",
+    "url": "https://arxiv.org/abs/2606.05743v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.05743v2",
+    "primary_category": "cs.CR",
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "topics": [
+      "agent-memory",
+      "agent-self-evolving"
+    ],
+    "doi": "",
+    "comment": "EMNLP 2026 Main",
+    "journal_ref": "",
+    "venue": "arXiv.org",
+    "venue_tier": "",
+    "venue_source": "Semantic Scholar publication metadata",
+    "acceptance_evidence": "",
+    "github_url": "",
+    "github_stars": null,
+    "citation_count": null,
+    "citation_source": "",
+    "affiliations": [],
+    "first_author_affiliations": [],
+    "industry_affiliations": [],
+    "industry_first_author_affiliations": [],
+    "affiliation_source": "",
+    "highlight_reasons": [],
+    "verified_at": "2026-08-12"
+  },
+  {
     "arxiv_id": "2606.06055",
     "title": "HUSH-Bench: Measuring Memory-Use Boundaries for Sensitive History in Conversational Agents",
     "abstract": "Long-term memory helps conversational agents maintain continuity across sessions, while relevance and current-turn warrant remain distinct decisions. We study this boundary under a stated conservative policy in which sensitive history shapes a response when the current turn supplies a reason to use it. We introduce HUSH-Bench, a controlled benchmark of 2,400 benign prompts paired with histories containing one marked sensitive disclosure and matched no-memory references. HUSH-Bench measures unsolicited history integration with the Unsolicited History Integration Score (UIS; 0--100, higher is worse), records whether the marked disclosure reaches the generator, and includes paired prompts that differ only in whether the user asks the assistant to use earlier context. We evaluate four models under no-memory, full-context, and three retrieval-based memory settings. Memory access raises UIS from near zero to 8.9--26.6 for one model and 51.3--83.0 for the other three. Retrieval systems expose the marked disclosure in 23.0\\%--30.3\\% of cases, while related sensitive entries or summaries remain available and three models continue to show high UIS. Across four generators, an explicit invitation increases target-memory uptake scores by 27.0--41.3; measured helpfulness remains stable while mean over-scope rises. These results motivate treating memory storage, retrieval, warrant, and per-turn scope as separate design decisions.",
@@ -21063,51 +21153,6 @@
     ],
     "topics": [
       "agent-memory"
-    ],
-    "doi": "",
-    "comment": "",
-    "journal_ref": "",
-    "venue": "",
-    "venue_tier": "",
-    "venue_source": "",
-    "acceptance_evidence": "",
-    "github_url": "",
-    "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
-    "affiliations": [],
-    "first_author_affiliations": [],
-    "industry_affiliations": [],
-    "industry_first_author_affiliations": [],
-    "affiliation_source": "",
-    "highlight_reasons": [],
-    "verified_at": "2026-08-12"
-  },
-  {
-    "arxiv_id": "2606.05743",
-    "title": "Membrane: A Self-Evolving Contrastive Safety Memory for LLM Agent Defense",
-    "abstract": "Despite advances in safety alignment, large language models remain vulnerable to continuously evolving jailbreaks. Existing fine-tuned safety classifiers cannot adapt to these evolving attacks, while adaptive memory-based guardrails tend to over-refuse benign queries that resemble stored attacks. We propose Membrane, a self-evolving guardrail built on Contrastive Safety Memory (CSM): each cell pairs the conditions for blocking a harmful query with those for permitting a superficially similar benign request. Without retraining, Membrane evolves CSM by distilling each harmful interaction and its benign counterpart into a contrastive cell indexed by the underlying attack strategy, so that one cell generalizes across topical variants of the same mechanism. At inference, retrieved cells serve as grounding context for precise safety decisions. Across model-level safety on HarmBench and agent-level safety on AgentHarm, Membrane achieves the highest F1 on all six jailbreak attacks. Notably, benign refusal on AgentHarm stays at 7-14%, well below the 28-85% range of prior guards. Memory cells also retain 87-88% F1 under cross-attack transfer and remain stable under memory poisoning.",
-    "authors": [
-      "Choi, Minseok",
-      "Yang, Seungbin",
-      "Kim, Dongjin",
-      "Kim, Subin",
-      "Son, Jungmin",
-      "Lee, Yunseung",
-      "Choo, Jaegul",
-      "Kwak, Youngjun"
-    ],
-    "published": "2026-06-04T00:00:00+00:00",
-    "updated": "2026-06-04T00:00:00+00:00",
-    "url": "https://arxiv.org/abs/2606.05743",
-    "pdf_url": "https://arxiv.org/pdf/2606.05743",
-    "primary_category": "cs.CR",
-    "categories": [
-      "cs.CR"
-    ],
-    "topics": [
-      "agent-memory",
-      "agent-self-evolving"
     ],
     "doi": "",
     "comment": "",
@@ -25615,6 +25660,59 @@
     "verified_at": "2026-08-12"
   },
   {
+    "arxiv_id": "2605.09395",
+    "title": "Empowering VLMs for Few-Shot Multimodal Time Series Classification via Tailored Agentic Reasoning",
+    "abstract": "In this paper, we propose the first VL\\underline{\\textbf{M}} \\underline{\\textbf{a}}gentic \\underline{\\textbf{r}}easoning framework for few-\\underline{\\textbf{s}}hot multimodal \\underline{\\textbf{T}}ime \\underline{\\textbf{S}}eries \\underline{\\textbf{C}}lassification (\\textsc{MarsTSC}), which introduces a self-evolving knowledge bank as a dynamic context iteratively refined via reflective agentic reasoning. The framework comprises three collaborative roles: i) Generator conducts reliable classification via reasoning; ii) Reflector diagnoses the root causes of reasoning errors to yield discriminative insights targeting the temporal features overlooked by Generator; iii) Modifier applies verified updates to the knowledge bank to prevent context collapse. We further introduce a test-time update strategy to enable cautious, continuous knowledge bank refinement to mitigate few-shot bias and distribution shift. Extensive experiments across 12 mainstream time series benchmark datasets demonstrate that \\method{} delivers substantial and consistent performance gains across 5 VLM backbones, outperforming both classical and foundation model-based time series baselines under few-shot conditions, while producing interpretable rationales that ground each classification decision in human-readable feature evidence. Code is available at https://github.com/HuangJW0821/MarsTSC.",
+    "authors": [
+      "Lin Li",
+      "Jiawei Huang",
+      "Qihao Quan",
+      "Dan Li",
+      "Boxin Li",
+      "Xiao Zhang",
+      "Erli Meng",
+      "Wenjie Feng",
+      "Jian Lou",
+      "See-Kiong Ng"
+    ],
+    "published": "2026-05-10T07:47:09+00:00",
+    "updated": "2026-09-05T07:22:37+00:00",
+    "url": "https://arxiv.org/abs/2605.09395v3",
+    "pdf_url": "https://arxiv.org/pdf/2605.09395v3",
+    "primary_category": "cs.AI",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.MA",
+      "cs.MM"
+    ],
+    "topics": [
+      "agent-self-evolving"
+    ],
+    "doi": "10.1145/3767308.3836170",
+    "comment": "17 pages, 12 figures, 8 tables. Accepted by ACM MM 2026",
+    "journal_ref": "",
+    "venue": "arXiv.org",
+    "venue_tier": "",
+    "venue_source": "Semantic Scholar publication metadata",
+    "acceptance_evidence": "",
+    "github_url": "",
+    "github_stars": null,
+    "citation_count": null,
+    "citation_source": "",
+    "affiliations": [
+      "Xiaomi AI lab"
+    ],
+    "first_author_affiliations": [],
+    "industry_affiliations": [
+      "Xiaomi"
+    ],
+    "industry_first_author_affiliations": [],
+    "affiliation_source": "Semantic Scholar author profiles",
+    "highlight_reasons": [],
+    "verified_at": ""
+  },
+  {
     "arxiv_id": "2605.09530",
     "title": "MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents",
     "abstract": "As LLM-powered agents are increasingly deployed in edge-cloud environments, personalized memory has become a key enabler of long-term adaptation and user-centric interaction. However, cloud-assisted memory management exposes sensitive user information, while existing privacy protection methods typically rely on aggressive masking that removes task-relevant semantics and consequently degrades memory utility and personalization quality. To address this challenge, We propose MemPrivacy, which identifies privacy-sensitive spans on edge devices, replaces them with semantically structured type-aware placeholders for cloud-side memory processing, and restores the original values locally when needed. By decoupling privacy protection from semantic destruction, MemPrivacy minimizes sensitive data exposure while retaining the information required for effective memory formation and retrieval. We also construct MemPrivacy-Bench for systematic evaluation, a dataset covering 200 users and over 155k privacy instances, and introduce a four-level privacy taxonomy for configurable protection policies. Experiments show that MemPrivacy achieves strong performance in privacy information extraction, substantially surpassing strong general-purpose models such as GPT-5.2 and Gemini-3.1-Pro, while also reducing inference latency. Across multiple widely used memory systems, MemPrivacy limits utility loss to within 1.6%, outperforming baseline masking strategies. Overall, MemPrivacy offers an effective balance between privacy protection and personalized memory utility for edge-cloud agents, enabling secure, practical, and user-transparent deployment.",
@@ -28292,6 +28390,60 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "2026-08-12"
+  },
+  {
+    "arxiv_id": "2604.16625",
+    "title": "AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation",
+    "abstract": "Recent large language model (LLM) agents have shown promise in using execution feedback for test-time adaptation. However, robust self-improvement remains far from solved: most approaches still treat each problem instance independently, without accumulating reusable knowledge. This limitation is particularly pronounced in domain-specific languages such as Triton, which are underrepresented in LLM pretraining data. Their strict constraints and non-linear optimization landscape further make naive generation and local refinement unreliable. We propose AdaExplore, an agent framework that enables self-improvement via accumulated execution feedback for performance-critical kernel code generation through two complementary stages: failure-driven adaptation and diversity-preserving search, jointly improving correctness and optimization performance without additional fine-tuning or external knowledge. In the adaptation stage, the agent synthesizes tasks and converts recurring failures into a reusable memory of validity rules, helping subsequent generations remain within the feasible set. In the search stage, the agent organizes candidate kernels as a tree and alternates between small local refinements and larger structural regeneration, allowing it to explore the optimization landscape beyond local optima. Experiments on kernel runtime optimization benchmarks validate these gains: AdaExplore achieves 3.11x and 1.62x speedups on KernelBench Level-2 and Level-3, respectively, within 100 steps, and continues to improve with additional computation.",
+    "authors": [
+      "Weihua Du",
+      "Jingming Zhuo",
+      "Yixin Dong",
+      "Andre Wang He",
+      "Weiwei Sun",
+      "Zeyu Zheng",
+      "Manupa Karunaratne",
+      "Ivan Fox",
+      "Tim Dettmers",
+      "Tianqi Chen",
+      "Yiming Yang",
+      "Sean Welleck"
+    ],
+    "published": "2026-04-17T18:25:03+00:00",
+    "updated": "2026-09-05T19:20:47+00:00",
+    "url": "https://arxiv.org/abs/2604.16625v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.16625v2",
+    "primary_category": "cs.CL",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "topics": [
+      "agent-self-evolving"
+    ],
+    "doi": "",
+    "comment": "Preliminary work. The implementation is available at https://github.com/StigLidu/AdaExplore",
+    "journal_ref": "",
+    "venue": "arXiv.org",
+    "venue_tier": "",
+    "venue_source": "Semantic Scholar publication metadata",
+    "acceptance_evidence": "",
+    "github_url": "",
+    "github_stars": null,
+    "citation_count": null,
+    "citation_source": "",
+    "affiliations": [
+      "Carnegie Mellon University"
+    ],
+    "first_author_affiliations": [
+      "Carnegie Mellon University"
+    ],
+    "industry_affiliations": [],
+    "industry_first_author_affiliations": [],
+    "affiliation_source": "Semantic Scholar author profiles",
+    "highlight_reasons": [],
+    "verified_at": ""
   },
   {
     "arxiv_id": "2604.15671",

@@ -24,11 +24,11 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 
 | Metric | Count |
 | --- | ---: |
-| Total papers | 941 |
-| Agent self-evolving | 308 |
-| Agent memory | 569 |
+| Total papers | 944 |
+| Agent self-evolving | 310 |
+| Agent memory | 570 |
 | LLM continual training | 124 |
-| Daily archives | 4 |
+| Daily archives | 5 |
 
 ## 📚 Table of Contents
 
@@ -93,9 +93,9 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 | [2026-01](papers/2026/01/README.md) | 81 | 14 | 65 | 9 |
 | [2026-02](papers/2026/02/README.md) | 70 | 15 | 53 | 8 |
 | [2026-03](papers/2026/03/README.md) | 75 | 12 | 62 | 9 |
-| [2026-04](papers/2026/04/README.md) | 81 | 14 | 65 | 8 |
-| [2026-05](papers/2026/05/README.md) | 116 | 27 | 95 | 6 |
-| [2026-06](papers/2026/06/README.md) | 112 | 29 | 81 | 8 |
+| [2026-04](papers/2026/04/README.md) | 82 | 15 | 65 | 8 |
+| [2026-05](papers/2026/05/README.md) | 117 | 28 | 95 | 6 |
+| [2026-06](papers/2026/06/README.md) | 113 | 29 | 82 | 8 |
 | [2026-07](papers/2026/07/README.md) | 120 | 47 | 64 | 14 |
 | [2026-08](papers/2026/08/README.md) | 252 | 136 | 76 | 49 |
 | [2026-09](papers/2026/09/README.md) | 17 | 8 | 7 | 3 |
@@ -137,6 +137,7 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 
 ## 🗓️ Daily Archive
 
+- [2026-09-09](papers/2026/09/2026-09-09.md)
 - [2026-09-05](papers/2026/09/2026-09-05.md)
 - [2026-08-25](papers/2026/08/2026-08-25.md)
 - [2026-07-28](papers/2026/07/2026-07-28.md)
