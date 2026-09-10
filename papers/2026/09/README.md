@@ -2,10 +2,14 @@
 
 [← Back to main index](../../../README.md)
 
-> 17 unique papers · Self-Evolving 8 · Memory 7 · Continual Training 3
+> 21 unique papers · Self-Evolving 10 · Memory 8 · Continual Training 4
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
+| 2026-09-09 | Self-Evolving | [A-JIT: Agentic Just-In-Time Software Construction](https://arxiv.org/abs/2609.10248v1)<br>[PDF](https://arxiv.org/pdf/2609.10248v1) | arXiv | — | — |
+| 2026-09-09 | Self-Evolving | [ADMET-EvO: a self-evolving scientific agent for sustained research across heterogeneous tasks](https://arxiv.org/abs/2609.10121v1)<br>[PDF](https://arxiv.org/pdf/2609.10121v1) | arXiv | — | — |
+| 2026-09-09 | Continual Training | [Deep and shallow biases in language models](https://arxiv.org/abs/2609.09901v1)<br>[PDF](https://arxiv.org/pdf/2609.09901v1) | arXiv | — | — |
+| 2026-09-09 | Memory | [ROAM: Robust Organization of Atomic Memories for Agents through Semantic Relations](https://arxiv.org/abs/2609.09778v1)<br>[PDF](https://arxiv.org/pdf/2609.09778v1) | arXiv | — | — |
 | 2026-09-03 | Self-Evolving<br>Continual Training | [SimSkill: A Lifelong Learning AI Agent for Autonomous Mastery of Traffic Simulation](https://arxiv.org/abs/2609.03753v1)<br>[PDF](https://arxiv.org/pdf/2609.03753v1) | arXiv | — | — |
 | 2026-09-03 | Memory | [Plan Pointers and Record-Directive Form in Budgeted Verification of Inherited Agent Memory](https://arxiv.org/abs/2609.03450v1)<br>[PDF](https://arxiv.org/pdf/2609.03450v1) | arXiv | — | — |
 | 2026-09-03 | Memory | [The Civilization Framework: Sovereign-Anchored Communication Between Personal Multi-Agent Systems](https://arxiv.org/abs/2609.03425v1)<br>[PDF](https://arxiv.org/pdf/2609.03425v1) | arXiv | — | — |

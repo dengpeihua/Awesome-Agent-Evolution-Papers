@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 75 unique papers · Self-Evolving 12 · Memory 62 · Continual Training 9
+> 76 unique papers · Self-Evolving 13 · Memory 62 · Continual Training 9
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -60,6 +60,7 @@
 | 2026-03-11 | Memory<br>Self-Evolving | [Hybrid Self-evolving Structured Memory for GUI Agents](https://arxiv.org/abs/2603.10291)<br>[PDF](https://arxiv.org/pdf/2603.10291) | arXiv | — | — |
 | 2026-03-10 | Memory | [AutoAgent: Evolving Cognition and Elastic Memory Orchestration for Adaptive Agents](https://arxiv.org/abs/2603.09716)<br>[PDF](https://arxiv.org/pdf/2603.09716) | arXiv | — | — |
 | 2026-03-10 | Memory | [TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA](https://arxiv.org/abs/2603.09297)<br>[PDF](https://arxiv.org/pdf/2603.09297) | arXiv | — | — |
+| 2026-03-09 | Self-Evolving | [RL unknotter, hard unknots and unknotting number](https://arxiv.org/abs/2603.07955v4)<br>[PDF](https://arxiv.org/pdf/2603.07955v4) | arXiv.org | — | — |
 | 2026-03-09 | Memory | [Multi-Agent Memory from a Computer Architecture Perspective: Visions and Challenges Ahead](https://arxiv.org/abs/2603.10062)<br>[PDF](https://arxiv.org/pdf/2603.10062) | arXiv | — | — |
 | 2026-03-09 | Memory | [MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games](https://arxiv.org/abs/2603.09022)<br>[PDF](https://arxiv.org/pdf/2603.09022) | arXiv | — | [GitHub ★ 28](https://github.com/openverse-ai/MEMO) |
 | 2026-03-08 | Memory | [Did You Check the Right Pocket? Cost-Sensitive Store Routing for Memory-Augmented Agents](https://arxiv.org/abs/2603.15658)<br>[PDF](https://arxiv.org/pdf/2603.15658) | arXiv | — | — |

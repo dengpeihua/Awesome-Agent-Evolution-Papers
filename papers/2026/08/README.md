@@ -181,7 +181,7 @@
 | 2026-08-10 | Continual Training | [Agentic Router: An Execution-Grounded Continual Learning Approach With Memory](https://arxiv.org/abs/2608.09184v1)<br>[PDF](https://arxiv.org/pdf/2608.09184v1) | arXiv | — | — |
 | 2026-08-10 | Self-Evolving | [Social Gym and SPaRTan: Benchmarking and Improving LLM Social Reasoning via Multi-Agent Game Tournaments](https://arxiv.org/abs/2608.09128v1)<br>[PDF](https://arxiv.org/pdf/2608.09128v1) | arXiv | — | — |
 | 2026-08-10 | Self-Evolving | [Tree-of-Experience: Hierarchical Experience Management for Self-Evolving Agents](https://arxiv.org/abs/2608.09044v2)<br>[PDF](https://arxiv.org/pdf/2608.09044v2) | arXiv | — | — |
-| 2026-08-10 | Memory | [Muscle Memory for Agents: Compile not Merely Retrieve](https://arxiv.org/abs/2608.08995v1)<br>[PDF](https://arxiv.org/pdf/2608.08995v1) | arXiv | — | — |
+| 2026-08-10 | Memory | [Muscle Memory for Agents: Compile not Merely Retrieve](https://arxiv.org/abs/2608.08995v2)<br>[PDF](https://arxiv.org/pdf/2608.08995v2) | arXiv | — | — |
 | 2026-08-09 | Self-Evolving | [Yesterday's Shield, Today's Spear: A Self-Evolving Safety Guardrail in Production](https://arxiv.org/abs/2608.08471v1)<br>[PDF](https://arxiv.org/pdf/2608.08471v1) | arXiv | — | — |
 | 2026-08-09 | Self-Evolving | [Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses](https://arxiv.org/abs/2608.08466v1)<br>[PDF](https://arxiv.org/pdf/2608.08466v1) | arXiv | — | — |
 | 2026-08-08 | Self-Evolving | [Query-Only Backdoor Attacks on Self-Evolving Skills via Trajectory Poisoning](https://arxiv.org/abs/2608.08303v1)<br>[PDF](https://arxiv.org/pdf/2608.08303v1) | arXiv | — | — |
