@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 82 unique papers · Self-Evolving 15 · Memory 65 · Continual Training 8
+> 83 unique papers · Self-Evolving 16 · Memory 65 · Continual Training 8
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -32,6 +32,7 @@
 | 2026-04-21 | Memory | [Mesh Memory Protocol: Semantic Infrastructure for Multi-Agent LLM Systems](https://arxiv.org/abs/2604.19540)<br>[PDF](https://arxiv.org/pdf/2604.19540) | arXiv | — | — |
 | 2026-04-20 | Memory | [HiGMem: A Hierarchical and LLM-Guided Memory System for Long-Term Conversational Agents](https://arxiv.org/abs/2604.18349)<br>[PDF](https://arxiv.org/pdf/2604.18349) | arXiv | — | [GitHub ★ 8](https://github.com/ZeroLoss-Lab/HiGMem) |
 | 2026-04-20 | Memory | [EmbodiedLGR: Integrating Lightweight Graph Representation and Retrieval for Semantic-Spatial Memory in Robotic Agents](https://arxiv.org/abs/2604.18271)<br>[PDF](https://arxiv.org/pdf/2604.18271) | arXiv | — | — |
+| 2026-04-19 | Self-Evolving | [EvoMaster: A Foundational Evolving Agent Framework for Agentic Science at Scale](https://arxiv.org/abs/2604.17406v5)<br>[PDF](https://arxiv.org/pdf/2604.17406v5) | arXiv | — | — |
 | 2026-04-19 | Self-Evolving | [Towards Self-Improving Error Diagnosis in Multi-Agent Systems](https://arxiv.org/abs/2604.17658)<br>[PDF](https://arxiv.org/pdf/2604.17658) | arXiv | — | — |
 | 2026-04-19 | Memory | [MemSearch-o1: Empowering Large Language Models with Reasoning-Aligned Memory Growth in Agentic Search](https://arxiv.org/abs/2604.17265)<br>[PDF](https://arxiv.org/pdf/2604.17265) | arXiv | — | — |
 | 2026-04-18 | Self-Evolving | [FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills](https://arxiv.org/abs/2607.21596v2)<br>[PDF](https://arxiv.org/pdf/2607.21596v2) | COLM 2026 | 🏆 Top venue: COLM 2026 | — |

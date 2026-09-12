@@ -24,11 +24,11 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 
 | Metric | Count |
 | --- | ---: |
-| Total papers | 949 |
-| Agent self-evolving | 313 |
-| Agent memory | 571 |
+| Total papers | 953 |
+| Agent self-evolving | 315 |
+| Agent memory | 573 |
 | LLM continual training | 125 |
-| Daily archives | 6 |
+| Daily archives | 7 |
 
 ## 📚 Table of Contents
 
@@ -93,22 +93,25 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 | [2026-01](papers/2026/01/README.md) | 81 | 14 | 65 | 9 |
 | [2026-02](papers/2026/02/README.md) | 70 | 15 | 53 | 8 |
 | [2026-03](papers/2026/03/README.md) | 76 | 13 | 62 | 9 |
-| [2026-04](papers/2026/04/README.md) | 82 | 15 | 65 | 8 |
+| [2026-04](papers/2026/04/README.md) | 83 | 16 | 65 | 8 |
 | [2026-05](papers/2026/05/README.md) | 117 | 28 | 95 | 6 |
 | [2026-06](papers/2026/06/README.md) | 113 | 29 | 82 | 8 |
 | [2026-07](papers/2026/07/README.md) | 120 | 47 | 64 | 14 |
 | [2026-08](papers/2026/08/README.md) | 252 | 136 | 76 | 49 |
-| [2026-09](papers/2026/09/README.md) | 21 | 10 | 8 | 4 |
+| [2026-09](papers/2026/09/README.md) | 24 | 11 | 10 | 4 |
 
 ## 📝 Latest Papers
 
 | Published | Track | Paper | Links |
 | --- | --- | --- | --- |
+| 2026-09-10 | Agent Self-Evolving | [Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents](https://arxiv.org/abs/2609.11677v1) | [Paper](https://arxiv.org/abs/2609.11677v1) / [PDF](https://arxiv.org/pdf/2609.11677v1) |
+| 2026-09-10 | Agent Memory | [But How Would AI Agents Run a Town's Economy?](https://arxiv.org/abs/2609.11108v1) | [Paper](https://arxiv.org/abs/2609.11108v1) / [PDF](https://arxiv.org/pdf/2609.11108v1) |
+| 2026-09-10 | Agent Memory | [Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents](https://arxiv.org/abs/2609.11060v1) | [Paper](https://arxiv.org/abs/2609.11060v1) / [PDF](https://arxiv.org/pdf/2609.11060v1) |
 | 2026-09-09 | Agent Self-Evolving | [A-JIT: Agentic Just-In-Time Software Construction](https://arxiv.org/abs/2609.10248v1) | [Paper](https://arxiv.org/abs/2609.10248v1) / [PDF](https://arxiv.org/pdf/2609.10248v1) |
-| 2026-09-09 | Agent Self-Evolving | [ADMET-EvO: a self-evolving scientific agent for sustained research across heterogeneous tasks](https://arxiv.org/abs/2609.10121v1) | [Paper](https://arxiv.org/abs/2609.10121v1) / [PDF](https://arxiv.org/pdf/2609.10121v1) |
+| 2026-09-09 | Agent Self-Evolving | [ADMET-EvO: a self-evolving scientific agent for sustained research across heterogeneous tasks](https://arxiv.org/abs/2609.10121v2) | [Paper](https://arxiv.org/abs/2609.10121v2) / [PDF](https://arxiv.org/pdf/2609.10121v2) |
 | 2026-09-09 | LLM Continual Training | [Deep and shallow biases in language models](https://arxiv.org/abs/2609.09901v1) | [Paper](https://arxiv.org/abs/2609.09901v1) / [PDF](https://arxiv.org/pdf/2609.09901v1) |
 | 2026-09-09 | Agent Memory | [ROAM: Robust Organization of Atomic Memories for Agents through Semantic Relations](https://arxiv.org/abs/2609.09778v1) | [Paper](https://arxiv.org/abs/2609.09778v1) / [PDF](https://arxiv.org/pdf/2609.09778v1) |
-| 2026-09-03 | Agent Self-Evolving, LLM Continual Training | [SimSkill: A Lifelong Learning AI Agent for Autonomous Mastery of Traffic Simulation](https://arxiv.org/abs/2609.03753v1) | [Paper](https://arxiv.org/abs/2609.03753v1) / [PDF](https://arxiv.org/pdf/2609.03753v1) |
+| 2026-09-03 | Agent Self-Evolving, LLM Continual Training | [SimSkill: A Self-Evolving LLM Agent for Skill and Knowledge Accumulation in Traffic Simulation](https://arxiv.org/abs/2609.03753v2) | [Paper](https://arxiv.org/abs/2609.03753v2) / [PDF](https://arxiv.org/pdf/2609.03753v2) |
 | 2026-09-03 | Agent Memory | [Plan Pointers and Record-Directive Form in Budgeted Verification of Inherited Agent Memory](https://arxiv.org/abs/2609.03450v1) | [Paper](https://arxiv.org/abs/2609.03450v1) / [PDF](https://arxiv.org/pdf/2609.03450v1) |
 | 2026-09-03 | Agent Memory | [The Civilization Framework: Sovereign-Anchored Communication Between Personal Multi-Agent Systems](https://arxiv.org/abs/2609.03425v1) | [Paper](https://arxiv.org/abs/2609.03425v1) / [PDF](https://arxiv.org/pdf/2609.03425v1) |
 | 2026-09-03 | Agent Memory | [Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory](https://arxiv.org/abs/2609.03340v1) | [Paper](https://arxiv.org/abs/2609.03340v1) / [PDF](https://arxiv.org/pdf/2609.03340v1) |
@@ -131,12 +134,10 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 | 2026-08-31 | Agent Self-Evolving | [S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?](https://arxiv.org/abs/2608.31100v1) | [Paper](https://arxiv.org/abs/2608.31100v1) / [PDF](https://arxiv.org/pdf/2608.31100v1) |
 | 2026-08-31 | Agent Self-Evolving | [S3C-LLM: Skill-Code Guided Agentic Language Models for Spectrum-to-Structure Elucidation](https://arxiv.org/abs/2608.30910v1) | [Paper](https://arxiv.org/abs/2608.30910v1) / [PDF](https://arxiv.org/pdf/2608.30910v1) |
 | 2026-08-31 | Agent Self-Evolving | [SkillZip Pro: Execution-Aware Dynamic Compression of Progressively Loaded Skills for Self-Evolving Agents](https://arxiv.org/abs/2608.30785v1) | [Paper](https://arxiv.org/abs/2608.30785v1) / [PDF](https://arxiv.org/pdf/2608.30785v1) |
-| 2026-08-31 | Agent Self-Evolving | [PRACTICE: From Experience to Expertise in Self-Evolving Embodied Agents](https://arxiv.org/abs/2608.30760v1) | [Paper](https://arxiv.org/abs/2608.30760v1) / [PDF](https://arxiv.org/pdf/2608.30760v1) |
-| 2026-08-31 | LLM Continual Training | [Reading the News: Adapting Large Language Models to Swedish Journalism Through Continued Pre-Training](https://arxiv.org/abs/2608.30609v1) | [Paper](https://arxiv.org/abs/2608.30609v1) / [PDF](https://arxiv.org/pdf/2608.30609v1) |
-| 2026-08-31 | LLM Continual Training | [KItCAT: Knowledge Injection via Input Corruption for Auto-regressive Training](https://arxiv.org/abs/2609.00082v1) | [Paper](https://arxiv.org/abs/2609.00082v1) / [PDF](https://arxiv.org/pdf/2609.00082v1) |
 
 ## 🗓️ Daily Archive
 
+- [2026-09-12](papers/2026/09/2026-09-12.md)
 - [2026-09-10](papers/2026/09/2026-09-10.md)
 - [2026-09-09](papers/2026/09/2026-09-09.md)
 - [2026-09-05](papers/2026/09/2026-09-05.md)

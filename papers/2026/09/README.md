@@ -2,15 +2,18 @@
 
 [← Back to main index](../../../README.md)
 
-> 21 unique papers · Self-Evolving 10 · Memory 8 · Continual Training 4
+> 24 unique papers · Self-Evolving 11 · Memory 10 · Continual Training 4
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
+| 2026-09-10 | Self-Evolving | [Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents](https://arxiv.org/abs/2609.11677v1)<br>[PDF](https://arxiv.org/pdf/2609.11677v1) | arXiv | — | — |
+| 2026-09-10 | Memory | [But How Would AI Agents Run a Town's Economy?](https://arxiv.org/abs/2609.11108v1)<br>[PDF](https://arxiv.org/pdf/2609.11108v1) | arXiv | — | — |
+| 2026-09-10 | Memory | [Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents](https://arxiv.org/abs/2609.11060v1)<br>[PDF](https://arxiv.org/pdf/2609.11060v1) | arXiv | — | — |
 | 2026-09-09 | Self-Evolving | [A-JIT: Agentic Just-In-Time Software Construction](https://arxiv.org/abs/2609.10248v1)<br>[PDF](https://arxiv.org/pdf/2609.10248v1) | arXiv | — | — |
-| 2026-09-09 | Self-Evolving | [ADMET-EvO: a self-evolving scientific agent for sustained research across heterogeneous tasks](https://arxiv.org/abs/2609.10121v1)<br>[PDF](https://arxiv.org/pdf/2609.10121v1) | arXiv | — | — |
+| 2026-09-09 | Self-Evolving | [ADMET-EvO: a self-evolving scientific agent for sustained research across heterogeneous tasks](https://arxiv.org/abs/2609.10121v2)<br>[PDF](https://arxiv.org/pdf/2609.10121v2) | arXiv | — | — |
 | 2026-09-09 | Continual Training | [Deep and shallow biases in language models](https://arxiv.org/abs/2609.09901v1)<br>[PDF](https://arxiv.org/pdf/2609.09901v1) | arXiv | — | — |
 | 2026-09-09 | Memory | [ROAM: Robust Organization of Atomic Memories for Agents through Semantic Relations](https://arxiv.org/abs/2609.09778v1)<br>[PDF](https://arxiv.org/pdf/2609.09778v1) | arXiv | — | — |
-| 2026-09-03 | Self-Evolving<br>Continual Training | [SimSkill: A Lifelong Learning AI Agent for Autonomous Mastery of Traffic Simulation](https://arxiv.org/abs/2609.03753v1)<br>[PDF](https://arxiv.org/pdf/2609.03753v1) | arXiv | — | — |
+| 2026-09-03 | Self-Evolving<br>Continual Training | [SimSkill: A Self-Evolving LLM Agent for Skill and Knowledge Accumulation in Traffic Simulation](https://arxiv.org/abs/2609.03753v2)<br>[PDF](https://arxiv.org/pdf/2609.03753v2) | arXiv | — | — |
 | 2026-09-03 | Memory | [Plan Pointers and Record-Directive Form in Budgeted Verification of Inherited Agent Memory](https://arxiv.org/abs/2609.03450v1)<br>[PDF](https://arxiv.org/pdf/2609.03450v1) | arXiv | — | — |
 | 2026-09-03 | Memory | [The Civilization Framework: Sovereign-Anchored Communication Between Personal Multi-Agent Systems](https://arxiv.org/abs/2609.03425v1)<br>[PDF](https://arxiv.org/pdf/2609.03425v1) | arXiv | — | — |
 | 2026-09-03 | Memory | [Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory](https://arxiv.org/abs/2609.03340v1)<br>[PDF](https://arxiv.org/pdf/2609.03340v1) | arXiv | — | — |

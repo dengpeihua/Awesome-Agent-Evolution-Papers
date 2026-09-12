@@ -20,7 +20,7 @@
 | 2026-08-31 | Self-Evolving | [ECLIPSE: Self-Evolving Stealthy Prompt Injection Attack against Long-Horizon Agentic Systems](https://arxiv.org/abs/2608.30441v1)<br>[PDF](https://arxiv.org/pdf/2608.30441v1) | arXiv | — | — |
 | 2026-08-31 | Self-Evolving | [EvoSkill Injection: Red-Teaming Autonomous Skill Generation and Evolution in Self-Evolving Agents](https://arxiv.org/abs/2608.30429v1)<br>[PDF](https://arxiv.org/pdf/2608.30429v1) | EMNLP 2026 | 🏆 Top venue: EMNLP 2026 | — |
 | 2026-08-31 | Continual Training | [Augmenting Human Performance with an XR Agent Learning from Online Behavior and BCI Evidence](https://arxiv.org/abs/2608.30369v1)<br>[PDF](https://arxiv.org/pdf/2608.30369v1) | arXiv | — | — |
-| 2026-08-31 | Self-Evolving | [Motus2: A Self-Evolving General World Model for Dexterous Manipulation](https://arxiv.org/abs/2608.30237v1)<br>[PDF](https://arxiv.org/pdf/2608.30237v1) | arXiv | — | — |
+| 2026-08-31 | Self-Evolving | [Motus2: A Self-Evolving General World Model for Dexterous Manipulation](https://arxiv.org/abs/2608.30237v2)<br>[PDF](https://arxiv.org/pdf/2608.30237v2) | arXiv | — | — |
 | 2026-08-31 | Self-Evolving | [SIR: Self-improving Red-teaming for Compute Use Agents](https://arxiv.org/abs/2608.30207v1)<br>[PDF](https://arxiv.org/pdf/2608.30207v1) | arXiv | — | — |
 | 2026-08-31 | Memory | [Understanding Stage-Wise Utility-Risk Trade-offs in LLM Agent Memory](https://arxiv.org/abs/2608.30177v1)<br>[PDF](https://arxiv.org/pdf/2608.30177v1) | arXiv | — | — |
 | 2026-08-30 | Self-Evolving | [Auditing Harness Tampering in Self-Improving Agents](https://arxiv.org/abs/2609.00069v1)<br>[PDF](https://arxiv.org/pdf/2609.00069v1) | arXiv | — | — |
@@ -158,7 +158,7 @@
 | 2026-08-12 | Memory | [Towards a Formal Definition of Agent Memory: Basis, Span, Optimality, and the Sequential Memory Problem](https://arxiv.org/abs/2608.11654v1)<br>[PDF](https://arxiv.org/pdf/2608.11654v1) | arXiv | — | — |
 | 2026-08-12 | Continual Training | [Luna-TTS Family Technical Report](https://arxiv.org/abs/2608.11593v1)<br>[PDF](https://arxiv.org/pdf/2608.11593v1) | arXiv | — | — |
 | 2026-08-11 | Continual Training | [Measure, Don't Optimize: Forecasting Recovery in LLM Unlearning](https://arxiv.org/abs/2608.11408v1)<br>[PDF](https://arxiv.org/pdf/2608.11408v1) | arXiv | — | — |
-| 2026-08-11 | Self-Evolving | [Self-Evolving Embodied Agents via Skill-Harness Evolution](https://arxiv.org/abs/2608.11350v1)<br>[PDF](https://arxiv.org/pdf/2608.11350v1) | arXiv | — | — |
+| 2026-08-11 | Self-Evolving | [Self-Evolving Embodied Agents via Skill-Harness Evolution](https://arxiv.org/abs/2608.11350v2)<br>[PDF](https://arxiv.org/pdf/2608.11350v2) | arXiv | — | — |
 | 2026-08-11 | Self-Evolving | [Self-evolving network verifiers](https://arxiv.org/abs/2608.11340v1)<br>[PDF](https://arxiv.org/pdf/2608.11340v1) | arXiv | — | — |
 | 2026-08-11 | Self-Evolving | [Test-Time Self-Evolving GUI Visual Grounding via Reflection-Guided On-Policy Self-Distillation](https://arxiv.org/abs/2608.11191v1)<br>[PDF](https://arxiv.org/pdf/2608.11191v1) | arXiv | — | — |
 | 2026-08-11 | Continual Training | [Evaluating Agentic Learning Harness Capabilities Without Labels via the Scaling Hypothesis](https://arxiv.org/abs/2608.13608v1)<br>[PDF](https://arxiv.org/pdf/2608.13608v1) | arXiv | — | — |
