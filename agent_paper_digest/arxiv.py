@@ -197,7 +197,7 @@ class ArxivSource:
                 'OR all:"continual adaptation" OR all:"continual pre-training" '
                 'OR all:"continual post-training" OR all:"continual fine-tuning" '
                 'OR all:"online adaptation" OR all:"lifelong learning" '
-                'OR all:"catastrophic forgetting") '
+                'OR all:"life-long learning" OR all:"catastrophic forgetting") '
                 'AND (all:"large language model" OR all:"language model" '
                 'OR all:"foundation model" OR all:"LLM"))'
             ),

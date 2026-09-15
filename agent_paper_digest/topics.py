@@ -58,7 +58,7 @@ AGENT_MEMORY_PATTERN: Final = re.compile(
     re.IGNORECASE,
 )
 CONTINUAL_TRAINING_PATTERN: Final = re.compile(
-    r"\b(?:(?:continual|continued|continuous|lifelong|online)\s+"
+    r"\b(?:(?:continual|continued|continuous|life[- ]long|online)\s+"
     r"(?:pre[- ]?train\w*|post[- ]?train\w*|train\w*|fine[- ]?tun\w*|"
     r"adapt\w*|learn\w*)|catastrophic forgetting|knowledge retention)\b",
     re.IGNORECASE,
