@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-15T04:47:54.783617+00:00",
+  "policy": {
+    "required_topics": [
+      "agent-self-evolving",
+      "agent-memory",
+      "llm-continual-training"
+    ],
+    "qualifiers": [
+      "CCF-A Artificial Intelligence Full/Regular paper",
+      "ECCV or EMNLP Full/Regular paper",
+      "verified big-tech paper or first-author affiliation",
+      "at least 10 citations"
+    ],
+    "code_stars_are_qualifying": false
+  },
+  "candidate_count": 953,
+  "public_paper_count": 67,
+  "topic_counts": {
+    "agent-self-evolving": 31,
+    "agent-memory": 31,
+    "llm-continual-training": 14
+  },
+  "qualification_counts": {
+    "CCF-A": 6,
+    "Highly cited": 41,
+    "Industry": 8,
+    "Selected venue": 17
+  },
+  "notes": [
+    "Qualification counts overlap when one paper meets multiple criteria.",
+    "Unqualified topical candidates stay only in the ignored local candidate cache.",
+    "Citation counts are source-attributed snapshots and may change over time."
+  ]
+}

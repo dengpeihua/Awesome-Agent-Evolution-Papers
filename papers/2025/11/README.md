@@ -6,7 +6,7 @@
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 2025-11-24 | Self-Evolving | [VDC-Agent: When Video Detailed Captioners Evolve Themselves via Agentic Self-Reflection](https://arxiv.org/abs/2511.19436v2)<br>[PDF](https://arxiv.org/pdf/2511.19436v2) | ECCV 2026 | 🏆 Top venue: ECCV 2026 | — |
+| 2025-11-24 | Self-Evolving | [VDC-Agent: When Video Detailed Captioners Evolve Themselves via Agentic Self-Reflection](https://arxiv.org/abs/2511.19436v2)<br>[PDF](https://arxiv.org/pdf/2511.19436v2) | ECCV 2026 | 🏅 ECCV / EMNLP: ECCV 2026 | Citations: 4 (Semantic Scholar) |
 
 ## Notes
 

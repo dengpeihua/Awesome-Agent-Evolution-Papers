@@ -1,3 +1,5 @@
+from dataclasses import replace
+
 from agent_paper_digest.models import Paper
 from agent_paper_digest.wecom import build_digest_markdown, split_markdown
 from tests.test_archive import make_paper
@@ -20,6 +22,27 @@ def test_digest_markdown_groups_topics_and_limits_papers() -> None:
     assert "查看完整归档" in markdown
 
 
+def test_digest_puts_priority_papers_first_and_includes_evidence() -> None:
+    ordinary = make_paper("2607.00001", topics=("agent-memory",))
+    priority = replace(
+        make_paper("2607.00002", topics=("agent-memory",)),
+        venue="ACL 2026",
+        venue_tier="ccf-a",
+        acceptance_evidence="arXiv comment: Accepted to ACL 2026",
+    )
+
+    markdown = build_digest_markdown(
+        [ordinary, priority],
+        archive_url="archive",
+        max_papers=1,
+    )
+
+    assert "Paper 2607.00002" in markdown
+    assert "Paper 2607.00001" not in markdown
+    assert "CCF-A: ACL 2026" in markdown
+    assert "Accepted to ACL 2026" in markdown
+
+
 def test_split_markdown_never_exceeds_wecom_limit() -> None:
     text = "# Digest\n" + "\n".join(f"- item {index} " + ("x" * 200) for index in range(50))
 
@@ -28,4 +51,3 @@ def test_split_markdown_never_exceeds_wecom_limit() -> None:
     assert len(chunks) > 1
     assert all(len(chunk.encode("utf-8")) <= 1000 for chunk in chunks)
     assert "item 49" in chunks[-1]
-

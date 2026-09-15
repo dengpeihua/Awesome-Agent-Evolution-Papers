@@ -1,6 +1,6 @@
 [project]
 name = "awesome-agent-evolution-papers"
-version = "0.1.0"
+version = "0.3.0"
 description = "Daily agent evolution, memory, and LLM continual training paper digest for AstrBot"
 requires-python = ">=3.12"
 dependencies = [

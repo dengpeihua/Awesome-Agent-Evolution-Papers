@@ -27,7 +27,7 @@
   },
   "lookback_days": {
     "type": "int",
-    "description": "每次回看最近多少天，去重后不会重复推送",
+    "description": "首次运行且无历史游标时的回看天数；之后自动从上次成功时间连续补推",
     "default": 2
   },
   "max_results_per_topic": {
@@ -39,6 +39,17 @@
     "type": "int",
     "description": "企业微信单次摘要最多展示的论文数",
     "default": 8
+  },
+  "semantic_scholar_enrichment": {
+    "type": "bool",
+    "description": "使用 Semantic Scholar 批量补充作者单位和正式发表会议信息",
+    "default": true
+  },
+  "semantic_scholar_api_key": {
+    "type": "string",
+    "description": "可选的 Semantic Scholar API Key",
+    "default": "",
+    "hint": "留空时使用公共限流；如填写，仅保存在 AstrBot 本地配置，切勿提交到 Git"
   },
   "wecom_webhook_url": {
     "type": "string",
@@ -80,7 +91,7 @@
   "run_on_startup": {
     "type": "bool",
     "description": "插件启动后立即运行一次",
-    "default": false
+    "default": true
   },
   "notify_when_empty": {
     "type": "bool",
@@ -88,4 +99,3 @@
     "default": true
   }
 }
-

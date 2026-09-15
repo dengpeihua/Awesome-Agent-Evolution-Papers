@@ -1,59 +1,24 @@
-# 2026 Agent Evolution Literature Audit
+# Agent Evolution Curated Corpus Audit
 
 ## Scope
 
-- Cutoff: 2026-08-12 (Asia/Shanghai request date)
-- Tracks: Agent Self-Evolving, Agent Memory, LLM Continual Training
-- Sources used for candidate recall: three specialist, continuously maintained
-  literature indexes listed in `data/backfill_2026_audit.json`
-- Canonical verification: arXiv paper pages and ACL Anthology; GitHub REST API for
-  stars; exact-title Google Scholar checks for prioritized papers
+The public corpus is a strict intersection: every paper must address Agent Self-Evolving, Agent Memory, or LLM Continual Training and meet at least one verified qualification criterion.
 
-## Search strategy
+## Current result
 
-The search combined strong phrase families rather than one literal query:
+- Topic candidates evaluated: **953**
+- Papers retained in the public repository: **67**
+- CCF-A (Artificial Intelligence): **6**
+- ECCV / EMNLP: **17**
+- Big-tech affiliation: **8**
+- At least 10 citations: **41**
 
-1. self-evolving, self-improving, agent evolution, evolving agents, evolving
-   skills, harness evolution, and self-consolidation;
-2. agent memory, agentic memory, long-term or episodic memory for agents,
-   memory-augmented agents, memory governance, and memory evaluation;
-3. continual learning, continual adaptation/training/pretraining/fine-tuning,
-   lifelong learning, knowledge updating, and catastrophic forgetting for LLMs or
-   foundation models.
+Counts overlap because one paper may satisfy multiple qualifiers. GitHub stars are displayed as context but do not qualify a paper for inclusion.
 
-Specialist lists supplied candidate recall. Titles alone were not treated as final
-metadata: each included record was fetched again from its canonical paper page.
-Search/API failures were not converted into invented records or metrics.
+## Evidence boundaries
 
-## Result
-
-The verified corpus contains **547 unique papers**:
-
-| Month | Unique papers |
-| --- | ---: |
-| 2026-01 | 78 |
-| 2026-02 | 63 |
-| 2026-03 | 71 |
-| 2026-04 | 69 |
-| 2026-05 | 104 |
-| 2026-06 | 98 |
-| 2026-07 | 61 |
-| 2026-08 (through Aug 12) | 3 |
-
-Because papers may belong to multiple tracks, track totals overlap: 97
-Self-Evolving, 462 Agent Memory, and 33 LLM Continual Training papers.
-
-The enrichment pass verified 111 GitHub star snapshots, 33 prioritized citation
-snapshots, 4 industry flags, and 7 top-venue flags. The complete machine-readable
-evidence is in `data/papers.json`; unresolved metrics remain null.
-
-## Limitations
-
-- 2026 is still in progress, and arXiv revisions can change titles, abstracts, and
-  code links after the cutoff.
-- Citation and star counts are time-sensitive and are deliberately not inferred
-  when a source is unavailable.
-- Industry affiliation is conservative: an official company-owned repository alone
-  is not treated as proof unless supported by a paper or official research page.
-- This is a high-recall technical corpus. Domain-specific application papers remain
-  included when agent memory or evolution is itself a central method.
+- Venue qualification uses CCF-A venues in the Artificial Intelligence category, plus ECCV and EMNLP requested for this collection.
+- Only main-track Full/Regular conference papers qualify by venue; Findings, workshop, demo, short, submitted, and under-review records do not.
+- Big-tech status requires paper-specific affiliation evidence or a first-author industry profile; a generic coauthor profile is insufficient.
+- Pure arXiv/preprint records need an independent big-tech or citation qualifier.
+- Missing evidence is never inferred.

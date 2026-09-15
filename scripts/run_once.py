@@ -14,6 +14,7 @@ from agent_paper_digest.archive import ArchiveRepository  # noqa: E402
 from agent_paper_digest.arxiv import ArxivSource  # noqa: E402
 from agent_paper_digest.git_sync import GitSync  # noqa: E402
 from agent_paper_digest.pipeline import DailyDigestPipeline  # noqa: E402
+from agent_paper_digest.scholar import SemanticScholarEnricher  # noqa: E402
 from agent_paper_digest.settings import DigestSettings  # noqa: E402
 from agent_paper_digest.wecom import WeComNotifier  # noqa: E402
 
@@ -56,10 +57,19 @@ async def main() -> int:
         archive=ArchiveRepository(settings.archive_dir, settings.repository_url),
         notifier=notifier,
         git_sync=git_sync,
+        enricher=(
+            SemanticScholarEnricher(api_key=settings.semantic_scholar_api_key)
+            if settings.semantic_scholar_enrichment
+            else None
+        ),
         lookback_days=settings.lookback_days,
         max_results_per_topic=settings.max_results_per_topic,
         max_push_papers=settings.max_push_papers,
         notify_when_empty=settings.notify_when_empty,
+        finalize_success=not (
+            (args.no_notify and bool(settings.wecom_webhook_url))
+            or (args.no_push and settings.git_auto_push)
+        ),
     ).run(datetime.now(settings.timezone))
     print(
         f"Digest completed: {len(result.new_papers)} new / "

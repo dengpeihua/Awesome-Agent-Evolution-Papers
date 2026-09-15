@@ -1,57 +1,75 @@
 # Curation and Verification Policy
 
-This repository tracks papers released from **2026-01-01 through 2026-08-12** in
-three areas: Agent Self-Evolving, Agent Memory, and LLM Continual Training.
+The public repository contains a deliberately small, evidence-backed collection.
+Every paper must first make a substantive contribution to at least one research
+track and then satisfy at least one qualification criterion.
 
-## Inclusion rules
+## Required research scope
 
-A paper is included when its title or abstract makes a substantive contribution to
-at least one track:
-
-- an LLM-based agent improves its policy, harness, skills, tools, memory, workflow,
-  or collaboration structure from experience or feedback;
-- memory storage, writing, retrieval, consolidation, forgetting, governance,
-  security, or evaluation is a central contribution for LLM agents;
-- an LLM or foundation model is continually pretrained, fine-tuned, aligned, or
-  adapted while addressing retention, transfer, or catastrophic forgetting.
+- **Agent Self-Evolving:** an LLM-based agent improves its policy, harness, skills,
+  tools, workflow, memory, or collaboration structure from experience or feedback.
+- **Agent Memory:** storage, writing, retrieval, consolidation, forgetting,
+  governance, security, or evaluation is central to an LLM agent.
+- **LLM Continual Training:** an LLM or foundation model is continually pretrained,
+  fine-tuned, aligned, or adapted while addressing retention, transfer, or
+  catastrophic forgetting.
 
 Traditional continual learning without an LLM/foundation-model component and
 generic model-memory or cache papers without an agent contribution are excluded.
-Application papers are retained when the memory or evolution method itself is a
-technical contribution.
 
-## Discovery and metadata verification
+## Qualification criteria
 
-Specialist Awesome lists are used only to maximize recall. Every included arXiv
-record is then reopened on its official paper page to verify title, authors,
-abstract, first-submission date, category, PDF, and any explicit code URL. ACL
-papers without a 2026 arXiv identifier are verified on ACL Anthology.
+An in-scope paper is made public only when at least one of these is verified:
 
-The reproducible backfill is implemented in
-[`scripts/backfill_2026.py`](../scripts/backfill_2026.py). Its machine-readable
-run summary is [`data/backfill_2026_audit.json`](../data/backfill_2026_audit.json).
+1. A Full/Regular paper in a CCF-A venue from the Artificial Intelligence category:
+   AAAI, NeurIPS, ACL, CVPR, ICCV, ICML, IJCAI, Artificial Intelligence, TPAMI,
+   IJCV, or JMLR.
+2. A Full/Regular paper at ECCV or EMNLP.
+3. The paper is from a major technology company, or its first author is affiliated
+   with one. Paper-specific affiliations are preferred; a first-author profile may
+   be used as a clearly labeled fallback.
+4. The paper has at least 10 source-attributed citations.
 
-## Highlight signals
+Findings, workshop, demo, short, summary, industry-track, submitted, and
+under-review papers do not qualify through venue status. They can still qualify
+independently through big-tech authorship or citations. GitHub stars are displayed
+as context but never qualify a paper by themselves.
 
-- **Very popular code:** at least 1,000 GitHub stars.
-- **Popular code:** at least 100 GitHub stars.
-- **Highly cited:** at least 10 Google Scholar citations for a 2026 paper.
-- **Industry:** an affiliation is verified from the paper, publisher page, or an
-  official company research page.
-- **Top venue:** a full paper at a selective flagship venue. Findings and workshops
-  are labeled separately and are not promoted to top-venue status.
+## Metadata and evidence
 
-Stars and citations are snapshots dated **2026-08-12**. A missing metric is stored
-as `null` and rendered as `n/a`; it is never estimated. Repository stars describe
-the linked implementation repository, which can host more than one related paper.
+arXiv and specialist literature lists supply candidate recall, not automatic
+acceptance. Publication metadata, arXiv comments/journal references, DOI-backed
+publisher pages, Semantic Scholar, and paper-specific affiliation evidence are used
+for qualification. `arXiv.org`, `CoRR`, and `preprint` are never treated as venues.
 
-## Rebuilding
+Semantic Scholar author profiles are weaker than paper-specific affiliations. A
+big-tech affiliation on the first author's profile can satisfy the requested
+first-author rule, but a company found only on a coauthor profile cannot.
 
-From the repository root:
+The machine-readable public corpus is
+[`data/papers.json`](../data/papers.json), and the current policy audit is
+[`data/curation_audit.json`](../data/curation_audit.json).
+
+## Candidate pool and daily promotion
+
+Topically relevant but unqualified papers are kept only in the ignored local file
+`.paper_digest/candidates.json`. Each daily run refreshes publication, citation, and
+author evidence for that pool. A candidate enters the public repository and the
+daily push as soon as it gains a valid qualifier.
+
+`data/digest_state.json` records the most recent fully successful run and pending
+notification IDs. After downtime, the bot resumes from that cursor instead of
+limiting retrieval to the current day.
+
+## Rebuilding the repository
+
+To apply the current strict policy to the stored candidate pool and regenerate the
+dataset, daily pages, monthly pages, README, and audit files:
 
 ```powershell
-.\.venv\Scripts\python.exe scripts\backfill_2026.py
+.\.venv\Scripts\python.exe scripts\recurate_repository.py
 ```
 
-Use `--skip-citations` to preserve existing citation snapshots while rebuilding
-paper metadata and GitHub metrics.
+The broader historical discovery script remains in `scripts/backfill_2026.py` for
+candidate collection; `ArchiveRepository` always reapplies this strict public
+eligibility policy before publishing its output.

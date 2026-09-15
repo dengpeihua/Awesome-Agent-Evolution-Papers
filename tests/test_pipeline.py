@@ -1,3 +1,5 @@
+import json
+from dataclasses import replace
 from datetime import UTC, datetime
 
 import pytest
@@ -11,7 +13,13 @@ class FakeSource:
     async def fetch(self, *, since: datetime, max_results_per_topic: int):
         assert since.tzinfo is not None
         assert max_results_per_topic == 20
-        return [make_paper("2607.00001", topics=("agent-memory",))]
+        return [
+            replace(
+                make_paper("2607.00001", topics=("agent-memory",)),
+                first_author_affiliations=("Google DeepMind",),
+                affiliation_source="arXiv author metadata",
+            )
+        ]
 
 
 class FakeNotifier:
@@ -51,7 +59,65 @@ async def test_pipeline_fetches_archives_notifies_and_syncs(tmp_path) -> None:
     assert len(result.new_papers) == 1
     assert len(notifier.messages) == 1
     assert "Paper 2607.00001" in notifier.messages[0]
-    assert git_sync.calls == 1
+    assert git_sync.calls == 2
+
+
+@pytest.mark.asyncio
+async def test_pipeline_retries_pending_digest_after_notification_failure(tmp_path) -> None:
+    class FailingNotifier:
+        async def send(self, _markdown: str) -> None:
+            raise RuntimeError("temporary delivery error")
+
+    pipeline = DailyDigestPipeline(
+        source=FakeSource(),
+        archive=ArchiveRepository(tmp_path),
+        notifier=FailingNotifier(),
+        git_sync=None,
+        notify_when_empty=False,
+    )
+    now = datetime(2026, 7, 16, 9, tzinfo=UTC)
+
+    with pytest.raises(RuntimeError, match="delivery error"):
+        await pipeline.run(now)
+
+    state = json.loads((tmp_path / "data" / "digest_state.json").read_text(encoding="utf-8"))
+    assert state["last_successful_run_at"] is None
+    assert state["pending_paper_ids"] == ["2607.00001"]
+
+    notifier = FakeNotifier()
+    retry = DailyDigestPipeline(
+        source=FakeSource(),
+        archive=ArchiveRepository(tmp_path),
+        notifier=notifier,
+        git_sync=None,
+        notify_when_empty=False,
+    )
+    await retry.run(datetime(2026, 7, 17, 9, tzinfo=UTC))
+
+    assert "Paper 2607.00001" in notifier.messages[0]
+    completed = json.loads(
+        (tmp_path / "data" / "digest_state.json").read_text(encoding="utf-8")
+    )
+    assert completed["last_successful_run_at"] == "2026-07-17T09:00:00+00:00"
+    assert completed["pending_paper_ids"] == []
+
+
+@pytest.mark.asyncio
+async def test_pipeline_dry_run_keeps_pending_and_does_not_advance_cursor(tmp_path) -> None:
+    pipeline = DailyDigestPipeline(
+        source=FakeSource(),
+        archive=ArchiveRepository(tmp_path),
+        notifier=None,
+        git_sync=None,
+        notify_when_empty=False,
+        finalize_success=False,
+    )
+
+    await pipeline.run(datetime(2026, 7, 16, 9, tzinfo=UTC))
+
+    state = json.loads((tmp_path / "data" / "digest_state.json").read_text(encoding="utf-8"))
+    assert state["last_successful_run_at"] is None
+    assert state["pending_paper_ids"] == ["2607.00001"]
 
 
 @pytest.mark.asyncio
@@ -73,3 +139,35 @@ async def test_pipeline_can_skip_empty_notification(tmp_path) -> None:
 
     assert notifier.messages == []
 
+
+@pytest.mark.asyncio
+async def test_pipeline_keeps_unqualified_candidate_for_later_promotion(tmp_path) -> None:
+    class CandidateSource:
+        async def fetch(self, *, since: datetime, max_results_per_topic: int):
+            return [make_paper("2607.00009", topics=("agent-memory",))]
+
+    class CitationEnricher:
+        async def enrich(self, papers):
+            return [replace(paper, citation_count=10) for paper in papers]
+
+    first = DailyDigestPipeline(
+        source=CandidateSource(),
+        archive=ArchiveRepository(tmp_path),
+        notifier=None,
+        git_sync=None,
+        notify_when_empty=False,
+    )
+    initial = await first.run(datetime(2026, 7, 16, 9, tzinfo=UTC))
+    assert initial.all_papers == ()
+    assert (tmp_path / ".paper_digest" / "candidates.json").exists()
+
+    promoted = DailyDigestPipeline(
+        source=CandidateSource(),
+        archive=ArchiveRepository(tmp_path),
+        notifier=None,
+        git_sync=None,
+        enricher=CitationEnricher(),
+        notify_when_empty=False,
+    )
+    result = await promoted.run(datetime(2026, 7, 17, 9, tzinfo=UTC))
+    assert [paper.arxiv_id for paper in result.new_papers] == ["2607.00009"]

@@ -16,6 +16,7 @@ if __package__:
     from .agent_paper_digest.arxiv import ArxivSource
     from .agent_paper_digest.git_sync import GitSync
     from .agent_paper_digest.pipeline import DailyDigestPipeline
+    from .agent_paper_digest.scholar import SemanticScholarEnricher
     from .agent_paper_digest.settings import DigestSettings
     from .agent_paper_digest.wecom import WeComNotifier
 else:
@@ -23,6 +24,7 @@ else:
     from agent_paper_digest.arxiv import ArxivSource
     from agent_paper_digest.git_sync import GitSync
     from agent_paper_digest.pipeline import DailyDigestPipeline
+    from agent_paper_digest.scholar import SemanticScholarEnricher
     from agent_paper_digest.settings import DigestSettings
     from agent_paper_digest.wecom import WeComNotifier
 
@@ -31,7 +33,7 @@ else:
     "agent_paper_digest",
     "Agent Paper Digest",
     "Daily agent evolution, memory, and LLM continual training paper digest",
-    "0.1.0",
+    "0.3.0",
 )
 class AgentPaperDigestPlugin(Star):
     """AstrBot lifecycle adapter for the daily research pipeline."""
@@ -100,6 +102,11 @@ class AgentPaperDigestPlugin(Star):
             ),
             notifier=notifier,
             git_sync=git_sync,
+            enricher=(
+                SemanticScholarEnricher(api_key=self.settings.semantic_scholar_api_key)
+                if self.settings.semantic_scholar_enrichment
+                else None
+            ),
             lookback_days=self.settings.lookback_days,
             max_results_per_topic=self.settings.max_results_per_topic,
             max_push_papers=self.settings.max_push_papers,

@@ -8,8 +8,14 @@
     <title>  Memory   for Self-Evolving Agents </title>
     <summary> We study durable memory.
 The agent improves over time. </summary>
-    <author><name>Alice Example</name></author>
+    <author>
+      <name>Alice Example</name>
+      <arxiv:affiliation>Google DeepMind</arxiv:affiliation>
+    </author>
     <author><name>Bob Example</name></author>
+    <arxiv:comment>Accepted to ACL 2026</arxiv:comment>
+    <arxiv:journal_ref>Proceedings of ACL 2026</arxiv:journal_ref>
+    <arxiv:doi>10.0000/example</arxiv:doi>
     <arxiv:primary_category term="cs.AI" />
     <category term="cs.AI" />
     <category term="cs.CL" />

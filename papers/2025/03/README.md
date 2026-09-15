@@ -6,7 +6,7 @@
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 2025-03-28 | Self-Evolving | [REMAC: Self-Reflective and Self-Evolving Multi-Agent Collaboration for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2503.22122v2)<br>[PDF](https://arxiv.org/pdf/2503.22122v2) | arXiv | — | — |
+| 2025-03-28 | Self-Evolving | [REMAC: Self-Reflective and Self-Evolving Multi-Agent Collaboration for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2503.22122v2)<br>[PDF](https://arxiv.org/pdf/2503.22122v2) | Pattern Recognition | 📈 Highly cited | Citations: 11 (Semantic Scholar) |
 
 ## Notes
 

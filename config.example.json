@@ -6,12 +6,13 @@
   "lookback_days": 2,
   "max_results_per_topic": 20,
   "max_push_papers": 8,
+  "semantic_scholar_enrichment": true,
+  "semantic_scholar_api_key": "",
   "wecom_webhook_url": "",
   "repository_url": "https://github.com/your-name/Awesome-Agent-Evolution-Papers",
   "git_remote": "origin",
   "git_branch": "main",
   "git_auto_push": false,
-  "run_on_startup": false,
+  "run_on_startup": true,
   "notify_when_empty": true
 }
-

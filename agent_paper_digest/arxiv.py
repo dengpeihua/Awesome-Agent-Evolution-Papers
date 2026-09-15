@@ -58,6 +58,18 @@ def parse_arxiv_feed(xml: str, *, topic: str) -> list[Paper]:
             f"https://arxiv.org/pdf/{arxiv_id}",
         )
         primary = entry.find(f"{{{ARXIV}}}primary_category")
+        author_nodes = entry.findall(f"{{{ATOM}}}author")
+        author_affiliations = [
+            tuple(
+                affiliation
+                for affiliation in (
+                    _normalized_text(node.text)
+                    for node in author.findall(f"{{{ARXIV}}}affiliation")
+                )
+                if affiliation
+            )
+            for author in author_nodes
+        ]
         papers.append(
             Paper(
                 arxiv_id=arxiv_id,
@@ -65,7 +77,7 @@ def parse_arxiv_feed(xml: str, *, topic: str) -> list[Paper]:
                 abstract=_normalized_text(entry.findtext(f"{{{ATOM}}}summary")),
                 authors=tuple(
                     _normalized_text(author.findtext(f"{{{ATOM}}}name"))
-                    for author in entry.findall(f"{{{ATOM}}}author")
+                    for author in author_nodes
                 ),
                 published=_parse_datetime(entry.findtext(f"{{{ATOM}}}published") or ""),
                 updated=_parse_datetime(entry.findtext(f"{{{ATOM}}}updated") or ""),
@@ -78,6 +90,20 @@ def parse_arxiv_feed(xml: str, *, topic: str) -> list[Paper]:
                     if category.attrib.get("term")
                 ),
                 topics=(topic,),
+                doi=_normalized_text(entry.findtext(f"{{{ARXIV}}}doi")),
+                comment=_normalized_text(entry.findtext(f"{{{ARXIV}}}comment")),
+                journal_ref=_normalized_text(entry.findtext(f"{{{ARXIV}}}journal_ref")),
+                affiliations=tuple(
+                    dict.fromkeys(
+                        affiliation
+                        for affiliations in author_affiliations
+                        for affiliation in affiliations
+                    )
+                ),
+                first_author_affiliations=(author_affiliations[0] if author_affiliations else ()),
+                affiliation_source=(
+                    "arXiv author metadata" if any(author_affiliations) else ""
+                ),
             )
         )
     return papers
@@ -93,9 +119,43 @@ class ArxivSource:
         *,
         client: httpx.AsyncClient | None = None,
         request_delay_seconds: float = 3.1,
+        max_retries: int = 3,
+        retry_base_seconds: float = 5.0,
     ) -> None:
         self._client = client
         self.request_delay_seconds = request_delay_seconds
+        self.max_retries = max_retries
+        self.retry_base_seconds = retry_base_seconds
+
+    async def _request_page(
+        self,
+        client: httpx.AsyncClient,
+        *,
+        params: dict[str, str | int],
+    ) -> httpx.Response:
+        for attempt in range(self.max_retries + 1):
+            try:
+                response = await client.get(self.API_URL, params=params)
+            except httpx.RequestError:
+                if attempt == self.max_retries:
+                    raise
+                delay = self.retry_base_seconds * (2**attempt)
+                if delay > 0:
+                    await asyncio.sleep(delay)
+                continue
+            if response.status_code not in {429, 503}:
+                response.raise_for_status()
+                return response
+            if attempt == self.max_retries:
+                response.raise_for_status()
+            retry_after = response.headers.get("Retry-After", "").strip()
+            try:
+                delay = float(retry_after)
+            except ValueError:
+                delay = self.retry_base_seconds * (2**attempt)
+            if delay > 0:
+                await asyncio.sleep(delay)
+        raise RuntimeError("arXiv retry loop exited unexpectedly")
 
     @staticmethod
     def topic_queries() -> dict[str, str]:
@@ -140,25 +200,35 @@ class ArxivSource:
         merged: dict[str, Paper] = {}
         queries = list(self.topic_queries().items())
         try:
-            for index, (topic, query) in enumerate(queries):
-                response = await client.get(
-                    self.API_URL,
-                    params={
-                        "search_query": query,
-                        "start": 0,
-                        "max_results": max_results_per_topic,
-                        "sortBy": "lastUpdatedDate",
-                        "sortOrder": "descending",
-                    },
-                )
-                response.raise_for_status()
-                for paper in parse_arxiv_feed(response.text, topic=topic):
-                    if max(paper.published, paper.updated) < since:
-                        continue
-                    existing = merged.get(paper.arxiv_id)
-                    merged[paper.arxiv_id] = existing.merge(paper) if existing else paper
-                if index < len(queries) - 1 and self.request_delay_seconds > 0:
-                    await asyncio.sleep(self.request_delay_seconds)
+            request_index = 0
+            for topic, query in queries:
+                start = 0
+                while True:
+                    if request_index and self.request_delay_seconds > 0:
+                        await asyncio.sleep(self.request_delay_seconds)
+                    response = await self._request_page(
+                        client,
+                        params={
+                            "search_query": query,
+                            "start": start,
+                            "max_results": max_results_per_topic,
+                            "sortBy": "lastUpdatedDate",
+                            "sortOrder": "descending",
+                        },
+                    )
+                    request_index += 1
+                    page = parse_arxiv_feed(response.text, topic=topic)
+                    if not page:
+                        break
+                    recent = [
+                        paper for paper in page if max(paper.published, paper.updated) >= since
+                    ]
+                    for paper in recent:
+                        existing = merged.get(paper.arxiv_id)
+                        merged[paper.arxiv_id] = existing.merge(paper) if existing else paper
+                    if len(page) < max_results_per_topic or len(recent) < len(page):
+                        break
+                    start += len(page)
         finally:
             if owns_client:
                 await client.aclose()

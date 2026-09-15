@@ -6,7 +6,7 @@
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 2025-06-02 | Memory | [WebChoreArena: Evaluating Web Browsing Agents on Realistic Tedious Web Tasks](https://arxiv.org/abs/2506.01952v2)<br>[PDF](https://arxiv.org/pdf/2506.01952v2) | arXiv | — | — |
+| 2025-06-02 | Memory | [WebChoreArena: Evaluating Web Browsing Agents on Realistic Tedious Web Tasks](https://arxiv.org/abs/2506.01952v2)<br>[PDF](https://arxiv.org/pdf/2506.01952v2) | arXiv.org | 📈 Highly cited | Citations: 28 (Semantic Scholar) |
 
 ## Notes
 

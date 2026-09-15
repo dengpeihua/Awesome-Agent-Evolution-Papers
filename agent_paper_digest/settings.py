@@ -19,6 +19,8 @@ class DigestSettings:
     lookback_days: int
     max_results_per_topic: int
     max_push_papers: int
+    semantic_scholar_enrichment: bool
+    semantic_scholar_api_key: str
     wecom_webhook_url: str
     repository_url: str
     git_remote: str
@@ -81,6 +83,12 @@ class DigestSettings:
             lookback_days=lookback_days,
             max_results_per_topic=max_results_per_topic,
             max_push_papers=max_push_papers,
+            semantic_scholar_enrichment=bool(
+                values.get("semantic_scholar_enrichment", True)
+            ),
+            semantic_scholar_api_key=str(
+                values.get("semantic_scholar_api_key", "")
+            ).strip(),
             wecom_webhook_url=str(values.get("wecom_webhook_url", "")).strip(),
             repository_url=str(values.get("repository_url", "")).strip().rstrip("/"),
             git_remote=str(values.get("git_remote", "origin")).strip() or "origin",
@@ -99,6 +107,6 @@ class DigestSettings:
                 ).strip()
                 or "agent-paper-digest@users.noreply.github.com"
             ),
-            run_on_startup=bool(values.get("run_on_startup", False)),
+            run_on_startup=bool(values.get("run_on_startup", True)),
             notify_when_empty=bool(values.get("notify_when_empty", True)),
         )

@@ -18,9 +18,12 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from agent_paper_digest.archive import ArchiveRepository  # noqa: E402
+from agent_paper_digest.candidates import CandidateRepository  # noqa: E402
+from agent_paper_digest.highlight import classify_highlights  # noqa: E402
 from agent_paper_digest.models import Paper  # noqa: E402
+from agent_paper_digest.scholar import SemanticScholarEnricher  # noqa: E402
 
-CUTOFF = date(2026, 8, 12)
+CUTOFF = date.today()
 VERIFY_DATE = CUTOFF.isoformat()
 
 DISCOVERY_SOURCES = {
@@ -83,7 +86,7 @@ EXTERNAL_CANDIDATES = (
         "https://aclanthology.org/2026.acl-long.247/",
         ("llm-continual-training",),
         "ACL 2026 (Main)",
-        "top",
+        "ccf-a",
         "10.18653/v1/2026.acl-long.247",
         "https://github.com/alina1031/SLoRA",
     ),
@@ -92,7 +95,7 @@ EXTERNAL_CANDIDATES = (
         "https://aclanthology.org/2026.findings-acl.483/",
         ("agent-self-evolving",),
         "ACL 2026 Findings",
-        "notable",
+        "",
         "10.18653/v1/2026.findings-acl.483",
     ),
     ExternalCandidate(
@@ -100,7 +103,7 @@ EXTERNAL_CANDIDATES = (
         "https://aclanthology.org/2026.findings-acl.1522/",
         ("agent-self-evolving", "agent-memory"),
         "ACL 2026 Findings",
-        "notable",
+        "",
         "10.18653/v1/2026.findings-acl.1522",
     ),
     ExternalCandidate(
@@ -108,7 +111,7 @@ EXTERNAL_CANDIDATES = (
         "https://aclanthology.org/2026.findings-acl.250/",
         ("agent-memory",),
         "ACL 2026 Findings",
-        "notable",
+        "",
         "10.18653/v1/2026.findings-acl.250",
         "https://github.com/Hongyi4221/EMA",
     ),
@@ -185,7 +188,7 @@ CITATION_PRIORITY_IDS = {
 
 ARXIV_LINK = re.compile(
     r"\[([^\]\n]{8,220})\]\(https?://arxiv\.org/(?:abs|pdf)/"
-    r"(26(?:0[1-8])\.\d{4,5})(?:v\d+)?(?:\.pdf)?\)",
+    r"(26(?:0[1-9]|1[0-2])\.\d{4,5})(?:v\d+)?(?:\.pdf)?\)",
     re.IGNORECASE,
 )
 GITHUB_REPO = re.compile(r"https?://github\.com/([\w.-]+)/([\w.-]+)", re.IGNORECASE)
@@ -488,7 +491,7 @@ async def enrich_citations(client: httpx.AsyncClient, papers: list[Paper]) -> li
     for paper in papers:
         priority = (
             paper.arxiv_id in CITATION_PRIORITY_IDS
-            or paper.venue_tier == "top"
+            or paper.venue_tier == "ccf-a"
             or (paper.github_stars or 0) >= 100
         )
         if not priority:
@@ -555,8 +558,11 @@ async def run(root: Path, *, skip_citations: bool) -> tuple[Paper, ...]:
             else paper
             for paper in papers
         ]
+        papers = await SemanticScholarEnricher(client=client).enrich(papers)
         if not skip_citations:
             papers = await enrich_citations(client, papers)
+    papers = [classify_highlights(paper) for paper in papers]
+    CandidateRepository(root).save(papers)
     result = ArchiveRepository(root).replace_dataset(papers)
     audit = {
         "cutoff": CUTOFF.isoformat(),
@@ -580,15 +586,19 @@ async def run(root: Path, *, skip_citations: bool) -> tuple[Paper, ...]:
         "github_metrics": sum(paper.github_stars is not None for paper in result),
         "citation_metrics": sum(paper.citation_count is not None for paper in result),
         "industry_flags": sum(bool(paper.industry_affiliations) for paper in result),
-        "top_venue_flags": sum(paper.venue_tier == "top" for paper in result),
+        "ccf_a_flags": sum(paper.venue_tier == "ccf-a" for paper in result),
+        "eccv_emnlp_flags": sum(
+            paper.venue_tier == "selected-extra" for paper in result
+        ),
         "discovery_sources": list(DISCOVERY_SOURCES.values()),
         "notes": [
             "Discovery lists provide recall only; metadata is rechecked on paper pages.",
             "Missing star and citation metrics are represented as null, never estimated.",
+            "Only strict public-policy qualifiers are written to data/papers.json.",
             "Counts are snapshots as of the cutoff date and will change over time.",
         ],
     }
-    audit_path = root / "data" / "backfill_2026_audit.json"
+    audit_path = root / "data" / "candidate_backfill_audit.json"
     audit_path.write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return result
 
