@@ -46,6 +46,7 @@ def test_build_query_contains_precise_topic_terms() -> None:
     assert '"large language model"' in queries["llm-continual-training"]
     assert '"continual pre-training"' in queries["llm-continual-training"]
     assert '"continual post-training"' in queries["llm-continual-training"]
+    assert '"life-long learning"' in queries["llm-continual-training"]
 
 
 @pytest.mark.asyncio
