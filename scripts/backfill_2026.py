@@ -369,7 +369,17 @@ async def discover_candidates(
     *,
     official_source: ArxivSource | None = None,
 ) -> dict[str, tuple[str, ...]]:
-    pages = await asyncio.gather(*(_get(client, url) for url in DISCOVERY_SOURCES.values()))
+    source_items = list(DISCOVERY_SOURCES.items())
+    results = await asyncio.gather(
+        *(_get(client, url) for _, url in source_items),
+        return_exceptions=True,
+    )
+    pages: list[str] = []
+    for (name, _), result in zip(source_items, results, strict=True):
+        if isinstance(result, Exception):
+            print(f"WARN third-party discovery source {name}: {result}")
+            continue
+        pages.append(result)
     candidates: dict[str, set[str]] = {}
     for page in pages:
         for title, identifier in ARXIV_LINK.findall(page):
