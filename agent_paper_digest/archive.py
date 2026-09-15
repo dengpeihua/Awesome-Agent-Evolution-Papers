@@ -11,7 +11,6 @@ from .highlight import (
     HIGH_CITATION_COUNT,
     classify_highlights,
     has_industry_qualification,
-    highlight_priority,
     is_eligible,
     promotion_signature,
 )
@@ -268,7 +267,11 @@ class ArchiveRepository:
         coverage_start: datetime | None = None,
         coverage_end: datetime | None = None,
     ) -> str:
-        ordered = sorted(papers, key=highlight_priority, reverse=True)
+        ordered = sorted(
+            papers,
+            key=lambda item: (item.published, item.updated, item.arxiv_id),
+            reverse=True,
+        )
         lines = [
             f"# Daily Papers · {discovery_date.isoformat()}",
             "",
@@ -445,6 +448,11 @@ class ArchiveRepository:
         return "\n".join(lines)
 
     def _render_readme(self, papers: list[Paper]) -> str:
+        chronological = sorted(
+            papers,
+            key=lambda item: (item.published, item.updated, item.arxiv_id),
+            reverse=True,
+        )
         daily_paths = sorted(
             (
                 path
@@ -511,15 +519,7 @@ class ArchiveRepository:
             "| Paper | Published | Venue | Why it matters | Metrics |",
             "| --- | --- | --- | --- | --- |",
         ]
-        highlighted = [paper for paper in papers if is_eligible(paper)]
-        highlighted.sort(
-            key=lambda item: (
-                *highlight_priority(item),
-                item.citation_count or -1,
-                item.github_stars or -1,
-            ),
-            reverse=True,
-        )
+        highlighted = [paper for paper in chronological if is_eligible(paper)]
         for paper in highlighted:
             title = paper.title.replace("|", "\\|")
             lines.append(
@@ -539,7 +539,8 @@ class ArchiveRepository:
         )
         month_keys = sorted(
             {(paper.published.year, paper.published.month) for paper in papers}
-            | {(date.today().year, date.today().month)}
+            | {(date.today().year, date.today().month)},
+            reverse=True,
         )
         for year, month in month_keys:
             month_papers = [
@@ -563,7 +564,7 @@ class ArchiveRepository:
             "| --- | --- | --- | --- |",
             ]
         )
-        for paper in papers[:30]:
+        for paper in chronological[:30]:
             topics = ", ".join(TOPIC_TITLES.get(topic, topic) for topic in paper.topics)
             title = paper.title.replace("|", "\\|")
             lines.append(
