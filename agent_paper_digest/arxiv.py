@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import asyncio
+import hashlib
+import json
 import re
 import xml.etree.ElementTree as ET
 from datetime import datetime
@@ -127,6 +129,17 @@ class ArxivSource:
         self.request_delay_seconds = request_delay_seconds
         self.max_retries = max_retries
         self.retry_base_seconds = retry_base_seconds
+
+    @property
+    def discovery_revision(self) -> str:
+        """Fingerprint the active queries so taxonomy changes trigger a rescan."""
+        payload = json.dumps(
+            self.topic_queries(),
+            ensure_ascii=True,
+            sort_keys=True,
+            separators=(",", ":"),
+        ).encode("utf-8")
+        return f"arxiv-{hashlib.sha256(payload).hexdigest()[:16]}"
 
     async def _request_page(
         self,

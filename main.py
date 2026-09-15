@@ -108,6 +108,7 @@ class AgentPaperDigestPlugin(Star):
                 else None
             ),
             lookback_days=self.settings.lookback_days,
+            historical_backfill_days=self.settings.historical_backfill_days,
             max_results_per_topic=self.settings.max_results_per_topic,
             max_push_papers=self.settings.max_push_papers,
             notify_when_empty=self.settings.notify_when_empty,

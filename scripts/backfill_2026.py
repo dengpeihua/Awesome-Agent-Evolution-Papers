@@ -8,7 +8,7 @@ import re
 import subprocess
 import sys
 from dataclasses import dataclass, replace
-from datetime import UTC, date, datetime
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import quote_plus
 
@@ -18,6 +18,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from agent_paper_digest.archive import ArchiveRepository  # noqa: E402
+from agent_paper_digest.arxiv import ArxivSource  # noqa: E402
 from agent_paper_digest.candidates import CandidateRepository  # noqa: E402
 from agent_paper_digest.highlight import classify_highlights  # noqa: E402
 from agent_paper_digest.models import Paper  # noqa: E402
@@ -29,6 +30,7 @@ from agent_paper_digest.topics import (  # noqa: E402
 
 CUTOFF = date.today()
 VERIFY_DATE = CUTOFF.isoformat()
+HISTORICAL_DISCOVERY_DAYS = 730
 
 DISCOVERY_SOURCES = {
     "self-improving": (
@@ -56,6 +58,7 @@ EXTRA_ARXIV_TOPICS = {
     "2603.19461": (SELF_EVOLUTION_TOPIC,),
     "2604.10923": (SELF_EVOLUTION_TOPIC, "agent-memory"),
     "2604.15082": (SELF_EVOLUTION_TOPIC,),
+    "2604.18292": (SELF_EVOLUTION_TOPIC,),
     "2604.20714": (SELF_EVOLUTION_TOPIC,),
     "2605.17721": (SELF_EVOLUTION_TOPIC, "agent-memory"),
     "2605.23986": ("agent-memory",),
@@ -153,6 +156,17 @@ KNOWN_ENRICHMENTS: dict[str, dict[str, object]] = {
         "github_url": "https://github.com/BUAA-IRIP-LLM/Mem2Evolve",
     },
     "2604.15082": {"venue": "DAC 2026", "venue_tier": "top"},
+    "2604.18292": {
+        "affiliations": (
+            "Gaoling School of Artificial Intelligence, Renmin University of China",
+            "ByteDance Seed",
+        ),
+        "first_author_affiliations": (
+            "Gaoling School of Artificial Intelligence, Renmin University of China",
+        ),
+        "affiliation_source": "Official arXiv HTML and project page",
+        "github_url": "https://github.com/RUC-NLPIR/Agent-World",
+    },
     "2604.20714": {
         "venue": "ACL 2026 Findings",
         "venue_tier": "notable",
@@ -350,7 +364,11 @@ async def _get(client: httpx.AsyncClient, url: str) -> str:
     raise RuntimeError(f"Unable to retrieve {url} after retries")
 
 
-async def discover_candidates(client: httpx.AsyncClient) -> dict[str, tuple[str, ...]]:
+async def discover_candidates(
+    client: httpx.AsyncClient,
+    *,
+    official_source: ArxivSource | None = None,
+) -> dict[str, tuple[str, ...]]:
     pages = await asyncio.gather(*(_get(client, url) for url in DISCOVERY_SOURCES.values()))
     candidates: dict[str, set[str]] = {}
     for page in pages:
@@ -360,6 +378,22 @@ async def discover_candidates(client: httpx.AsyncClient) -> dict[str, tuple[str,
                 candidates.setdefault(identifier, set()).update(topics)
     for identifier, topics in EXTRA_ARXIV_TOPICS.items():
         candidates.setdefault(identifier, set()).update(topics)
+    source = official_source or ArxivSource(client=client)
+    history_start = datetime.combine(
+        CUTOFF - timedelta(days=HISTORICAL_DISCOVERY_DAYS),
+        datetime.min.time(),
+        tzinfo=UTC,
+    )
+    try:
+        official_papers = await source.fetch(
+            since=history_start,
+            max_results_per_topic=100,
+        )
+    except (httpx.HTTPError, RuntimeError, ValueError) as error:
+        print(f"WARN official arXiv historical discovery: {error}")
+        official_papers = []
+    for paper in official_papers:
+        candidates.setdefault(paper.arxiv_id, set()).update(paper.topics)
     return {identifier: tuple(sorted(topics)) for identifier, topics in candidates.items()}
 
 

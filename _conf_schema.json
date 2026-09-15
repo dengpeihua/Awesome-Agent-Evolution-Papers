@@ -30,6 +30,11 @@
     "description": "首次运行且无历史游标时的回看天数；之后自动从上次成功时间连续补推",
     "default": 2
   },
+  "historical_backfill_days": {
+    "type": "int",
+    "description": "检索规则变化时自动回扫的历史天数，用于找回旧漏项",
+    "default": 730
+  },
   "max_results_per_topic": {
     "type": "int",
     "description": "每个主题单次最多读取的 arXiv 结果数",

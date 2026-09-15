@@ -63,6 +63,7 @@ async def main() -> int:
             else None
         ),
         lookback_days=settings.lookback_days,
+        historical_backfill_days=settings.historical_backfill_days,
         max_results_per_topic=settings.max_results_per_topic,
         max_push_papers=settings.max_push_papers,
         notify_when_empty=settings.notify_when_empty,

@@ -11,6 +11,7 @@ class DigestState:
     last_successful_run_at: datetime | None = None
     last_attempt_at: datetime | None = None
     pending_paper_ids: tuple[str, ...] = ()
+    discovery_revision: str = ""
 
 
 class DigestStateStore:
@@ -35,10 +36,27 @@ class DigestStateStore:
             last_successful_run_at=self._parse_datetime(value.get("last_successful_run_at")),
             last_attempt_at=self._parse_datetime(value.get("last_attempt_at")),
             pending_paper_ids=tuple(value.get("pending_paper_ids", [])),
+            discovery_revision=str(value.get("discovery_revision", "")),
         )
 
-    def coverage_start(self, now: datetime, *, fallback_days: int) -> datetime:
+    def coverage_start(
+        self,
+        now: datetime,
+        *,
+        fallback_days: int,
+        discovery_revision: str = "",
+        historical_backfill_days: int = 730,
+    ) -> datetime:
         state = self.load()
+        if discovery_revision and state.discovery_revision != discovery_revision:
+            historical_start = now - timedelta(days=historical_backfill_days)
+            if state.last_successful_run_at is None:
+                return historical_start
+            successful = state.last_successful_run_at
+            successful = (
+                successful if successful.tzinfo else successful.replace(tzinfo=now.tzinfo)
+            )
+            return min(successful, historical_start)
         if state.last_successful_run_at is not None:
             value = state.last_successful_run_at
             return value if value.tzinfo else value.replace(tzinfo=now.tzinfo)
@@ -64,6 +82,7 @@ class DigestStateStore:
                         state.last_attempt_at.isoformat() if state.last_attempt_at else None
                     ),
                     "pending_paper_ids": list(state.pending_paper_ids),
+                    "discovery_revision": state.discovery_revision,
                 },
                 ensure_ascii=False,
                 indent=2,
@@ -80,15 +99,17 @@ class DigestStateStore:
             pending_paper_ids=tuple(
                 dict.fromkeys((*current.pending_paper_ids, *paper_ids))
             ),
+            discovery_revision=current.discovery_revision,
         )
         self._write(state)
         return state
 
-    def complete(self, now: datetime) -> DigestState:
+    def complete(self, now: datetime, *, discovery_revision: str = "") -> DigestState:
         state = DigestState(
             last_successful_run_at=now,
             last_attempt_at=now,
             pending_paper_ids=(),
+            discovery_revision=discovery_revision,
         )
         self._write(state)
         return state

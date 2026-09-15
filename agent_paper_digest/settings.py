@@ -17,6 +17,7 @@ class DigestSettings:
     schedule_hour: int
     schedule_minute: int
     lookback_days: int
+    historical_backfill_days: int
     max_results_per_topic: int
     max_push_papers: int
     semantic_scholar_enrichment: bool
@@ -59,6 +60,7 @@ class DigestSettings:
         schedule_hour = int(values.get("schedule_hour", 9))
         schedule_minute = int(values.get("schedule_minute", 0))
         lookback_days = int(values.get("lookback_days", 2))
+        historical_backfill_days = int(values.get("historical_backfill_days", 730))
         max_results_per_topic = int(values.get("max_results_per_topic", 20))
         max_push_papers = int(values.get("max_push_papers", 8))
         if not 0 <= schedule_hour <= 23:
@@ -67,6 +69,8 @@ class DigestSettings:
             raise ValueError("schedule_minute must be between 0 and 59")
         if lookback_days < 1:
             raise ValueError("lookback_days must be at least 1")
+        if historical_backfill_days < 1:
+            raise ValueError("historical_backfill_days must be at least 1")
         if max_results_per_topic < 1:
             raise ValueError("max_results_per_topic must be at least 1")
         if max_push_papers < 1:
@@ -81,6 +85,7 @@ class DigestSettings:
             schedule_hour=schedule_hour,
             schedule_minute=schedule_minute,
             lookback_days=lookback_days,
+            historical_backfill_days=historical_backfill_days,
             max_results_per_topic=max_results_per_topic,
             max_push_papers=max_push_papers,
             semantic_scholar_enrichment=bool(

@@ -22,6 +22,7 @@ class DailyDigestPipeline:
         git_sync: Any | None,
         enricher: Any | None = None,
         lookback_days: int = 2,
+        historical_backfill_days: int = 730,
         max_results_per_topic: int = 20,
         max_push_papers: int = 8,
         notify_when_empty: bool = True,
@@ -33,6 +34,7 @@ class DailyDigestPipeline:
         self.git_sync = git_sync
         self.enricher = enricher
         self.lookback_days = lookback_days
+        self.historical_backfill_days = historical_backfill_days
         self.max_results_per_topic = max_results_per_topic
         self.max_push_papers = max_push_papers
         self.notify_when_empty = notify_when_empty
@@ -54,9 +56,17 @@ class DailyDigestPipeline:
             raise ValueError("now must be timezone-aware")
         if self.lookback_days < 1:
             raise ValueError("lookback_days must be at least 1")
+        if self.historical_backfill_days < 1:
+            raise ValueError("historical_backfill_days must be at least 1")
         state_store = DigestStateStore(self.archive.root)
         state = state_store.load()
-        since = state_store.coverage_start(now, fallback_days=self.lookback_days)
+        discovery_revision = str(getattr(self.source, "discovery_revision", ""))
+        since = state_store.coverage_start(
+            now,
+            fallback_days=self.lookback_days,
+            discovery_revision=discovery_revision,
+            historical_backfill_days=self.historical_backfill_days,
+        )
         fetched = await self.source.fetch(
             since=since,
             max_results_per_topic=self.max_results_per_topic,
@@ -91,7 +101,7 @@ class DailyDigestPipeline:
             )
             await self.notifier.send(markdown)
         if self.finalize_success:
-            state_store.complete(now)
+            state_store.complete(now, discovery_revision=discovery_revision)
             if self.git_sync is not None:
                 await self.git_sync.sync(now.date())
         return result
