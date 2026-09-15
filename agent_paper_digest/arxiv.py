@@ -168,6 +168,7 @@ class ArxivSource:
                 'OR all:"self-improving language model" '
                 'OR all:"iterative self-improvement" '
                 'OR all:"self-rewarding language model" '
+                'OR all:"self-generated feedback" '
                 'OR all:"agent self-evolution" OR all:"evolving agent" '
                 'OR all:"evolving skills" OR all:"self-consolidation") '
                 'AND (all:"agent" OR all:"agentic" OR all:"LLM" '

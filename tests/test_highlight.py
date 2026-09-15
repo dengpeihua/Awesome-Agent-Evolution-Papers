@@ -6,7 +6,7 @@ from tests.test_archive import make_paper
 
 def test_highlighter_marks_first_author_industry_and_explicit_top_venue() -> None:
     paper = replace(
-        make_paper("2608.00001", topics=("agent-self-evolving",)),
+        make_paper("2608.00001", topics=("agent-llm-self-evolution",)),
         affiliations=("Google DeepMind", "Tsinghua University"),
         first_author_affiliations=("Google DeepMind",),
         affiliation_source="arXiv author metadata",
@@ -57,7 +57,7 @@ def test_emnlp_preprint_is_normalized_but_colm_is_not_selected() -> None:
 
 def test_first_author_big_tech_and_high_citations_qualify_independently() -> None:
     industry = replace(
-        make_paper("2608.00006", topics=("agent-self-evolving",)),
+        make_paper("2608.00006", topics=("agent-llm-self-evolution",)),
         first_author_affiliations=("Microsoft Research",),
         affiliation_source="Semantic Scholar author profiles",
     )

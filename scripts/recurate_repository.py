@@ -9,16 +9,20 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from agent_paper_digest.archive import TOPIC_TITLES, ArchiveRepository  # noqa: E402
+from agent_paper_digest.archive import ArchiveRepository  # noqa: E402
 from agent_paper_digest.candidates import CandidateRepository  # noqa: E402
 from agent_paper_digest.highlight import (  # noqa: E402
     HIGH_CITATION_COUNT,
     classify_highlights,
     qualification_reasons,
 )
+from agent_paper_digest.models import Paper  # noqa: E402
+from agent_paper_digest.topics import TOPIC_TITLES  # noqa: E402
 
 
-def _write_audit(root: Path, candidates: int, papers: tuple) -> None:
+def _write_audit(
+    root: Path, candidates: list[Paper], papers: tuple[Paper, ...]
+) -> None:
     reason_counts = Counter(reason for paper in papers for reason in qualification_reasons(paper))
     audit = {
         "generated_at": datetime.now(UTC).isoformat(),
@@ -32,7 +36,11 @@ def _write_audit(root: Path, candidates: int, papers: tuple) -> None:
             ],
             "code_stars_are_qualifying": False,
         },
-        "candidate_count": candidates,
+        "candidate_count": len(candidates),
+        "candidate_topic_counts": {
+            topic: sum(topic in paper.topics for paper in candidates)
+            for topic in TOPIC_TITLES
+        },
         "public_paper_count": len(papers),
         "topic_counts": {
             topic: sum(topic in paper.topics for paper in papers) for topic in TOPIC_TITLES
@@ -50,20 +58,22 @@ def _write_audit(root: Path, candidates: int, papers: tuple) -> None:
     )
 
 
-def _write_report(root: Path, candidates: int, papers: tuple) -> None:
+def _write_report(
+    root: Path, candidates: list[Paper], papers: tuple[Paper, ...]
+) -> None:
     reasons = Counter(reason for paper in papers for reason in qualification_reasons(paper))
     lines = [
         "# Agent Evolution Curated Corpus Audit",
         "",
         "## Scope",
         "",
-        "The public corpus is a strict intersection: every paper must address Agent "
-        "Self-Evolving, Agent Memory, or LLM Continual Training and meet at least one "
-        "verified qualification criterion.",
+        "The public corpus is a strict intersection: every paper must address Agent/LLM "
+        "self-evolution, self-improving systems, recursive self-improvement, Agent Memory, "
+        "or LLM continual training and meet at least one verified qualification criterion.",
         "",
         "## Current result",
         "",
-        f"- Topic candidates evaluated: **{candidates}**",
+        f"- Topic candidates evaluated: **{len(candidates)}**",
         f"- Papers retained in the public repository: **{len(papers)}**",
         f"- CCF-A (Artificial Intelligence): **{reasons['CCF-A']}**",
         f"- ECCV / EMNLP: **{reasons['Selected venue']}**",
@@ -88,15 +98,15 @@ def _write_report(root: Path, candidates: int, papers: tuple) -> None:
     (root / "allinone.md").write_text("\n".join(lines), encoding="utf-8")
 
 
-def run(root: Path) -> tuple:
+def run(root: Path) -> tuple[Paper, ...]:
     archive = ArchiveRepository(root)
     candidates = CandidateRepository(root)
     pool = candidates.merge(archive._load())
     classified = [classify_highlights(paper) for paper in pool]
     candidates.save(classified)
     public = archive.replace_dataset(classified)
-    _write_audit(root, len(classified), public)
-    _write_report(root, len(classified), public)
+    _write_audit(root, classified, public)
+    _write_report(root, classified, public)
     return public
 
 

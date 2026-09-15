@@ -6,13 +6,16 @@ track and then satisfy at least one qualification criterion.
 
 ## Required research scope
 
-- **Agent Self-Evolving:** an LLM-based agent improves its policy, harness, skills,
-  tools, workflow, memory, or collaboration structure from experience or feedback.
+- **Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement:** an
+  agent or language model improves its policy, harness, skills, tools, training
+  procedure, reasoning, workflow, memory, or collaboration structure over repeated
+  experience and feedback cycles. This includes self-refinement, self-reward, and
+  reinforcement learning from self-generated feedback when improvement is central.
 - **Agent Memory:** storage, writing, retrieval, consolidation, forgetting,
   governance, security, or evaluation is central to an LLM agent.
-- **LLM Continual Training:** an LLM or foundation model is continually pretrained,
-  fine-tuned, aligned, or adapted while addressing retention, transfer, or
-  catastrophic forgetting.
+- **LLM Continual Training & Continual Learning:** an LLM or foundation model is
+  continually pretrained, post-trained, fine-tuned, aligned, or adapted while
+  addressing retention, transfer, online learning, or catastrophic forgetting.
 
 Traditional continual learning without an LLM/foundation-model component and
 generic model-memory or cache papers without an agent contribution are excluded.

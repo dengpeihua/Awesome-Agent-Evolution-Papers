@@ -22,6 +22,10 @@ from agent_paper_digest.candidates import CandidateRepository  # noqa: E402
 from agent_paper_digest.highlight import classify_highlights  # noqa: E402
 from agent_paper_digest.models import Paper  # noqa: E402
 from agent_paper_digest.scholar import SemanticScholarEnricher  # noqa: E402
+from agent_paper_digest.topics import (  # noqa: E402
+    SELF_EVOLUTION_TOPIC,
+    infer_topics_from_text,
+)
 
 CUTOFF = date.today()
 VERIFY_DATE = CUTOFF.isoformat()
@@ -43,28 +47,28 @@ DISCOVERY_SOURCES = {
 EXTRA_ARXIV_TOPICS = {
     "2601.03570": ("llm-continual-training",),
     "2601.05874": ("llm-continual-training",),
-    "2601.11658": ("agent-self-evolving",),
+    "2601.11658": (SELF_EVOLUTION_TOPIC,),
     "2602.18055": ("llm-continual-training",),
-    "2602.11075": ("agent-self-evolving",),
-    "2603.05872": ("agent-self-evolving",),
+    "2602.11075": (SELF_EVOLUTION_TOPIC,),
+    "2603.05872": (SELF_EVOLUTION_TOPIC,),
     "2603.12658": ("llm-continual-training",),
     "2603.15421": ("agent-memory",),
-    "2603.19461": ("agent-self-evolving",),
-    "2604.10923": ("agent-self-evolving", "agent-memory"),
-    "2604.15082": ("agent-self-evolving",),
-    "2604.20714": ("agent-self-evolving",),
-    "2605.17721": ("agent-self-evolving", "agent-memory"),
+    "2603.19461": (SELF_EVOLUTION_TOPIC,),
+    "2604.10923": (SELF_EVOLUTION_TOPIC, "agent-memory"),
+    "2604.15082": (SELF_EVOLUTION_TOPIC,),
+    "2604.20714": (SELF_EVOLUTION_TOPIC,),
+    "2605.17721": (SELF_EVOLUTION_TOPIC, "agent-memory"),
     "2605.23986": ("agent-memory",),
-    "2606.04703": ("agent-self-evolving", "llm-continual-training"),
-    "2606.06114": ("agent-self-evolving",),
+    "2606.04703": (SELF_EVOLUTION_TOPIC, "llm-continual-training"),
+    "2606.06114": (SELF_EVOLUTION_TOPIC,),
     "2606.06448": ("agent-memory",),
-    "2606.07367": ("agent-self-evolving",),
+    "2606.07367": (SELF_EVOLUTION_TOPIC,),
     "2606.10722": ("llm-continual-training",),
     "2606.24775": ("agent-memory",),
-    "2607.12227": ("agent-self-evolving",),
-    "2607.22529": ("agent-self-evolving",),
-    "2608.02276": ("agent-self-evolving",),
-    "2608.03392": ("agent-self-evolving",),
+    "2607.12227": (SELF_EVOLUTION_TOPIC,),
+    "2607.22529": (SELF_EVOLUTION_TOPIC,),
+    "2608.02276": (SELF_EVOLUTION_TOPIC,),
+    "2608.03392": (SELF_EVOLUTION_TOPIC,),
     "2608.03463": ("agent-memory",),
 }
 
@@ -93,7 +97,7 @@ EXTERNAL_CANDIDATES = (
     ExternalCandidate(
         "2026.findings-acl.483",
         "https://aclanthology.org/2026.findings-acl.483/",
-        ("agent-self-evolving",),
+        (SELF_EVOLUTION_TOPIC,),
         "ACL 2026 Findings",
         "",
         "10.18653/v1/2026.findings-acl.483",
@@ -101,7 +105,7 @@ EXTERNAL_CANDIDATES = (
     ExternalCandidate(
         "2026.findings-acl.1522",
         "https://aclanthology.org/2026.findings-acl.1522/",
-        ("agent-self-evolving", "agent-memory"),
+        (SELF_EVOLUTION_TOPIC, "agent-memory"),
         "ACL 2026 Findings",
         "",
         "10.18653/v1/2026.findings-acl.1522",
@@ -199,48 +203,7 @@ def _normalize(value: str) -> str:
 
 
 def _topics_for_title(title: str) -> tuple[str, ...]:
-    lowered = title.lower()
-    topics: list[str] = []
-    self_terms = (
-        "self-evol",
-        "self-improv",
-        "self improving",
-        "agent evolution",
-        "evolving agent",
-        "harness evolution",
-        "agentic evolution",
-        "co-evolving",
-    )
-    if any(term in lowered for term in self_terms):
-        topics.append("agent-self-evolving")
-    memory_word = "memory" in lowered or bool(re.search(r"\bmem[a-z0-9^²-]*:", lowered))
-    agent_word = any(
-        term in lowered for term in ("agent", "agentic", "assistant", "conversational")
-    )
-    if memory_word and agent_word:
-        topics.append("agent-memory")
-    continual_word = any(
-        term in lowered
-        for term in ("continual", "lifelong", "catastrophic forgetting", "online adaptation")
-    )
-    llm_word = any(
-        term in lowered
-        for term in (
-            "llm",
-            "language model",
-            "foundation model",
-            "agent",
-            "instruction",
-            "pre-train",
-            "pretrain",
-            "fine-tun",
-            "alignment",
-            "knowledge",
-        )
-    )
-    if continual_word and llm_word:
-        topics.append("llm-continual-training")
-    return tuple(sorted(set(topics)))
+    return infer_topics_from_text(title, "")
 
 
 def _meta_values(page: str, name: str) -> list[str]:
@@ -571,7 +534,7 @@ async def run(root: Path, *, skip_citations: bool) -> tuple[Paper, ...]:
         "topic_counts": {
             topic: sum(topic in paper.topics for paper in result)
             for topic in (
-                "agent-self-evolving",
+                SELF_EVOLUTION_TOPIC,
                 "agent-memory",
                 "llm-continual-training",
             )

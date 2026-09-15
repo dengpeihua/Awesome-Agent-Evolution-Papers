@@ -2,11 +2,11 @@
 
 [← Back to main index](../../../README.md)
 
-> 1 unique papers · Self-Evolving 1 · Memory 0 · Continual Training 0
+> 1 unique papers · Agent/LLM Self-Improvement 1 · Memory 0 · Continual Training 0
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 2025-11-24 | Self-Evolving | [VDC-Agent: When Video Detailed Captioners Evolve Themselves via Agentic Self-Reflection](https://arxiv.org/abs/2511.19436v2)<br>[PDF](https://arxiv.org/pdf/2511.19436v2) | ECCV 2026 | 🏅 ECCV / EMNLP: ECCV 2026 | Citations: 4 (Semantic Scholar) |
+| 2025-11-24 | Agent/LLM Self-Improvement | [VDC-Agent: When Video Detailed Captioners Evolve Themselves via Agentic Self-Reflection](https://arxiv.org/abs/2511.19436v2)<br>[PDF](https://arxiv.org/pdf/2511.19436v2) | ECCV 2026 | 🏅 ECCV / EMNLP: ECCV 2026 | Citations: 4 (Semantic Scholar) |
 
 ## Notes
 

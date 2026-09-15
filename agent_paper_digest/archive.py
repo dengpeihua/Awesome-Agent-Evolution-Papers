@@ -461,8 +461,9 @@ class ArchiveRepository:
             "",
             "<div align=\"center\">",
             "",
-            "A daily collection of papers on **Agent/LLM self-evolution and recursive "
-            "self-improvement**, **agent memory**, and **LLM continual training**,",
+            "A daily collection of papers on **Agent/LLM self-evolution, self-improving "
+            "systems, and recursive self-improvement**, **agent memory**, and **LLM "
+            "continual training**,",
             "powered by AstrBot.",
             "",
             "The bot resumes from its last successful delivery after downtime, prioritizes",
@@ -584,7 +585,8 @@ class ArchiveRepository:
                 "## 🔎 Scope and Verification",
                 "",
                 "- **Agent & LLM Self-Evolution:** self-evolving, self-improving, recursive "
-                "self-improvement, self-refinement, and co-evolving agents or language models",
+                "self-improvement, self-refinement, self-feedback reinforcement, and "
+                "co-evolving agents or language models",
                 "- **Agent Memory:** long-term, memory-augmented, and persistent agent memory",
                 "- **LLM Continual Training:** continual pre/post-training, lifelong and "
                 "online adaptation, retention, and catastrophic-forgetting mitigation",

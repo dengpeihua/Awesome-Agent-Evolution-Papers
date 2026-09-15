@@ -2,11 +2,11 @@
 
 [← Back to main index](../../../README.md)
 
-> 1 unique papers · Self-Evolving 1 · Memory 0 · Continual Training 0
+> 1 unique papers · Agent/LLM Self-Improvement 1 · Memory 0 · Continual Training 0
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 2025-03-28 | Self-Evolving | [REMAC: Self-Reflective and Self-Evolving Multi-Agent Collaboration for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2503.22122v2)<br>[PDF](https://arxiv.org/pdf/2503.22122v2) | Pattern Recognition | 📈 Highly cited | Citations: 11 (Semantic Scholar) |
+| 2025-03-28 | Agent/LLM Self-Improvement | [REMAC: Self-Reflective and Self-Evolving Multi-Agent Collaboration for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2503.22122v2)<br>[PDF](https://arxiv.org/pdf/2503.22122v2) | Pattern Recognition | 📈 Highly cited | Citations: 11 (Semantic Scholar) |
 
 ## Notes
 

@@ -58,7 +58,7 @@ def test_update_creates_daily_archive_dataset_and_awesome_index(tmp_path) -> Non
 def test_update_deduplicates_across_days_and_merges_topics(tmp_path) -> None:
     archive = ArchiveRepository(tmp_path)
     first = make_eligible_paper("2607.00001", topics=("agent-memory",))
-    second = make_eligible_paper("2607.00001", topics=("agent-self-evolving",))
+    second = make_eligible_paper("2607.00001", topics=("agent-llm-self-evolution",))
 
     archive.update(date(2026, 7, 15), [first])
     result = archive.update(date(2026, 7, 16), [second])
@@ -97,7 +97,7 @@ def test_same_day_rerun_preserves_papers_already_discovered_that_day(tmp_path) -
 
 def test_enrichment_round_trip_and_highlight_rendering(tmp_path) -> None:
     paper = replace(
-        make_paper("2607.00002", topics=("agent-self-evolving",)),
+        make_paper("2607.00002", topics=("agent-llm-self-evolution",)),
         venue="ACL 2026 (Main)",
         venue_source="ACL Anthology",
         github_url="https://github.com/example/project",

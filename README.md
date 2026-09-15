@@ -2,8 +2,8 @@
 
 <div align="center">
 
-A daily collection of papers on **agent self-evolution**, **agent memory**,
-and **LLM continual training**, powered by AstrBot.
+A daily collection of papers on **Agent/LLM self-evolution, self-improving systems, and recursive self-improvement**, **agent memory**, and **LLM continual training**,
+powered by AstrBot.
 
 The bot resumes from its last successful delivery after downtime, prioritizes
 verified industry-affiliated work (especially first authors), and marks explicit
@@ -25,9 +25,9 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 | Metric | Count |
 | --- | ---: |
 | Total papers | 67 |
-| Agent self-evolving | 31 |
+| Agent/LLM self-evolution & self-improvement | 35 |
 | Agent memory | 31 |
-| LLM continual training | 14 |
+| LLM continual training | 15 |
 | Daily archives | 7 |
 
 ## 📚 Table of Contents
@@ -117,58 +117,58 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 
 ## 🗓️ Monthly Index
 
-| Month | Papers | Self-Evolving | Memory | Continual Training |
+| Month | Papers | Agent/LLM Self-Improvement | Memory | Continual Training |
 | --- | ---: | ---: | ---: | ---: |
 | [2025-03](papers/2025/03/README.md) | 1 | 1 | 0 | 0 |
 | [2025-06](papers/2025/06/README.md) | 1 | 0 | 1 | 0 |
 | [2025-08](papers/2025/08/README.md) | 2 | 0 | 0 | 2 |
 | [2025-09](papers/2025/09/README.md) | 1 | 1 | 0 | 0 |
-| [2025-10](papers/2025/10/README.md) | 2 | 0 | 0 | 2 |
+| [2025-10](papers/2025/10/README.md) | 2 | 1 | 0 | 2 |
 | [2025-11](papers/2025/11/README.md) | 1 | 1 | 0 | 0 |
 | [2026-01](papers/2026/01/README.md) | 10 | 3 | 7 | 3 |
-| [2026-02](papers/2026/02/README.md) | 10 | 5 | 7 | 0 |
-| [2026-03](papers/2026/03/README.md) | 4 | 1 | 2 | 1 |
-| [2026-04](papers/2026/04/README.md) | 8 | 4 | 5 | 1 |
+| [2026-02](papers/2026/02/README.md) | 10 | 6 | 7 | 0 |
+| [2026-03](papers/2026/03/README.md) | 4 | 1 | 2 | 2 |
+| [2026-04](papers/2026/04/README.md) | 8 | 5 | 5 | 1 |
 | [2026-05](papers/2026/05/README.md) | 7 | 6 | 3 | 0 |
 | [2026-06](papers/2026/06/README.md) | 2 | 1 | 1 | 0 |
 | [2026-07](papers/2026/07/README.md) | 5 | 2 | 2 | 1 |
-| [2026-08](papers/2026/08/README.md) | 13 | 6 | 3 | 4 |
+| [2026-08](papers/2026/08/README.md) | 13 | 7 | 3 | 4 |
 | [2026-09](papers/2026/09/README.md) | 0 | 0 | 0 | 0 |
 
 ## 📝 Latest Papers
 
 | Published | Track | Paper | Links |
 | --- | --- | --- | --- |
-| 2026-08-31 | LLM Continual Training | [KItCAT: Knowledge Injection via Input Corruption for Auto-regressive Training](https://arxiv.org/abs/2609.00082v1) | [Paper](https://arxiv.org/abs/2609.00082v1) / [PDF](https://arxiv.org/pdf/2609.00082v1) |
-| 2026-08-31 | LLM Continual Training | [Seeing the Unseen: Visual Similarity for Pixel Language Model Adaptation](https://arxiv.org/abs/2608.30541v1) | [Paper](https://arxiv.org/abs/2608.30541v1) / [PDF](https://arxiv.org/pdf/2608.30541v1) |
-| 2026-08-31 | Agent Self-Evolving | [EvoSkill Injection: Red-Teaming Autonomous Skill Generation and Evolution in Self-Evolving Agents](https://arxiv.org/abs/2608.30429v1) | [Paper](https://arxiv.org/abs/2608.30429v1) / [PDF](https://arxiv.org/pdf/2608.30429v1) |
-| 2026-08-30 | Agent Self-Evolving | [SIC-Agents: Benchmarking and Building an Adaptive Simulator for Pediatric Serious Illness Communication Training](https://arxiv.org/abs/2608.29481v1) | [Paper](https://arxiv.org/abs/2608.29481v1) / [PDF](https://arxiv.org/pdf/2608.29481v1) |
-| 2026-08-26 | Agent Self-Evolving | [A Programming Paradigm for Spatiotemporal Composability](https://arxiv.org/abs/2608.25512v1) | [Paper](https://arxiv.org/abs/2608.25512v1) / [PDF](https://arxiv.org/pdf/2608.25512v1) |
-| 2026-08-26 | Agent Memory | [Learning What to Share and What to Personalize: Hierarchical Strategy Co-Evolution for Agent Memory](https://arxiv.org/abs/2608.25329v1) | [Paper](https://arxiv.org/abs/2608.25329v1) / [PDF](https://arxiv.org/pdf/2608.25329v1) |
+| 2026-08-31 | LLM Continual Training & Continual Learning | [KItCAT: Knowledge Injection via Input Corruption for Auto-regressive Training](https://arxiv.org/abs/2609.00082v1) | [Paper](https://arxiv.org/abs/2609.00082v1) / [PDF](https://arxiv.org/pdf/2609.00082v1) |
+| 2026-08-31 | LLM Continual Training & Continual Learning | [Seeing the Unseen: Visual Similarity for Pixel Language Model Adaptation](https://arxiv.org/abs/2608.30541v1) | [Paper](https://arxiv.org/abs/2608.30541v1) / [PDF](https://arxiv.org/pdf/2608.30541v1) |
+| 2026-08-31 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [EvoSkill Injection: Red-Teaming Autonomous Skill Generation and Evolution in Self-Evolving Agents](https://arxiv.org/abs/2608.30429v1) | [Paper](https://arxiv.org/abs/2608.30429v1) / [PDF](https://arxiv.org/pdf/2608.30429v1) |
+| 2026-08-30 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [SIC-Agents: Benchmarking and Building an Adaptive Simulator for Pediatric Serious Illness Communication Training](https://arxiv.org/abs/2608.29481v1) | [Paper](https://arxiv.org/abs/2608.29481v1) / [PDF](https://arxiv.org/pdf/2608.29481v1) |
+| 2026-08-26 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [A Programming Paradigm for Spatiotemporal Composability](https://arxiv.org/abs/2608.25512v1) | [Paper](https://arxiv.org/abs/2608.25512v1) / [PDF](https://arxiv.org/pdf/2608.25512v1) |
+| 2026-08-26 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement, Agent Memory | [Learning What to Share and What to Personalize: Hierarchical Strategy Co-Evolution for Agent Memory](https://arxiv.org/abs/2608.25329v1) | [Paper](https://arxiv.org/abs/2608.25329v1) / [PDF](https://arxiv.org/pdf/2608.25329v1) |
 | 2026-08-24 | Agent Memory | [Counter with Evidence! A Multi-Agent Memory Efficient Reasoning Framework for Hate Category Informed Counterspeech Generation](https://arxiv.org/abs/2608.23152v3) | [Paper](https://arxiv.org/abs/2608.23152v3) / [PDF](https://arxiv.org/pdf/2608.23152v3) |
-| 2026-08-22 | Agent Self-Evolving | [SSE-Bio: A Structured Self-Evolving Agent with Agentic Retrieval Policy for Multi-Hop Biomedical Reasoning](https://arxiv.org/abs/2608.22132v1) | [Paper](https://arxiv.org/abs/2608.22132v1) / [PDF](https://arxiv.org/pdf/2608.22132v1) |
-| 2026-08-20 | LLM Continual Training | [Towards general embodied intelligence: integrating large language models, knowledge bases, and reasoning capabilities to build the next generation of AI agents](https://arxiv.org/abs/2608.19794v1) | [Paper](https://arxiv.org/abs/2608.19794v1) / [PDF](https://arxiv.org/pdf/2608.19794v1) |
-| 2026-08-11 | LLM Continual Training | [Diffract: Spectral View of LLM Domain Adaptation](https://arxiv.org/abs/2608.10850v1) | [Paper](https://arxiv.org/abs/2608.10850v1) / [PDF](https://arxiv.org/pdf/2608.10850v1) |
+| 2026-08-22 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [SSE-Bio: A Structured Self-Evolving Agent with Agentic Retrieval Policy for Multi-Hop Biomedical Reasoning](https://arxiv.org/abs/2608.22132v1) | [Paper](https://arxiv.org/abs/2608.22132v1) / [PDF](https://arxiv.org/pdf/2608.22132v1) |
+| 2026-08-20 | LLM Continual Training & Continual Learning | [Towards general embodied intelligence: integrating large language models, knowledge bases, and reasoning capabilities to build the next generation of AI agents](https://arxiv.org/abs/2608.19794v1) | [Paper](https://arxiv.org/abs/2608.19794v1) / [PDF](https://arxiv.org/pdf/2608.19794v1) |
+| 2026-08-11 | LLM Continual Training & Continual Learning | [Diffract: Spectral View of LLM Domain Adaptation](https://arxiv.org/abs/2608.10850v1) | [Paper](https://arxiv.org/abs/2608.10850v1) / [PDF](https://arxiv.org/pdf/2608.10850v1) |
 | 2026-08-07 | Agent Memory | [MemWM: Memory-Augmented Text-Based World Model](https://arxiv.org/abs/2608.07107v2) | [Paper](https://arxiv.org/abs/2608.07107v2) / [PDF](https://arxiv.org/pdf/2608.07107v2) |
-| 2026-08-06 | Agent Self-Evolving | [FinEvo-Bench: A Longitudinal Benchmark for Self-Evolving Agents in Professional Financial Workflows](https://arxiv.org/abs/2608.06144v1) | [Paper](https://arxiv.org/abs/2608.06144v1) / [PDF](https://arxiv.org/pdf/2608.06144v1) |
-| 2026-08-01 | Agent Self-Evolving | [DiffuseAgent-MI: Distributionally-Grounded,Tool-Integrated Self-Evolving Agents for Faithful Visual Reasoning](https://arxiv.org/abs/2608.00540v1) | [Paper](https://arxiv.org/abs/2608.00540v1) / [PDF](https://arxiv.org/pdf/2608.00540v1) |
-| 2026-07-24 | Agent Self-Evolving | [Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills](https://arxiv.org/abs/2607.22529) | [Paper](https://arxiv.org/abs/2607.22529) / [PDF](https://arxiv.org/pdf/2607.22529) |
-| 2026-07-14 | Agent Self-Evolving | [Rethinking the Evaluation of Harness Evolution for Agents](https://arxiv.org/abs/2607.12227) | [Paper](https://arxiv.org/abs/2607.12227) / [PDF](https://arxiv.org/pdf/2607.12227) |
+| 2026-08-06 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [FinEvo-Bench: A Longitudinal Benchmark for Self-Evolving Agents in Professional Financial Workflows](https://arxiv.org/abs/2608.06144v1) | [Paper](https://arxiv.org/abs/2608.06144v1) / [PDF](https://arxiv.org/pdf/2608.06144v1) |
+| 2026-08-01 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [DiffuseAgent-MI: Distributionally-Grounded,Tool-Integrated Self-Evolving Agents for Faithful Visual Reasoning](https://arxiv.org/abs/2608.00540v1) | [Paper](https://arxiv.org/abs/2608.00540v1) / [PDF](https://arxiv.org/pdf/2608.00540v1) |
+| 2026-07-24 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills](https://arxiv.org/abs/2607.22529) | [Paper](https://arxiv.org/abs/2607.22529) / [PDF](https://arxiv.org/pdf/2607.22529) |
+| 2026-07-14 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [Rethinking the Evaluation of Harness Evolution for Agents](https://arxiv.org/abs/2607.12227) | [Paper](https://arxiv.org/abs/2607.12227) / [PDF](https://arxiv.org/pdf/2607.12227) |
 | 2026-07-09 | Agent Memory | [Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents](https://arxiv.org/abs/2607.08448v4) | [Paper](https://arxiv.org/abs/2607.08448v4) / [PDF](https://arxiv.org/pdf/2607.08448v4) |
 | 2026-07-07 | Agent Memory | [Danus: Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory](https://arxiv.org/abs/2607.06447) | [Paper](https://arxiv.org/abs/2607.06447) / [PDF](https://arxiv.org/pdf/2607.06447) |
-| 2026-07-01 | LLM Continual Training | [SLoRA: Balancing Plasticity and Forgetting in Large Language Models for Continual Learning](https://aclanthology.org/2026.acl-long.247/) | [Paper](https://aclanthology.org/2026.acl-long.247/) / [PDF](https://aclanthology.org/2026.acl-long.247.pdf) |
+| 2026-07-01 | LLM Continual Training & Continual Learning | [SLoRA: Balancing Plasticity and Forgetting in Large Language Models for Continual Learning](https://aclanthology.org/2026.acl-long.247/) | [Paper](https://aclanthology.org/2026.acl-long.247/) / [PDF](https://aclanthology.org/2026.acl-long.247.pdf) |
 | 2026-06-25 | Agent Memory | [DMV-Bench: Diagnosing Long-Horizon Multimodal Agents' Visual Memory with Incidental Cue Injection](https://arxiv.org/abs/2606.27499v2) | [Paper](https://arxiv.org/abs/2606.27499v2) / [PDF](https://arxiv.org/pdf/2606.27499v2) |
-| 2026-06-01 | Agent Self-Evolving | [CoMAP: Co-Evolving World Models and Agent Policies for LLM Agents](https://arxiv.org/abs/2606.02372v2) | [Paper](https://arxiv.org/abs/2606.02372v2) / [PDF](https://arxiv.org/pdf/2606.02372v2) |
-| 2026-05-28 | Agent Self-Evolving | [GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents](https://arxiv.org/abs/2605.29668v3) | [Paper](https://arxiv.org/abs/2605.29668v3) / [PDF](https://arxiv.org/pdf/2605.29668v3) |
-| 2026-05-26 | Agent Self-Evolving | [PEAR: Permutation-Equivariant Adaptive Routing Multi-Agent Debate](https://arxiv.org/abs/2606.20621v2) | [Paper](https://arxiv.org/abs/2606.20621v2) / [PDF](https://arxiv.org/pdf/2606.20621v2) |
-| 2026-05-26 | Agent Memory, Agent Self-Evolving | [MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation](https://arxiv.org/abs/2605.27366) | [Paper](https://arxiv.org/abs/2605.27366) / [PDF](https://arxiv.org/pdf/2605.27366) |
+| 2026-06-01 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [CoMAP: Co-Evolving World Models and Agent Policies for LLM Agents](https://arxiv.org/abs/2606.02372v2) | [Paper](https://arxiv.org/abs/2606.02372v2) / [PDF](https://arxiv.org/pdf/2606.02372v2) |
+| 2026-05-28 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents](https://arxiv.org/abs/2605.29668v3) | [Paper](https://arxiv.org/abs/2605.29668v3) / [PDF](https://arxiv.org/pdf/2605.29668v3) |
+| 2026-05-26 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [PEAR: Permutation-Equivariant Adaptive Routing Multi-Agent Debate](https://arxiv.org/abs/2606.20621v2) | [Paper](https://arxiv.org/abs/2606.20621v2) / [PDF](https://arxiv.org/pdf/2606.20621v2) |
+| 2026-05-26 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement, Agent Memory | [MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation](https://arxiv.org/abs/2605.27366) | [Paper](https://arxiv.org/abs/2605.27366) / [PDF](https://arxiv.org/pdf/2605.27366) |
 | 2026-05-24 | Agent Memory | [MemMark: State-Evolution Attribution Watermarking for Agent Long-Term Memory Systems](https://arxiv.org/abs/2605.25002v4) | [Paper](https://arxiv.org/abs/2605.25002v4) / [PDF](https://arxiv.org/pdf/2605.25002v4) |
-| 2026-05-22 | Agent Self-Evolving | [SkillOpt: Executive Strategy for Self-Evolving Agent Skills](https://arxiv.org/abs/2605.23904) | [Paper](https://arxiv.org/abs/2605.23904) / [PDF](https://arxiv.org/pdf/2605.23904) |
-| 2026-05-19 | Agent Self-Evolving | [Library Drift: Diagnosing and Fixing a Silent Failure Mode in Self-Evolving LLM Skill Libraries](https://arxiv.org/abs/2605.19576v3) | [Paper](https://arxiv.org/abs/2605.19576v3) / [PDF](https://arxiv.org/pdf/2605.19576v3) |
-| 2026-05-13 | Agent Memory, Agent Self-Evolving | [Useful Memories Become Faulty When Continuously Updated by LLMs](https://arxiv.org/abs/2605.12978v2) | [Paper](https://arxiv.org/abs/2605.12978v2) / [PDF](https://arxiv.org/pdf/2605.12978v2) |
+| 2026-05-22 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [SkillOpt: Executive Strategy for Self-Evolving Agent Skills](https://arxiv.org/abs/2605.23904) | [Paper](https://arxiv.org/abs/2605.23904) / [PDF](https://arxiv.org/pdf/2605.23904) |
+| 2026-05-19 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [Library Drift: Diagnosing and Fixing a Silent Failure Mode in Self-Evolving LLM Skill Libraries](https://arxiv.org/abs/2605.19576v3) | [Paper](https://arxiv.org/abs/2605.19576v3) / [PDF](https://arxiv.org/pdf/2605.19576v3) |
+| 2026-05-13 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement, Agent Memory | [Useful Memories Become Faulty When Continuously Updated by LLMs](https://arxiv.org/abs/2605.12978v2) | [Paper](https://arxiv.org/abs/2605.12978v2) / [PDF](https://arxiv.org/pdf/2605.12978v2) |
 | 2026-04-30 | Agent Memory | [Contextual Agentic Memory is a Memo, Not True Memory](https://arxiv.org/abs/2604.27707v2) | [Paper](https://arxiv.org/abs/2604.27707v2) / [PDF](https://arxiv.org/pdf/2604.27707v2) |
 | 2026-04-13 | Agent Memory | [Time is Not a Label: Continuous Phase Rotation for Temporal Knowledge Graphs and Agentic Memory](https://arxiv.org/abs/2604.11544v2) | [Paper](https://arxiv.org/abs/2604.11544v2) / [PDF](https://arxiv.org/pdf/2604.11544v2) |
-| 2026-04-13 | Agent Memory, Agent Self-Evolving | [Mem$^2$Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation](https://arxiv.org/abs/2604.10923) | [Paper](https://arxiv.org/abs/2604.10923) / [PDF](https://arxiv.org/pdf/2604.10923) |
+| 2026-04-13 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement, Agent Memory | [Mem$^2$Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation](https://arxiv.org/abs/2604.10923) | [Paper](https://arxiv.org/abs/2604.10923) / [PDF](https://arxiv.org/pdf/2604.10923) |
 
 ## 🗓️ Daily Archive
 
@@ -182,9 +182,9 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 
 ## 🔎 Scope and Verification
 
-- **Agent Self-Evolving:** self-evolving, self-improving, and evolving agents
+- **Agent & LLM Self-Evolution:** self-evolving, self-improving, recursive self-improvement, self-refinement, self-feedback reinforcement, and co-evolving agents or language models
 - **Agent Memory:** long-term, memory-augmented, and persistent agent memory
-- **LLM Continual Training:** continual, lifelong, and post-deployment LLM learning
+- **LLM Continual Training:** continual pre/post-training, lifelong and online adaptation, retention, and catastrophic-forgetting mitigation
 - **Public inclusion:** topic relevance plus CCF-A (AI), ECCV/EMNLP, verified big-tech affiliation, or at least 10 citations
 - **Conference papers:** only Full/Regular main-track papers qualify by venue; Findings, workshop, demo, and short papers do not
 - **Code stars:** displayed as context but never qualify a paper by themselves

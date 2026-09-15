@@ -38,6 +38,16 @@ def test_detects_agent_self_improvement_and_self_reinforcement() -> None:
     assert infer_topics(paper) == ("agent-llm-self-evolution",)
 
 
+def test_detects_llm_reinforcement_from_self_generated_feedback() -> None:
+    paper = replace(
+        make_paper("2609.10006", topics=()),
+        title="Reinforcement Learning from Self-Generated Feedback",
+        abstract="A language model learns a stronger policy from its own critiques.",
+    )
+
+    assert infer_topics(paper) == ("agent-llm-self-evolution",)
+
+
 def test_detects_llm_continual_post_training() -> None:
     paper = replace(
         make_paper("2609.10003", topics=()),

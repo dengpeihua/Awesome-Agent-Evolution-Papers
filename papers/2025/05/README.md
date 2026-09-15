@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 0 unique papers · Self-Evolving 0 · Memory 0 · Continual Training 0
+> 0 unique papers · Agent/LLM Self-Improvement 0 · Memory 0 · Continual Training 0
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |

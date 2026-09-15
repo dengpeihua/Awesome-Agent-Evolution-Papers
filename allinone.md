@@ -2,7 +2,7 @@
 
 ## Scope
 
-The public corpus is a strict intersection: every paper must address Agent Self-Evolving, Agent Memory, or LLM Continual Training and meet at least one verified qualification criterion.
+The public corpus is a strict intersection: every paper must address Agent/LLM self-evolution, self-improving systems, recursive self-improvement, Agent Memory, or LLM continual training and meet at least one verified qualification criterion.
 
 ## Current result
 

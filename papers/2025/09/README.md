@@ -2,11 +2,11 @@
 
 [← Back to main index](../../../README.md)
 
-> 1 unique papers · Self-Evolving 1 · Memory 0 · Continual Training 0
+> 1 unique papers · Agent/LLM Self-Improvement 1 · Memory 0 · Continual Training 0
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 2025-09-10 | Self-Evolving | [A Systematic Survey on Large Language Models for Evolutionary Optimization: From Modeling to Solving](https://arxiv.org/abs/2509.08269v7)<br>[PDF](https://arxiv.org/pdf/2509.08269v7) | IEEE Computational Intelligence Magazine | 📈 Highly cited | Citations: 15 (Semantic Scholar) |
+| 2025-09-10 | Agent/LLM Self-Improvement | [A Systematic Survey on Large Language Models for Evolutionary Optimization: From Modeling to Solving](https://arxiv.org/abs/2509.08269v7)<br>[PDF](https://arxiv.org/pdf/2509.08269v7) | IEEE Computational Intelligence Magazine | 📈 Highly cited | Citations: 15 (Semantic Scholar) |
 
 ## Notes
 

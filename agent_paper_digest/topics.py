@@ -44,7 +44,8 @@ LLM_PATTERN: Final = re.compile(
 )
 SELF_EVOLUTION_PATTERN: Final = re.compile(
     r"\b(?:self[- ]?(?:evol\w*|improv\w*|refin\w*|enhanc\w*|correct\w*|"
-    r"train\w*|reward\w*)|recursive self[- ]improvement|iterative self[- ]improvement|"
+    r"train\w*|reward\w*|generated feedback)|recursive self[- ]improvement|"
+    r"iterative self[- ]improvement|"
     r"co[- ]?evol\w*|agent evolution|harness evolution|evolving (?:agent|skill|"
     r"capabilit|workflow)\w*)\b",
     re.IGNORECASE,
