@@ -33,7 +33,7 @@ else:
     "agent_paper_digest",
     "Agent Paper Digest",
     "Daily Agent/LLM self-improvement, memory, and continual training paper digest",
-    "0.4.1",
+    "0.4.2",
 )
 class AgentPaperDigestPlugin(Star):
     """AstrBot lifecycle adapter for the daily research pipeline."""
