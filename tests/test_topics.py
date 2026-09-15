@@ -58,6 +58,25 @@ def test_detects_llm_continual_post_training() -> None:
     assert infer_topics(paper) == ("llm-continual-training",)
 
 
+def test_detects_hyphenated_life_long_learning_in_agent_world() -> None:
+    paper = replace(
+        make_paper("2604.18292", topics=()),
+        title=(
+            "Agent-World: Scaling Real-World Environment Synthesis for "
+            "Evolving General Agent Intelligence"
+        ),
+        abstract=(
+            "Large language models need principled mechanisms for life-long learning. "
+            "We present a self-evolving training arena for general agents."
+        ),
+    )
+
+    assert infer_topics(paper) == (
+        "agent-llm-self-evolution",
+        "llm-continual-training",
+    )
+
+
 def test_does_not_treat_generic_evolutionary_optimization_as_self_improvement() -> None:
     paper = replace(
         make_paper("2609.10004", topics=()),
