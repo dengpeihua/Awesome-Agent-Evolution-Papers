@@ -1,6 +1,6 @@
 import json
 from dataclasses import replace
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 
 import pytest
 
@@ -138,6 +138,36 @@ async def test_pipeline_can_skip_empty_notification(tmp_path) -> None:
     await pipeline.run(datetime(2026, 7, 16, 9, tzinfo=UTC))
 
     assert notifier.messages == []
+
+
+@pytest.mark.asyncio
+async def test_pipeline_propagates_query_revision_to_historical_rescan(tmp_path) -> None:
+    class VersionedSource:
+        discovery_revision = "query-v2"
+
+        def __init__(self) -> None:
+            self.since: datetime | None = None
+
+        async def fetch(self, *, since: datetime, max_results_per_topic: int):
+            self.since = since
+            return []
+
+    source = VersionedSource()
+    now = datetime(2026, 9, 15, 9, tzinfo=UTC)
+    pipeline = DailyDigestPipeline(
+        source=source,
+        archive=ArchiveRepository(tmp_path),
+        notifier=None,
+        git_sync=None,
+        historical_backfill_days=730,
+        notify_when_empty=False,
+    )
+
+    await pipeline.run(now)
+
+    assert source.since == now - timedelta(days=730)
+    state = json.loads((tmp_path / "data" / "digest_state.json").read_text("utf-8"))
+    assert state["discovery_revision"] == "query-v2"
 
 
 @pytest.mark.asyncio
