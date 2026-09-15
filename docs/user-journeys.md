@@ -11,3 +11,6 @@
    can be published on GitHub automatically.
 4. As an operator, I want a safe manual run and clear failure reporting, so that
    I can verify configuration before enabling unattended scheduling.
+5. As a researcher, I want a changed discovery query to trigger a one-time
+   historical rescan against the official arXiv source, so that older relevant
+   papers missed by third-party lists are recovered instead of remaining blind spots.
