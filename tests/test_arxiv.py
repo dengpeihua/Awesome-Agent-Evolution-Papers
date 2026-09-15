@@ -32,13 +32,19 @@ def test_parse_arxiv_feed_normalizes_fields_and_versioned_id() -> None:
 def test_build_query_contains_precise_topic_terms() -> None:
     queries = ArxivSource.topic_queries()
 
-    assert set(queries) == {"agent-self-evolving", "agent-memory", "llm-continual-training"}
-    assert '"self-evolving"' in queries["agent-self-evolving"]
-    assert '"evolving skills"' in queries["agent-self-evolving"]
+    assert set(queries) == {
+        "agent-llm-self-evolution",
+        "agent-memory",
+        "llm-continual-training",
+    }
+    assert '"self-evolving"' in queries["agent-llm-self-evolution"]
+    assert '"recursive self-improvement"' in queries["agent-llm-self-evolution"]
+    assert '"self-improving language model"' in queries["agent-llm-self-evolution"]
     assert '"agent memory"' in queries["agent-memory"]
     assert '"agentic memory"' in queries["agent-memory"]
     assert '"large language model"' in queries["llm-continual-training"]
     assert '"continual pre-training"' in queries["llm-continual-training"]
+    assert '"continual post-training"' in queries["llm-continual-training"]
 
 
 @pytest.mark.asyncio
