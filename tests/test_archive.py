@@ -166,3 +166,38 @@ def test_rebuild_prunes_old_daily_pages_when_paper_no_longer_qualifies(tmp_path)
 
     daily = tmp_path / "papers" / "2026" / "07" / "2026-07-15.md"
     assert "Paper 2607.00006" not in daily.read_text(encoding="utf-8")
+
+
+def test_public_paper_lists_are_ordered_by_published_time_descending(tmp_path) -> None:
+    archive = ArchiveRepository(tmp_path)
+    older_priority_paper = replace(
+        make_paper("2606.00001", topics=("agent-memory",)),
+        published=datetime(2026, 6, 1, tzinfo=UTC),
+        updated=datetime(2026, 6, 1, tzinfo=UTC),
+        first_author_affiliations=("ByteDance Seed",),
+        affiliation_source="Official project page",
+    )
+    newer_cited_paper = replace(
+        make_eligible_paper("2608.00001", topics=("agent-memory",)),
+        published=datetime(2026, 8, 1, tzinfo=UTC),
+        updated=datetime(2026, 8, 1, tzinfo=UTC),
+    )
+
+    result = archive.update(
+        date(2026, 8, 2),
+        [older_priority_paper, newer_cited_paper],
+    )
+
+    readme = (tmp_path / "README.md").read_text(encoding="utf-8")
+    highlighted = readme.split("## 🌟 Highlighted Papers", 1)[1].split(
+        "## 🗓️ Monthly Index", 1
+    )[0]
+    latest = readme.split("## 📝 Latest Papers", 1)[1].split(
+        "## 🗓️ Daily Archive", 1
+    )[0]
+    daily = result.daily_path.read_text(encoding="utf-8")
+
+    assert highlighted.index("Paper 2608.00001") < highlighted.index("Paper 2606.00001")
+    assert latest.index("Paper 2608.00001") < latest.index("Paper 2606.00001")
+    assert daily.index("Paper 2608.00001") < daily.index("Paper 2606.00001")
+    assert readme.index("[2026-08]") < readme.index("[2026-06]")

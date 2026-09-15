@@ -14,3 +14,6 @@
 5. As a researcher, I want a changed discovery query to trigger a one-time
    historical rescan against the official arXiv source, so that older relevant
    papers missed by third-party lists are recovered instead of remaining blind spots.
+6. As a researcher, I want every public paper list and archive index ordered from
+   newest to oldest by publication time, while priority signals remain visible as
+   labels, so that important badges never make the chronology confusing.
