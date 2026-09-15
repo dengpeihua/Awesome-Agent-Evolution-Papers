@@ -5,11 +5,9 @@ from dataclasses import replace
 from typing import Final
 
 from .models import Paper
+from .topics import REQUIRED_TOPICS, infer_topics, normalize_topics
 
 HIGH_CITATION_COUNT: Final = 10
-REQUIRED_TOPICS: Final = frozenset(
-    {"agent-self-evolving", "agent-memory", "llm-continual-training"}
-)
 
 INDUSTRY_PATTERNS: Final[tuple[tuple[str, re.Pattern[str]], ...]] = tuple(
     (name, re.compile(pattern, re.IGNORECASE))
@@ -201,7 +199,10 @@ def qualification_reasons(paper: Paper) -> tuple[str, ...]:
 
 def is_eligible(paper: Paper) -> bool:
     """Apply the public collection whitelist after topic relevance screening."""
-    return bool(REQUIRED_TOPICS.intersection(paper.topics) and qualification_reasons(paper))
+    return bool(
+        REQUIRED_TOPICS.intersection(normalize_topics(paper.topics))
+        and qualification_reasons(paper)
+    )
 
 
 def classify_highlights(paper: Paper) -> Paper:
@@ -210,6 +211,7 @@ def classify_highlights(paper: Paper) -> Paper:
     first_author_industry = _industry_names(paper.first_author_affiliations)
     venue = _venue_evidence(paper)
     updates: dict[str, object] = {
+        "topics": infer_topics(paper),
         "industry_affiliations": tuple(sorted(set(paper.industry_affiliations) | set(industry))),
         "industry_first_author_affiliations": tuple(
             sorted(set(paper.industry_first_author_affiliations) | set(first_author_industry))

@@ -16,18 +16,13 @@ from .highlight import (
     promotion_signature,
 )
 from .models import Paper
-
-TOPIC_TITLES = {
-    "agent-self-evolving": "Agent Self-Evolving",
-    "agent-memory": "Agent Memory",
-    "llm-continual-training": "LLM Continual Training",
-}
-
-TOPIC_SHORT = {
-    "agent-self-evolving": "Self-Evolving",
-    "agent-memory": "Memory",
-    "llm-continual-training": "Continual Training",
-}
+from .topics import (
+    AGENT_MEMORY_TOPIC,
+    CONTINUAL_TRAINING_TOPIC,
+    SELF_EVOLUTION_TOPIC,
+    TOPIC_SHORT,
+    TOPIC_TITLES,
+)
 
 POPULAR_CODE_STARS = 100
 VERY_POPULAR_CODE_STARS = 1_000
@@ -417,9 +412,9 @@ class ArchiveRepository:
             "[← Back to main index](../../../README.md)",
             "",
             f"> {len(papers)} unique papers · "
-            f"Self-Evolving {topic_counts['agent-self-evolving']} · "
-            f"Memory {topic_counts['agent-memory']} · "
-            f"Continual Training {topic_counts['llm-continual-training']}",
+            f"Agent/LLM Self-Improvement {topic_counts[SELF_EVOLUTION_TOPIC]} · "
+            f"Memory {topic_counts[AGENT_MEMORY_TOPIC]} · "
+            f"Continual Training {topic_counts[CONTINUAL_TRAINING_TOPIC]}",
             "",
             "| Date | Track | Paper | Venue | Signals | Metrics |",
             "| --- | --- | --- | --- | --- | --- |",
@@ -466,8 +461,9 @@ class ArchiveRepository:
             "",
             "<div align=\"center\">",
             "",
-            "A daily collection of papers on **agent self-evolution**, **agent memory**,",
-            "and **LLM continual training**, powered by AstrBot.",
+            "A daily collection of papers on **Agent/LLM self-evolution and recursive "
+            "self-improvement**, **agent memory**, and **LLM continual training**,",
+            "powered by AstrBot.",
             "",
             "The bot resumes from its last successful delivery after downtime, prioritizes",
             "verified industry-affiliated work (especially first authors), and marks explicit",
@@ -489,9 +485,10 @@ class ArchiveRepository:
             "| Metric | Count |",
             "| --- | ---: |",
             f"| Total papers | {len(papers)} |",
-            f"| Agent self-evolving | {topic_counts['agent-self-evolving']} |",
-            f"| Agent memory | {topic_counts['agent-memory']} |",
-            f"| LLM continual training | {topic_counts['llm-continual-training']} |",
+            f"| Agent/LLM self-evolution & self-improvement | "
+            f"{topic_counts[SELF_EVOLUTION_TOPIC]} |",
+            f"| Agent memory | {topic_counts[AGENT_MEMORY_TOPIC]} |",
+            f"| LLM continual training | {topic_counts[CONTINUAL_TRAINING_TOPIC]} |",
             f"| Daily archives | {len(daily_paths)} |",
             "",
             "## 📚 Table of Contents",
@@ -535,7 +532,7 @@ class ArchiveRepository:
                 "",
                 "## 🗓️ Monthly Index",
                 "",
-                "| Month | Papers | Self-Evolving | Memory | Continual Training |",
+            "| Month | Papers | Agent/LLM Self-Improvement | Memory | Continual Training |",
                 "| --- | ---: | ---: | ---: | ---: |",
             ]
         )
@@ -552,9 +549,9 @@ class ArchiveRepository:
             lines.append(
                 f"| [{year}-{month:02d}](papers/{year}/{month:02d}/README.md) | "
                 f"{len(month_papers)} | "
-                f"{sum('agent-self-evolving' in p.topics for p in month_papers)} | "
-                f"{sum('agent-memory' in p.topics for p in month_papers)} | "
-                f"{sum('llm-continual-training' in p.topics for p in month_papers)} |"
+                f"{sum(SELF_EVOLUTION_TOPIC in p.topics for p in month_papers)} | "
+                f"{sum(AGENT_MEMORY_TOPIC in p.topics for p in month_papers)} | "
+                f"{sum(CONTINUAL_TRAINING_TOPIC in p.topics for p in month_papers)} |"
             )
         lines.extend(
             [
@@ -586,10 +583,11 @@ class ArchiveRepository:
                 "",
                 "## 🔎 Scope and Verification",
                 "",
-                "- **Agent Self-Evolving:** self-evolving, self-improving, and evolving agents",
+                "- **Agent & LLM Self-Evolution:** self-evolving, self-improving, recursive "
+                "self-improvement, self-refinement, and co-evolving agents or language models",
                 "- **Agent Memory:** long-term, memory-augmented, and persistent agent memory",
-                "- **LLM Continual Training:** continual, lifelong, and post-deployment "
-                "LLM learning",
+                "- **LLM Continual Training:** continual pre/post-training, lifelong and "
+                "online adaptation, retention, and catastrophic-forgetting mitigation",
                 "- **Public inclusion:** topic relevance plus CCF-A (AI), ECCV/EMNLP, verified "
                 "big-tech affiliation, or at least 10 citations",
                 "- **Conference papers:** only Full/Regular main-track papers qualify by venue; "

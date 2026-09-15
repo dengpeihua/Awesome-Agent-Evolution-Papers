@@ -66,7 +66,7 @@ def test_update_deduplicates_across_days_and_merges_topics(tmp_path) -> None:
     assert result.new_papers == ()
     dataset = json.loads((tmp_path / "data" / "papers.json").read_text(encoding="utf-8"))
     assert len(dataset) == 1
-    assert dataset[0]["topics"] == ["agent-memory", "agent-self-evolving"]
+    assert dataset[0]["topics"] == ["agent-llm-self-evolution", "agent-memory"]
 
 
 def test_update_records_an_empty_day(tmp_path) -> None:

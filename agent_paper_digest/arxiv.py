@@ -9,6 +9,7 @@ from typing import Final
 import httpx
 
 from .models import Paper
+from .topics import normalize_topics
 
 ATOM: Final = "http://www.w3.org/2005/Atom"
 ARXIV: Final = "http://arxiv.org/schemas/atom"
@@ -89,7 +90,7 @@ def parse_arxiv_feed(xml: str, *, topic: str) -> list[Paper]:
                     for category in entry.findall(f"{{{ATOM}}}category")
                     if category.attrib.get("term")
                 ),
-                topics=(topic,),
+                topics=normalize_topics((topic,)),
                 doi=_normalized_text(entry.findtext(f"{{{ARXIV}}}doi")),
                 comment=_normalized_text(entry.findtext(f"{{{ARXIV}}}comment")),
                 journal_ref=_normalized_text(entry.findtext(f"{{{ARXIV}}}journal_ref")),
@@ -161,11 +162,16 @@ class ArxivSource:
     def topic_queries() -> dict[str, str]:
         """Return high-precision queries for the three requested research tracks."""
         return {
-            "agent-self-evolving": (
+            "agent-llm-self-evolution": (
                 '((all:"self-evolving" OR all:"self-improving" '
+                'OR all:"recursive self-improvement" '
+                'OR all:"self-improving language model" '
+                'OR all:"iterative self-improvement" '
+                'OR all:"self-rewarding language model" '
                 'OR all:"agent self-evolution" OR all:"evolving agent" '
                 'OR all:"evolving skills" OR all:"self-consolidation") '
-                'AND (all:"agent" OR all:"agentic"))'
+                'AND (all:"agent" OR all:"agentic" OR all:"LLM" '
+                'OR all:"large language model" OR all:"foundation model"))'
             ),
             "agent-memory": (
                 '(all:"agent memory" OR all:"agentic memory" '
@@ -175,7 +181,9 @@ class ArxivSource:
             "llm-continual-training": (
                 '((all:"continual learning" OR all:"continual training" '
                 'OR all:"continual adaptation" OR all:"continual pre-training" '
-                'OR all:"continual fine-tuning" OR all:"lifelong learning") '
+                'OR all:"continual post-training" OR all:"continual fine-tuning" '
+                'OR all:"online adaptation" OR all:"lifelong learning" '
+                'OR all:"catastrophic forgetting") '
                 'AND (all:"large language model" OR all:"language model" '
                 'OR all:"foundation model" OR all:"LLM"))'
             ),
