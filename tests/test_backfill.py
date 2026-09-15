@@ -36,6 +36,25 @@ async def test_historical_discovery_merges_official_arxiv_results(monkeypatch) -
     assert candidates["2604.18292"] == (SELF_EVOLUTION_TOPIC,)
 
 
+@pytest.mark.asyncio
+async def test_official_discovery_survives_third_party_source_failure(
+    monkeypatch,
+) -> None:
+    monkeypatch.setattr(backfill_2026, "DISCOVERY_SOURCES", {"broken": "https://bad"})
+
+    async def fail_third_party(_client, _url):
+        raise RuntimeError("third-party list unavailable")
+
+    monkeypatch.setattr(backfill_2026, "_get", fail_third_party)
+
+    candidates = await backfill_2026.discover_candidates(
+        object(),
+        official_source=FakeOfficialArxivSource(),
+    )
+
+    assert "2604.18292" in candidates
+
+
 def test_agent_world_has_verified_bytedance_team_evidence() -> None:
     paper = make_paper("2604.18292", topics=(SELF_EVOLUTION_TOPIC,))
 
