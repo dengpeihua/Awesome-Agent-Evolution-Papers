@@ -1,5 +1,5 @@
 param(
-    [string]$AstrBotPath = "C:\Users\16332\Projects\AstrBot",
+    [string]$AstrBotPath = (Join-Path $env:USERPROFILE "Projects\AstrBot"),
     [string]$ProjectPath = (Split-Path -Parent $PSScriptRoot)
 )
 
@@ -16,4 +16,3 @@ if (Test-Path -LiteralPath $target) {
 
 New-Item -ItemType Junction -Path $target -Target $source | Out-Null
 Write-Output "Installed AstrBot plugin junction: $target -> $source"
-

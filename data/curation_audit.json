@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T06:16:35.569347+00:00",
+  "generated_at": "2026-09-15T08:37:30.464549+00:00",
   "policy": {
     "required_topics": [
       "agent-llm-self-evolution",
@@ -14,22 +14,22 @@
     ],
     "code_stars_are_qualifying": false
   },
-  "candidate_count": 953,
+  "candidate_count": 954,
   "candidate_topic_counts": {
-    "agent-llm-self-evolution": 351,
+    "agent-llm-self-evolution": 352,
     "agent-memory": 577,
-    "llm-continual-training": 139
+    "llm-continual-training": 140
   },
-  "public_paper_count": 67,
+  "public_paper_count": 68,
   "topic_counts": {
-    "agent-llm-self-evolution": 35,
+    "agent-llm-self-evolution": 36,
     "agent-memory": 31,
-    "llm-continual-training": 15
+    "llm-continual-training": 16
   },
   "qualification_counts": {
     "CCF-A": 6,
     "Highly cited": 41,
-    "Industry": 8,
+    "Industry": 9,
     "Selected venue": 17
   },
   "notes": [

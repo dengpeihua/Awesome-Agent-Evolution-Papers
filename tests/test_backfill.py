@@ -1,5 +1,5 @@
 from dataclasses import replace
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import pytest
 
@@ -11,7 +11,10 @@ from tests.test_archive import make_paper
 
 class FakeOfficialArxivSource:
     async def fetch(self, *, since: datetime, max_results_per_topic: int):
-        assert since.year <= 2024
+        assert since.date() == (
+            backfill_2026.CUTOFF
+            - timedelta(days=backfill_2026.HISTORICAL_DISCOVERY_DAYS)
+        )
         assert max_results_per_topic == 100
         return [
             replace(

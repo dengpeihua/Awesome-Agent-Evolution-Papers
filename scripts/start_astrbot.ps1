@@ -1,5 +1,5 @@
 param(
-    [string]$AstrBotPath = "C:\Users\16332\Projects\AstrBot"
+    [string]$AstrBotPath = (Join-Path $env:USERPROFILE "Projects\AstrBot")
 )
 
 $ErrorActionPreference = "Stop"
@@ -24,4 +24,3 @@ $process = Start-Process -FilePath $python -ArgumentList $main -WorkingDirectory
     -RedirectStandardOutput $stdout -RedirectStandardError $stderr -WindowStyle Hidden -PassThru
 Set-Content -LiteralPath $pidFile -Value $process.Id
 Write-Output "AstrBot started (PID $($process.Id)); dashboard: http://localhost:6185"
-

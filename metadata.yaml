@@ -2,7 +2,7 @@ name: agent_paper_digest
 display_name: Agent Paper Digest
 desc: 每日检索 Agent/LLM 自进化、自改进、递归自改进、Agent Memory 与 LLM 持续训练论文，推送企业微信并归档到 GitHub。
 short_desc: Agent/LLM 自进化与持续学习论文日报、企业微信推送及 GitHub 归档。
-version: v0.4.0
+version: v0.4.1
 author: Agent Paper Digest
 repo: ""
 astrbot_version: ">=4.16,<5"

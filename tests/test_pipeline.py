@@ -6,6 +6,7 @@ import pytest
 
 from agent_paper_digest.archive import ArchiveRepository
 from agent_paper_digest.pipeline import DailyDigestPipeline
+from agent_paper_digest.state import DigestStateStore
 from tests.test_archive import make_paper
 
 
@@ -168,6 +169,37 @@ async def test_pipeline_propagates_query_revision_to_historical_rescan(tmp_path)
     assert source.since == now - timedelta(days=730)
     state = json.loads((tmp_path / "data" / "digest_state.json").read_text("utf-8"))
     assert state["discovery_revision"] == "query-v2"
+
+
+@pytest.mark.asyncio
+async def test_failed_delivery_does_not_accept_new_discovery_revision(tmp_path) -> None:
+    class VersionedSource:
+        discovery_revision = "query-v2"
+
+        async def fetch(self, *, since: datetime, max_results_per_topic: int):
+            return [make_paper("2609.10001", topics=("agent-memory",))]
+
+    class FailingNotifier:
+        async def send(self, _markdown: str) -> None:
+            raise RuntimeError("temporary delivery error")
+
+    previous = datetime(2026, 9, 12, 9, tzinfo=UTC)
+    DigestStateStore(tmp_path).complete(previous, discovery_revision="query-v1")
+    pipeline = DailyDigestPipeline(
+        source=VersionedSource(),
+        archive=ArchiveRepository(tmp_path),
+        notifier=FailingNotifier(),
+        git_sync=None,
+        historical_backfill_days=730,
+        notify_when_empty=True,
+    )
+
+    with pytest.raises(RuntimeError, match="delivery error"):
+        await pipeline.run(datetime(2026, 9, 15, 9, tzinfo=UTC))
+
+    state = DigestStateStore(tmp_path).load()
+    assert state.last_successful_run_at == previous
+    assert state.discovery_revision == "query-v1"
 
 
 @pytest.mark.asyncio

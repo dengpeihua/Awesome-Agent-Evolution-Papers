@@ -597,7 +597,7 @@ async def run(root: Path, *, skip_citations: bool) -> tuple[Paper, ...]:
         "eccv_emnlp_flags": sum(
             paper.venue_tier == "selected-extra" for paper in result
         ),
-        "discovery_sources": list(DISCOVERY_SOURCES.values()),
+        "discovery_sources": [ArxivSource.API_URL, *DISCOVERY_SOURCES.values()],
         "notes": [
             "Discovery lists provide recall only; metadata is rechecked on paper pages.",
             "Missing star and citation metrics are represented as null, never estimated.",

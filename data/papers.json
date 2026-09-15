@@ -1284,6 +1284,70 @@
     "verified_at": "2026-08-12"
   },
   {
+    "arxiv_id": "2604.18292",
+    "title": "Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence",
+    "abstract": "Large language models are increasingly expected to serve as general-purpose agents that interact with external, stateful tool environments. The Model Context Protocol (MCP) and broader agent skills offer a unified interface for connecting agents with scalable real-world services, but training robust agents remains limited by the lack of realistic environments and principled mechanisms for life-long learning. In this paper, we present \\textbf{Agent-World}, a self-evolving training arena for advancing general agent intelligence through scalable environments. Agent-World has two main components: (1) Agentic Environment-Task Discovery, which autonomously explores topic-aligned databases and executable tool ecosystems from thousands of real-world environment themes and synthesizes verifiable tasks with controllable difficulty; and (2) Continuous Self-Evolving Agent Training, which combines multi-environment reinforcement learning with a self-evolving agent arena that automatically identifies capability gaps through dynamic task synthesis and drives targeted learning, enabling the co-evolution of agent policies and environments. Across 23 challenging agent benchmarks, Agent-World-8B and 14B consistently outperforms strong proprietary models and environment scaling baselines. Further analyses reveal scaling trends in relation to environment diversity and self-evolution rounds, offering insights for building general agent intelligence.",
+    "authors": [
+      "Dong, Guanting",
+      "Lu, Junting",
+      "Huang, Junjie",
+      "Zhong, Wanjun",
+      "Liu, Longxiang",
+      "Huang, Shijue",
+      "Li, Zhenyu",
+      "Zhao, Yang",
+      "Song, Xiaoshuai",
+      "Li, Xiaoxi",
+      "Jin, Jiajie",
+      "Zhu, Yutao",
+      "Wang, Hanbin",
+      "Lei, Fangyu",
+      "Luo, Qinyu",
+      "Chen, Mingyang",
+      "Chen, Zehui",
+      "Feng, Jiazhan",
+      "Wen, Ji-Rong",
+      "Dou, Zhicheng"
+    ],
+    "published": "2026-04-20T00:00:00+00:00",
+    "updated": "2026-04-20T00:00:00+00:00",
+    "url": "https://arxiv.org/abs/2604.18292",
+    "pdf_url": "https://arxiv.org/pdf/2604.18292",
+    "primary_category": "cs.AI",
+    "categories": [
+      "cs.AI"
+    ],
+    "topics": [
+      "agent-llm-self-evolution",
+      "llm-continual-training"
+    ],
+    "doi": "",
+    "comment": "",
+    "journal_ref": "",
+    "venue": "",
+    "venue_tier": "",
+    "venue_source": "",
+    "acceptance_evidence": "",
+    "github_url": "https://github.com/RUC-NLPIR/Agent-World",
+    "github_stars": null,
+    "citation_count": null,
+    "citation_source": "",
+    "affiliations": [
+      "ByteDance Seed",
+      "Gaoling School of Artificial Intelligence, Renmin University of China"
+    ],
+    "first_author_affiliations": [
+      "Gaoling School of Artificial Intelligence, Renmin University of China"
+    ],
+    "industry_affiliations": [
+      "ByteDance"
+    ],
+    "industry_first_author_affiliations": [],
+    "affiliation_source": "Official arXiv HTML and project page",
+    "highlight_reasons": [],
+    "verified_at": "2026-09-15"
+  },
+  {
     "arxiv_id": "2604.11544",
     "title": "Time is Not a Label: Continuous Phase Rotation for Temporal Knowledge Graphs and Agentic Memory",
     "abstract": "Structured memory representations such as knowledge graphs are central to autonomous agents and other long-lived systems. However, most existing approaches model time as discrete metadata, either sorting by recency (burying old-yet-permanent knowledge), simply overwriting outdated facts, or requiring an expensive LLM call at every ingestion step, leaving them unable to distinguish persistent facts from evolving ones. To address this, we introduce RoMem, a drop-in temporal knowledge graph module for structured memory systems, applicable to agentic memory and beyond. A pretrained Semantic Speed Gate maps each relation's text embedding to a volatility score, learning from data that evolving relations (e.g., \"president of\") should rotate fast while persistent ones (e.g., \"born in\") should remain stable. Combined with continuous phase rotation, this enables geometric shadowing: obsolete facts are rotated out of phase in complex vector space, so temporally correct facts naturally outrank contradictions without deletion. On temporal knowledge graph completion, RoMem achieves state-of-the-art results on ICEWS05-15 (72.6 MRR). Applied to agentic memory, it delivers 2-3x MRR and answer accuracy on temporal reasoning (MultiTQ), dominates hybrid benchmark (LoCoMo), preserves static memory with zero degradation (DMR-MSC), and generalises zero-shot to unseen financial domains (FinTMMBench).",

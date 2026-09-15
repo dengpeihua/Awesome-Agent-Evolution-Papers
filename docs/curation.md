@@ -60,6 +60,14 @@ Topically relevant but unqualified papers are kept only in the ignored local fil
 author evidence for that pool. A candidate enters the public repository and the
 daily push as soon as it gains a valid qualifier.
 
+The official arXiv topic queries are the primary historical discovery source;
+specialist Awesome lists are independent auxiliary sources, so one unavailable
+list cannot stop the others. The bot fingerprints the active arXiv queries. When
+that fingerprint changes, the next successful run performs one configurable
+historical rescan (`historical_backfill_days`, default 730) before returning to the
+normal catch-up cursor. This recovers older papers that only become discoverable
+after a taxonomy or query improvement.
+
 `data/digest_state.json` records the most recent fully successful run and pending
 notification IDs. After downtime, the bot resumes from that cursor instead of
 limiting retrieval to the current day.

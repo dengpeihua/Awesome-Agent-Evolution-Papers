@@ -24,11 +24,11 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 
 | Metric | Count |
 | --- | ---: |
-| Total papers | 67 |
-| Agent/LLM self-evolution & self-improvement | 35 |
+| Total papers | 68 |
+| Agent/LLM self-evolution & self-improvement | 36 |
 | Agent memory | 31 |
-| LLM continual training | 15 |
-| Daily archives | 7 |
+| LLM continual training | 16 |
+| Daily archives | 8 |
 
 ## 📚 Table of Contents
 
@@ -76,6 +76,7 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 | [Hyperagents](https://arxiv.org/abs/2603.19461) | 2026-03-19 | arXiv | 🔥 Very popular code<br>📈 Highly cited<br>🏢 Industry: Meta | [GitHub ★ 2,675](https://github.com/facebookresearch/HyperAgents)<br>Citations: 33 (Google Scholar) |
 | [How Do Large Language Models Learn Concepts During Continual Pre-Training?](https://arxiv.org/abs/2601.03570v2) | 2026-01-07 | arXiv.org | 🏢 Industry: Meta | Citations: 3 (Semantic Scholar) |
 | [Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills](https://arxiv.org/abs/2607.22529) | 2026-07-24 | arXiv.org | ⭐ Popular code<br>🏢 Industry: Alibaba / Qwen | [GitHub ★ 119](https://github.com/Qwen-Applications/skill-self-play)<br>Citations: 1 (Semantic Scholar) |
+| [Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence](https://arxiv.org/abs/2604.18292) | 2026-04-20 | arXiv | 🏢 Industry: ByteDance | [GitHub ★ n/a](https://github.com/RUC-NLPIR/Agent-World) |
 | [CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery](https://arxiv.org/abs/2604.01658v3) | 2026-04-02 | arXiv.org | 📈 Highly cited | Citations: 33 (Semantic Scholar) |
 | [Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents](https://arxiv.org/abs/2607.08448v4) | 2026-07-09 | arXiv.org | 📈 Highly cited | Citations: 11 (Semantic Scholar) |
 | [SinLlama -- A Large Language Model for Sinhala](https://arxiv.org/abs/2508.09115v5) | 2025-08-12 | Moratuwa Engineering Research Conference | 📈 Highly cited | Citations: 10 (Semantic Scholar) |
@@ -128,7 +129,7 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 | [2026-01](papers/2026/01/README.md) | 10 | 3 | 7 | 3 |
 | [2026-02](papers/2026/02/README.md) | 10 | 6 | 7 | 0 |
 | [2026-03](papers/2026/03/README.md) | 4 | 1 | 2 | 2 |
-| [2026-04](papers/2026/04/README.md) | 8 | 5 | 5 | 1 |
+| [2026-04](papers/2026/04/README.md) | 9 | 6 | 5 | 2 |
 | [2026-05](papers/2026/05/README.md) | 7 | 6 | 3 | 0 |
 | [2026-06](papers/2026/06/README.md) | 2 | 1 | 1 | 0 |
 | [2026-07](papers/2026/07/README.md) | 5 | 2 | 2 | 1 |
@@ -167,11 +168,12 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 | 2026-05-19 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [Library Drift: Diagnosing and Fixing a Silent Failure Mode in Self-Evolving LLM Skill Libraries](https://arxiv.org/abs/2605.19576v3) | [Paper](https://arxiv.org/abs/2605.19576v3) / [PDF](https://arxiv.org/pdf/2605.19576v3) |
 | 2026-05-13 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement, Agent Memory | [Useful Memories Become Faulty When Continuously Updated by LLMs](https://arxiv.org/abs/2605.12978v2) | [Paper](https://arxiv.org/abs/2605.12978v2) / [PDF](https://arxiv.org/pdf/2605.12978v2) |
 | 2026-04-30 | Agent Memory | [Contextual Agentic Memory is a Memo, Not True Memory](https://arxiv.org/abs/2604.27707v2) | [Paper](https://arxiv.org/abs/2604.27707v2) / [PDF](https://arxiv.org/pdf/2604.27707v2) |
+| 2026-04-20 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement, LLM Continual Training & Continual Learning | [Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence](https://arxiv.org/abs/2604.18292) | [Paper](https://arxiv.org/abs/2604.18292) / [PDF](https://arxiv.org/pdf/2604.18292) |
 | 2026-04-13 | Agent Memory | [Time is Not a Label: Continuous Phase Rotation for Temporal Knowledge Graphs and Agentic Memory](https://arxiv.org/abs/2604.11544v2) | [Paper](https://arxiv.org/abs/2604.11544v2) / [PDF](https://arxiv.org/pdf/2604.11544v2) |
-| 2026-04-13 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement, Agent Memory | [Mem$^2$Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation](https://arxiv.org/abs/2604.10923) | [Paper](https://arxiv.org/abs/2604.10923) / [PDF](https://arxiv.org/pdf/2604.10923) |
 
 ## 🗓️ Daily Archive
 
+- [2026-09-15](papers/2026/09/2026-09-15.md)
 - [2026-09-12](papers/2026/09/2026-09-12.md)
 - [2026-09-10](papers/2026/09/2026-09-10.md)
 - [2026-09-09](papers/2026/09/2026-09-09.md)

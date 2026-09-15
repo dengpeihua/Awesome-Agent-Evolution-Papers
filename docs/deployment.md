@@ -6,11 +6,12 @@ deployment uses Python 3.12 in an isolated `uv` environment; Docker is optional.
 ## 1. Install and start AstrBot
 
 ```powershell
-git clone https://github.com/AstrBotDevs/AstrBot.git C:\Users\you\Projects\AstrBot
-cd C:\Users\you\Projects\AstrBot
+$astrbotPath = Join-Path $env:USERPROFILE "Projects\AstrBot"
+git clone https://github.com/AstrBotDevs/AstrBot.git $astrbotPath
+Set-Location $astrbotPath
 py -m pip install --user uv
 py -m uv sync --no-dev --python 3.12
-\.venv\Scripts\python.exe main.py
+.\.venv\Scripts\python.exe main.py
 ```
 
 Open `http://localhost:6185`, sign in with the one-time password printed in the
@@ -22,7 +23,7 @@ Run from this repository:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\install_astrbot_plugin.ps1 `
-  -AstrBotPath C:\Users\you\Projects\AstrBot
+  -AstrBotPath (Join-Path $env:USERPROFILE "Projects\AstrBot")
 ```
 
 Restart AstrBot or reload **Agent Paper Digest** in the WebUI plugin page.
@@ -117,4 +118,4 @@ AstrBot chat, or reload the plugin with `run_on_startup` enabled for one run.
 - Safe status command: `/paper_digest_status`
 - Daily pages: `papers/YYYY/MM/YYYY-MM-DD.md`
 - Machine-readable dataset: `data/papers.json`
-- AstrBot logs: `C:\Users\you\Projects\AstrBot\data\logs`
+- AstrBot logs: `$env:USERPROFILE\Projects\AstrBot\data\logs`
