@@ -63,6 +63,9 @@ class GitSync:
         await self._run("add", "-A", "--", *targets)
         return_code, _ = await self._run("diff", "--cached", "--quiet", allowed_codes=(0, 1))
         if return_code == 0:
+            # A previous run may have committed successfully but failed to push.
+            if self.auto_push:
+                await self._run("push", "-u", self.remote, f"HEAD:{self.branch}")
             return False
         await self._run(
             "-c",

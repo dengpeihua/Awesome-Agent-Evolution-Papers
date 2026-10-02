@@ -79,8 +79,7 @@ def parse_arxiv_feed(xml: str, *, topic: str) -> list[Paper]:
                 title=_normalized_text(entry.findtext(f"{{{ATOM}}}title")),
                 abstract=_normalized_text(entry.findtext(f"{{{ATOM}}}summary")),
                 authors=tuple(
-                    _normalized_text(author.findtext(f"{{{ATOM}}}name"))
-                    for author in author_nodes
+                    _normalized_text(author.findtext(f"{{{ATOM}}}name")) for author in author_nodes
                 ),
                 published=_parse_datetime(entry.findtext(f"{{{ATOM}}}published") or ""),
                 updated=_parse_datetime(entry.findtext(f"{{{ATOM}}}updated") or ""),
@@ -104,9 +103,7 @@ def parse_arxiv_feed(xml: str, *, topic: str) -> list[Paper]:
                     )
                 ),
                 first_author_affiliations=(author_affiliations[0] if author_affiliations else ()),
-                affiliation_source=(
-                    "arXiv author metadata" if any(author_affiliations) else ""
-                ),
+                affiliation_source=("arXiv author metadata" if any(author_affiliations) else ""),
             )
         )
     return papers
@@ -173,8 +170,13 @@ class ArxivSource:
 
     @staticmethod
     def topic_queries() -> dict[str, str]:
-        """Return high-precision queries for the three requested research tracks."""
+        """Return queries for all four requested research tracks."""
         return {
+            "reinforcement-learning": (
+                '(ti:"reinforcement learning" OR abs:"reinforcement learning" '
+                'OR ti:"RLHF" OR abs:"RLHF" OR ti:"GRPO" OR abs:"GRPO" '
+                'OR ti:"RLAIF" OR abs:"RLAIF")'
+            ),
             "agent-llm-self-evolution": (
                 '((all:"self-evolving" OR all:"self-improving" '
                 'OR all:"recursive self-improvement" '

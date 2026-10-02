@@ -37,12 +37,12 @@
   },
   "max_results_per_topic": {
     "type": "int",
-    "description": "每个主题单次最多读取的 arXiv 结果数",
+    "description": "arXiv 每页条数；自动翻页覆盖完整补推时间段",
     "default": 20
   },
   "max_push_papers": {
     "type": "int",
-    "description": "企业微信单次摘要最多展示的论文数",
+    "description": "每批通知的论文数；超过后继续分批推送，绝不截断",
     "default": 8
   },
   "semantic_scholar_enrichment": {

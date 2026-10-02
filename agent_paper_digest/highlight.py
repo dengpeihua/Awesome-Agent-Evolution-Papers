@@ -50,11 +50,9 @@ INDUSTRY_PATTERNS: Final[tuple[tuple[str, re.Pattern[str]], ...]] = tuple(
     )
 )
 
-# CCF seventh-edition Artificial Intelligence A venues plus the two explicit
-# user additions. Conference eligibility applies only to Full/Regular papers.
-SELECTED_VENUE_PATTERNS: Final[
-    tuple[tuple[str, str, re.Pattern[str]], ...]
-] = tuple(
+# AI venue watchlist plus selected ML conferences and journals.
+# Main-conference labels exclude workshop and non-main-track evidence.
+SELECTED_VENUE_PATTERNS: Final[tuple[tuple[str, str, re.Pattern[str]], ...]] = tuple(
     (name, tier, re.compile(pattern, re.IGNORECASE))
     for name, tier, pattern in (
         ("AAAI", "ccf-a", r"\baaai\b|aaai conference on artificial intelligence"),
@@ -95,6 +93,14 @@ SELECTED_VENUE_PATTERNS: Final[
             r"\bemnlp\b|(?:conference on )?empirical methods in natural language processing",
         ),
         ("ECCV", "selected-extra", r"\beccv\b|european conference on computer vision"),
+        (
+            "ICLR",
+            "selected-extra",
+            r"\biclr\b|international conference on learning representations",
+        ),
+        ("Nature", "selected-extra", r"\bnature\b(?=\s*(?:20\d{2}\b|[.,;:]|$))"),
+        ("Science", "selected-extra", r"\bscience\b(?=\s*(?:20\d{2}\b|[.,;:]|$))"),
+        ("Nature Machine Intelligence", "selected-extra", r"\bnature machine intelligence\b"),
     )
 )
 
@@ -161,8 +167,10 @@ def _venue_evidence(paper: Paper) -> tuple[str, str, str, str] | None:
         and "manual" not in paper.venue_source.lower()
         and not PREPRINT_PATTERN.match(paper.venue)
     )
-    if matched and not NON_MAIN_PATTERN.search(paper.venue) and (
-        trusted_venue or _publisher_record(paper)
+    if (
+        matched
+        and not NON_MAIN_PATTERN.search(paper.venue)
+        and (trusted_venue or _publisher_record(paper))
     ):
         name, label, tier = matched
         source = paper.venue_source or "publisher record"
@@ -198,11 +206,8 @@ def qualification_reasons(paper: Paper) -> tuple[str, ...]:
 
 
 def is_eligible(paper: Paper) -> bool:
-    """Apply the public collection whitelist after topic relevance screening."""
-    return bool(
-        REQUIRED_TOPICS.intersection(normalize_topics(paper.topics))
-        and qualification_reasons(paper)
-    )
+    """Include topical papers; priority evidence is a label, not an entry barrier."""
+    return bool(REQUIRED_TOPICS.intersection(normalize_topics(paper.topics)))
 
 
 def classify_highlights(paper: Paper) -> Paper:
@@ -247,6 +252,7 @@ def promotion_signature(paper: Paper) -> tuple[object, ...]:
     """Return qualification signals whose first appearance merits notification."""
     return (
         paper.venue_tier,
+        paper.venue if paper.venue_tier else "",
         paper.industry_first_author_affiliations,
         paper.industry_affiliations if has_industry_qualification(paper) else (),
         is_highly_cited(paper),

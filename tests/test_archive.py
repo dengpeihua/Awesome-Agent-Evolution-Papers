@@ -89,9 +89,7 @@ def test_same_day_rerun_preserves_papers_already_discovered_that_day(tmp_path) -
     text = second.daily_path.read_text(encoding="utf-8")
     assert "Paper 2607.00001" in text
     assert "No new papers were discovered" not in text
-    discoveries = json.loads(
-        (tmp_path / "data" / "discoveries.json").read_text(encoding="utf-8")
-    )
+    discoveries = json.loads((tmp_path / "data" / "discoveries.json").read_text(encoding="utf-8"))
     assert discoveries == {"2026-07-16": ["2607.00001"]}
 
 
@@ -147,14 +145,14 @@ def test_existing_paper_is_promoted_when_a_priority_signal_appears(tmp_path) -> 
     assert "🏆 CCF-A: ACL 2026" in daily
 
 
-def test_public_dataset_rejects_plain_arxiv_and_popular_code_only(tmp_path) -> None:
+def test_public_dataset_includes_topical_new_preprints_without_priority(tmp_path) -> None:
     plain = make_paper("2607.00004", topics=("agent-memory",))
     popular = replace(plain, arxiv_id="2607.00005", github_stars=50_000)
 
     result = ArchiveRepository(tmp_path).replace_dataset([plain, popular])
 
-    assert result == ()
-    assert json.loads((tmp_path / "data" / "papers.json").read_text()) == []
+    assert len(result) == 2
+    assert len(json.loads((tmp_path / "data" / "papers.json").read_text())) == 2
 
 
 def test_rebuild_prunes_old_daily_pages_when_paper_no_longer_qualifies(tmp_path) -> None:
@@ -162,7 +160,7 @@ def test_rebuild_prunes_old_daily_pages_when_paper_no_longer_qualifies(tmp_path)
     eligible = make_eligible_paper("2607.00006", topics=("agent-memory",))
     archive.update(date(2026, 7, 15), [eligible])
 
-    archive.replace_dataset([make_paper("2607.00006", topics=("agent-memory",))])
+    archive.replace_dataset([make_paper("2607.00006", topics=("unrelated",))])
 
     daily = tmp_path / "papers" / "2026" / "07" / "2026-07-15.md"
     assert "Paper 2607.00006" not in daily.read_text(encoding="utf-8")
@@ -189,15 +187,28 @@ def test_public_paper_lists_are_ordered_by_published_time_descending(tmp_path) -
     )
 
     readme = (tmp_path / "README.md").read_text(encoding="utf-8")
-    highlighted = readme.split("## 🌟 Highlighted Papers", 1)[1].split(
-        "## 🗓️ Monthly Index", 1
-    )[0]
-    latest = readme.split("## 📝 Latest Papers", 1)[1].split(
-        "## 🗓️ Daily Archive", 1
-    )[0]
+    highlighted = readme.split("## 🌟 Highlighted Papers", 1)[1].split("## 🗓️ Monthly Index", 1)[0]
+    latest = readme.split("## 📝 Latest Papers", 1)[1].split("## 🗓️ Daily Archive", 1)[0]
     daily = result.daily_path.read_text(encoding="utf-8")
 
     assert highlighted.index("Paper 2608.00001") < highlighted.index("Paper 2606.00001")
     assert latest.index("Paper 2608.00001") < latest.index("Paper 2606.00001")
     assert daily.index("Paper 2608.00001") < daily.index("Paper 2606.00001")
     assert readme.index("[2026-08]") < readme.index("[2026-06]")
+
+
+def test_acceptance_discovery_and_coverage_survive_rebuild(tmp_path):
+    archive = ArchiveRepository(tmp_path)
+    original = make_paper("2607.12345", topics=("reinforcement-learning",))
+    archive.update(date(2026, 7, 16), [original])
+    accepted = replace(original, comment="Accepted to ICLR 2027 as a full paper")
+    start = datetime(2026, 9, 12, tzinfo=UTC)
+    end = datetime(2026, 10, 3, tzinfo=UTC)
+    result = archive.update(end.date(), [accepted], coverage_start=start, coverage_end=end)
+    assert result.promoted_papers[0].acceptance_first_seen == "2026-10-03"
+    archive.replace_dataset(list(result.all_papers))
+    text = result.daily_path.read_text("utf-8")
+    assert "2026-09-12T00:00:00+00:00" in text
+    assert "Acceptance first observed: 2026-10-03" in text
+    assert "actual acceptance date unverified" in text
+    assert not archive.update(date(2026, 10, 4), [accepted]).promoted_papers

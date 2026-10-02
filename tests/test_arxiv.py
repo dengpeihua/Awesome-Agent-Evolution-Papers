@@ -36,6 +36,7 @@ def test_build_query_contains_precise_topic_terms() -> None:
         "agent-llm-self-evolution",
         "agent-memory",
         "llm-continual-training",
+        "reinforcement-learning",
     }
     assert '"self-evolving"' in queries["agent-llm-self-evolution"]
     assert '"recursive self-improvement"' in queries["agent-llm-self-evolution"]
@@ -103,9 +104,7 @@ async def test_fetch_pages_until_the_complete_catch_up_window(monkeypatch) -> No
 
 @pytest.mark.asyncio
 async def test_fetch_retries_arxiv_rate_limits(monkeypatch) -> None:
-    xml = (Path(__file__).parent / "fixtures" / "arxiv_feed.xml").read_text(
-        encoding="utf-8"
-    )
+    xml = (Path(__file__).parent / "fixtures" / "arxiv_feed.xml").read_text(encoding="utf-8")
 
     class RetryClient:
         def __init__(self) -> None:
@@ -140,9 +139,7 @@ async def test_fetch_retries_arxiv_rate_limits(monkeypatch) -> None:
 
 @pytest.mark.asyncio
 async def test_fetch_retries_transient_network_errors(monkeypatch) -> None:
-    xml = (Path(__file__).parent / "fixtures" / "arxiv_feed.xml").read_text(
-        encoding="utf-8"
-    )
+    xml = (Path(__file__).parent / "fixtures" / "arxiv_feed.xml").read_text(encoding="utf-8")
 
     class RetryClient:
         def __init__(self) -> None:

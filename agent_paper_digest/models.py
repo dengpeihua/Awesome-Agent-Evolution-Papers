@@ -38,6 +38,7 @@ class Paper:
     affiliation_source: str = ""
     highlight_reasons: tuple[str, ...] = ()
     verified_at: str = ""
+    acceptance_first_seen: str = ""
 
     def merge(self, other: Paper) -> Paper:
         """Merge topic labels and prefer the most recently updated metadata.
@@ -67,14 +68,10 @@ class Paper:
             acceptance_evidence=newest.acceptance_evidence or older.acceptance_evidence,
             github_url=newest.github_url or older.github_url,
             github_stars=(
-                newest.github_stars
-                if newest.github_stars is not None
-                else older.github_stars
+                newest.github_stars if newest.github_stars is not None else older.github_stars
             ),
             citation_count=(
-                newest.citation_count
-                if newest.citation_count is not None
-                else older.citation_count
+                newest.citation_count if newest.citation_count is not None else older.citation_count
             ),
             citation_source=newest.citation_source or older.citation_source,
             affiliations=tuple(sorted(set(self.affiliations) | set(other.affiliations))),
@@ -95,6 +92,7 @@ class Paper:
                 sorted(set(self.highlight_reasons) | set(other.highlight_reasons))
             ),
             verified_at=newest.verified_at or older.verified_at,
+            acceptance_first_seen=self.acceptance_first_seen or other.acceptance_first_seen,
         )
 
     def to_dict(self) -> dict[str, Any]:
@@ -125,12 +123,11 @@ class Paper:
             "affiliations": list(self.affiliations),
             "first_author_affiliations": list(self.first_author_affiliations),
             "industry_affiliations": list(self.industry_affiliations),
-            "industry_first_author_affiliations": list(
-                self.industry_first_author_affiliations
-            ),
+            "industry_first_author_affiliations": list(self.industry_first_author_affiliations),
             "affiliation_source": self.affiliation_source,
             "highlight_reasons": list(self.highlight_reasons),
             "verified_at": self.verified_at,
+            "acceptance_first_seen": self.acceptance_first_seen,
         }
 
     @classmethod
@@ -164,14 +161,10 @@ class Paper:
             acceptance_evidence=str(value.get("acceptance_evidence", "")),
             github_url=str(value.get("github_url", "")),
             github_stars=(
-                int(value["github_stars"])
-                if value.get("github_stars") is not None
-                else None
+                int(value["github_stars"]) if value.get("github_stars") is not None else None
             ),
             citation_count=(
-                int(value["citation_count"])
-                if value.get("citation_count") is not None
-                else None
+                int(value["citation_count"]) if value.get("citation_count") is not None else None
             ),
             citation_source=str(value.get("citation_source", "")),
             affiliations=tuple(value.get("affiliations", [])),
@@ -183,4 +176,5 @@ class Paper:
             affiliation_source=str(value.get("affiliation_source", "")),
             highlight_reasons=tuple(value.get("highlight_reasons", [])),
             verified_at=str(value.get("verified_at", "")),
+            acceptance_first_seen=str(value.get("acceptance_first_seen", "")),
         )

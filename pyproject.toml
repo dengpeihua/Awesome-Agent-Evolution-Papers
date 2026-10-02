@@ -1,7 +1,7 @@
 [project]
 name = "awesome-agent-evolution-papers"
-version = "0.4.2"
-description = "Daily Agent/LLM self-improvement, memory, and continual training paper digest"
+version = "0.5.0"
+description = "Daily Agent/LLM self-improvement, memory, continual training, and reinforcement learning paper digest"
 requires-python = ">=3.12"
 dependencies = [
   "httpx>=0.28,<1",

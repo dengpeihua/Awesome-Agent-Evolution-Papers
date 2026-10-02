@@ -3,9 +3,10 @@ from __future__ import annotations
 import json
 import re
 from collections import defaultdict
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import date, datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from .highlight import (
     HIGH_CITATION_COUNT,
@@ -13,11 +14,13 @@ from .highlight import (
     has_industry_qualification,
     is_eligible,
     promotion_signature,
+    qualification_reasons,
 )
 from .models import Paper
 from .topics import (
     AGENT_MEMORY_TOPIC,
     CONTINUAL_TRAINING_TOPIC,
+    REINFORCEMENT_LEARNING_TOPIC,
     SELF_EVOLUTION_TOPIC,
     TOPIC_SHORT,
     TOPIC_TITLES,
@@ -25,6 +28,8 @@ from .topics import (
 
 POPULAR_CODE_STARS = 100
 VERY_POPULAR_CODE_STARS = 1_000
+
+
 @dataclass(frozen=True, slots=True)
 class ArchiveResult:
     """Artifacts produced by one discovery run."""
@@ -135,6 +140,13 @@ class ArchiveRepository:
             if not is_eligible(paper):
                 continue
             current = existing.get(paper.arxiv_id)
+            if paper.venue_tier and not paper.acceptance_first_seen:
+                # This is an observation date, never an inferred acceptance date.
+                paper = replace(
+                    paper,
+                    acceptance_first_seen=(current.acceptance_first_seen if current else "")
+                    or discovery_date.isoformat(),
+                )
             if current:
                 merged = current.merge(paper)
                 existing[paper.arxiv_id] = merged
@@ -173,6 +185,18 @@ class ArchiveRepository:
                 day_ids.append(arxiv_id)
         day_ids.sort()
         self._write_discoveries(discoveries)
+        if coverage_start and coverage_end:
+            windows_path = data_dir / "coverage_windows.json"
+            windows = json.loads(windows_path.read_text("utf-8")) if windows_path.exists() else {}
+            previous = windows.get(day_key, {})
+            windows[day_key] = {
+                "start": min(
+                    previous.get("start", coverage_start.isoformat()), coverage_start.isoformat()
+                ),
+                "end": coverage_end.isoformat(),
+            }
+            windows_path.write_text(json.dumps(windows, indent=2) + "\n", encoding="utf-8")
+            coverage_start = datetime.fromisoformat(windows[day_key]["start"])
         daily_papers = [existing[arxiv_id] for arxiv_id in day_ids if arxiv_id in existing]
 
         daily_path = (
@@ -208,9 +232,7 @@ class ArchiveRepository:
             daily_url=daily_url,
             new_papers=tuple(paper for paper in new_papers if paper.arxiv_id not in known_ids),
             promoted_papers=tuple(promoted_papers),
-            digest_papers=tuple(
-                existing[paper_id] for paper_id in digest_ids if paper_id in existing
-            ),
+            digest_papers=tuple(paper for paper in all_papers if paper.arxiv_id in digest_ids),
             all_papers=tuple(all_papers),
             coverage_start=coverage_start,
             coverage_end=coverage_end,
@@ -234,10 +256,10 @@ class ArchiveRepository:
             encoding="utf-8",
         )
 
-    def _write_daily_archives(
-        self, discoveries: dict[str, list[str]], papers: list[Paper]
-    ) -> None:
+    def _write_daily_archives(self, discoveries: dict[str, list[str]], papers: list[Paper]) -> None:
         indexed = {paper.arxiv_id: paper for paper in papers}
+        windows_path = self.root / "data" / "coverage_windows.json"
+        windows = json.loads(windows_path.read_text("utf-8")) if windows_path.exists() else {}
         for day, identifiers in discoveries.items():
             try:
                 discovery_date = date.fromisoformat(day)
@@ -255,6 +277,12 @@ class ArchiveRepository:
                 self._render_daily(
                     discovery_date,
                     [indexed[identifier] for identifier in identifiers if identifier in indexed],
+                    coverage_start=(
+                        datetime.fromisoformat(windows[day]["start"]) if day in windows else None
+                    ),
+                    coverage_end=(
+                        datetime.fromisoformat(windows[day]["end"]) if day in windows else None
+                    ),
                 ),
                 encoding="utf-8",
             )
@@ -276,7 +304,7 @@ class ArchiveRepository:
             f"# Daily Papers · {discovery_date.isoformat()}",
             "",
             f"> Prepared **{len(papers)}** new, promoted, or retried paper(s) "
-            "across three research tracks.",
+            "across four research tracks. Lists are newest publication first.",
         ]
         if coverage_start and coverage_end:
             lines.append(
@@ -287,7 +315,32 @@ class ArchiveRepository:
         if not papers:
             lines.extend(["No new papers were discovered in this run.", ""])
             return "\n".join(lines)
-        highlighted = [paper for paper in ordered if is_eligible(paper)]
+        lines.extend(
+            [
+                "## All Updates · Newest First",
+                "",
+                "| Published | Track | Paper | Signals |",
+                "| --- | --- | --- | --- |",
+            ]
+        )
+        for paper in ordered:
+            title = paper.title.replace("|", "\\|")
+            tracks = ", ".join(TOPIC_SHORT[t] for t in paper.topics)
+            fresh = (
+                "🆕 New industry paper today<br>"
+                if paper.published.astimezone(
+                    coverage_end.tzinfo if coverage_end else ZoneInfo("Asia/Shanghai")
+                ).date()
+                == discovery_date
+                and has_industry_qualification(paper)
+                else ""
+            )
+            lines.append(
+                f"| {paper.published.date()} | {tracks} | [{title}]({paper.url}) | "
+                f"{fresh}{self._flags(paper)} |"
+            )
+        lines.append("")
+        highlighted = [paper for paper in ordered if qualification_reasons(paper)]
         if highlighted:
             lines.extend(
                 [
@@ -300,9 +353,7 @@ class ArchiveRepository:
             for paper in highlighted:
                 evidence = self._evidence(paper)
                 title = paper.title.replace("|", "\\|")
-                lines.append(
-                    f"| [{title}]({paper.url}) | {self._flags(paper)} | {evidence} |"
-                )
+                lines.append(f"| [{title}]({paper.url}) | {self._flags(paper)} | {evidence} |")
             lines.append("")
         for topic, title in TOPIC_TITLES.items():
             topic_papers = [paper for paper in ordered if topic in paper.topics]
@@ -368,7 +419,13 @@ class ArchiveRepository:
         if paper.venue_tier == "ccf-a":
             flags.append("🏆 CCF-A: " + (paper.venue or "verified"))
         elif paper.venue_tier == "selected-extra":
-            flags.append("🏅 ECCV / EMNLP: " + (paper.venue or "verified"))
+            flags.append("🏅 Selected top venue: " + (paper.venue or "verified"))
+        if paper.acceptance_first_seen and paper.venue_tier:
+            flags.append(
+                "📣 Acceptance first observed: "
+                + paper.acceptance_first_seen
+                + " (actual acceptance date unverified)"
+            )
         flags.extend(reason for reason in paper.highlight_reasons if reason not in flags)
         return "<br>".join(flags) if flags else "—"
 
@@ -387,11 +444,14 @@ class ArchiveRepository:
         grouped: dict[tuple[int, int], list[Paper]] = defaultdict(list)
         for paper in papers:
             grouped[(paper.published.year, paper.published.month)].append(paper)
-        years = sorted({paper.published.year for paper in papers} | {date.today().year})
+        years = sorted(
+            {paper.published.year for paper in papers}
+            | {datetime.now(ZoneInfo("Asia/Shanghai")).date().year}
+        )
         for year in years:
             months = range(1, 13)
-            if year == date.today().year:
-                months = range(1, date.today().month + 1)
+            if year == datetime.now(ZoneInfo("Asia/Shanghai")).date().year:
+                months = range(1, datetime.now(ZoneInfo("Asia/Shanghai")).date().month + 1)
             for month in months:
                 month_papers = sorted(
                     grouped.get((year, month), []),
@@ -417,7 +477,8 @@ class ArchiveRepository:
             f"> {len(papers)} unique papers · "
             f"Agent/LLM Self-Improvement {topic_counts[SELF_EVOLUTION_TOPIC]} · "
             f"Memory {topic_counts[AGENT_MEMORY_TOPIC]} · "
-            f"Continual Training {topic_counts[CONTINUAL_TRAINING_TOPIC]}",
+            f"Continual Training {topic_counts[CONTINUAL_TRAINING_TOPIC]} · "
+            f"Reinforcement Learning {topic_counts[REINFORCEMENT_LEARNING_TOPIC]}",
             "",
             "| Date | Track | Paper | Venue | Signals | Metrics |",
             "| --- | --- | --- | --- | --- | --- |",
@@ -454,11 +515,7 @@ class ArchiveRepository:
             reverse=True,
         )
         daily_paths = sorted(
-            (
-                path
-                for path in (self.root / "papers").glob("*/*/*.md")
-                if path.name != "README.md"
-            ),
+            (path for path in (self.root / "papers").glob("*/*/*.md") if path.name != "README.md"),
             reverse=True,
         )
         topic_counts = {
@@ -467,11 +524,11 @@ class ArchiveRepository:
         lines = [
             "# Awesome Agent Evolution Papers",
             "",
-            "<div align=\"center\">",
+            '<div align="center">',
             "",
             "A daily collection of papers on **Agent/LLM self-evolution, self-improving "
             "systems, and recursive self-improvement**, **agent memory**, and **LLM "
-            "continual training**,",
+            "continual training**, and **Reinforcement Learning**,",
             "powered by AstrBot.",
             "",
             "The bot resumes from its last successful delivery after downtime, prioritizes",
@@ -498,6 +555,7 @@ class ArchiveRepository:
             f"{topic_counts[SELF_EVOLUTION_TOPIC]} |",
             f"| Agent memory | {topic_counts[AGENT_MEMORY_TOPIC]} |",
             f"| LLM continual training | {topic_counts[CONTINUAL_TRAINING_TOPIC]} |",
+            f"| Reinforcement Learning | {topic_counts[REINFORCEMENT_LEARNING_TOPIC]} |",
             f"| Daily archives | {len(daily_paths)} |",
             "",
             "## 📚 Table of Contents",
@@ -513,13 +571,13 @@ class ArchiveRepository:
             "",
             "## 🌟 Highlighted Papers",
             "",
-            "> Every listed paper is topic-relevant and has at least one verified qualifier: "
-            "CCF-A (AI), ECCV/EMNLP, big-tech affiliation, or high citation count.",
+            "> Priority labels identify selected venues, industry affiliations, and citations. "
+            "All topical papers remain eligible, including new preprints. Newest first.",
             "",
             "| Paper | Published | Venue | Why it matters | Metrics |",
             "| --- | --- | --- | --- | --- |",
         ]
-        highlighted = [paper for paper in chronological if is_eligible(paper)]
+        highlighted = [paper for paper in chronological if qualification_reasons(paper)]
         for paper in highlighted:
             title = paper.title.replace("|", "\\|")
             lines.append(
@@ -533,13 +591,19 @@ class ArchiveRepository:
                 "",
                 "## 🗓️ Monthly Index",
                 "",
-            "| Month | Papers | Agent/LLM Self-Improvement | Memory | Continual Training |",
-                "| --- | ---: | ---: | ---: | ---: |",
+                "| Month | Papers | Agent/LLM Self-Improvement | Memory | "
+                "Continual Training | RL |",
+                "| --- | ---: | ---: | ---: | ---: | ---: |",
             ]
         )
         month_keys = sorted(
             {(paper.published.year, paper.published.month) for paper in papers}
-            | {(date.today().year, date.today().month)},
+            | {
+                (
+                    datetime.now(ZoneInfo("Asia/Shanghai")).date().year,
+                    datetime.now(ZoneInfo("Asia/Shanghai")).date().month,
+                )
+            },
             reverse=True,
         )
         for year, month in month_keys:
@@ -553,15 +617,16 @@ class ArchiveRepository:
                 f"{len(month_papers)} | "
                 f"{sum(SELF_EVOLUTION_TOPIC in p.topics for p in month_papers)} | "
                 f"{sum(AGENT_MEMORY_TOPIC in p.topics for p in month_papers)} | "
-                f"{sum(CONTINUAL_TRAINING_TOPIC in p.topics for p in month_papers)} |"
+                f"{sum(CONTINUAL_TRAINING_TOPIC in p.topics for p in month_papers)} | "
+                f"{sum(REINFORCEMENT_LEARNING_TOPIC in p.topics for p in month_papers)} |"
             )
         lines.extend(
             [
                 "",
                 "## 📝 Latest Papers",
-            "",
-            "| Published | Track | Paper | Links |",
-            "| --- | --- | --- | --- |",
+                "",
+                "| Published | Track | Paper | Links |",
+                "| --- | --- | --- | --- |",
             ]
         )
         for paper in chronological[:30]:
@@ -591,8 +656,12 @@ class ArchiveRepository:
                 "- **Agent Memory:** long-term, memory-augmented, and persistent agent memory",
                 "- **LLM Continual Training:** continual pre/post-training, lifelong and "
                 "online adaptation, retention, and catastrophic-forgetting mitigation",
-                "- **Public inclusion:** topic relevance plus CCF-A (AI), ECCV/EMNLP, verified "
-                "big-tech affiliation, or at least 10 citations",
+                "- **Reinforcement Learning:** RL methods and applications, including RLHF, "
+                "RLAIF, and GRPO; not restricted to Agent/LLM papers",
+                "- **Public inclusion:** any of the four topics; industry, venue, and citation "
+                "signals highlight papers without excluding new preprints",
+                "- **Acceptance dates:** first observed means newly detected by this bot; "
+                "it does not establish the actual date of acceptance",
                 "- **Conference papers:** only Full/Regular main-track papers qualify by venue; "
                 "Findings, workshop, demo, and short papers do not",
                 "- **Code stars:** displayed as context but never qualify a paper by themselves",

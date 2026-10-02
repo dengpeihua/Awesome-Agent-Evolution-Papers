@@ -8,11 +8,13 @@ from .models import Paper
 SELF_EVOLUTION_TOPIC: Final = "agent-llm-self-evolution"
 AGENT_MEMORY_TOPIC: Final = "agent-memory"
 CONTINUAL_TRAINING_TOPIC: Final = "llm-continual-training"
+REINFORCEMENT_LEARNING_TOPIC: Final = "reinforcement-learning"
 
 TOPIC_ORDER: Final = (
     SELF_EVOLUTION_TOPIC,
     AGENT_MEMORY_TOPIC,
     CONTINUAL_TRAINING_TOPIC,
+    REINFORCEMENT_LEARNING_TOPIC,
 )
 TOPIC_TITLES: Final = {
     SELF_EVOLUTION_TOPIC: (
@@ -20,11 +22,13 @@ TOPIC_TITLES: Final = {
     ),
     AGENT_MEMORY_TOPIC: "Agent Memory",
     CONTINUAL_TRAINING_TOPIC: "LLM Continual Training & Continual Learning",
+    REINFORCEMENT_LEARNING_TOPIC: "Reinforcement Learning",
 }
 TOPIC_SHORT: Final = {
     SELF_EVOLUTION_TOPIC: "Agent/LLM Self-Improvement",
     AGENT_MEMORY_TOPIC: "Agent Memory",
     CONTINUAL_TRAINING_TOPIC: "LLM Continual Training",
+    REINFORCEMENT_LEARNING_TOPIC: "Reinforcement Learning",
 }
 REQUIRED_TOPICS: Final = frozenset(TOPIC_ORDER)
 
@@ -86,6 +90,8 @@ def infer_topics_from_text(
         topics.add(AGENT_MEMORY_TOPIC)
     if LLM_PATTERN.search(text) and CONTINUAL_TRAINING_PATTERN.search(text):
         topics.add(CONTINUAL_TRAINING_TOPIC)
+    if re.search(r"\b(?:reinforcement[- ]learning|RLHF|RLAIF|GRPO)\b", text, re.IGNORECASE):
+        topics.add(REINFORCEMENT_LEARNING_TOPIC)
     return tuple(topic for topic in TOPIC_ORDER if topic in topics)
 
 

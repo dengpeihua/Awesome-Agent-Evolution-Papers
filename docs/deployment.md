@@ -82,18 +82,16 @@ profile metadata. Most Semantic Scholar endpoints work without a key but may be
 throttled. An optional key can be placed in `semantic_scholar_api_key` in AstrBot's
 local plugin configuration; never add it to this repository.
 
-Public inclusion and priority markers are conservative:
+All four topics are included, even without citations or known affiliations.
+Industry teams, first-author companies, and selected top venues receive evidence
+labels; newly observed acceptance is dated separately from publication.
+See [Curation Policy](curation.md) for the venue watchlist and source limitations.
 
-- every public paper must be in one of the three research tracks and independently
-  qualify through CCF-A (AI), ECCV/EMNLP, big-tech authorship, or at least 10
-  citations;
-- a team industry marker requires paper-specific evidence; Semantic Scholar author
-  profiles qualify only when the first author's profile names a big-tech company;
-- a venue marker requires an arXiv acceptance comment, journal reference,
-  DOI-backed publisher record, or publication-venue metadata;
-- workshop, Findings, demo, short-paper, submitted, and under-review text is not
-  promoted by venue status, and `arXiv.org` is never treated as a venue;
-- GitHub stars are displayed for context but do not qualify a paper by themselves.
+`max_push_papers` controls each batch size; all remaining papers are sent in
+additional batches. Every public list and message batch is newest-first.
+Missing notification configuration or disabled Git pushing keeps the delivery
+cursor pending. Scheduled errors retry after 15 minutes while AstrBot runs.
+After a partial failure, some messages can be repeated on retry.
 
 ## 6. Verify before unattended operation
 

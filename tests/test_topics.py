@@ -35,7 +35,7 @@ def test_detects_agent_self_improvement_and_self_reinforcement() -> None:
         ),
     )
 
-    assert infer_topics(paper) == ("agent-llm-self-evolution",)
+    assert infer_topics(paper) == ("agent-llm-self-evolution", "reinforcement-learning")
 
 
 def test_detects_llm_reinforcement_from_self_generated_feedback() -> None:
@@ -45,7 +45,7 @@ def test_detects_llm_reinforcement_from_self_generated_feedback() -> None:
         abstract="A language model learns a stronger policy from its own critiques.",
     )
 
-    assert infer_topics(paper) == ("agent-llm-self-evolution",)
+    assert infer_topics(paper) == ("agent-llm-self-evolution", "reinforcement-learning")
 
 
 def test_detects_llm_continual_post_training() -> None:

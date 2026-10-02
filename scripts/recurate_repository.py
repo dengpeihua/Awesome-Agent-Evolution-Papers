@@ -20,17 +20,15 @@ from agent_paper_digest.models import Paper  # noqa: E402
 from agent_paper_digest.topics import TOPIC_TITLES  # noqa: E402
 
 
-def _write_audit(
-    root: Path, candidates: list[Paper], papers: tuple[Paper, ...]
-) -> None:
+def _write_audit(root: Path, candidates: list[Paper], papers: tuple[Paper, ...]) -> None:
     reason_counts = Counter(reason for paper in papers for reason in qualification_reasons(paper))
     audit = {
         "generated_at": datetime.now(UTC).isoformat(),
         "policy": {
             "required_topics": list(TOPIC_TITLES),
-            "qualifiers": [
+            "highlight_signals": [
                 "CCF-A Artificial Intelligence Full/Regular paper",
-                "ECCV or EMNLP Full/Regular paper",
+                "Selected top venue, including ECCV, EMNLP and ICLR",
                 "verified big-tech paper or first-author affiliation",
                 f"at least {HIGH_CITATION_COUNT} citations",
             ],
@@ -38,8 +36,7 @@ def _write_audit(
         },
         "candidate_count": len(candidates),
         "candidate_topic_counts": {
-            topic: sum(topic in paper.topics for paper in candidates)
-            for topic in TOPIC_TITLES
+            topic: sum(topic in paper.topics for paper in candidates) for topic in TOPIC_TITLES
         },
         "public_paper_count": len(papers),
         "topic_counts": {
@@ -48,7 +45,7 @@ def _write_audit(
         "qualification_counts": dict(sorted(reason_counts.items())),
         "notes": [
             "Qualification counts overlap when one paper meets multiple criteria.",
-            "Unqualified topical candidates stay only in the ignored local candidate cache.",
+            "All topical papers are public; highlight signals do not gate inclusion.",
             "Citation counts are source-attributed snapshots and may change over time.",
         ],
     }
@@ -58,25 +55,23 @@ def _write_audit(
     )
 
 
-def _write_report(
-    root: Path, candidates: list[Paper], papers: tuple[Paper, ...]
-) -> None:
+def _write_report(root: Path, candidates: list[Paper], papers: tuple[Paper, ...]) -> None:
     reasons = Counter(reason for paper in papers for reason in qualification_reasons(paper))
     lines = [
         "# Agent Evolution Curated Corpus Audit",
         "",
         "## Scope",
         "",
-        "The public corpus is a strict intersection: every paper must address Agent/LLM "
+        "The public corpus covers four directions: every paper must address Agent/LLM "
         "self-evolution, self-improving systems, recursive self-improvement, Agent Memory, "
-        "or LLM continual training and meet at least one verified qualification criterion.",
+        "LLM continual training, or Reinforcement Learning. Priority evidence is optional.",
         "",
         "## Current result",
         "",
         f"- Topic candidates evaluated: **{len(candidates)}**",
         f"- Papers retained in the public repository: **{len(papers)}**",
         f"- CCF-A (Artificial Intelligence): **{reasons['CCF-A']}**",
-        f"- ECCV / EMNLP: **{reasons['Selected venue']}**",
+        f"- Selected top venues: **{reasons['Selected venue']}**",
         f"- Big-tech affiliation: **{reasons['Industry']}**",
         f"- At least {HIGH_CITATION_COUNT} citations: **{reasons['Highly cited']}**",
         "",
@@ -86,12 +81,12 @@ def _write_report(
         "## Evidence boundaries",
         "",
         "- Venue qualification uses CCF-A venues in the Artificial Intelligence category, "
-        "plus ECCV and EMNLP requested for this collection.",
+        "plus the selected venues in docs/curation.md.",
         "- Only main-track Full/Regular conference papers qualify by venue; Findings, "
         "workshop, demo, short, submitted, and under-review records do not.",
         "- Big-tech status requires paper-specific affiliation evidence or a first-author "
         "industry profile; a generic coauthor profile is insufficient.",
-        "- Pure arXiv/preprint records need an independent big-tech or citation qualifier.",
+        "- Topical preprints are included without an industry or citation requirement.",
         "- Missing evidence is never inferred.",
         "",
     ]
@@ -112,4 +107,4 @@ def run(root: Path) -> tuple[Paper, ...]:
 
 if __name__ == "__main__":
     result = run(PROJECT_ROOT)
-    print(f"Retained {len(result)} strictly curated papers")
+    print(f"Retained {len(result)} topical papers")

@@ -53,9 +53,7 @@ class DigestStateStore:
             if state.last_successful_run_at is None:
                 return historical_start
             successful = state.last_successful_run_at
-            successful = (
-                successful if successful.tzinfo else successful.replace(tzinfo=now.tzinfo)
-            )
+            successful = successful if successful.tzinfo else successful.replace(tzinfo=now.tzinfo)
             return min(successful, historical_start)
         if state.last_successful_run_at is not None:
             value = state.last_successful_run_at
@@ -70,7 +68,8 @@ class DigestStateStore:
 
     def _write(self, state: DigestState) -> None:
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        self.path.write_text(
+        temporary = self.path.with_suffix(".json.tmp")
+        temporary.write_text(
             json.dumps(
                 {
                     "last_successful_run_at": (
@@ -90,15 +89,18 @@ class DigestStateStore:
             + "\n",
             encoding="utf-8",
         )
+        temporary.replace(self.path)
+
+    def restore(self, state: DigestState) -> None:
+        """Roll back local completion when publishing the success ledger fails."""
+        self._write(state)
 
     def stage(self, now: datetime, paper_ids: tuple[str, ...]) -> DigestState:
         current = self.load()
         state = DigestState(
             last_successful_run_at=current.last_successful_run_at,
             last_attempt_at=now,
-            pending_paper_ids=tuple(
-                dict.fromkeys((*current.pending_paper_ids, *paper_ids))
-            ),
+            pending_paper_ids=tuple(dict.fromkeys((*current.pending_paper_ids, *paper_ids))),
             discovery_revision=current.discovery_revision,
         )
         self._write(state)

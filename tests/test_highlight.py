@@ -1,6 +1,10 @@
 from dataclasses import replace
 
-from agent_paper_digest.highlight import classify_highlights, is_eligible
+from agent_paper_digest.highlight import (
+    classify_highlights,
+    has_industry_qualification,
+    is_eligible,
+)
 from tests.test_archive import make_paper
 
 
@@ -52,7 +56,8 @@ def test_emnlp_preprint_is_normalized_but_colm_is_not_selected() -> None:
     assert accepted.venue == "EMNLP 2026"
     assert accepted.venue_tier == "selected-extra"
     assert is_eligible(accepted)
-    assert not is_eligible(classify_highlights(colm))
+    assert is_eligible(classify_highlights(colm))
+    assert classify_highlights(colm).venue_tier == ""
 
 
 def test_first_author_big_tech_and_high_citations_qualify_independently() -> None:
@@ -78,7 +83,8 @@ def test_coauthor_profile_and_code_stars_do_not_qualify() -> None:
         github_stars=100_000,
     )
 
-    assert not is_eligible(classify_highlights(paper))
+    assert is_eligible(classify_highlights(paper))
+    assert not has_industry_qualification(classify_highlights(paper))
 
 
 def test_unrelated_topic_does_not_qualify_even_with_citations() -> None:

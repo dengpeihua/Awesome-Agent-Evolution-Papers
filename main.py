@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import asyncio
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -32,8 +32,8 @@ else:
 @register(
     "agent_paper_digest",
     "Agent Paper Digest",
-    "Daily Agent/LLM self-improvement, memory, and continual training paper digest",
-    "0.4.2",
+    "Daily Agent evolution, memory, LLM continual training, and reinforcement learning papers",
+    "0.5.0",
 )
 class AgentPaperDigestPlugin(Star):
     """AstrBot lifecycle adapter for the daily research pipeline."""
@@ -128,6 +128,15 @@ class AgentPaperDigestPlugin(Star):
             )
         except Exception:
             logger.exception("Agent paper digest scheduled run failed.")
+            if self.scheduler is not None:
+                self.scheduler.add_job(
+                    self._scheduled_run,
+                    "date",
+                    run_date=datetime.now(self.settings.timezone) + timedelta(minutes=15),
+                    id="agent-paper-digest-retry",
+                    replace_existing=True,
+                    misfire_grace_time=3600,
+                )
 
     @filter.command("paper_digest")
     async def paper_digest(self, event: AstrMessageEvent):

@@ -5,6 +5,7 @@ from dataclasses import replace
 
 import httpx
 
+from .highlight import PREPRINT_PATTERN
 from .models import Paper
 
 LOGGER = logging.getLogger(__name__)
@@ -80,11 +81,13 @@ class SemanticScholarEnricher:
                     citation_count = record.get("citationCount")
                     updates: dict[str, object] = {}
                     if venue:
+                        replace_venue = not paper.venue or bool(PREPRINT_PATTERN.match(paper.venue))
                         updates.update(
-                            venue=paper.venue or str(venue),
+                            venue=str(venue) if replace_venue else paper.venue,
                             venue_source=(
-                                paper.venue_source
-                                or "Semantic Scholar publication metadata"
+                                "Semantic Scholar publication metadata"
+                                if replace_venue
+                                else paper.venue_source or "Semantic Scholar publication metadata"
                             ),
                         )
                     if citation_count is not None:
@@ -142,9 +145,7 @@ class SemanticScholarEnricher:
                     enriched[index] = replace(
                         enriched[index],
                         affiliations=affiliations,
-                        first_author_affiliations=(
-                            per_author[0] if per_author else ()
-                        ),
+                        first_author_affiliations=(per_author[0] if per_author else ()),
                         affiliation_source="Semantic Scholar author profiles",
                     )
             return enriched

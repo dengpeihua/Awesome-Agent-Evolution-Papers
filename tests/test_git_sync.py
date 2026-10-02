@@ -58,3 +58,18 @@ def test_sync_is_noop_when_repository_has_no_changes(tmp_path) -> None:
     assert changed is False
     assert git("rev-list", "--count", "HEAD", cwd=repo) == "1"
 
+
+def test_sync_retries_unpushed_commit_even_with_clean_worktree(tmp_path):
+    remote = tmp_path / "remote.git"
+    repo = tmp_path / "repo"
+    git("init", "--bare", str(remote))
+    git("init", "-b", "main", str(repo))
+    git("config", "user.name", "Test", cwd=repo)
+    git("config", "user.email", "test@example.com", cwd=repo)
+    git("remote", "add", "origin", str(remote), cwd=repo)
+    (repo / "README.md").write_text("pending publication", encoding="utf-8")
+    asyncio.run(GitSync(repo, auto_push=False).sync(date(2026, 10, 3)))
+    assert not asyncio.run(GitSync(repo).sync(date(2026, 10, 3)))
+    assert git("--git-dir", str(remote), "rev-parse", "refs/heads/main") == git(
+        "rev-parse", "HEAD", cwd=repo
+    )

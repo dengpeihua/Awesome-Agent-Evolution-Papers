@@ -41,6 +41,101 @@ class FakeGitSync:
 
 
 @pytest.mark.asyncio
+@pytest.mark.parametrize("missing", ["notifier", "git", "push"])
+async def test_missing_delivery_channel_never_advances_cursor(tmp_path, missing):
+    sync = FakeGitSync() if missing != "git" else None
+    if missing == "push":
+        sync.auto_push = False
+    await DailyDigestPipeline(
+        source=FakeSource(),
+        archive=ArchiveRepository(tmp_path),
+        notifier=None if missing == "notifier" else FakeNotifier(),
+        git_sync=sync,
+    ).run(datetime(2026, 10, 3, tzinfo=UTC))
+    state = DigestStateStore(tmp_path).load()
+    assert state.last_successful_run_at is None
+    assert state.pending_paper_ids == ("2607.00001",)
+
+
+@pytest.mark.asyncio
+async def test_failure_to_publish_success_ledger_restores_pending_cursor(tmp_path):
+    class FailingFinalSync(FakeGitSync):
+        async def sync(self, discovery_date):
+            self.calls += 1
+            if self.calls == 2:
+                raise RuntimeError("push failed")
+            return True
+
+    previous = datetime(2026, 9, 12, tzinfo=UTC)
+    DigestStateStore(tmp_path).complete(previous)
+    notifier = FakeNotifier()
+    with pytest.raises(RuntimeError, match="push failed"):
+        await DailyDigestPipeline(
+            source=FakeSource(),
+            archive=ArchiveRepository(tmp_path),
+            notifier=notifier,
+            git_sync=FailingFinalSync(),
+        ).run(datetime(2026, 10, 3, tzinfo=UTC))
+    state = DigestStateStore(tmp_path).load()
+    assert state.last_successful_run_at == previous
+    assert state.pending_paper_ids == ("2607.00001",)
+    assert len(notifier.messages) == 1
+
+
+@pytest.mark.asyncio
+async def test_full_downtime_window_and_all_batches_are_delivered(tmp_path):
+    previous = datetime(2026, 9, 12, tzinfo=UTC)
+    now = datetime(2026, 10, 3, tzinfo=UTC)
+    DigestStateStore(tmp_path).complete(previous)
+
+    class ManySource:
+        async def fetch(self, *, since, max_results_per_topic):
+            assert since == previous
+            return [
+                make_paper(f"2609.{i:05d}", topics=("reinforcement-learning",)) for i in range(25)
+            ]
+
+    notifier = FakeNotifier()
+    await DailyDigestPipeline(
+        source=ManySource(),
+        archive=ArchiveRepository(tmp_path),
+        notifier=notifier,
+        git_sync=FakeGitSync(),
+        max_push_papers=8,
+    ).run(now)
+    assert len(notifier.messages) == 4
+    assert sum(m.count("https://arxiv.org/abs/") for m in notifier.messages) == 25
+    assert DigestStateStore(tmp_path).load().last_successful_run_at == now
+
+
+@pytest.mark.asyncio
+async def test_later_batch_failure_retains_every_pending_paper(tmp_path):
+    class ManySource:
+        async def fetch(self, **kwargs):
+            return [
+                make_paper(f"2609.{i:05d}", topics=("reinforcement-learning",)) for i in range(12)
+            ]
+
+    class FailingSecondBatch(FakeNotifier):
+        async def send(self, markdown):
+            if self.messages:
+                raise RuntimeError("second batch rejected")
+            self.messages.append(markdown)
+
+    with pytest.raises(RuntimeError, match="second batch"):
+        await DailyDigestPipeline(
+            source=ManySource(),
+            archive=ArchiveRepository(tmp_path),
+            notifier=FailingSecondBatch(),
+            git_sync=FakeGitSync(),
+            max_push_papers=8,
+        ).run(datetime(2026, 10, 3, tzinfo=UTC))
+    state = DigestStateStore(tmp_path).load()
+    assert state.last_successful_run_at is None
+    assert len(state.pending_paper_ids) == 12
+
+
+@pytest.mark.asyncio
 async def test_pipeline_fetches_archives_notifies_and_syncs(tmp_path) -> None:
     notifier = FakeNotifier()
     git_sync = FakeGitSync()
@@ -90,15 +185,13 @@ async def test_pipeline_retries_pending_digest_after_notification_failure(tmp_pa
         source=FakeSource(),
         archive=ArchiveRepository(tmp_path),
         notifier=notifier,
-        git_sync=None,
+        git_sync=FakeGitSync(),
         notify_when_empty=False,
     )
     await retry.run(datetime(2026, 7, 17, 9, tzinfo=UTC))
 
     assert "Paper 2607.00001" in notifier.messages[0]
-    completed = json.loads(
-        (tmp_path / "data" / "digest_state.json").read_text(encoding="utf-8")
-    )
+    completed = json.loads((tmp_path / "data" / "digest_state.json").read_text(encoding="utf-8"))
     assert completed["last_successful_run_at"] == "2026-07-17T09:00:00+00:00"
     assert completed["pending_paper_ids"] == []
 
@@ -132,7 +225,7 @@ async def test_pipeline_can_skip_empty_notification(tmp_path) -> None:
         source=EmptySource(),
         archive=ArchiveRepository(tmp_path),
         notifier=notifier,
-        git_sync=None,
+        git_sync=FakeGitSync(),
         notify_when_empty=False,
     )
 
@@ -158,8 +251,8 @@ async def test_pipeline_propagates_query_revision_to_historical_rescan(tmp_path)
     pipeline = DailyDigestPipeline(
         source=source,
         archive=ArchiveRepository(tmp_path),
-        notifier=None,
-        git_sync=None,
+        notifier=FakeNotifier(),
+        git_sync=FakeGitSync(),
         historical_backfill_days=730,
         notify_when_empty=False,
     )
@@ -220,7 +313,7 @@ async def test_pipeline_keeps_unqualified_candidate_for_later_promotion(tmp_path
         notify_when_empty=False,
     )
     initial = await first.run(datetime(2026, 7, 16, 9, tzinfo=UTC))
-    assert initial.all_papers == ()
+    assert len(initial.all_papers) == 1
     assert (tmp_path / ".paper_digest" / "candidates.json").exists()
 
     promoted = DailyDigestPipeline(
@@ -232,4 +325,4 @@ async def test_pipeline_keeps_unqualified_candidate_for_later_promotion(tmp_path
         notify_when_empty=False,
     )
     result = await promoted.run(datetime(2026, 7, 17, 9, tzinfo=UTC))
-    assert [paper.arxiv_id for paper in result.new_papers] == ["2607.00009"]
+    assert [paper.arxiv_id for paper in result.promoted_papers] == ["2607.00009"]
