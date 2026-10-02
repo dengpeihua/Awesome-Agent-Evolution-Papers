@@ -1,11 +1,11 @@
-> **2650 papers** · Page 53/53 · Newest first across all pages
+> **2656 papers** · Page 53/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,12 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2025-07-29 | Reinforcement Learning | [On Policy Stochasticity in Mutual Information Optimal Control of Linear Systems](https://arxiv.org/abs/2507.21543v3) | — |
+| 2025-06-09 | Agent Memory | [HiBerNAC: Hierarchical Brain-inspired Robotic Neural Agent Collective for Disentangling Complex Manipulation](https://arxiv.org/abs/2506.08296v3) | — |
+| 2025-06-09 | Reinforcement Learning | [ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning](https://arxiv.org/abs/2506.07459v5) | 📈 Highly cited |
+| 2025-06-08 | Reinforcement Learning | [Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning](https://arxiv.org/abs/2506.07044v5) | 📈 Highly cited<br>🏆 CCF-A: TPAMI<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2025-05-31 | Reinforcement Learning | [ResTest: Targeted Coverage of Residual Not-Covered Code Using Large Language Models for Web GUI Testing](https://arxiv.org/abs/2506.00520v2) | 📈 Highly cited |
+| 2025-05-30 | Reinforcement Learning | [MiCRo: Mixture Modeling and Context-aware Routing for Personalized Preference Learning](https://arxiv.org/abs/2505.24846v3) | 📈 Highly cited<br>🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2025-05-30 | LLM Continual Training | [Advantageous Parameter Expansion Training Makes Better Large Language Models](https://arxiv.org/abs/2505.24241v2) | — |
 | 2025-05-28 | LLM Continual Training | [Learning Composable Chains-of-Thought](https://arxiv.org/abs/2505.22635v2) | — |
 | 2025-05-28 | Agent/LLM Self-Improvement, Reinforcement Learning | [OSPO: Object-Centric Self-Improving Preference Optimization for Text-to-Image Generation](https://arxiv.org/abs/2506.02015v4) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
@@ -57,17 +63,15 @@
 | 2023-07-28 | Reinforcement Learning | [ETHER: Aligning Emergent Communication for Hindsight Experience Replay](https://arxiv.org/abs/2307.15494v3) | — |
 | 2023-06-09 | Reinforcement Learning | [When Authentication Is Not Enough: Breaking Behavior-Based Driver Authentication Systems](https://arxiv.org/abs/2306.05923v5) | — |
 | 2023-05-25 | Reinforcement Learning | [Reinforcement Learning under External Influence: Guarantees, Algorithms, and Sample Complexity](https://arxiv.org/abs/2305.16056v5) | — |
-| 2023-02-26 | Reinforcement Learning | [Revolutionizing Genomics with Reinforcement Learning Techniques](https://arxiv.org/abs/2302.13268v8) | — |
-| 2023-02-15 | Reinforcement Learning | [Optimal Sample Complexity of Stable Discounted Markov Decision Processes](https://arxiv.org/abs/2302.07477v4) | — |
-| 2023-01-31 | Reinforcement Learning | [Efficient Policy Evaluation with Offline Data Informed Behavior Policy Design](https://arxiv.org/abs/2301.13734v6) | 📈 Highly cited<br>🏆 CCF-A: International Conference on Machine Learning<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
-| 2022-12-12 | Reinforcement Learning | [Arrival-Intensity Control for A Single-Server Queue in Heavy Traffic](https://arxiv.org/abs/2212.05674v4) | — |
-| 2022-09-12 | Reinforcement Learning | [Rollout Total Correlation for Deep Reinforcement Learning](https://arxiv.org/abs/2209.05333v2) | — |
-| 2020-05-18 | Reinforcement Learning | [Advanced Policies: A First-Principles Path from Policy Gradient to Q-Learning](https://arxiv.org/abs/2005.08844v3) | — |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning](https://arxiv.org/abs/2506.07459v5) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning](https://arxiv.org/abs/2506.07044v5) | 📈 Highly cited<br>🏆 CCF-A: TPAMI<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted by TPAMI. Our webpage is https://alibaba-damo-academy.github.io/lingshu. Models and training data are available at https://huggingface.co/lingshu-medical-mllm |
+| [ResTest: Targeted Coverage of Residual Not-Covered Code Using Large Language Models for Web GUI Testing](https://arxiv.org/abs/2506.00520v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [MiCRo: Mixture Modeling and Context-aware Routing for Personalized Preference Learning](https://arxiv.org/abs/2505.24846v3) | 📈 Highly cited<br>🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Conference on Empirical Methods in Natural Language Processing<br>Rice University;Tencent;Tsinghua University |
 | [OSPO: Object-Centric Self-Improving Preference Optimization for Text-to-Image Generation](https://arxiv.org/abs/2506.02015v4) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to CVPR 2026 (camera-ready version) |
 | [CLIP-Powered Domain Generalization and Domain Adaptation: A Comprehensive Survey](https://arxiv.org/abs/2504.14280v2) | 📈 Highly cited<br>🏆 CCF-A: IEEE Transactions on Pattern Analysis and Machine Intelligence<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Published in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) |
 | [Reward Shaping to Mitigate Reward Hacking in RLHF](https://arxiv.org/abs/2502.18770v8) | 📈 Highly cited | UC Berkeley |
@@ -78,7 +82,6 @@
 | [Reflective Policy Optimization](https://arxiv.org/abs/2406.03678v2) | 🏆 CCF-A: International Conference on Machine Learning<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: International Conference on Machine Learning |
 | [Revisiting Inexact Fixed-Point Iterations for Min-Max Problems: Stochasticity and Structured Nonconvexity](https://arxiv.org/abs/2402.05071v3) | 📈 Highly cited<br>🏆 CCF-A: International Conference on Machine Learning<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv journal reference: Proceedings of the International Conference on Machine Learning (ICML) 2024 |
 | [Foundations of Reinforcement Learning and Interactive Decision Making](https://arxiv.org/abs/2312.16730v2) | 📈 Highly cited | First author: MIT (Semantic Scholar author profiles) |
-| [Efficient Policy Evaluation with Offline Data Informed Behavior Policy Design](https://arxiv.org/abs/2301.13734v6) | 📈 Highly cited<br>🏆 CCF-A: International Conference on Machine Learning<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: International Conference on Machine Learning |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -105,6 +108,20 @@ Recent advances in Multimodal Large Language Models (MLLMs) have enabled unified
 - **Links:** [Paper](https://arxiv.org/abs/2504.04711v2) · [PDF](https://arxiv.org/pdf/2504.04711v2)
 
 Current large language models (LLMs) are constrained by human-derived training data and limited by a single level of abstraction that impedes definitive truth judgments. This paper introduces a novel framework in which AI models autonomously generate and validate new knowledge through direct interaction with their environment. Central to this approach is an unbounded, ungamable numeric reward - such as annexed disk space or follower count - that guides learning without requiring human benchmarks. AI agents iteratively generate strategies and executable code to maximize this metric, with successful outcomes forming the basis for self-retraining and incremental generalisation. To mitigate model collapse and the warm start problem, the framework emphasizes empirical validation over textual similarity and supports fine-tuning via GRPO. The system architecture employs modular agents for environment analysis, strategy generation, and code synthesis, enabling scalable experimentation. This work outlines a pathway toward self-improving AI systems capable of advancing beyond human-imposed constraints toward autonomous general intelligence.
+
+## Agent Memory
+
+### [HiBerNAC: Hierarchical Brain-inspired Robotic Neural Agent Collective for Disentangling Complex Manipulation](https://arxiv.org/abs/2506.08296v3)
+
+- **Authors:** Heng Zhang, Hongjun Wu, Pengsong Zhang, Jin Wang, Cong Wang
+- **Published:** 2025-06-09
+- **Priority:** —
+- **Venue:** Biomimetic Intelligence and Robotics
+- **Affiliations:** n/a
+- **Categories:** cs.RO
+- **Links:** [Paper](https://arxiv.org/abs/2506.08296v3) · [PDF](https://arxiv.org/pdf/2506.08296v3)
+
+Recent advances in multimodal vision-language-action (VLA) models have revolutionized traditional robot learning, enabling systems to interpret vision, language, and action in unified frameworks for complex task planning. However, mastering complex manipulation tasks remains an open challenge, constrained by limitations in persistent contextual memory, multi-agent coordination under uncertainty, and dynamic long-horizon planning across variable sequences. To address this challenge, we propose \textbf{HiBerNAC}, a \textbf{Hi}erarchical \textbf{B}rain-\textbf{e}mulated \textbf{r}obotic \textbf{N}eural \textbf{A}gent \textbf{C}ollective, inspired by breakthroughs in neuroscience, particularly in neural circuit mechanisms and hierarchical decision-making. Our framework combines: (1) multimodal VLA planning and reasoning with (2) neuro-inspired reflection and multi-agent mechanisms, specifically designed for complex robotic manipulation tasks. By leveraging neuro-inspired functional modules with decentralized multi-agent collaboration, our approach enables robust and enhanced real-time execution of complex manipulation tasks. In addition, the agentic system exhibits scalable collective intelligence via dynamic agent specialization, adapting its coordination strategy to variable task horizons and complexity. Through extensive experiments on complex manipulation tasks compared with state-of-the-art VLA models, we demonstrate that \textbf{HiBerNAC} reduces average long-horizon task completion time by 23\%, and achieves non-zero success rates (12\textendash 31\%) on multi-path tasks where prior state-of-the-art VLA models consistently fail. These results provide indicative evidence for bridging biological cognition and robotic learning mechanisms.
 
 ## LLM Continual Training & Continual Learning
 
@@ -145,6 +162,66 @@ A common approach for teaching large language models (LLMs) to reason is to trai
 As machine learning evolves, domain generalization (DG) and domain adaptation (DA) have become crucial for improving model robustness across diverse environments. Contrastive Language-Image Pretraining (CLIP) plays a central role in these tasks, offering strong zero-shot capabilities that allow models to operate effectively in unseen domains. Yet, despite CLIP's growing influence, no comprehensive survey has systematically examined its applications in DG and DA, underscoring the need for this review. This survey provides a unified and in-depth overview of CLIP-driven DG and DA. Before reviewing methods, we establish precise and complete scenario definitions covering source accessibility (SA vs. SF), source number (SS vs. MS), and label relations (CS, PS, OS, OPS), forming a coherent taxonomy that structures all subsequent analyses. For DG, we categorize methods into prompt optimization techniques that enhance task alignment and architectures that leverage CLIP as a backbone for transferable feature extraction. For DA, we examine both source-available approaches that rely on labeled source data and source-free approaches operating primarily on target-domain samples, emphasizing the knowledge transfer mechanisms that enable adaptation across heterogeneous settings. We further provide consolidated trend analyses for both DG and DA, revealing overarching patterns, methodological principles, and scenario-dependent behaviors. We then discuss key challenges such as realistic deployment scenarios, LLM knowledge integration, multimodal fusion, interpretability, and catastrophic forgetting, and outline future directions for developing scalable and trustworthy CLIP-based DG and DA systems. This survey offers actionable insights for advancing CLIP-based domain robustness in real-world scenarios.
 
 ## Reinforcement Learning
+
+### [On Policy Stochasticity in Mutual Information Optimal Control of Linear Systems](https://arxiv.org/abs/2507.21543v3)
+
+- **Authors:** Shoju Enami, Kenji Kashima
+- **Published:** 2025-07-29
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** math.OC, cs.LG, eess.SY
+- **Links:** [Paper](https://arxiv.org/abs/2507.21543v3) · [PDF](https://arxiv.org/pdf/2507.21543v3)
+
+Mutual information regularization has recently been studied in reinforcement learning (RL) as an extension of entropy regularization, in which not only the policy but also the reference distribution (prior) is optimized, and has also been used for privacy preserving policy design. To obtain theoretical insight into how this joint optimization affects policy stochasticity, we study a model-based linear-quadratic setting that preserves this key structure while permitting an explicit analysis. Specifically, we consider a mutual information optimal control problem (MIOCP) for stochastic discrete-time linear systems with quadratic costs and Gaussian policies and priors. We first review alternating optimization of the policy and the prior with a technical extension. We then establish the existence of an optimal solution, characterize its covariance matrices, and derive sufficient conditions under which the optimal policy is either a stochastic feedback policy or a deterministic open-loop policy. We further interpret this characterization in terms of the state information disclosed through the control input. We also analyze the limiting behavior of alternating optimization under the sufficient conditions. The validity of the theoretical results is demonstrated through numerical experiments.
+
+### [ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning](https://arxiv.org/abs/2506.07459v5)
+
+- **Authors:** Ziwen Wang, Jiajun Fan, Ruihan Guo, Thao Nguyen, Heng Ji, Ge Liu
+- **Published:** 2025-06-09
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.LG, q-bio.QM
+- **Links:** [Paper](https://arxiv.org/abs/2506.07459v5) · [PDF](https://arxiv.org/pdf/2506.07459v5)
+
+Protein generative models have shown remarkable promise in protein design, yet their success rates remain constrained by reliance on curated sequence-structure datasets and by misalignment between supervised objectives and real design goals. We present ProteinZero, an online reinforcement learning framework for inverse folding models that enables scalable, automated, and continuous self-improvement with computationally efficient feedback. ProteinZero employs a reward pipeline that combines structural guidance from ESMFold with a novel self-derived ddG predictor, providing stable multi-objective signals while avoiding the prohibitive cost of physics-based methods. To ensure robustness in online RL, we further introduce a novel embedding-level diversity regularizer that mitigates mode collapse and promotes sequence-level diversity among generated designs. Within a general RL formulation balancing multi-reward optimization, KL-divergence from a reference model, and diversity regularization, ProteinZero achieves robust improvements across designability, predicted stability, recovery, and diversity. On the CATH-4.3 benchmark, it consistently outperforms state-of-the-art baselines including ProteinMPNN, ESM-IF, and InstructPLM, reducing design failure rates by 36-48% and achieving success rates above 90% across diverse folds. Importantly, a complete RL run can be executed on a single 8xGPU node within three days, including reward computation and data generation. These results indicate that efficient online RL fine-tuning can complement supervised pretraining by allowing protein generative models to evolve continuously from their own outputs and optimize multiple design objectives without labeled data, opening new possibilities for exploring the vast protein design space. Code and model checkpoints are available at https://github.com/ziwenwang28/ProteinZero.
+
+### [Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning](https://arxiv.org/abs/2506.07044v5)
+
+- **Authors:** Weiwen Xu, Hou Pong Chan, Long Li, Mahani Aljunied, Ruifeng Yuan, Jianyu Wang, Chenghao Xiao, Guizhen Chen, Chaoqun Liu, Zhaodonghui Li, Yu Sun, Junao Shen, Chaojun Wang, Jie Tan, Deli Zhao, Tingyang Xu, Hao Zhang, Yu Rong
+- **Published:** 2025-06-08
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: TPAMI<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** TPAMI
+- **Affiliations:** n/a
+- **Categories:** cs.CL, cs.AI, cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2506.07044v5) · [PDF](https://arxiv.org/pdf/2506.07044v5)
+
+Multimodal Large Language Models (MLLMs) have demonstrated impressive capabilities in understanding common visual elements, largely due to their large-scale datasets and advanced training strategies. However, their effectiveness in medical applications remains limited due to the inherent discrepancies between data and tasks in medical scenarios and those in the general domain. Concretely, existing medical MLLMs face the following critical limitations: (1) limited coverage of medical knowledge beyond imaging, (2) heightened susceptibility to hallucinations due to suboptimal data curation processes, (3) lack of reasoning capabilities tailored for complex medical scenarios. To address these challenges, we first propose a comprehensive data curation procedure that (1) efficiently acquires rich medical knowledge data not only from medical imaging but also from extensive medical texts and general-domain data; and (2) synthesizes accurate medical captions, visual question answering (VQA), and reasoning samples. As a result, we build a multimodal dataset enriched with extensive medical knowledge. Building on the curated data, we introduce our medical-specialized MLLM: Lingshu. Lingshu undergoes multi-stage training to embed medical expertise and enhance its task-solving capabilities progressively. Besides, we preliminarily explore the potential of applying reinforcement learning with verifiable rewards paradigm to enhance Lingshu's medical reasoning ability. Additionally, we develop MedEvalKit, a unified evaluation framework that consolidates leading multimodal and textual medical benchmarks for standardized, fair, and efficient model assessment. We evaluate the performance of Lingshu on three fundamental medical tasks, multimodal QA, text-based QA, and medical report generation. The results show that Lingshu consistently outperforms the existing open-source multimodal models on most tasks ...
+
+### [ResTest: Targeted Coverage of Residual Not-Covered Code Using Large Language Models for Web GUI Testing](https://arxiv.org/abs/2506.00520v2)
+
+- **Authors:** Chenxu Liu, Zhiyu Gu, Guoquan Wu, Ying Zhang, Wei Yang, Jun Wei, Tao Xie
+- **Published:** 2025-05-31
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.SE
+- **Links:** [Paper](https://arxiv.org/abs/2506.00520v2) · [PDF](https://arxiv.org/pdf/2506.00520v2)
+
+Automated web GUI testing (AWGT) approaches explore web applications through GUI actions to achieve code coverage. However, existing approaches, whether random-based, model-based, or reinforcement-learning-based, often struggle to generate continuous and semantically meaningful action sequences for testing complex functionalities, limiting their achievable code coverage. Recent LLM-based approaches partially alleviate this problem but still fall short due to limited capability in inferring testable functionalities and low success rates in executing tasks on complex web applications. In this paper, we propose ResTest, a complementary approach that uses coverage-report-guided LLMs to target residual not-covered code left by existing AWGT approaches. ResTest first runs an existing AWGT approach to broadly explore the application while constructing a state transition graph with summarized information. Once coverage plateaus, ResTest employs an LLM to infer not-covered functionalities based on the state transition graph and coverage report, and then utilizes a specialized LLM-driven GUI agent to execute these functionalities in a targeted manner. Our evaluation on ten open-source web applications shows that ResTest improves three categories of AWGT approaches by 17.52\% to 24.36\% in average code coverage. Ablation studies further confirm the sustained coverage improvement capability and the contribution of each component.
+
+### [MiCRo: Mixture Modeling and Context-aware Routing for Personalized Preference Learning](https://arxiv.org/abs/2505.24846v3)
+
+- **Authors:** Jingyan Shen, Jiarui Yao, Rui Yang, Yifan Sun, Feng Luo, Rui Pan, Tong Zhang, Han Zhao
+- **Published:** 2025-05-30
+- **Priority:** 📈 Highly cited<br>🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Conference on Empirical Methods in Natural Language Processing
+- **Affiliations:** Rice University;Tencent;Tsinghua University
+- **Categories:** cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2505.24846v3) · [PDF](https://arxiv.org/pdf/2505.24846v3)
+
+Reward modeling is a key step in building safe foundation models when applying reinforcement learning from human feedback (RLHF) to align Large Language Models (LLMs). However, reward modeling based on the Bradley-Terry (BT) model assumes a global reward function, failing to capture the inherently diverse and heterogeneous human preferences. Hence, such oversimplification limits LLMs from supporting personalization and pluralistic alignment. Theoretically, we show that when human preferences follow a mixture distribution of diverse subgroups, a single BT model has an irreducible error. While existing solutions, such as multi-objective learning with fine-grained annotations, help address this issue, they are costly and constrained by predefined attributes, failing to fully capture the richness of human values. In this work, we introduce MiCRo, a two-stage framework that enhances personalized preference learning by leveraging large-scale binary preference datasets without requiring explicit fine-grained annotations. In the first stage, MiCRo introduces context-aware mixture modeling approach to capture diverse human preferences. In the second stage, MiCRo integrates an online routing strategy that dynamically adapts mixture weights based on specific context to resolve ambiguity, allowing for efficient and scalable preference adaptation with minimal additional supervision. Experiments on multiple preference datasets demonstrate that MiCRo effectively captures diverse human preferences and significantly improves downstream personalization.
 
 ### [OSPO: Object-Centric Self-Improving Preference Optimization for Text-to-Image Generation](https://arxiv.org/abs/2506.02015v4)
 
@@ -283,7 +360,7 @@ The sim-to-real gap remains a critical challenge in robotics, hindering the depl
 - **Authors:** Leopoldo Agorio, Sean Van Alen, Santiago Paternain, Miguel Calvo-Fullana, Juan Andres Bazerque
 - **Published:** 2025-02-27
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** eess.SY
 - **Links:** [Paper](https://arxiv.org/abs/2502.20462v2) · [PDF](https://arxiv.org/pdf/2502.20462v2)
@@ -637,75 +714,3 @@ Researchers extensively explored behavior-based driver authentication systems in
 - **Links:** [Paper](https://arxiv.org/abs/2305.16056v5) · [PDF](https://arxiv.org/pdf/2305.16056v5)
 
 In this paper, we study the problem of reinforcement learning under the influence of external events. For this, we consider Markov decision processes with continuous state and action spaces whose transition dynamics are perturbed by an external process in a non-Markovian manner. First, we establish the conditions under which the problem becomes tractable, allowing it to be addressed by considering only a finite history of events, based on the properties of the perturbations introduced by the exogenous process. We propose and theoretically analyze a policy iteration algorithm to tackle this problem that learns policies contingent on the current state of the environment and a finite history of prior exogenous events. Since this algorithm is not guaranteed to converge, we provide a guarantee for policy improvement in regions of the state space determined by the approximation error induced by considering tractable policies and value functions. We also establish the sample complexity of least-squares policy evaluation and policy improvement algorithms that account for approximations arising from considering only a finite history of temporal events. While our results are applicable to general discrete-time processes satisfying certain conditions on the rate of decay of the influence of their events, we further analyze the case of discrete-time Hawkes processes with Gaussian marks. We performed experiments to demonstrate our findings for policy evaluation and deployment in traditional control environments.
-
-### [Revolutionizing Genomics with Reinforcement Learning Techniques](https://arxiv.org/abs/2302.13268v8)
-
-- **Authors:** Mohsen Karami, Khadijeh Jahanian, Roohallah Alizadehsani, Iman Dehzangi, Juan M Gorriz, Yudong Zhang, Jia Wang, Farshid Hajati, Min Yang, Thantrira Porntaveetus, Hamid Alinejad-Rokny
-- **Published:** 2023-02-26
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** q-bio.GN, cs.AI, cs.LG, q-bio.QM
-- **Links:** [Paper](https://arxiv.org/abs/2302.13268v8) · [PDF](https://arxiv.org/pdf/2302.13268v8)
-
-In recent years, Reinforcement Learning (RL) has emerged as a powerful tool for solving a wide range of problems, including decision-making and genomics. The exponential growth of raw genomic data over the past two decades has exceeded the capacity of manual analysis, leading to a growing interest in automatic data analysis and processing. RL algorithms are capable of learning from experience with minimal human supervision, making them well-suited for genomic data analysis and interpretation. One of the key benefits of using RL is the reduced cost associated with collecting labeled training data, which is required for supervised learning. While there have been numerous studies examining the applications of Machine Learning (ML) in genomics, this survey focuses exclusively on the use of RL in various genomics research fields, including gene regulatory networks (GRNs), genome assembly, and sequence alignment. We present a comprehensive technical overview of existing studies on the application of RL in genomics, highlighting the strengths and limitations of these approaches. We then discuss potential research directions that are worthy of future exploration, including the development of more sophisticated reward functions as RL heavily depends on the accuracy of the reward function, the integration of RL with other machine learning techniques, and the application of RL to new and emerging areas in genomics research. Finally, we present our findings and conclude by summarizing the current state of the field and the future outlook for RL in genomics.
-
-### [Optimal Sample Complexity of Stable Discounted Markov Decision Processes](https://arxiv.org/abs/2302.07477v4)
-
-- **Authors:** Shengbo Wang, Jose Blanchet, Peter Glynn
-- **Published:** 2023-02-15
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** University of Southern California
-- **Categories:** cs.LG, math.OC, stat.ML
-- **Links:** [Paper](https://arxiv.org/abs/2302.07477v4) · [PDF](https://arxiv.org/pdf/2302.07477v4)
-
-We study the optimal sample complexity of tabular reinforcement learning for infinite-horizon discounted Markov decision processes. The unrestricted minimax sample complexity is known to scale as $\widetildeΘ((1-γ)^{-3}ε^{-2})$, where $γ$ denotes the discount factor and $ε$ is the solution-error tolerance. However, this worst-case rate does not account for stability structures that commonly arise in operational environments. Using the variance-reduced Q-learning framework, we show that, without imposing any additional stability assumptions, both sup-norm Q-function estimation and policy learning have leading sample-complexity dependence $\widetildeΘ(H(1-γ)^{-2}ε^{-2})$, where $H=|v^*|_{\mathrm{span}}$ is the span of the optimal value function. Moreover, assuming a uniform mixing time upper bound $t_{\mathrm{mix}}$ over all policies, the optimal Q-function can be estimated up to a constant shift with sample complexity $\widetildeΘ\left(t_{\mathrm{mix}}^3ε^{-2}\right)$, independent of $(1-γ)^{-1}$. Matching lower bounds establish the sharpness of these leading dependencies and reveal a separation between estimation and control: although the Q-function can be learned up to an additive constant at a horizon-free rate, policy learning generally retains its $(1-γ)^{-2}$ dependence.
-
-### [Efficient Policy Evaluation with Offline Data Informed Behavior Policy Design](https://arxiv.org/abs/2301.13734v6)
-
-- **Authors:** Shuze Daniel Liu, Claire Chen, Will Ma, Shangtong Zhang
-- **Published:** 2023-01-31
-- **Priority:** 📈 Highly cited<br>🏆 CCF-A: International Conference on Machine Learning<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
-- **Venue:** International Conference on Machine Learning
-- **Affiliations:** n/a
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2301.13734v6) · [PDF](https://arxiv.org/pdf/2301.13734v6)
-
-Online Monte Carlo evaluation is a fundamental tool for assessing policy performance in reinforcement learning and sequential decision-making problems arising in operations research. However, achieving accurate estimates often requires extensive online interaction with the environment, which can be costly or impractical in many real-world settings. In this paper, we develop a framework that improves the sample efficiency of online Monte Carlo estimators while preserving unbiasedness. We first derive a closed-form optimal behavior policy that minimizes estimator variance under unbiasedness constraints. We then propose practical algorithms for learning the proposed behavior policy from previously collected offline data, enabling improved online evaluation without requiring estimation of the environment transition model. We provide theoretical analysis that quantifies the resulting variance reduction and analyzes the impact of approximation errors. Empirical studies across diverse environments demonstrate substantial improvements in online sample efficiency compared with standard on-policy Monte Carlo evaluation and existing baseline methods. Our results provide a unified framework for optimal behavior policy design in off-policy evaluation, with applications to reinforcement learning and operations research.
-
-### [Arrival-Intensity Control for A Single-Server Queue in Heavy Traffic](https://arxiv.org/abs/2212.05674v4)
-
-- **Authors:** Bowen Xie, Haoyu Yin
-- **Published:** 2022-12-12
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** math.OC, math.PR
-- **Links:** [Paper](https://arxiv.org/abs/2212.05674v4) · [PDF](https://arxiv.org/pdf/2212.05674v4)
-
-We study a single-server queue control problem (QCP) in a heavy-traffic regime, extending the framework from Lee and Weerasinghe (2011). The state process represents the offered waiting time. Service times and patience times form independent i.i.d. sequences with general distributions. We formulate an infinite-horizon discounted QCP that balances the cost of controlling the arrival intensity against a penalty for server idleness. A distinctive feature of the formulation is the nonstandard decreasing operational running cost arising from the arrival-intensity control mechanism. Under suitable heavy-traffic assumptions, the diffusion-scaled offered waiting-time process converges to a regulated diffusion, leading to an associated diffusion control problem (DCP). We find the optimal control of the associated DCP by incorporating the Legendre-Fenchel transform and a formal Hamilton-Jacobi-Bellman (HJB) equation. We then construct a sequence of intensity controls for the prelimit queueing systems from the DCP-optimal feedback and establish its asymptotic optimality within the specified heavy-traffic admissible control class. Beyond theoretical analysis, numerical experiments further examine whether reinforcement learning can approximate the optimal policy with discounted costs close to the HJB reference. Policies are trained from simulated state transitions and realized costs, and are evaluated against the independently computed HJB feedback.
-
-### [Rollout Total Correlation for Deep Reinforcement Learning](https://arxiv.org/abs/2209.05333v2)
-
-- **Authors:** Bang You, Huaping Liu, Jan Peters, Oleg Arenz
-- **Published:** 2022-09-12
-- **Priority:** —
-- **Venue:** Trans. Mach. Learn. Res.
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2209.05333v2) · [PDF](https://arxiv.org/pdf/2209.05333v2)
-
-Learning task-relevant representations is crucial for reinforcement learning. Recent approaches aim to learn such representations by improving the temporal consistency in the observed transitions. However, they only consider individual transitions and can fail to achieve long-term consistency. Instead, we argue that capturing aspects of the state that correlate with other states and actions of the trajectory---even more distant in the future---could further help in extracting task-relevant information. Hence, in this paper we investigate how to learn representations by maximizing the rollout total correlation, the correlation among all learned representations and actions within the trajectories produced by the agent. For improving rollout total correlation, we propose to combine two complementary lower bounds based on a generative and a discriminative model, combined with a simple and effective technique of chunk-wise mini-batching. Furthermore, we propose an intrinsic reward based on the learned representation for better exploration. Experimental evaluations on a set of challenging image-based simulated control tasks show that our method achieves better sample efficiency, and robustness to both white noise and natural video backgrounds compared to leading baselines.
-
-### [Advanced Policies: A First-Principles Path from Policy Gradient to Q-Learning](https://arxiv.org/abs/2005.08844v3)
-
-- **Authors:** Donghoon Lee
-- **Published:** 2020-05-18
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, stat.ML
-- **Links:** [Paper](https://arxiv.org/abs/2005.08844v3) · [PDF](https://arxiv.org/pdf/2005.08844v3)
-
-We apply entropy to reinforcement learning in two ways: entropy-augmented reward defines the soft objective, while relative-entropy regularization controls the size of a policy-improvement step without changing that objective. Together they yield a one-parameter family of advanced policies connecting a base policy to its soft-greedy policy. Under exact evaluation, every nontrivial member improves upon the common base, although the improvement need not be monotone along the family. Under policy-value consistency, this family forms an entropic mirror-descent path. We then relax this consistency, treating the policy and action-value function as independent coordinates of the advanced policy. Differentiating the objective of the advanced policy yields Advanced Actor-Critic (AAC), whose endpoint gradients recover soft policy gradient and an action-centered Q-learning-like update. We develop implementations for discrete and continuous actions. Experiments demonstrate effective learning at both endpoints and intermediate parameter values.

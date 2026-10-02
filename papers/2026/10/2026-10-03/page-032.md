@@ -1,11 +1,11 @@
-> **2650 papers** · Page 32/53 · Newest first across all pages
+> **2656 papers** · Page 32/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,7 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-08-05 | Agent Memory, Reinforcement Learning | [MemoryCPT: An End-to-End Agent Memory Framework for Cost-Performance Trade-off](https://arxiv.org/abs/2608.04843v1) | — |
 | 2026-08-05 | Agent/LLM Self-Improvement | [InsightEmb: Learning Action-Intent Embeddings for Agentic Insight Retrieval](https://arxiv.org/abs/2608.04761v2) | — |
 | 2026-08-05 | Agent Memory | [Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems](https://arxiv.org/abs/2608.04746v1) | — |
 | 2026-08-05 | Agent/LLM Self-Improvement | [A/B Agent: A Self-Evolving Agent for Strategy Iteration in Industrial A/B Testing](https://arxiv.org/abs/2608.04625v1) | — |
@@ -47,7 +48,7 @@
 | 2026-08-03 | LLM Continual Training, Reinforcement Learning | [RING: Retrieval-Internalized Generation for Continual Large-Scale Knowledge Injection](https://arxiv.org/abs/2608.01630v1) | — |
 | 2026-08-03 | Agent Memory | [When Memory Updates but Behavior Does Not: Repairing Implicit Stale Dependencies in Personalized Agent Responses](https://arxiv.org/abs/2608.01619v1) | — |
 | 2026-08-03 | Agent Memory | [FedWorld: Scope-Aware Federation of Agent World Models](https://arxiv.org/abs/2608.01561v1) | — |
-| 2026-08-03 | Agent/LLM Self-Improvement, Reinforcement Learning | [Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories](https://arxiv.org/abs/2608.02276) | — |
+| 2026-08-03 | Agent/LLM Self-Improvement, Reinforcement Learning | [Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories](https://arxiv.org/abs/2608.02276) | 📈 Highly cited |
 | 2026-08-02 | Agent Memory | [V-Mem: Modality-Routed Retrieval for Long-Term Multimodal Agentic Memory](https://arxiv.org/abs/2608.01543v1) | — |
 | 2026-08-02 | Agent/LLM Self-Improvement | [Asking Questions the Right Way: A Multi-Agent Conversational System for Prompt Formulation in Complex Task Resolution](https://arxiv.org/abs/2608.01366v2) | — |
 | 2026-08-02 | Agent Memory | [Stop When Memory Suffices: Evidence-Conditioned Progressive Execution for LLM Agents](https://arxiv.org/abs/2608.01285v1) | — |
@@ -62,7 +63,12 @@
 | 2026-07-31 | Reinforcement Learning | [Verifier-Induced Support Reshaping in On-Policy Optimization](https://arxiv.org/abs/2608.00220v2) | — |
 | 2026-07-31 | Agent/LLM Self-Improvement | [AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks?](https://arxiv.org/abs/2608.00155v2) | — |
 | 2026-07-31 | Agent Memory | [HAM-VLN: Harnessing Hierarchical Agentic Memory for Zero-Shot Vision-and-Language Navigation](https://arxiv.org/abs/2607.29600v1) | — |
-| 2026-07-31 | Agent/LLM Self-Improvement | [Self-Play Meets Skill Evolution: Self-Evolving Search Agents that Pose, Solve, and Remember](https://arxiv.org/abs/2607.29468v1) | — |
+
+## 🚨 Priority Watch
+
+| Paper | Signals | Venue / affiliation evidence |
+| --- | --- | --- |
+| [Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories](https://arxiv.org/abs/2608.02276) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -144,7 +150,7 @@ Self-evolving agents increasingly convert interaction histories into reusable sk
 - **Published:** 2026-08-04
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Singapore Management University
 - **Categories:** cs.CR, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2608.04053v1) · [PDF](https://arxiv.org/pdf/2608.04053v1)
 
@@ -238,7 +244,7 @@ Persistent memory allows (self-evolving) LLM agents to adapt across tasks by con
 
 - **Authors:** Shao, Shuai, Zhang, Kangning, Li, Qingyao, Wang, Shijian, Wang, Hao, Jiao, Wenxiang, Lu, Yuan, Guo, Yi, Liu, Weiwen, Zhang, Weinan
 - **Published:** 2026-08-03
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI
@@ -252,7 +258,7 @@ Agents built around large language models continually accumulate interaction tra
 - **Published:** 2026-08-02
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Indian Institute of Science (IISc), Indian Institute of Technology (IITD)
 - **Categories:** cs.MA, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2608.01366v2) · [PDF](https://arxiv.org/pdf/2608.01366v2)
 
@@ -306,19 +312,19 @@ Memory for self-evolving large language model (LLM) agents is often provisioned 
 
 Large language model (LLM) agents can self-evolve by continually improving from their own accumulated experience. However, existing studies predominantly adopt independent evaluation. Consequently, the behavior of self-evolving agents in realistic streaming settings, where agents adapt to diverse and complex task streams, remains poorly understood. To address this gap, we introduce AgentStream, a unified framework that evaluates self-evolving agents spanning diverse evolution components by organizing agentic benchmarks into a configurable task stream and instantiating the \texttt{Isolated}, \texttt{Sequential}, and \texttt{Interleaved} streaming scenarios at test time, which progressively vary the scope and domain composition of the stream. Over these scenarios, we combinatorially evaluate five representative self-evolving methods across three frontier foundation models, disentangling how model capability, method architecture, and streaming scenario jointly shape self-evolution. Our results show that self-evolution reliability varies across streaming scenarios, the benefit of self-evolution is gated by model capability and is non-monotonic in model strength, and no single method dominates across models and scenarios. These findings offer concrete guidance for selecting self-evolving methods across models and streaming scenarios. Overall, we advocate that self-evolving agents should be evaluated under realistic task streams rather than isolated single-task settings.
 
-### [Self-Play Meets Skill Evolution: Self-Evolving Search Agents that Pose, Solve, and Remember](https://arxiv.org/abs/2607.29468v1)
-
-- **Authors:** Zenghuang Fu, Zhaoyang Li, Qiuyuan Ai, Haoyu Wu, Minghui Wu, Chenxu Zhao, Ante Wang, Guannan He, Changwei Wang
-- **Published:** 2026-07-31
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.29468v1) · [PDF](https://arxiv.org/pdf/2607.29468v1)
-
-Self-play agents can generate training problems without questions from target benchmarks, but their curricula lack persistent state: failures affect gradients yet do not explicitly shape future practice. External skill memories preserve procedural experience but are typically learned from fixed task distributions. We introduce \textbf{SESA} (Self-Evolving Skill-Augmented Agent), which makes procedural memory an evolving state of tool-augmented search self-play. A challenger poses problems, while a separately parameterized solver alone retrieves skills. Informative failures are distilled into reusable skills and written back to memory. The updated memory changes solver behavior and success, which changes the challenger's reward and the distribution of future problems; the resulting frontier produces new failures that rewrite memory. This bidirectional loop makes task generation and skill memory co-evolve. Because retrieved skills shape on-policy training trajectories, their benefits can enter the model parameters as well as remain in the external bank, enabling memory-free deployment and optional inference-time retrieval. Across seven open-domain and multi-hop question-answering benchmarks, SESA improves average accuracy over SSP by 1.2--3.2 points across multiple backbones and surpasses the skill-augmented SkillRL baseline by 0.9 points under a unified evaluation protocol. On Qwen3 models, SESA-Off retains 1.8--2.2 points of improvement over SSP, while the final skill bank adds a further 0.5--1.0 points. These results show that evolving skill memory is not merely an inference-time plug-in: it changes policy learning and the future training distribution while retaining value as optional external memory. Our code is available at https://github.com/Zenghuang-Fu/SESA-Self-Evolving-Search-Agents.
-
 ## Agent Memory
+
+### [MemoryCPT: An End-to-End Agent Memory Framework for Cost-Performance Trade-off](https://arxiv.org/abs/2608.04843v1)
+
+- **Authors:** Songxin Lei, Kun Ouyang, Weilin Ruan, Yuqian Wu, Zhijiang Guo, Yushi Sun, Fugee Tsung
+- **Published:** 2026-08-05
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** HKUST, HKUST (GZ)
+- **Categories:** cs.IR
+- **Links:** [Paper](https://arxiv.org/abs/2608.04843v1) · [PDF](https://arxiv.org/pdf/2608.04843v1)
+
+Long-horizon LLM agents require memory systems that recover useful evidence from large interaction histories without passing excessive context to downstream models. Existing memory pipelines often rely on hand-crafted heuristics and repeated LLM calls, which can introduce redundant context and high inference cost. We propose MemoryCPT, an end-to-end trainable agent memory pipeline that spans offline memory construction and online query-conditioned context generation. MemoryCPT consists of two stages: Query-agnostic Distillation (QAD), which distills a modular memory-construction pipeline into a compact model using explicit reasoning traces; and Query-aware Retrieval and Summarization (QAR), which combines reciprocal rank fusion (RRF) with a LoRA-based summarizer trained via Group Relative Policy Optimization (GRPO) under a cost-aware reward. We further introduce Quality per Cost (QPC) to quantify answer quality per unit inference cost. Experiments on LoCoMo and LongMemEval show that MemoryCPT improves the cost-performance trade-off over the evaluated baselines, while ablation and sensitivity analyses characterize the contributions of its components and the effects of key design choices.
 
 ### [Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems](https://arxiv.org/abs/2608.04746v1)
 
@@ -350,7 +356,7 @@ Memory-augmented VLM agents act on persistent spatial knowledge, yet that knowle
 - **Published:** 2026-08-04
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Florida International University
 - **Categories:** cs.AI, cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2608.04289v1) · [PDF](https://arxiv.org/pdf/2608.04289v1)
 
@@ -518,7 +524,7 @@ Large language model agents have shown strong capabilities in generating coheren
 - **Published:** 2026-08-02
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Ant Group | INSAIT | THU | ZJUT
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2608.00962v1) · [PDF](https://arxiv.org/pdf/2608.00962v1)
 
@@ -544,7 +550,7 @@ Vision-and-language navigation (VLN) enables robots to follow instructions in pr
 - **Published:** 2026-08-05
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** KAIST, LG AI Research
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2608.04505v1) · [PDF](https://arxiv.org/pdf/2608.04505v1)
 
@@ -556,7 +562,7 @@ This technical report presents K-EXAONE 2.0, an open-weight multilingual foundat
 - **Published:** 2026-08-04
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Peking University
 - **Categories:** cs.AI, cs.CL, cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2608.03874v1) · [PDF](https://arxiv.org/pdf/2608.03874v1)
 
@@ -616,7 +622,7 @@ Effective long-context modeling is not merely about retaining more of the past, 
 - **Published:** 2026-08-03
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Institute of Computing Technology, Chinese Academy of Sciences
 - **Categories:** cs.CL, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2608.01630v1) · [PDF](https://arxiv.org/pdf/2608.01630v1)
 
@@ -635,6 +641,18 @@ Retrieval-augmented generation (RAG) improves factuality but adds latency and en
 Large language models deployed in real-time, regulated settings face knowledge staleness, catastrophic forgetting, hallucination, and weak feedback loops. We present a unified, pattern-driven LLMOps architecture integrating real-time data ingestion, continual learning, retrieval-augmented generation (RAG), and human-in-the-loop feedback into a single operational pipeline. Four contributions map to established software design patterns: an adaptive ingestion pattern orchestrator (AIPO) evaluated with FreshStreamBench; STAR+FAR continual learning with sparse temporal adapter routing and freshness-aware replay; SAGE, an SLO-aware adaptive retrieval policy predicting a per-query passage budget to meet tail-latency targets; and an automated feedback-driven convergence stage with RLHF triggers. The result reduces latency-cost-accuracy trade-offs while supporting auditability and rollback for high-risk sectors such as health care and finance.
 
 ## Reinforcement Learning
+
+### [MemoryCPT: An End-to-End Agent Memory Framework for Cost-Performance Trade-off](https://arxiv.org/abs/2608.04843v1)
+
+- **Authors:** Songxin Lei, Kun Ouyang, Weilin Ruan, Yuqian Wu, Zhijiang Guo, Yushi Sun, Fugee Tsung
+- **Published:** 2026-08-05
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** HKUST, HKUST (GZ)
+- **Categories:** cs.IR
+- **Links:** [Paper](https://arxiv.org/abs/2608.04843v1) · [PDF](https://arxiv.org/pdf/2608.04843v1)
+
+Long-horizon LLM agents require memory systems that recover useful evidence from large interaction histories without passing excessive context to downstream models. Existing memory pipelines often rely on hand-crafted heuristics and repeated LLM calls, which can introduce redundant context and high inference cost. We propose MemoryCPT, an end-to-end trainable agent memory pipeline that spans offline memory construction and online query-conditioned context generation. MemoryCPT consists of two stages: Query-agnostic Distillation (QAD), which distills a modular memory-construction pipeline into a compact model using explicit reasoning traces; and Query-aware Retrieval and Summarization (QAR), which combines reciprocal rank fusion (RRF) with a LoRA-based summarizer trained via Group Relative Policy Optimization (GRPO) under a cost-aware reward. We further introduce Quality per Cost (QPC) to quantify answer quality per unit inference cost. Experiments on LoCoMo and LongMemEval show that MemoryCPT improves the cost-performance trade-off over the evaluated baselines, while ablation and sensitivity analyses characterize the contributions of its components and the effects of key design choices.
 
 ### [E$^3$-Orch: Towards Effective, Efficient, and Extensible Agentic Orchestration with Reinforcement Learning](https://arxiv.org/abs/2608.04588v2)
 
@@ -726,7 +744,7 @@ Recent reinforcement learning methods for diffusion large language models (dLLMs
 - **Published:** 2026-08-03
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Institute of Computing Technology, Chinese Academy of Sciences
 - **Categories:** cs.CL, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2608.01630v1) · [PDF](https://arxiv.org/pdf/2608.01630v1)
 
@@ -736,7 +754,7 @@ Retrieval-augmented generation (RAG) improves factuality but adds latency and en
 
 - **Authors:** Shao, Shuai, Zhang, Kangning, Li, Qingyao, Wang, Shijian, Wang, Hao, Jiao, Wenxiang, Lu, Yuan, Guo, Yi, Liu, Weiwen, Zhang, Weinan
 - **Published:** 2026-08-03
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI

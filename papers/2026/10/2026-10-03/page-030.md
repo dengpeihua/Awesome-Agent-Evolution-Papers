@@ -1,11 +1,11 @@
-> **2650 papers** · Page 30/53 · Newest first across all pages
+> **2656 papers** · Page 30/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,10 +13,11 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-08-15 | LLM Continual Training, Reinforcement Learning | [Measuring Reward Hacking and Reasoning-Answer Decoupling Under Position-Confounded Optimization](https://arxiv.org/abs/2608.15445v1) | — |
 | 2026-08-15 | Reinforcement Learning | [Learning Sequential Mobility Choice: A Review of Route and Activity Choice through Inverse Reinforcement Learning and Imitation Learning](https://arxiv.org/abs/2608.15339v2) | — |
 | 2026-08-15 | Agent/LLM Self-Improvement | [SkillCommit: Evolving Agent Skills through Behaviorally Validated Scope Expansion](https://arxiv.org/abs/2608.15165v1) | — |
 | 2026-08-15 | Agent/LLM Self-Improvement | [StateM: Reaching 95.3% Raw Accuracy, or a \$15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling](https://arxiv.org/abs/2608.15089v1) | — |
-| 2026-08-15 | Agent/LLM Self-Improvement | [Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents](https://arxiv.org/abs/2608.15071v2) | — |
+| 2026-08-15 | Agent/LLM Self-Improvement | [Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents](https://arxiv.org/abs/2608.15071v2) | 📈 Highly cited |
 | 2026-08-15 | Agent Memory | [Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents](https://arxiv.org/abs/2608.15008v1) | — |
 | 2026-08-14 | LLM Continual Training | [SkillComposer: Learning Reusable Skills for Natural-Language Robot Programming](https://arxiv.org/abs/2608.14944v1) | — |
 | 2026-08-14 | LLM Continual Training, Reinforcement Learning | [Deep Reinforcement Learning for 6G AI-RAN: A Comprehensive Survey](https://arxiv.org/abs/2608.14877v1) | — |
@@ -62,7 +63,12 @@
 | 2026-08-10 | Agent/LLM Self-Improvement | [SBCO: Self-Supervised, Verifier-Grounded Harness Optimization For Planning Agents](https://arxiv.org/abs/2608.10157v1) | — |
 | 2026-08-10 | Agent Memory | [MESA:Task-Adaptive Multi-Structure Evidence Selection for Long-Horizon Agent Memory](https://arxiv.org/abs/2608.10108v1) | — |
 | 2026-08-10 | Agent/LLM Self-Improvement | [Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA](https://arxiv.org/abs/2608.09819v2) | — |
-| 2026-08-10 | Reinforcement Learning | [SR-OPSD: Self-Referenced On-Policy Self-Distillation](https://arxiv.org/abs/2608.09745v2) | — |
+
+## 🚨 Priority Watch
+
+| Paper | Signals | Venue / affiliation evidence |
+| --- | --- | --- |
+| [Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents](https://arxiv.org/abs/2608.15071v2) | 📈 Highly cited | Univeristy of Illinois Urbana Champaign, University of Illinois Urbana-Champaign |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -94,7 +100,7 @@ Long-horizon agents can fail even when their underlying models can solve the con
 
 - **Authors:** Tianxin Wei, Zhan Shi, Minhua Lin, Bing He, Zewen Liu, Yisi Sang, Yuanchen Bei, Xuying Ning, Jiaru Zou, Ting-Wei Li, Xiao Lin, Yanjun Zhao, Chi Wang, Benoit Dumoulin, Dakuo Wang, Jingrui He, Hanqing Lu
 - **Published:** 2026-08-15
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** Univeristy of Illinois Urbana Champaign, University of Illinois Urbana-Champaign
 - **Categories:** cs.AI, cs.CL
@@ -216,7 +222,7 @@ The expanding operational capabilities of large language model (LLM) agents intr
 - **Published:** 2026-08-13
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** City University of Hong Kong
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2608.12851v1) · [PDF](https://arxiv.org/pdf/2608.12851v1)
 
@@ -264,7 +270,7 @@ While Large Language Model (LLM) agents increasingly rely on long-term memory fo
 - **Published:** 2026-08-12
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** UCSD
 - **Categories:** cs.CV, cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2608.12313v2) · [PDF](https://arxiv.org/pdf/2608.12313v2)
 
@@ -300,7 +306,7 @@ Memory is a core component of AI agents, enabling them to accumulate experience,
 - **Published:** 2026-08-11
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Beihang University, University of Chinese Academy of Sciences
 - **Categories:** cs.CL, cs.RO
 - **Links:** [Paper](https://arxiv.org/abs/2608.11350v2) · [PDF](https://arxiv.org/pdf/2608.11350v2)
 
@@ -384,7 +390,7 @@ Enterprise support agents operate in rapidly changing environments where policie
 - **Published:** 2026-08-10
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** IBM Research, New York University
 - **Categories:** cs.SE
 - **Links:** [Paper](https://arxiv.org/abs/2608.10178v1) · [PDF](https://arxiv.org/pdf/2608.10178v1)
 
@@ -408,7 +414,7 @@ Self-improving agents seek to reduce the human engineering effort behind AI syst
 - **Published:** 2026-08-10
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** HKUSTgz
 - **Categories:** cs.LG, cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2608.09819v2) · [PDF](https://arxiv.org/pdf/2608.09819v2)
 
@@ -422,7 +428,7 @@ Macaron-V1 is an open agent-model family for experiential intelligence: learning
 - **Published:** 2026-08-15
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** University of Illinois Chicago
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2608.15008v1) · [PDF](https://arxiv.org/pdf/2608.15008v1)
 
@@ -494,7 +500,7 @@ Long-horizon LLM agents must preserve information from past interactions to supp
 - **Published:** 2026-08-13
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** School of Artificial Intelligence and Data Science, University of Science and Technology of China, University of Science and Technology of China
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2608.12888v2) · [PDF](https://arxiv.org/pdf/2608.12888v2)
 
@@ -530,7 +536,7 @@ While Large Language Model (LLM) agents increasingly rely on long-term memory fo
 - **Published:** 2026-08-12
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Mila-Quebec AI Institute
 - **Categories:** cs.CV, cs.AI, cs.CL, cs.HC
 - **Links:** [Paper](https://arxiv.org/abs/2608.12627v3) · [PDF](https://arxiv.org/pdf/2608.12627v3)
 
@@ -598,6 +604,18 @@ Long-horizon agents accumulate trajectories spanning hundreds of interleaved rea
 
 ## LLM Continual Training & Continual Learning
 
+### [Measuring Reward Hacking and Reasoning-Answer Decoupling Under Position-Confounded Optimization](https://arxiv.org/abs/2608.15445v1)
+
+- **Authors:** Suyash Maniyar, Armaan Sandhu, Abhishek Mishra
+- **Published:** 2026-08-15
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2608.15445v1) · [PDF](https://arxiv.org/pdf/2608.15445v1)
+
+When a reward is correct on every training example yet consistent with more than one goal, a model can acquire an unintended one, a failure known as goal misgeneralization. Endpoint accuracy on the training distribution cannot tell the two apart, because solving the task and exploiting a surface feature can satisfy the reward equally well. We treat this as a measurement problem: what does a benchmark score measure once a model has been optimized against a correct but confounded signal? We train language models with GRPO on multiple-choice math problems where the correct answer is always option A, then evaluate on an unseen test set with unbiased answer positions. Across Qwen2.5, Llama 3.x and Gemma-3 models, biased training often drives option-A rates above 0.90 in smaller models and collapses unbiased accuracy toward chance, so accuracy stops measuring math ability and instead measures an answer-position policy. We further find reasoning-answer decoupling: capable models generate reasoning that reaches the correct numeric answer while still selecting A. We track this with numeric extraction and an LLM judge (GPT-4.1-mini; Qwen2.5-3B decoupling rate is about 0.66). The broken construct generalizes beyond the training domain: biased models inflate A-rates on out-of-domain MMLU and value-laden prompts. Continued training on unbiased data reverses the in-domain shift unevenly and only partially reverses the out-of-domain one, so a model can appear restored on its training distribution while remaining biased on unseen inputs. Reasoning-answer decoupling rate, together with answer distributions and out-of-domain behavior, separates capability loss from a learned, transferable shortcut.
+
 ### [SkillComposer: Learning Reusable Skills for Natural-Language Robot Programming](https://arxiv.org/abs/2608.14944v1)
 
 - **Authors:** John Woods, Hasti Seifi
@@ -652,7 +670,7 @@ Modern text-to-speech (TTS) is dominated by autoregressive (AR) codec language m
 - **Published:** 2026-08-11
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Mohamed bin Zayed University of Artificial Intelligence;University of Technology Sydney,
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2608.11408v1) · [PDF](https://arxiv.org/pdf/2608.11408v1)
 
@@ -672,13 +690,25 @@ Agentic "Continual Learning Harnesses", systems that pair an LLM with retrieval 
 
 ## Reinforcement Learning
 
+### [Measuring Reward Hacking and Reasoning-Answer Decoupling Under Position-Confounded Optimization](https://arxiv.org/abs/2608.15445v1)
+
+- **Authors:** Suyash Maniyar, Armaan Sandhu, Abhishek Mishra
+- **Published:** 2026-08-15
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2608.15445v1) · [PDF](https://arxiv.org/pdf/2608.15445v1)
+
+When a reward is correct on every training example yet consistent with more than one goal, a model can acquire an unintended one, a failure known as goal misgeneralization. Endpoint accuracy on the training distribution cannot tell the two apart, because solving the task and exploiting a surface feature can satisfy the reward equally well. We treat this as a measurement problem: what does a benchmark score measure once a model has been optimized against a correct but confounded signal? We train language models with GRPO on multiple-choice math problems where the correct answer is always option A, then evaluate on an unseen test set with unbiased answer positions. Across Qwen2.5, Llama 3.x and Gemma-3 models, biased training often drives option-A rates above 0.90 in smaller models and collapses unbiased accuracy toward chance, so accuracy stops measuring math ability and instead measures an answer-position policy. We further find reasoning-answer decoupling: capable models generate reasoning that reaches the correct numeric answer while still selecting A. We track this with numeric extraction and an LLM judge (GPT-4.1-mini; Qwen2.5-3B decoupling rate is about 0.66). The broken construct generalizes beyond the training domain: biased models inflate A-rates on out-of-domain MMLU and value-laden prompts. Continued training on unbiased data reverses the in-domain shift unevenly and only partially reverses the out-of-domain one, so a model can appear restored on its training distribution while remaining biased on unseen inputs. Reasoning-answer decoupling rate, together with answer distributions and out-of-domain behavior, separates capability loss from a learned, transferable shortcut.
+
 ### [Learning Sequential Mobility Choice: A Review of Route and Activity Choice through Inverse Reinforcement Learning and Imitation Learning](https://arxiv.org/abs/2608.15339v2)
 
 - **Authors:** Hung Tran, Viet Bui, Tien Mai
 - **Published:** 2026-08-15
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Singapore Management University
 - **Categories:** econ.EM
 - **Links:** [Paper](https://arxiv.org/abs/2608.15339v2) · [PDF](https://arxiv.org/pdf/2608.15339v2)
 
@@ -762,7 +792,7 @@ Modern text-to-speech (TTS) is dominated by autoregressive (AR) codec language m
 - **Published:** 2026-08-11
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Beihang University, University of Chinese Academy of Sciences
 - **Categories:** cs.CL, cs.RO
 - **Links:** [Paper](https://arxiv.org/abs/2608.11350v2) · [PDF](https://arxiv.org/pdf/2608.11350v2)
 
@@ -779,15 +809,3 @@ Embodied agents are increasingly built as systems around foundation models, wher
 - **Links:** [Paper](https://arxiv.org/abs/2608.11191v1) · [PDF](https://arxiv.org/pdf/2608.11191v1)
 
 GUI Visual Grounding is a fundamental capability for GUI agents. Existing models typically freeze their parameters after deployment, limiting their ability to adapt to unseen interfaces. Although recent methods attempt to adapt models via test-time reinforcement learning, they cannot reflect upon failed exploration. To overcome this, we propose a Test-Time Self-Evolving framework that enables models to improve after deployment without human-annotated ground truth. It constructs a closed-loop of Exploration, Evaluation, Reflection, and Internalization. Specifically, the agent first explores unseen interfaces by predicting grounding coordinates for given instructions. To evaluate these explorations, we introduce an MLLM-based Reflector to assess the generated results and provide the corresponding reasoning reflections. To internalize reflection knowledge into the model weights, we propose Reflection-Guided On-Policy Self-Distillation, which translates high-level reasoning into dense token-level supervision via a conditioned self-teacher. Furthermore, we design a Contrastive Calibration method to prevent incorrect auto-regressive prefixes from corrupting the supervisory signals during failed explorations. Extensive experiments across six benchmarks demonstrate our framework's effectiveness, achieving an average accuracy improvement of 7.4% over the base model. To the best of our knowledge, this is the first work to successfully exploit on-policy self-distillation for test-time adaptation in GUI visual grounding. By filling the gap in post-deployment adaptation, our framework completes the self-evolving capability of GUI agents. The code will be released.
-
-### [SR-OPSD: Self-Referenced On-Policy Self-Distillation](https://arxiv.org/abs/2608.09745v2)
-
-- **Authors:** Zhuo Sun, Entong Li, Yanlong Zhao, Xiaoyuan Cheng, Wenxuan Yuan, Kaiyu Li, Che Liu, Huihang Liu, Baihua He, Xinyu Zhang, Harrison Bo Hua Zhu, Li Zeng
-- **Published:** 2026-08-10
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI, stat.ML
-- **Links:** [Paper](https://arxiv.org/abs/2608.09745v2) · [PDF](https://arxiv.org/pdf/2608.09745v2)
-
-On-policy self-distillation (OPSD) converts feedback into dense token-level supervision on student-generated trajectories, complementing reinforcement learning with sparse outcome rewards. Its self-teacher, derived from the student's current or exponentially averaged parameters and conditioned on additional context, evolves alongside the student and its rollout context distribution. The benefit of modifying this moving target depends on how target--student probability mismatches translate into updates. We propose \emph{Self-Referenced On-Policy Self-Distillation (SR-OPSD)}, which constructs a normalized geometric target from the self-teacher and a frozen initial policy, then minimizes the forward Rényi divergence from this target to the student. The interpolation coefficient controls the self-teacher's contribution, while the Rényi order controls the power weighting of target-to-student probability ratios in the gradient. For fixed contexts and target components, we establish a conditional variational characterization and derive the exact token-logit gradient, revealing how anchoring and projection jointly shape the effective update target. Experiments across scientific reasoning, tool use, mathematical reasoning, and code generation demonstrate strong performance across multiple model families and scales. Ablations further show that reference anchoring can improve or degrade performance depending on the projection objective, supporting the joint design of target construction and projection geometry.

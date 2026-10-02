@@ -1,11 +1,11 @@
-> **2650 papers** · Page 34/53 · Newest first across all pages
+> **2656 papers** · Page 34/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,8 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-07-23 | Agent/LLM Self-Improvement, Reinforcement Learning | [AREX: Towards a Recursively Self-Improving Agent for Deep Research](https://arxiv.org/abs/2607.21461v3) | — |
+| 2026-07-23 | Agent Memory | [AttriMem: Attribution-Guided Process Feedback for Agent Memory Construction](https://arxiv.org/abs/2607.21106v3) | — |
 | 2026-07-22 | Reinforcement Learning | [Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.21653v3) | — |
 | 2026-07-22 | Reinforcement Learning | [Active Inference as a Convex Markov Decision Process](https://arxiv.org/abs/2607.20152v2) | — |
 | 2026-07-22 | Reinforcement Learning | [Continuous-Time Reinforcement Learning for $N$-Player Stochastic Differential Games with Exploratory Policies](https://arxiv.org/abs/2607.19928v3) | — |
@@ -43,28 +45,47 @@
 | 2026-07-16 | Reinforcement Learning | [Multi-Axis Max@K Reinforcement Learning for Representative Diversity in Text-to-Image Generation](https://arxiv.org/abs/2607.14962v2) | — |
 | 2026-07-16 | Reinforcement Learning | [A Continuous-Time Reinforcement Learning Framework for Fine-Tuning Discrete Diffusion Models](https://arxiv.org/abs/2607.14522v2) | — |
 | 2026-07-16 | Agent Memory | [RetroAgent: Harnessing LLMs to Search Over Structured Memory for Agentic Retrosynthesis Planning](https://arxiv.org/abs/2607.14512) | — |
-| 2026-07-16 | Agent/LLM Self-Improvement, Reinforcement Learning | [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777) | ⭐ Popular code |
+| 2026-07-16 | Agent/LLM Self-Improvement, Reinforcement Learning | [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777) | ⭐ Popular code<br>📈 Highly cited |
 | 2026-07-16 | Agent Memory | [MemPoison: Uncovering Persistent Memory Threats and Structural Blind Spots in LLM Agents](https://arxiv.org/abs/2607.14651) | — |
 | 2026-07-16 | Agent/LLM Self-Improvement, Agent Memory | [Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems](https://arxiv.org/abs/2607.14611) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement | [Cura 1T: Specialized Model for Agentic Healthcare](https://arxiv.org/abs/2607.15314v2) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement, Reinforcement Learning | [SPyCE: Skill-Policy Co-evolution for Multimodal Agents](https://arxiv.org/abs/2607.13854v2) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement | [ReasFlow: Assisting Reasoning-Centric Scientific Discovery in Applied Mathematics via a Knowledge-Based Multi-Agent System](https://arxiv.org/abs/2607.14178v3) | — |
-| 2026-07-15 | Agent/LLM Self-Improvement | [HarnessBank: Semantic Gene-Bank Search with Gated Verification for Agent-Harness Self-Evolution](https://arxiv.org/abs/2607.13683v2) | — |
+| 2026-07-15 | Agent/LLM Self-Improvement | [HarnessBank: Semantic Gene-Bank Search with Gated Verification for Agent-Harness Self-Evolution](https://arxiv.org/abs/2607.13683v2) | 📈 Highly cited |
 | 2026-07-15 | Agent/LLM Self-Improvement, Agent Memory | [Experience Memory Graph: One-Shot Error Correction for Agents](https://arxiv.org/abs/2607.13884) | — |
 | 2026-07-15 | Agent Memory | [Why Git Is the Memory Solution for the Agentic Development Lifecycle](https://arxiv.org/abs/2607.14390) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement | [A Self-Evolving Agent for Longitudinal Personal Health Management](https://arxiv.org/abs/2607.13940) | ⭐ Popular code |
 | 2026-07-15 | Agent Memory | [Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents](https://arxiv.org/abs/2607.13591) | — |
 | 2026-07-14 | Agent/LLM Self-Improvement | [Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents](https://arxiv.org/abs/2607.12790v2) | — |
 | 2026-07-14 | Agent/LLM Self-Improvement, Agent Memory | [KnowAct-GUIClaw: Know Deeply, Act Perfectly, Personal GUI Assistant with Self-Evolving Memory and Skill](https://arxiv.org/abs/2607.12625) | — |
-| 2026-07-14 | Agent Memory | [MemoHarness: Agent Harnesses That Learn from Experience](https://arxiv.org/abs/2607.14159) | — |
+| 2026-07-14 | Agent Memory | [MemoHarness: Agent Harnesses That Learn from Experience](https://arxiv.org/abs/2607.14159) | 📈 Highly cited |
 | 2026-07-14 | Agent Memory | [Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents](https://arxiv.org/abs/2607.13157) | — |
-| 2026-07-14 | Agent/LLM Self-Improvement | [Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104) | ⭐ Popular code |
+| 2026-07-14 | Agent/LLM Self-Improvement | [Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104) | ⭐ Popular code<br>📈 Highly cited |
 | 2026-07-14 | Agent/LLM Self-Improvement | [Critic Experience Bank: Self-Evolving Step-Level Confidence Estimation for LLM Agents](https://arxiv.org/abs/2607.12397) | — |
 | 2026-07-14 | Agent Memory | [PM-Bench: Evaluating Prospective Memory in LLM Agents](https://arxiv.org/abs/2607.12385) | — |
-| 2026-07-14 | Agent Memory | [Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents](https://arxiv.org/abs/2607.12267) | — |
-| 2026-07-14 | Agent Memory | [Speculate with Memory: Lossless Acceleration for LLM Agents](https://arxiv.org/abs/2607.12236) | — |
+
+## 🚨 Priority Watch
+
+| Paper | Signals | Venue / affiliation evidence |
+| --- | --- | --- |
+| [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [HarnessBank: Semantic Gene-Bank Search with Gated Verification for Agent-Harness Self-Evolution](https://arxiv.org/abs/2607.13683v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [MemoHarness: Agent Harnesses That Learn from Experience](https://arxiv.org/abs/2607.14159) | 📈 Highly cited | University of Southern California |
+| [Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
+
+### [AREX: Towards a Recursively Self-Improving Agent for Deep Research](https://arxiv.org/abs/2607.21461v3)
+
+- **Authors:** Shuqi Lu, Chaofan Li, Kun Luo, Zhang Zhang, Hui Wang, Hongwang Xiao, Lei Xiong, Jiahao Wang, Sen Wang, Xiyan Jiang, Wanli Li, Yuyang Hu, Hongjin Qian, Bingyu Yan, Jianlyu Chen, Ziyi Xia, Yingxia Shao, Kang Liu, Zhicheng Dou, Di He, Chaozhuo Li, Qiwei Ye, Zhongyuan Wang, Zheng Liu
+- **Published:** 2026-07-23
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** GSAI, Renmin University of China
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.21461v3) · [PDF](https://arxiv.org/pdf/2607.21461v3)
+
+Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks. This discovery--verification asymmetry suggests that a research agent should do more than simply search longer: it should recursively improve its current answer by verifying intermediate results and using the partially verified state to guide subsequent refinement. We introduce AREX, a family of Recursively Self-Improving (RSI) deep research agents. AREX alternates between an inner research loop that gathers evidence and constructs a provisional answer, and an outer self-improvement loop that audits the answer constraint-wise, identifies unresolved claims, and launches targeted follow-up research. To sustain RSI over long horizons, AREX learns an autonomous context-update tool that compresses growing interaction history into a compact improvement state preserving verified evidence and unresolved constraints, without relying on an external model. We train AREX on verified synthetic tasks and high-quality trajectories through agentic mid-training and long-horizon reinforcement learning. To mitigate sparse final rewards during long horizon learning, we emphasize key steps where decisive evidence is acquired or erroneous research directions are corrected. We instantiate a dense 4B model and a 122B-A10B Mixture-of-Experts model. Across BrowseComp, WideSearch, DeepSearchQA, Humanity's Last Exam (HLE), and other reasoning and tool-use benchmarks, AREX substantially outperforms comparable-scale baselines and remains competitive with models using substantially more activated parameters.
 
 ### [Mechanistic Attention Guidance for Agent Memory Refinement](https://arxiv.org/abs/2607.17621)
 
@@ -84,7 +105,7 @@ Existing self-evolving memory systems mainly improve agent memory based on textu
 - **Published:** 2026-07-18
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** SUN YAT-SEN UNIVERSITY
 - **Categories:** cs.RO
 - **Links:** [Paper](https://arxiv.org/abs/2607.16636) · [PDF](https://arxiv.org/pdf/2607.16636)
 
@@ -106,7 +127,7 @@ Existing memory systems for long-horizon LLM agents often retrieve prior traces 
 
 - **Authors:** Wu, Jinyang, Yang, Shuo, Lu, Zhengxi, Zhang, Fan, Shen, Yuhao, Feng, Lang, Luo, Haoran, Lian, Zheng, Zhang, Shuai, Wen, Zhengqi, Tao, Jianhua
 - **Published:** 2026-07-16
-- **Priority:** ⭐ Popular code
+- **Priority:** ⭐ Popular code<br>📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
@@ -166,7 +187,7 @@ Recent advances in Large Language Models have fueled autonomous AI agents capabl
 
 - **Authors:** Xiaotian Luo, Dizhan Xue, Fengxingyu Wang, Chuanrui Hu, Yafeng Deng
 - **Published:** 2026-07-15
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
@@ -204,7 +225,7 @@ Personal health management unfolds over repeated encounters, yet most health AI 
 - **Published:** 2026-07-14
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** School of Computer Science and Engineering, Nanyang Technological University, Singapore
 - **Categories:** cs.AI, cs.CL, cs.MA
 - **Links:** [Paper](https://arxiv.org/abs/2607.12790v2) · [PDF](https://arxiv.org/pdf/2607.12790v2)
 
@@ -216,7 +237,7 @@ Self-evolving agent systems create, revise, and retire their own skills, but eve
 - **Published:** 2026-07-14
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** Harbin Institute of Technology, Shenzhen
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2607.12625) · [PDF](https://arxiv.org/pdf/2607.12625)
 
@@ -226,7 +247,7 @@ OpenClaw has emerged as a leading agent framework for complex task automation, y
 
 - **Authors:** Ren, Zhe, Chen, Yimeng, Guo, Dandan, Rong, Guowei, Li, Tonghui, Xiong, R. B., Lan, Qingfeng, Wang, Wenyi, Nanbo, Li, Yang, Yibo, Zhuge, Mingchen, Schmidhuber, Jürgen
 - **Published:** 2026-07-14
-- **Priority:** ⭐ Popular code
+- **Priority:** ⭐ Popular code<br>📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
@@ -247,6 +268,18 @@ Self-improving autonomous agents are moving from research prototypes to deployed
 LLM agents act in external environments where each action changes the state that later decisions condition on, and where a single wrong step can waste interaction budget or trigger irreversible side effects long before the final failure is observed. Reliable deployment therefore requires \emph{step-level confidence estimation}: a calibrated probability that each proposed action is productive, available \emph{before} the action is executed. Existing LLM confidence estimators are designed to score a response from the given prompt, but agent confidence also depends on execution consequences: whether similar actions in similar situations actually advanced the task after the environment responded. We introduce the \method (\methodshort), a self-evolving critic framework in which an LLM critic accumulates evidence from its own past judgments and their observed consequences. After each trajectory, a hindsight LLM that sees the full execution feedback votes on whether each step was productive. The resulting pseudo-labels populate a memory bank from which related productive and unproductive experiences are retrieved into the critic's prompt whenever a similar step recurs. \methodshort requires no training and uses no ground truth step labels. Across three agent benchmarks and three critic backbones, \methodshort attains the best calibration (ECE and Brier) and ranking (AUC) in every dataset--critic combination, reducing ECE by up to $54\%$ relative to the strongest training-free baseline.
 
 ## Agent Memory
+
+### [AttriMem: Attribution-Guided Process Feedback for Agent Memory Construction](https://arxiv.org/abs/2607.21106v3)
+
+- **Authors:** Qinfeng Li, Yuntai Bao, Xinyan Yu, Hongze Chen, Yanming Liu, Huifeng Zhu, Yier Jin, Jintao Chen, Wenqi Zhang, Xuhong Zhang
+- **Published:** 2026-07-23
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.21106v3) · [PDF](https://arxiv.org/pdf/2607.21106v3)
+
+Effective memory is crucial for LLM agents, yet constructing it effectively remains challenging. A memory-construction policy decides what information to extract, store, update, compress, or discard as interactions accumulate. Heuristic memory methods rely on subjective, task-specific rules, which can misalign with downstream objectives and limit cross-task adaptability. RL-based methods, by contrast, learn from task feedback but mainly use outcome- or module-level rewards. These coarse signals indicate task success but cannot identify which intermediate memory contents support the final answer, creating a fine-grained credit-assignment bottleneck. However, constructing such process feedback is prohibitively difficult because intermediate memory decisions lack unique ground-truth targets, while the appropriate credit varies with the agent's uncertain reasoning trajectory and therefore cannot be specified in advance. We propose AttriMem, an attribution-guided process-feedback framework for learning memory-construction policies with RL. AttriMem augments the global outcome reward with local rewards derived from token-level contributions to the final answer. Experiments on long-horizon dialogue question answering show that AttriMem outperforms retrieval-based, heuristic, and RL-based baselines, generalizes across benchmarks and answer models, stabilizes RL optimization.
 
 ### [Supra Cognitive Modes: A Routed Architecture for Agent Memory](https://arxiv.org/abs/2607.19096)
 
@@ -314,7 +347,7 @@ Existing memory systems for long-horizon LLM agents often retrieve prior traces 
 - **Published:** 2026-07-17
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** East China Normal University
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2607.22690v2) · [PDF](https://arxiv.org/pdf/2607.22690v2)
 
@@ -398,7 +431,7 @@ Coding agents now produce a growing share of a team's code, while the reasoning 
 - **Published:** 2026-07-15
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** Northwestern University, University of California, Los Angeles
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2607.13591) · [PDF](https://arxiv.org/pdf/2607.13591)
 
@@ -410,7 +443,7 @@ Large Language Model (LLM) agents increasingly rely on external memory systems t
 - **Published:** 2026-07-14
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** Harbin Institute of Technology, Shenzhen
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2607.12625) · [PDF](https://arxiv.org/pdf/2607.12625)
 
@@ -420,9 +453,9 @@ OpenClaw has emerged as a leading agent framework for complex task automation, y
 
 - **Authors:** Huang, Yue, Wang, Wenjie, Bao, Han, Ma, Yuchen, Luo, Xiaonan, Nian, Yi, Zhuang, Haomin, Liu, Zheyuan, Zhao, Yue, Zhang, Xiangliang
 - **Published:** 2026-07-14
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** University of Southern California
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2607.14159) · [PDF](https://arxiv.org/pdf/2607.14159)
 
@@ -434,7 +467,7 @@ An agent harness is the external control layer that turns a base LLM into an exe
 - **Published:** 2026-07-14
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** IBM Research
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2607.13157) · [PDF](https://arxiv.org/pdf/2607.13157)
 
@@ -451,30 +484,6 @@ Agent memory is a systems problem for long-horizon agents. Practical deployments
 - **Links:** [Paper](https://arxiv.org/abs/2607.12385) · [PDF](https://arxiv.org/pdf/2607.12385)
 
 A significant challenge in agentic AI is prospective memory: the ability to execute an intention at a specific future cue or state while other activities are ongoing. We introduce PM-Bench, a text-based benchmark for measuring prospective memory capabilities in modern LLM agents. Inspired by the Virtual Week paradigm from cognitive science, PM-Bench evaluates how well LLM agents maintain user intentions, execute delayed intentions, and monitor latent environment changes. Over the course of a simulated seven-day week, agents must continue an ongoing activity while deciding whether any deferred task is due. We compare eight state-of-the-art LLMs on PM-Bench under eight different agent configurations. PM-Bench proves challenging across all settings: the best method, a GPT-5.4 agent, reaches only 65.1\% F1 score under our evaluation. Furthermore, no single strategy for improving prospective memory dominates across models. We release PM-Bench as a controlled testbed for diagnosing these failures and developing training or inference-time interventions that support reliable prospective behavior.
-
-### [Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents](https://arxiv.org/abs/2607.12267)
-
-- **Authors:** Liu, Ning
-- **Published:** 2026-07-14
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2607.12267) · [PDF](https://arxiv.org/pdf/2607.12267)
-
-Language agents that interleave reasoning and tool use degrade sharply as reasoning chains lengthen, even when each individual step is easy. We trace this to context dilution: an agent's investigative state (what it has confirmed, what it suspects, and what it still needs) lives only implicitly in a growing context window, where early discoveries are buried under later retrievals. We introduce SLEUTH, which makes this state explicit and actionable through a structured epistemic working memory: the agent maintains Confirmed Facts grounded to sources, Active Hypotheses ranked by evidence, and Open Questions that directly drive its next action. Across five multi-hop benchmarks and five established baselines, SLEUTH's advantage grows with difficulty, from +5 points on HotpotQA to +11 on 4-hop chains, surpassing Reflexion without multiple episodes. Analyzing where the remaining gap lies, we identify the evidence sufficiency problem: agents often find the answer but fail to commit, exhausting their budget on needless verification. A lightweight commitment trigger fixes this, but only when the agent already maintains structured state: the identical trigger applied to an unstructured agent yields no improvement, isolating organized epistemic state as the necessary condition for effective commitment. Finally, enforcing protocol adherence on a weaker model recovers up to +19 points on the hardest problems, showing that how an agent organizes its reasoning, not raw model capability, is the active ingredient for scaling multi-hop reasoning.
-
-### [Speculate with Memory: Lossless Acceleration for LLM Agents](https://arxiv.org/abs/2607.12236)
-
-- **Authors:** Li, Yu, Ye, Qinyuan, Choubey, Prafulla Kumar, Zhang, Jiaxin, Wu, Chien-Sheng
-- **Published:** 2026-07-14
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2607.12236) · [PDF](https://arxiv.org/pdf/2607.12236)
-
-Speculative execution accelerates LLM agents by using a smaller, cheaper model to predict and pre-launch the next step while the environment is idle. However, existing speculators are stateless and discard all information between tasks, preventing prediction quality from improving with experience. We equip the speculator with three online memory systems that learn from past agent trajectories: a contrastive transition table tracking action-sequence statistics, an episodic memory retrieving contextually similar segments, and a confusion tracker suppressing recurring errors. We evaluate this approach on six benchmarks spanning three speculation types: action prediction, observation prediction, and chained prediction. Memory-augmented speculation yields a 19--39\% relative accuracy improvement on action prediction and up to a $2.5\times$ increase on observation prediction tasks with repetitive action spaces. These gains grow continuously as memory accumulates and generalize across speculator models of varying cost. All speculation is lossless because it runs during idle time at zero added wall-clock cost, and the actor's trajectory is identical to non-speculative execution.
 
 ## LLM Continual Training & Continual Learning
 
@@ -528,6 +537,18 @@ Deploying LLM agents typically requires a compact test-time student, even if a s
 
 ## Reinforcement Learning
 
+### [AREX: Towards a Recursively Self-Improving Agent for Deep Research](https://arxiv.org/abs/2607.21461v3)
+
+- **Authors:** Shuqi Lu, Chaofan Li, Kun Luo, Zhang Zhang, Hui Wang, Hongwang Xiao, Lei Xiong, Jiahao Wang, Sen Wang, Xiyan Jiang, Wanli Li, Yuyang Hu, Hongjin Qian, Bingyu Yan, Jianlyu Chen, Ziyi Xia, Yingxia Shao, Kang Liu, Zhicheng Dou, Di He, Chaozhuo Li, Qiwei Ye, Zhongyuan Wang, Zheng Liu
+- **Published:** 2026-07-23
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** GSAI, Renmin University of China
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.21461v3) · [PDF](https://arxiv.org/pdf/2607.21461v3)
+
+Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks. This discovery--verification asymmetry suggests that a research agent should do more than simply search longer: it should recursively improve its current answer by verifying intermediate results and using the partially verified state to guide subsequent refinement. We introduce AREX, a family of Recursively Self-Improving (RSI) deep research agents. AREX alternates between an inner research loop that gathers evidence and constructs a provisional answer, and an outer self-improvement loop that audits the answer constraint-wise, identifies unresolved claims, and launches targeted follow-up research. To sustain RSI over long horizons, AREX learns an autonomous context-update tool that compresses growing interaction history into a compact improvement state preserving verified evidence and unresolved constraints, without relying on an external model. We train AREX on verified synthetic tasks and high-quality trajectories through agentic mid-training and long-horizon reinforcement learning. To mitigate sparse final rewards during long horizon learning, we emphasize key steps where decisive evidence is acquired or erroneous research directions are corrected. We instantiate a dense 4B model and a 122B-A10B Mixture-of-Experts model. Across BrowseComp, WideSearch, DeepSearchQA, Humanity's Last Exam (HLE), and other reasoning and tool-use benchmarks, AREX substantially outperforms comparable-scale baselines and remains competitive with models using substantially more activated parameters.
+
 ### [Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.21653v3)
 
 - **Authors:** Jian Hu, Huiying Li, Hao Zhang, Binfeng Xu, Yifan Zhang, Shaokun Zhang, Hemil Desai, Michael Demoret, Pavlo Molchanov, Jan Kautz, Yi Dong
@@ -569,7 +590,7 @@ We study entropy-regularized exploratory control in finite $N$-player stochastic
 - **Authors:** Yunjie Chen, Zihao Chen, Xiaoxin Chen, Fang Wang
 - **Published:** 2026-07-21
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2607.19450v3) · [PDF](https://arxiv.org/pdf/2607.19450v3)
@@ -593,7 +614,7 @@ Using Unmanned Aerial Vehicle (UAV) for urban sensing has emerged as a powerful 
 - **Authors:** Dongming Wang, Pengcheng Dai, Wenwu Yu, Wei Ren
 - **Published:** 2026-07-20
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.MA, cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2607.18554v2) · [PDF](https://arxiv.org/pdf/2607.18554v2)
@@ -666,7 +687,7 @@ Remote sensing vision-language models are increasingly expected to support open-
 - **Published:** 2026-07-17
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** East China Normal University
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2607.22690v2) · [PDF](https://arxiv.org/pdf/2607.22690v2)
 
@@ -701,7 +722,7 @@ Advanced control of heating, ventilation, and air-conditioning (HVAC) systems ca
 - **Authors:** Bo-An Chang, Yu-Chih Chen
 - **Published:** 2026-07-17
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CV, cs.AI, cs.LG, cs.MM
 - **Links:** [Paper](https://arxiv.org/abs/2607.15740v3) · [PDF](https://arxiv.org/pdf/2607.15740v3)
@@ -725,7 +746,7 @@ We study robust peak-cost constrained reinforcement learning (\ours), where the 
 - **Authors:** Ku Onoda, Paavo Parmas, Hiroki Furuta, Soichiro Nishimori, Yuta Oshima, Shohei Taniguchi, Yutaka Matsuo
 - **Published:** 2026-07-16
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI, cs.CV
 - **Links:** [Paper](https://arxiv.org/abs/2607.14962v2) · [PDF](https://arxiv.org/pdf/2607.14962v2)
@@ -748,7 +769,7 @@ We formulate reinforcement learning (RL) in continuous time with discrete state 
 
 - **Authors:** Wu, Jinyang, Yang, Shuo, Lu, Zhengxi, Zhang, Fan, Shen, Yuhao, Feng, Lang, Luo, Haoran, Lian, Zheng, Zhang, Shuai, Wen, Zhengqi, Tao, Jianhua
 - **Published:** 2026-07-16
-- **Priority:** ⭐ Popular code
+- **Priority:** ⭐ Popular code<br>📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL

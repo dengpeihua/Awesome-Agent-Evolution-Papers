@@ -6,7 +6,7 @@
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 2024-11-13 | Reinforcement Learning | [CHAI for LLMs: Improving Code-Mixed Translation in Large Language Models through Reinforcement Learning with AI Feedback](https://arxiv.org/abs/2411.09073v4)<br>[PDF](https://arxiv.org/pdf/2411.09073v4) | arXiv | — | — |
+| 2024-11-13 | Reinforcement Learning | [CHAI for LLMs: Improving Code-Mixed Translation in Large Language Models through Reinforcement Learning with AI Feedback](https://arxiv.org/abs/2411.09073v4)<br>[PDF](https://arxiv.org/pdf/2411.09073v4) | arXiv | — | Citations: 7 (Semantic Scholar) |
 
 ## Notes
 

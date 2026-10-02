@@ -1,11 +1,11 @@
-> **2650 papers** · Page 25/53 · Newest first across all pages
+> **2656 papers** · Page 25/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -68,7 +68,7 @@
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
-| [Not All Prompts Are Equal: Exploration-Guided Prompt Scaffolding for Multimodal Reinforcement Post-Training](https://arxiv.org/abs/2609.15051v1) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted by EMNLP 2026 main conference |
+| [Not All Prompts Are Equal: Exploration-Guided Prompt Scaffolding for Multimodal Reinforcement Post-Training](https://arxiv.org/abs/2609.15051v1) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted by EMNLP 2026 main conference<br>Shanghai Jiao Tong University |
 | [One Example Is Enough to Pass Fairness Benchmarks: Rethinking Fairness Evaluation for Aligned LLMs](https://arxiv.org/abs/2609.14860v1) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to EMNLP 2026 Main |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
@@ -103,7 +103,7 @@ Large language model (LLM) driven multi-agent systems have shown promise in comp
 - **Published:** 2026-09-14
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** University of Maryland, College Park
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2609.14858v1) · [PDF](https://arxiv.org/pdf/2609.14858v1)
 
@@ -115,7 +115,7 @@ Recursive self-improvement is becoming increasingly vital for autonomous AI agen
 - **Published:** 2026-09-14
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** University of British Columbia
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2609.14857v1) · [PDF](https://arxiv.org/pdf/2609.14857v1)
 
@@ -217,7 +217,7 @@ Safe reinforcement learning (RL) is commonly formalized as a Constrained Markov 
 - **Published:** 2026-09-14
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Zhejiang University
 - **Categories:** cs.CV
 - **Links:** [Paper](https://arxiv.org/abs/2609.15307v1) · [PDF](https://arxiv.org/pdf/2609.15307v1)
 
@@ -337,7 +337,7 @@ Reinforcement learning (RL) is widely utilized in large language model training 
 - **Published:** 2026-09-14
 - **Priority:** 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
 - **Venue:** EMNLP 2026
-- **Affiliations:** n/a
+- **Affiliations:** Shanghai Jiao Tong University
 - **Categories:** cs.LG, cs.AI, cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2609.15051v1) · [PDF](https://arxiv.org/pdf/2609.15051v1)
 
@@ -481,7 +481,7 @@ Robots operating in open environments act under partial observability, physical 
 - **Published:** 2026-09-13
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Chai Research, Slingshot AI, University of Cambridge
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2609.14648v1) · [PDF](https://arxiv.org/pdf/2609.14648v1)
 
@@ -637,7 +637,7 @@ Recent robot learning paradigms increasingly rely on large offline datasets of r
 - **Published:** 2026-09-13
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** University of Waterloo, William & Mary
 - **Categories:** cs.DL, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2609.14248v1) · [PDF](https://arxiv.org/pdf/2609.14248v1)
 

@@ -1,11 +1,11 @@
-> **2650 papers** · Page 33/53 · Newest first across all pages
+> **2656 papers** · Page 33/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,7 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-07-31 | Agent/LLM Self-Improvement | [Self-Play Meets Skill Evolution: Self-Evolving Search Agents that Pose, Solve, and Remember](https://arxiv.org/abs/2607.29468v1) | — |
 | 2026-07-31 | Agent Memory | [Zero-Mem: Zero-Token Memory Operations for LLM Agents](https://arxiv.org/abs/2607.29377v1) | — |
 | 2026-07-31 | Agent/LLM Self-Improvement | [RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems](https://arxiv.org/abs/2607.29241v1) | — |
 | 2026-07-31 | Agent/LLM Self-Improvement | [DarwinX: Evolving Agent Harnesses Through Natural Selection](https://arxiv.org/abs/2608.07545v1) | — |
@@ -49,28 +50,41 @@
 | 2026-07-29 | LLM Continual Training, Reinforcement Learning | [Post-Training at the Edge of Detectability: A Game-Theoretic Approach to Fine-Tuning](https://arxiv.org/abs/2607.26358v2) | — |
 | 2026-07-28 | Agent/LLM Self-Improvement | [Try Again, Don't Look Back: Blind Resampling Outperforms Self-Repair in Small Code Models](https://arxiv.org/abs/2607.26117v1) | — |
 | 2026-07-28 | Agent/LLM Self-Improvement | [GPT-Red: Automated Red Teaming via Self-Play at Scale](https://arxiv.org/abs/2607.26115v1) | — |
-| 2026-07-28 | Agent/LLM Self-Improvement | [RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement](https://arxiv.org/abs/2607.25886v1) | — |
+| 2026-07-28 | Agent/LLM Self-Improvement | [RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement](https://arxiv.org/abs/2607.25886v1) | 📈 Highly cited |
 | 2026-07-28 | Agent/LLM Self-Improvement | [NISPO: Open-source IUPAC name generation tool](https://arxiv.org/abs/2607.26113v1) | — |
 | 2026-07-28 | Reinforcement Learning | [Bayesian-Guided Cooperative RL Beamforming for Wireless Adversarial User Detection](https://arxiv.org/abs/2607.25417v2) | — |
 | 2026-07-28 | Agent/LLM Self-Improvement | [Specula: Scaling formal specifications for autonomous model checking of system code](https://arxiv.org/abs/2607.25333v2) | — |
 | 2026-07-27 | LLM Continual Training, Reinforcement Learning | [The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation](https://arxiv.org/abs/2607.24720v1) | — |
 | 2026-07-27 | Reinforcement Learning | [CONSISTRE: A Unified Consistency-Aware Framework for Document-Level Relation Extraction with Large Language Models](https://arxiv.org/abs/2607.24312v2) | — |
-| 2026-07-27 | Agent Memory | [MemTX: Transactional Belief Commit for Stateful Agent Memory](https://arxiv.org/abs/2607.23929v2) | — |
+| 2026-07-27 | Agent Memory | [MemTX: Transactional Belief Commit for Stateful Agent Memory](https://arxiv.org/abs/2607.23929v2) | 📈 Highly cited |
 | 2026-07-26 | Agent/LLM Self-Improvement, Reinforcement Learning | [From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement](https://arxiv.org/abs/2607.23802v2) | — |
 | 2026-07-25 | Reinforcement Learning | [SeekJudge: A Practical Reward Framework for Reinforcement Learning in Computer-Use Agents](https://arxiv.org/abs/2607.23263v2) | — |
 | 2026-07-24 | Agent/LLM Self-Improvement | [CausalSmith: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference](https://arxiv.org/abs/2607.22511v4) | — |
 | 2026-07-24 | Agent/LLM Self-Improvement, Reinforcement Learning | [Teaching LLMs to Self-Evolve: Cultivating Core Meta-Skills with Reinforcement Learning](https://arxiv.org/abs/2607.21971v2) | — |
 | 2026-07-24 | LLM Continual Training | [When Machines Lie Differently: Detecting AI vs Human Fake News](https://arxiv.org/abs/2607.21967v2) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
-| 2026-07-23 | Agent/LLM Self-Improvement, Reinforcement Learning | [AREX: Towards a Recursively Self-Improving Agent for Deep Research](https://arxiv.org/abs/2607.21461v3) | — |
-| 2026-07-23 | Agent Memory | [AttriMem: Attribution-Guided Process Feedback for Agent Memory Construction](https://arxiv.org/abs/2607.21106v3) | — |
+| 2026-07-24 | Agent/LLM Self-Improvement, Reinforcement Learning | [Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills](https://arxiv.org/abs/2607.22529) | ⭐ Popular code |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement](https://arxiv.org/abs/2607.25886v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [MemTX: Transactional Belief Commit for Stateful Agent Memory](https://arxiv.org/abs/2607.23929v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [When Machines Lie Differently: Detecting AI vs Human Fake News](https://arxiv.org/abs/2607.21967v2) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted at the International Conference on Machine Learning and Applications (ICMLA 2026) |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
+
+### [Self-Play Meets Skill Evolution: Self-Evolving Search Agents that Pose, Solve, and Remember](https://arxiv.org/abs/2607.29468v1)
+
+- **Authors:** Zenghuang Fu, Zhaoyang Li, Qiuyuan Ai, Haoyu Wu, Minghui Wu, Chenxu Zhao, Ante Wang, Guannan He, Changwei Wang
+- **Published:** 2026-07-31
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.29468v1) · [PDF](https://arxiv.org/pdf/2607.29468v1)
+
+Self-play agents can generate training problems without questions from target benchmarks, but their curricula lack persistent state: failures affect gradients yet do not explicitly shape future practice. External skill memories preserve procedural experience but are typically learned from fixed task distributions. We introduce \textbf{SESA} (Self-Evolving Skill-Augmented Agent), which makes procedural memory an evolving state of tool-augmented search self-play. A challenger poses problems, while a separately parameterized solver alone retrieves skills. Informative failures are distilled into reusable skills and written back to memory. The updated memory changes solver behavior and success, which changes the challenger's reward and the distribution of future problems; the resulting frontier produces new failures that rewrite memory. This bidirectional loop makes task generation and skill memory co-evolve. Because retrieved skills shape on-policy training trajectories, their benefits can enter the model parameters as well as remain in the external bank, enabling memory-free deployment and optional inference-time retrieval. Across seven open-domain and multi-hop question-answering benchmarks, SESA improves average accuracy over SSP by 1.2--3.2 points across multiple backbones and surpasses the skill-augmented SkillRL baseline by 0.9 points under a unified evaluation protocol. On Qwen3 models, SESA-Off retains 1.8--2.2 points of improvement over SSP, while the final skill bank adds a further 0.5--1.0 points. These results show that evolving skill memory is not merely an inference-time plug-in: it changes policy learning and the future training distribution while retaining value as optional external memory. Our code is available at https://github.com/Zenghuang-Fu/SESA-Self-Evolving-Search-Agents.
 
 ### [RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems](https://arxiv.org/abs/2607.29241v1)
 
@@ -294,7 +308,7 @@ Self-repair - returning a failed program to the model together with its test out
 - **Published:** 2026-07-28
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** Google DeepMind
 - **Categories:** cs.CR, cs.AI, cs.CL, cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2607.26115v1) · [PDF](https://arxiv.org/pdf/2607.26115v1)
 
@@ -304,7 +318,7 @@ We introduce \textbf{GPT-Red}, an automated red-teaming agent that is trained to
 
 - **Authors:** Fanqing Meng, Lingxiao Du, Qiguang Chen, Ziqi Zhao, Haocheng Lu, Mengkang Hu, Michael Qizhe Shieh
 - **Published:** 2026-07-28
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.SE, cs.CL
@@ -372,17 +386,17 @@ Automating theoretical research requires generating candidate results and evalua
 
 Test-time scaling through iterative self-evolution with environment feedback, as demonstrated by AlphaEvolve, shows remarkable performance gains. We hypothesize that the success of such evolution frameworks hinges on meta-skills, such as self-reflection with environment feedback, that enable effective multi-round refinement, yet are largely neglected by traditional post-training. To bridge this gap, we present MetaEvolve, a framework designed to develop these meta-skills via a data synthesis pipeline, evolution-aware reinforcement learning (RL), and inference-time evolutionary search. Concretely, we ground MetaEvolve in coding, where program execution provides natural, continuous reward signals beyond binary correctness. Building on these signals, we synthesize evolution trajectories as training data, each containing a current program, its fitness score (combining correctness and efficiency), and a history of prior attempts, and train the model via RL with verifiable rewards derived from test case execution. By training on large-scale code data, we aim to inspire generalizable domain-agnostic meta-skills that can transfer broadly to open-ended problems where such rich training signals are scarce. Across seven coding benchmarks, MetaEvolve outperforms the strongest baseline by 10.01% absolute on in-distribution tasks and 24.12% on out-of-distribution tasks. On open-ended algorithm optimization problems entirely outside the training domain, it further achieves a 46.9% relative improvement. These results demonstrate that explicitly cultivating self-evolution meta-skills offers a principled path toward more capable and autonomously self-evolving AI.
 
-### [AREX: Towards a Recursively Self-Improving Agent for Deep Research](https://arxiv.org/abs/2607.21461v3)
+### [Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills](https://arxiv.org/abs/2607.22529)
 
-- **Authors:** Shuqi Lu, Chaofan Li, Kun Luo, Zhang Zhang, Hui Wang, Hongwang Xiao, Lei Xiong, Jiahao Wang, Sen Wang, Xiyan Jiang, Wanli Li, Yuyang Hu, Hongjin Qian, Bingyu Yan, Jianlyu Chen, Ziyi Xia, Yingxia Shao, Kang Liu, Zhicheng Dou, Di He, Chaozhuo Li, Qiwei Ye, Zhongyuan Wang, Zheng Liu
-- **Published:** 2026-07-23
-- **Priority:** —
+- **Authors:** Huang, Siyuan, Cheng, Pengyu, Liu, Haotian, Chen, Tao, Liu, Yihao, Ni, Jingwei, Zhou, Shijie, Yang, Ziyi, Jiang, Gangwei, Zhou, Mengyu, Cheng, Yu, Jiang, Xiaoxi, Jiang, Guanjun
+- **Published:** 2026-07-24
+- **Priority:** ⭐ Popular code
 - **Venue:** arXiv.org
-- **Affiliations:** GSAI, Renmin University of China
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.21461v3) · [PDF](https://arxiv.org/pdf/2607.21461v3)
+- **Affiliations:** ETH Zurich
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2607.22529) · [PDF](https://arxiv.org/pdf/2607.22529) · [Code](https://github.com/Qwen-Applications/skill-self-play)
 
-Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks. This discovery--verification asymmetry suggests that a research agent should do more than simply search longer: it should recursively improve its current answer by verifying intermediate results and using the partially verified state to guide subsequent refinement. We introduce AREX, a family of Recursively Self-Improving (RSI) deep research agents. AREX alternates between an inner research loop that gathers evidence and constructs a provisional answer, and an outer self-improvement loop that audits the answer constraint-wise, identifies unresolved claims, and launches targeted follow-up research. To sustain RSI over long horizons, AREX learns an autonomous context-update tool that compresses growing interaction history into a compact improvement state preserving verified evidence and unresolved constraints, without relying on an external model. We train AREX on verified synthetic tasks and high-quality trajectories through agentic mid-training and long-horizon reinforcement learning. To mitigate sparse final rewards during long horizon learning, we emphasize key steps where decisive evidence is acquired or erroneous research directions are corrected. We instantiate a dense 4B model and a 122B-A10B Mixture-of-Experts model. Across BrowseComp, WideSearch, DeepSearchQA, Humanity's Last Exam (HLE), and other reasoning and tool-use benchmarks, AREX substantially outperforms comparable-scale baselines and remains competitive with models using substantially more activated parameters.
+LLM training is shifting from manual design and annotation to interaction-driven self-evolution. However, existing self-evolutionary methods face a fundamental dilemma between task diversity and verification reliability: environment-bound methods obtain precise feedback but confine learning to narrow domains, while open-ended self-generation broadens the task space but lacks reliable verification, allowing misleading rewards to pollute the training loop. We identify agent skills as a powerful middle ground to reconcile this tension: each skill ensures deep, verifiable execution in a specific scenario, while dynamic routing across skills maintains open-ended task variety. Leveraging this insight, we introduce Skill Self-Play (Skill-SP), a co-evolutionary framework comprising a proposer, a solver, and a dynamic skill controller. Orchestrated via a reinforcement learning loop, these components co-evolve in a continuous self-play loop: the proposer generates challenging tasks conditioned on dynamically sampled skills; the solver explores candidate solutions to push its capability boundaries; and the skill controller collects execution feedback to update and expand the skill library. This interactive co-evolution effectively bridges the gap between structured verification and open-ended exploration. Empirical evaluations on tool-use and reasoning benchmarks demonstrate that Skill-SP, serving as a robust evolution engine, consistently pushes the performance ceiling of competent backbones while catalyzing striking turnarounds for initially misaligned models. Our code is available at https://github.com/Qwen-Applications/skill-self-play.
 
 ## Agent Memory
 
@@ -404,7 +418,7 @@ LLM agents need memory to act consistently over long interactions, yet many syst
 - **Published:** 2026-07-30
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** Zhejiang University
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2607.28272v1) · [PDF](https://arxiv.org/pdf/2607.28272v1)
 
@@ -452,7 +466,7 @@ LLM agents increasingly rely on long-term memory to support multi-session intera
 - **Published:** 2026-07-29
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** Zhejiang University of Technology
 - **Categories:** cs.CR, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2607.27080v1) · [PDF](https://arxiv.org/pdf/2607.27080v1)
 
@@ -476,7 +490,7 @@ Personalized agents are increasingly applied to assist users across a wide range
 - **Published:** 2026-07-29
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** Zhejiang University;Institute for Advanced Algorithms Research, Shanghai;MemTensor
 - **Categories:** cs.CL, cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2607.26760v2) · [PDF](https://arxiv.org/pdf/2607.26760v2)
 
@@ -500,7 +514,7 @@ Multimodal agents operating in long-horizon environments must build and continua
 - **Published:** 2026-07-29
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** University of Illinois Urbana-Champaign
 - **Categories:** cs.CL, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2607.26637v1) · [PDF](https://arxiv.org/pdf/2607.26637v1)
 
@@ -522,25 +536,13 @@ We present Voice Memory, a inference-only scheme for agentic speech recognition:
 
 - **Authors:** Xiaoyang Li, Yiqi Wang, Haohui Lu, Zhi Chen, Mo Li, Pingan Song, Mingkai Zheng, Taotao Cai
 - **Published:** 2026-07-27
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2607.23929v2) · [PDF](https://arxiv.org/pdf/2607.23929v2)
 
 LLM agents increasingly coordinate through persistent shared memory: one agent's write becomes another agent's premise, and eventually a tool call with real side effects. Current agent memory systems treat every accepted write as immediately actionable truth, so a polluted tool result, a stale update, or a teammate's half-finished note can silently drive an irreversible action. We argue that a memory write is not a belief commit. We present MemTX, a transactional belief-commit protocol. Each record carries evidence, permissions, provenance, and validity. Writes are staged inside snapshot-isolated transactions and admitted by a validate-and-commit pipeline, irreversible tool calls are gated on in-flight belief state, and retracting a belief triggers typed cascading repair of its derived records and tool side effects. Two invariants, action-safety gating and cascade-repair completeness, are machine-checked by property-based testing and bounded exhaustive enumeration of 5.5 million protocol states, with zero violations. Across five backbones from three model families, MemTX leads all eight baselines with paired-McNemar significance on four backbones and statistically ties the best baseline on the fifth and strongest, while remaining the only method with zero downstream harm on every backbone. Backbone capability does not substitute for commit discipline.
-
-### [AttriMem: Attribution-Guided Process Feedback for Agent Memory Construction](https://arxiv.org/abs/2607.21106v3)
-
-- **Authors:** Qinfeng Li, Yuntai Bao, Xinyan Yu, Hongze Chen, Yanming Liu, Huifeng Zhu, Yier Jin, Jintao Chen, Wenqi Zhang, Xuhong Zhang
-- **Published:** 2026-07-23
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.21106v3) · [PDF](https://arxiv.org/pdf/2607.21106v3)
-
-Effective memory is crucial for LLM agents, yet constructing it effectively remains challenging. A memory-construction policy decides what information to extract, store, update, compress, or discard as interactions accumulate. Heuristic memory methods rely on subjective, task-specific rules, which can misalign with downstream objectives and limit cross-task adaptability. RL-based methods, by contrast, learn from task feedback but mainly use outcome- or module-level rewards. These coarse signals indicate task success but cannot identify which intermediate memory contents support the final answer, creating a fine-grained credit-assignment bottleneck. However, constructing such process feedback is prohibitively difficult because intermediate memory decisions lack unique ground-truth targets, while the appropriate credit varies with the agent's uncertain reasoning trajectory and therefore cannot be specified in advance. We propose AttriMem, an attribution-guided process-feedback framework for learning memory-construction policies with RL. AttriMem augments the global outcome reward with local rewards derived from token-level contributions to the final answer. Experiments on long-horizon dialogue question answering show that AttriMem outperforms retrieval-based, heuristic, and RL-based baselines, generalizes across benchmarks and answer models, stabilizes RL optimization.
 
 ## LLM Continual Training & Continual Learning
 
@@ -550,7 +552,7 @@ Effective memory is crucial for LLM agents, yet constructing it effectively rema
 - **Published:** 2026-07-30
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** Baichuan Intelligent Technology
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2607.28263v1) · [PDF](https://arxiv.org/pdf/2607.28263v1)
 
@@ -660,7 +662,7 @@ The fundamental goal of agentic visual reasoning is to improve the success rate 
 - **Published:** 2026-07-30
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** Zhejiang University
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2607.28272v1) · [PDF](https://arxiv.org/pdf/2607.28272v1)
 
@@ -683,7 +685,7 @@ Recent advances in Generative AI have substantially improved financial sentiment
 - **Authors:** Shuang Liang, Haoyang Zhou, Yifan Gong, Guowei Wang, Xiting Wang
 - **Published:** 2026-07-30
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2607.28077v2) · [PDF](https://arxiv.org/pdf/2607.28077v2)
@@ -810,14 +812,14 @@ Deciding whether a trajectory actually fulfills its instruction determines how w
 
 Test-time scaling through iterative self-evolution with environment feedback, as demonstrated by AlphaEvolve, shows remarkable performance gains. We hypothesize that the success of such evolution frameworks hinges on meta-skills, such as self-reflection with environment feedback, that enable effective multi-round refinement, yet are largely neglected by traditional post-training. To bridge this gap, we present MetaEvolve, a framework designed to develop these meta-skills via a data synthesis pipeline, evolution-aware reinforcement learning (RL), and inference-time evolutionary search. Concretely, we ground MetaEvolve in coding, where program execution provides natural, continuous reward signals beyond binary correctness. Building on these signals, we synthesize evolution trajectories as training data, each containing a current program, its fitness score (combining correctness and efficiency), and a history of prior attempts, and train the model via RL with verifiable rewards derived from test case execution. By training on large-scale code data, we aim to inspire generalizable domain-agnostic meta-skills that can transfer broadly to open-ended problems where such rich training signals are scarce. Across seven coding benchmarks, MetaEvolve outperforms the strongest baseline by 10.01% absolute on in-distribution tasks and 24.12% on out-of-distribution tasks. On open-ended algorithm optimization problems entirely outside the training domain, it further achieves a 46.9% relative improvement. These results demonstrate that explicitly cultivating self-evolution meta-skills offers a principled path toward more capable and autonomously self-evolving AI.
 
-### [AREX: Towards a Recursively Self-Improving Agent for Deep Research](https://arxiv.org/abs/2607.21461v3)
+### [Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills](https://arxiv.org/abs/2607.22529)
 
-- **Authors:** Shuqi Lu, Chaofan Li, Kun Luo, Zhang Zhang, Hui Wang, Hongwang Xiao, Lei Xiong, Jiahao Wang, Sen Wang, Xiyan Jiang, Wanli Li, Yuyang Hu, Hongjin Qian, Bingyu Yan, Jianlyu Chen, Ziyi Xia, Yingxia Shao, Kang Liu, Zhicheng Dou, Di He, Chaozhuo Li, Qiwei Ye, Zhongyuan Wang, Zheng Liu
-- **Published:** 2026-07-23
-- **Priority:** —
+- **Authors:** Huang, Siyuan, Cheng, Pengyu, Liu, Haotian, Chen, Tao, Liu, Yihao, Ni, Jingwei, Zhou, Shijie, Yang, Ziyi, Jiang, Gangwei, Zhou, Mengyu, Cheng, Yu, Jiang, Xiaoxi, Jiang, Guanjun
+- **Published:** 2026-07-24
+- **Priority:** ⭐ Popular code
 - **Venue:** arXiv.org
-- **Affiliations:** GSAI, Renmin University of China
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.21461v3) · [PDF](https://arxiv.org/pdf/2607.21461v3)
+- **Affiliations:** ETH Zurich
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2607.22529) · [PDF](https://arxiv.org/pdf/2607.22529) · [Code](https://github.com/Qwen-Applications/skill-self-play)
 
-Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks. This discovery--verification asymmetry suggests that a research agent should do more than simply search longer: it should recursively improve its current answer by verifying intermediate results and using the partially verified state to guide subsequent refinement. We introduce AREX, a family of Recursively Self-Improving (RSI) deep research agents. AREX alternates between an inner research loop that gathers evidence and constructs a provisional answer, and an outer self-improvement loop that audits the answer constraint-wise, identifies unresolved claims, and launches targeted follow-up research. To sustain RSI over long horizons, AREX learns an autonomous context-update tool that compresses growing interaction history into a compact improvement state preserving verified evidence and unresolved constraints, without relying on an external model. We train AREX on verified synthetic tasks and high-quality trajectories through agentic mid-training and long-horizon reinforcement learning. To mitigate sparse final rewards during long horizon learning, we emphasize key steps where decisive evidence is acquired or erroneous research directions are corrected. We instantiate a dense 4B model and a 122B-A10B Mixture-of-Experts model. Across BrowseComp, WideSearch, DeepSearchQA, Humanity's Last Exam (HLE), and other reasoning and tool-use benchmarks, AREX substantially outperforms comparable-scale baselines and remains competitive with models using substantially more activated parameters.
+LLM training is shifting from manual design and annotation to interaction-driven self-evolution. However, existing self-evolutionary methods face a fundamental dilemma between task diversity and verification reliability: environment-bound methods obtain precise feedback but confine learning to narrow domains, while open-ended self-generation broadens the task space but lacks reliable verification, allowing misleading rewards to pollute the training loop. We identify agent skills as a powerful middle ground to reconcile this tension: each skill ensures deep, verifiable execution in a specific scenario, while dynamic routing across skills maintains open-ended task variety. Leveraging this insight, we introduce Skill Self-Play (Skill-SP), a co-evolutionary framework comprising a proposer, a solver, and a dynamic skill controller. Orchestrated via a reinforcement learning loop, these components co-evolve in a continuous self-play loop: the proposer generates challenging tasks conditioned on dynamically sampled skills; the solver explores candidate solutions to push its capability boundaries; and the skill controller collects execution feedback to update and expand the skill library. This interactive co-evolution effectively bridges the gap between structured verification and open-ended exploration. Empirical evaluations on tool-use and reasoning benchmarks demonstrate that Skill-SP, serving as a robust evolution engine, consistently pushes the performance ceiling of competent backbones while catalyzing striking turnarounds for initially misaligned models. Our code is available at https://github.com/Qwen-Applications/skill-self-play.

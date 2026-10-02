@@ -1,11 +1,11 @@
-> **2650 papers** · Page 35/53 · Newest first across all pages
+> **2656 papers** · Page 35/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,8 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-07-14 | Agent Memory | [Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents](https://arxiv.org/abs/2607.12267) | — |
+| 2026-07-14 | Agent Memory | [Speculate with Memory: Lossless Acceleration for LLM Agents](https://arxiv.org/abs/2607.12236) | — |
 | 2026-07-13 | Reinforcement Learning | [Omni-Decision: Evidence-Ledger Planning for Omni-Modal Agents](https://arxiv.org/abs/2607.11433v3) | — |
 | 2026-07-13 | Agent/LLM Self-Improvement | [The Path to Self-Evolving Clinical Systems: Scaling Medical Agents from Assistance to Autonomy](https://arxiv.org/abs/2607.11175v2) | — |
 | 2026-07-13 | Agent/LLM Self-Improvement | [SymbOmni: Evolving Agentic Omni Models via Symbolic Concept Learning](https://arxiv.org/abs/2607.12042) | — |
@@ -33,7 +35,7 @@
 | 2026-07-10 | LLM Continual Training | [Taxonomy Maintenance In The Wild Over Evolving Scholarly Data: Reliability, Efficiency, and Cost-Effectiveness](https://arxiv.org/abs/2607.09149v2) | — |
 | 2026-07-10 | Agent Memory | [Memory-Conditioned Tool Calling for Camera-First Visual Agents](https://arxiv.org/abs/2607.09822) | — |
 | 2026-07-09 | Reinforcement Learning | [Prompt-Driven Exploration: Language as an Exploration Space for VLA Reinforcement Learning](https://arxiv.org/abs/2607.08837v4) | — |
-| 2026-07-09 | Agent Memory, Reinforcement Learning | [Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents](https://arxiv.org/abs/2607.08716) | — |
+| 2026-07-09 | Agent Memory, Reinforcement Learning | [Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents](https://arxiv.org/abs/2607.08716) | 📈 Highly cited |
 | 2026-07-09 | Agent Memory | [What to Keep, What to Forget: A Rate--Distortion View of Memory Compaction in LLMs and Agents](https://arxiv.org/abs/2607.08032) | — |
 | 2026-07-08 | Reinforcement Learning | [Length Penalties Make Chain-of-Thought Less Monitorable](https://arxiv.org/abs/2607.09786v4) | — |
 | 2026-07-08 | Agent/LLM Self-Improvement | [The Blind Curator: How a Biased Judge Silently Disables Skill Retirement in Self-Evolving Agents](https://arxiv.org/abs/2607.07436v2) | — |
@@ -61,8 +63,12 @@
 | 2026-07-02 | Reinforcement Learning | [Simulating Eutopia: Revisiting Long-term Fairness with Outcomes, Performativity, and Dynamics](https://arxiv.org/abs/2607.19389v2) | — |
 | 2026-07-02 | Agent Memory | [ContextSniper: AntTrail's Token-Efficient Code Memory for Repository-Level Program Repair](https://arxiv.org/abs/2607.01916v6) | — |
 | 2026-07-02 | Agent Memory | [A-TMA: Decoupling State-Aware Memory Failures in Long-Term Agent Memory](https://arxiv.org/abs/2607.01935) | — |
-| 2026-07-02 | Agent Memory | [AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.02255) | — |
-| 2026-07-02 | Agent/LLM Self-Improvement, Agent Memory | [COMFYCLAW: Self-Evolving Skill Harnesses for Image Generation Workflows](https://arxiv.org/abs/2607.01709) | — |
+
+## 🚨 Priority Watch
+
+| Paper | Signals | Venue / affiliation evidence |
+| --- | --- | --- |
+| [Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents](https://arxiv.org/abs/2607.08716) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -120,7 +126,7 @@ Recent VLM and VLA systems have improved robotic perception and action predictio
 - **Published:** 2026-07-08
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** School of Computer Science and Engineering, Nanyang Technological University, Singapore
 - **Categories:** cs.AI, cs.CL, cs.CR
 - **Links:** [Paper](https://arxiv.org/abs/2607.07436v2) · [PDF](https://arxiv.org/pdf/2607.07436v2)
 
@@ -162,19 +168,31 @@ The pursuit of self-evolving AI raises a critical question: when is autonomous s
 
 While current AI agents support increasingly long context windows, tool use, and skill execution for long-horizon tasks, they still require memory systems to effectively leverage historical experience. Existing memory frameworks typically rely on fixed storage, retrieval, and summarization mechanisms, which can be rigid across different tasks and often require manual tuning. To address this limitation, we propose SelfMem, a self-optimizing memory framework. Inspired by prior work on self-improving AI, we follow the principle of "teaching an agent to fish rather than giving it a fish." Instead of forcing the model to follow a predefined memory strategy or format, SelfMem provides an environment with memory tools and feedback signals that allow the agent to explore, evaluate, and refine its own memory strategy. Our results show that SelfMem consistently outperforms retrieval, compression, and agent-memory baselines on BEAM across conversation scales from 100K to 1M tokens. Compared with the strongest baseline, SelfMem improves the official score by 48.7%, 40.8%, and 41.9% at 100K, 500K, and 1M, respectively. Further question-type analysis shows broad robustness across diverse memory demands, and our optimization study shows that model-guided strategy refinement further improves performance.
 
-### [COMFYCLAW: Self-Evolving Skill Harnesses for Image Generation Workflows](https://arxiv.org/abs/2607.01709)
-
-- **Authors:** Li, Zongxia, Liu, Dawei, Liu, Fuxiao, Zhou, Yuhang, Wu, Xiyang, Chen, Jingxi, Xie, Jing, Wu, Xiaomin, Sun, Lichao
-- **Published:** 2026-07-02
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.01709) · [PDF](https://arxiv.org/pdf/2607.01709)
-
-Agents are increasingly used to construct workflows and assist humans in completing recurring tasks more efficiently. As these workflows become repeated and domain-specific, agent memory and reusable skills become increasingly important: agents should be able to recall workflow patterns, execution constraints, and user preferences from previous runs. We study this problem in workflow-based image generation and introduce COMFYCLAW, an agentic skill evolution harness for controlling ComfyUI workflows. COMFYCLAW formulates workflow construction as typed graph editing, exposes tools organized by construction stage, automatically reverts invalid edits, and uses a region-level vision-language model (VLM) verifier to translate visual failures into actionable repair suggestions. The framework further evolves a progressively disclosed skill library, where trajectories, execution errors, and verifier feedback from previous runs are distilled into reusable Agent Skills. Across four benchmark splits, three agent models, and two image backbones, COMFYCLAW achieves the best average image-generation evaluation score across all six agent configurations, outperforming a verifier-only baseline without skill evolution. Human annotations further show that annotators prefer COMFYCLAW over variants without skill evolution. Our results suggest that skill evolution is an effective mechanism for improving agent reliability and performance in recurring visual workflow construction.
-
 ## Agent Memory
+
+### [Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents](https://arxiv.org/abs/2607.12267)
+
+- **Authors:** Liu, Ning
+- **Published:** 2026-07-14
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2607.12267) · [PDF](https://arxiv.org/pdf/2607.12267)
+
+Language agents that interleave reasoning and tool use degrade sharply as reasoning chains lengthen, even when each individual step is easy. We trace this to context dilution: an agent's investigative state (what it has confirmed, what it suspects, and what it still needs) lives only implicitly in a growing context window, where early discoveries are buried under later retrievals. We introduce SLEUTH, which makes this state explicit and actionable through a structured epistemic working memory: the agent maintains Confirmed Facts grounded to sources, Active Hypotheses ranked by evidence, and Open Questions that directly drive its next action. Across five multi-hop benchmarks and five established baselines, SLEUTH's advantage grows with difficulty, from +5 points on HotpotQA to +11 on 4-hop chains, surpassing Reflexion without multiple episodes. Analyzing where the remaining gap lies, we identify the evidence sufficiency problem: agents often find the answer but fail to commit, exhausting their budget on needless verification. A lightweight commitment trigger fixes this, but only when the agent already maintains structured state: the identical trigger applied to an unstructured agent yields no improvement, isolating organized epistemic state as the necessary condition for effective commitment. Finally, enforcing protocol adherence on a weaker model recovers up to +19 points on the hardest problems, showing that how an agent organizes its reasoning, not raw model capability, is the active ingredient for scaling multi-hop reasoning.
+
+### [Speculate with Memory: Lossless Acceleration for LLM Agents](https://arxiv.org/abs/2607.12236)
+
+- **Authors:** Li, Yu, Ye, Qinyuan, Choubey, Prafulla Kumar, Zhang, Jiaxin, Wu, Chien-Sheng
+- **Published:** 2026-07-14
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** Texas A&M Univeristy, University of Southern California
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2607.12236) · [PDF](https://arxiv.org/pdf/2607.12236)
+
+Speculative execution accelerates LLM agents by using a smaller, cheaper model to predict and pre-launch the next step while the environment is idle. However, existing speculators are stateless and discard all information between tasks, preventing prediction quality from improving with experience. We equip the speculator with three online memory systems that learn from past agent trajectories: a contrastive transition table tracking action-sequence statistics, an episodic memory retrieving contextually similar segments, and a confusion tracker suppressing recurring errors. We evaluate this approach on six benchmarks spanning three speculation types: action prediction, observation prediction, and chained prediction. Memory-augmented speculation yields a 19--39\% relative accuracy improvement on action prediction and up to a $2.5\times$ increase on observation prediction tasks with repetitive action spaces. These gains grow continuously as memory accumulates and generalize across speculator models of varying cost. All speculation is lossless because it runs during idle time at zero added wall-clock cost, and the actor's trajectory is identical to non-speculative execution.
 
 ### [Heterogeneous Agent Cohorts for Safe Open-Ended Exploration with Runtime Constraint Memory](https://arxiv.org/abs/2607.11226)
 
@@ -264,7 +282,7 @@ Recognition tells an agent what is in an image; personal memory affects what is 
 
 - **Authors:** Wu, Yifan, Zhang, Lizhu, Zhou, Yuhang, Wang, Mingyi, Peng, Bo, Li, Serena, Fan, Xiangjun, Zhao, Zhuokai
 - **Published:** 2026-07-09
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
@@ -302,7 +320,7 @@ Large language models (LLMs) demonstrate remarkable reasoning capabilities, yet 
 - **Published:** 2026-07-08
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** UNSW Sydney
 - **Categories:** cs.IR
 - **Links:** [Paper](https://arxiv.org/abs/2607.07108) · [PDF](https://arxiv.org/pdf/2607.07108)
 
@@ -374,7 +392,7 @@ Persistent personal agents combine long-term memory with access to users' extern
 - **Published:** 2026-07-06
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** Pennsylvania State University
 - **Categories:** cs.CR
 - **Links:** [Paper](https://arxiv.org/abs/2607.05029) · [PDF](https://arxiv.org/pdf/2607.05029)
 
@@ -464,30 +482,6 @@ Large language model agents can repair real repository issues, but they often sp
 
 Long term memory lets LLM agents act as persistent assistants, but user facts change. A useful memory system must know what is true now, what used to be true, and what changed. We study \emph{ghost memory}, a state coordination failure in which old, current, and transition facts coexist in the memory bank, remain mixed during retrieval, and mislead the answer model. We argue that memory systems should be understood and optimized from three levels: bank maintenance, retrieval, and answer time resolution. We propose ATMA, a state aware overlay for existing memory systems. ATMA keeps superseded and transition records in the bank, builds evidence packets for the query's requested state view, and exposes current, historical, and transition labels to QA. We further call for decoupled evaluation of bank, retrieval, and answer level failures, since final QA accuracy can hide where ghost memory occurs. To make this failure measurable, we build LTP (LoCoMo Temporal Plus), a conflict heavy benchmark for ghost memory, and evaluate on LoCoMo for long conversation generalization. On LTP, Graphiti+ATMA improves conflict accuracy by 0.240 absolute over Graphiti. On LoCoMo, Graphiti+ATMA raises temporal F1 from 0.0295 to 0.1705. The gains are host dependent, but they indicate that explicit state roles can reduce memory failures hidden by final QA accuracy.
 
-### [AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.02255)
-
-- **Authors:** Cheng, Xiangchen, Jiang, Yunwei, Sun, Jianwen, Li, Zizhen, Li, Chuanhao, Cao, Xiangcheng, Liu, Yihao, Zhang, Fanrui, Jin, Li, Zhang, Kaipeng
-- **Published:** 2026-07-02
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.02255) · [PDF](https://arxiv.org/pdf/2607.02255)
-
-Memory for a long-horizon LLM agent is a contract about what each future decision is allowed to see. The simplest contract appends past observations, tool calls, and reflections to every prompt, which makes prior context easy to access but also turns it into a jumbled mixture in which the effect of any single memory component is hard to isolate. We introduce and instrument an alternative bounded contract: every decision is made from a fresh user message assembled by typed retrieval, with no raw cross-decision transcript appended. The prompt thus stays bounded across runs of any length, and any single layer can be ablated in isolation. We instantiate the contract in Slay the Spire 2, a closed-rule stochastic deck-building game whose runs require hundreds of tactical and strategic decisions. A public online benchmark of frontier LLMs on the same game reports zero wins at the lowest difficulty across five configurations, and the developer-reported human win rate at the same difficulty is 16%; the task is hard but not saturated. Within our harness, a fixed-A0 ablation shows the largest observed difference when triggered strategic skills are enabled: the no-store baseline wins 3/10 games and adding the skill layer 6/10. At this sample size the comparison is directional rather than statistically decisive (Fisher exact p\approx0.37); a cross-backbone probe and public accumulating-context baselines are reported as operational comparisons rather than controlled tests of the contract variable itself. We release a reproducible testbed: 298 completed trajectories with condition tags, frozen memory/skill snapshots, prompt records, and analysis scripts -- an agent design and a validated, reusable methodology for studying how explicit memory layers shape long-horizon LLM-agent decisions.
-
-### [COMFYCLAW: Self-Evolving Skill Harnesses for Image Generation Workflows](https://arxiv.org/abs/2607.01709)
-
-- **Authors:** Li, Zongxia, Liu, Dawei, Liu, Fuxiao, Zhou, Yuhang, Wu, Xiyang, Chen, Jingxi, Xie, Jing, Wu, Xiaomin, Sun, Lichao
-- **Published:** 2026-07-02
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.01709) · [PDF](https://arxiv.org/pdf/2607.01709)
-
-Agents are increasingly used to construct workflows and assist humans in completing recurring tasks more efficiently. As these workflows become repeated and domain-specific, agent memory and reusable skills become increasingly important: agents should be able to recall workflow patterns, execution constraints, and user preferences from previous runs. We study this problem in workflow-based image generation and introduce COMFYCLAW, an agentic skill evolution harness for controlling ComfyUI workflows. COMFYCLAW formulates workflow construction as typed graph editing, exposes tools organized by construction stage, automatically reverts invalid edits, and uses a region-level vision-language model (VLM) verifier to translate visual failures into actionable repair suggestions. The framework further evolves a progressively disclosed skill library, where trajectories, execution errors, and verifier feedback from previous runs are distilled into reusable Agent Skills. Across four benchmark splits, three agent models, and two image backbones, COMFYCLAW achieves the best average image-generation evaluation score across all six agent configurations, outperforming a verifier-only baseline without skill evolution. Human annotations further show that annotators prefer COMFYCLAW over variants without skill evolution. Our results suggest that skill evolution is an effective mechanism for improving agent reliability and performance in recurring visual workflow construction.
-
 ## LLM Continual Training & Continual Learning
 
 ### [CHASE: Cache-Hole-Adapted Skip Exit for Looped State-Space Language Models](https://arxiv.org/abs/2607.10110v2)
@@ -519,7 +513,7 @@ Recent VLM and VLA systems have improved robotic perception and action predictio
 - **Authors:** Daomin Ji, Hui Luo, Zhifeng Bao, Junhao Gan, Zi Huang
 - **Published:** 2026-07-10
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** Proceedings of the ACM on Management of Data
 - **Affiliations:** n/a
 - **Categories:** cs.DB
 - **Links:** [Paper](https://arxiv.org/abs/2607.09149v2) · [PDF](https://arxiv.org/pdf/2607.09149v2)
@@ -581,7 +575,7 @@ Omni-modal agents must seek evidence across video, audio, web pages, and computa
 - **Authors:** Israel Abiala, Yuanrui Sang, Rachel Gerdes
 - **Published:** 2026-07-12
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** eess.SY
 - **Links:** [Paper](https://arxiv.org/abs/2607.10948v2) · [PDF](https://arxiv.org/pdf/2607.10948v2)
@@ -664,7 +658,7 @@ Exploration is essential to RL since a policy cannot improve by repeatedly sampl
 
 - **Authors:** Wu, Yifan, Zhang, Lizhu, Zhou, Yuhang, Wang, Mingyi, Peng, Bo, Li, Serena, Fan, Xiangjun, Zhao, Zhuokai
 - **Published:** 2026-07-09
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI

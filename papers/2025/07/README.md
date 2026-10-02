@@ -6,7 +6,7 @@
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 2025-07-29 | Reinforcement Learning | [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v2)<br>[PDF](https://arxiv.org/pdf/2507.21931v2) | arXiv | — | — |
+| 2025-07-29 | Reinforcement Learning | [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v2)<br>[PDF](https://arxiv.org/pdf/2507.21931v2) | arXiv.org | 📈 Highly cited | Citations: 13 (Semantic Scholar) |
 | 2025-07-29 | Reinforcement Learning | [On Policy Stochasticity in Mutual Information Optimal Control of Linear Systems](https://arxiv.org/abs/2507.21543v3)<br>[PDF](https://arxiv.org/pdf/2507.21543v3) | arXiv.org | — | Citations: 1 (Semantic Scholar) |
 
 ## Notes

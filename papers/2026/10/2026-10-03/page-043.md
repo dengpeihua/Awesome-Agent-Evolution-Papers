@@ -1,11 +1,11 @@
-> **2650 papers** · Page 43/53 · Newest first across all pages
+> **2656 papers** · Page 43/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,10 +13,13 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-05-07 | Reinforcement Learning | [How Deep Can LLMs Learn to Reason? Expressiveness Is Key](https://arxiv.org/abs/2605.06638v4) | — |
+| 2026-05-07 | Reinforcement Learning | [Skip What You Can Predict: Predictive Repositioning for Policy Optimization for Efficient LLM Training](https://arxiv.org/abs/2605.06755v2) | — |
+| 2026-05-07 | Reinforcement Learning | [One Turn Too Late: Learning When to Intervene Against Multi-Turn Malicious Intent](https://arxiv.org/abs/2605.05630v3) | — |
 | 2026-05-07 | Agent/LLM Self-Improvement, Agent Memory | [SafeHarbor: Defining Precise Decision Boundaries via Hierarchical Memory-Augmented Guardrail for LLM Agent Safety](https://arxiv.org/abs/2605.05704) | — |
 | 2026-05-07 | Agent Memory | [MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval](https://arxiv.org/abs/2605.06132) | — |
 | 2026-05-07 | Agent Memory | [Belief Memory: Agent Memory Under Partial Observability](https://arxiv.org/abs/2605.05583) | — |
-| 2026-05-07 | Agent Memory, LLM Continual Training | [From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms](https://arxiv.org/abs/2605.06716) | — |
+| 2026-05-07 | Agent Memory, LLM Continual Training | [From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms](https://arxiv.org/abs/2605.06716) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-05-06 | Reinforcement Learning | [Two-Stage Learned Decomposition for Scalable Routing on Multigraphs](https://arxiv.org/abs/2605.05389v2) | — |
 | 2026-05-06 | Reinforcement Learning | [BALAR : A Bayesian Agentic Loop for Active Reasoning](https://arxiv.org/abs/2605.05386v2) | — |
 | 2026-05-06 | LLM Continual Training | [Skill Neologisms: Towards Skill-based Continual Learning](https://arxiv.org/abs/2605.04970v3) | — |
@@ -42,9 +45,9 @@
 | 2026-05-03 | Agent Memory | [GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory](https://arxiv.org/abs/2605.01688) | — |
 | 2026-05-02 | Reinforcement Learning | [CoFlow: Coordinated Few-Step Flow for Offline Multi-Agent Decision Making](https://arxiv.org/abs/2605.01457v4) | — |
 | 2026-05-02 | LLM Continual Training | [Valley3: Scaling Omni Foundation Models for E-commerce](https://arxiv.org/abs/2605.01278v3) | — |
-| 2026-05-02 | Agent Memory | [MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents](https://arxiv.org/abs/2605.01386) | — |
+| 2026-05-02 | Agent Memory | [MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents](https://arxiv.org/abs/2605.01386) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-05-01 | Reinforcement Learning | [Topology-Driven Anti-Entanglement Control for Soft Robots](https://arxiv.org/abs/2605.05236v2) | — |
-| 2026-05-01 | Reinforcement Learning | [Learning While Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies](https://arxiv.org/abs/2605.00416v4) | — |
+| 2026-05-01 | Reinforcement Learning | [Learning While Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies](https://arxiv.org/abs/2605.00416v4) | 📈 Highly cited |
 | 2026-05-01 | Reinforcement Learning | [PrefMoE: Robust Preference Modeling with Mixture-of-Experts Reward Learning](https://arxiv.org/abs/2605.00384v3) | — |
 | 2026-04-30 | Reinforcement Learning | [Global Optimality for Constrained Exploration via Penalty Regularization](https://arxiv.org/abs/2604.28144v2) | — |
 | 2026-04-30 | Agent Memory | [From Unstructured Recall to Schema-Grounded Memory: Reliable AI Memory via Iterative, Schema-Aware Extraction](https://arxiv.org/abs/2604.27906v3) | — |
@@ -53,23 +56,24 @@
 | 2026-04-29 | Agent Memory | [Hierarchical Long-Term Semantic Memory for LinkedIn's Hiring Agent](https://arxiv.org/abs/2604.26197) | — |
 | 2026-04-29 | Agent Memory | [Detecting Clinical Discrepancies in Health Coaching Agents: A Dual-Stream Memory and Reconciliation Architecture](https://arxiv.org/abs/2604.27045) | — |
 | 2026-04-29 | Agent Memory, LLM Continual Training | [When Continual Learning Moves to Memory: A Study of Experience Reuse in LLM Agents](https://arxiv.org/abs/2604.27003) | — |
-| 2026-04-29 | Agent Memory | [OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory](https://arxiv.org/abs/2604.26622) | — |
+| 2026-04-29 | Agent Memory | [OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory](https://arxiv.org/abs/2604.26622) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-28 | Reinforcement Learning | [Model-Aware Data Cleaning for Tabular Foundation Models](https://arxiv.org/abs/2604.25154v2) | — |
 | 2026-04-27 | Reinforcement Learning | [Compute Aligned Training: Optimizing for Test Time Inference](https://arxiv.org/abs/2604.24957v3) | — |
 | 2026-04-27 | Reinforcement Learning | [An Analysis of the Coordination Gap between Joint and Modular Learning for Job Shop Scheduling with Transportation Resources](https://arxiv.org/abs/2604.24117v3) | — |
 | 2026-04-26 | Reinforcement Learning | [Unleashing the Agility of Wheeled-Legged Robots for High-Dynamic Reflexive Obstacle Evasion](https://arxiv.org/abs/2604.23761v2) | — |
-| 2026-04-26 | Agent Memory, Reinforcement Learning | [GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs](https://arxiv.org/abs/2604.23626) | — |
+| 2026-04-26 | Agent Memory, Reinforcement Learning | [GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs](https://arxiv.org/abs/2604.23626) | 📈 Highly cited |
 | 2026-04-24 | Reinforcement Learning | [Learning Evidence Highlighting for Frozen LLMs](https://arxiv.org/abs/2604.22565v3) | — |
-| 2026-04-24 | Reinforcement Learning | [Learning Control Policies to Provably Satisfy Hard Affine Constraints for Black-Box Hybrid Dynamical Systems](https://arxiv.org/abs/2604.22244v2) | — |
-| 2026-04-24 | Agent Memory | [ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents](https://arxiv.org/abs/2604.23069) | — |
-| 2026-04-23 | Reinforcement Learning | [Replay-buffer engineering for noise-aware quantum circuit optimization](https://arxiv.org/abs/2604.21863v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms](https://arxiv.org/abs/2605.06716) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>Hong Kong Baptist University, National University of Singapore |
 | [Trojan Hippo Bench: A Dynamic Benchmark for Persistent Memory Attacks and Defenses in LLM Agents](https://arxiv.org/abs/2605.01970v4) | 📈 Highly cited | ETH Zürich |
-| [Replay-buffer engineering for noise-aware quantum circuit optimization](https://arxiv.org/abs/2604.21863v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted at NeurIPS 2026 main track. Camera ready version |
+| [MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents](https://arxiv.org/abs/2605.01386) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [Learning While Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies](https://arxiv.org/abs/2605.00416v4) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory](https://arxiv.org/abs/2604.26622) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs](https://arxiv.org/abs/2604.23626) | 📈 Highly cited | Nanyang Technological University |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -128,7 +132,7 @@ Recent advances in foundation models have transformed LLMs from passive conversa
 - **Authors:** Li, Chunyu, Zhang, Mengyuan, Kang, Jingyi, Chen, Ding, Shen, Jiajun, Tang, Bo, Zhou, Xuanhe, Xiong, Feiyu, Li, Zhiyu
 - **Published:** 2026-05-07
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.06132) · [PDF](https://arxiv.org/pdf/2605.06132)
@@ -140,7 +144,7 @@ In agent memory systems, the reranking model serves as the critical bridge conne
 - **Authors:** Liao, Junfeng, Wang, Qizhou, Zhu, Jianing, Du, Bo, Yan, Rui, Chen, Xiuying
 - **Published:** 2026-05-07
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.05583) · [PDF](https://arxiv.org/pdf/2605.05583)
@@ -151,9 +155,9 @@ LLM agents that operate over long context depend on external memory to accumulat
 
 - **Authors:** Luo, Jinghao, Tian, Yuchen, Cao, Chuxue, Luo, Ziyang, Lin, Hongzhan, Li, Kaixin, Kong, Chuyi, Yang, Ruichao, Ma, Jing
 - **Published:** 2026-05-07
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** Hong Kong Baptist University, National University of Singapore
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.06716) · [PDF](https://arxiv.org/pdf/2605.06716)
 
@@ -164,7 +168,7 @@ Large Language Model (LLM)-based agents have fundamentally reshaped artificial i
 - **Authors:** Adler, Joshua, Zehavi, Guy
 - **Published:** 2026-05-06
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.04897) · [PDF](https://arxiv.org/pdf/2605.04897)
@@ -176,7 +180,7 @@ Extraction at ingestion is the wrong primitive for agent memory: content discard
 - **Authors:** Mao, Marina, Liu, Alexandr, Li, Pengbo, Li, Siheng, Zhou, Bo, Wang, Xiang
 - **Published:** 2026-05-06
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.MA
 - **Links:** [Paper](https://arxiv.org/abs/2605.04811) · [PDF](https://arxiv.org/pdf/2605.04811)
@@ -200,7 +204,7 @@ Agent memory failures are silent: an LLM-based agent can produce a fluent respon
 - **Authors:** Chang, Jiale, Ren, Yuxiang
 - **Published:** 2026-05-05
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.03804) · [PDF](https://arxiv.org/pdf/2605.03804)
@@ -212,7 +216,7 @@ Long-term personalized memory for LLM agents is challenging on resource-limited 
 - **Authors:** Sidik, Bronislav, Rokach, Lior
 - **Published:** 2026-05-05
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.03675) · [PDF](https://arxiv.org/pdf/2605.03675)
@@ -224,8 +228,8 @@ Long-running autonomous AI agents suffer from a well-documented memory coherence
 - **Authors:** Gowda, Ishrith
 - **Published:** 2026-05-05
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** University of California, Berkeley
 - **Categories:** cs.CR
 - **Links:** [Paper](https://arxiv.org/abs/2605.03482) · [PDF](https://arxiv.org/pdf/2605.03482)
 
@@ -236,7 +240,7 @@ Persistent external memory enables LLM agents to maintain context across session
 - **Authors:** Chen, Jiayi, Li, Yingcong, Wang, Guiling
 - **Published:** 2026-05-05
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.MA
 - **Links:** [Paper](https://arxiv.org/abs/2605.03312) · [PDF](https://arxiv.org/pdf/2605.03312)
@@ -272,7 +276,7 @@ Memory systems enable otherwise stateless LLM agents to persist user information
 - **Authors:** Sun, Yushi, Cao, Bowen, Fang, Dong, Su, Lingfeng, Lam, Wai
 - **Published:** 2026-05-03
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.01688) · [PDF](https://arxiv.org/pdf/2605.01688)
@@ -283,8 +287,8 @@ Long-horizon conversational agents rely on memory systems with increasingly soph
 
 - **Authors:** Van, Hung Pham, Hieu, Nguyen Manh, Tuan, Khang Pham Tran, Hai, Nam Le, Van, Linh Ngo, Diep, Nguyen Thi Ngoc, Le, Trung
 - **Published:** 2026-05-02
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.01386) · [PDF](https://arxiv.org/pdf/2605.01386)
@@ -308,7 +312,7 @@ Persistent AI memory is often reduced to a retrieval problem: store prior intera
 - **Authors:** Iscan, Mehmet
 - **Published:** 2026-04-30
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2604.27283) · [PDF](https://arxiv.org/pdf/2604.27283)
@@ -320,7 +324,7 @@ Large language model (LLM)-based coding agents increasingly rely on external mem
 - **Authors:** Xu, Zhentao, Zhang, Shangjin, Poyraz, Emir, Li, Yvonne, Jin, Ye, Lu, Xie, Gu, Xiaoyang, Ramgopal, Karthik, Bodigutla, Praveen Kumar, Wang, Xiaofeng
 - **Published:** 2026-04-29
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2
 - **Affiliations:** n/a
 - **Categories:** cs.IR
 - **Links:** [Paper](https://arxiv.org/abs/2604.26197) · [PDF](https://arxiv.org/pdf/2604.26197)
@@ -332,7 +336,7 @@ Large Language Model (LLM) agents are increasingly used in real-world products, 
 - **Authors:** Pugh, Samuel L, Yang, Eric, Sutherland, Alexander Muir, Breschi, Alessandra
 - **Published:** 2026-04-29
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2604.27045) · [PDF](https://arxiv.org/pdf/2604.27045)
@@ -344,7 +348,7 @@ As Large Language Model (LLM) agents transition from single-session tools to per
 - **Authors:** Hu, Qisheng, Long, Quanyu, Wang, Wenya
 - **Published:** 2026-04-29
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2604.27003) · [PDF](https://arxiv.org/pdf/2604.27003)
@@ -355,8 +359,8 @@ Memory-augmented LLM agents offer an appealing shortcut to continual learning: r
 
 - **Authors:** Li, Jinze, Zhang, Yang, Yang, Xin, Qu, Jiayi, Xu, Jinfeng, Yang, Shuo, Ding, Junhua, Ngai, Edith Cheuk-Han
 - **Published:** 2026-04-29
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2604.26622) · [PDF](https://arxiv.org/pdf/2604.26622)
@@ -367,25 +371,13 @@ Autonomous LLM agents increasingly operate in long-horizon, interactive settings
 
 - **Authors:** Feng, Tao, Zhang, Haozhen, Lei, Zijie, Han, Peixuan, You, Jiaxuan
 - **Published:** 2026-04-26
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** Nanyang Technological University
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2604.23626) · [PDF](https://arxiv.org/pdf/2604.23626) · [Code](https://github.com/ulab-uiuc/GraphPlanner)
 
 LLM routing has achieved promising results in integrating the strengths of diverse models while balancing efficiency and performance. However, to support more realistic and challenging applications, routing must extend into agentic LLM settings, where task planning, multi-round cooperation among heterogeneous agents, and memory utilization are indispensable. To address this gap, we propose GraphPlanner, a heterogeneous graph memory-augmented agentic router for multi-agent LLMs that generates routing workflows for each query and supports both inductive and transductive inference. GraphPlanner formulates workflow generation as a Markov Decision Process (MDP), where at each step it selects both the LLM backbone and the agent role, including Planner, Executor, and Summarizer. By leveraging a heterogeneous graph, denoted as GARNet, to capture interaction memories among queries, agents, and responses, GraphPlanner integrates historical memory and workflow memory into richer state representations. The entire pipeline is optimized with reinforcement learning, jointly improving task-specific performance and computational efficiency. We evaluate GraphPlanner across 14 diverse LLM tasks and demonstrate that: (1) GraphPlanner outperforms strong single-round and multi-round routers, improving accuracy by up to 9.3% while reducing GPU cost from 186.26 GiB to 1.04 GiB; (2) GraphPlanner generalizes robustly to unseen tasks and LLMs, exhibiting strong zero-shot capabilities; and (3) GraphPlanner effectively leverages historical memories, supporting both inductive and transductive inference for more adaptive routing. Our code for GraphPlanner is released at https://github.com/ulab-uiuc/GraphPlanner.
-
-### [ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents](https://arxiv.org/abs/2604.23069)
-
-- **Authors:** Wu, Yating, Zhang, Yuhao, Ghosh, Sayan, Basu, Sourya, Deoras, Anoop, Huan, Jun, Gupta, Gaurav
-- **Published:** 2026-04-24
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2604.23069) · [PDF](https://arxiv.org/pdf/2604.23069)
-
-Large language model (LLM) agents often struggle in long-context interactions. As the agent accumulates more interaction history, context management approaches such as sliding window and prompt compression may omit earlier structured information that later steps rely on. Recent retrieval-based memory systems surface relevant content but still overlook the causal and logical structure needed for multi-step reasoning. We introduce ContextWeaver, a selective and dependency-structured memory framework that organizes an agent's interaction trace into a graph of reasoning steps and selects the relevant context for future actions. Unlike prior context management approaches, ContextWeaver supports: (1) dependency-based construction and traversal that link each step to the earlier steps it relies on; (2) compact dependency summarization that condenses root-to-step reasoning paths into reusable units; and (3) a lightweight validation layer that incorporates execution feedback. On the SWE-Bench Verified and Lite benchmarks, ContextWeaver improves performance over a sliding-window baseline in pass@1, while reducing reasoning steps and token usage. Our observations suggest that modeling logical dependencies provides a stable and scalable memory mechanism for LLM agents that use tools.
 
 ## LLM Continual Training & Continual Learning
 
@@ -393,9 +385,9 @@ Large language model (LLM) agents often struggle in long-context interactions. A
 
 - **Authors:** Luo, Jinghao, Tian, Yuchen, Cao, Chuxue, Luo, Ziyang, Lin, Hongzhan, Li, Kaixin, Kong, Chuyi, Yang, Ruichao, Ma, Jing
 - **Published:** 2026-05-07
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** Hong Kong Baptist University, National University of Singapore
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.06716) · [PDF](https://arxiv.org/pdf/2605.06716)
 
@@ -418,8 +410,8 @@ Modern LLMs show mastery over an ever-growing range of skills, as well as the ab
 - **Authors:** Guo, Siyuan, Du, Yali, Chen, Hechang, Chang, Yi, Wang, Jun
 - **Published:** 2026-05-05
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** Jilin Univerisity
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.06702) · [PDF](https://arxiv.org/pdf/2605.06702)
 
@@ -442,7 +434,7 @@ Adaptive optimizers such as Adam and non-adaptive methods like SGD exhibit disti
 - **Authors:** Zeyu Chen, Guanghao Zhou, Min Yang, Qixiang Yin, Ziwang Zhao, Huanjin Yao, Pengjiu Xia, Cen Chen, Minghui Qiu
 - **Published:** 2026-05-02
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.01278v3) · [PDF](https://arxiv.org/pdf/2605.01278v3)
@@ -454,7 +446,7 @@ In this work, we present Valley3, an omni multimodal large language model (MLLM)
 - **Authors:** Hu, Qisheng, Long, Quanyu, Wang, Wenya
 - **Published:** 2026-04-29
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2604.27003) · [PDF](https://arxiv.org/pdf/2604.27003)
@@ -462,6 +454,42 @@ In this work, we present Valley3, an omni multimodal large language model (MLLM)
 Memory-augmented LLM agents offer an appealing shortcut to continual learning: rather than updating model parameters, they accumulate experience in external memory, seemingly sidestepping the stability-plasticity dilemma of parametric learning. We show that this challenge does not disappear but resurfaces at the memory level. Under a limited context window, old and new experiences compete during retrieval, relocating the continual-learning bottleneck from parameter updates to memory access. To study this phenomenon, we introduce a (k,v) framework that disentangles two fundamental design axes of external memory: how experience is represented and how it is organized for retrieval. Across sequential-task experiments in ALFWorld and BabyAI, we find that abstract procedural memories transfer more reliably than detailed trajectories, while negative transfer disproportionately harms the hard cases. Moreover, finer-grained memory organization is not universally beneficial: designs that yield strong forward transfer can simultaneously induce severe forgetting. Together, these results reveal that external memory does not resolve the continual-learning problem; it reshapes it into a problem of memory representation and retrieval design.
 
 ## Reinforcement Learning
+
+### [How Deep Can LLMs Learn to Reason? Expressiveness Is Key](https://arxiv.org/abs/2605.06638v4)
+
+- **Authors:** Tianle Wang, Zhaoyang Wang, Guangchen Lan, Xinpeng Wei, Sipeng Zhang, Guanwen Qiu, Abulhair Saparov
+- **Published:** 2026-05-07
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** New York University, Purdue University
+- **Categories:** cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2605.06638v4) · [PDF](https://arxiv.org/pdf/2605.06638v4)
+
+Reinforcement learning (RL) has been applied to improve large language model (LLM) reasoning, yet the systematic study of how training scales with task difficulty has been hampered by the lack of controlled, scalable environments. Observed LLM shortcomings in long-horizon reasoning have raised the prospect that they are fundamental to the autoregressive transformer architecture. To address this, we introduce ScaleLogic, a synthetic logical reasoning framework that offers independent control over two axes of difficulty: the depth of the required proof planning (i.e., the horizon) and the expressiveness of the underlying formal system. Our proposed framework supports a wide range of logics: from simple implication-only logic ("if-then") towards more expressive first-order reasoning with conjunction (''and''), disjunction (''or''), negation (''not''), and universal quantification ("for all"). Using this framework, we show that the RL training compute $T$ follows a power law with respect to reasoning depth $D$ ($T \propto D^γ$, $R^{2} > 0.99$), and the scaling exponent $γ$ increases monotonically with expressiveness, from $1.05$ to $2.60$. On downstream mathematics and general reasoning benchmarks, more expressive training settings yield both larger performance gains (up to $+10.66$ points) and more compute-efficient transfer compared to less expressive settings, demonstrating that what a model is trained on, not just how much it is trained, shapes downstream transfer. We further show that the power-law relationship holds across multiple RL methods, and curriculum-based training substantially improves scaling efficiency. More broadly, our results suggest that LLM shortcomings in long-horizon reasoning are not fundamental to the underlying architecture, and could be addressed by improved training methodology and data.
+
+### [Skip What You Can Predict: Predictive Repositioning for Policy Optimization for Efficient LLM Training](https://arxiv.org/abs/2605.06755v2)
+
+- **Authors:** Ismam Nur Swapnil, Aranya Saha, Tasneea Zahra, Tanvir Ahmed Khan, Mohammad Ariful Haque, Ser-Nam Lim
+- **Published:** 2026-05-07
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2605.06755v2) · [PDF](https://arxiv.org/pdf/2605.06755v2)
+
+Reinforcement learning with verifiable rewards (RLVR) can improve the reasoning ability of large language models, but repeatedly updating a policy on the same rollout batch is expensive: every additional update requires another backward pass, and multi-step methods pay for all intermediate optimization steps. We introduce Predictive Repositioning for Policy Optimization (PrePO), which uses two observed optimizer transitions to estimate a farther point along the same-batch optimization trajectory, moves partway toward that point, evaluates the original objective there, and applies a corrective update. This gives PrePO a fixed active cost that does not grow with the virtual optimization depth. Our analysis gives finite-horizon error bounds for AdamW and Muon and shows that sufficiently accurate endpoint estimates preserve the usual descent and convergence behavior of smooth gradient descent. In RLVR experiments, PrePO reaches matched performance targets in fewer optimization steps and lower wall-clock time than the corresponding baselines. We further evaluate the same update mechanism in supervised fine-tuning on a different dataset, showing that its use is not restricted to the original RLVR setting. Together, these results suggest that PrePO provides a practical mechanism for approximating repeated same-batch optimization while avoiding the cost of explicitly executing every intermediate update.
+
+### [One Turn Too Late: Learning When to Intervene Against Multi-Turn Malicious Intent](https://arxiv.org/abs/2605.05630v3)
+
+- **Authors:** Xinjie Shen, Rongzhe Wei, Peizhi Niu, Haoyu Wang, Ruihan Wu, Eli Chien, Bo Li, Pin-Yu Chen, Pan Li
+- **Published:** 2026-05-07
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CL, cs.AI, cs.CR
+- **Links:** [Paper](https://arxiv.org/abs/2605.05630v3) · [PDF](https://arxiv.org/pdf/2605.05630v3)
+
+Hidden malicious intent in multi-turn dialogue poses a growing threat to deployed large language models (LLMs). Rather than exposing a harmful objective in a single prompt, attackers can distribute their intent across multiple benign-looking turns, making defense a problem not only of whether a dialogue is harmful, but also of when intervention becomes necessary. Existing trace-level labeling approaches provide only coarse safety signals and do not identify this intervention boundary, making it difficult to distinguish timely intervention from premature refusal or a block that comes too late. This work introduces turn-level harm-enabling supervision for multi-turn defense. We define the earliest harm-enabling turn as the first point at which delivering a candidate response would make the accumulated interaction sufficient to enable harmful action. To instantiate this supervision at scale, we construct the Multi-Turn Intent Dataset (MTID), which contains adaptive attack rollouts, matched benign hard negatives, and annotations of this boundary. Using MTID, we train TurnGate, a response-aware monitor that learns when to intervene, and further optimize its policy through multi-turn reinforcement learning. Experiments show that turn-level boundary supervision improves intervention localization, while reinforcement learning further improves the safety--utility trade-off. TurnGate outperforms existing guardrails and multi-turn monitoring baselines, and generalizes across risk domains, attacker pipelines, and target models. Our code is available at https://github.com/Graph-COM/TurnGate.
 
 ### [Two-Stage Learned Decomposition for Scalable Routing on Multigraphs](https://arxiv.org/abs/2605.05389v2)
 
@@ -599,8 +627,8 @@ In the field of precision manufacturing in complex constrained environments, the
 
 - **Authors:** Yi Wang, Xinchen Li, Pengwei Xie, Pu Yang, Buqing Nie, Yunuo Cai, Qinglin Zhang, Chendi Qu, Jeffrey Wu, Jianheng Song, Xinlin Ren, Jingshun Huang, Mingjie Pan, Siyuan Feng, Zhi Chen, Jianlan Luo
 - **Published:** 2026-05-01
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.RO
 - **Links:** [Paper](https://arxiv.org/abs/2605.00416v4) · [PDF](https://arxiv.org/pdf/2605.00416v4)
@@ -683,9 +711,9 @@ Wheeled-legged robots combine the efficiency of rolling with the adaptability of
 
 - **Authors:** Feng, Tao, Zhang, Haozhen, Lei, Zijie, Han, Peixuan, You, Jiaxuan
 - **Published:** 2026-04-26
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** Nanyang Technological University
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2604.23626) · [PDF](https://arxiv.org/pdf/2604.23626) · [Code](https://github.com/ulab-uiuc/GraphPlanner)
 
@@ -702,27 +730,3 @@ LLM routing has achieved promising results in integrating the strengths of diver
 - **Links:** [Paper](https://arxiv.org/abs/2604.22565v3) · [PDF](https://arxiv.org/pdf/2604.22565v3)
 
 Large Language Models (LLMs) can reason well, yet often miss decisive evidence when it is buried in long, noisy contexts. We introduce HiLight, an Evidence Emphasis framework that decouples evidence selection from reasoning for frozen LLM solvers. HiLight avoids compressing or rewriting the input, which can discard or distort evidence, by training a lightweight Emphasis Actor to insert minimal highlight tags around pivotal spans in the unaltered context. A frozen Solver then performs downstream reasoning on the emphasized input. We cast highlighting as a weakly supervised decision-making problem and optimize the Actor with reinforcement learning using only the Solver's task reward, requiring no evidence labels and no access to or modification of the Solver. Across sequential recommendation and long-context question answering, HiLight consistently improves performance over strong prompt-based and automated prompt-optimization baselines. The learned emphasis policy transfers zero-shot to both smaller and larger unseen Solver families, including an API-based Solver, suggesting that the Actor captures genuine, reusable evidence structure rather than overfitting to a single backbone.
-
-### [Learning Control Policies to Provably Satisfy Hard Affine Constraints for Black-Box Hybrid Dynamical Systems](https://arxiv.org/abs/2604.22244v2)
-
-- **Authors:** Aayushi Shrivastava, Kartik Nagpal, Sairam Jinkala, Jean-Baptiste Bouvier, Negar Mehr
-- **Published:** 2026-04-24
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2604.22244v2) · [PDF](https://arxiv.org/pdf/2604.22244v2)
-
-Ensuring safety for black-box hybrid dynamical systems presents significant challenges due to their instantaneous state jumps and unknown explicit nonlinear dynamics. Existing solutions for strict safety constraint satisfaction, like control barrier functions (CBFs) and reachability analysis, rely on direct knowledge of the dynamics. Similarly, safe reinforcement learning (RL) approaches often rely on known system dynamics or merely discourage safety violations through reward shaping. In this work, we want to learn RL policies which provably satisfy affine state constraints in closed loop for black-box hybrid dynamical systems with affine reset maps. Our key insight is forcing the RL policy to be affine and repulsive near the constraint boundaries for the unknown nonlinear dynamics of the system, providing guarantees that the trajectories will not violate the constraint. We further account for constraint violation due to instantaneous state jumps that occur due to impacts or reset maps in the hybrid system by introducing a second repulsive affine region before the reset that prevents post-reset states from violating the constraint. We derive sufficient conditions under which these policies satisfy safety constraints in closed loop. We also compare our approach with state-of-the-art reward shaping and learned-CBF methods on hybrid dynamical systems like the constrained pendulum and paddle juggler environments. In both scenarios, we show that our methodology learns higher quality policies while always satisfying the safety constraints.
-
-### [Replay-buffer engineering for noise-aware quantum circuit optimization](https://arxiv.org/abs/2604.21863v2)
-
-- **Authors:** Akash Kundu, Sebastian Feld
-- **Published:** 2026-04-23
-- **Priority:** 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
-- **Venue:** NeurIPS 2026
-- **Affiliations:** n/a
-- **Categories:** quant-ph, cs.AI, cs.ET, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2604.21863v2) · [PDF](https://arxiv.org/pdf/2604.21863v2)
-
-Deep reinforcement learning for quantum circuit optimization faces three bottlenecks: replay buffers that overlook temporal difference (TD) target reliability, curriculum-based architecture search requiring a full quantum-classical evaluation after every edit, and the discard of noiseless trajectories when retraining under hardware noise. We address these limitations by treating replay as a central algorithmic lever. We introduce ReaPER+, an annealed replay rule that transitions from TD-error prioritization to reliability-aware sampling as value estimates mature. ReaPER+ achieves up to 4x higher sample efficiency than fixed PER, ReaPER, and uniform replay, while matching prior on-policy solution quality with up to 32x fewer interactions At 12 qubits, fixed ReaPER reaches the lowest energy error in the fewest steps, while PER and uniform replay find more compact circuits at higher error. On tasks scaling to 20 qubits, ReaPER+ retains its advantage, demonstrating that reliability-aware annealing extends beyond small-system benchmarks. LunarLander-v3 confirms that the ReaPER+ is domain-agnostic, it improves success rates by up to 26.8% over PER and 21.8% over fixed ReaPER, with a 3% AUC gain over both. We further introduce OptCRLQAS, which amortizes quantum-classical evaluations across multiple architectural edits, reducing training wall-clock time by up to 67.5% on 12-qubit without degrading solution quality. Finally, lightweight replay-buffer transfer warm-starts noisy optimization from noiseless trajectories, without weight transfer or $ε$-greedy pretraining, reducing steps to chemical accuracy by 85-90% and final energy error by up to 90% relative to from-scratch learning. Transfer gains increase with system size. Together, these results establish experience storage, sampling, and transfer as decisive levers for sample efficient, noise-aware quantum circuit optimization.

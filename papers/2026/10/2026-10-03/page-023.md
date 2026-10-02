@@ -1,11 +1,11 @@
-> **2650 papers** · Page 23/53 · Newest first across all pages
+> **2656 papers** · Page 23/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -24,7 +24,7 @@
 | 2026-09-16 | Reinforcement Learning | [CoRe-MARL: Cooperative Redistribution Under Unknown Dynamics Using Recurrent Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2609.18639v1) | — |
 | 2026-09-16 | Reinforcement Learning | [Reinforcement learning for post-coronagraphic wavefront control](https://arxiv.org/abs/2609.20880v1) | — |
 | 2026-09-16 | Reinforcement Learning | [VibeAvatar: Aligning Phonetic Kinematics and Human Aesthetics for High-Fidelity Talking Avatar Synthesis](https://arxiv.org/abs/2609.18632v1) | — |
-| 2026-09-16 | Reinforcement Learning | [Online Robust Reinforcement Learning Through Monte-Carlo Planning](https://arxiv.org/abs/2609.18599v1) | — |
+| 2026-09-16 | Reinforcement Learning | [Online Robust Reinforcement Learning Through Monte-Carlo Planning](https://arxiv.org/abs/2609.18599v1) | 🏆 CCF-A: International Conference on Machine Learning<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-09-16 | Reinforcement Learning | [Label-free steering: Compressing test-time reinforcement learning into bias-only subspaces](https://arxiv.org/abs/2609.18587v2) | — |
 | 2026-09-16 | Reinforcement Learning | [GroundingVLN: Reasoning and Acting with Grounding for Vision-Language Navigation](https://arxiv.org/abs/2609.18581v2) | — |
 | 2026-09-16 | Reinforcement Learning | [SVMemAgent: A Streaming Video Memory Agent for Query-Agnostic Online Frame Selection](https://arxiv.org/abs/2609.18540v1) | — |
@@ -68,6 +68,7 @@
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [Online Robust Reinforcement Learning Through Monte-Carlo Planning](https://arxiv.org/abs/2609.18599v1) | 🏆 CCF-A: International Conference on Machine Learning<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: International Conference on Machine Learning |
 | [Position: It is Time to Virtualize Foundation Models with a Self-evolving Operating System Layer](https://arxiv.org/abs/2609.19203v1) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv journal reference: ICML 2026 Position Paper Track |
 | [REPAIR: Resolving Long-Tail Confusion in Scientific Retrievers via Fact-Verified Iterative Refinement](https://arxiv.org/abs/2609.18262v1) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to EMNLP 2026 (Main Conference). 30 pages, 5 figures, 20 tables. Code: https://github.com/yerimoh/REPAIR |
 
@@ -241,7 +242,7 @@ Humanoid robots can step over, squeeze past, and duck under obstacles, but learn
 - **Published:** 2026-09-16
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** School of Artificial Intelligence, Nanjing University
 - **Categories:** cs.LG, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2609.18708v1) · [PDF](https://arxiv.org/pdf/2609.18708v1)
 
@@ -277,7 +278,7 @@ Speech language models enable richer spoken interactions between humans and mach
 - **Published:** 2026-09-16
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Purdue University
 - **Categories:** cs.RO
 - **Links:** [Paper](https://arxiv.org/abs/2609.18669v1) · [PDF](https://arxiv.org/pdf/2609.18669v1)
 
@@ -336,7 +337,7 @@ Emergency management assistance programs, such as relief distribution, are essen
 - **Authors:** Manuela Castañeda-Medina, Yann Gutierrez, Johan Mazoyer, Baptiste Abeloos, Laurent Mugnier, Olivier Herscovici-Schiller
 - **Published:** 2026-09-16
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** Astronomical Telescopes + Instrumentation
 - **Affiliations:** LIRA, LIRA, CNRS
 - **Categories:** astro-ph.IM, astro-ph.EP, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2609.20880v1) · [PDF](https://arxiv.org/pdf/2609.20880v1)
@@ -359,8 +360,8 @@ Multi-modal talking avatar synthesis aims to generate realistic talking videos f
 
 - **Authors:** Tuan Dam, Kishan Panaganti, Brahim Driss, Adam Wierman
 - **Published:** 2026-09-16
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 🏆 CCF-A: International Conference on Machine Learning<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** International Conference on Machine Learning
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2609.18599v1) · [PDF](https://arxiv.org/pdf/2609.18599v1)
@@ -505,7 +506,7 @@ Adapting to changes in robot dynamics requires learning from new data without di
 - **Published:** 2026-09-16
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Microsoft, The Ohio State University
 - **Categories:** cs.CL, cs.AI, cs.DB
 - **Links:** [Paper](https://arxiv.org/abs/2609.18135v1) · [PDF](https://arxiv.org/pdf/2609.18135v1)
 
@@ -516,7 +517,7 @@ State-of-the-art Text-to-SQL systems are typically multi-agent pipelines centere
 - **Authors:** Yingyue Li, Chenyangguang Zhang, Ruida Zhang, Bowen Fu, Guangyao Zhai, Xiangyang Ji
 - **Published:** 2026-09-16
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** IEEE Robotics and Automation Letters
 - **Affiliations:** n/a
 - **Categories:** cs.RO
 - **Links:** [Paper](https://arxiv.org/abs/2609.18119v1) · [PDF](https://arxiv.org/pdf/2609.18119v1)
@@ -565,7 +566,7 @@ We reformulate average-cost (ergodic) control of a Markov jump process as a fini
 - **Published:** 2026-09-15
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** York University
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2609.17848v1) · [PDF](https://arxiv.org/pdf/2609.17848v1)
 

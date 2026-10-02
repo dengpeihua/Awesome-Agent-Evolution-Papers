@@ -1,11 +1,11 @@
-> **2650 papers** · Page 52/53 · Newest first across all pages
+> **2656 papers** · Page 52/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,12 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2025-12-10 | LLM Continual Training, Reinforcement Learning | [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3) | 📈 Highly cited |
+| 2025-12-09 | LLM Continual Training | [Prompt-Based Continual Compositional Zero-Shot Learning](https://arxiv.org/abs/2512.09172v3) | — |
+| 2025-12-05 | LLM Continual Training | [K2-V2: A 360-Open, Reasoning-Enhanced LLM](https://arxiv.org/abs/2512.06201v3) | — |
+| 2025-12-02 | Agent/LLM Self-Improvement, Reinforcement Learning | [Think, Then Look: Active Spatial Reasoning for House-Scale 3D Scene Understanding](https://arxiv.org/abs/2512.03284v2) | — |
+| 2025-12-01 | Reinforcement Learning | [Diffusion-Augmented Markov Decision Processes for Maximum Entropy Reinforcement Learning](https://arxiv.org/abs/2512.02019v4) | — |
+| 2025-11-27 | Agent/LLM Self-Improvement | [Co-Evolving Agents: Learning from Failures as Hard Negatives](https://arxiv.org/abs/2511.22254v5) | — |
 | 2025-11-27 | Reinforcement Learning | [From Compound Figures to Medical Multi-image Reasoning: Scaling Multimodal Large Language Models with Biomedical Literature](https://arxiv.org/abs/2511.22232v2) | — |
 | 2025-11-25 | Reinforcement Learning | [Reinforcement Learning to Initialize Newton-Raphson for AC Power Flow with Quantum Annealing-Based Environment Updates](https://arxiv.org/abs/2511.20237v2) | — |
 | 2025-11-24 | Reinforcement Learning | [SLMFix: Leveraging Small Language Models for Domain Specific Language Error Fixing with Reinforcement Learning](https://arxiv.org/abs/2511.19422v2) | — |
@@ -56,27 +62,45 @@
 | 2025-08-08 | Reinforcement Learning | [UR$^2$: Unify RAG and Reasoning through Reinforcement Learning](https://arxiv.org/abs/2508.06165v6) | — |
 | 2025-08-04 | Reinforcement Learning | [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v6) | — |
 | 2025-08-04 | Reinforcement Learning | [Data Security in Large Language Models: Risks, Defense, and Directions](https://arxiv.org/abs/2508.02312v2) | — |
-| 2025-07-29 | Reinforcement Learning | [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v2) | — |
-| 2025-07-29 | Reinforcement Learning | [On Policy Stochasticity in Mutual Information Optimal Control of Linear Systems](https://arxiv.org/abs/2507.21543v3) | — |
-| 2025-06-09 | Agent Memory | [HiBerNAC: Hierarchical Brain-inspired Robotic Neural Agent Collective for Disentangling Complex Manipulation](https://arxiv.org/abs/2506.08296v3) | — |
-| 2025-06-09 | Reinforcement Learning | [ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning](https://arxiv.org/abs/2506.07459v5) | — |
-| 2025-06-08 | Reinforcement Learning | [Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning](https://arxiv.org/abs/2506.07044v5) | 📈 Highly cited<br>🏆 CCF-A: TPAMI<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
-| 2025-05-31 | Reinforcement Learning | [ResTest: Targeted Coverage of Residual Not-Covered Code Using Large Language Models for Web GUI Testing](https://arxiv.org/abs/2506.00520v2) | 📈 Highly cited |
-| 2025-05-30 | Reinforcement Learning | [MiCRo: Mixture Modeling and Context-aware Routing for Personalized Preference Learning](https://arxiv.org/abs/2505.24846v3) | — |
+| 2025-07-29 | Reinforcement Learning | [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v2) | 📈 Highly cited |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Agent0: Unleashing Self-Evolving Agents from Zero Data via Tool-Integrated Reasoning](https://arxiv.org/abs/2511.16043v2) | 📈 Highly cited | First author: UNC-Chapel Hill (Semantic Scholar author profiles) |
 | [SPIDER: Scalable Physics-Informed Dexterous Retargeting](https://arxiv.org/abs/2511.09484v3) | 📈 Highly cited | Carnegie Mellon University, FAIR, Meta, University of Chicago |
 | [Memory-Free Continual Learning with Null Space Adaptation for Zero-Shot Vision-Language Models](https://arxiv.org/abs/2510.21175v2) | 🏅 Selected top venue: ICLR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Published at ICLR 2026. Code: https://github.com/ZoYujin/NuSA-CL |
 | [What Drives Compositional Generalization in Visual Generative Models? The Importance of Continuous Training Objectives](https://arxiv.org/abs/2510.03075v4) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted at NeurIPS 2026 |
 | [HumanAgencyBench: Scalable Evaluation of Human Agency Support in AI Assistants](https://arxiv.org/abs/2509.08494v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning](https://arxiv.org/abs/2506.07044v5) | 📈 Highly cited<br>🏆 CCF-A: TPAMI<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted by TPAMI. Our webpage is https://alibaba-damo-academy.github.io/lingshu. Models and training data are available at https://huggingface.co/lingshu-medical-mllm |
-| [ResTest: Targeted Coverage of Residual Not-Covered Code Using Large Language Models for Web GUI Testing](https://arxiv.org/abs/2506.00520v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v2) | 📈 Highly cited | Heinrich-Heine-University Düsseldorf, Heinrich-Heine-Universität Düsseldorf |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
+
+### [Think, Then Look: Active Spatial Reasoning for House-Scale 3D Scene Understanding](https://arxiv.org/abs/2512.03284v2)
+
+- **Authors:** Hongpei Zheng, Shijie Li, Lin Qian, Zhenghao Li, Qijun Yang, Yanran Li, Hujun Yin
+- **Published:** 2025-12-02
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2512.03284v2) · [PDF](https://arxiv.org/pdf/2512.03284v2)
+
+Spatial reasoning in large-scale 3D environments remains challenging for current vision--language models, which are typically constrained to room-scale scenarios. We formalize Active House-Scale Spatial Reasoning (AHSR), a new paradigm in which a model reasons over a pre-built house-scale 3D map via virtual spatial tool invocations to answer spatial questions, without exhaustive scene-wide processing. To support AHSR research, we introduce H$^2$U3D (Holistic House Understanding in 3D), the first benchmark targeting house-scale 3D scene understanding, featuring environments with an average aggregate floor area of 250.8 m$^2$ and up to three floors, together with hierarchical coarse-to-fine visual representations. Building on H$^2$U3D, we propose SpatialReasoner, an AHSR framework trained via supervised fine-tuning with self-correction, followed by reinforcement learning with a task-aware adaptive exploration reward. SpatialReasoner achieves state-of-the-art performance on H$^2$U3D with 64.9% overall accuracy, outperforming strong baselines including GPT-5.4 and Gemini-3.5-Flash, and generalizes effectively to MT-HM3D and HM-EQA. These results demonstrate the clear advantage of active map-directed exploration over passive scene-wide processing in house-scale 3D understanding.
+
+### [Co-Evolving Agents: Learning from Failures as Hard Negatives](https://arxiv.org/abs/2511.22254v5)
+
+- **Authors:** Yeonsung Jung, Trilok Padhi, Sina Shaham, Dipika Khullar, Joonhyun Jeong, Ninareh Mehrabi, Eunho Yang
+- **Published:** 2025-11-27
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2511.22254v5) · [PDF](https://arxiv.org/pdf/2511.22254v5)
+
+Self-evolving agents improve their performance on long-horizon tasks by learning from their own interactions with an environment. A common approach uses the resulting failed trajectories as negatives for preference training. However, collecting an agent's own failures does not ensure that they provide informative supervision for further improvement. Obvious failures may be easy to reject without learning to identify errors in more plausible attempts. These plausible but incorrect trajectories can serve as hard negatives, helping agents learn to distinguish successful behavior from failures with less obvious errors. To enable agents to generate and learn from such informative negatives, we propose a co-evolving framework that couples a target agent's self-improvement with a failure agent trained to generate hard negatives. The failure agent learns exclusively from both agents' failed trajectories to generate higher-reward failures, which the target agent uses as negatives for preference training. As the target policy improves, its failures provide new training data for the failure agent. The updated failure agent, in turn, provides new negatives for target training, allowing negative generation to adapt alongside the target policy. Across online shopping, scientific reasoning, and interactive SQL querying, our framework improves average task reward by 5.7 over the baseline. These results demonstrate the value of learning to generate and use informative failures for agent self-improvement. We will make our code publicly available.
 
 ### [Agent0: Unleashing Self-Evolving Agents from Zero Data via Tool-Integrated Reasoning](https://arxiv.org/abs/2511.16043v2)
 
@@ -96,7 +120,7 @@ Large Language Model (LLM) Agents, often trained with Reinforcement Learning (RL
 - **Published:** 2025-10-05
 - **Priority:** —
 - **Venue:** TMLR 2026
-- **Affiliations:** n/a
+- **Affiliations:** Columbia University
 - **Categories:** cs.AI, cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2510.04399v3) · [PDF](https://arxiv.org/pdf/2510.04399v3)
 
@@ -126,21 +150,43 @@ Configuration optimization remains a critical bottleneck in machine learning, re
 
 Complex decision-making often requires agents to progress through intermediate tasks rather than solve the final target directly. Existing LLM self-refinement methods typically iterate on a fixed target, while curriculum-learning methods often rely on hand-designed schedules, training-time optimization, or domain-specific difficulty metrics. To smooth out the learning curve with adaptive curriculum desgin, we introduce EvoCurr, a general inference-time framework that co-evolves curricula and executable policies. A Designer proposes verifiable intermediate tasks from the latest accepted progress and recent failures, while a Solver generates or trains policies for these tasks. A task-policy pair is accepted only when it passes hard feasibility checks and reaches a specified performance threshold meanwhile an accepted-floor constraint preserves the latest verified checkpoint and prevents failed harder attempts from overwriting mastered behavior. We evaluate EvoCurr across code-as-policy and closed-loop MARL settings on StarCraft II super-late-game micromanagement, hardest stress test, where EvoCurr achieves 96.7--99.2% macro-average win rates across three LLM backbones without LLM parameter training. The performance improvments on other experiments, Flatland, POGEMA, Overcooked, and LiveCodeBench Hard, reflect the generality of our EvoCurr.
 
-## Agent Memory
+## LLM Continual Training & Continual Learning
 
-### [HiBerNAC: Hierarchical Brain-inspired Robotic Neural Agent Collective for Disentangling Complex Manipulation](https://arxiv.org/abs/2506.08296v3)
+### [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3)
 
-- **Authors:** Heng Zhang, Hongjun Wu, Pengsong Zhang, Jin Wang, Cong Wang
-- **Published:** 2025-06-09
-- **Priority:** —
-- **Venue:** Biomimetic Intelligence and Robotics
+- **Authors:** Heng Zhang, Rui Dai, Gokhan Solak, Pokuang Zhou, Nikos Tsagarakis, Yu She, Arash Ajoudani
+- **Published:** 2025-12-10
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2506.08296v3) · [PDF](https://arxiv.org/pdf/2506.08296v3)
+- **Links:** [Paper](https://arxiv.org/abs/2512.11908v3) · [PDF](https://arxiv.org/pdf/2512.11908v3)
 
-Recent advances in multimodal vision-language-action (VLA) models have revolutionized traditional robot learning, enabling systems to interpret vision, language, and action in unified frameworks for complex task planning. However, mastering complex manipulation tasks remains an open challenge, constrained by limitations in persistent contextual memory, multi-agent coordination under uncertainty, and dynamic long-horizon planning across variable sequences. To address this challenge, we propose \textbf{HiBerNAC}, a \textbf{Hi}erarchical \textbf{B}rain-\textbf{e}mulated \textbf{r}obotic \textbf{N}eural \textbf{A}gent \textbf{C}ollective, inspired by breakthroughs in neuroscience, particularly in neural circuit mechanisms and hierarchical decision-making. Our framework combines: (1) multimodal VLA planning and reasoning with (2) neuro-inspired reflection and multi-agent mechanisms, specifically designed for complex robotic manipulation tasks. By leveraging neuro-inspired functional modules with decentralized multi-agent collaboration, our approach enables robust and enhanced real-time execution of complex manipulation tasks. In addition, the agentic system exhibits scalable collective intelligence via dynamic agent specialization, adapting its coordination strategy to variable task horizons and complexity. Through extensive experiments on complex manipulation tasks compared with state-of-the-art VLA models, we demonstrate that \textbf{HiBerNAC} reduces average long-horizon task completion time by 23\%, and achieves non-zero success rates (12\textendash 31\%) on multi-path tasks where prior state-of-the-art VLA models consistently fail. These results provide indicative evidence for bridging biological cognition and robotic learning mechanisms.
+Contact-rich tasks pose significant challenges for robotic systems due to inherent uncertainty, complex dynamics, and the high risk of damage during interaction. Recent advances in learning-based control have shown great potential in enabling robots to acquire and generalize complex manipulation skills in such environments, but ensuring safety, both during exploration and execution, remains a critical bottleneck for reliable real-world deployment. This survey provides a comprehensive overview of safe learning-based methods for robot contact-rich tasks. We categorize existing approaches into two main domains: safe exploration and safe execution. We review key techniques, including constrained reinforcement learning, risk-sensitive optimization, uncertainty-aware modeling, control barrier functions, and model predictive safety shields, and highlight how these methods incorporate prior knowledge, task structure, and online adaptation to balance safety and efficiency. A particular emphasis of this survey is on how these safe learning principles extend to and interact with emerging robotic foundation models, especially vision-language models (VLMs) and vision-language-action models (VLAs), which unify perception, language, and control for contact-rich manipulation. We discuss both the new safety opportunities enabled by VLM/VLA-based methods, such as language-level specification of constraints and multimodal grounding of safety signals, and the amplified risks and evaluation challenges they introduce. Finally, we outline current limitations and promising future directions toward deploying reliable, safety-aligned, and foundation-model-enabled robots in complex contact-rich environments. More details and materials are available at our \href{ https://github.com/jack-sherman01/Awesome-Learning4Safe-Contact-rich-tasks}{Project GitHub Repository}.
 
-## LLM Continual Training & Continual Learning
+### [Prompt-Based Continual Compositional Zero-Shot Learning](https://arxiv.org/abs/2512.09172v3)
+
+- **Authors:** Sauda Maryam, Sara Nadeem, Faisal Qureshi, Mohsen Ali
+- **Published:** 2025-12-09
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CV, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2512.09172v3) · [PDF](https://arxiv.org/pdf/2512.09172v3)
+
+We tackle continual adaptation of vision-language models to new attributes, objects, and their compositions in Compositional Zero-Shot Learning (CZSL), while preventing forgetting of prior knowledge. Unlike classical continual learning where classes are disjoint, CCZSL is more complex as attributes and objects may reoccur across sessions while compositions remain unique. Built on a frozen VLM backbone, we propose the first Prompt-based Continual Compositional Zero-Shot Learning (PromptCCZSL) framework that retains prior knowledge through recency-weighted multi-teacher distillation. It employs session-aware compositional prompts to fuse multimodal features for new compositions, while attribute and object prompts are learned through session-agnostic fusion to maintain global semantic consistency, which is further stabilized by a Cosine Anchor Loss (CAL) to preserve prior knowledge. To enhance adaptation in the current session, an Orthogonal Projection Loss (OPL) ensures that new attribute and object embeddings remain distinct from previous ones, preventing overlap, while an Intra-Session Diversity Loss (IDL) promotes variation among current-session embeddings for richer, more discriminative representations. We also introduce a comprehensive protocol that jointly measures catastrophic forgetting and compositional generalization. Extensive experiments on UT-Zappos and C-GQA benchmarks demonstrate that PromptCCZSL achieves substantial improvements over prior VLM-based and non-VLM baselines, setting a new benchmark for CCZSL in closed-world settings.
+
+### [K2-V2: A 360-Open, Reasoning-Enhanced LLM](https://arxiv.org/abs/2512.06201v3)
+
+- **Authors:** K2 Team, Zhengzhong Liu, Liping Tang, Linghao Jin, Haonan Li, Nikhil Ranjan, Desai Fan, Shaurya Rohatgi, Richard Fan, Omkar Pangarkar, Huijuan Wang, Zhoujun Cheng, Suqi Sun, Seungwook Han, Bowen Tan, Gurpreet Gosal, Xudong Han, Varad Pimpalkhute, Shibo Hao, Ming Shan Hee, Joel Hestness, Haolong Jia, Liqun Ma, Aaryamonvikram Singh, Daria Soboleva, Natalia Vassilieva, Renxi Wang, Yingquan Wu, Yuekai Sun, Taylor Killian, Alexander Moreno, John Maggs, Hector Ren, Guowei He, Hongyi Wang, Xuezhe Ma, Yuqi Wang, Mikhail Yurochkin, Eric P. Xing
+- **Published:** 2025-12-05
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** MBZUAI, Penn State University
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2512.06201v3) · [PDF](https://arxiv.org/pdf/2512.06201v3)
+
+We introduce K2-V2, a 360-open LLM built from scratch as a superior base for reasoning adaptation, in addition to functions such as conversation and knowledge retrieval from general LLMs. It stands as the strongest fully open model, rivals open-weight leaders in its size class, outperforms Qwen2.5-72B and approaches the performance of Qwen3-235B. We actively infuse domain knowledge, reasoning, long-context, and tool use throughout the training process. This explicitly prepares the model for complex reasoning tasks. We demonstrate this potential using simple supervised fine-tuning, establishing a strong baseline that indicates significant headroom for advanced alignment. By releasing the full training history and data composition, we maximize the effectiveness of continuous training, a key open source production scenario. We release the model weights and signature LLM360 artifacts, such as complete training data, to empower the community with a capable, reasoning-centric foundation.
 
 ### [Parameter Importance-Driven Continual Learning for Foundation Models](https://arxiv.org/abs/2511.15375v2)
 
@@ -208,13 +254,49 @@ The ability to learn continuously over time remains a major challenge for modern
 - **Published:** 2025-09-10
 - **Priority:** —
 - **Venue:** Nature Communications
-- **Affiliations:** n/a
+- **Affiliations:** Korea University
 - **Categories:** cs.CL, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2509.08604v5) · [PDF](https://arxiv.org/pdf/2509.08604v5)
 
 Large Language Models (LLMs) have demonstrated significant potential in medicine, with many studies adapting them through continued pre-training or fine-tuning on medical data to enhance domain-specific accuracy and safety. However, a key open question remains: to what extent do LLMs memorize medical training data. Memorization can be beneficial when it enables LLMs to retain valuable medical knowledge during domain adaptation. Yet, it also raises concerns. LLMs may inadvertently reproduce sensitive clinical content (e.g., patient-specific details), and excessive memorization may reduce model generalizability, increasing risks of misdiagnosis and making unwarranted recommendations. These risks are further amplified by the generative nature of LLMs, which can not only surface memorized content but also produce overconfident, misleading outputs that may hinder clinical adoption. In this work, we present a study on memorization of LLMs in medicine, assessing its prevalence (how frequently it occurs), characteristics (what is memorized), volume (how much content is memorized), and potential downstream impacts (how memorization may affect medical applications). We systematically analyze common adaptation scenarios: (1) continued pretraining on medical corpora, (2) fine-tuning on standard medical benchmarks, and (3) fine-tuning on real-world clinical data, including over 13,000 unique inpatient records from Yale New Haven Health System. The results demonstrate that memorization is prevalent across all adaptation scenarios and significantly higher than that reported in the general domain. Moreover, memorization has distinct characteristics during continued pre-training and fine-tuning, and it is persistent: up to 87% of content memorized during continued pre-training remains after fine-tuning on new medical tasks.
 
 ## Reinforcement Learning
+
+### [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3)
+
+- **Authors:** Heng Zhang, Rui Dai, Gokhan Solak, Pokuang Zhou, Nikos Tsagarakis, Yu She, Arash Ajoudani
+- **Published:** 2025-12-10
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.RO
+- **Links:** [Paper](https://arxiv.org/abs/2512.11908v3) · [PDF](https://arxiv.org/pdf/2512.11908v3)
+
+Contact-rich tasks pose significant challenges for robotic systems due to inherent uncertainty, complex dynamics, and the high risk of damage during interaction. Recent advances in learning-based control have shown great potential in enabling robots to acquire and generalize complex manipulation skills in such environments, but ensuring safety, both during exploration and execution, remains a critical bottleneck for reliable real-world deployment. This survey provides a comprehensive overview of safe learning-based methods for robot contact-rich tasks. We categorize existing approaches into two main domains: safe exploration and safe execution. We review key techniques, including constrained reinforcement learning, risk-sensitive optimization, uncertainty-aware modeling, control barrier functions, and model predictive safety shields, and highlight how these methods incorporate prior knowledge, task structure, and online adaptation to balance safety and efficiency. A particular emphasis of this survey is on how these safe learning principles extend to and interact with emerging robotic foundation models, especially vision-language models (VLMs) and vision-language-action models (VLAs), which unify perception, language, and control for contact-rich manipulation. We discuss both the new safety opportunities enabled by VLM/VLA-based methods, such as language-level specification of constraints and multimodal grounding of safety signals, and the amplified risks and evaluation challenges they introduce. Finally, we outline current limitations and promising future directions toward deploying reliable, safety-aligned, and foundation-model-enabled robots in complex contact-rich environments. More details and materials are available at our \href{ https://github.com/jack-sherman01/Awesome-Learning4Safe-Contact-rich-tasks}{Project GitHub Repository}.
+
+### [Think, Then Look: Active Spatial Reasoning for House-Scale 3D Scene Understanding](https://arxiv.org/abs/2512.03284v2)
+
+- **Authors:** Hongpei Zheng, Shijie Li, Lin Qian, Zhenghao Li, Qijun Yang, Yanran Li, Hujun Yin
+- **Published:** 2025-12-02
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2512.03284v2) · [PDF](https://arxiv.org/pdf/2512.03284v2)
+
+Spatial reasoning in large-scale 3D environments remains challenging for current vision--language models, which are typically constrained to room-scale scenarios. We formalize Active House-Scale Spatial Reasoning (AHSR), a new paradigm in which a model reasons over a pre-built house-scale 3D map via virtual spatial tool invocations to answer spatial questions, without exhaustive scene-wide processing. To support AHSR research, we introduce H$^2$U3D (Holistic House Understanding in 3D), the first benchmark targeting house-scale 3D scene understanding, featuring environments with an average aggregate floor area of 250.8 m$^2$ and up to three floors, together with hierarchical coarse-to-fine visual representations. Building on H$^2$U3D, we propose SpatialReasoner, an AHSR framework trained via supervised fine-tuning with self-correction, followed by reinforcement learning with a task-aware adaptive exploration reward. SpatialReasoner achieves state-of-the-art performance on H$^2$U3D with 64.9% overall accuracy, outperforming strong baselines including GPT-5.4 and Gemini-3.5-Flash, and generalizes effectively to MT-HM3D and HM-EQA. These results demonstrate the clear advantage of active map-directed exploration over passive scene-wide processing in house-scale 3D understanding.
+
+### [Diffusion-Augmented Markov Decision Processes for Maximum Entropy Reinforcement Learning](https://arxiv.org/abs/2512.02019v4)
+
+- **Authors:** Sebastian Sanokowski, Kaustubh Patil, Majid Khadiv
+- **Published:** 2025-12-01
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI, stat.ML
+- **Links:** [Paper](https://arxiv.org/abs/2512.02019v4) · [PDF](https://arxiv.org/pdf/2512.02019v4)
+
+Diffusion models provide an expressive framework for sampling from complex, unnormalized distributions. In this work, we extend Maximum Entropy Reinforcement Learning (ME-RL) to diffusion-based policies by introducing Diffusion-Augmented Markov Decision Processes (DA-MDPs). DA-MDPs interpret each reverse-diffusion transition as an individual reinforcement-learning decision, while only the final denoised action is executed in the environment. Our DA-MDPs follow from a principled derivation based on the variational-inference formulation of ME-RL. By augmenting policy and target trajectories with intermediate diffusion variables, we obtain a tractable reverse-KL upper bound via the data-processing inequality. This bound decomposes across denoising transitions, yielding diffusion-augmented variants of soft rewards, value functions, and local policy objectives. This provides a general framework for adapting ME-RL algorithms to diffusion policies while differentiating through only one diffusion transition at a time. We instantiate the framework with PPO, REPPO, and a maximum-entropy extension of WPO. Experiments demonstrate improved continuous-control performance, benefits from additional diffusion steps, and memory-efficient training. On the StackCube and PushT manipulation tasks, DA-MDP methods learn alternative successful strategies from the same initial state and achieve higher success rates and generally higher success-weighted mode entropy than the Gaussian ME-RL baseline. We also demonstrate successful training when using action chunking.
 
 ### [From Compound Figures to Medical Multi-image Reasoning: Scaling Multimodal Large Language Models with Biomedical Literature](https://arxiv.org/abs/2511.22232v2)
 
@@ -377,7 +459,7 @@ Existing tabular data generation methods primarily focus on matching statistical
 - **Authors:** Arnav Sukhija, Lenart Treven, Jin Cheng, Florian Dörfler, Stelian Coros, Andreas Krause
 - **Published:** 2025-10-27
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.RO, cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2510.23176v2) · [PDF](https://arxiv.org/pdf/2510.23176v2)
@@ -437,7 +519,7 @@ Large language models (LLMs) are typically aligned with population-level prefere
 - **Authors:** Xuening Wu, Shenqin Yin, Yanlan Kang, Xinhang Zhang, Qianya Xu, Zeping Chen, Wenqiang Zhang
 - **Published:** 2025-10-11
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2510.10232v2) · [PDF](https://arxiv.org/pdf/2510.10232v2)
@@ -473,7 +555,7 @@ Stronger learning signals do not necessarily produce a stronger small reasoning 
 - **Authors:** Alex Schutz, Victor-Alexandru Darvariu, Efimia Panagiotaki, Bruno Lacerda, Nick Hawes
 - **Published:** 2025-09-23
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2509.18930v4) · [PDF](https://arxiv.org/pdf/2509.18930v4)
@@ -569,7 +651,7 @@ Traversing narrow paths is challenging for humanoid robots due to the sparse and
 - **Authors:** Ruiqi Wu, Yuang Yao, Na Su, Tengfei Ma, Chenran Zhang, Tao Zhou, Tianyu Mao, Ye Geng, Nianfeng Tang, Xiangyuan Duanmu, Qiqi Chen, Geng Chen, Wen Fan, Yi Zhou
 - **Published:** 2025-08-22
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** IEEE Transactions on Medical Imaging
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2508.16129v5) · [PDF](https://arxiv.org/pdf/2508.16129v5)
@@ -617,7 +699,7 @@ Group Relative Policy Optimization (GRPO) trains language models without a value
 - **Authors:** Kang Chen, Xiuze Zhou, Yuanhui Yu, Yuanguo Lin, Hefeng Chen, Congyu Cai, Li Shen
 - **Published:** 2025-08-04
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** Journal of King Saud University: Computer and Information Sciences
 - **Affiliations:** n/a
 - **Categories:** cs.CR, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2508.02312v2) · [PDF](https://arxiv.org/pdf/2508.02312v2)
@@ -628,70 +710,10 @@ Large Language Models (LLMs), now a foundation in advancing natural language pro
 
 - **Authors:** Carel van Niekerk, Renato Vukovic, Benjamin Ruppik, Hsien-chin Lin, Shutong Feng, Milica Gašić
 - **Published:** 2025-07-29
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** Heinrich-Heine-University Düsseldorf, Heinrich-Heine-Universität Düsseldorf
 - **Categories:** cs.CL, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2507.21931v2) · [PDF](https://arxiv.org/pdf/2507.21931v2)
 
 Large Language Models (LLMs) often produce plausible but poorly-calibrated answers, limiting their reliability on reasoning-intensive tasks. Recent research suggests that Chain-of-Thought (CoT) reasoning paths are inherent in pre-trained LLMs and can be elicited by simply altering the decoding process, where the presence of a CoT path correlates with higher answer confidence. Building on these insights, we present Reinforcement Learning from Self-Feedback (RLSF), a post-training stage that utilises the model's intrinsic confidence as a self-generated reward. By generating multiple CoT decoding beams from a frozen LLM, we compute the confidence of each final answer span and rank the resulting traces accordingly to create synthetic preferences. These preferences are subsequently utilised to fine-tune the policy through standard preference optimisation, requiring no human labels, gold answers, or externally curated rewards. RLSF simultaneously (i) refines the model's probability estimates--restoring well-behaved calibration--and (ii) strengthens step-by-step reasoning, yielding improved performance on arithmetic reasoning and multiple-choice question answering. By converting a model's own uncertainty into structured self-feedback, RLSF affirms reinforcement learning on intrinsic model behaviour as a principled and data-efficient component of the LLM post-training pipeline. Our results demonstrate that leveraging these inherent reasoning capabilities provides a robust path for enhancing model reliability without manual prompt engineering or external supervision.
-
-### [On Policy Stochasticity in Mutual Information Optimal Control of Linear Systems](https://arxiv.org/abs/2507.21543v3)
-
-- **Authors:** Shoju Enami, Kenji Kashima
-- **Published:** 2025-07-29
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** math.OC, cs.LG, eess.SY
-- **Links:** [Paper](https://arxiv.org/abs/2507.21543v3) · [PDF](https://arxiv.org/pdf/2507.21543v3)
-
-Mutual information regularization has recently been studied in reinforcement learning (RL) as an extension of entropy regularization, in which not only the policy but also the reference distribution (prior) is optimized, and has also been used for privacy preserving policy design. To obtain theoretical insight into how this joint optimization affects policy stochasticity, we study a model-based linear-quadratic setting that preserves this key structure while permitting an explicit analysis. Specifically, we consider a mutual information optimal control problem (MIOCP) for stochastic discrete-time linear systems with quadratic costs and Gaussian policies and priors. We first review alternating optimization of the policy and the prior with a technical extension. We then establish the existence of an optimal solution, characterize its covariance matrices, and derive sufficient conditions under which the optimal policy is either a stochastic feedback policy or a deterministic open-loop policy. We further interpret this characterization in terms of the state information disclosed through the control input. We also analyze the limiting behavior of alternating optimization under the sufficient conditions. The validity of the theoretical results is demonstrated through numerical experiments.
-
-### [ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning](https://arxiv.org/abs/2506.07459v5)
-
-- **Authors:** Ziwen Wang, Jiajun Fan, Ruihan Guo, Thao Nguyen, Heng Ji, Ge Liu
-- **Published:** 2025-06-09
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, q-bio.QM
-- **Links:** [Paper](https://arxiv.org/abs/2506.07459v5) · [PDF](https://arxiv.org/pdf/2506.07459v5)
-
-Protein generative models have shown remarkable promise in protein design, yet their success rates remain constrained by reliance on curated sequence-structure datasets and by misalignment between supervised objectives and real design goals. We present ProteinZero, an online reinforcement learning framework for inverse folding models that enables scalable, automated, and continuous self-improvement with computationally efficient feedback. ProteinZero employs a reward pipeline that combines structural guidance from ESMFold with a novel self-derived ddG predictor, providing stable multi-objective signals while avoiding the prohibitive cost of physics-based methods. To ensure robustness in online RL, we further introduce a novel embedding-level diversity regularizer that mitigates mode collapse and promotes sequence-level diversity among generated designs. Within a general RL formulation balancing multi-reward optimization, KL-divergence from a reference model, and diversity regularization, ProteinZero achieves robust improvements across designability, predicted stability, recovery, and diversity. On the CATH-4.3 benchmark, it consistently outperforms state-of-the-art baselines including ProteinMPNN, ESM-IF, and InstructPLM, reducing design failure rates by 36-48% and achieving success rates above 90% across diverse folds. Importantly, a complete RL run can be executed on a single 8xGPU node within three days, including reward computation and data generation. These results indicate that efficient online RL fine-tuning can complement supervised pretraining by allowing protein generative models to evolve continuously from their own outputs and optimize multiple design objectives without labeled data, opening new possibilities for exploring the vast protein design space. Code and model checkpoints are available at https://github.com/ziwenwang28/ProteinZero.
-
-### [Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning](https://arxiv.org/abs/2506.07044v5)
-
-- **Authors:** Weiwen Xu, Hou Pong Chan, Long Li, Mahani Aljunied, Ruifeng Yuan, Jianyu Wang, Chenghao Xiao, Guizhen Chen, Chaoqun Liu, Zhaodonghui Li, Yu Sun, Junao Shen, Chaojun Wang, Jie Tan, Deli Zhao, Tingyang Xu, Hao Zhang, Yu Rong
-- **Published:** 2025-06-08
-- **Priority:** 📈 Highly cited<br>🏆 CCF-A: TPAMI<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
-- **Venue:** TPAMI
-- **Affiliations:** n/a
-- **Categories:** cs.CL, cs.AI, cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2506.07044v5) · [PDF](https://arxiv.org/pdf/2506.07044v5)
-
-Multimodal Large Language Models (MLLMs) have demonstrated impressive capabilities in understanding common visual elements, largely due to their large-scale datasets and advanced training strategies. However, their effectiveness in medical applications remains limited due to the inherent discrepancies between data and tasks in medical scenarios and those in the general domain. Concretely, existing medical MLLMs face the following critical limitations: (1) limited coverage of medical knowledge beyond imaging, (2) heightened susceptibility to hallucinations due to suboptimal data curation processes, (3) lack of reasoning capabilities tailored for complex medical scenarios. To address these challenges, we first propose a comprehensive data curation procedure that (1) efficiently acquires rich medical knowledge data not only from medical imaging but also from extensive medical texts and general-domain data; and (2) synthesizes accurate medical captions, visual question answering (VQA), and reasoning samples. As a result, we build a multimodal dataset enriched with extensive medical knowledge. Building on the curated data, we introduce our medical-specialized MLLM: Lingshu. Lingshu undergoes multi-stage training to embed medical expertise and enhance its task-solving capabilities progressively. Besides, we preliminarily explore the potential of applying reinforcement learning with verifiable rewards paradigm to enhance Lingshu's medical reasoning ability. Additionally, we develop MedEvalKit, a unified evaluation framework that consolidates leading multimodal and textual medical benchmarks for standardized, fair, and efficient model assessment. We evaluate the performance of Lingshu on three fundamental medical tasks, multimodal QA, text-based QA, and medical report generation. The results show that Lingshu consistently outperforms the existing open-source multimodal models on most tasks ...
-
-### [ResTest: Targeted Coverage of Residual Not-Covered Code Using Large Language Models for Web GUI Testing](https://arxiv.org/abs/2506.00520v2)
-
-- **Authors:** Chenxu Liu, Zhiyu Gu, Guoquan Wu, Ying Zhang, Wei Yang, Jun Wei, Tao Xie
-- **Published:** 2025-05-31
-- **Priority:** 📈 Highly cited
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.SE
-- **Links:** [Paper](https://arxiv.org/abs/2506.00520v2) · [PDF](https://arxiv.org/pdf/2506.00520v2)
-
-Automated web GUI testing (AWGT) approaches explore web applications through GUI actions to achieve code coverage. However, existing approaches, whether random-based, model-based, or reinforcement-learning-based, often struggle to generate continuous and semantically meaningful action sequences for testing complex functionalities, limiting their achievable code coverage. Recent LLM-based approaches partially alleviate this problem but still fall short due to limited capability in inferring testable functionalities and low success rates in executing tasks on complex web applications. In this paper, we propose ResTest, a complementary approach that uses coverage-report-guided LLMs to target residual not-covered code left by existing AWGT approaches. ResTest first runs an existing AWGT approach to broadly explore the application while constructing a state transition graph with summarized information. Once coverage plateaus, ResTest employs an LLM to infer not-covered functionalities based on the state transition graph and coverage report, and then utilizes a specialized LLM-driven GUI agent to execute these functionalities in a targeted manner. Our evaluation on ten open-source web applications shows that ResTest improves three categories of AWGT approaches by 17.52\% to 24.36\% in average code coverage. Ablation studies further confirm the sustained coverage improvement capability and the contribution of each component.
-
-### [MiCRo: Mixture Modeling and Context-aware Routing for Personalized Preference Learning](https://arxiv.org/abs/2505.24846v3)
-
-- **Authors:** Jingyan Shen, Jiarui Yao, Rui Yang, Yifan Sun, Feng Luo, Rui Pan, Tong Zhang, Han Zhao
-- **Published:** 2025-05-30
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2505.24846v3) · [PDF](https://arxiv.org/pdf/2505.24846v3)
-
-Reward modeling is a key step in building safe foundation models when applying reinforcement learning from human feedback (RLHF) to align Large Language Models (LLMs). However, reward modeling based on the Bradley-Terry (BT) model assumes a global reward function, failing to capture the inherently diverse and heterogeneous human preferences. Hence, such oversimplification limits LLMs from supporting personalization and pluralistic alignment. Theoretically, we show that when human preferences follow a mixture distribution of diverse subgroups, a single BT model has an irreducible error. While existing solutions, such as multi-objective learning with fine-grained annotations, help address this issue, they are costly and constrained by predefined attributes, failing to fully capture the richness of human values. In this work, we introduce MiCRo, a two-stage framework that enhances personalized preference learning by leveraging large-scale binary preference datasets without requiring explicit fine-grained annotations. In the first stage, MiCRo introduces context-aware mixture modeling approach to capture diverse human preferences. In the second stage, MiCRo integrates an online routing strategy that dynamically adapts mixture weights based on specific context to resolve ambiguity, allowing for efficient and scalable preference adaptation with minimal additional supervision. Experiments on multiple preference datasets demonstrate that MiCRo effectively captures diverse human preferences and significantly improves downstream personalization.

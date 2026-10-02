@@ -1,11 +1,11 @@
-> **2650 papers** · Page 51/53 · Newest first across all pages
+> **2656 papers** · Page 51/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,43 +13,49 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-01-15 | Agent Memory | [Grounding Agent Memory in Contextual Intent](https://arxiv.org/abs/2601.10702) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-01-15 | Agent/LLM Self-Improvement, LLM Continual Training | [Towards AGI A Pragmatic Approach Towards Self Evolving Agent](https://arxiv.org/abs/2601.11658) | — |
+| 2026-01-15 | Agent Memory | [AI Agents Need Memory Control Over More Context](https://arxiv.org/abs/2601.11653) | — |
+| 2026-01-14 | Agent Memory | [Chain-of-Memory: Lightweight Memory Construction with Dynamic Evolution for LLM Agents](https://arxiv.org/abs/2601.14287) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-01-14 | Agent Memory | [CAST: Character-and-Scene Episodic Memory for Agents](https://arxiv.org/abs/2602.06051) | — |
 | 2026-01-14 | Agent Memory | [Aeon: High-Performance Neuro-Symbolic Memory Management for Long-Horizon LLM Agents](https://arxiv.org/abs/2601.15311) | — |
 | 2026-01-14 | Agent/LLM Self-Improvement | [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/abs/2601.09465) | — |
 | 2026-01-14 | Agent Memory | [Continuum Memory Architectures for Long-Horizon LLM Agents](https://arxiv.org/abs/2601.09913) | — |
 | 2026-01-13 | Agent Memory | [SwiftMem: Fast Agentic Memory via Query-aware Indexing](https://arxiv.org/abs/2601.08160) | — |
-| 2026-01-13 | Agent Memory | [MemRec: Collaborative Memory-Augmented Agentic Recommender System](https://arxiv.org/abs/2601.08816) | — |
-| 2026-01-13 | Agent Memory, Reinforcement Learning | [AtomMem : Learnable Dynamic Agentic Memory with Atomic Memory Operation](https://arxiv.org/abs/2601.08323) | — |
-| 2026-01-13 | Agent Memory | [Mem2ActBench: A Benchmark for Evaluating Long-Term Memory Utilization in Task-Oriented Autonomous Agents](https://arxiv.org/abs/2601.19935) | — |
+| 2026-01-13 | Agent Memory | [MemRec: Collaborative Memory-Augmented Agentic Recommender System](https://arxiv.org/abs/2601.08816) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-01-13 | Agent Memory, Reinforcement Learning | [AtomMem : Learnable Dynamic Agentic Memory with Atomic Memory Operation](https://arxiv.org/abs/2601.08323) | 📈 Highly cited |
+| 2026-01-13 | Agent Memory | [Mem2ActBench: A Benchmark for Evaluating Long-Term Memory Utilization in Task-Oriented Autonomous Agents](https://arxiv.org/abs/2601.19935) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-01-13 | Agent/LLM Self-Improvement | [WISE-Flow: Workflow-Induced Structured Experience for Self-Evolving Conversational Service Agents](https://arxiv.org/abs/2601.08158) | — |
 | 2026-01-13 | Agent Memory | [Project Synapse: A Hierarchical Multi-Agent Framework with Hybrid Memory for Autonomous Resolution of Last-Mile Delivery Disruptions](https://arxiv.org/abs/2601.08156) | — |
 | 2026-01-12 | Reinforcement Learning | [Robotic Video World Models: A Survey of Applications, Research Challenges, Future Directions](https://arxiv.org/abs/2601.07823v2) | 📈 Highly cited |
 | 2026-01-12 | Reinforcement Learning | [Clipped Affine Policy: Low-Complexity Near-Optimal Online Power Control for Energy Harvesting Communications over Fading Channels](https://arxiv.org/abs/2601.07622v3) | — |
 | 2026-01-12 | Agent Memory | [Cost and Accuracy of Long-Term Memory in Distributed Multi-Agent Systems Based on Large Language Models](https://arxiv.org/abs/2601.07978) | — |
-| 2026-01-12 | Agent/LLM Self-Improvement, LLM Continual Training | [DarwinTOD: LLM-driven Lifelong Self-evolution for Task-oriented Dialog Systems](https://arxiv.org/abs/2601.07248) | — |
+| 2026-01-12 | Agent/LLM Self-Improvement, LLM Continual Training | [DarwinTOD: LLM-driven Lifelong Self-evolution for Task-oriented Dialog Systems](https://arxiv.org/abs/2601.07248) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-01-12 | Agent Memory | [ES-Mem: Event Segmentation-Based Memory for Long-Term Dialogue Agents](https://arxiv.org/abs/2601.07582) | — |
-| 2026-01-12 | Agent Memory | [MemoBrain: Executive Memory as an Agentic Brain for Reasoning](https://arxiv.org/abs/2601.08079) | — |
-| 2026-01-12 | Agent Memory | [Learning How to Remember: A Meta-Cognitive Management Method for Structured and Transferable Agent Memory](https://arxiv.org/abs/2601.07470) | — |
-| 2026-01-12 | Agent Memory | [Beyond Dialogue Time: Temporal Semantic Memory for Personalized LLM Agents](https://arxiv.org/abs/2601.07468) | — |
-| 2026-01-12 | Agent Memory | [Active Context Compression: Autonomous Memory Management in LLM Agents](https://arxiv.org/abs/2601.07190) | — |
+| 2026-01-12 | Agent Memory | [MemoBrain: Executive Memory as an Agentic Brain for Reasoning](https://arxiv.org/abs/2601.08079) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-01-12 | Agent Memory | [Learning How to Remember: A Meta-Cognitive Management Method for Structured and Transferable Agent Memory](https://arxiv.org/abs/2601.07470) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-01-12 | Agent Memory | [Beyond Dialogue Time: Temporal Semantic Memory for Personalized LLM Agents](https://arxiv.org/abs/2601.07468) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-01-12 | Agent Memory | [Active Context Compression: Autonomous Memory Management in LLM Agents](https://arxiv.org/abs/2601.07190) | 📈 Highly cited |
 | 2026-01-11 | Agent Memory, LLM Continual Training | [LLMs Can't Play Hangman: On the Necessity of a Private Working Memory for Language Agents](https://arxiv.org/abs/2601.06973v3) | — |
-| 2026-01-11 | Agent Memory | [MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences](https://arxiv.org/abs/2601.06789) | — |
+| 2026-01-11 | Agent Memory | [MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences](https://arxiv.org/abs/2601.06789) | 📈 Highly cited |
 | 2026-01-10 | Agent Memory | [Bi-Mem: Bidirectional Construction of Hierarchical Memory for Personalized LLMs via Inductive-Reflective Agents](https://arxiv.org/abs/2601.06490) | — |
-| 2026-01-10 | Agent/LLM Self-Improvement, Agent Memory | [HiMem: Hierarchical Long-Term Memory for LLM Long-Horizon Agents](https://arxiv.org/abs/2601.06377) | — |
-| 2026-01-09 | Agent Memory, Reinforcement Learning | [StackPlanner: A Centralized Hierarchical Multi-Agent System with Task-Experience Memory Management](https://arxiv.org/abs/2601.05890) | — |
+| 2026-01-10 | Agent/LLM Self-Improvement, Agent Memory | [HiMem: Hierarchical Long-Term Memory for LLM Long-Horizon Agents](https://arxiv.org/abs/2601.06377) | 📈 Highly cited |
+| 2026-01-09 | Agent Memory, Reinforcement Learning | [StackPlanner: A Centralized Hierarchical Multi-Agent System with Task-Experience Memory Management](https://arxiv.org/abs/2601.05890) | 📈 Highly cited |
 | 2026-01-09 | Agent/LLM Self-Improvement | [Self-Evolving Distributed Memory Architecture for Scalable AI Systems](https://arxiv.org/abs/2601.05569) | — |
-| 2026-01-09 | Agent Memory | [Memory Poisoning Attack and Defense on Memory Based LLM-Agents](https://arxiv.org/abs/2601.05504) | — |
+| 2026-01-09 | Agent Memory | [Memory Poisoning Attack and Defense on Memory Based LLM-Agents](https://arxiv.org/abs/2601.05504) | 📈 Highly cited |
 | 2026-01-09 | Agent Memory | [Amory: Building Coherent Narrative-Driven Agent Memory through Agentic Reasoning](https://arxiv.org/abs/2601.06282) | — |
 | 2026-01-09 | LLM Continual Training | [Continual-learning for Modelling Low-Resource Languages from Large Language Models](https://arxiv.org/abs/2601.05874) | — |
 | 2026-01-08 | Agent Memory | [MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents](https://arxiv.org/abs/2601.05215) | — |
-| 2026-01-08 | Agent Memory | [Controllable Memory Usage: Balancing Anchoring and Innovation in Long-Term Human-Agent Interaction](https://arxiv.org/abs/2601.05107) | — |
-| 2026-01-08 | Agent Memory | [Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and Reasoning](https://arxiv.org/abs/2601.04726) | — |
-| 2026-01-08 | Agent Memory | [Beyond Static Summarization: Proactive Memory Extraction for LLM Agents](https://arxiv.org/abs/2601.04463) | — |
+| 2026-01-08 | Agent Memory | [Controllable Memory Usage: Balancing Anchoring and Innovation in Long-Term Human-Agent Interaction](https://arxiv.org/abs/2601.05107) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-01-08 | Agent Memory | [Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and Reasoning](https://arxiv.org/abs/2601.04726) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-01-08 | Agent Memory | [Beyond Static Summarization: Proactive Memory Extraction for LLM Agents](https://arxiv.org/abs/2601.04463) | 📈 Highly cited |
 | 2026-01-07 | Agent Memory | [Membox: Weaving Topic Continuity into Long-Range Memory for LLM Agents](https://arxiv.org/abs/2601.03785) | — |
-| 2026-01-07 | Agent Memory | [Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents](https://arxiv.org/abs/2601.03515) | — |
-| 2026-01-06 | Agent Memory | [SYNAPSE: Empowering LLM Agents with Episodic-Semantic Memory via Spreading Activation](https://arxiv.org/abs/2601.02744) | — |
+| 2026-01-07 | Agent Memory | [Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents](https://arxiv.org/abs/2601.03515) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-01-06 | Agent Memory | [TiMem: Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents](https://arxiv.org/abs/2601.02845) | ⭐ Popular code<br>📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-01-06 | Agent Memory | [MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents](https://arxiv.org/abs/2601.03236) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-01-06 | Agent Memory | [SYNAPSE: Empowering LLM Agents with Episodic-Semantic Memory via Spreading Activation](https://arxiv.org/abs/2601.02744) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-01-06 | Agent Memory, Reinforcement Learning | [HiMeS: Hippocampus-inspired Memory System for Personalized AI Assistants](https://arxiv.org/abs/2601.06152) | — |
-| 2026-01-06 | Agent Memory | [Agentic Memory Enhanced Recursive Reasoning for Root Cause Localization in Microservices](https://arxiv.org/abs/2601.02732) | — |
+| 2026-01-06 | Agent Memory | [Agentic Memory Enhanced Recursive Reasoning for Root Cause Localization in Microservices](https://arxiv.org/abs/2601.02732) | 📈 Highly cited |
 | 2026-01-05 | Agent/LLM Self-Improvement | [Large Language Models are Shannon Lossy Compressors Not Solomonoff Induction Estimators: Self-improvement and Singularity Are Not Near Without Symbolic Model Synthesis](https://arxiv.org/abs/2601.05280v6) | — |
 | 2026-01-02 | Reinforcement Learning | [Precision autotuning for linear solvers via contextual bandit-based RL](https://arxiv.org/abs/2601.00728v5) | — |
 | 2026-01-01 | Agent/LLM Self-Improvement | [ClinicalReTrial: Clinical Trial Redesign with Self-Evolving Agents](https://arxiv.org/abs/2601.00290v3) | — |
@@ -57,28 +63,55 @@
 | 2025-12-29 | Reinforcement Learning | [SB-TRPO: Towards Safe Reinforcement Learning with Hard Constraints](https://arxiv.org/abs/2512.23770v4) | — |
 | 2025-12-28 | Reinforcement Learning | [ReDiF: Resource-Efficient Few-Step Diffusion Distillation via Reinforcement Learning](https://arxiv.org/abs/2512.22802v2) | — |
 | 2025-12-12 | Reinforcement Learning | [UniBYD: A Unified Framework for Learning Robotic Manipulation Across Embodiments Beyond Imitation of Human Demonstrations](https://arxiv.org/abs/2512.11609v3) | — |
-| 2025-12-10 | LLM Continual Training, Reinforcement Learning | [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3) | 📈 Highly cited |
-| 2025-12-09 | LLM Continual Training | [Prompt-Based Continual Compositional Zero-Shot Learning](https://arxiv.org/abs/2512.09172v3) | — |
-| 2025-12-05 | LLM Continual Training | [K2-V2: A 360-Open, Reasoning-Enhanced LLM](https://arxiv.org/abs/2512.06201v3) | — |
-| 2025-12-02 | Agent/LLM Self-Improvement, Reinforcement Learning | [Think, Then Look: Active Spatial Reasoning for House-Scale 3D Scene Understanding](https://arxiv.org/abs/2512.03284v2) | — |
-| 2025-12-01 | Reinforcement Learning | [Diffusion-Augmented Markov Decision Processes for Maximum Entropy Reinforcement Learning](https://arxiv.org/abs/2512.02019v4) | — |
-| 2025-11-27 | Agent/LLM Self-Improvement | [Co-Evolving Agents: Learning from Failures as Hard Negatives](https://arxiv.org/abs/2511.22254v5) | — |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [Grounding Agent Memory in Contextual Intent](https://arxiv.org/abs/2601.10702) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>Amazon |
+| [Chain-of-Memory: Lightweight Memory Construction with Dynamic Evolution for LLM Agents](https://arxiv.org/abs/2601.14287) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [MemRec: Collaborative Memory-Augmented Agentic Recommender System](https://arxiv.org/abs/2601.08816) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [AtomMem : Learnable Dynamic Agentic Memory with Atomic Memory Operation](https://arxiv.org/abs/2601.08323) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Mem2ActBench: A Benchmark for Evaluating Long-Term Memory Utilization in Task-Oriented Autonomous Agents](https://arxiv.org/abs/2601.19935) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [Robotic Video World Models: A Survey of Applications, Research Challenges, Future Directions](https://arxiv.org/abs/2601.07823v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [DarwinTOD: LLM-driven Lifelong Self-evolution for Task-oriented Dialog Systems](https://arxiv.org/abs/2601.07248) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [MemoBrain: Executive Memory as an Agentic Brain for Reasoning](https://arxiv.org/abs/2601.08079) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [Learning How to Remember: A Meta-Cognitive Management Method for Structured and Transferable Agent Memory](https://arxiv.org/abs/2601.07470) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>Institute of Automation, Chinese Academy of Sciences |
+| [Beyond Dialogue Time: Temporal Semantic Memory for Personalized LLM Agents](https://arxiv.org/abs/2601.07468) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>Institute of Computing Technology, Chinese Academy of Sciences |
+| [Active Context Compression: Autonomous Memory Management in LLM Agents](https://arxiv.org/abs/2601.07190) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [MemGovern: Enhancing Code Agents through Learning from Governed Human Experiences](https://arxiv.org/abs/2601.06789) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [HiMem: Hierarchical Long-Term Memory for LLM Long-Horizon Agents](https://arxiv.org/abs/2601.06377) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [StackPlanner: A Centralized Hierarchical Multi-Agent System with Task-Experience Memory Management](https://arxiv.org/abs/2601.05890) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Memory Poisoning Attack and Defense on Memory Based LLM-Agents](https://arxiv.org/abs/2601.05504) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Controllable Memory Usage: Balancing Anchoring and Innovation in Long-Term Human-Agent Interaction](https://arxiv.org/abs/2601.05107) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>Fudan Univerisity, Fudan University |
+| [Memory Matters More: Event-Centric Memory as a Logic Map for Agent Searching and Reasoning](https://arxiv.org/abs/2601.04726) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>First author: GSAI, Renmin University of China (Semantic Scholar author profiles) |
+| [Beyond Static Summarization: Proactive Memory Extraction for LLM Agents](https://arxiv.org/abs/2601.04463) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents](https://arxiv.org/abs/2601.03515) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>University of Illinois Urbana-Champaign |
+| [TiMem: Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents](https://arxiv.org/abs/2601.02845) | ⭐ Popular code<br>📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents](https://arxiv.org/abs/2601.03236) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [SYNAPSE: Empowering LLM Agents with Episodic-Semantic Memory via Spreading Activation](https://arxiv.org/abs/2601.02744) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [Agentic Memory Enhanced Recursive Reasoning for Root Cause Localization in Microservices](https://arxiv.org/abs/2601.02732) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
+
+### [Towards AGI A Pragmatic Approach Towards Self Evolving Agent](https://arxiv.org/abs/2601.11658)
+
+- **Authors:** Kar, Indrajit, Zonunpuia, Sammy, Ralte, Zonunfeli
+- **Published:** 2026-01-15
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2601.11658) · [PDF](https://arxiv.org/pdf/2601.11658)
+
+Large Language Model (LLM) based agents are powerful yet fundamentally static after deployment, lacking the ability to autonomously expand capabilities, generate new tools, or evolve their reasoning. This work introduces a hierarchical self-evolving multi-agent framework that integrates a Base LLM, an operational SLM agent, a Code-Generation LLM, and a Teacher-LLM to enable continuous adaptation. The workflow begins with the agent attempting a task using reasoning and existing tools; if unsuccessful, it escalates to tool synthesis through the Code-Gen LLM, and when failures persist, it triggers an evolution phase using Curriculum Learning (CL), Reward-Based Learning (RL), or Genetic Algorithm (GA) evolution. Using the TaskCraft dataset rich in hierarchical tasks, tool-use traces, and difficulty scaling we evaluate these paradigms. CL delivers fast recovery and strong generalization, RL excels on high-difficulty tasks, and GA offers high behavioral diversity. Across all settings, evolved agents outperform their originals, demonstrating robust, autonomous, self-improving agentic evolution.
 
 ### [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/abs/2601.09465)
 
 - **Authors:** Zhang, Shuo, Yuan, Chaofa, Guo, Ryan, Yu, Xiaomin, Xu, Rui, Chen, Zhangquan, Li, Zinuo, Yang, Zhi, Guan, Shuhao, Tang, Zhenheng, Hu, Sen, Zhang, Liwen, Chen, Ronghao, Wang, Huacan
 - **Published:** 2026-01-14
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.09465) · [PDF](https://arxiv.org/pdf/2601.09465)
@@ -90,8 +123,8 @@ While LLM-based agents have shown promise for deep research, most existing appro
 - **Authors:** Zhou, Yuqing, Wang, Zhuoer, Yuan, Jie, Wang, Hong, Koelle, Samson, Zhu, Ziwei, Niu, Wei
 - **Published:** 2026-01-13
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** Iowa State University, TAMU, Microsoft, Amazon
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2601.08158) · [PDF](https://arxiv.org/pdf/2601.08158)
 
@@ -101,8 +134,8 @@ Large language model (LLM)-based agents are widely deployed in user-facing servi
 
 - **Authors:** Zhang, Shuyu, Liu, Yujie, Wang, Xinru, Zhang, Cheng, Zhu, Yanmin, Li, Bin
 - **Published:** 2026-01-12
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
 - **Affiliations:** n/a
 - **Categories:** cs.MA
 - **Links:** [Paper](https://arxiv.org/abs/2601.07248) · [PDF](https://arxiv.org/pdf/2601.07248)
@@ -113,8 +146,8 @@ Traditional task-oriented dialog systems are unable to evolve from ongoing inter
 
 - **Authors:** Zhang, Ningning, Yang, Xingxing, Tan, Zhizhong, Deng, Weiping, Wang, Wenyong
 - **Published:** 2026-01-10
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.06377) · [PDF](https://arxiv.org/pdf/2601.06377) · [Code](https://github.com/jojopdq/HiMem)
@@ -126,7 +159,7 @@ Although long-term memory systems have made substantial progress in recent years
 - **Authors:** Li, Zixuan, Wang, Chuanzhen, Sun, Haotian
 - **Published:** 2026-01-09
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.DC
 - **Links:** [Paper](https://arxiv.org/abs/2601.05569) · [PDF](https://arxiv.org/pdf/2601.05569)
@@ -151,44 +184,56 @@ We connect two questions in Algorithmic Information Theory (AIT), Machine Learni
 - **Published:** 2026-01-01
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Nanjing University
 - **Categories:** cs.AI, cs.MA
 - **Links:** [Paper](https://arxiv.org/abs/2601.00290v3) · [PDF](https://arxiv.org/pdf/2601.00290v3) · [Code](https://github.com/xingsixue123/ClinicalFailureReasonReTrial)
 
 Clinical trials constitute a critical yet exceptionally challenging and costly stage of drug development (\$2.6B per drug), where protocols are encoded as complex natural language documents, motivating the use of AI systems beyond manual analysis. Existing AI methods accurately predict trial failure, but do not provide actionable remedies. To fill this gap, this paper proposes ClinicalReTrial, a multi-agent system that formulates clinical trial optimization as an iterative redesign problem on textual protocols. Our method integrates failure diagnosis, safety-aware modifications, and candidate evaluation in a closed-loop, reward-driven optimization framework. Serving the outcome prediction model as a simulation environment, ClinicalReTrial enables low-cost evaluation and dense reward signals for continuous self-improvement. We further propose a hierarchical memory that captures iteration-level feedback within trials and distills transferable redesign patterns across trials. Empirically, ClinicalReTrial turns 56.7% of failed protocols into predicted successes under the simulation environment, with a mean success probability gain of 7.4% at negligible cost (\$0.156 per trial). Extensive retrospective case studies further show that ClinicalReTrial recovers clinically meaningful modification patterns that align with real-world expert-driven protocol changes.
 
-### [Think, Then Look: Active Spatial Reasoning for House-Scale 3D Scene Understanding](https://arxiv.org/abs/2512.03284v2)
-
-- **Authors:** Hongpei Zheng, Shijie Li, Lin Qian, Zhenghao Li, Qijun Yang, Yanran Li, Hujun Yin
-- **Published:** 2025-12-02
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2512.03284v2) · [PDF](https://arxiv.org/pdf/2512.03284v2)
-
-Spatial reasoning in large-scale 3D environments remains challenging for current vision--language models, which are typically constrained to room-scale scenarios. We formalize Active House-Scale Spatial Reasoning (AHSR), a new paradigm in which a model reasons over a pre-built house-scale 3D map via virtual spatial tool invocations to answer spatial questions, without exhaustive scene-wide processing. To support AHSR research, we introduce H$^2$U3D (Holistic House Understanding in 3D), the first benchmark targeting house-scale 3D scene understanding, featuring environments with an average aggregate floor area of 250.8 m$^2$ and up to three floors, together with hierarchical coarse-to-fine visual representations. Building on H$^2$U3D, we propose SpatialReasoner, an AHSR framework trained via supervised fine-tuning with self-correction, followed by reinforcement learning with a task-aware adaptive exploration reward. SpatialReasoner achieves state-of-the-art performance on H$^2$U3D with 64.9% overall accuracy, outperforming strong baselines including GPT-5.4 and Gemini-3.5-Flash, and generalizes effectively to MT-HM3D and HM-EQA. These results demonstrate the clear advantage of active map-directed exploration over passive scene-wide processing in house-scale 3D understanding.
-
-### [Co-Evolving Agents: Learning from Failures as Hard Negatives](https://arxiv.org/abs/2511.22254v5)
-
-- **Authors:** Yeonsung Jung, Trilok Padhi, Sina Shaham, Dipika Khullar, Joonhyun Jeong, Ninareh Mehrabi, Eunho Yang
-- **Published:** 2025-11-27
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2511.22254v5) · [PDF](https://arxiv.org/pdf/2511.22254v5)
-
-Self-evolving agents improve their performance on long-horizon tasks by learning from their own interactions with an environment. A common approach uses the resulting failed trajectories as negatives for preference training. However, collecting an agent's own failures does not ensure that they provide informative supervision for further improvement. Obvious failures may be easy to reject without learning to identify errors in more plausible attempts. These plausible but incorrect trajectories can serve as hard negatives, helping agents learn to distinguish successful behavior from failures with less obvious errors. To enable agents to generate and learn from such informative negatives, we propose a co-evolving framework that couples a target agent's self-improvement with a failure agent trained to generate hard negatives. The failure agent learns exclusively from both agents' failed trajectories to generate higher-reward failures, which the target agent uses as negatives for preference training. As the target policy improves, its failures provide new training data for the failure agent. The updated failure agent, in turn, provides new negatives for target training, allowing negative generation to adapt alongside the target policy. Across online shopping, scientific reasoning, and interactive SQL querying, our framework improves average task reward by 5.7 over the baseline. These results demonstrate the value of learning to generate and use informative failures for agent self-improvement. We will make our code publicly available.
-
 ## Agent Memory
+
+### [Grounding Agent Memory in Contextual Intent](https://arxiv.org/abs/2601.10702)
+
+- **Authors:** Yang, Ruozhen, Jiang, Yucheng, Jiang, Yueqi, Kargupta, Priyanka, Zhang, Yunyi, Han, Jiawei
+- **Published:** 2026-01-15
+- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** Amazon
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2601.10702) · [PDF](https://arxiv.org/pdf/2601.10702)
+
+Deploying large language models in long-horizon, goal-oriented interactions remains challenging because similar entities and facts recur under different latent goals and constraints, causing memory systems to retrieve context-mismatched evidence. We propose STITCH (Structured Intent Tracking in Contextual History), an agentic memory system that indexes each trajectory step with a structured retrieval cue, contextual intent, and retrieves history by matching the current step's intent. Contextual intent provides compact signals that disambiguate repeated mentions and reduce interference: (1) the current latent goal defining a thematic segment, (2) the action type, and (3) the salient entity types anchoring which attributes matter. During inference, STITCH filters and prioritizes memory snippets by intent compatibility, suppressing semantically similar but context-incompatible history. For evaluation, we introduce CAME-Bench, a benchmark for context-aware retrieval in realistic, dynamic, goal-oriented trajectories. Across CAME-Bench and LongMemEval, STITCH achieves state-of-the-art performance, outperforming the strongest baseline by 35.6%, with the largest gains as trajectory length increases. Our analysis shows that intent indexing substantially reduces retrieval noise, supporting intent-aware memory for robust long-horizon reasoning.
+
+### [AI Agents Need Memory Control Over More Context](https://arxiv.org/abs/2601.11653)
+
+- **Authors:** Bousetouane, Fouad
+- **Published:** 2026-01-15
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** q-bio.NC
+- **Links:** [Paper](https://arxiv.org/abs/2601.11653) · [PDF](https://arxiv.org/pdf/2601.11653)
+
+AI agents are increasingly used in long, multi-turn workflows in both research and enterprise settings. As interactions grow, agent behavior often degrades due to loss of constraint focus, error accumulation, and memory-induced drift. This problem is especially visible in real-world deployments where context evolves, distractions are introduced, and decisions must remain consistent over time. A common practice is to equip agents with persistent memory through transcript replay or retrieval-based mechanisms. While convenient, these approaches introduce unbounded context growth and are vulnerable to noisy recall and memory poisoning, leading to unstable behavior and increased drift. In this work, we introduce the Agent Cognitive Compressor (ACC), a bio-inspired memory controller that replaces transcript replay with a bounded internal state updated online at each turn. ACC separates artifact recall from state commitment, enabling stable conditioning while preventing unverified content from becoming persistent memory. We evaluate ACC using an agent-judge-driven live evaluation framework that measures both task outcomes and memory-driven anomalies across extended interactions. Across scenarios spanning IT operations, cybersecurity response, and healthcare workflows, ACC consistently maintains bounded memory and exhibits more stable multi-turn behavior, with significantly lower hallucination and drift than transcript replay and retrieval-based agents. These results show that cognitive compression provides a practical and effective foundation for reliable memory control in long-horizon AI agents.
+
+### [Chain-of-Memory: Lightweight Memory Construction with Dynamic Evolution for LLM Agents](https://arxiv.org/abs/2601.14287)
+
+- **Authors:** Xu, Xiucheng, Xu, Bingbing, Tian, Xueyun, Huang, Zihe, Chen, Rongxin, Li, Yunfan, Shen, Huawei
+- **Published:** 2026-01-14
+- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** n/a
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2601.14287) · [PDF](https://arxiv.org/pdf/2601.14287)
+
+External memory systems are pivotal for enabling Large Language Model (LLM) agents to maintain persistent knowledge and perform long-horizon decision-making. Existing paradigms typically follow a two-stage process: computationally expensive memory construction (e.g., structuring data into graphs) followed by naive retrieval-augmented generation. However, our empirical analysis reveals two fundamental limitations: complex construction incurs high costs with marginal performance gains, and simple context concatenation fails to bridge the gap between retrieval recall and reasoning accuracy. To address these challenges, we propose CoM (Chain-of-Memory), a novel framework that advocates for a paradigm shift toward lightweight construction paired with sophisticated utilization. CoM introduces a Chain-of-Memory mechanism that organizes retrieved fragments into coherent inference paths through dynamic evolution, utilizing adaptive truncation to prune irrelevant noise. Extensive experiments on the LongMemEval and LoCoMo benchmarks demonstrate that CoM outperforms strong baselines with accuracy gains of 7.5%-10.4%, while drastically reducing computational overhead to approximately 2.7% of token consumption and 6.0% of latency compared to complex memory architectures.
 
 ### [CAST: Character-and-Scene Episodic Memory for Agents](https://arxiv.org/abs/2602.06051)
 
 - **Authors:** Ma, Kexin, Li, Bojun, Tang, Yuhua, Sun, Liting, Jin, Ruochun
 - **Published:** 2026-01-14
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2602.06051) · [PDF](https://arxiv.org/pdf/2602.06051)
@@ -200,7 +245,7 @@ Episodic memory is a central component of human memory, which refers to the abil
 - **Authors:** Arslan, Mustafa
 - **Published:** 2026-01-14
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.15311) · [PDF](https://arxiv.org/pdf/2601.15311)
@@ -212,7 +257,7 @@ Large Language Models (LLMs) are fundamentally constrained by the quadratic comp
 - **Authors:** Logan, Joe
 - **Published:** 2026-01-14
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.09913) · [PDF](https://arxiv.org/pdf/2601.09913)
@@ -235,8 +280,8 @@ Agentic memory systems have become critical for enabling LLM agents to maintain 
 
 - **Authors:** Chen, Weixin, Zhao, Yuhan, Huang, Jingyuan, Ye, Zihe, Ju, Clark Mingxuan, Zhao, Tong, Shah, Neil, Chen, Li, Zhang, Yongfeng
 - **Published:** 2026-01-13
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
 - **Affiliations:** n/a
 - **Categories:** cs.IR
 - **Links:** [Paper](https://arxiv.org/abs/2601.08816) · [PDF](https://arxiv.org/pdf/2601.08816) · [Code](https://github.com/rutgerswiselab/memrec)
@@ -247,8 +292,8 @@ The evolution of recommender systems has shifted from traditional collaborative 
 
 - **Authors:** Huo, Yupeng, Lu, Yaxi, Zhang, Zhong, Chen, Haotian, Lin, Yankai
 - **Published:** 2026-01-13
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.08323) · [PDF](https://arxiv.org/pdf/2601.08323)
@@ -259,8 +304,8 @@ Equipping agents with memory is essential for solving real-world long-horizon pr
 
 - **Authors:** Shen, Yiting, Li, Kun, Zhou, Wei, Hu, Songlin
 - **Published:** 2026-01-13
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2601.19935) · [PDF](https://arxiv.org/pdf/2601.19935)
@@ -272,7 +317,7 @@ Large Language Model (LLM)-based agents are increasingly deployed for complex, t
 - **Authors:** Yadav, Arin Gopalan, Dherange, Varad, Shivam, Kumar
 - **Published:** 2026-01-13
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.08156) · [PDF](https://arxiv.org/pdf/2601.08156)
@@ -296,7 +341,7 @@ Long-term memory (LTM) is fundamental to large language model (LLM)-based agents
 - **Authors:** Zou, Huhai, Sun, Tianhao, He, Chuanjiang, Tian, Yu, Li, Zhenyang, Jin, Li, Liu, Nayu, Zhong, Jiang, Wei, Kaiwen
 - **Published:** 2026-01-12
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2601.07582) · [PDF](https://arxiv.org/pdf/2601.07582)
@@ -307,8 +352,8 @@ Memory is critical for dialogue agents to maintain coherence and enable continuo
 
 - **Authors:** Qian, Hongjin, Cao, Zhao, Liu, Zheng
 - **Published:** 2026-01-12
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.08079) · [PDF](https://arxiv.org/pdf/2601.08079) · [Code](https://github.com/qhjqhj00/MemoBrain)
@@ -319,9 +364,9 @@ Complex reasoning in tool-augmented agent frameworks is inherently long-horizon,
 
 - **Authors:** Liang, Sirui, Cao, Pengfei, Zhao, Jian, Teng, Wenhao, Liao, Xiangwen, Zhao, Jun, Liu, Kang
 - **Published:** 2026-01-12
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** Institute of Automation, Chinese Academy of Sciences
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.07470) · [PDF](https://arxiv.org/pdf/2601.07470)
 
@@ -331,9 +376,9 @@ Large language model (LLM) agents increasingly rely on accumulated memory to sol
 
 - **Authors:** Su, Miao, Guo, Yucan, Hou, Zhongni, Bai, Long, Li, Zixuan, Zhang, Yufei, Yin, Guojun, Lin, Wei, Jin, Xiaolong, Guo, Jiafeng, Cheng, Xueqi
 - **Published:** 2026-01-12
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** Institute of Computing Technology, Chinese Academy of Sciences
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.07468) · [PDF](https://arxiv.org/pdf/2601.07468)
 
@@ -343,8 +388,8 @@ Memory enables Large Language Model (LLM) agents to perceive, store, and use inf
 
 - **Authors:** Verma, Nikhil
 - **Published:** 2026-01-12
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.07190) · [PDF](https://arxiv.org/pdf/2601.07190)
@@ -367,8 +412,8 @@ As LLMs move from text completion toward autonomous agents, they remain constrai
 
 - **Authors:** Wang, Qihao, Cheng, Ziming, Zhang, Shuo, Liu, Fan, Xu, Rui, Lian, Heng, Wang, Kunyi, Yu, Xiaoming, Yin, Jianghao, Hu, Sen, Hu, Yue, Zhang, Shaolei, Liu, Yanbing, Chen, Ronghao, Wang, Huacan
 - **Published:** 2026-01-11
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.SE
 - **Links:** [Paper](https://arxiv.org/abs/2601.06789) · [PDF](https://arxiv.org/pdf/2601.06789)
@@ -380,7 +425,7 @@ While autonomous software engineering (SWE) agents are reshaping programming par
 - **Authors:** Mao, Wenyu, Tan, Haosong, Liu, Shuchang, Liu, Haoyang, Xu, Yifan, Ji, Huaxiang, Wang, Xiang
 - **Published:** 2026-01-10
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.MA
 - **Links:** [Paper](https://arxiv.org/abs/2601.06490) · [PDF](https://arxiv.org/pdf/2601.06490)
@@ -391,8 +436,8 @@ Constructing memory from users' long-term conversations overcomes LLMs' contextu
 
 - **Authors:** Zhang, Ningning, Yang, Xingxing, Tan, Zhizhong, Deng, Weiping, Wang, Wenyong
 - **Published:** 2026-01-10
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.06377) · [PDF](https://arxiv.org/pdf/2601.06377) · [Code](https://github.com/jojopdq/HiMem)
@@ -403,8 +448,8 @@ Although long-term memory systems have made substantial progress in recent years
 
 - **Authors:** Zhang, Ruizhe, Jiang, Xinke, Yang, Zhibang, Zhang, Zhixin, Gao, Jiaran, Xiao, Yuzhen, Feng, Tao, Fang, Yue, Liu, Yuxuan, Li, Ruiqing, Lai, Hongbin, Huang, Huheng, Chu, Xu, Zhao, Junfeng, Wang, Yasha
 - **Published:** 2026-01-09
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.05890) · [PDF](https://arxiv.org/pdf/2601.05890)
@@ -415,8 +460,8 @@ Multi-agent systems based on large language models, particularly centralized arc
 
 - **Authors:** Sunil, Balachandra Devarangadi, Sinha, Isheeta, Maheshwari, Piyush, Todmal, Shantanu, Mallik, Shreyan, Mishra, Shuchi
 - **Published:** 2026-01-09
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CR
 - **Links:** [Paper](https://arxiv.org/abs/2601.05504) · [PDF](https://arxiv.org/pdf/2601.05504)
@@ -428,7 +473,7 @@ Large language model agents equipped with persistent memory are vulnerable to me
 - **Authors:** Zhou, Yue, Guo, Xiaobo, Bayar, Belhassen, Sengamedu, Srinivasan H.
 - **Published:** 2026-01-09
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** Conference of the European Chapter of the Association for Computational Linguistics
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2601.06282) · [PDF](https://arxiv.org/pdf/2601.06282)
@@ -440,7 +485,7 @@ Long-term conversational agents face a fundamental scalability challenge as inte
 - **Authors:** Doss, Tamil Sudaravan Mohan, Xu, Michael, Rao, Sudha, Wilson, Andrew D., Kumaravel, Balasaravanan Thoravi
 - **Published:** 2026-01-08
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.05215) · [PDF](https://arxiv.org/pdf/2601.05215)
@@ -451,9 +496,9 @@ We present MineNPC-Task, a user-authored benchmark and evaluation harness for te
 
 - **Authors:** Tian, Muzhao, Huang, Zisu, Wang, Xiaohua, Xu, Jingwen, Guo, Zhengkang, Qian, Qi, Shen, Yuanzhe, Song, Kaitao, Yuan, Jiakang, Lv, Changze, Zheng, Xiaoqing
 - **Published:** 2026-01-08
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** Fudan Univerisity, Fudan University
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.05107) · [PDF](https://arxiv.org/pdf/2601.05107)
 
@@ -463,9 +508,9 @@ As LLM-based agents are increasingly used in long-term interactions, cumulative 
 
 - **Authors:** Hu, Yuyang, Liu, Jiongnan, Tan, Jiejun, Zhu, Yutao, Dou, Zhicheng
 - **Published:** 2026-01-08
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** GSAI, GSAI, Renmin University of China, Renmin University of China, University of Montreal
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.04726) · [PDF](https://arxiv.org/pdf/2601.04726)
 
@@ -475,8 +520,8 @@ Large language models (LLMs) are increasingly deployed as intelligent agents tha
 
 - **Authors:** Yang, Chengyuan, Sun, Zequn, Wei, Wei, Hu, Wei
 - **Published:** 2026-01-08
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2601.04463) · [PDF](https://arxiv.org/pdf/2601.04463)
@@ -488,7 +533,7 @@ Memory management is vital for LLM agents to handle long-term interaction and pe
 - **Authors:** Tao, Dehao, Ma, Guoliang, Huang, Yongfeng, Jiang, Minghu
 - **Published:** 2026-01-07
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2601.03785) · [PDF](https://arxiv.org/pdf/2601.03785)
@@ -499,20 +544,44 @@ Long-term human-agent dialogues are organized by topic continuity: adjacent turn
 
 - **Authors:** Bei, Yuanchen, Wei, Tianxin, Ning, Xuying, Zhao, Yanjun, Liu, Zhining, Lin, Xiao, Zhu, Yada, Hamann, Hendrik, He, Jingrui, Tong, Hanghang
 - **Published:** 2026-01-07
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** University of Illinois Urbana-Champaign
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2601.03515) · [PDF](https://arxiv.org/pdf/2601.03515)
 
 Long-term memory is a critical capability for multimodal large language model (MLLM) agents, particularly in conversational settings where information accumulates and evolves over time. However, existing benchmarks either evaluate multi-session memory in text-only conversations or assess multimodal understanding within localized contexts, failing to evaluate how multimodal memory is preserved, organized, and evolved across long-term conversational trajectories. Thus, we introduce Mem-Gallery, a new benchmark for evaluating multimodal long-term conversational memory in MLLM agents. Mem-Gallery features high-quality multi-session conversations grounded in both visual and textual information, with long interaction horizons and rich multimodal dependencies. Building on this dataset, we propose a systematic evaluation framework that assesses key memory capabilities along three functional dimensions: memory extraction and test-time adaptation, memory reasoning, and memory knowledge management. Extensive benchmarking across thirteen memory systems reveals several key findings, highlighting the necessity of explicit multimodal information retention and memory organization, the persistent limitations in memory reasoning and knowledge management, as well as the efficiency bottleneck of current models.
 
+### [TiMem: Temporal-Hierarchical Memory Consolidation for Long-Horizon Conversational Agents](https://arxiv.org/abs/2601.02845)
+
+- **Authors:** Li, Kai, Yu, Xuanqing, Ni, Ziyi, Zeng, Yi, Xu, Yao, Zhang, Zheqing, Li, Xin, Sang, Jitao, Duan, Xiaogang, Wang, Xuelei, Liu, Chengbao, Tan, Jie
+- **Published:** 2026-01-06
+- **Priority:** ⭐ Popular code<br>📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2601.02845) · [PDF](https://arxiv.org/pdf/2601.02845) · [Code](https://github.com/TiMEM-AI/timem)
+
+Long-horizon conversational agents have to manage ever-growing interaction histories that quickly exceed the finite context windows of large language models (LLMs). Existing memory frameworks provide limited support for temporally structured information across hierarchical levels, often leading to fragmented memories and unstable long-horizon personalization. We present TiMem, a temporal--hierarchical memory framework that organizes conversations through a Temporal Memory Tree (TMT), enabling systematic memory consolidation from raw conversational observations to progressively abstracted persona representations. TiMem is characterized by three core properties: (1) temporal--hierarchical organization through TMT; (2) semantic-guided consolidation that enables memory integration across hierarchical levels without fine-tuning; and (3) complexity-aware memory recall that balances precision and efficiency across queries of varying complexity. Under a consistent evaluation setup, TiMem achieves state-of-the-art accuracy on both benchmarks, reaching 75.30% on LoCoMo and 76.88% on LongMemEval-S. It outperforms all evaluated baselines while reducing the recalled memory length by 52.20% on LoCoMo. Manifold analysis indicates clear persona separation on LoCoMo and reduced dispersion on LongMemEval-S. Overall, TiMem treats temporal continuity as a first-class organizing principle for long-horizon memory in conversational agents. The code is available at https://github.com/TiMEM-AI/timem.
+
+### [MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents](https://arxiv.org/abs/2601.03236)
+
+- **Authors:** Jiang, Dongming, Li, Yi, Li, Guanpeng, Li, Bingzhe
+- **Published:** 2026-01-06
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2601.03236) · [PDF](https://arxiv.org/pdf/2601.03236)
+
+Memory-Augmented Generation (MAG) extends Large Language Models with external memory to support long-context reasoning, but existing approaches largely rely on semantic similarity over monolithic memory stores, entangling temporal, causal, and entity information. This design limits interpretability and alignment between query intent and retrieved evidence, leading to suboptimal reasoning accuracy. In this paper, we propose MAGMA, a multi-graph agentic memory architecture that represents each memory item across orthogonal semantic, temporal, causal, and entity graphs. MAGMA formulates retrieval as policy-guided traversal over these relational views, enabling query-adaptive selection and structured context construction. By decoupling memory representation from retrieval logic, MAGMA provides transparent reasoning paths and fine-grained control over retrieval. Experiments on LoCoMo and LongMemEval demonstrate that MAGMA consistently outperforms state-of-the-art agentic memory systems in long-horizon reasoning tasks.
+
 ### [SYNAPSE: Empowering LLM Agents with Episodic-Semantic Memory via Spreading Activation](https://arxiv.org/abs/2601.02744)
 
 - **Authors:** Jiang, Hanqi, Chen, Junhao, Pan, Yi, Chen, Ling, You, Weihang, Zhou, Yifan, Zhang, Ruidong, Sikora, Andrea, Zhao, Lin, Abate, Yohannes, Liu, Tianming
 - **Published:** 2026-01-06
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2601.02744) · [PDF](https://arxiv.org/pdf/2601.02744)
@@ -524,7 +593,7 @@ While Large Language Models (LLMs) excel at generalized reasoning, standard retr
 - **Authors:** Li, Hailong, Li, Feifei, Que, Wenhui, Fan, Xingyu
 - **Published:** 2026-01-06
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** International Conference on Pattern Recognition
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.06152) · [PDF](https://arxiv.org/pdf/2601.06152)
@@ -535,8 +604,8 @@ Large language models (LLMs) power many interactive systems such as chatbots, cu
 
 - **Authors:** Zhang, Lingzhe, Jia, Tong, Zhai, Yunpeng, Pan, Leyi, Duan, Chiming, He, Minghua, Jia, Mengxi, Li, Ying
 - **Published:** 2026-01-06
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** SEIP@ICSE
 - **Affiliations:** n/a
 - **Categories:** cs.SE
 - **Links:** [Paper](https://arxiv.org/abs/2601.02732) · [PDF](https://arxiv.org/pdf/2601.02732)
@@ -545,12 +614,24 @@ As contemporary microservice systems become increasingly popular and complex-oft
 
 ## LLM Continual Training & Continual Learning
 
+### [Towards AGI A Pragmatic Approach Towards Self Evolving Agent](https://arxiv.org/abs/2601.11658)
+
+- **Authors:** Kar, Indrajit, Zonunpuia, Sammy, Ralte, Zonunfeli
+- **Published:** 2026-01-15
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2601.11658) · [PDF](https://arxiv.org/pdf/2601.11658)
+
+Large Language Model (LLM) based agents are powerful yet fundamentally static after deployment, lacking the ability to autonomously expand capabilities, generate new tools, or evolve their reasoning. This work introduces a hierarchical self-evolving multi-agent framework that integrates a Base LLM, an operational SLM agent, a Code-Generation LLM, and a Teacher-LLM to enable continuous adaptation. The workflow begins with the agent attempting a task using reasoning and existing tools; if unsuccessful, it escalates to tool synthesis through the Code-Gen LLM, and when failures persist, it triggers an evolution phase using Curriculum Learning (CL), Reward-Based Learning (RL), or Genetic Algorithm (GA) evolution. Using the TaskCraft dataset rich in hierarchical tasks, tool-use traces, and difficulty scaling we evaluate these paradigms. CL delivers fast recovery and strong generalization, RL excels on high-difficulty tasks, and GA offers high behavioral diversity. Across all settings, evolved agents outperform their originals, demonstrating robust, autonomous, self-improving agentic evolution.
+
 ### [DarwinTOD: LLM-driven Lifelong Self-evolution for Task-oriented Dialog Systems](https://arxiv.org/abs/2601.07248)
 
 - **Authors:** Zhang, Shuyu, Liu, Yujie, Wang, Xinru, Zhang, Cheng, Zhu, Yanmin, Li, Bin
 - **Published:** 2026-01-12
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
 - **Affiliations:** n/a
 - **Categories:** cs.MA
 - **Links:** [Paper](https://arxiv.org/abs/2601.07248) · [PDF](https://arxiv.org/pdf/2601.07248)
@@ -593,50 +674,14 @@ Modelling a language model for a multi-lingual scenario includes several potenti
 
 Large language models apply uniform computation to all inputs, regardless of difficulty. We propose PonderTTT, a gating strategy using the TTT layer's self-supervised reconstruction loss to selectively trigger Test-Time Training (TTT) updates. The gating decision itself is training-free--requiring no learned classifier or auxiliary networks; only a single scalar threshold is initially calibrated on unlabeled data and continuously adapted via EMA to maintain target update rates. Our experiments with GPT-2 models (124M to 1.5B) on code language modeling (The Stack v2, teacher-forced perplexity) demonstrate that this signal is inference-compatible, requiring no ground-truth labels. Our Reconstruction Gating achieves 82-89% Oracle Recovery while being fully training-free, significantly outperforming Random Skip baselines (up to 16% lower loss on OOD languages).
 
-### [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3)
-
-- **Authors:** Heng Zhang, Rui Dai, Gokhan Solak, Pokuang Zhou, Nikos Tsagarakis, Yu She, Arash Ajoudani
-- **Published:** 2025-12-10
-- **Priority:** 📈 Highly cited
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2512.11908v3) · [PDF](https://arxiv.org/pdf/2512.11908v3)
-
-Contact-rich tasks pose significant challenges for robotic systems due to inherent uncertainty, complex dynamics, and the high risk of damage during interaction. Recent advances in learning-based control have shown great potential in enabling robots to acquire and generalize complex manipulation skills in such environments, but ensuring safety, both during exploration and execution, remains a critical bottleneck for reliable real-world deployment. This survey provides a comprehensive overview of safe learning-based methods for robot contact-rich tasks. We categorize existing approaches into two main domains: safe exploration and safe execution. We review key techniques, including constrained reinforcement learning, risk-sensitive optimization, uncertainty-aware modeling, control barrier functions, and model predictive safety shields, and highlight how these methods incorporate prior knowledge, task structure, and online adaptation to balance safety and efficiency. A particular emphasis of this survey is on how these safe learning principles extend to and interact with emerging robotic foundation models, especially vision-language models (VLMs) and vision-language-action models (VLAs), which unify perception, language, and control for contact-rich manipulation. We discuss both the new safety opportunities enabled by VLM/VLA-based methods, such as language-level specification of constraints and multimodal grounding of safety signals, and the amplified risks and evaluation challenges they introduce. Finally, we outline current limitations and promising future directions toward deploying reliable, safety-aligned, and foundation-model-enabled robots in complex contact-rich environments. More details and materials are available at our \href{ https://github.com/jack-sherman01/Awesome-Learning4Safe-Contact-rich-tasks}{Project GitHub Repository}.
-
-### [Prompt-Based Continual Compositional Zero-Shot Learning](https://arxiv.org/abs/2512.09172v3)
-
-- **Authors:** Sauda Maryam, Sara Nadeem, Faisal Qureshi, Mohsen Ali
-- **Published:** 2025-12-09
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.CV, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2512.09172v3) · [PDF](https://arxiv.org/pdf/2512.09172v3)
-
-We tackle continual adaptation of vision-language models to new attributes, objects, and their compositions in Compositional Zero-Shot Learning (CZSL), while preventing forgetting of prior knowledge. Unlike classical continual learning where classes are disjoint, CCZSL is more complex as attributes and objects may reoccur across sessions while compositions remain unique. Built on a frozen VLM backbone, we propose the first Prompt-based Continual Compositional Zero-Shot Learning (PromptCCZSL) framework that retains prior knowledge through recency-weighted multi-teacher distillation. It employs session-aware compositional prompts to fuse multimodal features for new compositions, while attribute and object prompts are learned through session-agnostic fusion to maintain global semantic consistency, which is further stabilized by a Cosine Anchor Loss (CAL) to preserve prior knowledge. To enhance adaptation in the current session, an Orthogonal Projection Loss (OPL) ensures that new attribute and object embeddings remain distinct from previous ones, preventing overlap, while an Intra-Session Diversity Loss (IDL) promotes variation among current-session embeddings for richer, more discriminative representations. We also introduce a comprehensive protocol that jointly measures catastrophic forgetting and compositional generalization. Extensive experiments on UT-Zappos and C-GQA benchmarks demonstrate that PromptCCZSL achieves substantial improvements over prior VLM-based and non-VLM baselines, setting a new benchmark for CCZSL in closed-world settings.
-
-### [K2-V2: A 360-Open, Reasoning-Enhanced LLM](https://arxiv.org/abs/2512.06201v3)
-
-- **Authors:** K2 Team, Zhengzhong Liu, Liping Tang, Linghao Jin, Haonan Li, Nikhil Ranjan, Desai Fan, Shaurya Rohatgi, Richard Fan, Omkar Pangarkar, Huijuan Wang, Zhoujun Cheng, Suqi Sun, Seungwook Han, Bowen Tan, Gurpreet Gosal, Xudong Han, Varad Pimpalkhute, Shibo Hao, Ming Shan Hee, Joel Hestness, Haolong Jia, Liqun Ma, Aaryamonvikram Singh, Daria Soboleva, Natalia Vassilieva, Renxi Wang, Yingquan Wu, Yuekai Sun, Taylor Killian, Alexander Moreno, John Maggs, Hector Ren, Guowei He, Hongyi Wang, Xuezhe Ma, Yuqi Wang, Mikhail Yurochkin, Eric P. Xing
-- **Published:** 2025-12-05
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** MBZUAI, Penn State University
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2512.06201v3) · [PDF](https://arxiv.org/pdf/2512.06201v3)
-
-We introduce K2-V2, a 360-open LLM built from scratch as a superior base for reasoning adaptation, in addition to functions such as conversation and knowledge retrieval from general LLMs. It stands as the strongest fully open model, rivals open-weight leaders in its size class, outperforms Qwen2.5-72B and approaches the performance of Qwen3-235B. We actively infuse domain knowledge, reasoning, long-context, and tool use throughout the training process. This explicitly prepares the model for complex reasoning tasks. We demonstrate this potential using simple supervised fine-tuning, establishing a strong baseline that indicates significant headroom for advanced alignment. By releasing the full training history and data composition, we maximize the effectiveness of continuous training, a key open source production scenario. We release the model weights and signature LLM360 artifacts, such as complete training data, to empower the community with a capable, reasoning-centric foundation.
-
 ## Reinforcement Learning
 
 ### [AtomMem : Learnable Dynamic Agentic Memory with Atomic Memory Operation](https://arxiv.org/abs/2601.08323)
 
 - **Authors:** Huo, Yupeng, Lu, Yaxi, Zhang, Zhong, Chen, Haotian, Lin, Yankai
 - **Published:** 2026-01-13
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.08323) · [PDF](https://arxiv.org/pdf/2601.08323)
@@ -671,8 +716,8 @@ This paper studies online power control for battery-limited point-to-point energ
 
 - **Authors:** Zhang, Ruizhe, Jiang, Xinke, Yang, Zhibang, Zhang, Zhixin, Gao, Jiaran, Xiao, Yuzhen, Feng, Tao, Fang, Yue, Liu, Yuxuan, Li, Ruiqing, Lai, Hongbin, Huang, Huheng, Chu, Xu, Zhao, Junfeng, Wang, Yasha
 - **Published:** 2026-01-09
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.05890) · [PDF](https://arxiv.org/pdf/2601.05890)
@@ -684,7 +729,7 @@ Multi-agent systems based on large language models, particularly centralized arc
 - **Authors:** Li, Hailong, Li, Feifei, Que, Wenhui, Fan, Xingyu
 - **Published:** 2026-01-06
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** International Conference on Pattern Recognition
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2601.06152) · [PDF](https://arxiv.org/pdf/2601.06152)
@@ -738,39 +783,3 @@ Step distillation accelerates diffusion sampling by training a few-step student 
 - **Links:** [Paper](https://arxiv.org/abs/2512.11609v3) · [PDF](https://arxiv.org/pdf/2512.11609v3)
 
 In embodied intelligence, the embodiment gap between robotic and human hands brings significant challenges for learning from human demonstrations. Although some studies have attempted to bridge this gap using reinforcement learning, they remain confined to merely reproducing human manipulation, resulting in limited task performance. Moreover, current methods struggle to support diverse robotic hand configurations. In this paper, we propose UniBYD, a unified framework that uses a dynamic reinforcement learning algorithm to discover manipulation policies aligned with the robot's physical characteristics. To enable consistent modeling across diverse robotic hand morphologies, UniBYD incorporates a unified morphological representation (UMR). Building on UMR, we design a dynamic PPO with an annealed reward schedule, enabling reinforcement learning to transition from offline-informed imitation of human demonstrations to online-adaptive exploration of policies better adapted to diverse robotic morphologies, thereby going beyond mere imitation of human hands. To address the severe state drift caused by the incapacity of early-stage policies, we design a hybrid Markov-based shadow engine that provides fine-grained guidance to anchor the imitation within the expert's manifold. To evaluate UniBYD, we propose UniManip, the first benchmark for cross-embodiment manipulation spanning diverse robotic morphologies. Experiments demonstrate a 44.08% average improvement in success rate over the current state-of-the-art. Our project page is https://zhanheng-creator.github.io/UniBYD.
-
-### [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3)
-
-- **Authors:** Heng Zhang, Rui Dai, Gokhan Solak, Pokuang Zhou, Nikos Tsagarakis, Yu She, Arash Ajoudani
-- **Published:** 2025-12-10
-- **Priority:** 📈 Highly cited
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2512.11908v3) · [PDF](https://arxiv.org/pdf/2512.11908v3)
-
-Contact-rich tasks pose significant challenges for robotic systems due to inherent uncertainty, complex dynamics, and the high risk of damage during interaction. Recent advances in learning-based control have shown great potential in enabling robots to acquire and generalize complex manipulation skills in such environments, but ensuring safety, both during exploration and execution, remains a critical bottleneck for reliable real-world deployment. This survey provides a comprehensive overview of safe learning-based methods for robot contact-rich tasks. We categorize existing approaches into two main domains: safe exploration and safe execution. We review key techniques, including constrained reinforcement learning, risk-sensitive optimization, uncertainty-aware modeling, control barrier functions, and model predictive safety shields, and highlight how these methods incorporate prior knowledge, task structure, and online adaptation to balance safety and efficiency. A particular emphasis of this survey is on how these safe learning principles extend to and interact with emerging robotic foundation models, especially vision-language models (VLMs) and vision-language-action models (VLAs), which unify perception, language, and control for contact-rich manipulation. We discuss both the new safety opportunities enabled by VLM/VLA-based methods, such as language-level specification of constraints and multimodal grounding of safety signals, and the amplified risks and evaluation challenges they introduce. Finally, we outline current limitations and promising future directions toward deploying reliable, safety-aligned, and foundation-model-enabled robots in complex contact-rich environments. More details and materials are available at our \href{ https://github.com/jack-sherman01/Awesome-Learning4Safe-Contact-rich-tasks}{Project GitHub Repository}.
-
-### [Think, Then Look: Active Spatial Reasoning for House-Scale 3D Scene Understanding](https://arxiv.org/abs/2512.03284v2)
-
-- **Authors:** Hongpei Zheng, Shijie Li, Lin Qian, Zhenghao Li, Qijun Yang, Yanran Li, Hujun Yin
-- **Published:** 2025-12-02
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2512.03284v2) · [PDF](https://arxiv.org/pdf/2512.03284v2)
-
-Spatial reasoning in large-scale 3D environments remains challenging for current vision--language models, which are typically constrained to room-scale scenarios. We formalize Active House-Scale Spatial Reasoning (AHSR), a new paradigm in which a model reasons over a pre-built house-scale 3D map via virtual spatial tool invocations to answer spatial questions, without exhaustive scene-wide processing. To support AHSR research, we introduce H$^2$U3D (Holistic House Understanding in 3D), the first benchmark targeting house-scale 3D scene understanding, featuring environments with an average aggregate floor area of 250.8 m$^2$ and up to three floors, together with hierarchical coarse-to-fine visual representations. Building on H$^2$U3D, we propose SpatialReasoner, an AHSR framework trained via supervised fine-tuning with self-correction, followed by reinforcement learning with a task-aware adaptive exploration reward. SpatialReasoner achieves state-of-the-art performance on H$^2$U3D with 64.9% overall accuracy, outperforming strong baselines including GPT-5.4 and Gemini-3.5-Flash, and generalizes effectively to MT-HM3D and HM-EQA. These results demonstrate the clear advantage of active map-directed exploration over passive scene-wide processing in house-scale 3D understanding.
-
-### [Diffusion-Augmented Markov Decision Processes for Maximum Entropy Reinforcement Learning](https://arxiv.org/abs/2512.02019v4)
-
-- **Authors:** Sebastian Sanokowski, Kaustubh Patil, Majid Khadiv
-- **Published:** 2025-12-01
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI, stat.ML
-- **Links:** [Paper](https://arxiv.org/abs/2512.02019v4) · [PDF](https://arxiv.org/pdf/2512.02019v4)
-
-Diffusion models provide an expressive framework for sampling from complex, unnormalized distributions. In this work, we extend Maximum Entropy Reinforcement Learning (ME-RL) to diffusion-based policies by introducing Diffusion-Augmented Markov Decision Processes (DA-MDPs). DA-MDPs interpret each reverse-diffusion transition as an individual reinforcement-learning decision, while only the final denoised action is executed in the environment. Our DA-MDPs follow from a principled derivation based on the variational-inference formulation of ME-RL. By augmenting policy and target trajectories with intermediate diffusion variables, we obtain a tractable reverse-KL upper bound via the data-processing inequality. This bound decomposes across denoising transitions, yielding diffusion-augmented variants of soft rewards, value functions, and local policy objectives. This provides a general framework for adapting ME-RL algorithms to diffusion policies while differentiating through only one diffusion transition at a time. We instantiate the framework with PPO, REPPO, and a maximum-entropy extension of WPO. Experiments demonstrate improved continuous-control performance, benefits from additional diffusion steps, and memory-efficient training. On the StackCube and PushT manipulation tasks, DA-MDP methods learn alternative successful strategies from the same initial state and achieve higher success rates and generally higher success-weighted mode entropy than the Gaussian ME-RL baseline. We also demonstrate successful training when using action chunking.

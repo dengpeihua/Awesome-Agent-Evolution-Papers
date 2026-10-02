@@ -1,11 +1,11 @@
-> **2650 papers** · Page 37/53 · Newest first across all pages
+> **2656 papers** · Page 37/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,7 +13,9 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
-| 2026-06-23 | Agent Memory | [Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees](https://arxiv.org/abs/2606.24322) | — |
+| 2026-06-23 | Agent Memory | [Governed Shared Memory for Multi-Agent LLM Systems](https://arxiv.org/abs/2606.24535) | — |
+| 2026-06-23 | Agent Memory | [ReM-MoA: Reasoning Memory Sustains Mixture-of-Agents Scaling](https://arxiv.org/abs/2606.24437) | — |
+| 2026-06-23 | Agent Memory | [Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees](https://arxiv.org/abs/2606.24322) | 📈 Highly cited |
 | 2026-06-22 | LLM Continual Training | [HANCLIP: A Family of Hyperbolic Angular Negation Vision Language Models](https://arxiv.org/abs/2606.23843v2) | — |
 | 2026-06-22 | Reinforcement Learning | [The Hitchhiker's Guide to Agentic AI: From Foundations to Systems](https://arxiv.org/abs/2606.24937v3) | — |
 | 2026-06-22 | Reinforcement Learning | [SPIRAL: Learning to Search and Aggregate](https://arxiv.org/abs/2606.23595v2) | — |
@@ -61,13 +63,12 @@
 | 2026-06-12 | Agent Memory | [StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance](https://arxiv.org/abs/2606.14571v2) | — |
 | 2026-06-12 | Agent Memory | [GitOfThoughts: Version-Controlled Reasoning and Agent Memory You Can Replay, Diff, and Merge](https://arxiv.org/abs/2606.14470) | — |
 | 2026-06-12 | Agent Memory | [Are Online Skill and Memory Modules Always Worth Their Tokens? A Budget-Constrained Study of Web Agents](https://arxiv.org/abs/2606.15017) | — |
-| 2026-06-12 | Agent Memory | [Naive Visual Memory is Not Enough: A Failure-Mode Study of GUI Agents](https://arxiv.org/abs/2606.14106) | — |
-| 2026-06-11 | Agent/LLM Self-Improvement | [SkillCAT: Contrastive, Assessment-Augmented and Topology-AwareSkill Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.13317v2) | — |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees](https://arxiv.org/abs/2606.24322) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [ENPIRE: Agentic Robot Policy Self-Improvement in the Real World](https://arxiv.org/abs/2606.19980v2) | 📈 Highly cited | California Institute of Technology |
 | [EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts](https://arxiv.org/abs/2606.18967v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026; Project Page: https://github.com/furiosa-ai/EfficientRollout |
 
@@ -78,7 +79,7 @@
 - **Authors:** Guixin Su, Qiankun Pi, Mayi Xu, Wenli Li, Ming Zhong, Yuanyuan Zhu, Jiawei Jiang, Tieyun Qian
 - **Published:** 2026-06-20
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2607.22633v2) · [PDF](https://arxiv.org/pdf/2607.22633v2)
@@ -150,7 +151,7 @@ Financial multimodal reasoning requires agents to coordinate numerical computati
 - **Authors:** Chai, Qi, Shen, Wenhao, Yao, Nanjie, Xia, Yue, Zhao, Kaiyong, Ma, Jie, Lin, Guosheng, Wang, Hao
 - **Published:** 2026-06-16
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.18235) · [PDF](https://arxiv.org/pdf/2606.18235)
@@ -162,33 +163,45 @@ Zero-Shot Object-Goal Navigation (ZS-OGN) requires embodied agents to explore an
 - **Authors:** Zheng, Congjie, Xue, Chuanyi, Liang, Bin, Yang, Jun, Zhang, Changshui
 - **Published:** 2026-06-16
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.17546) · [PDF](https://arxiv.org/pdf/2606.17546)
 
 Self-evolving LLM-based agents improve mainly by changing their agent harness: the structured execution layer around a base model, including prompts, memory, tools, middleware, runtime state, and the model-tool interaction loop. Existing evaluations often reduce this process to isolated task scores or a single sequential curve, obscuring whether an update produces reusable improvement, overfits recent tasks, increases cost, or harms older behavior. We introduce SEAGym, an evaluation environment for measuring agent harness updates across training, validation, test, replay, and cost records. SEAGym turns Harbor-compatible benchmarks into dynamic self-evolution task sources with train batches, frozen update-validation, held-out ID and OOD transfer views, replay diagnostics, and saved snapshot and metric records. Instantiating SEAGym on Terminal-Bench 2.0 and HLE, we compare ACE, TF-GRPO, and AHE under a shared epoch/batch protocol. The results show that these evaluation views provide complementary signals about the evolution process: frequent updates may fail to improve held-out performance, useful intermediate snapshots may collapse later, and source diversity and model backend can affect harness reliability.
 
-### [SkillCAT: Contrastive, Assessment-Augmented and Topology-AwareSkill Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.13317v2)
-
-- **Authors:** Kunfeng Chen, Qihuang Zhong, Juhua Liu, Bo Du
-- **Published:** 2026-06-11
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2606.13317v2) · [PDF](https://arxiv.org/pdf/2606.13317v2)
-
-Skill self-evolution methods for LLM agents aim to turn execution trajectories into reusable skill documents. However, current pipelines typically derive skill patches from a single trajectory per task, merge them indiscriminately, and load the entire skill corpus during inference. These choices lead to unreliable evidence extraction, the accumulation of low-quality or even harmful skill edits, and inefficient use of context due to irrelevant or conflicting skill content. We propose SkillCAT, a framework that decomposes this process into three stages. (1) Contrastive Causal Extraction (CCE) samples multiple trajectories per task and contrasts same-task success/failure pairs to find the evidence that explains outcome differences. (2) Assessment-Augmented Evolution (AAE) replays each candidate patch on source-task clones, retains only those that do not damage task outcomes, and then merges the retained patches hierarchically. (3) Topology-Aware Task Execution (TTE) compiles the evolved skills into routable sub-skill topologies, so that inference loads only task-relevant capability nodes. We evaluate SkillCAT on widely-used agent benchmarks, including SpreadsheetBench, WikiTableQuestions, and DocVQA, and further assess cross-model and out-of-distribution generalization. Across these settings, SkillCAT improves the average score over the initial skill by up to 49.69%, demonstrating reliable and effective skill evolution.
-
 ## Agent Memory
+
+### [Governed Shared Memory for Multi-Agent LLM Systems](https://arxiv.org/abs/2606.24535)
+
+- **Authors:** Margalit, Yanki, Cohen-Inger, Nurit, Avram, Erni, Taig, Ran, Margalit, Oded
+- **Published:** 2026-06-23
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2606.24535) · [PDF](https://arxiv.org/pdf/2606.24535)
+
+Multi-agent LLM environments require robust mechanisms for shared knowledge management. This paper formalizes the fleet-memory problem and identifies four foundational failure modes: unauthorized leakage, stale propagation, contradiction persistence, and provenance collapse. To address these, we define explicit systems-level primitives: scoped retrieval, temporal supersession, provenance tracking, and policy-governed memory propagation. These primitives are implemented in MemClaw, a production multi-tenant memory service, and evaluated via ArgusFleet, a reproducible harness testing four governance dimensions. Rather than a baseline comparison, this study measures a live production service, emphasizing real-world architectural insights and negative results. Key Evaluation Results Provenance: Successfully reconstructed 100% of depth-four derivation chains with correct writer identity at sub-second per-hop latency. Propagation: Demonstrated high intra-fleet visibility with zero cross-fleet leakage. Under strong write mode, write-to-visible latency was optimized to a single search round-trip. Production Architectural Issues Discovered Asymmetric Scope Enforcement: Tenant isolation held, but sub-tenant scope was initially bypassed on direct GET-by-id requests for agent-scoped credentials (disclosed and remediated during the study). Pipeline Ordering Conflict: While contradiction supersession works for admitted writes, a synchronous near-duplicate gate can prematurely reject contradictory writes before the asynchronous contradiction detector can evaluate them. Conclusion: Long-context retrieval alone is insufficient for production multi-agent memory. Governed shared memory demands explicit systems-level abstractions, and live evaluation is vital to expose enforcement and pipeline-ordering failures missed by design-only treatments.
+
+### [ReM-MoA: Reasoning Memory Sustains Mixture-of-Agents Scaling](https://arxiv.org/abs/2606.24437)
+
+- **Authors:** Ping, Heng, Bhattacharjee, Arijit, Zhang, Peiyu, Li, Shixuan, Yang, Wei, Jannesari, Ali, Ahmed, Nesreen, Bogdan, Paul
+- **Published:** 2026-06-23
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2606.24437) · [PDF](https://arxiv.org/pdf/2606.24437)
+
+Mixture-of-Agents (MoA) architectures improve inference-time scaling by organizing multiple LLM agents into layered reasoning pipelines. However, existing MoA variants fail to sustain gains as depth increases, exhibiting degradation, early plateauing, or saturation. We propose ReM-MoA, a memory-augmented MoA framework that sustains scaling through two mechanisms: (1) a Ranked Reasoning Memory that persistently stores and ranks reasoning traces from all layers using a comparative Reviewer Agent, and (2) a Curated Diversified Memory Routing scheme that exposes different agents to distinct combinations of successful and failed traces, preserving exploration diversity while propagating high-quality reasoning. We further introduce an optional multi-domain Reviewer distillation pipeline that improves ranking quality through frontier-model supervision. Across five reasoning benchmarks spanning math, formal logic, code, knowledge, and commonsense, ReM-MoA consistently outperforms prior MoA variants across both depth and width scaling, and its advantage widens with depth, establishing structured cross-layer reasoning memory as a key missing mechanism for scalable multi-agent inference.
 
 ### [Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees](https://arxiv.org/abs/2606.24322)
 
 - **Authors:** Louck, Yedidel
 - **Published:** 2026-06-23
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CR
 - **Links:** [Paper](https://arxiv.org/abs/2606.24322) · [PDF](https://arxiv.org/pdf/2606.24322)
@@ -212,7 +225,7 @@ Recent advances in large language models (LLMs) have enabled vibe coding, an eme
 - **Authors:** Liu, Zewen
 - **Published:** 2026-06-22
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2606.23195) · [PDF](https://arxiv.org/pdf/2606.23195)
@@ -224,7 +237,7 @@ Large Language Model (LLM) agents increasingly rely on memory systems to maintai
 - **Authors:** Zhou, Xiaolin, Liu, Liu, Xiao, Tingyang, Feng, Wei, Fu, Fa, Meng, Xinrui, Wang, Xinjie, Han, Jialiang, Yu, Boyang, Du, Yun, Sui, Wei, Su, Zhizhong
 - **Published:** 2026-06-22
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.RO
 - **Links:** [Paper](https://arxiv.org/abs/2606.23565) · [PDF](https://arxiv.org/pdf/2606.23565)
@@ -236,7 +249,7 @@ LLM agents follow a practical execution loop in digital environments: they reaso
 - **Authors:** Belikova, Julia, Parchiev, Rauf, Egorov, Evgeny, Davydenko, Grigorii, Gusev, Gleb, Savchenko, Andrey, Makarenko, Maksim
 - **Published:** 2026-06-22
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.23127) · [PDF](https://arxiv.org/pdf/2606.23127)
@@ -248,7 +261,7 @@ Procedural memory is increasingly used to improve LLM agents on recurring workpl
 - **Authors:** Yang, Wei, Kan, Bryce, Li, Shixuan, Li, Li, Qin, Yuehan, Li, Jiate, Bogdan, Paul, Thomason, Jesse
 - **Published:** 2026-06-22
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.22844) · [PDF](https://arxiv.org/pdf/2606.22844)
@@ -272,7 +285,7 @@ We investigate when belief-based memory actually improves large language model (
 - **Authors:** Nie, Chang, Fu, Chaoyou, Feng, Junlan, Shan, Caifeng
 - **Published:** 2026-06-19
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.21649) · [PDF](https://arxiv.org/pdf/2606.21649)
@@ -284,7 +297,7 @@ Existing embedding models are inherently static: they encode text segments in is
 - **Authors:** Chen, Mellow Baixuan, Sun, Xiangguo
 - **Published:** 2026-06-19
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.IR
 - **Links:** [Paper](https://arxiv.org/abs/2606.28376) · [PDF](https://arxiv.org/pdf/2606.28376)
@@ -308,7 +321,7 @@ Long-running language-model systems accumulate interaction history that outgrows
 - **Authors:** Liu, Guangyi, Wu, Gao, Liu, Congxiao, Zhao, Pengxiang, Liu, Liang, Li, Mading, Zhang, Qi, Wang, Mengyan, Guo, Liang, Liu, Yong
 - **Published:** 2026-06-18
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.HC
 - **Links:** [Paper](https://arxiv.org/abs/2606.19926) · [PDF](https://arxiv.org/pdf/2606.19926)
@@ -320,8 +333,8 @@ MLLM-based mobile GUI agents have made substantial progress on short-horizon tas
 - **Authors:** Kim, To Eun, He, Xuhong, Jain, Dishank, Agrawal, Ambuj, Arabzadeh, Negar, Diaz, Fernando
 - **Published:** 2026-06-18
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** Carnegie Mellon University
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.19911) · [PDF](https://arxiv.org/pdf/2606.19911)
 
@@ -332,8 +345,8 @@ The decentralized deployment of LLM agents with diverse capabilities across dive
 - **Authors:** Yao, Yanyu, Li, Shangze, Zheng, Zhi, Zheng, Hui, Liu, Qi, Xu, Tong, Chen, Enhong
 - **Published:** 2026-06-18
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** University of Chinese Academy of Sciences
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.19847) · [PDF](https://arxiv.org/pdf/2606.19847)
 
@@ -356,7 +369,7 @@ AI research systems can report improved results without establishing that the te
 - **Authors:** Ren, Zhe, Yang, Yibo, Chen, Yimeng, Zhao, Zijun, Fu, Benshuo, Shu, Zhihao, Zhang, Bingjie, Xu, Yangyang, Guo, Dandan, Yan, Shuicheng
 - **Published:** 2026-06-17
 - **Priority:** ⭐ Popular code
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2606.18829) · [PDF](https://arxiv.org/pdf/2606.18829) · [Code](https://github.com/rzhub/GateMem)
@@ -368,7 +381,7 @@ Memory benchmarks for LLM agents largely assume single-user settings, leaving sh
 - **Authors:** Chen, Jiaqi, Zeng, Yongqin, Chen, Shaoshen, Zhang, Yijian, Zheng, Hai-Tao, Ma, Chunxia, Zhou, XiuTeng
 - **Published:** 2026-06-16
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.18406) · [PDF](https://arxiv.org/pdf/2606.18406)
@@ -380,7 +393,7 @@ Personalized dialogue agents require continuous long-term memory to maintain coh
 - **Authors:** Jin, Ye, Xu, Yangyang, Zhu, Jun, Yang, Yibo
 - **Published:** 2026-06-15
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.17162) · [PDF](https://arxiv.org/pdf/2606.17162)
@@ -392,7 +405,7 @@ Personalized presentation generation requires more than conditioning on a curren
 - **Authors:** Li, Bojie
 - **Published:** 2026-06-15
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.16707) · [PDF](https://arxiv.org/pdf/2606.16707)
@@ -404,7 +417,7 @@ A personalized AI agent needs a user memory: a persistent model of who the user 
 - **Authors:** Yang, Dongxu
 - **Published:** 2026-06-14
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.15903) · [PDF](https://arxiv.org/pdf/2606.15903) · [Code](https://github.com/deeplethe/lethe)
@@ -416,7 +429,7 @@ Where an LLM sits in an agent memory pipeline -- between the recall plane that r
 - **Authors:** Rao, Zixin, Zhu, Wentian, Lu, Chan Aristella, Chen, Zhaorun, Niu, Wei, Guan, Le, Li, Bo, Xiang, Zhen
 - **Published:** 2026-06-14
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CR
 - **Links:** [Paper](https://arxiv.org/abs/2606.15609) · [PDF](https://arxiv.org/pdf/2606.15609)
@@ -440,7 +453,7 @@ A central role of personal-agent memory is to turn stored information and prior 
 - **Authors:** Shekar, Pavan C, S, Abhishek H, Krishnan, Aswanth
 - **Published:** 2026-06-12
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.14470) · [PDF](https://arxiv.org/pdf/2606.14470)
@@ -452,24 +465,12 @@ Large language model reasoning leaves no trace once it is done. The steps of a c
 - **Authors:** Hajimiri, Sina, Aminbeidokhti, Masih, Dolz, Jose, Ayed, Ismail Ben, Laradji, Issam H., Gella, Spandana, Gontier, Nicolas
 - **Published:** 2026-06-12
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.15017) · [PDF](https://arxiv.org/pdf/2606.15017)
 
 Online web agents often augment a base actor with memory, workflow, or skill modules. These modules can improve performance, but they also consume test-time tokens, a cost rarely reported alongside the actor's inference cost. We study online augmentation, where this overhead is paid on every task, and re-evaluate its benefits under a fixed total inference budget. We compare AWM, ASI, and ReasoningBank with a token-matched vanilla baseline that uses the same budget for additional actor steps. Across three WebArena domains and three models, Gemini 3 Flash, GPT-5.4-mini, and Qwen 3.6-27B, the vanilla baseline matches or surpasses all three augmentation methods in aggregate success rate while often using fewer total tokens. We observe a similar trend on WorkArena-L1 with Qwen 3.6-27B, indicating that the effect extends to enterprise knowledge-work tasks. Our results suggest that skills and workflow memory can be useful in specific domains, but their apparent gains often vanish against a budget-matched actor. We further show that run-to-run variance materially affects outcomes and should be reported as a core evaluation criterion for online web agents.
-
-### [Naive Visual Memory is Not Enough: A Failure-Mode Study of GUI Agents](https://arxiv.org/abs/2606.14106)
-
-- **Authors:** Choi, Seoyoung, Ko, Minseok, Lee, Hyunseok, Kim, Kunwoong, Song, Woomin, Jeon, Chanseok, Shin, Jinwoo
-- **Published:** 2026-06-12
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.MA
-- **Links:** [Paper](https://arxiv.org/abs/2606.14106) · [PDF](https://arxiv.org/pdf/2606.14106)
-
-Graphical User Interface (GUI) agents are increasingly used to automate complex computer tasks across applications, websites, and operating systems. To improve their reliability, recent work has introduced experiential memory, where agents retrieve prior trajectories to guide decision-making in similar states. More recent approaches further extend this idea to visual memory by storing and retrieving screenshots from past interactions, providing agents with richer contextual information than text-only memories. However, the effect of visual memory in GUI agents remains insufficiently understood: it is unclear which failures visual memory mitigates, or which failures it exacerbates. To systematically analyze the effect of visual memory, we introduce a taxonomy of four GUI agent failures (i.e., cognitive failure, visual state misunderstanding, hidden operation blindness, and grounding error) that map to distinct stages of the perception-reasoning-action pipeline. We find that prepending full-image memory has a divergent effect on the failure distribution: it reduces state-level failures but worsens action-level ones, and increases hidden operation blindness and grounding error. Motivated by this finding, we propose Action-Grounded Visual Memory (AGMem), an action-grounded memory framework for GUI agents. The core idea of AGMem is to store image crops that capture the local GUI region closely related to a successful action or a recovery, rather than storing full screenshots. Experiments on OSWorld show that AGMem improves task success rates by 33.3 % over full-image memory. These results demonstrate that AGMem is an effective representation for visual memory in GUI agents.
 
 ## LLM Continual Training & Continual Learning
 
@@ -478,7 +479,7 @@ Graphical User Interface (GUI) agents are increasingly used to automate complex 
 - **Authors:** Hoang-Bao Le, Aiden Durrant, Thai Son Mai, Binh T. Nguyen, Liting Zhou, Cathal Gurrin
 - **Published:** 2026-06-22
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CV, cs.IR
 - **Links:** [Paper](https://arxiv.org/abs/2606.23843v2) · [PDF](https://arxiv.org/pdf/2606.23843v2)
@@ -648,7 +649,7 @@ Knowledge distillation transfers a teacher's competence to a small student but i
 - **Authors:** Zheng, Congjie, Xue, Chuanyi, Liang, Bin, Yang, Jun, Zhang, Changshui
 - **Published:** 2026-06-16
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.17546) · [PDF](https://arxiv.org/pdf/2606.17546)

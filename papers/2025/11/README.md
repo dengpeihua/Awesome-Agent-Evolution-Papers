@@ -15,9 +15,9 @@
 | 2025-11-20 | Agent/LLM Self-Improvement<br>Reinforcement Learning | [Agent0: Unleashing Self-Evolving Agents from Zero Data via Tool-Integrated Reasoning](https://arxiv.org/abs/2511.16043v2)<br>[PDF](https://arxiv.org/pdf/2511.16043v2) | arXiv.org | 📈 Highly cited | Citations: 72 (Semantic Scholar) |
 | 2025-11-19 | LLM Continual Training | [Parameter Importance-Driven Continual Learning for Foundation Models](https://arxiv.org/abs/2511.15375v2)<br>[PDF](https://arxiv.org/pdf/2511.15375v2) | arXiv.org | — | Citations: 1 (Semantic Scholar) |
 | 2025-11-17 | Reinforcement Learning | [Finding Kissing Numbers with Game-theoretic Reinforcement Learning](https://arxiv.org/abs/2511.13391v5)<br>[PDF](https://arxiv.org/pdf/2511.13391v5) | arXiv.org | — | Citations: 4 (Semantic Scholar) |
-| 2025-11-14 | Reinforcement Learning | [Humanoid Whole-Body Badminton via an Annealed Reinforcement Learning Curriculum](https://arxiv.org/abs/2511.11218v4)<br>[PDF](https://arxiv.org/pdf/2511.11218v4) | arXiv | — | — |
+| 2025-11-14 | Reinforcement Learning | [Humanoid Whole-Body Badminton via an Annealed Reinforcement Learning Curriculum](https://arxiv.org/abs/2511.11218v4)<br>[PDF](https://arxiv.org/pdf/2511.11218v4) | arXiv | — | Citations: 7 (Semantic Scholar) |
 | 2025-11-12 | Reinforcement Learning | [SPIDER: Scalable Physics-Informed Dexterous Retargeting](https://arxiv.org/abs/2511.09484v3)<br>[PDF](https://arxiv.org/pdf/2511.09484v3) | arXiv.org | 📈 Highly cited | Citations: 60 (Semantic Scholar) |
-| 2025-11-05 | Reinforcement Learning | [Learning to shine: Neuroevolution enables optical control of phase transitions](https://arxiv.org/abs/2511.03895v2)<br>[PDF](https://arxiv.org/pdf/2511.03895v2) | arXiv | — | — |
+| 2025-11-05 | Reinforcement Learning | [Learning to shine: Neuroevolution enables optical control of phase transitions](https://arxiv.org/abs/2511.03895v2)<br>[PDF](https://arxiv.org/pdf/2511.03895v2) | arXiv | — | Citations: 0 (Semantic Scholar) |
 
 ## Notes
 

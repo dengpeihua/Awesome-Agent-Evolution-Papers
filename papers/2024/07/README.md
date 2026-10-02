@@ -6,7 +6,7 @@
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 2024-07-09 | Reinforcement Learning | [DRL-AdaPart: DRL-Driven Adaptive STAR-RIS Partitioning for Fair and Efficient Resource Utilization](https://arxiv.org/abs/2407.06868v4)<br>[PDF](https://arxiv.org/pdf/2407.06868v4) | arXiv | — | — |
+| 2024-07-09 | Reinforcement Learning | [DRL-AdaPart: DRL-Driven Adaptive STAR-RIS Partitioning for Fair and Efficient Resource Utilization](https://arxiv.org/abs/2407.06868v4)<br>[PDF](https://arxiv.org/pdf/2407.06868v4) | arXiv | — | Citations: 0 (Semantic Scholar) |
 
 ## Notes
 

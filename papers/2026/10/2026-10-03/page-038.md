@@ -1,11 +1,11 @@
-> **2650 papers** · Page 38/53 · Newest first across all pages
+> **2656 papers** · Page 38/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,8 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-06-12 | Agent Memory | [Naive Visual Memory is Not Enough: A Failure-Mode Study of GUI Agents](https://arxiv.org/abs/2606.14106) | — |
+| 2026-06-11 | Agent/LLM Self-Improvement | [SkillCAT: Contrastive, Assessment-Augmented and Topology-AwareSkill Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.13317v2) | — |
 | 2026-06-11 | Agent Memory | [Learning What to Remember: A Cognitively Grounded Multi-Factor Value Model for Agentic Memory](https://arxiv.org/abs/2606.12945) | — |
 | 2026-06-11 | Agent Memory | [EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments](https://arxiv.org/abs/2606.13681) | — |
 | 2026-06-11 | Agent Memory | [MemRefine: LLM-Guided Compression for Long-Term Agent Memory](https://arxiv.org/abs/2606.13177) | — |
@@ -21,7 +23,7 @@
 | 2026-06-10 | Reinforcement Learning | [Genetic Algorithms with Optimization Guided Operators](https://arxiv.org/abs/2606.12279v2) | — |
 | 2026-06-10 | Reinforcement Learning | [Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.11891v3) | — |
 | 2026-06-10 | Reinforcement Learning | [Space-sampled Value Decay: Forgetting Mechanisms for Non-stationary Reinforcement Learning](https://arxiv.org/abs/2606.11797v2) | — |
-| 2026-06-10 | Reinforcement Learning | [RLCSD: Reinforcement Learning with Contrastive On-Policy Self-Distillation](https://arxiv.org/abs/2606.11709v2) | — |
+| 2026-06-10 | Reinforcement Learning | [RLCSD: Reinforcement Learning with Contrastive On-Policy Self-Distillation](https://arxiv.org/abs/2606.11709v2) | 📈 Highly cited |
 | 2026-06-10 | Agent Memory | [SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM Agent Systems](https://arxiv.org/abs/2606.12703) | — |
 | 2026-06-10 | Agent Memory, Reinforcement Learning | [Organize then Retrieve: Hierarchical Memory Navigation for Efficient Agents](https://arxiv.org/abs/2606.11680) | — |
 | 2026-06-09 | Reinforcement Learning | [Architect-Ant: Editable Automatic Furnishing of Architectural Floor Plans](https://arxiv.org/abs/2606.10953v2) | — |
@@ -48,37 +50,50 @@
 | 2026-06-06 | Agent Memory | [MemToolAgent: Leveraging Memory for Tool Using Agents Based on Environment and User Feedback](https://arxiv.org/abs/2606.07909) | — |
 | 2026-06-05 | Agent/LLM Self-Improvement, LLM Continual Training | [FinEvolveBench: A Benchmark for Self-Evolving Agents on Low-Repetition Tasks with Implicit Rewards](https://arxiv.org/abs/2606.06960v4) | — |
 | 2026-06-05 | Agent Memory | [Less Context, More Accuracy: A Bi-Temporal Memory Engine for LLM Agents Where a Lean Retrieved Context Beats the Full History](https://arxiv.org/abs/2606.09900) | — |
-| 2026-06-05 | Agent/LLM Self-Improvement, Reinforcement Learning | [Self-evolving LLM agents with in-distribution Optimization](https://arxiv.org/abs/2606.07367) | — |
+| 2026-06-05 | Agent/LLM Self-Improvement, Reinforcement Learning | [Self-evolving LLM agents with in-distribution Optimization](https://arxiv.org/abs/2606.07367) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-06-05 | Agent Memory | [AdMem: Advanced Memory for Task-solving Agents](https://arxiv.org/abs/2606.06787) | — |
 | 2026-06-04 | LLM Continual Training | [RECAP: Regression Evaluation for Continual Adaptation of Prompts](https://arxiv.org/abs/2606.06698v4) | — |
 | 2026-06-04 | Agent Memory | [Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads](https://arxiv.org/abs/2606.06448v2) | — |
 | 2026-06-04 | Reinforcement Learning | [Vault: One-Step Latent Generation with Positive-Anchored Rewards for Autonomous Driving](https://arxiv.org/abs/2606.06219v2) | — |
 | 2026-06-04 | Agent/LLM Self-Improvement | [ANCHOR: An External LLM-Driven Supervisory Module Facilitating Healthy Evolution in Self-Evolving Systems](https://arxiv.org/abs/2606.06114v3) | — |
-| 2026-06-04 | Agent/LLM Self-Improvement | [Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference](https://arxiv.org/abs/2606.05922v3) | — |
+| 2026-06-04 | Agent/LLM Self-Improvement | [Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference](https://arxiv.org/abs/2606.05922v3) | 📈 Highly cited |
 | 2026-06-04 | Reinforcement Learning | [TAGA: Terrain-aware Active Gaze Learning for Generalizable Agile Humanoid Locomotion](https://arxiv.org/abs/2606.05880v2) | — |
 | 2026-06-04 | Agent Memory | [Statistical Priors for Implicit Preferences: Decoupling Skill Selection as a Local Harness in Personal Agents](https://arxiv.org/abs/2606.05828v2) | — |
 | 2026-06-04 | Agent/LLM Self-Improvement, Agent Memory | [Membrane: A Self-Evolving Contrastive Safety Memory for LLM Agent Defense](https://arxiv.org/abs/2606.05743v2) | — |
 | 2026-06-04 | Reinforcement Learning | [Safety Paradox: How Enhanced Safety Awareness Leaves LLMs Vulnerable to Posterior Attack](https://arxiv.org/abs/2606.05614v2) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-06-04 | Agent Memory | [HUSH-Bench: Measuring Memory-Use Boundaries for Sensitive History in Conversational Agents](https://arxiv.org/abs/2606.06055) | — |
 | 2026-06-04 | Agent Memory | [SubtleMemory: A Benchmark for Fine-Grained Relational Memory Discrimination in Long-Horizon AI Agents](https://arxiv.org/abs/2606.05761) | — |
-| 2026-06-04 | Agent/LLM Self-Improvement | [MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery](https://arxiv.org/abs/2606.06473) | ⭐ Popular code |
-| 2026-06-04 | Agent Memory | [TOKI: A Bitemporal Operator Algebra for Contradiction Resolution in LLM-Agent Persistent Memory](https://arxiv.org/abs/2606.06240) | — |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [RLCSD: Reinforcement Learning with Contrastive On-Policy Self-Distillation](https://arxiv.org/abs/2606.11709v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [PRISM: Recovering Instruction Sets from Language Model Activations](https://arxiv.org/abs/2606.09563v2) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to EMNLP 2026 (Main Conference). Code: https://github.com/Offensive-AI-Lab/prism<br>First author: Amrita Vishwa Vidyapeetham (Semantic Scholar author profiles) |
+| [Self-evolving LLM agents with in-distribution Optimization](https://arxiv.org/abs/2606.07367) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: ICML 2026<br>TU Eindhoven |
+| [Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference](https://arxiv.org/abs/2606.05922v3) | 📈 Highly cited | First author: City University of Hong Kong (Semantic Scholar author profiles) |
 | [Safety Paradox: How Enhanced Safety Awareness Leaves LLMs Vulnerable to Posterior Attack](https://arxiv.org/abs/2606.05614v2) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to EMNLP 2026 (Main) |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
+
+### [SkillCAT: Contrastive, Assessment-Augmented and Topology-AwareSkill Self-Evolution for LLM Agents](https://arxiv.org/abs/2606.13317v2)
+
+- **Authors:** Kunfeng Chen, Qihuang Zhong, Juhua Liu, Bo Du
+- **Published:** 2026-06-11
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2606.13317v2) · [PDF](https://arxiv.org/pdf/2606.13317v2)
+
+Skill self-evolution methods for LLM agents aim to turn execution trajectories into reusable skill documents. However, current pipelines typically derive skill patches from a single trajectory per task, merge them indiscriminately, and load the entire skill corpus during inference. These choices lead to unreliable evidence extraction, the accumulation of low-quality or even harmful skill edits, and inefficient use of context due to irrelevant or conflicting skill content. We propose SkillCAT, a framework that decomposes this process into three stages. (1) Contrastive Causal Extraction (CCE) samples multiple trajectories per task and contrasts same-task success/failure pairs to find the evidence that explains outcome differences. (2) Assessment-Augmented Evolution (AAE) replays each candidate patch on source-task clones, retains only those that do not damage task outcomes, and then merges the retained patches hierarchically. (3) Topology-Aware Task Execution (TTE) compiles the evolved skills into routable sub-skill topologies, so that inference loads only task-relevant capability nodes. We evaluate SkillCAT on widely-used agent benchmarks, including SpreadsheetBench, WikiTableQuestions, and DocVQA, and further assess cross-model and out-of-distribution generalization. Across these settings, SkillCAT improves the average score over the initial skill by up to 49.69%, demonstrating reliable and effective skill evolution.
 
 ### [ProPlay: Procedural World Models for Self-Evolving LLM Agents](https://arxiv.org/abs/2606.12780)
 
 - **Authors:** Ma, Yijun, Wang, Zehong, Li, Yiyang, Li, Ziming, Guo, Xiaoguang, Sun, Weixiang, Zhang, Chuxu, Ye, Yanfang
 - **Published:** 2026-06-11
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2606.12780) · [PDF](https://arxiv.org/pdf/2606.12780) · [Code](https://github.com/antman9914/proplay)
@@ -90,7 +105,7 @@ Self-evolving agents are expected to improve through interaction without externa
 - **Authors:** Cheng, Mingyue, Yu, Shuo, Wang, Daoyu, Li, Qingchuan, Tao, Xiaoyu, Mao, Qingyang, Zhou, Yitong, Liu, Qi
 - **Published:** 2026-06-09
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.10316) · [PDF](https://arxiv.org/pdf/2606.10316)
@@ -114,7 +129,7 @@ Self-evolution offers a scalable path to stronger reasoning: a pretrained langua
 - **Authors:** Fei, Tianxiang, Song, Mingyang, Zheng, Mao, Yu, Xiang
 - **Published:** 2026-06-08
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.09483) · [PDF](https://arxiv.org/pdf/2606.09483)
@@ -161,9 +176,9 @@ Large language model (LLM) agents increasingly rely on external experience to co
 
 - **Authors:** Zhang, Yudi, Fang, Meng, Chen, Zhenfang, Pechenizkiy, Mykola
 - **Published:** 2026-06-05
-- **Priority:** —
+- **Priority:** 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
 - **Venue:** ICML 2026
-- **Affiliations:** n/a
+- **Affiliations:** TU Eindhoven
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2606.07367) · [PDF](https://arxiv.org/pdf/2606.07367)
 
@@ -175,7 +190,7 @@ Large Language Models (LLMs) have recently emerged as powerful controllers for i
 - **Published:** 2026-06-04
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** HKUST(GZ)
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.06114v3) · [PDF](https://arxiv.org/pdf/2606.06114v3)
 
@@ -185,7 +200,7 @@ Self-evolving agents improve through continual self-play and self-generated lear
 
 - **Authors:** Wenbo Pan, Shujie Liu, Chin-Yew Lin, Jingying Zeng, Xianfeng Tang, Xiangyang Zhou, Yan Lu, Xiaohua Jia
 - **Published:** 2026-06-04
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** City University of Hong Kong
 - **Categories:** cs.AI, cs.CL, cs.LG
@@ -205,26 +220,26 @@ AI agents rely on a harness of skills, tools, and workflows to solve complex pro
 
 Despite advances in safety alignment, large language models remain vulnerable to continuously evolving jailbreaks. Existing fine-tuned safety classifiers cannot adapt to these evolving attacks, while adaptive memory-based guardrails tend to over-refuse benign queries that resemble stored attacks. We propose Membrane, a self-evolving guardrail built on Contrastive Safety Memory (CSM): each cell pairs the conditions for blocking a harmful query with those for permitting a superficially similar benign request. Without retraining, Membrane evolves CSM by distilling each harmful interaction and its benign counterpart into a contrastive cell indexed by the underlying attack strategy, so that one cell generalizes across topical variants of the same mechanism. At inference, retrieved cells serve as grounding context for precise safety decisions. Across model-level safety on HarmBench and agent-level safety on AgentHarm, Membrane achieves the highest F1 on all six modern jailbreak attacks. Notably, benign refusal on AgentHarm stays at 7-14%, well below the 28-85% range of prior guards. Memory cells also retain 87-88% F1 under cross-attack transfer and remain stable under memory poisoning.
 
-### [MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery](https://arxiv.org/abs/2606.06473)
-
-- **Authors:** Du, Shangheng, Yan, Xiangchao, Shi, Jinxin, Cao, Zongsheng, Feng, Shiyang, Liang, Zichen, Sun, Boyuan, Peng, Tianshuo, Zhou, Yifan, Li, Xin, Zhou, Jie, He, Liang, Zhang, Bo, Bai, Lei
-- **Published:** 2026-06-04
-- **Priority:** ⭐ Popular code
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2606.06473) · [PDF](https://arxiv.org/pdf/2606.06473) · [Code](https://github.com/InternScience/MLEvolve)
-
-Large language model (LLM) agents are increasingly applied to long-horizon tasks such as scientific discovery and machine learning engineering (MLE), where sustained self-evolution becomes a key capability. However, existing MLE agents suffer from inter-branch information isolation, memoryless search, and lack of hierarchical control, which together hinder long-horizon optimization. We present MLEvolve, an LLM-based self-evolving multi-agent framework for end-to-end machine learning algorithm discovery. By extending tree search to Progressive MCGS, MLEvolve enables cross-branch information flow through graph-based reference edges and gradually shifts the search from broad exploration to focused exploitation with an entropy-inspired progressive schedule. To allow the agent to evolve with accumulated experience, we introduce Retrospective Memory, which combines a cold-start domain knowledge base with a dynamic global memory for task-specific experience retrieval and reuse. For stable long-horizon iteration, we further decouple strategic planning from code generation with adaptive coding modes. Evaluation on MLE-Bench shows that MLEvolve achieves state-of-the-art performance across multiple dimensions including average medal rate and valid submission rate under a 12-hour budget (half the standard runtime). Moreover, MLEvolve also outperforms specialized algorithm discovery methods including AlphaEvolve on mathematical algorithm optimization tasks, demonstrating strong cross-domain generalization. Our code is available at https://github.com/InternScience/MLEvolve.
-
 ## Agent Memory
+
+### [Naive Visual Memory is Not Enough: A Failure-Mode Study of GUI Agents](https://arxiv.org/abs/2606.14106)
+
+- **Authors:** Choi, Seoyoung, Ko, Minseok, Lee, Hyunseok, Kim, Kunwoong, Song, Woomin, Jeon, Chanseok, Shin, Jinwoo
+- **Published:** 2026-06-12
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2606.14106) · [PDF](https://arxiv.org/pdf/2606.14106)
+
+Graphical User Interface (GUI) agents are increasingly used to automate complex computer tasks across applications, websites, and operating systems. To improve their reliability, recent work has introduced experiential memory, where agents retrieve prior trajectories to guide decision-making in similar states. More recent approaches further extend this idea to visual memory by storing and retrieving screenshots from past interactions, providing agents with richer contextual information than text-only memories. However, the effect of visual memory in GUI agents remains insufficiently understood: it is unclear which failures visual memory mitigates, or which failures it exacerbates. To systematically analyze the effect of visual memory, we introduce a taxonomy of four GUI agent failures (i.e., cognitive failure, visual state misunderstanding, hidden operation blindness, and grounding error) that map to distinct stages of the perception-reasoning-action pipeline. We find that prepending full-image memory has a divergent effect on the failure distribution: it reduces state-level failures but worsens action-level ones, and increases hidden operation blindness and grounding error. Motivated by this finding, we propose Action-Grounded Visual Memory (AGMem), an action-grounded memory framework for GUI agents. The core idea of AGMem is to store image crops that capture the local GUI region closely related to a successful action or a recovery, rather than storing full screenshots. Experiments on OSWorld show that AGMem improves task success rates by 33.3 % over full-image memory. These results demonstrate that AGMem is an effective representation for visual memory in GUI agents.
 
 ### [Learning What to Remember: A Cognitively Grounded Multi-Factor Value Model for Agentic Memory](https://arxiv.org/abs/2606.12945)
 
 - **Authors:** Chen, Zhibao, Cheng, Qian
 - **Published:** 2026-06-11
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.12945) · [PDF](https://arxiv.org/pdf/2606.12945)
@@ -236,7 +251,7 @@ Long-running LLM agents accumulate interaction histories far larger than any con
 - **Authors:** Xu, Jundong, Li, Qingchuan, Wu, Jiaying, Lan, Yihuai, Li, Shuyue Stella, Zhou, Huichi, Jiang, Bowen, Wang, Lei, Wang, Jun, Luu, Anh Tuan, Xiong, Caiming, Park, Hae Won, Hooi, Bryan, Hu, Zhiyuan
 - **Published:** 2026-06-11
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.13681) · [PDF](https://arxiv.org/pdf/2606.13681)
@@ -248,7 +263,7 @@ Large language model (LLM) agents have achieved strong performance on a wide ran
 - **Authors:** Kim, Minjae, Baek, Jinheon, Jeong, Soyeong, Hwang, Sung Ju
 - **Published:** 2026-06-11
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.13177) · [PDF](https://arxiv.org/pdf/2606.13177)
@@ -272,7 +287,7 @@ AI coding agents often lose project-specific rationale across sessions and may r
 - **Authors:** Sharma, Tarun
 - **Published:** 2026-06-10
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CR
 - **Links:** [Paper](https://arxiv.org/abs/2606.12703) · [PDF](https://arxiv.org/pdf/2606.12703)
@@ -284,7 +299,7 @@ Retrieval-augmented generation (RAG) agents increasingly run with persistent mem
 - **Authors:** Hsu, Hao-Lun, Kuang, Nikki Lijing, Liu, Boyi, Yao, Zhewei, He, Yuxiong
 - **Published:** 2026-06-10
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.11680) · [PDF](https://arxiv.org/pdf/2606.11680)
@@ -296,7 +311,7 @@ Large language model (LLM) agents struggle with long-horizon tasks due to their 
 - **Authors:** Zhang, Yv, Sun, Hao, Fang, Hao, Gao, Kuofeng, Mo, Fan, Chen, Bin, Xia, Shu-Tao, Wang, Yaowei
 - **Published:** 2026-06-09
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CR
 - **Links:** [Paper](https://arxiv.org/abs/2606.10742) · [PDF](https://arxiv.org/pdf/2606.10742)
@@ -308,7 +323,7 @@ External memory has become a core component of modern web agents, enabling long-
 - **Authors:** Ji, Suozhao, Wu, Baodong, Wang, Zehao, Xia, Lei, Li, Qingping, Wang, Ruisong, Ding, Wenbo, Zhu, Zhenhua, Li, Boxun, Dai, Guohao, Wang, Yu
 - **Published:** 2026-06-09
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.10677) · [PDF](https://arxiv.org/pdf/2606.10677)
@@ -320,7 +335,7 @@ Long-term LLM agents need persistent memory that can track changing facts and pr
 - **Authors:** Kwon, Doeon, Bang, Junho
 - **Published:** 2026-06-09
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.10299) · [PDF](https://arxiv.org/pdf/2606.10299)
@@ -332,7 +347,7 @@ Language-agent "memory palace" systems anchor each memory to a world coordinate,
 - **Authors:** Fei, Tianxiang, Song, Mingyang, Zheng, Mao, Yu, Xiang
 - **Published:** 2026-06-08
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.09483) · [PDF](https://arxiv.org/pdf/2606.09483)
@@ -344,7 +359,7 @@ Long-term memory for an LLM agent is more than retrieving the right passage at t
 - **Authors:** Zhu, Shiping, Yang, Yibo, Wang, Zhengyang, Shen, Tiancheng, Guo, Dandan, Yang, Ming-Hsuan
 - **Published:** 2026-06-08
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.09461) · [PDF](https://arxiv.org/pdf/2606.09461)
@@ -356,8 +371,8 @@ Large language model agents are increasingly deployed in human-human interaction
 - **Authors:** Tan, Zhixun, Chen, Qiang, Huang, Tairan, Su, Xiu, Chen, Yi
 - **Published:** 2026-06-07
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** Massachusetts Institute of Technology
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.08702) · [PDF](https://arxiv.org/pdf/2606.08702)
 
@@ -368,8 +383,8 @@ Recent advances have improved the adaptive capabilities of LLM-based multi-agent
 - **Authors:** Cai, Yishuo, Guo, Xingyu, Huang, Xuancheng, Du, Jinhua, Huang, Can, Huang, Wenxuan, Ma, Wenhan, Hu, Yuyang, Zeng, Aohan, Tang, Jie, Sun, Xu
 - **Published:** 2026-06-07
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** GSAI, Peking University, Renmin University of China
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.08656) · [PDF](https://arxiv.org/pdf/2606.08656)
 
@@ -380,7 +395,7 @@ Large language model (LLM) agents are increasingly deployed in long-running sett
 - **Authors:** Guan, Xinyu, Zhao, Qianyang, Deng, Yuming
 - **Published:** 2026-06-06
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.08151) · [PDF](https://arxiv.org/pdf/2606.08151) · [Code](https://github.com/stephen-guan-researcher/CICL)
@@ -392,8 +407,8 @@ Modern large language model (LLM) agents do not simply need longer contexts; the
 - **Authors:** Er, Suleyman Armagan, Ribeiro, Danilo, Virkar, Yogesh, Lakew, Surafel, Kalyanpur, Adi, Gung, James, Delteil, Thomas, Gupta, Arshit
 - **Published:** 2026-06-06
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** University of Trento & FBK
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.07909) · [PDF](https://arxiv.org/pdf/2606.07909)
 
@@ -404,7 +419,7 @@ Modern large language model (LLM) agents can use external tools to help users so
 - **Authors:** Wang, Liuyin
 - **Published:** 2026-06-05
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.09900) · [PDF](https://arxiv.org/pdf/2606.09900) · [Code](https://github.com/ly-wang19/engram)
@@ -416,7 +431,7 @@ Long-term memory is the missing layer for LLM agents: across sessions they forge
 - **Authors:** Wang, Runzhe, Lu, Huilin, Liu, Shengjie, Dong, Li, Zhu, Jason
 - **Published:** 2026-06-05
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.06787) · [PDF](https://arxiv.org/pdf/2606.06787)
@@ -476,24 +491,12 @@ Long-term memory helps conversational agents maintain continuity across sessions
 - **Authors:** Wang, Wenxuan, Sun, Haoyu, Hou, Fukuan, Song, Mingyang, Zhang, Weinan, Cheng, Yu, Yang, Yang
 - **Published:** 2026-06-04
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.05761) · [PDF](https://arxiv.org/pdf/2606.05761)
 
 Persistent AI assistants, such as OpenClaw, accumulate large collections of related memories over long-term interactions. As these memories grow, they may reinforce one another, diverge across contexts, or directly conflict, making correct assistance depend on memory relations rather than isolated recall. Existing long-term memory benchmarks rarely probe how agents preserve and utilize such relations during downstream tasks. To address this gap, we introduce SubtleMemory, a benchmark for fine-grained relational memory discrimination in long-running AI agents. SubtleMemory constructs relation-controlled latent semantic artifacts whose variants instantiate complementary, nuanced, or contradictory relations, and embeds them into realistic user-agent histories, requiring agents to recover distributed relational structures during later queries and instructions. The benchmark contains 1,522 evaluation instances over 10 long histories, grounded in 1,090 relation-controlled memory-variant sets and spanning user-related and non-user-related queries. Evaluating six standalone memory systems, two Claw-style agents with native memory modules, and three Claw-style agents with plugin memory modules, we find that current systems remain weak on fine-grained relational memory discrimination. We further introduce diagnostic protocols that reveal distinct capability profiles across memory preservation, retrieval, and downstream reasoning stages.
-
-### [TOKI: A Bitemporal Operator Algebra for Contradiction Resolution in LLM-Agent Persistent Memory](https://arxiv.org/abs/2606.06240)
-
-- **Authors:** Wang, Ziming
-- **Published:** 2026-06-04
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.DB
-- **Links:** [Paper](https://arxiv.org/abs/2606.06240) · [PDF](https://arxiv.org/pdf/2606.06240) · [Code](https://github.com/ZenAlexa/toki-bitemporal-memory)
-
-Persistent memory for an LLM agent is a write-heavy substrate: every belief update is a versioned write, and a new claim may contradict a stored one. Production systems use four resolution heuristics (last-writer-wins, evidence-weighted merge, await-confirmation, per-rule policy), yet none declares the isolation level it assumes or the write-time anomalies it admits. We show that contradiction resolution is write-time concurrency control and make the missing contract explicit. TOKI types the four heuristics as one family of bitemporal operators over a dual-row schema, each with an isolation precondition and a provenance annotation that preserves the losing fact in an audit row. Four soundness theorems close the contract across isolation, schema, and provenance, lift the guarantees to operator pipelines, and extend the fold operators to n-ary conflict sets. A tightness companion proves that, within the relational schedule model, keyed logging of the adjudicating judge is necessary for replay consistency, which every audited baseline omits. A verdict matrix over eight systems localizes the gap: every baseline that keeps a language-model judge on the write path admits at least one of three write-time anomalies (replay inconsistency, belief-drift skew, audit erasure); a content-addressed engine-layer comparator avoids them only by removing the judge, and TOKI alone excludes all three while keeping it. On its one natural-workload slice the audit-row defence moves LoCoMo by 0.86, and ablating the typed memory layer removes 0.49 accuracy on 1,444 answerable LoCoMo questions; the cross-system comparison stays underpowered and claims no superiority. The contribution is the contract: a write-time correctness specification, proved sound across isolation, schema, and provenance, pinning the guarantee every production heuristic assumes but no deployed system makes explicit.
 
 ## LLM Continual Training & Continual Learning
 
@@ -502,7 +505,7 @@ Persistent memory for an LLM agent is a write-heavy substrate: every belief upda
 - **Authors:** Huang, Ruixuan, Shi, Jinyuan, Huang, Hantao, Huang, Yifan, Guan, Ziyi, Zeng, Hao, Yen, Ian En-Hsu, Yu, Minghui
 - **Published:** 2026-06-09
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.10722) · [PDF](https://arxiv.org/pdf/2606.10722)
@@ -514,7 +517,7 @@ We study dense-to-sparse continual training as a way to construct channel-sparse
 - **Authors:** Mingqi Yuan, Xiaoquan Sun, Shihao Luo, Jiayu Chen
 - **Published:** 2026-06-08
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.09430v2) · [PDF](https://arxiv.org/pdf/2606.09430v2)
@@ -587,8 +590,8 @@ Reinforcement Learning agents deployed on physical systems must adapt continuall
 
 - **Authors:** Leyi Pan, Shuchang Tao, Yunpeng Zhai, Lingzhe Zhang, Zhaoyang Liu, Bolin Ding, Aiwei Liu, Lijie Wen
 - **Published:** 2026-06-10
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.11709v2) · [PDF](https://arxiv.org/pdf/2606.11709v2)
@@ -600,7 +603,7 @@ On-policy self-distillation (OPSD) provides dense, token-level supervision for r
 - **Authors:** Hsu, Hao-Lun, Kuang, Nikki Lijing, Liu, Boyi, Yao, Zhewei, He, Yuxiong
 - **Published:** 2026-06-10
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.11680) · [PDF](https://arxiv.org/pdf/2606.11680)
@@ -708,8 +711,8 @@ While neural networks excel in autonomous control, their black-box nature makes 
 - **Authors:** Cai, Yishuo, Guo, Xingyu, Huang, Xuancheng, Du, Jinhua, Huang, Can, Huang, Wenxuan, Ma, Wenhan, Hu, Yuyang, Zeng, Aohan, Tang, Jie, Sun, Xu
 - **Published:** 2026-06-07
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** GSAI, Peking University, Renmin University of China
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.08656) · [PDF](https://arxiv.org/pdf/2606.08656)
 
@@ -731,9 +734,9 @@ Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a leading p
 
 - **Authors:** Zhang, Yudi, Fang, Meng, Chen, Zhenfang, Pechenizkiy, Mykola
 - **Published:** 2026-06-05
-- **Priority:** —
+- **Priority:** 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
 - **Venue:** ICML 2026
-- **Affiliations:** n/a
+- **Affiliations:** TU Eindhoven
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2606.07367) · [PDF](https://arxiv.org/pdf/2606.07367)
 

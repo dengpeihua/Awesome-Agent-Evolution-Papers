@@ -1,11 +1,11 @@
-> **2650 papers** · Page 31/53 · Newest first across all pages
+> **2656 papers** · Page 31/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,7 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-08-10 | Reinforcement Learning | [SR-OPSD: Self-Referenced On-Policy Self-Distillation](https://arxiv.org/abs/2608.09745v2) | — |
 | 2026-08-10 | Agent/LLM Self-Improvement | [Rethinking Self-Evolving Agents: Do We Still Need Prescribed Optimization Pipelines?](https://arxiv.org/abs/2608.09629v1) | — |
 | 2026-08-10 | Agent/LLM Self-Improvement | [ActBench: Self-Evolving Benchmark of Behavioral Safety in Cowork Agents](https://arxiv.org/abs/2608.09476v1) | — |
 | 2026-08-10 | Reinforcement Learning | [RefineFly: Failure-Aware Post-Training for Aerial Vision-Language Navigation](https://arxiv.org/abs/2608.09467v3) | — |
@@ -62,7 +63,6 @@
 | 2026-08-05 | Agent/LLM Self-Improvement | [EvolveNet: Collaborative Harness Evolution for Agent Self-Improvement](https://arxiv.org/abs/2608.04968v1) | — |
 | 2026-08-05 | Agent/LLM Self-Improvement, Reinforcement Learning | [Search2Skill: Skill Distillation Beyond Knowledge Boundaries Via Rubric-Based Reinforcement Learning](https://arxiv.org/abs/2608.05245v1) | — |
 | 2026-08-05 | Agent/LLM Self-Improvement | [A-SR: Self-Evolving Agentic LLMs for Symbolic Regression via Hierarchical Coordination](https://arxiv.org/abs/2608.04872v2) | — |
-| 2026-08-05 | Agent Memory, Reinforcement Learning | [MemoryCPT: An End-to-End Agent Memory Framework for Cost-Performance Trade-off](https://arxiv.org/abs/2608.04843v1) | — |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -168,7 +168,7 @@ Modern LLM agents are often improved by modifying prompts, tools, or workflows m
 - **Published:** 2026-08-08
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Emory University
 - **Categories:** cs.AI, cs.MA
 - **Links:** [Paper](https://arxiv.org/abs/2608.08303v1) · [PDF](https://arxiv.org/pdf/2608.08303v1)
 
@@ -312,7 +312,7 @@ Large language model agents can discover alphas, yet current methods have three 
 - **Published:** 2026-08-05
 - **Priority:** —
 - **Venue:** COLM 2026
-- **Affiliations:** n/a
+- **Affiliations:** University of Illinois Urbana-Champaign
 - **Categories:** cs.LG, cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2608.05446v1) · [PDF](https://arxiv.org/pdf/2608.05446v1)
 
@@ -446,7 +446,7 @@ When a reinforcement learning agent cannot observe the full state, we usually bl
 - **Published:** 2026-08-07
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** KAIST
 - **Categories:** cs.AI, cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2608.07169v1) · [PDF](https://arxiv.org/pdf/2608.07169v1)
 
@@ -487,18 +487,6 @@ Agent memory systems compress what they store, and compression is built to drop 
 - **Links:** [Paper](https://arxiv.org/abs/2608.05784v1) · [PDF](https://arxiv.org/pdf/2608.05784v1)
 
 Computer-use agents pay full frontier inference to re-derive routines their user has already performed, because an agent's memory today records what the user said, not what the user did. We compile passively captured screen activity into agent memory with a deterministic, zero-model pipeline: it segments a local capture stream into typed activity frames, bounded episodes carrying application, site, timing, input volume, and evidence pointers back to the raw rows, with no model in the loop, so the output is byte-identical, cacheable, and mechanically auditable. On one professional's single-user corpus of 128,756 frames over 51 active days, the compiler reduces a day of raw capture to a prompt-ready context block 86x smaller in 68 ms, and an agent reading that block answers questions about the day at 98.4% accuracy (Wilson 95% CI 91.7-99.7%) against an independent oracle, versus 66-80% for an LLM summary of the same capture, a mid-tier model reading the block matching a frontier one. The same compiler doubles as a demand-side cost instrument. Read off passive, pre-delegation human activity rather than agent rollouts, it supplies two parameters that agent-cost models assume but, to our knowledge, have not measured: the Routine Overhead Ratio R and the routine recurrence h. We report first values of R, a modeled upper bound, at 60-343x, and a delegable recurrence of 9.0% in-sample and 7.7% out-of-sample, for a realistic all-fleet token ceiling near 8%; a compiled routine replays deterministically with the model out of the loop, demonstrated live at zero model tokens on a guard-matched hit. Schema, compiler, and evaluation harness are open.
-
-### [MemoryCPT: An End-to-End Agent Memory Framework for Cost-Performance Trade-off](https://arxiv.org/abs/2608.04843v1)
-
-- **Authors:** Songxin Lei, Kun Ouyang, Weilin Ruan, Yuqian Wu, Zhijiang Guo, Yushi Sun, Fugee Tsung
-- **Published:** 2026-08-05
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.IR
-- **Links:** [Paper](https://arxiv.org/abs/2608.04843v1) · [PDF](https://arxiv.org/pdf/2608.04843v1)
-
-Long-horizon LLM agents require memory systems that recover useful evidence from large interaction histories without passing excessive context to downstream models. Existing memory pipelines often rely on hand-crafted heuristics and repeated LLM calls, which can introduce redundant context and high inference cost. We propose MemoryCPT, an end-to-end trainable agent memory pipeline that spans offline memory construction and online query-conditioned context generation. MemoryCPT consists of two stages: Query-agnostic Distillation (QAD), which distills a modular memory-construction pipeline into a compact model using explicit reasoning traces; and Query-aware Retrieval and Summarization (QAR), which combines reciprocal rank fusion (RRF) with a LoRA-based summarizer trained via Group Relative Policy Optimization (GRPO) under a cost-aware reward. We further introduce Quality per Cost (QPC) to quantify answer quality per unit inference cost. Experiments on LoCoMo and LongMemEval show that MemoryCPT improves the cost-performance trade-off over the evaluated baselines, while ablation and sensitivity analyses characterize the contributions of its components and the effects of key design choices.
 
 ## LLM Continual Training & Continual Learning
 
@@ -587,6 +575,18 @@ Deep learning models applied to medical image analysis suffer from severe catast
 Dialectal variation remains a major challenge for multilingual language models. Perturbation-based continued pre-training (CPT) has emerged as a promising approach to improving robustness, yet existing work largely evaluates individual perturbation strategies in isolation and provides limited insight into why they work. We present a systematic study of perturbation-based CPT for multilingual dialect robustness in LLMs, comparing six training conditions across nine German, Italian, and Arabic dialect tasks. Perturbation-based CPT, especially character-noised CPT, consistently improves zero-shot dialect robustness while largely preserving standard variety performance. More importantly, we show that methods with similar downstream performance induce distinct mechanisms of robustness, exhibiting different patterns of language model adaptation, representational alignment, and prediction repair. Our results provide a more complete understanding of how synthetic surface variation improves robustness and offer practical guidance for selecting CPT strategies in multilingual and dialectal settings.
 
 ## Reinforcement Learning
+
+### [SR-OPSD: Self-Referenced On-Policy Self-Distillation](https://arxiv.org/abs/2608.09745v2)
+
+- **Authors:** Zhuo Sun, Entong Li, Yanlong Zhao, Xiaoyuan Cheng, Wenxuan Yuan, Kaiyu Li, Che Liu, Huihang Liu, Baihua He, Xinyu Zhang, Harrison Bo Hua Zhu, Li Zeng
+- **Published:** 2026-08-10
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI, stat.ML
+- **Links:** [Paper](https://arxiv.org/abs/2608.09745v2) · [PDF](https://arxiv.org/pdf/2608.09745v2)
+
+On-policy self-distillation (OPSD) converts feedback into dense token-level supervision on student-generated trajectories, complementing reinforcement learning with sparse outcome rewards. Its self-teacher, derived from the student's current or exponentially averaged parameters and conditioned on additional context, evolves alongside the student and its rollout context distribution. The benefit of modifying this moving target depends on how target--student probability mismatches translate into updates. We propose \emph{Self-Referenced On-Policy Self-Distillation (SR-OPSD)}, which constructs a normalized geometric target from the self-teacher and a frozen initial policy, then minimizes the forward Rényi divergence from this target to the student. The interpolation coefficient controls the self-teacher's contribution, while the Rényi order controls the power weighting of target-to-student probability ratios in the gradient. For fixed contexts and target components, we establish a conditional variational characterization and derive the exact token-logit gradient, revealing how anchoring and projection jointly shape the effective update target. Experiments across scientific reasoning, tool use, mathematical reasoning, and code generation demonstrate strong performance across multiple model families and scales. Ablations further show that reference anchoring can improve or degrade performance depending on the projection objective, supporting the joint design of target construction and projection geometry.
 
 ### [RefineFly: Failure-Aware Post-Training for Aerial Vision-Language Navigation](https://arxiv.org/abs/2608.09467v3)
 
@@ -714,7 +714,7 @@ Synthetic 3D scene generation is increasingly used as a data source for computer
 - **Published:** 2026-08-05
 - **Priority:** —
 - **Venue:** COLM 2026
-- **Affiliations:** n/a
+- **Affiliations:** University of Illinois Urbana-Champaign
 - **Categories:** cs.LG, cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2608.05446v1) · [PDF](https://arxiv.org/pdf/2608.05446v1)
 
@@ -743,15 +743,3 @@ Long-horizon reasoning requires an agentic runtime that can persist when evidenc
 - **Links:** [Paper](https://arxiv.org/abs/2608.05245v1) · [PDF](https://arxiv.org/pdf/2608.05245v1)
 
 Reusable skills, which encapsulate the procedural knowledge required to solve real-world professional tasks, offer LLM-based agents a path toward self-evolution in expert domains. Existing self-evolving skill methods construct skills internally from the model's parametric knowledge or trajectories, and are therefore bounded by what the model already knows. However, the domain conventions and standard procedures underlying professional skills often lie beyond this boundary and are hard to elicit from the agent alone. To address this issue, we therefore propose a novel framework, Search2Skill, that automatically identifies the agent's capability gaps, searches external sources to address them, and distills the retrieved evidence into structured, reusable skills. Specifically, Search2Skill is optimized by a rubric-based reinforcement learning scheme that jointly improves when to search, how to search, and how to generate skills. Experiments on eight expert-level domains from three benchmarks show that Search2Skill consistently outperforms both search-augmented and trajectory-based skill-learning baselines under both streaming and held-out evaluation protocols. Further analyses show that the gains arise from skill abstraction rather than raw retrieved evidence, and that the acquired skills transfer across model scales.
-
-### [MemoryCPT: An End-to-End Agent Memory Framework for Cost-Performance Trade-off](https://arxiv.org/abs/2608.04843v1)
-
-- **Authors:** Songxin Lei, Kun Ouyang, Weilin Ruan, Yuqian Wu, Zhijiang Guo, Yushi Sun, Fugee Tsung
-- **Published:** 2026-08-05
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.IR
-- **Links:** [Paper](https://arxiv.org/abs/2608.04843v1) · [PDF](https://arxiv.org/pdf/2608.04843v1)
-
-Long-horizon LLM agents require memory systems that recover useful evidence from large interaction histories without passing excessive context to downstream models. Existing memory pipelines often rely on hand-crafted heuristics and repeated LLM calls, which can introduce redundant context and high inference cost. We propose MemoryCPT, an end-to-end trainable agent memory pipeline that spans offline memory construction and online query-conditioned context generation. MemoryCPT consists of two stages: Query-agnostic Distillation (QAD), which distills a modular memory-construction pipeline into a compact model using explicit reasoning traces; and Query-aware Retrieval and Summarization (QAR), which combines reciprocal rank fusion (RRF) with a LoRA-based summarizer trained via Group Relative Policy Optimization (GRPO) under a cost-aware reward. We further introduce Quality per Cost (QPC) to quantify answer quality per unit inference cost. Experiments on LoCoMo and LongMemEval show that MemoryCPT improves the cost-performance trade-off over the evaluated baselines, while ablation and sensitivity analyses characterize the contributions of its components and the effects of key design choices.

@@ -1,11 +1,11 @@
-> **2650 papers** · Page 42/53 · Newest first across all pages
+> **2656 papers** · Page 42/54 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:02:52.442995+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,9 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-05-13 | Agent/LLM Self-Improvement, Agent Memory | [EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents](https://arxiv.org/abs/2605.13941) | 🔥 Very popular code<br>📈 Highly cited |
+| 2026-05-12 | Agent/LLM Self-Improvement | [Optimized but Unowned: How AI-Authored Goals Undermine the Motivation They Are Meant to Drive](https://arxiv.org/abs/2605.12344v3) | — |
+| 2026-05-12 | Reinforcement Learning | [Missing Old Logits in Asynchronous Agentic RL: Semantic Mismatch and Repair Methods for Off-Policy Correction](https://arxiv.org/abs/2605.12070v3) | — |
 | 2026-05-12 | Agent/LLM Self-Improvement, Agent Memory | [SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory](https://arxiv.org/abs/2605.12061v2) | — |
 | 2026-05-12 | Agent/LLM Self-Improvement | [Proteus: A Self-Evolving Red Team for Agent Skill Ecosystems](https://arxiv.org/abs/2605.11891v2) | — |
 | 2026-05-12 | Reinforcement Learning | [CaC: Advancing Video Reward Models via Hierarchical Spatiotemporal Concentrating](https://arxiv.org/abs/2605.11723v3) | — |
@@ -22,7 +25,7 @@
 | 2026-05-12 | Agent Memory | [Goal-Oriented Reasoning for RAG-based Memory in Conversational Agentic LLM Systems](https://arxiv.org/abs/2605.12213) | — |
 | 2026-05-12 | LLM Continual Training | [Learning, Fast and Slow: Towards LLMs That Adapt Continually](https://arxiv.org/abs/2605.12484) | — |
 | 2026-05-12 | Agent Memory | [The Misattribution Gap: When Memory Poisoning Looks Like Model Failure in Agentic AI Systems](https://arxiv.org/abs/2605.22842) | — |
-| 2026-05-12 | Agent Memory | [LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues](https://arxiv.org/abs/2605.12493) | — |
+| 2026-05-12 | Agent Memory | [LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues](https://arxiv.org/abs/2605.12493) | 📈 Highly cited |
 | 2026-05-12 | Agent Memory | [Executable Agentic Memory for GUI Agent](https://arxiv.org/abs/2605.12294) | — |
 | 2026-05-11 | Reinforcement Learning | [RankQ: Offline-to-Online Reinforcement Learning via Self-Supervised Action Ranking](https://arxiv.org/abs/2605.11151v4) | — |
 | 2026-05-11 | Agent/LLM Self-Improvement | [GRAFT-ATHENA: Self-Improving Agentic Teams for Autonomous Discovery and Evolutionary Numerical Algorithms](https://arxiv.org/abs/2605.11117v2) | — |
@@ -60,18 +63,41 @@
 | 2026-05-08 | Agent Memory | [MEMOREPAIR: Barrier-First Cascade Repair in Agentic Memory](https://arxiv.org/abs/2605.07242) | — |
 | 2026-05-07 | Reinforcement Learning | [How to Compress KV Cache in RL Post-Training? Shadow Mask Distillation for Memory-Efficient Alignment](https://arxiv.org/abs/2605.06850v2) | — |
 | 2026-05-07 | Reinforcement Learning | [StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction](https://arxiv.org/abs/2605.06642v2) | — |
-| 2026-05-07 | Reinforcement Learning | [How Deep Can LLMs Learn to Reason? Expressiveness Is Key](https://arxiv.org/abs/2605.06638v4) | — |
-| 2026-05-07 | Reinforcement Learning | [Skip What You Can Predict: Predictive Repositioning for Policy Optimization for Efficient LLM Training](https://arxiv.org/abs/2605.06755v2) | — |
-| 2026-05-07 | Reinforcement Learning | [One Turn Too Late: Learning When to Intervene Against Multi-Turn Malicious Intent](https://arxiv.org/abs/2605.05630v3) | — |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents](https://arxiv.org/abs/2605.13941) | 🔥 Very popular code<br>📈 Highly cited | UNC-Chapel Hill |
+| [LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues](https://arxiv.org/abs/2605.12493) | 📈 Highly cited | First author: University of California, Los Angeles (Semantic Scholar author profiles) |
 | [BoostAPR: Boosting Automated Program Repair via Execution-Grounded Reinforcement Learning with Dual Reward Models](https://arxiv.org/abs/2605.09134v4) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: 21 pages, 2 figures. Accepted at ICML 2026 |
 | [Your Language Model is Its Own Critic: Reinforcement Learning with Value Estimation from Actor's Internal States](https://arxiv.org/abs/2605.07579v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026; Project Page: https://elijah0430.github.io/poise/ |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
+
+### [EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents](https://arxiv.org/abs/2605.13941)
+
+- **Authors:** Liu, Jiaqi, Ye, Xinyu, Xia, Peng, Zheng, Zeyu, Xie, Cihang, Ding, Mingyu, Yao, Huaxiu
+- **Published:** 2026-05-13
+- **Priority:** 🔥 Very popular code<br>📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** UNC-Chapel Hill
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2605.13941) · [PDF](https://arxiv.org/pdf/2605.13941) · [Code](https://github.com/aiming-lab/SimpleMem)
+
+Long-term memory is essential for LLM agents that operate across multiple sessions, yet existing memory systems treat retrieval infrastructure as fixed: stored content evolves while scoring functions, fusion strategies, and answer-generation policies remain frozen at deployment. We argue that truly adaptive memory requires co-evolution at two levels: the stored knowledge and the retrieval mechanism that queries it. We present EvolveMem, a self-evolving memory architecture that exposes its full retrieval configuration as a structured action space optimized by an LLM-powered diagnosis module. In each evolution round, the module reads per-question failure logs, identifies root causes, and proposes targeted configuration adjustments; a guarded meta-analyzer applies them with automatic revert-on-regression and explore-on-stagnation safeguards. This closed-loop self-evolution realizes an AutoResearch process: the system autonomously conducts iterative research cycles on its own architecture, replacing manual configuration tuning. Starting from a minimal baseline, the process converges autonomously, discovering effective retrieval strategies including entirely new configuration dimensions not present in the original action space. On LoCoMo, EvolveMem outperforms the strongest baseline by 25.7% relative and achieves a 78.0% relative improvement over the minimal baseline. On MemBench, EvolveMem exceeds the strongest baseline by 18.9% relative. Evolved configurations transfer across benchmarks with positive rather than catastrophic transfer, indicating that the self-evolution process captures universal retrieval principles rather than benchmark-specific heuristics. Code is available at https://github.com/aiming-lab/SimpleMem.
+
+### [Optimized but Unowned: How AI-Authored Goals Undermine the Motivation They Are Meant to Drive](https://arxiv.org/abs/2605.12344v3)
+
+- **Authors:** Vivienne Bihe Chi, Roman Rietsche, Andreas Göldi, Lyle Ungar, Sharath Chandra Guntuku
+- **Published:** 2026-05-12
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.HC
+- **Links:** [Paper](https://arxiv.org/abs/2605.12344v3) · [PDF](https://arxiv.org/pdf/2605.12344v3)
+
+As AI tools become embedded in productivity and self-improvement contexts, a pressing question emerges: what happens when AI does the goal-setting for us? In a preregistered experiment (N = 470), we compared self-authored goals against LLM-authored goals derived from a personal reflection. LLM-generated goals scored higher on SMART criteria (|d| = 2.26), yet participants in the LLM condition reported lower psychological ownership (|d| = 1.38), commitment (|d| = 1.19), and perceived importance (|d| = 1.13). At two-week follow-up, 72.8% of self-authored participants had acted on two or more of their goals, compared to 46.6% in the LLM condition. Psychological ownership, not goal quality, mediated every downstream motivational outcome. Individuals low in trait self-efficacy, those most likely to seek AI assistance, experienced the steepest ownership erosion. These findings reveal a quality-motivation dissociation in AI-assisted goal-setting and identify authorship preservation as a design priority for AI tools deployed in identity-relevant, behavior-dependent tasks.
 
 ### [SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory](https://arxiv.org/abs/2605.12061v2)
 
@@ -102,7 +128,7 @@ Agent skills extend LLM agents with reusable instructions, tool interfaces, and 
 - **Authors:** Juan Diego Toscano, Zhaojie Chai, George Em Karniadakis
 - **Published:** 2026-05-11
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.MA, math.PR
 - **Links:** [Paper](https://arxiv.org/abs/2605.11117v2) · [PDF](https://arxiv.org/pdf/2605.11117v2)
@@ -114,7 +140,7 @@ Scientific methods are developed for classes of problems, so knowledge transfers
 - **Authors:** Xu, Jinhang, Zhu, Qiyuan, Wu, Yujun, Wang, Zirui, Zhang, Dongxu, Tian, Marcia, Duan, Yiling, Li, Siyuan, Wei, Jingxuan, Han, Sirui, Guo, Yike, Zhang, Odin, He, Conghui, Tan, Cheng
 - **Published:** 2026-05-11
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.10813) · [PDF](https://arxiv.org/pdf/2605.10813)
@@ -126,7 +152,7 @@ LLM-powered multi-agent systems can now automate the full research pipeline from
 - **Authors:** Zhang, Xinyu, Dou, Zhicheng, Li, Deyang, Tao, Jianjun, Cheng, Shuo, Shi, Ruifeng, Liu, Fangchao, Hu, Enrui, Ding, Yangkai, Wang, Hongbo, Ye, Qi, Jin, Xuefeng, Zhao, Zhangchun
 - **Published:** 2026-05-11
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.10052) · [PDF](https://arxiv.org/pdf/2605.10052)
@@ -138,8 +164,8 @@ As artificial intelligence engineering paradigms shift from single-agent Prompt 
 - **Authors:** Yang, Ruiyi, Li, Zechen, Xue, Hao, Razzak, Imran, Salim, Flora D.
 - **Published:** 2026-05-11
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** University of New South Wales
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.10064) · [PDF](https://arxiv.org/pdf/2605.10064)
 
@@ -187,7 +213,7 @@ We introduce the Evolving Ensemble of Agents (EvE), a decentralized framework th
 - **Published:** 2026-05-09
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** Korea Advanced Institute of Science and Technology (KAIST)
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.08704v3) · [PDF](https://arxiv.org/pdf/2605.08704v3)
 
@@ -234,8 +260,8 @@ Large Language Models (LLMs) have demonstrated remarkable capabilities in orches
 - **Authors:** Liao, Junwei, Shi, Haoting, Zhou, Ruiwen, Wang, Jiaqian, Zhang, Shengtao, Zhang, Wei, Wen, Ying, Li, Zhiyu, Xiong, Feiyu, Tang, Bo, Zhang, Weinan, Wen, Muning
 - **Published:** 2026-05-08
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** National University of Singapore
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.08374) · [PDF](https://arxiv.org/pdf/2605.08374) · [Code](https://github.com/jwliao-ai/MemQ)
 
@@ -246,7 +272,7 @@ Episodic memory allows LLM agents to accumulate and retrieve experience, but cur
 - **Authors:** Iscan, Mehmet
 - **Published:** 2026-05-08
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.08468) · [PDF](https://arxiv.org/pdf/2605.08468)
@@ -254,6 +280,18 @@ Episodic memory allows LLM agents to accumulate and retrieve experience, but cur
 Local LLM-based coding agents increasingly work in settings where correctness is earned through execution feedback, persistent state, and bounded repair, not through a single fluent answer. Static retrieval, long-context prompting, self-refinement, execution-feedback repair, and reinforcement learning over model weights each address part of this setting, but they do not jointly provide validation-grounded episodic memory, adaptive retrieval-action selection, delayed credit assignment, and structural skill reuse around a frozen local model. We introduce PYTHALAB-MERA, a lightweight external controller for local validation-conditioned code generation. The frozen language model proposes complete source files; the controller decides which memory records and AST-derived skills should enter the next prompt, validates each candidate through a fail-fast pipeline, converts validation outcomes into bounded shaped rewards, and propagates delayed credit through TD(lambda)-style eligibility traces. We evaluate the implementation as a local CLI artifact on reinforcement-learning coding tasks with strict validation gates. In the measured hard RL setting with three tasks, three repetitions, and a three-attempt budget, PYTHALAB-MERA passed 8/9 strict validations; the self-refinement baseline and the investigated GRACE extension each passed 0/9. These results support a deliberately bounded claim: in this recorded setting, the external memory-and-retrieval controller improved validation success. They do not establish general-purpose code synthesis, state-of-the-art performance, formal program correctness, or formal safety.
 
 ## Agent Memory
+
+### [EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents](https://arxiv.org/abs/2605.13941)
+
+- **Authors:** Liu, Jiaqi, Ye, Xinyu, Xia, Peng, Zheng, Zeyu, Xie, Cihang, Ding, Mingyu, Yao, Huaxiu
+- **Published:** 2026-05-13
+- **Priority:** 🔥 Very popular code<br>📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** UNC-Chapel Hill
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2605.13941) · [PDF](https://arxiv.org/pdf/2605.13941) · [Code](https://github.com/aiming-lab/SimpleMem)
+
+Long-term memory is essential for LLM agents that operate across multiple sessions, yet existing memory systems treat retrieval infrastructure as fixed: stored content evolves while scoring functions, fusion strategies, and answer-generation policies remain frozen at deployment. We argue that truly adaptive memory requires co-evolution at two levels: the stored knowledge and the retrieval mechanism that queries it. We present EvolveMem, a self-evolving memory architecture that exposes its full retrieval configuration as a structured action space optimized by an LLM-powered diagnosis module. In each evolution round, the module reads per-question failure logs, identifies root causes, and proposes targeted configuration adjustments; a guarded meta-analyzer applies them with automatic revert-on-regression and explore-on-stagnation safeguards. This closed-loop self-evolution realizes an AutoResearch process: the system autonomously conducts iterative research cycles on its own architecture, replacing manual configuration tuning. Starting from a minimal baseline, the process converges autonomously, discovering effective retrieval strategies including entirely new configuration dimensions not present in the original action space. On LoCoMo, EvolveMem outperforms the strongest baseline by 25.7% relative and achieves a 78.0% relative improvement over the minimal baseline. On MemBench, EvolveMem exceeds the strongest baseline by 18.9% relative. Evolved configurations transfer across benchmarks with positive rather than catastrophic transfer, indicating that the self-evolution process captures universal retrieval principles rather than benchmark-specific heuristics. Code is available at https://github.com/aiming-lab/SimpleMem.
 
 ### [SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory](https://arxiv.org/abs/2605.12061v2)
 
@@ -272,8 +310,8 @@ Long-term memory is becoming a central bottleneck for language agents. Exsting R
 - **Authors:** Liang, Jiazhou, Toroghi, Armin, Liu, Yifan Simon, Kalarde, Faeze Moradi, Gallagher, Liam, Sanner, Scott
 - **Published:** 2026-05-12
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** University of Toronto
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.12213) · [PDF](https://arxiv.org/pdf/2605.12213)
 
@@ -284,8 +322,8 @@ LLM-based conversational AI agents struggle to maintain coherent behavior over l
 - **Authors:** Ahad, Tanzim, Hossain, Ismail, Alam, Md Jahangir, Puppala, Sai, Alam, Syed Bahauddin, Talukder, Sajedul
 - **Published:** 2026-05-12
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** Edinboro University, Florida International University
 - **Categories:** cs.CR
 - **Links:** [Paper](https://arxiv.org/abs/2605.22842) · [PDF](https://arxiv.org/pdf/2605.22842)
 
@@ -295,9 +333,9 @@ Multi-agent AI pipelines typically assume that agent misconduct originates from 
 
 - **Authors:** Wu, Di, Ji, Zixiang, Kawatkar, Asmi, Kwan, Bryan, Gu, Jia-Chen, Peng, Nanyun, Chang, Kai-Wei
 - **Published:** 2026-05-12
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** UCLA, University of California, Los Angeles
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.12493) · [PDF](https://arxiv.org/pdf/2605.12493)
 
@@ -308,7 +346,7 @@ Long-term memory is crucial for agents in specialized web environments, where su
 - **Authors:** Qin, Zerui, Yue, Sheng, Hua, Xingyuan, Fu, Yongjian, Ren, Ju
 - **Published:** 2026-05-12
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.12294) · [PDF](https://arxiv.org/pdf/2605.12294)
@@ -320,7 +358,7 @@ Modern GUI agents typically rely on a model-centric and step-wise interaction pa
 - **Authors:** Choi, Yumin, Park, Sangwoo, Kang, Minki, Baek, Jinheon, Hwang, Sung Ju
 - **Published:** 2026-05-11
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.13880) · [PDF](https://arxiv.org/pdf/2605.13880)
@@ -332,7 +370,7 @@ Agent memory is typically constructed either offline from curated demonstrations
 - **Authors:** Ji, Baibei, Weng, Xiaoyang, Li, Juntao, Tang, Zecheng, Lou, Yihang, Zhang, Min
 - **Published:** 2026-05-11
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.10268) · [PDF](https://arxiv.org/pdf/2605.10268)
@@ -344,7 +382,7 @@ To tackle long-context reasoning tasks without the quadratic complexity of stand
 - **Authors:** Jiang, Dongming, Li, Yi, Li, Guanpeng, Li, Qiannan, Li, Bingzhe
 - **Published:** 2026-05-11
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.09942) · [PDF](https://arxiv.org/pdf/2605.09942) · [Code](https://github.com/FredJiang0324/HAGE_MVPReview)
@@ -356,7 +394,7 @@ Memory retrieval in agentic large language model (LLM) systems is often treated 
 - **Authors:** Chen, Yining, Zhao, Jihao, Tang, Bo, Wang, Haofen, Zhang, Yue, Huang, Fei, Xiong, Feiyu, Li, Zhiyu
 - **Published:** 2026-05-10
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CR
 - **Links:** [Paper](https://arxiv.org/abs/2605.09530) · [PDF](https://arxiv.org/pdf/2605.09530)
@@ -368,7 +406,7 @@ As LLM-powered agents are increasingly deployed in edge-cloud environments, pers
 - **Authors:** Ravindran, Santhosh Kumar
 - **Published:** 2026-05-10
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CR
 - **Links:** [Paper](https://arxiv.org/abs/2605.11032) · [PDF](https://arxiv.org/pdf/2605.11032)
@@ -380,7 +418,7 @@ We present Portable Agent Memory, an open protocol and reference implementation 
 - **Authors:** Tang, Luoxi, Vaje, Rupali Rajendra, Meng, Yuqiao, Narkar, Sakshi Sunil, Ma, Weicheng, Ding, Zeyu, Zhang, Dazheng, Xi, Zhaohan
 - **Published:** 2026-05-10
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2605.09330) · [PDF](https://arxiv.org/pdf/2605.09330)
@@ -392,7 +430,7 @@ Agentic memory enables LLMs to persist information beyond a single context windo
 - **Authors:** Zhang, Guibin, Ling, Yaohui, Meng, Fanci, Wang, Kun, Yan, Shuicheng
 - **Published:** 2026-05-10
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.09317) · [PDF](https://arxiv.org/pdf/2605.09317)
@@ -404,7 +442,7 @@ GUI agents are beginning to operate the web, mobile, and desktop as interactive 
 - **Authors:** Luo, Yang, Kang, Zifeng, Ji, Tiantian, Liu, Xinran, Liu, Yong, Li, Shuyu, Peng, Lingyun
 - **Published:** 2026-05-09
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CR
 - **Links:** [Paper](https://arxiv.org/abs/2605.09033) · [PDF](https://arxiv.org/pdf/2605.09033)
@@ -416,8 +454,8 @@ Graph-based agent memory is increasingly used in LLM agents to support structure
 - **Authors:** Liao, Junwei, Shi, Haoting, Zhou, Ruiwen, Wang, Jiaqian, Zhang, Shengtao, Zhang, Wei, Wen, Ying, Li, Zhiyu, Xiong, Feiyu, Tang, Bo, Zhang, Weinan, Wen, Muning
 - **Published:** 2026-05-08
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** National University of Singapore
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.08374) · [PDF](https://arxiv.org/pdf/2605.08374) · [Code](https://github.com/jwliao-ai/MemQ)
 
@@ -428,7 +466,7 @@ Episodic memory allows LLM agents to accumulate and retrieve experience, but cur
 - **Authors:** Ding, Xin, Wang, Xinrui, Yang, Yifan, Wu, Hao, Jiang, Shiqi, Zhang, Qianxi, Mi, Liang, Zhu, Hanxin, Li, Kun, Liu, Yunxin, Chen, Zhibo, Cao, Ting
 - **Published:** 2026-05-08
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.RO
 - **Links:** [Paper](https://arxiv.org/abs/2605.07594) · [PDF](https://arxiv.org/pdf/2605.07594)
@@ -440,7 +478,7 @@ Existing memory systems for embodied agents typically inject retrieved memory as
 - **Authors:** Iscan, Mehmet
 - **Published:** 2026-05-08
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.08468) · [PDF](https://arxiv.org/pdf/2605.08468)
@@ -452,7 +490,7 @@ Local LLM-based coding agents increasingly work in settings where correctness is
 - **Authors:** Shao, Jiaqi, Lu, Yiyi, Zhang, Yunzhen, Luo, Bing
 - **Published:** 2026-05-08
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.07313) · [PDF](https://arxiv.org/pdf/2605.07313)
@@ -464,7 +502,7 @@ Memory-agent evaluations report fixed-snapshot accuracy or retrieval quality, bu
 - **Authors:** Zhao, Yang, Dai, Chengxiao, Kou, Mengying, Xiu, Yue
 - **Published:** 2026-05-08
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.07242) · [PDF](https://arxiv.org/pdf/2605.07242)
@@ -490,8 +528,8 @@ A single base LLM now comes with dozens of post-training variants, quantized, Lo
 - **Authors:** Tiwari, Rishabh, Sareen, Kusha, Agrawal, Lakshya A, Gonzalez, Joseph E., Zaharia, Matei, Keutzer, Kurt, Dhillon, Inderjit S, Agarwal, Rishabh, Khatri, Devvrit
 - **Published:** 2026-05-12
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** UC Berkeley
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2605.12484) · [PDF](https://arxiv.org/pdf/2605.12484)
 
@@ -534,6 +572,18 @@ Protein language models are trained primarily with masked language modeling (MLM
 Large language models (LLMs) are trained and evaluated as though perfect reliability is achievable for any task given sufficient scale. We show that this assumption is information-theoretically unjustified. Every generative task has a reliability ceiling that no model can exceed, determined by how much output uncertainty is resolvable from observable context. The gap decomposes into a resolvable component closable with additional context and a subjective component inherent to task ambiguity. Autoregressive generation further degrades this ceiling at a rate governed by the task's dependency kernel, which quantifies inter-token correlations in the output. From these two primitives, we derive a first-principles scaling law where LLM performance is bottlenecked by the scarcer resource: training data or model capacity. This law recovers the Chinchilla scaling law as a special case and provides a structural account of when scaling improves reliability. Beyond scaling, our framework unifies diverse practical phenomena, such as the benefits of retrieval-augmentation and the spectral mechanics of catastrophic forgetting. Our work formalizes the resource-complexity tradeoffs that govern model performance across domains, offering a unified theory of performance limits in generative language models.
 
 ## Reinforcement Learning
+
+### [Missing Old Logits in Asynchronous Agentic RL: Semantic Mismatch and Repair Methods for Off-Policy Correction](https://arxiv.org/abs/2605.12070v3)
+
+- **Authors:** Zhong Guan, Yongjian Guo, Haoran Sun, Wen Huang, Shuai Di, Likang Wu, Xiong Jun Wu, Hongke Zhao
+- **Published:** 2026-05-12
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2605.12070v3) · [PDF](https://arxiv.org/pdf/2605.12070v3)
+
+Asynchronous reinforcement learning improves rollout throughput for large language model agents by decoupling sample generation from policy optimization, but it also introduces a critical failure mode for PPO-style off-policy correction. In heterogeneous training systems, the total importance ratio should ideally be decomposed into two semantically distinct factors: a \emph{training--inference discrepancy term} that aligns inference-side and training-side distributions at the same behavior-policy version, and a \emph{policy-staleness term} that constrains the update from the historical policy to the current policy. We show that practical asynchronous pipelines with delayed updates and partial rollouts often lose the required historical training-side logits, or old logits. This missing-old-logit problem entangles discrepancy repair with staleness correction, breaks the intended semantics of decoupled correction, and makes clipping and masking thresholds interact undesirably. To address this issue, we study both exact and approximate correction routes. We propose three exact old-logit acquisition strategies: snapshot-based version tracking, a dedicated old-logit model, and synchronization via partial rollout interruption, and compare their system trade-offs. From the perspective of approximate correction, we focus on preserving the benefits of decoupled correction through a more appropriate approximate policy when exact old logits cannot be recovered at low cost, without incurring extra system overhead. Following this analysis, we adopt a revised PPO-EWMA method, which achieves significant gains in both training speed and optimization performance.
 
 ### [CaC: Advancing Video Reward Models via Hierarchical Spatiotemporal Concentrating](https://arxiv.org/abs/2605.11723v3)
 
@@ -600,7 +650,7 @@ On-policy self-distillation (OPSD) uses a model as its own teacher under privile
 - **Authors:** Ji, Baibei, Weng, Xiaoyang, Li, Juntao, Tang, Zecheng, Lou, Yihang, Zhang, Min
 - **Published:** 2026-05-11
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.10268) · [PDF](https://arxiv.org/pdf/2605.10268)
@@ -612,7 +662,7 @@ To tackle long-context reasoning tasks without the quadratic complexity of stand
 - **Authors:** Jiang, Dongming, Li, Yi, Li, Guanpeng, Li, Qiannan, Li, Bingzhe
 - **Published:** 2026-05-11
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.09942) · [PDF](https://arxiv.org/pdf/2605.09942) · [Code](https://github.com/FredJiang0324/HAGE_MVPReview)
@@ -708,7 +758,7 @@ Reinforcement learning with verifiable rewards (RLVR) for Large Reasoning Models
 - **Authors:** Iscan, Mehmet
 - **Published:** 2026-05-08
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.08468) · [PDF](https://arxiv.org/pdf/2605.08468)
@@ -720,7 +770,7 @@ Local LLM-based coding agents increasingly work in settings where correctness is
 - **Authors:** Rui Zhu, Weiheng Bai, Qiushi Wu, Yang Ren, Haixu Tang, Yuchu Liu
 - **Published:** 2026-05-07
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.06850v2) · [PDF](https://arxiv.org/pdf/2605.06850v2)
@@ -738,39 +788,3 @@ Reinforcement Learning (RL) has emerged as a crucial paradigm for unlocking the 
 - **Links:** [Paper](https://arxiv.org/abs/2605.06642v2) · [PDF](https://arxiv.org/pdf/2605.06642v2)
 
 Large language models (LLMs) are increasingly used as interactive agents, but optimizing them for long-horizon decision making remains difficult because current methods are largely purely reactive, which weakens both exploration and credit assignment over extended trajectories. In this work, we present Strategic Trajectory Abstraction (StraTA), a simple framework that introduces an explicit trajectory-level strategy into agentic reinforcement learning (RL). StraTA samples a compact strategy from the initial task state, conditions subsequent actions on that strategy, and trains strategy generation and action execution jointly with a hierarchical GRPO-style rollout design, further enhanced by diverse strategy rollout and critical self-judgment. Experiments on ALFWorld, WebShop, and SciWorld show that StraTA consistently improves both sample efficiency and final performance over strong baselines. StraTA reaches success rates of 93.1% on ALFWorld and 84.2% on WebShop. On SciWorld, StraTA attains a 63.5% overall score, outperforming frontier closed-source models.
-
-### [How Deep Can LLMs Learn to Reason? Expressiveness Is Key](https://arxiv.org/abs/2605.06638v4)
-
-- **Authors:** Tianle Wang, Zhaoyang Wang, Guangchen Lan, Xinpeng Wei, Sipeng Zhang, Guanwen Qiu, Abulhair Saparov
-- **Published:** 2026-05-07
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** New York University, Purdue University
-- **Categories:** cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2605.06638v4) · [PDF](https://arxiv.org/pdf/2605.06638v4)
-
-Reinforcement learning (RL) has been applied to improve large language model (LLM) reasoning, yet the systematic study of how training scales with task difficulty has been hampered by the lack of controlled, scalable environments. Observed LLM shortcomings in long-horizon reasoning have raised the prospect that they are fundamental to the autoregressive transformer architecture. To address this, we introduce ScaleLogic, a synthetic logical reasoning framework that offers independent control over two axes of difficulty: the depth of the required proof planning (i.e., the horizon) and the expressiveness of the underlying formal system. Our proposed framework supports a wide range of logics: from simple implication-only logic ("if-then") towards more expressive first-order reasoning with conjunction (''and''), disjunction (''or''), negation (''not''), and universal quantification ("for all"). Using this framework, we show that the RL training compute $T$ follows a power law with respect to reasoning depth $D$ ($T \propto D^γ$, $R^{2} > 0.99$), and the scaling exponent $γ$ increases monotonically with expressiveness, from $1.05$ to $2.60$. On downstream mathematics and general reasoning benchmarks, more expressive training settings yield both larger performance gains (up to $+10.66$ points) and more compute-efficient transfer compared to less expressive settings, demonstrating that what a model is trained on, not just how much it is trained, shapes downstream transfer. We further show that the power-law relationship holds across multiple RL methods, and curriculum-based training substantially improves scaling efficiency. More broadly, our results suggest that LLM shortcomings in long-horizon reasoning are not fundamental to the underlying architecture, and could be addressed by improved training methodology and data.
-
-### [Skip What You Can Predict: Predictive Repositioning for Policy Optimization for Efficient LLM Training](https://arxiv.org/abs/2605.06755v2)
-
-- **Authors:** Ismam Nur Swapnil, Aranya Saha, Tasneea Zahra, Tanvir Ahmed Khan, Mohammad Ariful Haque, Ser-Nam Lim
-- **Published:** 2026-05-07
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2605.06755v2) · [PDF](https://arxiv.org/pdf/2605.06755v2)
-
-Reinforcement learning with verifiable rewards (RLVR) can improve the reasoning ability of large language models, but repeatedly updating a policy on the same rollout batch is expensive: every additional update requires another backward pass, and multi-step methods pay for all intermediate optimization steps. We introduce Predictive Repositioning for Policy Optimization (PrePO), which uses two observed optimizer transitions to estimate a farther point along the same-batch optimization trajectory, moves partway toward that point, evaluates the original objective there, and applies a corrective update. This gives PrePO a fixed active cost that does not grow with the virtual optimization depth. Our analysis gives finite-horizon error bounds for AdamW and Muon and shows that sufficiently accurate endpoint estimates preserve the usual descent and convergence behavior of smooth gradient descent. In RLVR experiments, PrePO reaches matched performance targets in fewer optimization steps and lower wall-clock time than the corresponding baselines. We further evaluate the same update mechanism in supervised fine-tuning on a different dataset, showing that its use is not restricted to the original RLVR setting. Together, these results suggest that PrePO provides a practical mechanism for approximating repeated same-batch optimization while avoiding the cost of explicitly executing every intermediate update.
-
-### [One Turn Too Late: Learning When to Intervene Against Multi-Turn Malicious Intent](https://arxiv.org/abs/2605.05630v3)
-
-- **Authors:** Xinjie Shen, Rongzhe Wei, Peizhi Niu, Haoyu Wang, Ruihan Wu, Eli Chien, Bo Li, Pin-Yu Chen, Pan Li
-- **Published:** 2026-05-07
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CL, cs.AI, cs.CR
-- **Links:** [Paper](https://arxiv.org/abs/2605.05630v3) · [PDF](https://arxiv.org/pdf/2605.05630v3)
-
-Hidden malicious intent in multi-turn dialogue poses a growing threat to deployed large language models (LLMs). Rather than exposing a harmful objective in a single prompt, attackers can distribute their intent across multiple benign-looking turns, making defense a problem not only of whether a dialogue is harmful, but also of when intervention becomes necessary. Existing trace-level labeling approaches provide only coarse safety signals and do not identify this intervention boundary, making it difficult to distinguish timely intervention from premature refusal or a block that comes too late. This work introduces turn-level harm-enabling supervision for multi-turn defense. We define the earliest harm-enabling turn as the first point at which delivering a candidate response would make the accumulated interaction sufficient to enable harmful action. To instantiate this supervision at scale, we construct the Multi-Turn Intent Dataset (MTID), which contains adaptive attack rollouts, matched benign hard negatives, and annotations of this boundary. Using MTID, we train TurnGate, a response-aware monitor that learns when to intervene, and further optimize its policy through multi-turn reinforcement learning. Experiments show that turn-level boundary supervision improves intervention localization, while reinforcement learning further improves the safety--utility trade-off. TurnGate outperforms existing guardrails and multi-turn monitoring baselines, and generalizes across risk domains, attacker pipelines, and target models. Our code is available at https://github.com/Graph-COM/TurnGate.

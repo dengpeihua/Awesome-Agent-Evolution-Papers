@@ -6,7 +6,7 @@
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 2023-07-29 | Reinforcement Learning | [Robust Recurrent Reinforcement Learning under Evolving Hidden Disturbances with Application to Rover Wheel Slip](https://arxiv.org/abs/2307.15931v3)<br>[PDF](https://arxiv.org/pdf/2307.15931v3) | arXiv | — | — |
+| 2023-07-29 | Reinforcement Learning | [Robust Recurrent Reinforcement Learning under Evolving Hidden Disturbances with Application to Rover Wheel Slip](https://arxiv.org/abs/2307.15931v3)<br>[PDF](https://arxiv.org/pdf/2307.15931v3) | arXiv | — | Citations: 4 (Semantic Scholar) |
 | 2023-07-28 | Reinforcement Learning | [ETHER: Aligning Emergent Communication for Hindsight Experience Replay](https://arxiv.org/abs/2307.15494v3)<br>[PDF](https://arxiv.org/pdf/2307.15494v3) | arXiv | — | — |
 
 ## Notes
