@@ -1,5 +1,7 @@
 from dataclasses import replace
 
+import pytest
+
 from agent_paper_digest.highlight import (
     classify_highlights,
     has_industry_qualification,
@@ -94,3 +96,22 @@ def test_unrelated_topic_does_not_qualify_even_with_citations() -> None:
     )
 
     assert not is_eligible(classify_highlights(paper))
+
+
+@pytest.mark.parametrize("venue", ["Computer Science", "Data Science", "Nature Communications"])
+def test_journal_watchlist_does_not_match_partial_names(venue):
+    paper = replace(
+        make_paper("2610.00001", topics=("reinforcement-learning",)),
+        venue=venue,
+        venue_source="Semantic Scholar publication metadata",
+    )
+    assert classify_highlights(paper).venue_tier == ""
+
+
+@pytest.mark.parametrize("venue", ["Nature", "Science", "Nature Machine Intelligence", "ICLR"])
+def test_new_selected_venues_accept_explicit_acceptance(venue):
+    paper = replace(
+        make_paper("2610.00002", topics=("reinforcement-learning",)),
+        comment=f"Accepted to {venue} 2026",
+    )
+    assert classify_highlights(paper).venue_tier == "selected-extra"

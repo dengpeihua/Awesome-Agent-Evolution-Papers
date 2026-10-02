@@ -98,8 +98,20 @@ SELECTED_VENUE_PATTERNS: Final[tuple[tuple[str, str, re.Pattern[str]], ...]] = t
             "selected-extra",
             r"\biclr\b|international conference on learning representations",
         ),
-        ("Nature", "selected-extra", r"\bnature\b(?=\s*(?:20\d{2}\b|[.,;:]|$))"),
-        ("Science", "selected-extra", r"\bscience\b(?=\s*(?:20\d{2}\b|[.,;:]|$))"),
+        (
+            "Nature",
+            "selected-extra",
+            r"^\s*nature(?:\s+20\d{2})?\s*$|"
+            r"\b(?:accepted (?:to|in)|published in|to appear in) nature"
+            r"(?=\s*(?:20\d{2}\b|[.,;:]|$))",
+        ),
+        (
+            "Science",
+            "selected-extra",
+            r"^\s*science(?:\s+20\d{2})?\s*$|"
+            r"\b(?:accepted (?:to|in)|published in|to appear in) science"
+            r"(?=\s*(?:20\d{2}\b|[.,;:]|$))",
+        ),
         ("Nature Machine Intelligence", "selected-extra", r"\bnature machine intelligence\b"),
     )
 )
