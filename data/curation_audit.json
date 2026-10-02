@@ -1,40 +1,43 @@
 {
-  "generated_at": "2026-09-15T09:03:29.464608+00:00",
+  "generated_at": "2026-10-02T20:07:53.680964+00:00",
   "policy": {
     "required_topics": [
       "agent-llm-self-evolution",
       "agent-memory",
-      "llm-continual-training"
+      "llm-continual-training",
+      "reinforcement-learning"
     ],
-    "qualifiers": [
+    "highlight_signals": [
       "CCF-A Artificial Intelligence Full/Regular paper",
-      "ECCV or EMNLP Full/Regular paper",
+      "Selected top venue, including ECCV, EMNLP and ICLR",
       "verified big-tech paper or first-author affiliation",
       "at least 10 citations"
     ],
     "code_stars_are_qualifying": false
   },
-  "candidate_count": 954,
+  "candidate_count": 2718,
   "candidate_topic_counts": {
-    "agent-llm-self-evolution": 352,
-    "agent-memory": 577,
-    "llm-continual-training": 140
+    "agent-llm-self-evolution": 576,
+    "agent-memory": 649,
+    "llm-continual-training": 241,
+    "reinforcement-learning": 1574
   },
-  "public_paper_count": 68,
+  "public_paper_count": 2718,
   "topic_counts": {
-    "agent-llm-self-evolution": 36,
-    "agent-memory": 31,
-    "llm-continual-training": 16
+    "agent-llm-self-evolution": 576,
+    "agent-memory": 649,
+    "llm-continual-training": 241,
+    "reinforcement-learning": 1574
   },
   "qualification_counts": {
-    "CCF-A": 6,
-    "Highly cited": 41,
-    "Industry": 9,
-    "Selected venue": 17
+    "CCF-A": 48,
+    "Highly cited": 68,
+    "Industry": 12,
+    "Selected venue": 42
   },
   "notes": [
     "Qualification counts overlap when one paper meets multiple criteria.",
-    "Unqualified topical candidates stay only in the ignored local candidate cache.",
+    "All topical papers are public; highlight signals do not gate inclusion.",
     "Citation counts are source-attributed snapshots and may change over time."
   ]
 }

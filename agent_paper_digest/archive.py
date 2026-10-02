@@ -28,6 +28,7 @@ from .topics import (
 
 POPULAR_CODE_STARS = 100
 VERY_POPULAR_CODE_STARS = 1_000
+DAILY_PAGE_SIZE = 50
 
 
 @dataclass(frozen=True, slots=True)
@@ -197,8 +198,6 @@ class ArchiveRepository:
             }
             windows_path.write_text(json.dumps(windows, indent=2) + "\n", encoding="utf-8")
             coverage_start = datetime.fromisoformat(windows[day_key]["start"])
-        daily_papers = [existing[arxiv_id] for arxiv_id in day_ids if arxiv_id in existing]
-
         daily_path = (
             self.root
             / "papers"
@@ -207,16 +206,6 @@ class ArchiveRepository:
             / f"{discovery_date.isoformat()}.md"
         )
         self._write_daily_archives(discoveries, all_papers)
-        daily_path.parent.mkdir(parents=True, exist_ok=True)
-        daily_path.write_text(
-            self._render_daily(
-                discovery_date,
-                daily_papers,
-                coverage_start=coverage_start,
-                coverage_end=coverage_end,
-            ),
-            encoding="utf-8",
-        )
         self._write_monthly_archives(all_papers)
         (self.root / "README.md").write_text(
             self._render_readme(all_papers),
@@ -273,19 +262,50 @@ class ArchiveRepository:
                 / f"{day}.md"
             )
             path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text(
-                self._render_daily(
+            ordered = sorted(
+                [indexed[identifier] for identifier in identifiers if identifier in indexed],
+                key=lambda p: (p.published, p.updated, p.arxiv_id),
+                reverse=True,
+            )
+            batches = [
+                ordered[i : i + DAILY_PAGE_SIZE] for i in range(0, len(ordered), DAILY_PAGE_SIZE)
+            ] or [[]]
+            page_dir = path.parent / day
+            expected_pages: set[Path] = set()
+            for index, batch in enumerate(batches):
+                target = path if index == 0 else page_dir / f"page-{index + 1:03d}.md"
+                expected_pages.add(target)
+                target.parent.mkdir(parents=True, exist_ok=True)
+                rendered = self._render_daily(
                     discovery_date,
-                    [indexed[identifier] for identifier in identifiers if identifier in indexed],
+                    batch,
                     coverage_start=(
                         datetime.fromisoformat(windows[day]["start"]) if day in windows else None
                     ),
                     coverage_end=(
                         datetime.fromisoformat(windows[day]["end"]) if day in windows else None
                     ),
-                ),
-                encoding="utf-8",
-            )
+                )
+                if index:
+                    rendered = rendered.replace("(../../../README.md)", "(../../../../README.md)")
+                if len(batches) > 1:
+                    links = []
+                    for number in range(len(batches)):
+                        href = (
+                            (f"{day}.md" if index == 0 else f"../{day}.md")
+                            if number == 0
+                            else (f"{day}/" if index == 0 else "") + f"page-{number + 1:03d}.md"
+                        )
+                        links.append(f"[{number + 1}]({href})")
+                    rendered = (
+                        f"> **{len(ordered)} papers** · Page {index + 1}/{len(batches)} · "
+                        "Newest first across all pages\n\n" + " · ".join(links) + "\n\n" + rendered
+                    )
+                target.write_text(rendered, encoding="utf-8")
+            # Remove only generated numbered pages made obsolete by a rebuild.
+            for obsolete in page_dir.glob("page-*.md"):
+                if obsolete not in expected_pages:
+                    obsolete.unlink()
 
     def _render_daily(
         self,

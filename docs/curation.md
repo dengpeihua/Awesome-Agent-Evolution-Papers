@@ -52,6 +52,7 @@ Scheduled failures retry after 15 minutes while AstrBot is running.
 README, daily overview, monthly lists, dataset and message batches sort by
 publication time descending. Daily pages also include topic sections and a
 separate priority table; priority does not reorder any individual list.
+Large daily archives use linked pages of 50 papers to stay readable on GitHub.
 
 ## Rebuild
 

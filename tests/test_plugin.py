@@ -64,3 +64,20 @@ async def test_plugin_registers_daily_cron_and_shuts_down(plugin_module, tmp_pat
     await plugin.terminate()
     assert plugin.scheduler is None
 
+
+@pytest.mark.asyncio
+async def test_scheduled_failure_registers_retry(plugin_module, tmp_path, monkeypatch):
+    plugin = plugin_module.AgentPaperDigestPlugin(
+        context=object(),
+        config={"archive_dir": str(tmp_path), "run_on_startup": False},
+    )
+    await plugin.initialize()
+
+    async def fail():
+        raise RuntimeError("arXiv temporarily unavailable")
+
+    monkeypatch.setattr(plugin, "_run_once", fail)
+    monkeypatch.setattr(plugin_module.logger, "exception", lambda *_: None, raising=False)
+    await plugin._scheduled_run()
+    assert plugin.scheduler.get_job("agent-paper-digest-retry") is not None
+    await plugin.terminate()

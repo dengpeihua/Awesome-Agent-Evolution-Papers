@@ -102,13 +102,26 @@ async def test_semantic_scholar_continues_after_one_rate_limited_chunk() -> None
         assert body == {"ids": ["DOI:10.1000/example"]}
         return httpx.Response(200, json=[{"authors": [], "citationCount": 12}])
 
-    papers = [
-        make_paper(f"2608.{index:05d}", topics=("agent-memory",))
-        for index in range(500)
-    ]
+    papers = [make_paper(f"2608.{index:05d}", topics=("agent-memory",)) for index in range(500)]
     papers.append(replace(make_paper("external", topics=("agent-memory",)), doi="10.1000/example"))
     async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as client:
         enriched = await SemanticScholarEnricher(client=client).enrich(papers)
 
     assert enriched[0].citation_count is None
     assert enriched[-1].citation_count == 12
+
+
+@pytest.mark.asyncio
+async def test_publication_metadata_replaces_preprint_placeholder():
+    def handler(request):
+        return httpx.Response(200, json=[{"venue": "ICLR 2026", "authors": []}])
+
+    paper = replace(
+        make_paper("2608.12345", topics=("reinforcement-learning",)),
+        venue="arXiv.org",
+        venue_source="arXiv",
+    )
+    async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as client:
+        enriched = (await SemanticScholarEnricher(client=client).enrich([paper]))[0]
+    assert enriched.venue == "ICLR 2026"
+    assert classify_highlights(enriched).venue_tier == "selected-extra"

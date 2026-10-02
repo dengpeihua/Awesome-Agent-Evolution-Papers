@@ -10972,9 +10972,9 @@
     "citation_count": null,
     "citation_source": "",
     "affiliations": [
-      "The University of Chicago",
       "Fudan University",
       "TensorBlock, Inc",
+      "The University of Chicago",
       "Tsinghua University",
       "University of Illinois Urbana-Champaign"
     ],
@@ -15727,8 +15727,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "University of Pennsylvania",
-      "Center for AI Safety"
+      "Center for AI Safety",
+      "University of Pennsylvania"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -17068,8 +17068,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "Max Planck Institute for Intelligent Systems",
-      "ELLIS Institute Tübingen"
+      "ELLIS Institute Tübingen",
+      "Max Planck Institute for Intelligent Systems"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -17692,9 +17692,9 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
+      "ENS Paris-Saclay MVA",
       "Founding Researcher @ Isara Labs",
-      "Inria",
-      "ENS Paris-Saclay MVA"
+      "Inria"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -22014,9 +22014,9 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "Yale University",
+      "Columbia University",
       "GE Healthcare",
-      "Columbia University"
+      "Yale University"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -23641,8 +23641,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "University of Cambridge",
-      "Models2 AI"
+      "Models2 AI",
+      "University of Cambridge"
     ],
     "first_author_affiliations": [
       "University of Cambridge",
@@ -25232,8 +25232,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "University of Oregon",
-      "Adobe Research"
+      "Adobe Research",
+      "University of Oregon"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [
@@ -25830,8 +25830,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "University of Illinois at Chicago",
-      "University of Illinois Chicago"
+      "University of Illinois Chicago",
+      "University of Illinois at Chicago"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -30116,8 +30116,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "University of Wisconsin-Madison",
-      "Independent Researcher"
+      "Independent Researcher",
+      "University of Wisconsin-Madison"
     ],
     "first_author_affiliations": [
       "University of Wisconsin-Madison"
@@ -30600,8 +30600,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "Nanyang Technological University (NTU)",
-      "Institute for Infocomm Research (I2R)"
+      "Institute for Infocomm Research (I2R)",
+      "Nanyang Technological University (NTU)"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -31357,8 +31357,8 @@
     "affiliations": [
       "Amazon",
       "Georgia Institute of Technology",
-      "Naver Search US",
       "Microsoft",
+      "Naver Search US",
       "University of Wisconsin"
     ],
     "first_author_affiliations": [],
@@ -31485,8 +31485,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "Tongji University (past)",
-      "Institute of Computing Technology, Chinese Academy of Sciences (now)"
+      "Institute of Computing Technology, Chinese Academy of Sciences (now)",
+      "Tongji University (past)"
     ],
     "first_author_affiliations": [
       "Tongji University (past)",
@@ -33245,10 +33245,10 @@
     "citation_count": null,
     "citation_source": "",
     "affiliations": [
+      "Argonne National Laboratory",
       "Leibniz Supercomputing Centre",
-      "Technical University of Munich",
       "Munich Quantum Valley",
-      "Argonne National Laboratory"
+      "Technical University of Munich"
     ],
     "first_author_affiliations": [
       "Leibniz Supercomputing Centre"
@@ -33535,8 +33535,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "KU Leuven",
-      "Huawei Noah's Ark Lab"
+      "Huawei Noah's Ark Lab",
+      "KU Leuven"
     ],
     "first_author_affiliations": [
       "KU Leuven"
@@ -35434,8 +35434,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "RWTH Aachen University",
-      "AppTek"
+      "AppTek",
+      "RWTH Aachen University"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -37370,9 +37370,9 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
+      "Microsoft",
       "Tokyo Institute of Technology",
-      "University of Electronic Science and Technology of China",
-      "Microsoft"
+      "University of Electronic Science and Technology of China"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [
@@ -37602,8 +37602,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "TAMU, Microsoft, Amazon",
-      "Iowa State University"
+      "Iowa State University",
+      "TAMU, Microsoft, Amazon"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [
@@ -40081,8 +40081,8 @@
     "citation_count": 2,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "UNC-Chapel Hill",
       "Google",
+      "UNC-Chapel Hill",
       "Washington University in St. Louis"
     ],
     "first_author_affiliations": [
@@ -40130,8 +40130,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "Tesla Autopilot",
-      "Georgia Tech"
+      "Georgia Tech",
+      "Tesla Autopilot"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -57133,9 +57133,9 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "Shanghai Innovation Institute",
+      "Nanyang Technological University",
       "Shanghai AI Lab",
-      "Nanyang Technological University"
+      "Shanghai Innovation Institute"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -57839,8 +57839,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "The Hong Kong University of Science and Technology",
-      "Huawei"
+      "Huawei",
+      "The Hong Kong University of Science and Technology"
     ],
     "first_author_affiliations": [
       "The Hong Kong University of Science and Technology",
@@ -64901,10 +64901,10 @@
     "citation_count": 2,
     "citation_source": "Semantic Scholar",
     "affiliations": [
+      "Cara",
       "Eliza",
       "Jaden",
-      "Lorenzo",
-      "Cara"
+      "Lorenzo"
     ],
     "first_author_affiliations": [
       "Eliza"
@@ -86277,8 +86277,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "dunnolab.ai",
-      "Tinkoff"
+      "Tinkoff",
+      "dunnolab.ai"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -90600,8 +90600,8 @@
     "citation_count": 4,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "The Ohio State University",
-      "Microsoft"
+      "Microsoft",
+      "The Ohio State University"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [
@@ -94762,8 +94762,8 @@
     "citation_count": 1,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "Purdue University",
-      "New York University"
+      "New York University",
+      "Purdue University"
     ],
     "first_author_affiliations": [
       "Purdue University"
@@ -102742,9 +102742,9 @@
     "citation_count": 2,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "iscas.ac.cn",
+      "Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences",
       "Institute of Software, Chinese Academy of Sciences",
-      "Chinese Information Processing Laboratory, Institute of Software, Chinese Academy of Sciences"
+      "iscas.ac.cn"
     ],
     "first_author_affiliations": [
       "iscas.ac.cn"
@@ -107875,9 +107875,9 @@
     "citation_count": 78,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "University of California San Diego",
+      "Indiana University",
       "Swiss Federal Institute of Technology Lausanne;Allen Institute for AI;Rose-Hulman Institute of Technology",
-      "Indiana University"
+      "University of California San Diego"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -110131,8 +110131,8 @@
     "citation_count": 1,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "HKUST (GZ)",
-      "HKUST"
+      "HKUST",
+      "HKUST (GZ)"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -113382,8 +113382,8 @@
     "citation_source": "Semantic Scholar",
     "affiliations": [
       "Univeristy of Illinois Urbana Champaign",
-      "University of Illinois Urbana-Champaign",
-      "University of Illinois Urabna-Champaign"
+      "University of Illinois Urabna-Champaign",
+      "University of Illinois Urbana-Champaign"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -116158,8 +116158,8 @@
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "Penn State University",
-      "MBZUAI"
+      "MBZUAI",
+      "Penn State University"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -116762,9 +116762,9 @@
     "citation_count": 60,
     "citation_source": "Semantic Scholar",
     "affiliations": [
-      "University of Chicago",
       "Carnegie Mellon University",
-      "FAIR, Meta"
+      "FAIR, Meta",
+      "University of Chicago"
     ],
     "first_author_affiliations": [],
     "industry_affiliations": [

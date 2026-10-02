@@ -212,3 +212,23 @@ def test_acceptance_discovery_and_coverage_survive_rebuild(tmp_path):
     assert "Acceptance first observed: 2026-10-03" in text
     assert "actual acceptance date unverified" in text
     assert not archive.update(date(2026, 10, 4), [accepted]).promoted_papers
+
+
+def test_large_daily_archive_paginates_without_losing_or_reordering_papers(tmp_path):
+    papers = [make_paper(f"2610.{i:05d}", topics=("reinforcement-learning",)) for i in range(125)]
+    archive = ArchiveRepository(tmp_path)
+    result = archive.update(date(2026, 10, 3), papers)
+    first = result.daily_path.read_text("utf-8")
+    second_path = result.daily_path.parent / "2026-10-03" / "page-002.md"
+    second = second_path.read_text("utf-8")
+    third = second_path.with_name("page-003.md").read_text("utf-8")
+    assert "**125 papers**" in first
+    assert "Paper 2610.00124" in first and "Paper 2610.00075" in first
+    assert "Paper 2610.00074" not in first
+    assert "Paper 2610.00074" in second and "Paper 2610.00025" in second
+    assert "Paper 2610.00024" in third and "Paper 2610.00000" in third
+    assert "(2026-10-03/page-002.md)" in first
+    assert "(../2026-10-03.md)" in second
+    assert "(../../../../README.md)" in second
+    archive.replace_dataset(papers[:1])
+    assert not second_path.exists()

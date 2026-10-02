@@ -41,6 +41,32 @@ class FakeGitSync:
 
 
 @pytest.mark.asyncio
+async def test_crash_after_dataset_write_does_not_lose_pending_delivery(tmp_path):
+    class CrashingArchive(ArchiveRepository):
+        def update(self, *args, **kwargs):
+            super().update(*args, **kwargs)
+            raise RuntimeError("rendering interrupted")
+
+    with pytest.raises(RuntimeError, match="rendering interrupted"):
+        await DailyDigestPipeline(
+            source=FakeSource(),
+            archive=CrashingArchive(tmp_path),
+            notifier=FakeNotifier(),
+            git_sync=FakeGitSync(),
+        ).run(datetime(2026, 10, 2, tzinfo=UTC))
+    assert DigestStateStore(tmp_path).load().pending_paper_ids == ("2607.00001",)
+    notifier = FakeNotifier()
+    await DailyDigestPipeline(
+        source=FakeSource(),
+        archive=ArchiveRepository(tmp_path),
+        notifier=notifier,
+        git_sync=FakeGitSync(),
+    ).run(datetime(2026, 10, 3, tzinfo=UTC))
+    assert "Paper 2607.00001" in notifier.messages[0]
+    assert not DigestStateStore(tmp_path).load().pending_paper_ids
+
+
+@pytest.mark.asyncio
 @pytest.mark.parametrize("missing", ["notifier", "git", "push"])
 async def test_missing_delivery_channel_never_advances_cursor(tmp_path, missing):
     sync = FakeGitSync() if missing != "git" else None
