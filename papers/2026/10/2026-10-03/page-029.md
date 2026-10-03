@@ -5,7 +5,7 @@
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:38:38.500711+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
 
