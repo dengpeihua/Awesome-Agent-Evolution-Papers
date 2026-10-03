@@ -6,8 +6,8 @@ The public corpus covers four directions: every paper must address Agent/LLM sel
 
 ## Current result
 
-- Topic candidates evaluated: **2718**
-- Papers retained in the public repository: **1535**
+- Topic candidates evaluated: **2727**
+- Papers retained in the public repository: **1541**
 - CCF-A (Artificial Intelligence): **65**
 - Selected top venues: **30**
 - Big-tech affiliation: **9**

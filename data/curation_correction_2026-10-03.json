@@ -5920,5 +5920,9 @@
       "title": "Advanced Policies: A First-Principles Path from Policy Gradient to Q-Learning",
       "reason": "first publication before 2025"
     }
-  ]
+  ],
+  "after_fresh_fetch": 1541,
+  "rl_after_fresh_fetch": 248,
+  "september_rl_after_fresh_fetch": 133,
+  "note": "The fresh restricted query found additional in-scope papers after the stored corpus was corrected."
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T09:36:11.495735+00:00",
+  "generated_at": "2026-10-03T09:41:42.859818+00:00",
   "policy": {
     "required_topics": [
       "agent-llm-self-evolution",
@@ -17,19 +17,19 @@
     ],
     "code_stars_are_qualifying": false
   },
-  "candidate_count": 2718,
+  "candidate_count": 2727,
   "candidate_topic_counts": {
     "agent-llm-self-evolution": 576,
     "agent-memory": 649,
-    "llm-continual-training": 241,
-    "reinforcement-learning": 243
+    "llm-continual-training": 242,
+    "reinforcement-learning": 249
   },
-  "public_paper_count": 1535,
+  "public_paper_count": 1541,
   "topic_counts": {
     "agent-llm-self-evolution": 576,
     "agent-memory": 649,
-    "llm-continual-training": 241,
-    "reinforcement-learning": 242
+    "llm-continual-training": 242,
+    "reinforcement-learning": 248
   },
   "qualification_counts": {
     "CCF-A": 65,
