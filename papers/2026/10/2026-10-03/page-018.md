@@ -1,11 +1,11 @@
-> **1473 papers** · Page 18/30 · Newest first across all pages
+> **1479 papers** · Page 18/30 · Newest first across all pages
 
 [1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:38:38.500711+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,12 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-06-29 | Agent/LLM Self-Improvement | [AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance](https://arxiv.org/abs/2606.30949v2) | — |
+| 2026-06-29 | Agent/LLM Self-Improvement | [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2) | — |
+| 2026-06-29 | Agent Memory | [Retrieval Observability Bounds on Provenance Detection for Agent Memory Poisoning: Measured Coverage and a Falsified Standalone Detector](https://arxiv.org/abs/2606.30566v3) | — |
+| 2026-06-29 | Reinforcement Learning | [Are We Measuring Strategy or Phrasing? The Gap Between Surface- and Approach-Level Diversity in LLM Math Reasoning](https://arxiv.org/abs/2606.29985v2) | — |
+| 2026-06-29 | Agent/LLM Self-Improvement | [ManimAgent: Self-Evolving Multimodal Agents for Visual Education](https://arxiv.org/abs/2606.30296) | — |
+| 2026-06-29 | Agent Memory | [DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation](https://arxiv.org/abs/2606.29961) | — |
 | 2026-06-29 | Agent Memory | [MemDelta: Controlled Baselines and Hidden Confounds in Agent Memory Evaluation](https://arxiv.org/abs/2606.29914) | — |
 | 2026-06-29 | Agent Memory | [Neural Procedural Memory: Empowering LLM Agents with Implicit Activation Steering](https://arxiv.org/abs/2606.29824) | — |
 | 2026-06-29 | Agent Memory | [Mandol: An Agglomerative Agent Memory System for Long-Term Conversations](https://arxiv.org/abs/2606.29778) | — |
@@ -57,12 +63,6 @@
 | 2026-06-18 | Agent Memory | [MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management](https://arxiv.org/abs/2606.19926) | — |
 | 2026-06-18 | Agent Memory | [Multi-Agent Transactive Memory](https://arxiv.org/abs/2606.19911) | — |
 | 2026-06-18 | Agent Memory | [AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts](https://arxiv.org/abs/2606.19847) | — |
-| 2026-06-17 | LLM Continual Training, Reinforcement Learning | [EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts](https://arxiv.org/abs/2606.18967v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
-| 2026-06-17 | Agent Memory | [Making AI Scientists Auditable from Evidence to Claim](https://arxiv.org/abs/2606.18874v4) | — |
-| 2026-06-17 | Agent Memory | [GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents](https://arxiv.org/abs/2606.18829) | ⭐ Popular code |
-| 2026-06-16 | Reinforcement Learning | [Zone of Proximal Policy Optimization: Teacher in Prompts, Not Gradients](https://arxiv.org/abs/2606.18216v5) | — |
-| 2026-06-16 | Agent/LLM Self-Improvement | [FinAcumen: Financial Multimodal Reasoning via Self-Evolving Experience Memory Harness](https://arxiv.org/abs/2606.17642v6) | — |
-| 2026-06-16 | Agent Memory | [CoreMem: Riemannian Retrieval and Fisher-Guided Distillation for Long-Term Memory in Dialogue Agents](https://arxiv.org/abs/2606.18406) | — |
 
 ## 🚨 Priority Watch
 
@@ -73,9 +73,44 @@
 | [Are We Ready For An Agent-Native Memory System?](https://arxiv.org/abs/2606.24775) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees](https://arxiv.org/abs/2606.24322) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [ENPIRE: Agentic Robot Policy Self-Improvement in the Real World](https://arxiv.org/abs/2606.19980v2) | 📈 Highly cited | California Institute of Technology |
-| [EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts](https://arxiv.org/abs/2606.18967v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026; Project Page: https://github.com/furiosa-ai/EfficientRollout |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
+
+### [AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance](https://arxiv.org/abs/2606.30949v2)
+
+- **Authors:** Yang Zou, Zijian Ding, Yizhou Sun, Jason Cong
+- **Published:** 2026-06-29
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.AR
+- **Links:** [Paper](https://arxiv.org/abs/2606.30949v2) · [PDF](https://arxiv.org/pdf/2606.30949v2)
+
+High-Level Synthesis (HLS) provides a fast path from concepts to silicon, but converting real-world software into synthesizable HLS code remains challenging due to restrictive language support and the gap between software and hardware programming practices. Existing automated and LLM-based refactoring approaches partially address this problem, yet they often lack flexibility, struggle to scale, and incur high computational costs. We introduce AgRefactor, an LLM-based multi-agent workflow for refactoring software into HLS-compatible programs. AgRefactor incorporates a self-evolving memory system that accumulates and retrieves factual and strategic knowledge across tasks, improving robustness and efficiency on unseen programs. To reduce cost and enhance scalability, it integrates automated refactoring tools, enabling agents to balance LLM-driven rewrites with efficient tool-based transformations. On 9 out of 11 challenging real-world benchmarks, which are 5-10x longer than the most complex cases studied in prior work, AgRefactor outperforms or matches the state-of-the-art automated refactoring tool and a strong LLM-based baseline built on the same framework backbone. Further agentic performance optimization yields a 6.51x geometric mean speedup over the SoTA pragma tuning tool and a 1.20x speedup over optimized open-source designs with less than 20% extra resources. AgRefactor is fully-automated and open-sourced.
+
+### [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2)
+
+- **Authors:** Xuan Zhang, Wenxuan Zhang, See-Kiong Ng, Yang Deng
+- **Published:** 2026-06-29
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2606.30639v2) · [PDF](https://arxiv.org/pdf/2606.30639v2)
+
+World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world model framework that revises its deployment-time context while keeping the downstream agent and all model parameters frozen. WorldEvolver integrates three modules: (i) Episodic Memory, which exploits real action transitions through retrieval-based simulation; (ii) Semantic Memory, which extracts persistent heuristic rules from prediction-observation mismatches; and (iii) Selective Foresight, which filters low-confidence predictions before integrating them into agent reasoning context. We evaluate WorldEvolver on ALFWorld and ScienceWorld, measuring world model prediction accuracy on Word2World and downstream agent success rate on AgentBoard. Extensive experiments show that WorldEvolver achieves the highest prediction accuracy across three backbones and leads other world model baselines on downstream agent success rate, demonstrating that test-time memory revision enhances both predictive fidelity and planning performance.
+
+### [ManimAgent: Self-Evolving Multimodal Agents for Visual Education](https://arxiv.org/abs/2606.30296)
+
+- **Authors:** Jiang, Wenjia, Cai, Zongyuan, Shao, Yuanhang, Wang, Chenru, Han, Boyan, Song, Zhixue, Chen, Keyu, An, Shengwei, Yang, Xu, Yang, Zhou
+- **Published:** 2026-06-29
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2606.30296) · [PDF](https://arxiv.org/pdf/2606.30296) · [Code](https://github.com/jwj1342/Paper2Manim)
+
+Multi-round reflection lets agents built on large language models recover from failures within a single task, but each task remains an isolated episode: lessons learned across many reflection rounds on one task are discarded before the next begins. We study this gap on a code-generation task: from a scientific paper section, the agent writes Python in the open-source Manim library to render a mathematical animation. We present ManimAgent, a self-evolving multimodal agent that carries reflection experience across tasks through a dual-channel Episodic Memory Bank grown entirely from its own task stream, with no weight updates and no human seeds. After each animation converges, a vision-language model scores the rendered keyframes; the resulting signals populate a positive channel M+ that stores success rationales as soft Reference Examples, and a negative channel M- that stores validated failure patterns as hard Known Pitfalls. On a fixed-probe evaluation against no-memory, matched-budget retrieval-augmented generation, and shuffled-memory baselines, blind human Pass@1 rises and reflection rounds fall as memory size grows. We will release the code, frozen memory snapshots, and the task stream.
 
 ### [Self-Evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution](https://arxiv.org/abs/2606.28971)
 
@@ -149,19 +184,31 @@ Achieving dexterous robotic manipulation in the real world heavily relies on hum
 
 Polymeric materials underpin modern technologies spanning energy storage, microelectronics, healthcare and sustainable manufacturing. Yet their rational design remains exceptionally challenging because material performance emerges from complex interactions among molecular composition, chain architecture, processing history and hierarchical structural evolution across multiple length and time scales. Consequently, polymer research has long relied on labor-intensive experimentation and fragmented modeling approaches, limiting both mechanistic understanding and innovation efficiency. Recent advances in data infrastructure, machine learning, large artificial intelligence (AI) models and laboratory automation are beginning to reshape this landscape. Rather than functioning as isolated tools, polymer databases, predictive models, AI agents and automated laboratories are increasingly converging into interconnected discovery ecosystems. As a result, the central challenge is shifting from improving predictive accuracy alone to enabling reliable decision-making, adaptive learning and seamless integration across computation, experimentation and scientific reasoning. We argue that polymer science is entering an era of autonomous discovery, in which data, simulation, reasoning and experimentation operate within self-improving feedback loops that continuously generate hypotheses, design materials, execute experiments and refine predictive models. By unifying molecular design, process optimization, experimental validation and industrial translation, such autonomous ecosystems establish a more predictive, reproducible and scalable paradigm for polymer innovation, fundamentally transforming how polymer research is conducted.
 
-### [FinAcumen: Financial Multimodal Reasoning via Self-Evolving Experience Memory Harness](https://arxiv.org/abs/2606.17642v6)
+## Agent Memory
 
-- **Authors:** Pianran Guo, Pengcheng Zhou, Yucheng Jian, Shuhua Chen, Zhongliang Yang, Linna Zhou
-- **Published:** 2026-06-16
+### [Retrieval Observability Bounds on Provenance Detection for Agent Memory Poisoning: Measured Coverage and a Falsified Standalone Detector](https://arxiv.org/abs/2606.30566v3)
+
+- **Authors:** Jun Wen Leong
+- **Published:** 2026-06-29
 - **Priority:** —
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2606.17642v6) · [PDF](https://arxiv.org/pdf/2606.17642v6)
+- **Categories:** cs.CR, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2606.30566v3) · [PDF](https://arxiv.org/pdf/2606.30566v3)
 
-Financial multimodal reasoning requires agents to coordinate numerical computation, retrieval, visual interpretation, and temporal grounding across heterogeneous evidence sources. Existing tool-augmented agents improve execution fidelity, yet remain largely stateless across episodes, repeatedly rediscovering reasoning strategies and failure patterns. In high-stakes financial settings, this leads to unreliable tool routing, noisy retrieval, and hallucination-prone reasoning. We present FinAcumen, a financial reasoning agent framework centered on selective experience memory for tool-augmented multimodal reasoning. FinAcumen accumulates financially grounded reasoning experience from prior trajectories, distilling successful strategies and failure-derived cautionary rules into a persistent memory bank. During inference, retrieved experiences condition reasoning only when semantic relevance exceeds a calibrated threshold, while irrelevant memory is explicitly suppressed through a fallback mechanism. A deterministic financial tool environment further grounds numerical computation, retrieval, visual decoding, and answer verification. Across four financial multimodal reasoning benchmarks, FinAcumen consistently improves a frozen 8B vision-language model over finance-specialized models and approaches leading proprietary general-purpose models. Further analysis shows that selective experience activation improves reasoning reliability under retrieval uncertainty. Our code is available at https://github.com/CamelliaLilium/FinAcumen.
+Whether a trajectory-based detector can observe the retrieval provenance of an agent memory-poisoning attack is governed by one architectural variable: retrieval observability, whether the agent's memory access produces a logged tool call. We formalise this as a framework-agnostic retrieval-to-action provenance graph, classify published attack families by their position relative to it, measure the resulting coverage property against collected agent traces, and then falsify the detector's standalone deployment, reversing our own earlier recommendation to use the signature as a pre-filter ahead of recipient-metadata gating. Under exclusive tool-mediated payload access a retrieval-before-exfiltration event is structurally forced. Across eight non-overlapping zero-event control cells we observe 0 violations in 289 eligible successes over 87 scenario configurations. The invariant is empirically unbroken, but on the clustering unit no registered cell certifies the preregistered <=0.10 upper bound (per-cell bounds 0.10-0.35); a post-hoc pool of two control arms nominally clears it but is not credited. When the scaffold delivers the payload implicitly the signature disappears; we had read this as agents declining an available retrieval, but a follow-up shows it tracks store content instead, and that behavioural reading is withdrawn. The detector is then falsified for standalone use. Benign memory-grounded sends are trajectory-isomorphic: false-positive rate 24.7-57.6% on a 13-model factorial (N=4,160), positive predictive value <=3.85% at 1% attack prevalence, and a recipient-metadata gate flags 129/129 legitimate external emails. Retrieval-before-send is an attack precondition, not a maliciousness predicate; its cross-validated AUC also reflects membership of a 22-vector feature codebook, not generalisation. Companion to arXiv:2605.08442; we release the corpus and scoring code.
 
-## Agent Memory
+### [DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation](https://arxiv.org/abs/2606.29961)
+
+- **Authors:** Hosseini, Peyman, Bohdal, Ondrej, Alajrami, Ahmed, Maracani, Andrea, Castro, Ignacio, Purver, Matthew, Ozay, Mete, Ozkan, Savas, Ceritli, Taha
+- **Published:** 2026-06-29
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** The University of Sheffield
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2606.29961) · [PDF](https://arxiv.org/pdf/2606.29961)
+
+Large Language Model (LLM)-based agents can solve complex procedural tasks by interacting with environments over multiple turns, but this ability typically depends on large models, long contexts, and repeated inference calls. This makes advanced memory-augmented agents difficult to deploy on resource-constrained devices. We introduce DuoMem, a dual-space distillation framework that transfers procedural problem-solving ability from a large teacher model to compact student models. DuoMem distils in two complementary spaces: (1)context-space distillation, which replaces student-generated memories with higher-quality teacher-generated procedural memories prepended to the student's input, and (2)parameter-space distillation, which fine-tunes lightweight LoRA adapters on successful teacher trajectories. Evaluated on ALFWorld, a challenging embodied decision-making benchmark, DuoMem boosts a 4B-parameter model from 4.3% to 77.9% task success rate, closing most of the gap to a 72B teacher model (87.1%), while adding fewer than 10M trainable parameters and only a few megabytes of pre-computed teacher memories. Moreover, the DuoMem-enhanced 4B model completes tasks over 3x faster than the 72B teacher in wall-clock time, making it viable for real-time edge deployment, which would be challenging for the teacher.Extensive ablations across eight models spanning 2B-72B parameters reveal that both distillation axes contribute complementary
 
 ### [MemDelta: Controlled Baselines and Hidden Confounds in Agent Memory Evaluation](https://arxiv.org/abs/2606.29914)
 
@@ -511,42 +558,6 @@ The decentralized deployment of LLM agents with diverse capabilities across dive
 
 Large language models (LLMs) demonstrate strong reasoning and generation abilities, but their fixed context windows limit long-term information accumulation and reuse across multi-session interactions. Existing memory-augmented systems often construct memory in a coarse and unstable manner, relying on inefficient memory representations or unstable unconstrained updates. To address these challenges, we propose AtomMem, a long-term memory system designed for value-dense storage and stable memory evolution. AtomMem introduces a Fact Executor, which selectively extracts high value atomic facts from long form interactions to serve as highly efficient memory representations. Subsequently, AtomMem organizes these facts into hierarchical event structures and temporal profiles, capturing coherent episodic contexts and tracking dynamically evolving user attributes over time. During retrieval, the system activates an associative memory graph to connect fragmented memories. Experiments on the LoCoMo benchmark confirm that AtomMem achieves state-of-the-art performance across various reasoning tasks, offering a scalable and economically viable solution for deploying intelligent personalized agents.
 
-### [Making AI Scientists Auditable from Evidence to Claim](https://arxiv.org/abs/2606.18874v4)
-
-- **Authors:** Zijian Wang, Hanqi Li, Ziyue Yang, Zijian Hu, Shenghan Zuo, Yunzhe Zhang, Da Ma, Danyu Luo, Chenrun Wang, Jing Peng, Tiancheng Huang, Sijia Guo, Huayang Wang, Zichen Zhu, Senyu Han, Yilu Cao, Bo Chen, Xin Chen, Kai Yu, Lu Chen
-- **Published:** 2026-06-17
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** Scale AI
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2606.18874v4) · [PDF](https://arxiv.org/pdf/2606.18874v4)
-
-AI research systems can report improved results without establishing that the tested implementation matches the method described in their conclusions. We introduce Xcientist, a research harness that connects literature review, component-based idea generation, experiment validation and reporting. An evidence graph retains source passages, methods, baselines and evaluation conditions; component records track design revisions; and validation contracts specify the implementation, comparisons and artifacts required at each stage. We define claim drift as an unresolved mismatch between an accepted claim and its attributed sources, code or experiments. A retrospective audit across agent memory, traffic forecasting and physics-informed learning found audit claim drift rates of 3.6--16.7\% for Xcientist, lower than those of each of three comparison systems in all nine task-by-relation comparisons. This measure includes both confirmed mismatches and unverifiable claims; most of the difference arose from fewer unverifiable records. The case studies also document performance gains, unsuccessful revisions and limits on component attribution. This technical report describes the system, its implementation and the records needed to check how a proposed idea became a tested method and a final claim.
-
-### [GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents](https://arxiv.org/abs/2606.18829)
-
-- **Authors:** Ren, Zhe, Yang, Yibo, Chen, Yimeng, Zhao, Zijun, Fu, Benshuo, Shu, Zhihao, Zhang, Bingjie, Xu, Yangyang, Guo, Dandan, Yan, Shuicheng
-- **Published:** 2026-06-17
-- **Priority:** ⭐ Popular code
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2606.18829) · [PDF](https://arxiv.org/pdf/2606.18829) · [Code](https://github.com/rzhub/GateMem)
-
-Memory benchmarks for LLM agents largely assume single-user settings, leaving shared assistants for hospitals, workplaces, campuses, and households understudied. In these deployments, multiple principals write to a common memory pool and query it under different roles, scopes, and relationships, so memory quality requires governance as well as recall. We introduce GateMem, a benchmark for multi-principal shared-memory agents. GateMem jointly evaluates utility for legitimate long-horizon requests with state updates, access control across contextual authorization boundaries, and agent-facing active forgetting after explicit deletion requests. It spans medical, office, education, and household domains, with long-form multi-party episodes, incremental memory injection, hidden checkpoints, structured judging, and leak-target annotations. Across diverse baselines and backbone models, no method simultaneously achieves strong utility, robust access control, and reliable forgetting. Long-context prompting often yields the best governance score at high token cost, while retrieval-based and external-memory methods reduce cost yet still leak unauthorized or deleted information. These results show current memory agents remain far from reliable shared institutional deployment.
-
-### [CoreMem: Riemannian Retrieval and Fisher-Guided Distillation for Long-Term Memory in Dialogue Agents](https://arxiv.org/abs/2606.18406)
-
-- **Authors:** Chen, Jiaqi, Zeng, Yongqin, Chen, Shaoshen, Zhang, Yijian, Zheng, Hai-Tao, Ma, Chunxia, Zhou, XiuTeng
-- **Published:** 2026-06-16
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2606.18406) · [PDF](https://arxiv.org/pdf/2606.18406)
-
-Personalized dialogue agents require continuous long-term memory to maintain coherent interactions across multiple sessions. However, deploying these capabilities on consumer-grade hardware (e.g., 8 GB VRAM edge devices) introduces severe memory and compute bottlenecks. Existing systems typically rely on isotropic cosine similarity for retrieval and heuristic rules for context compression. These approaches lack a unified theoretical foundation, frequently suffering from the hubness problem in high-dimensional retrieval and syntactic fragmentation during compression. To overcome these limitations, we propose CoreMem, a resource-efficient edge-cloud memory architecture fundamentally unified by information geometry. First, Riemannian retrieval replaces cosine matching with a locally adaptive Fisher-Rao metric, effectively penalizing hub memories via Mahalanobis distance with O(Ndr) Woodbury acceleration for real-time search. Second, Fisher-guided discrete token distillation (FDTD) introduces a hierarchical sentence-to-token compression mechanism. It derives sensitivity scores from Fisher information traces, providing a principled compression-KL tradeoff augmented with explicit structural syntax protection. Evaluated on the LOCOMO and LongMemEval-S benchmarks, CoreMem achieves strong accuracy improvements, yielding substantial gains in Open-domain (+4.51 pp) and Temporal (+4.17 pp) reasoning. Extensive profiling confirms that CoreMem operates seamlessly within a strict 8 GB VRAM budget, successfully bridging the gap between resource-constrained edge devices and the demand for theoretically grounded, lifelong memory agents.
-
 ## LLM Continual Training & Continual Learning
 
 ### [BashCoder-R1: Towards Robust and Explainable Bash Code Generation with Robustness-Aware Group Relative Policy Optimization](https://arxiv.org/abs/2606.27733v3)
@@ -621,19 +632,19 @@ Medical vision-language models (VLMs) such as BiomedCLIP generalize broadly, but
 
 Large Reasoning Models produce long, explicit chains of intermediate steps before generating a final answer at inference time. These intermediate traces dominate latency, memory usage, and serving cost, even though final answer correctness is not causally related to the trace correctness and the trace length is not a reliable indicator of the problem complexity. This raises an obvious question: can the computation expressed in these intermediate tokens be internalized into the parameters of a language model, enabling it to produce answers with much shorter intermediate traces? We propose masked self-distillation, a knowledge-distillation based post-training framework in which copies of the same model are instantiated as teacher and student, and the student model is trained to internalize all or part of the intermediate trace, thus becoming more efficient at inference. We vary the fraction of intermediate trace the student is trained to internalize, interpolating between full internalization and no internalization. We conduct controlled experiments on two reasoning domains: math and graph coloring. We use the masked self-distillation framework to post-train Qwen3-4B & 8B models. Our results demonstrate that this method can be used to improve task performance while increasing inference efficiency across various domains and model sizes. We systematically analyze whether improved efficiency gain in the post-trained models generalize to OOD problems. We find that masked self-distillation models generalize well for in-domain OOD problems, and the masked self-distillation training does not induce catastrophic forgetting in the student model on out-of-domain problems. Furthermore, our ablation study shows that supervised fine-tuning can train models to produce shorter traces, but at the cost of generalization, highlighting the importance of on-policy training in masked self-distillation.
 
-### [EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts](https://arxiv.org/abs/2606.18967v2)
-
-- **Authors:** Minseo Kim, Minjae Lee, Seunghyuk Oh, Kevin Galim, Donghoon Kim, Coleman Hooper, Harman Singh, Amir Gholami, Hyung Il Koo, Wonjun Kang
-- **Published:** 2026-06-17
-- **Priority:** 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
-- **Venue:** NeurIPS 2026
-- **Affiliations:** n/a
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2606.18967v2) · [PDF](https://arxiv.org/pdf/2606.18967v2)
-
-Reinforcement learning (RL) has become a representative post-training paradigm for large language models (LLMs), enabling strong reasoning and agentic capabilities. However, rollout generation remains a dominant latency bottleneck because autoregressive (AR) sampling decodes responses sequentially and a small number of long-tailed generations often determine completion time. Speculative decoding (SD) is a well-established technique for serving fixed LLMs that reduces latency by rapidly drafting tokens and accepting them through parallel verification while preserving the target-model distribution. However, its practical speedups do not directly carry over to RL rollouts: (i) the evolving target policy makes any fixed drafter increasingly mismatched with the policy's output distribution; and (ii) active batch sizes shrink throughout rollout decoding, shifting decoding from compute-bound to memory-bound regimes where parallel verification can exploit underutilized compute. Therefore, accelerating RL rollouts requires both a drafter that remains effective under long, high-temperature generations from an evolving policy and system-aware use of SD that avoids compute-bound regimes. We present EfficientRollout, a system-aware self-SD framework designed to address this gap for RL rollouts. EfficientRollout induces a quantized drafter from the target model (i.e. self-speculative decoding), keeping it coupled to the evolving policy without separate drafter pretraining or online adaptation. It further coordinates a system-aware SD toggle policy with acceptance-aware draft-length adaptation, enabling speculation only in beneficial regimes while matching the drafting budget to evolving drafter quality. EfficientRollout reduces rollout and end-to-end latency by up to 24.2% and 15.6%, respectively, over an accelerated AR rollout baseline, while preserving final model quality.
-
 ## Reinforcement Learning
+
+### [Are We Measuring Strategy or Phrasing? The Gap Between Surface- and Approach-Level Diversity in LLM Math Reasoning](https://arxiv.org/abs/2606.29985v2)
+
+- **Authors:** Sangmook Lee, Minbeom Kim, Jeonghye Kim, Dohyung Kim, Sojeong Rhee, Kyomin Jung
+- **Published:** 2026-06-29
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** Seoul National University
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2606.29985v2) · [PDF](https://arxiv.org/pdf/2606.29985v2)
+
+Diversity in LLM mathematical reasoning is critical for exploration, but common diversity metrics mostly capture surface-level variation rather than differences in how a problem is solved. We address this gap by introducing approach-level diversity: variation in strategies across correct solutions to the same problem. Using a human-calibrated LLM judge framework, we show that prior diversity measures are unreliable proxies for approach-level diversity, and this mismatch carries over to diversity-aware RLVR, where target metrics are preserved while approach-level diversity declines. Investigating when approach-level diversity helps and whether it can be directly induced, we find that approach-diverse candidate sets improve test-time scaling. However, optimizing an LLM judge diversity reward during training causes the policy to exploit judge-specific preferences rather than broaden its approaches, leaving direct optimization of approach-level diversity as an open problem. Together, our work introduces the notion of approach-level diversity and uncovers a systematic divergence between surface- and approach-level signals, marking a step toward LLMs that reason in genuinely diverse, human-like ways.
 
 ### [Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents](https://arxiv.org/abs/2606.27472)
 
@@ -694,27 +705,3 @@ Reinforcement Learning from Verifiable Rewards (RLVR) has emerged as a promising
 - **Links:** [Paper](https://arxiv.org/abs/2606.20002v2) · [PDF](https://arxiv.org/pdf/2606.20002v2)
 
 This work presents a general framework for training large language models (LLMs) to "Connect the Dots" (CoD), a meta-capability required by long-lifecycle agents: as an LLM-based AI agent gets deployed in an environment, it solves a long sequence of tasks while continuously exploring the environment, learning from its own experiences, and iteratively self-updating its context about the environment, thereby achieving progressively better performance on future tasks conditioned on the updated context. Major components of the CoD framework include: (1) algorithm design and infrastructure for end-to-end reinforcement learning (RL) with long rollout sequences interleaving solve-task and update-context episodes; (2) tasks and environments for incentivizing and eliciting the targeted meta-capability in LLMs during training, as well as for faithfully measuring progress during evaluation. We present proof-of-concept implementations of the CoD framework, including a GRPO-style RL algorithm with fine-grained credit assignment, as well as tasks and environments tailored to the targeted meta-capability (rather than domain-specific LLM capabilities or standard task-by-task RL). Empirical results with Qwen3-8B and Qwen3.6-27B validate the efficacy of end-to-end RL training in the CoD setting, and demonstrate the potential for out-of-distribution generalization -- within the training domains, across different domains, and from CoD to Ralph-loop settings -- of the elicited meta-capability. Our investigation of CoD connects several lines of prior work, and opens up new opportunities for advancing LLMs and AI agents. To facilitate further research and applications, we release our implementations at https://github.com/agentscope-ai/Trinity-RFT/tree/research/cod_v2/examples/research_cod.
-
-### [EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts](https://arxiv.org/abs/2606.18967v2)
-
-- **Authors:** Minseo Kim, Minjae Lee, Seunghyuk Oh, Kevin Galim, Donghoon Kim, Coleman Hooper, Harman Singh, Amir Gholami, Hyung Il Koo, Wonjun Kang
-- **Published:** 2026-06-17
-- **Priority:** 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
-- **Venue:** NeurIPS 2026
-- **Affiliations:** n/a
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2606.18967v2) · [PDF](https://arxiv.org/pdf/2606.18967v2)
-
-Reinforcement learning (RL) has become a representative post-training paradigm for large language models (LLMs), enabling strong reasoning and agentic capabilities. However, rollout generation remains a dominant latency bottleneck because autoregressive (AR) sampling decodes responses sequentially and a small number of long-tailed generations often determine completion time. Speculative decoding (SD) is a well-established technique for serving fixed LLMs that reduces latency by rapidly drafting tokens and accepting them through parallel verification while preserving the target-model distribution. However, its practical speedups do not directly carry over to RL rollouts: (i) the evolving target policy makes any fixed drafter increasingly mismatched with the policy's output distribution; and (ii) active batch sizes shrink throughout rollout decoding, shifting decoding from compute-bound to memory-bound regimes where parallel verification can exploit underutilized compute. Therefore, accelerating RL rollouts requires both a drafter that remains effective under long, high-temperature generations from an evolving policy and system-aware use of SD that avoids compute-bound regimes. We present EfficientRollout, a system-aware self-SD framework designed to address this gap for RL rollouts. EfficientRollout induces a quantized drafter from the target model (i.e. self-speculative decoding), keeping it coupled to the evolving policy without separate drafter pretraining or online adaptation. It further coordinates a system-aware SD toggle policy with acceptance-aware draft-length adaptation, enabling speculation only in beneficial regimes while matching the drafting budget to evolving drafter quality. EfficientRollout reduces rollout and end-to-end latency by up to 24.2% and 15.6%, respectively, over an accelerated AR rollout baseline, while preserving final model quality.
-
-### [Zone of Proximal Policy Optimization: Teacher in Prompts, Not Gradients](https://arxiv.org/abs/2606.18216v5)
-
-- **Authors:** Byung-Kwan Lee, Ximing Lu, Shizhe Diao, Minki Kang, Saurav Muralidharan, Karan Sapra, Andrew Tao, Yu-Chiang Frank Wang, Ryo Hachiuma
-- **Published:** 2026-06-16
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** University of Washington
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2606.18216v5) · [PDF](https://arxiv.org/pdf/2606.18216v5)
-
-Knowledge distillation transfers a teacher's competence to a small student but is brittle in the small-student regime: forcing the student to imitate logits from a much larger teacher hurts generalization on benchmark families beyond the training corpus. Reinforcement learning (RL) avoids logit imitation by training on the student's own rollouts. However, on questions where every rollout fails, yielding zero advantage and being silently discarded, injecting a stronger teacher's response into the policy gradient breaks the on-policy assumption and induces drift. We introduce Zone of Proximal Policy Optimization (ZPPO), inspired by Vygotsky's zone of proximal development. ZPPO keeps the teacher inside the prompt rather than the policy gradient. On hard questions, where the student's mean rollout accuracy is below half, ZPPO constructs two reformulated prompts. A Binary Candidate-included Question (BCQ) pairs one correct teacher response with one incorrect student response as anonymized candidates the student uses as references. A Negative Candidate-included Question (NCQ) aggregates the student's wrong rollouts into a single prompt to surface their shared failure modes. A prompt replay buffer keeps each hard question eligible for re-sampling until it either graduates, the student's mean rollout accuracy on it reaches half or more, or is FIFO-evicted under finite capacity, amplifying BCQ and NCQ inside the student's current zone of proximal development. We post-train Qwen3.5 students at four scales (0.8B-9B) as vision-language models with a 27B teacher and evaluate them on a 31-benchmark suite (16 VLM, 10 LLM, 5 Video); ZPPO outperforms off/on-policy distillation and GRPO, with the largest gains at the smallest scale.

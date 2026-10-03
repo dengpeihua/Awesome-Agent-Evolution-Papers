@@ -1,11 +1,11 @@
-> **1473 papers** · Page 22/30 · Newest first across all pages
+> **1479 papers** · Page 22/30 · Newest first across all pages
 
 [1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:38:38.500711+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,12 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-05-16 | Agent/LLM Self-Improvement, Agent Memory | [SE-GA: Memory-Augmented Self-Evolution for GUI Agents](https://arxiv.org/abs/2605.16883) | — |
+| 2026-05-16 | Agent Memory | [State Contamination in Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.16746) | — |
+| 2026-05-15 | Reinforcement Learning | [ReAlign: Generalizable Image Forgery Detection via Reasoning-Aligned Representation](https://arxiv.org/abs/2605.16080v2) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-05-15 | Agent Memory | [DimMem: Dimensional Structuring for Efficient Long-Term Agent Memory](https://arxiv.org/abs/2605.15759) | — |
+| 2026-05-15 | Agent Memory | [Accurate and Efficient Long-Term Memory for LLM Agents](https://arxiv.org/abs/2607.16211) | — |
+| 2026-05-15 | Agent Memory | [Visual Agentic Memory: Enabling Online Long Video Understanding via Online Indexing, Hierarchical Memory, and Agentic Retrieval](https://arxiv.org/abs/2605.16481) | — |
 | 2026-05-15 | Agent Memory | [RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents](https://arxiv.org/abs/2605.16045) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-05-15 | Agent Memory | [SMMBench: A Benchmark for Source-Distributed Multimodal Agent Memory](https://arxiv.org/abs/2605.15710) | — |
 | 2026-05-15 | Agent Memory | [H-Mem: A Novel Memory Mechanism for Evolving and Retrieving Agent Memory via a Hybrid Structure](https://arxiv.org/abs/2605.15701) | — |
@@ -57,17 +63,12 @@
 | 2026-05-09 | Agent Memory | [ShadowMerge: A Novel Poisoning Attack on Graph-Based Agent Memory via Relation-Channel Conflicts](https://arxiv.org/abs/2605.09033) | — |
 | 2026-05-08 | Reinforcement Learning | [AIPO: Learning to Reason from Active Interaction](https://arxiv.org/abs/2605.08401v3) | — |
 | 2026-05-08 | Agent/LLM Self-Improvement, LLM Continual Training | [Self-Play Enhancement via Advantage-Weighted Refinement in Online Federated LLM Fine-Tuning](https://arxiv.org/abs/2605.07977v2) | — |
-| 2026-05-08 | Reinforcement Learning | [Your Language Model is Its Own Critic: Reinforcement Learning with Value Estimation from Actor's Internal States](https://arxiv.org/abs/2605.07579v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
-| 2026-05-08 | LLM Continual Training | [ProteinJEPA: Latent prediction improves protein language model pretraining](https://arxiv.org/abs/2605.07554v2) | — |
-| 2026-05-08 | Agent/LLM Self-Improvement | [Tools as Continuous Flow for Evolving Agentic Reasoning](https://arxiv.org/abs/2605.07339v2) | — |
-| 2026-05-08 | LLM Continual Training | [Limits of Reliability and Scaling in Language Models](https://arxiv.org/abs/2607.14112v3) | — |
-| 2026-05-08 | Agent/LLM Self-Improvement, Agent Memory | [MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs](https://arxiv.org/abs/2605.08374) | — |
-| 2026-05-08 | Agent Memory | [MemCompiler: Compile, Don't Inject -- State-Conditioned Memory for Embodied Agents](https://arxiv.org/abs/2605.07594) | — |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [ReAlign: Generalizable Image Forgery Detection via Reasoning-Aligned Representation](https://arxiv.org/abs/2605.16080v2) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted by CVPR 2026 |
 | [RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents](https://arxiv.org/abs/2605.16045) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [Remember Your Trace: Memory-Guided Long-Horizon Agentic Framework for Consistent and Hierarchical Repository-Level Code Documentation](https://arxiv.org/abs/2605.14563v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026 |
 | [Hidden in Memory: Sleeper Memory Poisoning in LLM Agents](https://arxiv.org/abs/2605.15338) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
@@ -77,9 +78,20 @@
 | [Revisiting Reinforcement Learning with Verifiable Rewards from a Contrastive Perspective](https://arxiv.org/abs/2605.12969v5) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted by EMNLP 2026 Main Conference |
 | [EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents](https://arxiv.org/abs/2605.13941) | 🔥 Very popular code<br>📈 Highly cited | UNC-Chapel Hill |
 | [LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues](https://arxiv.org/abs/2605.12493) | 📈 Highly cited | First author: University of California, Los Angeles (Semantic Scholar author profiles) |
-| [Your Language Model is Its Own Critic: Reinforcement Learning with Value Estimation from Actor's Internal States](https://arxiv.org/abs/2605.07579v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026; Project Page: https://elijah0430.github.io/poise/ |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
+
+### [SE-GA: Memory-Augmented Self-Evolution for GUI Agents](https://arxiv.org/abs/2605.16883)
+
+- **Authors:** Jin, Shilong, Wang, Lanjun, Zhang, Zhuosheng
+- **Published:** 2026-05-16
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2605.16883) · [PDF](https://arxiv.org/pdf/2605.16883) · [Code](https://github.com/jinshilong-dev/SE-GA)
+
+Autonomous Graphical User Interface (GUI) agents often struggle with multi-step tasks due to constrained context windows and static policies that fail to adapt to dynamic environments. To address these limitations, this work proposes the Self-Evolving GUI Agent (SE-GA), a novel framework that integrates hierarchical memory structures with an iterative self-improvement mechanism. At the core of our approach is Test-Time Memory Extension (TTME), which facilitates long-term planning by dynamically retrieving episodic, semantic, and experiential memories to provide salient contexts during inference. To ensure continuous learning, we introduce Memory-Augmented Self-Evolution (MASE), which is a training pipeline that adopts the data collected by TTME to stabilize and enhance the agent's foundational policy. Extensive evaluations across both offline and online benchmarks demonstrate SE-GA achieves state-of-the-art performance, reaching success rates of 89.0\% on ScreenSpot and 75.8\% on the challenging AndroidControl-High dataset. Furthermore, significant improvements on the AndroidWorld benchmark highlight the superior generalization to dynamic environments. Open source code: https://github.com/jinshilong-dev/SE-GA
 
 ### [ASH: Agents that Self-Hone in Long-Horizon Worlds](https://arxiv.org/abs/2605.14211v4)
 
@@ -261,31 +273,67 @@ Skills provide an effective mechanism for improving LLM agents on complex tasks,
 
 Recent works have advanced feedback-based learning systems, whereby a foundation model is able to intake incoming feedback (e.g., from a user) to self-improve, creating a self-loop system of training. However, existing works are limited in needing to consider an offline setup to allow for such feedback-based methods, requiring privileged ground-truth contexts for training. Moreover, there is limited consideration of federated learning (FL), which is particularly well-suited for incorporating external feedback across large networks of end users, for example, but requires methods to be efficient for training on resource-constrained edge devices. Therefore, we introduce SPEAR (Self-Play Enhancement via Advantage-Weighted Refinement), an efficient online learning algorithm for federated LLM fine-tuning. SPEAR utilizes a feedback-guided self-play loop to construct naturally contrastive pairs per prompt which are used to train the model with (i) standard maximum likelihood on satisfactory completions and (ii) confidence-weighted unlikelihood on tail tokens of unsatisfactory completions. SPEAR requires only an interaction-level binary satisfaction signal together with non-answer feedback, without requiring a ground-truth answer to be provided, and does not need expensive group generations, meaning training both online and in a resource-efficient manner is feasible. We validate SPEAR across various benchmark datasets, demonstrating its superior performance in comparison to relevant baselines.
 
-### [Tools as Continuous Flow for Evolving Agentic Reasoning](https://arxiv.org/abs/2605.07339v2)
+## Agent Memory
 
-- **Authors:** Tairan Huang, Siyu Shang, Qiang Chen, Xiu Su, Yi Chen
-- **Published:** 2026-05-08
+### [SE-GA: Memory-Augmented Self-Evolution for GUI Agents](https://arxiv.org/abs/2605.16883)
+
+- **Authors:** Jin, Shilong, Wang, Lanjun, Zhang, Zhuosheng
+- **Published:** 2026-05-16
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2605.16883) · [PDF](https://arxiv.org/pdf/2605.16883) · [Code](https://github.com/jinshilong-dev/SE-GA)
+
+Autonomous Graphical User Interface (GUI) agents often struggle with multi-step tasks due to constrained context windows and static policies that fail to adapt to dynamic environments. To address these limitations, this work proposes the Self-Evolving GUI Agent (SE-GA), a novel framework that integrates hierarchical memory structures with an iterative self-improvement mechanism. At the core of our approach is Test-Time Memory Extension (TTME), which facilitates long-term planning by dynamically retrieving episodic, semantic, and experiential memories to provide salient contexts during inference. To ensure continuous learning, we introduce Memory-Augmented Self-Evolution (MASE), which is a training pipeline that adopts the data collected by TTME to stabilize and enhance the agent's foundational policy. Extensive evaluations across both offline and online benchmarks demonstrate SE-GA achieves state-of-the-art performance, reaching success rates of 89.0\% on ScreenSpot and 75.8\% on the challenging AndroidControl-High dataset. Furthermore, significant improvements on the AndroidWorld benchmark highlight the superior generalization to dynamic environments. Open source code: https://github.com/jinshilong-dev/SE-GA
+
+### [State Contamination in Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.16746)
+
+- **Authors:** Wang, Yian, Goyal, Agam, Chen, Yuen, Sundaram, Hari
+- **Published:** 2026-05-16
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** University of Wisconsin-Madison
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2605.16746) · [PDF](https://arxiv.org/pdf/2605.16746)
+
+LLM agents increasingly rely on persistent state, including transcripts, summaries, retrieved context, and memory buffers, to support long-horizon interaction. This makes safety depend not only on individual model outputs, but also on what an agent stores and later reuses. We study a failure mode we call memory laundering: toxic or adversarial context can be compressed into memory summaries that no longer appear toxic under standard detectors, while still preserving hostile framing or conflict structure that influences future generations. Using paired counterfactual multi-agent rollouts, we show that toxic-origin memory summaries can remain below common toxicity thresholds while nevertheless increasing downstream toxicity relative to matched neutral baselines. To measure this hidden influence, we introduce the sub-threshold propagation gap (SPG), which quantifies downstream behavioral differences conditioned on memory states that a deployed monitor would classify as safe. Our experiments show that toxicity propagates through distinct state channels: raw transcript reuse drives overt downstream toxicity, while compressed memory carries hidden sub-threshold influence. We further find that mitigation depends critically on intervention placement. Sanitizing toxic state before summarization substantially reduces the hidden propagation gap, whereas cleaning only the completed summary can leave laundered influence intact. These results suggest that safety in memory-augmented agents should be treated as a state-control problem over evolving context, with sanitization applied before unsafe information is compressed into persistent memory.
+
+### [DimMem: Dimensional Structuring for Efficient Long-Term Agent Memory](https://arxiv.org/abs/2605.15759)
+
+- **Authors:** Qiu, Wentao, Hu, Haotian, Wang, Fanyi, Kong, Jinwei, Zhang, Yu
+- **Published:** 2026-05-15
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2605.15759) · [PDF](https://arxiv.org/pdf/2605.15759) · [Code](https://github.com/ChowRunFa/DimMem)
+
+Large language model (LLM) agents require long-term memory to leverage information from past interactions. However, existing memory systems often face a fidelity--efficiency trade-off: raw dialogue histories are expensive, while flat facts or summaries may discard the structure needed for precise recall. We propose \textbf{DimMem}, a lightweight dimensional memory framework that represents each memory as an atomic, typed, and self-contained unit with explicit fields such as time, location, reason, purpose, and keywords. This representation exposes the structure needed for dimension-aware retrieval, memory update, and selective assistant-context recall without storing full histories in the model context. Across LoCoMo-10 and LongMemEval-S, DimMem achieves \textbf{81.43\%} and \textbf{78.20\%} overall accuracy, respectively, outperforming existing lightweight memory systems while reducing LoCoMo per-query token cost by \textbf{24\%}. We further show that dimensional memory extraction is learnable by compact models: after fine-tuning on the DimMem schema, a Qwen3-4B extractor surpasses LightMem with GPT-4.1-mini on both benchmarks and reaches performance comparable to, or better than, much larger extractors in key settings. These results suggest that explicit dimensional structuring is an effective and efficient foundation for long-term memory in LLM agents. Code is available at https://github.com/ChowRunFa/DimMem.
+
+### [Accurate and Efficient Long-Term Memory for LLM Agents](https://arxiv.org/abs/2607.16211)
+
+- **Authors:** Zhao, Zicheng, Guo, Xinyang, Lv, Luyao, Wang, Menghan, Li, Ming, Li, Shuaicheng
+- **Published:** 2026-05-15
 - **Priority:** —
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2605.07339v2) · [PDF](https://arxiv.org/pdf/2605.07339v2)
+- **Links:** [Paper](https://arxiv.org/abs/2607.16211) · [PDF](https://arxiv.org/pdf/2607.16211)
 
-Large Language Models (LLMs) have demonstrated remarkable capabilities in orchestrating tools for reasoning tasks. However, existing methods rely on a step-wise paradigm that lacks a global perspective, which causes error accumulation over long horizons and restricts generalization to unseen tools. To overcome these limitations, we propose Tools as Continuous Flow for Evolving Agentic Reasoning (FlowAgent), which reconceptualizes tool chaining as continuous trajectory generation within a semantic space. To systematically evaluate this paradigm, we introduce the first plan-level closed-loop benchmark dedicated to plan-level agentic reasoning in dynamic real-world environments. Specifically, the proposed FlowAgent leverages conditional flow matching to generate continuous latent trajectories, providing a global planning perspective to ensure coherent and robust tool execution. Theoretically, we establish formal bounds on utility convergence and prove that our continuous formulation fundamentally guarantees robust generalization and error attenuation. Empirical evaluations show that FlowAgent achieves superior robustness and adaptability in long-horizon reasoning tasks.
+LLM agents augmented with persistent memory can recall past interactions, but existing systems suffer from two limitations: flat, unstructured storage loses relational context needed for multi-hop and temporal reasoning, and reliance on expensive LLM-based classification makes them impractical for latency-sensitive deployment. Without mechanisms to validate new information against stored knowledge, these systems silently accumulate contradictions. We present MOSAIC (Memory-Organized Structured Agent for Information Collection), a structured, conflict-aware long-term memory framework for LLM agents that is substantially more accurate and efficient. MOSAIC introduces three key capabilities: (1) entity-typed graph storage with semantic classification preserving relational structure across events, personas, and relationships, enabling multi-hop and temporal reasoning over conversation history; (2) hash-accelerated dual-path retrieval replacing LLM-based classification with locality-sensitive hashing, achieving near-instantaneous lookup with negligible accuracy loss; and (3) active conflict detection at save time that cross-references new information against existing graph neighbors, triggering updates or deletions for contradictory entries. Evaluated on LoCoMo (long-conversation QA), HaluMem, and a novel clinical-guideline error compounding test, MOSAIC achieves 89.35% accuracy on LoCoMo (+27.21 pp over the best baseline), best HaluMem-Medium extraction F1(86.77%) and HaluMem-Long extraction F1 (85.84%), best QA correctness on both Medium and Long (73.10%, 70.75%), and detects 66% of injected factual conflicts-4.7 times higher than the best baseline (14%)-while hash-accelerated retrieval keeps average search latency at 0.58 s per question.
 
-### [MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs](https://arxiv.org/abs/2605.08374)
+### [Visual Agentic Memory: Enabling Online Long Video Understanding via Online Indexing, Hierarchical Memory, and Agentic Retrieval](https://arxiv.org/abs/2605.16481)
 
-- **Authors:** Liao, Junwei, Shi, Haoting, Zhou, Ruiwen, Wang, Jiaqian, Zhang, Shengtao, Zhang, Wei, Wen, Ying, Li, Zhiyu, Xiong, Feiyu, Tang, Bo, Zhang, Weinan, Wen, Muning
-- **Published:** 2026-05-08
+- **Authors:** Li, Aiden Yiliu, Numan, Nels, Steed, Anthony
+- **Published:** 2026-05-15
 - **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** National University of Singapore
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2605.08374) · [PDF](https://arxiv.org/pdf/2605.08374) · [Code](https://github.com/jwliao-ai/MemQ)
+- **Affiliations:** n/a
+- **Categories:** cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2605.16481) · [PDF](https://arxiv.org/pdf/2605.16481) · [Code](https://github.com/yiliu-li/Visual-Agentic-Memory)
 
-Episodic memory allows LLM agents to accumulate and retrieve experience, but current methods treat each memory independently, i.e., evaluating retrieval quality in isolation without accounting for the dependency chains through which memories enable the creation of future memories. We introduce MemQ, which applies TD($\lambda$) eligibility traces to memory Q-values, propagating credit backward through a provenance DAG that records which memories were retrieved when each new memory was created. Credit weight decays as $(\gamma\lambda)^d$ with DAG depth $d$, replacing temporal distance with structural proximity. We formalize the setting as an Exogenous-Context MDP, whose factored transition decouples the exogenous task stream from the endogenous memory store. Across six benchmarks, spanning OS interaction, function calling, code generation, multimodal reasoning, embodied reasoning, and expert-level QA, MemQ achieves the highest success rate on all six in generalization evaluation and runtime learning, with gains largest on multi-step tasks that produce deep and relevant provenance chains (up to +5.7~pp) and smallest on single-step classification (+0.77~pp) where single-step updates already suffice. We further study how $\gamma$ and $\lambda$ interact with the EC-MDP structure, providing principled guidance for parameter selection and future research. Code is available at https://github.com/jwliao-ai/MemQ.
-
-## Agent Memory
+Long video understanding requires more than large context windows. It also needs a memory mechanism that decides what visual evidence to retain, keeps it searchable over long horizons, and grounds later reasoning in recoverable observations rather than compressed latent state alone. We propose Visual Agentic Memory (VAM), a training-free framework with three components. Online Indexing supports selective evidence retention under streaming constraints. Hierarchical Memory organises retained evidence in a Parallel Representation that aligns temporal context with spatial observations. Agentic Retrieval searches, inspects, and verifies candidate evidence before producing a grounded answer. On OVO-Bench, VAM achieves the highest RT+BT average (68.41) across all reported baselines, improving over end-to-end use of the same underlying MLLM (Gemini 3 Flash, 67.46). On the month-scale split of MM-Lifelong train@month (105.6 hours over 51 days), VAM reaches 17.11%, second only to ReMA with GPT-5 (17.62%). These results suggest that long-horizon video understanding benefits from treating visual memory as an explicit, inspectable, and queryable substrate. Code is available at https://github.com/yiliu-li/Visual-Agentic-Memory.
 
 ### [RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents](https://arxiv.org/abs/2605.16045)
 
@@ -563,30 +611,6 @@ GUI agents are beginning to operate the web, mobile, and desktop as interactive 
 
 Graph-based agent memory is increasingly used in LLM agents to support structured long-term recall and multi-hop reasoning, but it also creates a new poisoning surface: an attacker can inject a crafted relation into graph memory so that it is later retrieved and influences agent behavior. Existing agent-memory poisoning attacks mainly target flat textual records and are ineffective in graph-based memory because malicious relations often fail to be extracted, merged into the target anchor neighborhood, or retrieved for the victim query. We present SHADOWMERGE, a poisoning attack against graph-based agent memory that exploits relation-channel conflicts. Its key insight is that a poisoned relation can share the same query-activated anchor and canonicalized relation channel as benign evidence while carrying a conflicting value. To realize this, we design AIR, a pipeline that converts the conflict into an ordinary interaction that can be extracted, merged, and retrieved by the graph-memory system. We evaluate SHADOWMERGE on Mem0 and three public real-world datasets: PubMedQA, WebShop, and ToolEmu. SHADOWMERGE achieves 93.8% average attack success rate, improving the best baseline by 50.3 absolute points, while having negligible impact on unrelated benign tasks. Mechanism studies show that SHADOWMERGE overcomes the three key limitations of existing agent-memory poisoning attacks, and defense analysis shows that representative input-side defenses are insufficient to mitigate it. We have responsibly disclosed our findings to affected graph-memory vendors and open sourced SHADOWMERGE.
 
-### [MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs](https://arxiv.org/abs/2605.08374)
-
-- **Authors:** Liao, Junwei, Shi, Haoting, Zhou, Ruiwen, Wang, Jiaqian, Zhang, Shengtao, Zhang, Wei, Wen, Ying, Li, Zhiyu, Xiong, Feiyu, Tang, Bo, Zhang, Weinan, Wen, Muning
-- **Published:** 2026-05-08
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** National University of Singapore
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2605.08374) · [PDF](https://arxiv.org/pdf/2605.08374) · [Code](https://github.com/jwliao-ai/MemQ)
-
-Episodic memory allows LLM agents to accumulate and retrieve experience, but current methods treat each memory independently, i.e., evaluating retrieval quality in isolation without accounting for the dependency chains through which memories enable the creation of future memories. We introduce MemQ, which applies TD($\lambda$) eligibility traces to memory Q-values, propagating credit backward through a provenance DAG that records which memories were retrieved when each new memory was created. Credit weight decays as $(\gamma\lambda)^d$ with DAG depth $d$, replacing temporal distance with structural proximity. We formalize the setting as an Exogenous-Context MDP, whose factored transition decouples the exogenous task stream from the endogenous memory store. Across six benchmarks, spanning OS interaction, function calling, code generation, multimodal reasoning, embodied reasoning, and expert-level QA, MemQ achieves the highest success rate on all six in generalization evaluation and runtime learning, with gains largest on multi-step tasks that produce deep and relevant provenance chains (up to +5.7~pp) and smallest on single-step classification (+0.77~pp) where single-step updates already suffice. We further study how $\gamma$ and $\lambda$ interact with the EC-MDP structure, providing principled guidance for parameter selection and future research. Code is available at https://github.com/jwliao-ai/MemQ.
-
-### [MemCompiler: Compile, Don't Inject -- State-Conditioned Memory for Embodied Agents](https://arxiv.org/abs/2605.07594)
-
-- **Authors:** Ding, Xin, Wang, Xinrui, Yang, Yifan, Wu, Hao, Jiang, Shiqi, Zhang, Qianxi, Mi, Liang, Zhu, Hanxin, Li, Kun, Liu, Yunxin, Chen, Zhibo, Cao, Ting
-- **Published:** 2026-05-08
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2605.07594) · [PDF](https://arxiv.org/pdf/2605.07594)
-
-Existing memory systems for embodied agents typically inject retrieved memory as static context at episode start, a paradigm we term Ahead-of-time Monolithic Memory Injection (AMMI). However, this static design quickly becomes misaligned with the agent's evolving state and may degrade lightweight executors below the no-memory baseline. To address this, we propose MemCompiler, which reframes memory utilization as State-Conditioned Memory Compilation. A learned Memory Compiler reads a structured Brief State capturing the agent's current execution state and dynamically selects and compiles only relevant memory into executable guidance. This guidance is delivered through a text channel and a latent Soft-Mem channel that preserves perceptual information not expressible in text. Across Alf World, EmbodiedBench, and ScienceWorld, MemCompiler consistently improves over no-memory across open-source backbones (up to +129%), matches or approaches frontier closed-source systems, and reduces per-step latency by 60%, demonstrating that state-aware memory compilation improves both effectiveness and efficiency.
-
 ## LLM Continual Training & Continual Learning
 
 ### [PRISM: A Geometric Risk Bound for Decomposing Drift into Scale, Shape, and Head](https://arxiv.org/abs/2605.11608v2)
@@ -625,31 +649,19 @@ Large language models (LLMs) are trained for downstream tasks by updating their 
 
 Recent works have advanced feedback-based learning systems, whereby a foundation model is able to intake incoming feedback (e.g., from a user) to self-improve, creating a self-loop system of training. However, existing works are limited in needing to consider an offline setup to allow for such feedback-based methods, requiring privileged ground-truth contexts for training. Moreover, there is limited consideration of federated learning (FL), which is particularly well-suited for incorporating external feedback across large networks of end users, for example, but requires methods to be efficient for training on resource-constrained edge devices. Therefore, we introduce SPEAR (Self-Play Enhancement via Advantage-Weighted Refinement), an efficient online learning algorithm for federated LLM fine-tuning. SPEAR utilizes a feedback-guided self-play loop to construct naturally contrastive pairs per prompt which are used to train the model with (i) standard maximum likelihood on satisfactory completions and (ii) confidence-weighted unlikelihood on tail tokens of unsatisfactory completions. SPEAR requires only an interaction-level binary satisfaction signal together with non-answer feedback, without requiring a ground-truth answer to be provided, and does not need expensive group generations, meaning training both online and in a resource-efficient manner is feasible. We validate SPEAR across various benchmark datasets, demonstrating its superior performance in comparison to relevant baselines.
 
-### [ProteinJEPA: Latent prediction improves protein language model pretraining](https://arxiv.org/abs/2605.07554v2)
-
-- **Authors:** Dan Ofer, Dafna Shahaf, Michal Linial
-- **Published:** 2026-05-08
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** Hebrew University of Jerusalem, Medtronic
-- **Categories:** cs.LG, cs.AI, q-bio.BM, stat.ML
-- **Links:** [Paper](https://arxiv.org/abs/2605.07554v2) · [PDF](https://arxiv.org/pdf/2605.07554v2)
-
-Protein language models are trained primarily with masked language modeling (MLM), which predicts masked amino-acid identities. Joint-embedding predictive architectures (JEPA) instead predict latent representations, but have not been applied to proteins. ProteinJEPA supplements MLM with a cosine loss for predicting the half-depth hidden states of a teacher given the unmasked sequence. On 19 tasks, with ESM2 at 35M and 150M parameters and three pretraining seeds, MLM+JEPA outperforms compute-matched and step-matched MLM-only continued training in 78 and 76 of 114 comparisons (14 losses, 22 ties). The median compute-matched gain is $+0.0106$ on structure- and homology-sensitive tasks versus $+0.0041$ elsewhere, led by SCOPe-40 retrieval and remote homology with improvements of 6.1 percentage points in Recall@1 and 2.7 points in accuracy, respectively. Gains on these tasks increase with model size from 8M to 150M. Against the off-the-shelf checkpoint, MLM+JEPA wins 81 of 114 comparisons (median $+0.0068$) without improving MLM loss. In random initialization the gain is smaller and replicates inconsistently across seeds ($p{=}0.059$). The same recipe improves the causal ProGen3 model, beating a compute-matched next-token-prediction control on 12 of 16 tasks. Ablations show that cosine loss beats mean squared error, while adding shallower targets removes most of the task gain. JEPA-only training collapses downstream performance: latent prediction complements MLM rather than replacing it. Code: https://anonymous.4open.science/r/protJepa-FF24
-
-### [Limits of Reliability and Scaling in Language Models](https://arxiv.org/abs/2607.14112v3)
-
-- **Authors:** Subhabrata Majumdar
-- **Published:** 2026-05-08
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CL, cs.AI, cs.IT
-- **Links:** [Paper](https://arxiv.org/abs/2607.14112v3) · [PDF](https://arxiv.org/pdf/2607.14112v3)
-
-Large language models (LLMs) are trained and evaluated as though perfect reliability is achievable for any task given sufficient scale. We show that this assumption is information-theoretically unjustified. Every generative task has a reliability ceiling that no model can exceed, determined by how much output uncertainty is resolvable from observable context. The gap decomposes into a resolvable component closable with additional context and a subjective component inherent to task ambiguity. Autoregressive generation further degrades this ceiling at a rate governed by the task's dependency kernel, which quantifies inter-token correlations in the output. From these two primitives, we derive a first-principles scaling law where LLM performance is bottlenecked by the scarcer resource: training data or model capacity. This law recovers the Chinchilla scaling law as a special case and provides a structural account of when scaling improves reliability. Beyond scaling, our framework unifies diverse practical phenomena, such as the benefits of retrieval-augmentation and the spectral mechanics of catastrophic forgetting. Our work formalizes the resource-complexity tradeoffs that govern model performance across domains, offering a unified theory of performance limits in generative language models.
-
 ## Reinforcement Learning
+
+### [ReAlign: Generalizable Image Forgery Detection via Reasoning-Aligned Representation](https://arxiv.org/abs/2605.16080v2)
+
+- **Authors:** Qing Huang, Zhipei Xu, Xuanyu Zhang, Xiangyu Yu, Jian Zhang
+- **Published:** 2026-05-15
+- **Priority:** 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** CVPR 2026
+- **Affiliations:** n/a
+- **Categories:** cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2605.16080v2) · [PDF](https://arxiv.org/pdf/2605.16080v2)
+
+The rise of AI-generated images (AIGIs) poses growing challenges for digital authenticity, prompting the need for efficient, generalizable image forgery detection systems. Existing methods, whether non-LLM-based or LLM-based, exhibit distinct advantages and limitations. While non-LLM-based models offer efficient low-level artifact detection, they often lack semantic understanding. Conversely, LLM-based methods provide strong semantic reasoning and explainability but are computationally intensive and less sensitive to subtle visual artifacts. Moreover, the true contribution of explanatory reasoning texts to forgery detection performance remains unclear. In this work, we investigate the intrinsic value and potential of LLM-generated reasoning texts, considering it a source of generalization and semantic-error sensitivity. Based on these findings, we propose ReAlign, a novel framework that distills high-quality reasoning texts generated by a GRPO-optimized LLM into a lightweight AIGI detector via contrastive learning. ReAlign effectively inherits the generalization ability and semantic sensitivity capability of reasoning textual representations, while remaining efficient and lightweight for deployment. Moreover, ReAlign adopts a tailored joint optimization strategy that integrates contrastive loss for image-text alignment and classification loss for accurate forgery discrimination. Experimental results on AIGCDetectBenchmark, AIGI-Holmes, and our newly constructed UltraSynth-10k demonstrate that ReAlign consistently outperforms existing state-of-the-art detectors in both accuracy and generalization, particularly when facing complex, high-fidelity forgeries from modern generative models.
 
 ### [COLLATOR: Compositional Multi-Agent Orchestration with Counterfactual Reinforcement Learning](https://arxiv.org/abs/2605.14483v2)
 
@@ -734,15 +746,3 @@ Skills provide an effective mechanism for improving LLM agents on complex tasks,
 - **Links:** [Paper](https://arxiv.org/abs/2605.08401v3) · [PDF](https://arxiv.org/pdf/2605.08401v3)
 
 Recent advances in LLMs have demonstrated strong reasoning capabilities, largely stimulated by RLVR. However, the exploration of existing RLVR algorithms remains largely constrained by the knowledge and reasoning strategies already accessible to the policy model. Although recent methods introduce external expert demonstrations to broaden exploration, they typically rely on complete trajectory-level guidance, which can be sample-inefficient, information-sparse, and insufficiently adaptive to intermediate reasoning bottlenecks. Inspired by collaborative multi-agent systems, we propose AIPO, an enhanced reinforcement learning framework that improves LLM reasoning through active multi-agent interaction during exploration. Specifically, when encountering reasoning bottlenecks, AIPO enables the policy model to proactively consult three functional collaborative agents, namely the verify agent, knowledge agent, and reasoning agent, thereby obtaining fine-grained and state-dependent guidance during rollout. The resulting mixed-policy trajectories expose the policy to reasoning directions that may be difficult to discover through isolated on-policy exploration. To learn effectively from collaborator-provided tokens, we further introduce a corrected importance sampling coefficient together with a lower-bound clipping strategy to mitigate off-policy discrepancy and vanishing gradients. After training, the policy model reasons independently without relying on collaborative agents. Extensive experiments across mathematical, scientific, coding, and puzzle reasoning benchmarks show that AIPO consistently improves reasoning performance and generalizes across different policy models, collaborator backbones, and RLVR algorithms.
-
-### [Your Language Model is Its Own Critic: Reinforcement Learning with Value Estimation from Actor's Internal States](https://arxiv.org/abs/2605.07579v3)
-
-- **Authors:** Yunho Choi, Jongwon Lim, Woojin Ahn, Minjae Oh, Jeonghoon Shim, Yohan Jo
-- **Published:** 2026-05-08
-- **Priority:** 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
-- **Venue:** NeurIPS 2026
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2605.07579v3) · [PDF](https://arxiv.org/pdf/2605.07579v3)
-
-Reinforcement learning with verifiable rewards (RLVR) for Large Reasoning Models rests on variance reduction, which requires both a reliable baseline and high prompt diversity within each training batch. This is especially difficult in multi-domain training for general reasoning models, where prompts from different tasks induce highly diverse gradient signals. Existing approaches fall short in different ways: GRPO estimates its baseline as the group mean over rollouts from the same prompt, so an accurate baseline leaves fewer distinct prompts in the batch, while PPO avoids this trade-off by training a policy scale critic, roughly doubling the cost of training. We introduce POISE (Policy Optimization with Internal State Value Estimation), a reinforcement learning algorithm that turns the model's internal states into a value model. A lightweight probe reads the signals already computed during the forward pass to predict the baseline, and is trained online alongside the policy. To preserve gradient unbiasedness, we introduce a cross-rollout construction that predicts each rollout's value from an independent rollout's internal states. On Qwen3-4B and OLMo3-7B-Instruct-DPO across a six-domain verifiable-reward corpus, POISE outperforms other RLVR baselines while achieving more stable training. Moreover, the probe matches a separate LLM-scale value model, generalizes to various tasks, and remains accurate as the policy scales. By leveraging the model's internal representations, POISE enables stable policy optimization.

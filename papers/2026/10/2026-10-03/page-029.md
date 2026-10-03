@@ -1,11 +1,11 @@
-> **1473 papers** · Page 29/30 · Newest first across all pages
+> **1479 papers** · Page 29/30 · Newest first across all pages
 
 [1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:38:38.500711+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,12 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-01-22 | Agent Memory | [AgentSM: Semantic Memory for Agentic Text-to-SQL](https://arxiv.org/abs/2601.15709) | 📈 Highly cited |
+| 2026-01-21 | Agent Memory | [FAME: QoS-aware Async Service Orchestration for Agentic Workflows](https://arxiv.org/abs/2601.14735v3) | — |
+| 2026-01-20 | Agent Memory | [OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents](https://arxiv.org/abs/2601.13722) | 📈 Highly cited |
+| 2026-01-18 | Agent/LLM Self-Improvement | [A Survey of Agentic Reasoning for Large Language Models: Towards Recursively Self-Improving and Collective Agents](https://arxiv.org/abs/2601.12538v2) | 📈 Highly cited |
+| 2026-01-17 | Agent Memory | [LSTM-MAS: A Long Short-Term Memory Inspired Multi-Agent System for Long-Context Understanding](https://arxiv.org/abs/2601.11913) | — |
+| 2026-01-15 | LLM Continual Training | [SPRInG: Continual LLM Personalization via Selective Parametric Adaptation and Retrieval-Interpolated Generation](https://arxiv.org/abs/2601.09974v3) | — |
 | 2026-01-15 | Agent Memory | [Grounding Agent Memory in Contextual Intent](https://arxiv.org/abs/2601.10702) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-01-15 | Agent/LLM Self-Improvement, LLM Continual Training | [Towards AGI A Pragmatic Approach Towards Self Evolving Agent](https://arxiv.org/abs/2601.11658) | — |
 | 2026-01-15 | Agent Memory | [AI Agents Need Memory Control Over More Context](https://arxiv.org/abs/2601.11653) | — |
@@ -57,17 +63,14 @@
 | 2026-01-05 | Agent/LLM Self-Improvement | [Large Language Models are Shannon Lossy Compressors Not Solomonoff Induction Estimators: Self-improvement and Singularity Are Not Near Without Symbolic Model Synthesis](https://arxiv.org/abs/2601.05280v6) | — |
 | 2026-01-01 | Agent/LLM Self-Improvement | [ClinicalReTrial: Clinical Trial Redesign with Self-Evolving Agents](https://arxiv.org/abs/2601.00290v3) | — |
 | 2025-12-31 | LLM Continual Training | [When to Ponder: Adaptive Compute Allocation for Code Generation via Test-Time Training](https://arxiv.org/abs/2601.00894v2) | — |
-| 2025-12-10 | LLM Continual Training | [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3) | 📈 Highly cited |
-| 2025-12-09 | LLM Continual Training | [Prompt-Based Continual Compositional Zero-Shot Learning](https://arxiv.org/abs/2512.09172v3) | — |
-| 2025-12-05 | LLM Continual Training | [K2-V2: A 360-Open, Reasoning-Enhanced LLM](https://arxiv.org/abs/2512.06201v3) | — |
-| 2025-12-02 | Agent/LLM Self-Improvement | [Think, Then Look: Active Spatial Reasoning for House-Scale 3D Scene Understanding](https://arxiv.org/abs/2512.03284v2) | — |
-| 2025-11-27 | Agent/LLM Self-Improvement | [Co-Evolving Agents: Learning from Failures as Hard Negatives](https://arxiv.org/abs/2511.22254v5) | — |
-| 2025-11-24 | Reinforcement Learning | [SLMFix: Leveraging Small Language Models for Domain Specific Language Error Fixing with Reinforcement Learning](https://arxiv.org/abs/2511.19422v2) | — |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [AgentSM: Semantic Memory for Agentic Text-to-SQL](https://arxiv.org/abs/2601.15709) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents](https://arxiv.org/abs/2601.13722) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [A Survey of Agentic Reasoning for Large Language Models: Towards Recursively Self-Improving and Collective Agents](https://arxiv.org/abs/2601.12538v2) | 📈 Highly cited | Univeristy of Illinois Urbana Champaign, University of Illinois Urabna-Champaign, University of Illinois Urbana-Champaign |
 | [Grounding Agent Memory in Contextual Intent](https://arxiv.org/abs/2601.10702) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>Amazon |
 | [Chain-of-Memory: Lightweight Memory Construction with Dynamic Evolution for LLM Agents](https://arxiv.org/abs/2601.14287) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [MemRec: Collaborative Memory-Augmented Agentic Recommender System](https://arxiv.org/abs/2601.08816) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
@@ -90,9 +93,20 @@
 | [MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents](https://arxiv.org/abs/2601.03236) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [SYNAPSE: Empowering LLM Agents with Episodic-Semantic Memory via Spreading Activation](https://arxiv.org/abs/2601.02744) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [Agentic Memory Enhanced Recursive Reasoning for Root Cause Localization in Microservices](https://arxiv.org/abs/2601.02732) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
+
+### [A Survey of Agentic Reasoning for Large Language Models: Towards Recursively Self-Improving and Collective Agents](https://arxiv.org/abs/2601.12538v2)
+
+- **Authors:** Tianxin Wei, Ting-Wei Li, Zhining Liu, Xuying Ning, Ze Yang, Jiaru Zou, Zhichen Zeng, Ruizhong Qiu, Xiao Lin, Dongqi Fu, Zihao Li, Mengting Ai, Duo Zhou, Wenxuan Bao, Yunzhe Li, Gaotang Li, Cheng Qian, Yu Wang, Xiangru Tang, Yin Xiao, Liri Fang, Hui Liu, Xianfeng Tang, Yuji Zhang, Chi Wang, Jiaxuan You, Heng Ji, Hanghang Tong, Jingrui He
+- **Published:** 2026-01-18
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv
+- **Affiliations:** Univeristy of Illinois Urbana Champaign, University of Illinois Urabna-Champaign, University of Illinois Urbana-Champaign
+- **Categories:** cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2601.12538v2) · [PDF](https://arxiv.org/pdf/2601.12538v2)
+
+Reasoning is a fundamental cognitive process underlying inference, problem-solving, and decision-making. While large language models (LLMs) demonstrate strong reasoning capabilities in closed-world settings, they struggle in open-ended and dynamic environments. Agentic reasoning marks a paradigm shift by reframing LLMs as autonomous agents that plan, act, and learn through continual interaction. In this survey, we organize agentic reasoning along three complementary dimensions. First, we characterize environmental dynamics through three layers: foundational agentic reasoning, which establishes core single-agent capabilities including planning, tool use, and search in stable environments; self-evolving agentic reasoning, which studies how agents refine these capabilities through feedback, memory, and adaptation; and collective multi-agent reasoning, which extends intelligence to collaborative settings involving coordination, knowledge sharing, and shared goals. Across these layers, we distinguish in-context reasoning, which scales test-time interaction through structured orchestration, from post-training reasoning, which optimizes behaviors via reinforcement learning and supervised fine-tuning. We further review representative agentic reasoning frameworks across real-world applications and benchmarks, including science, robotics, healthcare, autonomous research, and mathematics. This survey synthesizes agentic reasoning methods into a unified roadmap bridging thought and action, and outlines open challenges and future directions, including personalization, long-horizon interaction, world modeling, scalable multi-agent training, and governance for real-world deployment.
 
 ### [Towards AGI A Pragmatic Approach Towards Self Evolving Agent](https://arxiv.org/abs/2601.11658)
 
@@ -190,31 +204,55 @@ We connect two questions in Algorithmic Information Theory (AIT), Machine Learni
 
 Clinical trials constitute a critical yet exceptionally challenging and costly stage of drug development (\$2.6B per drug), where protocols are encoded as complex natural language documents, motivating the use of AI systems beyond manual analysis. Existing AI methods accurately predict trial failure, but do not provide actionable remedies. To fill this gap, this paper proposes ClinicalReTrial, a multi-agent system that formulates clinical trial optimization as an iterative redesign problem on textual protocols. Our method integrates failure diagnosis, safety-aware modifications, and candidate evaluation in a closed-loop, reward-driven optimization framework. Serving the outcome prediction model as a simulation environment, ClinicalReTrial enables low-cost evaluation and dense reward signals for continuous self-improvement. We further propose a hierarchical memory that captures iteration-level feedback within trials and distills transferable redesign patterns across trials. Empirically, ClinicalReTrial turns 56.7% of failed protocols into predicted successes under the simulation environment, with a mean success probability gain of 7.4% at negligible cost (\$0.156 per trial). Extensive retrospective case studies further show that ClinicalReTrial recovers clinically meaningful modification patterns that align with real-world expert-driven protocol changes.
 
-### [Think, Then Look: Active Spatial Reasoning for House-Scale 3D Scene Understanding](https://arxiv.org/abs/2512.03284v2)
+## Agent Memory
 
-- **Authors:** Hongpei Zheng, Shijie Li, Lin Qian, Zhenghao Li, Qijun Yang, Yanran Li, Hujun Yin
-- **Published:** 2025-12-02
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2512.03284v2) · [PDF](https://arxiv.org/pdf/2512.03284v2)
+### [AgentSM: Semantic Memory for Agentic Text-to-SQL](https://arxiv.org/abs/2601.15709)
 
-Spatial reasoning in large-scale 3D environments remains challenging for current vision--language models, which are typically constrained to room-scale scenarios. We formalize Active House-Scale Spatial Reasoning (AHSR), a new paradigm in which a model reasons over a pre-built house-scale 3D map via virtual spatial tool invocations to answer spatial questions, without exhaustive scene-wide processing. To support AHSR research, we introduce H$^2$U3D (Holistic House Understanding in 3D), the first benchmark targeting house-scale 3D scene understanding, featuring environments with an average aggregate floor area of 250.8 m$^2$ and up to three floors, together with hierarchical coarse-to-fine visual representations. Building on H$^2$U3D, we propose SpatialReasoner, an AHSR framework trained via supervised fine-tuning with self-correction, followed by reinforcement learning with a task-aware adaptive exploration reward. SpatialReasoner achieves state-of-the-art performance on H$^2$U3D with 64.9% overall accuracy, outperforming strong baselines including GPT-5.4 and Gemini-3.5-Flash, and generalizes effectively to MT-HM3D and HM-EQA. These results demonstrate the clear advantage of active map-directed exploration over passive scene-wide processing in house-scale 3D understanding.
-
-### [Co-Evolving Agents: Learning from Failures as Hard Negatives](https://arxiv.org/abs/2511.22254v5)
-
-- **Authors:** Yeonsung Jung, Trilok Padhi, Sina Shaham, Dipika Khullar, Joonhyun Jeong, Ninareh Mehrabi, Eunho Yang
-- **Published:** 2025-11-27
-- **Priority:** —
-- **Venue:** arXiv
+- **Authors:** Biswal, Asim, Lei, Chuan, Qin, Xiao, Li, Aodong, Narayanaswamy, Balakrishnan, Kraska, Tim
+- **Published:** 2026-01-22
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2511.22254v5) · [PDF](https://arxiv.org/pdf/2511.22254v5)
+- **Links:** [Paper](https://arxiv.org/abs/2601.15709) · [PDF](https://arxiv.org/pdf/2601.15709)
 
-Self-evolving agents improve their performance on long-horizon tasks by learning from their own interactions with an environment. A common approach uses the resulting failed trajectories as negatives for preference training. However, collecting an agent's own failures does not ensure that they provide informative supervision for further improvement. Obvious failures may be easy to reject without learning to identify errors in more plausible attempts. These plausible but incorrect trajectories can serve as hard negatives, helping agents learn to distinguish successful behavior from failures with less obvious errors. To enable agents to generate and learn from such informative negatives, we propose a co-evolving framework that couples a target agent's self-improvement with a failure agent trained to generate hard negatives. The failure agent learns exclusively from both agents' failed trajectories to generate higher-reward failures, which the target agent uses as negatives for preference training. As the target policy improves, its failures provide new training data for the failure agent. The updated failure agent, in turn, provides new negatives for target training, allowing negative generation to adapt alongside the target policy. Across online shopping, scientific reasoning, and interactive SQL querying, our framework improves average task reward by 5.7 over the baseline. These results demonstrate the value of learning to generate and use informative failures for agent self-improvement. We will make our code publicly available.
+Recent advances in LLM-based Text-to-SQL have achieved remarkable gains on public benchmarks such as BIRD and Spider. Yet, these systems struggle to scale in realistic enterprise settings with large, complex schemas, diverse SQL dialects, and expensive multi-step reasoning. Emerging agentic approaches show potential for adaptive reasoning but often suffer from inefficiency and instability-repeating interactions with databases, producing inconsistent outputs, and occasionally failing to generate valid answers. To address these challenges, we introduce Agent Semantic Memory (AgentSM), an agentic framework for Text-to-SQL that builds and leverages interpretable semantic memory. Instead of relying on raw scratchpads or vector retrieval, AgentSM captures prior execution traces-or synthesizes curated ones-as structured programs that directly guide future reasoning. This design enables systematic reuse of reasoning paths, which allows agents to scale to larger schemas, more complex questions, and longer trajectories efficiently and reliably. Compared to state-of-the-art systems, AgentSM achieves higher efficiency by reducing average token usage and trajectory length by 25% and 35%, respectively, on the Spider 2.0 benchmark. It also improves execution accuracy, reaching a state-of-the-art accuracy of 44.8% on the Spider 2.0 Lite benchmark.
 
-## Agent Memory
+### [FAME: QoS-aware Async Service Orchestration for Agentic Workflows](https://arxiv.org/abs/2601.14735v3)
+
+- **Authors:** Haseeb Abdullah Kollorath, Vaibhav Jha, Varad Kulkarni, Vinay, Nikhil Reddy, Anand Eswaran, Praveen Jayachandran, Yogesh Simmhan
+- **Published:** 2026-01-21
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.DC
+- **Links:** [Paper](https://arxiv.org/abs/2601.14735v3) · [PDF](https://arxiv.org/pdf/2601.14735v3)
+
+Agentic workflows built on Large Language Models (LLMs) increasingly rely on external tools, with Model Context Protocol (MCP) services emerging as a common interface for tool discovery and invocation. These workflows are stateful, bursty and can block for minutes to hours while external tools execute. Always-on virtual machines and managed agent runtimes simplify deployment, but can over-provision capacity, bill idle wait time or encounter execution limits for long-running tool calls. We present FAME, a service-oriented middleware that optimizes MCP-enabled agentic workflows through modular service orchestration, explicit state management, MCP service input/output reduction and timeout-safe async invocation for long-running external services. FAME realizes these composite services using FaaS-based agent roles, persists workflow state through agent memory injection, and reduces MCP service overhead using S3 handle passing and tool-output caching. For long-running external MCP tools, FAME checkpoints agent and orchestrator state, suspends execution and resumes from callbacks without billing idle waits. Across 26 short-running service tasks over 10 MCP servers, FAME improves service-level QoS by reducing infrastructure cost by 8-12x relative to virtual machines and 43-106x relative to managed runtimes, while reducing latency by up to 17x, input tokens by up to 88% and total cost by up to 66%. On two long-running MLZero workloads from MLE-Bench, FAME completes all iterations while synchronous AWS Step Functions time out, and is 3.64-4.24x cheaper than AWS Durable Functions at the agent level and 2.67-8.23x cheaper at the orchestrator level.
+
+### [OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents](https://arxiv.org/abs/2601.13722)
+
+- **Authors:** Hu, Yulin, Long, Zimo, Guo, Jiahe, Sui, Xingyu, Fu, Xing, Zhao, Weixiang, Zhao, Yanyan, Qin, Bing
+- **Published:** 2026-01-20
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2601.13722) · [PDF](https://arxiv.org/pdf/2601.13722)
+
+Memory-augmented conversational agents enable personalized interactions using long-term user memory and have gained substantial traction. However, existing benchmarks primarily focus on whether agents can recall and apply user information, while overlooking whether such personalization is used appropriately. In fact, agents may overuse personal information, producing responses that feel forced, intrusive, or socially inappropriate to users. We refer to this issue as \emph{over-personalization}. In this work, we formalize over-personalization into three types: Irrelevance, Repetition, and Sycophancy, and introduce \textbf{OP-Bench} a benchmark of 1,700 verified instances constructed from long-horizon dialogue histories. Using \textbf{OP-Bench}, we evaluate multiple large language models and memory-augmentation methods, and find that over-personalization is widespread when memory is introduced. Further analysis reveals that agents tend to retrieve and over-attend to user memories even when unnecessary. To address this issue, we propose \textbf{Self-ReCheck}, a lightweight, model-agnostic memory filtering mechanism that mitigates over-personalization while preserving personalization performance. Our work takes an initial step toward more controllable and appropriate personalization in memory-augmented dialogue systems.
+
+### [LSTM-MAS: A Long Short-Term Memory Inspired Multi-Agent System for Long-Context Understanding](https://arxiv.org/abs/2601.11913)
+
+- **Authors:** Jiang, Yichen, Yuan, Jiakang, Tu, Chongjun, Ye, Peng, Chen, Tao
+- **Published:** 2026-01-17
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** Fudan University, University of North Carolina at Chapel Hill
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2601.11913) · [PDF](https://arxiv.org/pdf/2601.11913)
+
+Effectively processing long contexts remains a fundamental yet unsolved challenge for large language models (LLMs). Existing single-LLM-based methods primarily reduce the context window or optimize the attention mechanism, but they often encounter additional computational costs or constrained expanded context length. While multi-agent-based frameworks can mitigate these limitations, they remain susceptible to the accumulation of errors and the propagation of hallucinations. In this work, we draw inspiration from the Long Short-Term Memory (LSTM) architecture to design a Multi-Agent System called LSTM-MAS, emulating LSTM's hierarchical information flow and gated memory mechanisms for long-context understanding. Specifically, LSTM-MAS organizes agents in a chained architecture, where each node comprises a worker agent for segment-level comprehension, a filter agent for redundancy reduction, a judge agent for continuous error detection, and a manager agent for globally regulates information propagation and retention, analogous to LSTM and its input gate, forget gate, constant error carousel unit, and output gate. These novel designs enable controlled information transfer and selective long-term dependency modeling across textual segments, which can effectively avoid error accumulation and hallucination propagation. We conducted an extensive evaluation of our method. Compared with the previous best multi-agent approach, CoA, our model achieves improvements of 97.97%, 65.75%, 122.19%, 39.61% and 10.80% on Narrative QA, Qasper, HotpotQA, 2WikiMQA and MuSiQue, respectively.
 
 ### [Grounding Agent Memory in Contextual Intent](https://arxiv.org/abs/2601.10702)
 
@@ -638,6 +676,18 @@ As contemporary microservice systems become increasingly popular and complex-oft
 
 ## LLM Continual Training & Continual Learning
 
+### [SPRInG: Continual LLM Personalization via Selective Parametric Adaptation and Retrieval-Interpolated Generation](https://arxiv.org/abs/2601.09974v3)
+
+- **Authors:** Seoyeon Kim, Jaehyung Kim
+- **Published:** 2026-01-15
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2601.09974v3) · [PDF](https://arxiv.org/pdf/2601.09974v3)
+
+Personalizing Large Language Models typically relies on static retrieval or one-time adaptation, assuming user preferences remain invariant over time. However, real-world interactions are dynamic, where user interests continuously evolve, posing a challenge for models to adapt to preference drift without catastrophic forgetting. Standard continual learning approaches often struggle in this context, as they indiscriminately update on noisy interaction streams, failing to distinguish genuine preference shifts from transient contexts. To address this, we introduce SPRInG, a novel semi-parametric framework designed for effective continual personalization. During training, SPRInG employs drift-driven selective adaptation, which utilizes a likelihood-based scoring function to identify high-novelty interactions, selectively updating the user-specific adapter on drift signals while preserving hard-to-learn residuals in a replay buffer. During inference, we apply strict relevance gating and fuse parametric knowledge with retrieved history via probability interpolation. Experiments on the long-form personalized generation benchmark demonstrate that SPRInG significantly outperforms existing baselines, validating its robustness for real-world continual personalization.
+
 ### [Towards AGI A Pragmatic Approach Towards Self Evolving Agent](https://arxiv.org/abs/2601.11658)
 
 - **Authors:** Kar, Indrajit, Zonunpuia, Sammy, Ralte, Zonunfeli
@@ -697,53 +747,3 @@ Modelling a language model for a multi-lingual scenario includes several potenti
 - **Links:** [Paper](https://arxiv.org/abs/2601.00894v2) · [PDF](https://arxiv.org/pdf/2601.00894v2)
 
 Large language models apply uniform computation to all inputs, regardless of difficulty. We propose PonderTTT, a gating strategy using the TTT layer's self-supervised reconstruction loss to selectively trigger Test-Time Training (TTT) updates. The gating decision itself is training-free--requiring no learned classifier or auxiliary networks; only a single scalar threshold is initially calibrated on unlabeled data and continuously adapted via EMA to maintain target update rates. Our experiments with GPT-2 models (124M to 1.5B) on code language modeling (The Stack v2, teacher-forced perplexity) demonstrate that this signal is inference-compatible, requiring no ground-truth labels. Our Reconstruction Gating achieves 82-89% Oracle Recovery while being fully training-free, significantly outperforming Random Skip baselines (up to 16% lower loss on OOD languages).
-
-### [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3)
-
-- **Authors:** Heng Zhang, Rui Dai, Gokhan Solak, Pokuang Zhou, Nikos Tsagarakis, Yu She, Arash Ajoudani
-- **Published:** 2025-12-10
-- **Priority:** 📈 Highly cited
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2512.11908v3) · [PDF](https://arxiv.org/pdf/2512.11908v3)
-
-Contact-rich tasks pose significant challenges for robotic systems due to inherent uncertainty, complex dynamics, and the high risk of damage during interaction. Recent advances in learning-based control have shown great potential in enabling robots to acquire and generalize complex manipulation skills in such environments, but ensuring safety, both during exploration and execution, remains a critical bottleneck for reliable real-world deployment. This survey provides a comprehensive overview of safe learning-based methods for robot contact-rich tasks. We categorize existing approaches into two main domains: safe exploration and safe execution. We review key techniques, including constrained reinforcement learning, risk-sensitive optimization, uncertainty-aware modeling, control barrier functions, and model predictive safety shields, and highlight how these methods incorporate prior knowledge, task structure, and online adaptation to balance safety and efficiency. A particular emphasis of this survey is on how these safe learning principles extend to and interact with emerging robotic foundation models, especially vision-language models (VLMs) and vision-language-action models (VLAs), which unify perception, language, and control for contact-rich manipulation. We discuss both the new safety opportunities enabled by VLM/VLA-based methods, such as language-level specification of constraints and multimodal grounding of safety signals, and the amplified risks and evaluation challenges they introduce. Finally, we outline current limitations and promising future directions toward deploying reliable, safety-aligned, and foundation-model-enabled robots in complex contact-rich environments. More details and materials are available at our \href{ https://github.com/jack-sherman01/Awesome-Learning4Safe-Contact-rich-tasks}{Project GitHub Repository}.
-
-### [Prompt-Based Continual Compositional Zero-Shot Learning](https://arxiv.org/abs/2512.09172v3)
-
-- **Authors:** Sauda Maryam, Sara Nadeem, Faisal Qureshi, Mohsen Ali
-- **Published:** 2025-12-09
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.CV, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2512.09172v3) · [PDF](https://arxiv.org/pdf/2512.09172v3)
-
-We tackle continual adaptation of vision-language models to new attributes, objects, and their compositions in Compositional Zero-Shot Learning (CZSL), while preventing forgetting of prior knowledge. Unlike classical continual learning where classes are disjoint, CCZSL is more complex as attributes and objects may reoccur across sessions while compositions remain unique. Built on a frozen VLM backbone, we propose the first Prompt-based Continual Compositional Zero-Shot Learning (PromptCCZSL) framework that retains prior knowledge through recency-weighted multi-teacher distillation. It employs session-aware compositional prompts to fuse multimodal features for new compositions, while attribute and object prompts are learned through session-agnostic fusion to maintain global semantic consistency, which is further stabilized by a Cosine Anchor Loss (CAL) to preserve prior knowledge. To enhance adaptation in the current session, an Orthogonal Projection Loss (OPL) ensures that new attribute and object embeddings remain distinct from previous ones, preventing overlap, while an Intra-Session Diversity Loss (IDL) promotes variation among current-session embeddings for richer, more discriminative representations. We also introduce a comprehensive protocol that jointly measures catastrophic forgetting and compositional generalization. Extensive experiments on UT-Zappos and C-GQA benchmarks demonstrate that PromptCCZSL achieves substantial improvements over prior VLM-based and non-VLM baselines, setting a new benchmark for CCZSL in closed-world settings.
-
-### [K2-V2: A 360-Open, Reasoning-Enhanced LLM](https://arxiv.org/abs/2512.06201v3)
-
-- **Authors:** K2 Team, Zhengzhong Liu, Liping Tang, Linghao Jin, Haonan Li, Nikhil Ranjan, Desai Fan, Shaurya Rohatgi, Richard Fan, Omkar Pangarkar, Huijuan Wang, Zhoujun Cheng, Suqi Sun, Seungwook Han, Bowen Tan, Gurpreet Gosal, Xudong Han, Varad Pimpalkhute, Shibo Hao, Ming Shan Hee, Joel Hestness, Haolong Jia, Liqun Ma, Aaryamonvikram Singh, Daria Soboleva, Natalia Vassilieva, Renxi Wang, Yingquan Wu, Yuekai Sun, Taylor Killian, Alexander Moreno, John Maggs, Hector Ren, Guowei He, Hongyi Wang, Xuezhe Ma, Yuqi Wang, Mikhail Yurochkin, Eric P. Xing
-- **Published:** 2025-12-05
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** MBZUAI, Penn State University
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2512.06201v3) · [PDF](https://arxiv.org/pdf/2512.06201v3)
-
-We introduce K2-V2, a 360-open LLM built from scratch as a superior base for reasoning adaptation, in addition to functions such as conversation and knowledge retrieval from general LLMs. It stands as the strongest fully open model, rivals open-weight leaders in its size class, outperforms Qwen2.5-72B and approaches the performance of Qwen3-235B. We actively infuse domain knowledge, reasoning, long-context, and tool use throughout the training process. This explicitly prepares the model for complex reasoning tasks. We demonstrate this potential using simple supervised fine-tuning, establishing a strong baseline that indicates significant headroom for advanced alignment. By releasing the full training history and data composition, we maximize the effectiveness of continuous training, a key open source production scenario. We release the model weights and signature LLM360 artifacts, such as complete training data, to empower the community with a capable, reasoning-centric foundation.
-
-## Reinforcement Learning
-
-### [SLMFix: Leveraging Small Language Models for Domain Specific Language Error Fixing with Reinforcement Learning](https://arxiv.org/abs/2511.19422v2)
-
-- **Authors:** David Jiahao Fu, Aryan Gupta, Aaron Councilman, Yu-Xiong Wang, Vikram Adve
-- **Published:** 2025-11-24
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.SE, cs.AI, cs.PL
-- **Links:** [Paper](https://arxiv.org/abs/2511.19422v2) · [PDF](https://arxiv.org/pdf/2511.19422v2)
-
-Large language models (LLMs) have shown impressive capabilities in code generation across many programming languages but even state-of-the-art LLMs generate programs that contain syntactic errors and fail to complete the given tasks, especially for low-resource programming languages (LRPLs). In addition, the high cost of training makes finetuning LLMs unaffordable for those with constrained computational resources, further weakening the effectiveness of LLMs for code generation. In this work, we propose SLMFix, a novel code generation pipeline that leverages a small language model (SLM) finetuned using reinforcement learning (RL) techniques to fix syntactic errors in LLM-generated programs for domain-specific languages (DSLs) based on interpreter feedback. Our experimental results demonstrate the effectiveness and generalizability of our approach across multiple DSLs, improving the validator pass rates by 40% on LRPLs and eliminating more than 50% of syntactic errors for high-resource DSLs. Notably, SLMFix brings substantial performance improvement to the base model and outperforms supervised finetuning approach even for 7B models on LRPLs including Ansible and Lean, showing the potential of our approach in improving the quality of LLM-generated programs.

@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 425 unique papers · Agent/LLM Self-Improvement 182 · Memory 70 · Continual Training 71 · Reinforcement Learning 130
+> 428 unique papers · Agent/LLM Self-Improvement 182 · Memory 70 · Continual Training 72 · Reinforcement Learning 133
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -72,6 +72,7 @@
 | 2026-09-29 | LLM Continual Training | [ReCAP: Retrieval-Guided Capability Reuse for Multimodal Continual Instruction Tuning](https://arxiv.org/abs/2609.37889v1)<br>[PDF](https://arxiv.org/pdf/2609.37889v1) | arXiv | — | — |
 | 2026-09-29 | Agent/LLM Self-Improvement | [AgentBug-Smith: Automatically Reproducing Real-World Harness Bugs in Agentic Systems](https://arxiv.org/abs/2609.37864v1)<br>[PDF](https://arxiv.org/pdf/2609.37864v1) | arXiv | — | — |
 | 2026-09-29 | Agent/LLM Self-Improvement | [Mixture of Self-Improving Branches For Agent Harness Optimization](https://arxiv.org/abs/2609.37834v1)<br>[PDF](https://arxiv.org/pdf/2609.37834v1) | arXiv | — | — |
+| 2026-09-29 | LLM Continual Training<br>Reinforcement Learning | [Privy to the Foil: Recasting Value Estimation with a Self-Privileged Critic for RLVR](https://arxiv.org/abs/2609.37825v1)<br>[PDF](https://arxiv.org/pdf/2609.37825v1) | arXiv | — | — |
 | 2026-09-29 | Agent/LLM Self-Improvement | [RLTL;DR: Self-improvement by Internalizing Self-generated Feedback](https://arxiv.org/abs/2609.37633v1)<br>[PDF](https://arxiv.org/pdf/2609.37633v1) | arXiv | — | — |
 | 2026-09-29 | Reinforcement Learning | [The Weakest Link: Distilling LLM Reasoning with Worst-Case Constrained Reinforcement Learning](https://arxiv.org/abs/2610.00332v1)<br>[PDF](https://arxiv.org/pdf/2610.00332v1) | arXiv | — | — |
 | 2026-09-29 | Agent/LLM Self-Improvement | [RoboHarn-Evo: Evolving Hierarchical Physical Knowledge for Self-Improving Robotic Manipulation](https://arxiv.org/abs/2609.37583v2)<br>[PDF](https://arxiv.org/pdf/2609.37583v2) | arXiv | — | — |
@@ -102,7 +103,7 @@
 | 2026-09-29 | Agent/LLM Self-Improvement<br>LLM Continual Training | [Self-Evolving Defense: Continual Security Policy Learning for LLM Agents](https://arxiv.org/abs/2609.36603v1)<br>[PDF](https://arxiv.org/pdf/2609.36603v1) | arXiv | — | — |
 | 2026-09-29 | Agent Memory | [Simple Agentic Memory for Generalist Robot Policies](https://arxiv.org/abs/2609.36595v1)<br>[PDF](https://arxiv.org/pdf/2609.36595v1) | arXiv | — | — |
 | 2026-09-29 | Agent/LLM Self-Improvement<br>LLM Continual Training | [SafeCoEvo: Co-Evolving Safety Harnesses and Guards for LLM Agents at Test-Time](https://arxiv.org/abs/2609.36580v1)<br>[PDF](https://arxiv.org/pdf/2609.36580v1) | arXiv | — | — |
-| 2026-09-29 | Agent/LLM Self-Improvement<br>Reinforcement Learning | [MedForge-RSI: Medical Deepfake Detection via Recursive Self-Improvement](https://arxiv.org/abs/2609.36549v1)<br>[PDF](https://arxiv.org/pdf/2609.36549v1) | arXiv | — | — |
+| 2026-09-29 | Agent/LLM Self-Improvement<br>Reinforcement Learning | [MedForge-RSI: Medical Deepfake Detection via Recursive Self-Improvement](https://arxiv.org/abs/2609.36549v1)<br>[PDF](https://arxiv.org/pdf/2609.36549v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-29 | Reinforcement Learning | [BRIDGE: Bilevel Retrieval-Credit-Aware Agentic Reinforcement Learning](https://arxiv.org/abs/2609.36505v1)<br>[PDF](https://arxiv.org/pdf/2609.36505v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-28 | Agent/LLM Self-Improvement | [Reward-rate Policy Gradient for Efficient Machine Learning Engineering Agents](https://arxiv.org/abs/2609.36393v1)<br>[PDF](https://arxiv.org/pdf/2609.36393v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-28 | Agent Memory | [Audience-Bound Persistent Memory: Authorization Across the Memory Lifecycle](https://arxiv.org/abs/2609.36373v1)<br>[PDF](https://arxiv.org/pdf/2609.36373v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
@@ -192,7 +193,7 @@
 | 2026-09-27 | Agent Memory | [EfficientAgent: What Makes KV Cache Offloading Work for Concurrent Agents?](https://arxiv.org/abs/2609.33762v1)<br>[PDF](https://arxiv.org/pdf/2609.33762v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-27 | LLM Continual Training | [Reliable Replay through Spatial Coherence in Online Continual Learning](https://arxiv.org/abs/2609.33725v1)<br>[PDF](https://arxiv.org/pdf/2609.33725v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-27 | Agent/LLM Self-Improvement | [BIRD: Distilling Decision Boundaries into Rationales for MLLM Adaptation](https://arxiv.org/abs/2609.33713v1)<br>[PDF](https://arxiv.org/pdf/2609.33713v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
-| 2026-09-27 | Reinforcement Learning | [Climbing the Hill: Prompt Injection Red-Teaming Against Frontier Models with Curriculum Reinforcement Learning](https://arxiv.org/abs/2609.33628v2)<br>[PDF](https://arxiv.org/pdf/2609.33628v2) | arXiv | — | — |
+| 2026-09-27 | Reinforcement Learning | [Climbing the Hill: Prompt Injection Red-Teaming Against Frontier Models with Curriculum Reinforcement Learning](https://arxiv.org/abs/2609.33628v2)<br>[PDF](https://arxiv.org/pdf/2609.33628v2) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-27 | LLM Continual Training | [Learning Dynamics of Continual Learning: A Unified View of Data Attribution, Forgetting, and Plasticity Loss](https://arxiv.org/abs/2609.33620v1)<br>[PDF](https://arxiv.org/pdf/2609.33620v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-27 | Reinforcement Learning | [PoE-Fuse: Precision-Weighted Expert Fusion for Bi-Temporal Change Understanding](https://arxiv.org/abs/2609.37485v1)<br>[PDF](https://arxiv.org/pdf/2609.37485v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-27 | Reinforcement Learning | [TGRL: Temperature-Grouped Reinforcement Learning for Efficient Exploration in LLMs](https://arxiv.org/abs/2609.33589v1)<br>[PDF](https://arxiv.org/pdf/2609.33589v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
@@ -213,6 +214,7 @@
 | 2026-09-27 | Agent/LLM Self-Improvement | [KernelZero: Co-Evolving Proposer and Coder for Continuously Improved GPU Kernel Generation](https://arxiv.org/abs/2609.33074v1)<br>[PDF](https://arxiv.org/pdf/2609.33074v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-26 | Agent Memory | [The Epistemics of Agent Memory: Measuring, and Governing, the Consolidation Decision in Long-Horizon LLM Agents](https://arxiv.org/abs/2609.33013v1)<br>[PDF](https://arxiv.org/pdf/2609.33013v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-26 | Agent Memory | [Tessera: Demand-Driven KV Cache Management for Retrieval-Augmented LLM Serving](https://arxiv.org/abs/2609.32999v1)<br>[PDF](https://arxiv.org/pdf/2609.32999v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
+| 2026-09-26 | Reinforcement Learning | [X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization](https://arxiv.org/abs/2609.32993v1)<br>[PDF](https://arxiv.org/pdf/2609.32993v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-26 | Agent/LLM Self-Improvement | [Certified Long-Horizon Code Agent Evolution via Validation-Gated Skill Optimization](https://arxiv.org/abs/2609.32990v1)<br>[PDF](https://arxiv.org/pdf/2609.32990v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-26 | Agent/LLM Self-Improvement | [ReVision3D: Attribution-Guided Recursive Self-Improvement for 3D Medical Perception](https://arxiv.org/abs/2609.32984v1)<br>[PDF](https://arxiv.org/pdf/2609.32984v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-26 | Agent/LLM Self-Improvement | [StraTune: Adaptive Selection of Revision Operators for Self-Evolving LLM Skills](https://arxiv.org/abs/2609.32886v1)<br>[PDF](https://arxiv.org/pdf/2609.32886v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
@@ -318,6 +320,7 @@
 | 2026-09-21 | Agent Memory | [Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents](https://arxiv.org/abs/2609.23986v1)<br>[PDF](https://arxiv.org/pdf/2609.23986v1) | arXiv | — | Citations: 9 (Semantic Scholar) |
 | 2026-09-20 | LLM Continual Training | [Time-Incremental Continued Pretraining of LLMs: Knowledge Updates Without Catastrophic Forgetting](https://arxiv.org/abs/2609.23916v1)<br>[PDF](https://arxiv.org/pdf/2609.23916v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-20 | Reinforcement Learning | [Listen Then Reason: Perception-Grounded Test-Time Reinforcement Learning for Large Audio-Language Models](https://arxiv.org/abs/2609.23589v1)<br>[PDF](https://arxiv.org/pdf/2609.23589v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
+| 2026-09-20 | Reinforcement Learning | [When a Data Artifact Isn't a Shortcut: Causal Auditing of Synthetic RLVR Corpora](https://arxiv.org/abs/2610.00202v1)<br>[PDF](https://arxiv.org/pdf/2610.00202v1) | arXiv | — | — |
 | 2026-09-20 | Agent Memory | [PSD: Pseudo Self-Distillation of Memory Representation Capabilities for LLM Agents](https://arxiv.org/abs/2609.23449v1)<br>[PDF](https://arxiv.org/pdf/2609.23449v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-19 | Reinforcement Learning | [Euston: Training Away Mathematical Sycophancy Without Losing the Mathematics](https://arxiv.org/abs/2609.23205v1)<br>[PDF](https://arxiv.org/pdf/2609.23205v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-09-19 | Reinforcement Learning | [Towards Full Pipeline FP8 Reinforcement Learning for LLMs](https://arxiv.org/abs/2609.22870v1)<br>[PDF](https://arxiv.org/pdf/2609.22870v1) | arXiv | — | Citations: 0 (Semantic Scholar) |

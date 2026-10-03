@@ -1,11 +1,11 @@
-> **1473 papers** · Page 15/30 · Newest first across all pages
+> **1479 papers** · Page 15/30 · Newest first across all pages
 
 [1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:38:38.500711+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,11 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-08-03 | LLM Continual Training | [RING: Retrieval-Internalized Generation for Continual Large-Scale Knowledge Injection](https://arxiv.org/abs/2608.01630v1) | — |
+| 2026-08-03 | Agent Memory | [When Memory Updates but Behavior Does Not: Repairing Implicit Stale Dependencies in Personalized Agent Responses](https://arxiv.org/abs/2608.01619v1) | — |
+| 2026-08-03 | Agent Memory | [FedWorld: Scope-Aware Federation of Agent World Models](https://arxiv.org/abs/2608.01561v1) | — |
+| 2026-08-03 | Agent/LLM Self-Improvement | [Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories](https://arxiv.org/abs/2608.02276) | 📈 Highly cited |
+| 2026-08-02 | Agent Memory | [V-Mem: Modality-Routed Retrieval for Long-Term Multimodal Agentic Memory](https://arxiv.org/abs/2608.01543v1) | — |
 | 2026-08-02 | Agent/LLM Self-Improvement | [Asking Questions the Right Way: A Multi-Agent Conversational System for Prompt Formulation in Complex Task Resolution](https://arxiv.org/abs/2608.01366v2) | — |
 | 2026-08-02 | Agent Memory | [Stop When Memory Suffices: Evidence-Conditioned Progressive Execution for LLM Agents](https://arxiv.org/abs/2608.01285v1) | — |
 | 2026-08-02 | Agent/LLM Self-Improvement | [Learning What to Remember and What to Internalize in LLM Self-Evolution via Adaptive Memory-Parameter Coordination](https://arxiv.org/abs/2608.01234v1) | — |
@@ -58,19 +63,26 @@
 | 2026-07-29 | Agent Memory | [Voice Memory for Agentic Speech Recognition](https://arxiv.org/abs/2607.26410v1) | — |
 | 2026-07-29 | LLM Continual Training, Reinforcement Learning | [Post-Training at the Edge of Detectability: A Game-Theoretic Approach to Fine-Tuning](https://arxiv.org/abs/2607.26358v2) | — |
 | 2026-07-28 | Agent/LLM Self-Improvement | [Try Again, Don't Look Back: Blind Resampling Outperforms Self-Repair in Small Code Models](https://arxiv.org/abs/2607.26117v1) | — |
-| 2026-07-28 | Agent/LLM Self-Improvement | [GPT-Red: Automated Red Teaming via Self-Play at Scale](https://arxiv.org/abs/2607.26115v1) | — |
-| 2026-07-28 | Agent/LLM Self-Improvement | [RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement](https://arxiv.org/abs/2607.25886v1) | 📈 Highly cited |
-| 2026-07-28 | Agent/LLM Self-Improvement | [NISPO: Open-source IUPAC name generation tool](https://arxiv.org/abs/2607.26113v1) | — |
-| 2026-07-28 | Agent/LLM Self-Improvement | [Specula: Scaling formal specifications for autonomous model checking of system code](https://arxiv.org/abs/2607.25333v2) | — |
-| 2026-07-27 | LLM Continual Training | [The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation](https://arxiv.org/abs/2607.24720v1) | — |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
-| [RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement](https://arxiv.org/abs/2607.25886v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories](https://arxiv.org/abs/2608.02276) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
+
+### [Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories](https://arxiv.org/abs/2608.02276)
+
+- **Authors:** Shao, Shuai, Zhang, Kangning, Li, Qingyao, Wang, Shijian, Wang, Hao, Jiao, Wenxiang, Lu, Yuan, Guo, Yi, Liu, Weiwen, Zhang, Weinan
+- **Published:** 2026-08-03
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2608.02276) · [PDF](https://arxiv.org/pdf/2608.02276)
+
+Agents built around large language models continually accumulate interaction trajectories during deployment, yet their behavior typically remains fixed. Beyond updating model weights, these trajectories can improve the agent harness that constructs context, mediates tools, validates actions, and recovers execution. We introduce Harness-R1, the first method, to our knowledge, that makes failure-conditioned, lifecycle-wide editing of an existing executable runtime a learned capability. It post-trains a dedicated harness engineer with online reinforcement learning so that its edits are optimized for the realized task success they produce, rather than proposed by a fixed editor. A separate 9B engineer converts batches of target-agent failures into validated executable patches; fresh same-batch reruns of the frozen target provide outcome rewards, so training updates only the engineer. Cold-start supervised fine-tuning initializes this editing policy, which is then trained online with group-relative policy optimization. Across WebShop, ALFWorld, and DBBench, Harness-R1 raises vanilla Qwen3.5-9B success from 44.3% to 53.6% (+9.3 percentage points). After direct target-agent fine-tuning, a target-specific engineer raises the average further from 59.2% to 64.2% (+5.0 points); because these gains hold both before and after fine-tuning the target, Harness-R1 points toward co-evolving the harness engineer and the target agent.
 
 ### [Asking Questions the Right Way: A Multi-Agent Conversational System for Prompt Formulation in Complex Task Resolution](https://arxiv.org/abs/2608.01366v2)
 
@@ -360,55 +372,43 @@ The rapid development of large language models (LLMs) has renewed interest in ag
 
 Self-repair - returning a failed program to the model together with its test output and asking for a correction - is a standard component of code agents, and is almost always evaluated against a baseline that does not retry at all. We argue that this comparison confounds the value of the feedback with the value of the extra attempt. Using a placebo-controlled design on MBPP+ at three model scales (1.5B, 3B, 7B), we compare four matched-budget retry conditions: blind resampling, a content-free failure notice, genuine execution feedback, and feedback augmented with verbal self-reflection. Blind resampling is the strongest condition below 7B, and remains statistically tied with the best condition at 7B, while consuming 2.5-5.5x fewer tokens; conditioning on the model's own failed attempt costs 6.1 points at 1.5B (p=0.006), and the informational content of execution feedback adds nothing measurable over the placebo. We attribute this to anchoring: when shown its previous attempt, a model reproduces a near-identical program in 33-68% of retries, against 2-14% under blind resampling. Two further experiments delimit the effect. Retrieved solutions to other tasks change nothing (bounded to +/-3.5 points), which localizes the harm to self-conditioning rather than context length; and reflection, the only condition that measurably weakens the anchor, remains dominated on cost. Replication rules out two competing explanations: the penalty is unchanged at full precision, and it reproduces on an independent model family. Across six configurations spanning two families and two precisions, its magnitude is predicted by baseline quality alone (r=0.96) - the cost of anchoring is the cost of committing to a bad first attempt.
 
-### [GPT-Red: Automated Red Teaming via Self-Play at Scale](https://arxiv.org/abs/2607.26115v1)
-
-- **Authors:** Eric Wallace, Christopher A. Choquette-Choo, Nikhil Kandpal, Sam Toyer, Dylan Hunn, Stephanie Lin, Yuxin Wen, Xiangyu Qi, Christopher Wolff, Zizhao Wang, Milad Nasr, Sicheng Zhu, Chuan Guo, Juan Felipe Cerón Uribe, Kaiwen Wang, Aiden Low, Kai Xiao, Kai Chen
-- **Published:** 2026-07-28
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** Google DeepMind
-- **Categories:** cs.CR, cs.AI, cs.CL, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2607.26115v1) · [PDF](https://arxiv.org/pdf/2607.26115v1)
-
-We introduce \textbf{GPT-Red}, an automated red-teaming agent that is trained to discover novel prompt injection attacks against frontier LLMs. The goal of this model is to evaluate and improve the robustness of our production systems. To this end, we use it to adversarially train GPT-5.6, our most robust model to prompt injections to date. To create GPT-Red, we design a scalable self-play algorithm where the model is tasked with attacking a diverse population of simultaneously-trained defender agents. We train the model on realistic red-teaming environments using compute on the same scale as some of our largest RL post-training runs, making it the single-largest LLM safety training run ever documented. GPT-Red excels at red-teaming: it reliably breaks our past models up to GPT-5.5, it finds more successful attacks than human red-teamers, and it generalizes to held-out environments, defender models, and harnesses. In the future, we expect that as we improve the robustness of each new GPT model, it will in turn will provide better learning signal for \textit{even stronger} red-teamer agents, thus unlocking a self-improvement flywheel.
-
-### [RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement](https://arxiv.org/abs/2607.25886v1)
-
-- **Authors:** Fanqing Meng, Lingxiao Du, Qiguang Chen, Ziqi Zhao, Haocheng Lu, Mengkang Hu, Michael Qizhe Shieh
-- **Published:** 2026-07-28
-- **Priority:** 📈 Highly cited
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.SE, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2607.25886v1) · [PDF](https://arxiv.org/pdf/2607.25886v1)
-
-Recursive self-improvement requires turning evidence of model failures into better models. Data-centric post-training research entails diagnosing capability gaps, designing and validating training-data strategies, and learning from checkpoint feedback. Can LLM agents automate this loop? Existing benchmarks entangle research decisions with optimization, serving, evaluation, and systems implementation, obscuring agents' research capability. We introduce RSIBench-Data, a controlled benchmark of LLM agents as data-centric researchers with a fixed post-training stack. Agents iteratively revise training-data strategies for a fixed target model; training and serving use Tinker-backed services, official evaluation runs through Harbor and E2B sandboxes, and budgets are fixed across agents. We evaluate four frontier agents on six benchmarks across software engineering, terminal use, scientific question answering, and mathematics. Agents demonstrate core data-centric research capabilities: in 58.33\% of settings, they improve upon the first valid attempt by refining strategies from feedback. However, improvement is inconsistent. Among searches continuing after the best observed score, 78.26\% end with a lower-scoring final attempt, while the rest only recover the same peak. A strong candidate may therefore appear early or midway through a run even as later revisions fail. Trajectory analysis identifies four patterns in stronger runs: accurate hypotheses, validation-grounded supervision, behavior-aligned data, and preservation of strong checkpoints. These findings suggest that current agents can make useful data-centric discoveries but cannot yet translate feedback into consistent improvements. RSIBench-Data provides a measurable, auditable testbed for the research capabilities required for recursive self-improvement. We open-source our code at https://github.com/evolvent-ai/RSIBench-Data.
-
-### [NISPO: Open-source IUPAC name generation tool](https://arxiv.org/abs/2607.26113v1)
-
-- **Authors:** Nicholas T. Runcie, Fergus Imrie, Charlotte M. Deane
-- **Published:** 2026-07-28
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.SE
-- **Links:** [Paper](https://arxiv.org/abs/2607.26113v1) · [PDF](https://arxiv.org/pdf/2607.26113v1)
-
-Systematic International Union of Pure and Applied Chemistry (IUPAC) names are standard for communicating molecular structures in chemical literature, patents, and databases. We introduce NISPO, an open-source RDKit-based Python package for IUPAC name generation. NISPO was developed by an agentic self-improvement loop using OpenAI's Codex with the GPT-5.5 model. A generated name was considered correct if the open-source OPSIN tool parsed it back to the input structure. Guided by this objective, the agent implemented and refined NISPO against 2.68 million molecules from SureChEMBL, resulting in the tool achieving 98.1% round-trip accuracy on a held-out set of 103 million PubChem molecules. NISPO is freely available at https://github.com/oxpig/nispo.
-
-### [Specula: Scaling formal specifications for autonomous model checking of system code](https://arxiv.org/abs/2607.25333v2)
-
-- **Authors:** Qian Cheng, Saad Mohammad Rafid Pial, Ruize Tang, Yiming Su, Emilie Ma, Finn Hackett, Ivan Beschastnikh, Yu Huang, Tianyin Xu
-- **Published:** 2026-07-28
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.SE, cs.AI, cs.DC, cs.OS
-- **Links:** [Paper](https://arxiv.org/abs/2607.25333v2) · [PDF](https://arxiv.org/pdf/2607.25333v2)
-
-Specula is a push-button agentic system that generates high-quality formal specifications for large, complex system code and uses the specifications for highly effective model checking and bug finding. Specula employs large language model (LLM) based coding agents to autonomously develop TLA+ specifications, including invariants that describe correctness properties of the target system and formal models that describe the system implementation with the right level of abstractions. Specula is fully autonomous and thus eliminates the barrier of applying formal methods to real-world system code (as in traditional human-centric approaches). Meanwhile, Specula addresses limitations of LLM-driven techniques like reward hacking and hallucinations through self-evolving loops that iteratively improve specification quality by enabling the agents to deepen their understanding of system code and its behaviors. We have used Specula to check 48 open-source system projects; Specula found 249 bugs including many deep bugs that are hard to find by existing approaches. Specula has been used by several companies and is maintained at https://github.com/specula-org/Specula.
-
 ## Agent Memory
+
+### [When Memory Updates but Behavior Does Not: Repairing Implicit Stale Dependencies in Personalized Agent Responses](https://arxiv.org/abs/2608.01619v1)
+
+- **Authors:** Haofei Sun, Lin He
+- **Published:** 2026-08-03
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2608.01619v1) · [PDF](https://arxiv.org/pdf/2608.01619v1)
+
+Memory-augmented agents can know that a user's stored state is outdated and still plan around the old value. The STALE benchmark calls this the implicit policy adaptation (IPA) gap. We identify one structural contributor: draft-anchored verification checks what a response says, and in an open-ended response the stale dependency is usually unsaid. StateAuditor therefore audits in the opposite direction, from stored state to draft. An LLM proposes candidate old-to-new transitions from timestamped evidence; deterministic code pins each quotation to a single entry, checks that the new evidence really is newer, and lets only these verified transitions trigger repair. What is verified is provenance and chronology - not semantic supersession. On STALE's full protocol (400 scenarios, 50-session histories, one independent response per query), strict single-query VTA scores .736 against .686 for our locked predecessor under the same judge: a +5.0-point paired gain (95% CI [+2.9, +7.2]) coming almost entirely from IPA and premise resistance (PR). The benchmark's own judge, from a third model family, reproduces the gain (.738 vs. .680). On an independent cross-family preference-evolution benchmark (HorizonBench), the full draft-audit-repair pipeline over a gold-derived structured store raises current-preference accuracy (user-clustered p<.01), though a matched control shows most of this external gain is the draft-side audit itself; a harder authored lifecycle set gives no gain, bounding the claim while false invalidation stays controlled. On STALE, by contrast, a matched control (same evidence, adapter, and call budget) scores only .692 (+0.6 over the predecessor, n.s.), attributing the STALE gain to the transition machinery rather than added context or calls. We make no claim about general-purpose agent memory.
+
+### [FedWorld: Scope-Aware Federation of Agent World Models](https://arxiv.org/abs/2608.01561v1)
+
+- **Authors:** Yuchao Hou
+- **Published:** 2026-08-03
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.HC
+- **Links:** [Paper](https://arxiv.org/abs/2608.01561v1) · [PDF](https://arxiv.org/pdf/2608.01561v1)
+
+Large language model (LLM) agents learn world dynamics from local interaction experience to support subsequent planning and action selection. However, the experience available to a single client is often incomplete, which motivates sharing knowledge across clients. Existing federated methods mainly aggregate model parameters, while agent memory-sharing methods commonly pool trajectories, memories, or rules without checking whether they remain valid for each client. This assumption is problematic because the same abstract action may produce different effects under different policies, environments, or exception conditions. Consequently, a rule supported by most clients may overwrite correct knowledge held by a minority client. To address this problem, we propose FEDWORLD, a scope-aware federated world-model protocol that exchanges structured abstract transition rules. Each client converts private transitions into normalized rules, and the server aligns related rules to identify each rule supporting and contradicting evidence across clients. The resulting evidence determines whether a rule is shared, cluster-specific, private, or unresolved. Each target client retains its local rules and accepts federated updates only for uncovered cases whose inferred scope is compatible; ambiguous rules are withheld. Experiments on $τ$-bench and ALFWorld show that FEDWORLD reduces negative transfer under conflicting dynamics while retaining useful cross-client transfer, leading to fewer state regressions, repeated actions, and excess steps, as well as higher task success.
+
+### [V-Mem: Modality-Routed Retrieval for Long-Term Multimodal Agentic Memory](https://arxiv.org/abs/2608.01543v1)
+
+- **Authors:** Dingyi Kang, Dongming Jiang, Yi Li, Guanpeng Li, Bingzhe Li
+- **Published:** 2026-08-02
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL, cs.CV, cs.IR
+- **Links:** [Paper](https://arxiv.org/abs/2608.01543v1) · [PDF](https://arxiv.org/pdf/2608.01543v1)
+
+Interaction between users and LLM agents is increasingly multimodal: conversations interleave text with images, and a later question may target either. Yet most agent memories are designed around text, and even the few that support multimodal conversations still fail on vision-related questions. We trace this failure to an assumption behind the similarity search they rely on: in the index space, a query lies close to the relevant evidence that answers it. In multimodal settings, two gaps break it. By the modality gap, a query lies closer to memory content of its own modality than to evidence in another, even in a trained joint embedding space. By the similarity-relevance gap, the content most similar to a query is often not the evidence that answers it, most acutely when a query carries both text and image and its evidence resembles neither part alone. We present V-Mem, a multimodal agentic memory system that routes retrieval by the modality of the query and that of the target evidence, both recognized from the query alone. To cross the modality gap, V-Mem organizes the conversation into rounds and returns the target-modality content from the same round as the match, without comparing across modalities. To close the similarity-relevance gap, it searches with an LLM-generated anchor that sits closer to the relevant evidence than the query does: a hypothetical caption for a text-only query seeking an image, and an enriched search anchor, the query text plus relevant keywords extracted from the query image, when the evidence is reachable only by combining the two. On Mem-Gallery, V-Mem reaches an LLM-judge score of 0.82 versus 0.56 for the second best, with the largest margin on questions carrying an image (0.87, no baseline above 0.47); on LoCoMo it scores 0.69 versus 0.58.
 
 ### [Stop When Memory Suffices: Evidence-Conditioned Progressive Execution for LLM Agents](https://arxiv.org/abs/2608.01285v1)
 
@@ -592,6 +592,18 @@ We present Voice Memory, a inference-only scheme for agentic speech recognition:
 
 ## LLM Continual Training & Continual Learning
 
+### [RING: Retrieval-Internalized Generation for Continual Large-Scale Knowledge Injection](https://arxiv.org/abs/2608.01630v1)
+
+- **Authors:** Shicheng Xu, Liang Pang, Liyi Chen, Zihao Wei, Jingcheng Deng, Yan Gao, Yi Wu, Yao Hu, Huawei Shen, Xueqi Cheng
+- **Published:** 2026-08-03
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** Institute of Computing Technology, Chinese Academy of Sciences
+- **Categories:** cs.CL, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2608.01630v1) · [PDF](https://arxiv.org/pdf/2608.01630v1)
+
+Retrieval-augmented generation (RAG) improves factuality but adds latency and engineering overhead at serving time. We propose RING (Retrieval-Internalized Generation), a holistic paradigm spanning both architecture and training that injects large-scale external knowledge into a \textit{Mixture-of-Memory Experts} and learns parametric search over this internal memory via reinforcement learning, removing the external retriever entirely. Training proceeds in three stages: continued pre-training injects new corpora into a Knowledge Expert via our novel \textit{Dual Causal Attention}; supervised fine-tuning teaches a ``search-then-answer'' pattern; and reinforcement learning with hierarchical rewards optimizes the routing-and-search policy over the parametric memory. Unlike prior parametric injection methods that pair internal memory with a fixed or rule-based retriever, RING {learns} its retrieval policy directly from task signals. We further frame RING theoretically as a search-free approximation to the classical RAG objective. To evaluate large-scale injection of genuinely {new} knowledge without test-time leakage, we further construct News-2025, a benchmark built from news strictly post-dating the base LLM's pretraining cutoff. RING matches or surpasses both search-based RAG and parametric injection baselines in accuracy and efficiency.
+
 ### [Unleashing the Potential of Large Language Models: A Blueprint for Real-Time, Enterprise-Ready Deployments](https://arxiv.org/abs/2608.00419v1)
 
 - **Authors:** Muhammad Faizan Raza, Shuo, Yang, Satish Mahadevan Srinivasan, Joanna F. DeFranco
@@ -675,18 +687,6 @@ We introduce CMP (Cognitive Memory Primitive), a continual-learning architecture
 - **Links:** [Paper](https://arxiv.org/abs/2607.26358v2) · [PDF](https://arxiv.org/pdf/2607.26358v2)
 
 Reinforcement learning (RL) fine-tuning is widely used in language model training to improve performance on a target task while limiting drift from a reference policy. A standard way to balance this trade-off is via a KL-regularized RL objective, although this formulation does not by itself provide a principled way to set the regularization coefficient. In practice, the coefficient is typically chosen heuristically or via hyperparameter search, which can lead to unnecessary overhead in training cost or undesirable reward-retention trade-offs. We instead propose a game-theoretic framework that gives this trade-off an explicit statistical interpretation. Specifically, we study a sequential game in which an agent chooses a policy to maximize cumulative reward while a monitor observes policy outputs over time and tests for deviations from the reference policy. Although not originating from the same perspective, we show that the resulting equilibrium policy can nonetheless be expressed as the solution to a KL-regularized RL problem for an optimal regularization parameter that can be viewed as maximizing reward per unit of statistical distinguishability. Drawing on classical results from concave-convex fractional programming, we provide a principled method for learning this equilibrium coefficient via reduction to the KL-regularized RL objective, thus allowing for flexible integration into standard fine-tuning pipelines. In experiments with Qwen3-8B and Llama-3.2-1B, we show that our methods result in competitive reward-retention trade-offs in a continual learning setting, and illustrate how our framework may be used to audit API providers serving open-source models.
-
-### [The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation](https://arxiv.org/abs/2607.24720v1)
-
-- **Authors:** Tianyi Men, Zhuoran Jin, Kang Liu, Jun Zhao
-- **Published:** 2026-07-27
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.CL, cs.AI, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2607.24720v1) · [PDF](https://arxiv.org/pdf/2607.24720v1)
-
-Multi-turn long-horizon planning is critical for foundation model agents, yet how to fundamentally improve it remains unclear. Existing models are trained on uncontrollable and opaque Internet data, making it difficult to identify how planning ability is acquired, shaped, and integrated. To address this challenge, we introduce a unified and controlled multi-turn environment that enables precise control. It allows systematically study long-horizon planning across three stages. (1) Planning ability acquisition during pre-training. We study data format, distribution, and quality. Explicit world model construction through CoT state transition modeling yields stronger long-horizon generalization. Atomic skills alone are insufficient for compositional generalization, whereas a litte long-horizon data works. Moreover, suboptimal trajectories severely impair performance because errors amplify over long horizons. (2) Planning ability shaping via GRPO and OPD post-training. Through mutual information, we distinguish general planning patterns from task-specific planning knowledge. For planning patterns, we identify three application regions of post-training: unnecessary, effective, and unsupported. OPD has a broader effective region than GRPO under low-quality and long-horizon settings, as it provides more consistent update directions. For planning knowledge, distilling unseen procedures from a teacher with different knowledge may impair student's prior world modeling without fully establishing new knowledge. (3) Planning ability integration through MOPD post-training. We show that multi-teacher on-policy distillation (MOPD) integrates capabilities by converging to shared planning-pattern across environments. Compatible patterns enable cross-environment generalization, partially shared patterns support continual learning, while completely conflicting patterns cause severe interference.
 
 ## Reinforcement Learning
 

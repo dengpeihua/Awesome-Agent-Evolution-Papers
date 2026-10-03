@@ -1,11 +1,11 @@
-> **1473 papers** · Page 17/30 · Newest first across all pages
+> **1479 papers** · Page 17/30 · Newest first across all pages
 
 [1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:38:38.500711+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,11 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-07-13 | Agent Memory | [Heterogeneous Agent Cohorts for Safe Open-Ended Exploration with Runtime Constraint Memory](https://arxiv.org/abs/2607.11226) | — |
+| 2026-07-12 | Reinforcement Learning | [SETA: Scaling Environments for Terminal Agents](https://arxiv.org/abs/2607.10891v2) | — |
+| 2026-07-12 | Agent/LLM Self-Improvement | [Agents Don't Just Agree, They Remember: Benchmarking Persistent Sycophancy in Self-Improving Personal Agents](https://arxiv.org/abs/2607.10526v4) | — |
+| 2026-07-12 | Agent Memory | [The Compliance Trap: Diagnosing How AI Agents Consume Conflicting Memory](https://arxiv.org/abs/2607.10608) | — |
+| 2026-07-12 | Agent Memory | [MemDecay: Region-Aware KV Cache Eviction for Efficient LLM Agent Inference](https://arxiv.org/abs/2607.10582) | — |
 | 2026-07-11 | LLM Continual Training | [CHASE: Cache-Hole-Adapted Skip Exit for Looped State-Space Language Models](https://arxiv.org/abs/2607.10110v2) | — |
 | 2026-07-11 | Agent/LLM Self-Improvement, Agent Memory, LLM Continual Training | [ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory](https://arxiv.org/abs/2607.10350) | — |
 | 2026-07-10 | Agent Memory | [Shared Selective Persistent Memory for Agentic LLM Systems](https://arxiv.org/abs/2607.09493v2) | — |
@@ -58,11 +63,6 @@
 | 2026-06-30 | Agent Memory | [What Memory Do GUI Agents Really Need? From Passive Records to Active Task-Driving States](https://arxiv.org/abs/2606.31612) | — |
 | 2026-06-30 | Agent Memory | [When Not to Write Memory: Governing False Promotion from Correlated Agent Traces](https://arxiv.org/abs/2607.02579) | 🏆 CCF-A: 2026 6th International Conference on Machine Learning and Intelligent Systems Engineering (MLISE)<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-06-30 | Agent Memory | [From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents](https://arxiv.org/abs/2607.00233) | — |
-| 2026-06-29 | Agent/LLM Self-Improvement | [AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance](https://arxiv.org/abs/2606.30949v2) | — |
-| 2026-06-29 | Agent/LLM Self-Improvement | [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2) | — |
-| 2026-06-29 | Agent Memory | [Retrieval Observability Bounds on Provenance Detection for Agent Memory Poisoning: Measured Coverage and a Falsified Standalone Detector](https://arxiv.org/abs/2606.30566v3) | — |
-| 2026-06-29 | Agent/LLM Self-Improvement | [ManimAgent: Self-Evolving Multimodal Agents for Visual Education](https://arxiv.org/abs/2606.30296) | — |
-| 2026-06-29 | Agent Memory | [DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation](https://arxiv.org/abs/2606.29961) | — |
 
 ## 🚨 Priority Watch
 
@@ -73,6 +73,18 @@
 | [When Not to Write Memory: Governing False Promotion from Correlated Agent Traces](https://arxiv.org/abs/2607.02579) | 🏆 CCF-A: 2026 6th International Conference on Machine Learning and Intelligent Systems Engineering (MLISE)<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: 2026 6th International Conference on Machine Learning and Intelligent Systems Engineering (MLISE) |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
+
+### [Agents Don't Just Agree, They Remember: Benchmarking Persistent Sycophancy in Self-Improving Personal Agents](https://arxiv.org/abs/2607.10526v4)
+
+- **Authors:** Xutao Mao, Liangjie Zhao, Leyao Wang, Rui Qian, Qiang Huang, Wentao Wang, Bo Han, Xiang Zheng, Cong Wang
+- **Published:** 2026-07-12
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** City University of Hong Kong
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.10526v4) · [PDF](https://arxiv.org/pdf/2607.10526v4)
+
+Self-improving personal agents now write profiles, memories, and reusable skills that carry over from one chat to the next. Prior work asks whether user pressure bends a model's next answer. Yet these agents can also write the user's claim down, so a later chat may read it back as trusted context. We call this persistent sycophancy. We introduce the Personal Agent Sycophancy Benchmark, PASB, with 1,600 tasks run on two real agents, Hermes-Agent and OpenClaw, across twelve models. Each task isolates a first chat containing the claim from a neutral follow-up chat, so any carryover must pass through a note the agent chose to write. Our analysis shows that downstream failure, meaning how often later answers side with the claim, reason from it, treat it as fact, or stretch it, reaches 71.9% when the follow-up chat can read a saved claim, against 45.0% when the claim stays in the first chat. Writing also edits the claim, as agents save it as a stable preference, a background fact, or a reusable procedure in 51.4% of runs. A saved claim still shapes answers in a different domain. Among the mitigations we test, explicit memory editing helps most, cutting downstream failure to 32.7% for Hermes-Agent and 54.5% for OpenClaw on same-domain follow-ups. PASB shows that self-improving agents must govern what they write down before it governs what they say. Our benchmark is available at https://github.com/henrymao2004/agent-sycophancy.
 
 ### [ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory](https://arxiv.org/abs/2607.10350)
 
@@ -182,43 +194,43 @@ Leveraging multiple Large Language Models (LLMs) has proven effective for addres
 
 Large Language Models often struggle with complex, multi-step operational tasks because they remain static during inference and cannot learn from past experience. To address this, we propose MUSE, a framework that enables iterative self-improvement through a hierarchical Memory Module. MUSE organizes cross-domain insights to facilitate the orchestration of long-horizon workflows. The core of our approach is an autonomous post-execution critique mechanism: after completing each sub-task, the system analyzes its operational logs and distills raw execution data into structured, reusable knowledge. This allows the agent to evolve dynamically rather than relying on fixed parameters. Evaluated on the rigorous TAC productivity benchmark, MUSE achieves new state-of-the-art results, significantly outperforming previous methods using only the streamlined Gemini-2.5 Flash model. Our analysis demonstrates that MUSE’s performance scales with the accumulation of insights and exhibits strong cross-task transferability, marking a key step toward autonomous systems capable of lifelong learning in professional environments. Demo videos can be found in our supplementary materials.
 
-### [AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance](https://arxiv.org/abs/2606.30949v2)
+## Agent Memory
 
-- **Authors:** Yang Zou, Zijian Ding, Yizhou Sun, Jason Cong
-- **Published:** 2026-06-29
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI, cs.AR
-- **Links:** [Paper](https://arxiv.org/abs/2606.30949v2) · [PDF](https://arxiv.org/pdf/2606.30949v2)
+### [Heterogeneous Agent Cohorts for Safe Open-Ended Exploration with Runtime Constraint Memory](https://arxiv.org/abs/2607.11226)
 
-High-Level Synthesis (HLS) provides a fast path from concepts to silicon, but converting real-world software into synthesizable HLS code remains challenging due to restrictive language support and the gap between software and hardware programming practices. Existing automated and LLM-based refactoring approaches partially address this problem, yet they often lack flexibility, struggle to scale, and incur high computational costs. We introduce AgRefactor, an LLM-based multi-agent workflow for refactoring software into HLS-compatible programs. AgRefactor incorporates a self-evolving memory system that accumulates and retrieves factual and strategic knowledge across tasks, improving robustness and efficiency on unseen programs. To reduce cost and enhance scalability, it integrates automated refactoring tools, enabling agents to balance LLM-driven rewrites with efficient tool-based transformations. On 9 out of 11 challenging real-world benchmarks, which are 5-10x longer than the most complex cases studied in prior work, AgRefactor outperforms or matches the state-of-the-art automated refactoring tool and a strong LLM-based baseline built on the same framework backbone. Further agentic performance optimization yields a 6.51x geometric mean speedup over the SoTA pragma tuning tool and a 1.20x speedup over optimized open-source designs with less than 20% extra resources. AgRefactor is fully-automated and open-sourced.
-
-### [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2)
-
-- **Authors:** Xuan Zhang, Wenxuan Zhang, See-Kiong Ng, Yang Deng
-- **Published:** 2026-06-29
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2606.30639v2) · [PDF](https://arxiv.org/pdf/2606.30639v2)
-
-World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world model framework that revises its deployment-time context while keeping the downstream agent and all model parameters frozen. WorldEvolver integrates three modules: (i) Episodic Memory, which exploits real action transitions through retrieval-based simulation; (ii) Semantic Memory, which extracts persistent heuristic rules from prediction-observation mismatches; and (iii) Selective Foresight, which filters low-confidence predictions before integrating them into agent reasoning context. We evaluate WorldEvolver on ALFWorld and ScienceWorld, measuring world model prediction accuracy on Word2World and downstream agent success rate on AgentBoard. Extensive experiments show that WorldEvolver achieves the highest prediction accuracy across three backbones and leads other world model baselines on downstream agent success rate, demonstrating that test-time memory revision enhances both predictive fidelity and planning performance.
-
-### [ManimAgent: Self-Evolving Multimodal Agents for Visual Education](https://arxiv.org/abs/2606.30296)
-
-- **Authors:** Jiang, Wenjia, Cai, Zongyuan, Shao, Yuanhang, Wang, Chenru, Han, Boyan, Song, Zhixue, Chen, Keyu, An, Shengwei, Yang, Xu, Yang, Zhou
-- **Published:** 2026-06-29
+- **Authors:** Liu, Tengjiao
+- **Published:** 2026-07-13
 - **Priority:** —
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2606.30296) · [PDF](https://arxiv.org/pdf/2606.30296) · [Code](https://github.com/jwj1342/Paper2Manim)
+- **Links:** [Paper](https://arxiv.org/abs/2607.11226) · [PDF](https://arxiv.org/pdf/2607.11226)
 
-Multi-round reflection lets agents built on large language models recover from failures within a single task, but each task remains an isolated episode: lessons learned across many reflection rounds on one task are discarded before the next begins. We study this gap on a code-generation task: from a scientific paper section, the agent writes Python in the open-source Manim library to render a mathematical animation. We present ManimAgent, a self-evolving multimodal agent that carries reflection experience across tasks through a dual-channel Episodic Memory Bank grown entirely from its own task stream, with no weight updates and no human seeds. After each animation converges, a vision-language model scores the rendered keyframes; the resulting signals populate a positive channel M+ that stores success rationales as soft Reference Examples, and a negative channel M- that stores validated failure patterns as hard Known Pitfalls. On a fixed-probe evaluation against no-memory, matched-budget retrieval-augmented generation, and shuffled-memory baselines, blind human Pass@1 rises and reflection rounds fall as memory size grows. We will release the code, frozen memory snapshots, and the task stream.
+LLM agents today are caught in an awkward bind. Lock them down with static safety instructions and they rarely venture beyond the obvious; give them free reign with tools and multi-agent debate, and safety violations quickly follow. Rather than forcing a single model to juggle both creativity and caution, we separate the concerns across specialized roles. A Disrupter generates unconventional proposals, a Validator enforces hard runtime checks at the tool gateway, and a Broker pulls in distant but relevant analogies. Failures are not discarded -- they are compiled, via MCTS, into compact, signed constraint patches we call Scars. These patches are cached locally and inherited by future cohorts, turning repeated failures into reusable, low-cost runtime constraints. In a spatial-semantic sandbox (N=20 runs, p<0.01), our cohort reaches remote targets where debate fails, the Validator prevents all executed breaches, and Scars reduce token consumption by 15.1% by avoiding redundant validator checks. Furthermore, credit-based Communication Allocation Scores (CAS) restrict outbound bandwidth, reducing overall token costs by 55.9% under resource constraints.
 
-## Agent Memory
+### [The Compliance Trap: Diagnosing How AI Agents Consume Conflicting Memory](https://arxiv.org/abs/2607.10608)
+
+- **Authors:** Chen, Yixiong, Bai, Xinyi, Yuille, Alan
+- **Published:** 2026-07-12
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.10608) · [PDF](https://arxiv.org/pdf/2607.10608)
+
+Memory is becoming a core component of long-horizon AI agents, allowing agents to reuse past experience when operating web browsers, software tools, and other interactive environments. Existing work mostly treats memory as a supply problem, asking what experience to write, how to store it, and which entry to retrieve for the next task. Yet we still lack a clear account of how models consume retrieved memory across a multi-step action trajectory. This consumption process matters because it determines not only what memories should be retrieved, but also what models and control policies are needed to use them safely. To diagnose this process, we propose Entry--Propagation--Recovery (E-P-R), a trajectory-level framework that asks where memory first changes an action, whether that change carries forward, and whether the agent can recover after leaving a correct path. We instantiate E-P-R on WebArena and on MemTrapBench, a controlled benchmark we build to isolate these phases. We find that the main failure often begins at entry: agents adopt conflicting memory at the first exposed decision point even when it is task-wrong. Repeated exposure then amplifies this early error, while recovery after divergence is weak. Together, these effects create a compliance trap: across models, conflicting memory induces similar compliance rates, but once agents comply, their success rates collapse to a low floor. Stronger agents therefore suffer larger absolute damage because each compliance event erases more baseline capability. These results suggest that memory-augmented agents should be evaluated not only by retrieval quality or final success rate, but by how they consume memory throughout the trajectory.
+
+### [MemDecay: Region-Aware KV Cache Eviction for Efficient LLM Agent Inference](https://arxiv.org/abs/2607.10582)
+
+- **Authors:** Matam, Venkatesha, Kim, Keon
+- **Published:** 2026-07-12
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2607.10582) · [PDF](https://arxiv.org/pdf/2607.10582)
+
+Large language model (LLM) agents accumulate heterogeneous context, including system instructions, plans, user turns, retrieved documents, tool outputs, and intermediate reasoning, whose key-value (KV) cache can become a major memory bottleneck. Existing eviction policies generally apply the same attention- or recency-based rule to every token, ignoring semantic structure already available to the agent orchestrator. We introduce MemDecay, a training-free, region-aware KV-cache eviction policy. MemDecay assigns tokens region-specific base priorities and decay rates, refreshes retention scores when tokens receive attention, and evicts the lowest-scoring pages under a fixed cache budget while allowing critical regions to be pinned. We also provide a procedure for calibrating decay rates from measured attention lifetimes. We evaluate MemDecay at approximately 450 and 1,700 token contexts using Qwen2.5-1.5B and 3B. Across all settings, attention lifetimes differ by an order of magnitude across regions: system-token half-lives range from 148 to 189 decoding steps, compared with 14 to 16 for scratchpad tokens. Pinning preserves system-region facts at full-cache accuracy in every setting, while no baseline preserves more than 13 of 24. Region-aware retention remains effective as context grows, whereas recency-based retention collapses. Accumulated-attention retention performs better on unpinned content, however, and ablations identify attention-score normalization as the main limitation of the current formulation. These results establish semantic prompt structure as a robust signal for KV-cache management while clarifying how it should be combined with attention-based importance.
 
 ### [ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory](https://arxiv.org/abs/2607.10350)
 
@@ -616,30 +628,6 @@ Long-lived language agents increasingly write reusable memories from their own e
 
 How do two agents invent a shared language from scratch? In a Lewis signaling game, a sender and receiver must coordinate on a code using only their interaction history. We study five memory architectures across varying channel configurations with LLM agents and find that memory architecture matters more than channel capacity. Agents with a persistent private notebook benefit from surplus channel capacity and avoid the high-capacity collapse seen in stateless agents, achieving the most reliable coordination ($0.867 \pm 0.023$ at capacity = 25). Stateless agents peak at moderate capacity and then degrade as the vocabulary grows beyond what a rolling context window can track The notebook externalizes learned conventions, freeing agents from having to re-derive codes each round. An information bottleneck-inspired argument predicts an optimal capacity equal to the number of objects. Instead, the bottleneck (capacity = 8) proves to be a fragility point, and surplus capacity is generally better. We show that channel capacity alone cannot predict coordination; memory architecture determines whether agents turn interaction history into stable conventions, and both dimensions are needed to understand how signals become language.
 
-### [Retrieval Observability Bounds on Provenance Detection for Agent Memory Poisoning: Measured Coverage and a Falsified Standalone Detector](https://arxiv.org/abs/2606.30566v3)
-
-- **Authors:** Jun Wen Leong
-- **Published:** 2026-06-29
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.CR, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2606.30566v3) · [PDF](https://arxiv.org/pdf/2606.30566v3)
-
-Whether a trajectory-based detector can observe the retrieval provenance of an agent memory-poisoning attack is governed by one architectural variable: retrieval observability, whether the agent's memory access produces a logged tool call. We formalise this as a framework-agnostic retrieval-to-action provenance graph, classify published attack families by their position relative to it, measure the resulting coverage property against collected agent traces, and then falsify the detector's standalone deployment, reversing our own earlier recommendation to use the signature as a pre-filter ahead of recipient-metadata gating. Under exclusive tool-mediated payload access a retrieval-before-exfiltration event is structurally forced. Across eight non-overlapping zero-event control cells we observe 0 violations in 289 eligible successes over 87 scenario configurations. The invariant is empirically unbroken, but on the clustering unit no registered cell certifies the preregistered <=0.10 upper bound (per-cell bounds 0.10-0.35); a post-hoc pool of two control arms nominally clears it but is not credited. When the scaffold delivers the payload implicitly the signature disappears; we had read this as agents declining an available retrieval, but a follow-up shows it tracks store content instead, and that behavioural reading is withdrawn. The detector is then falsified for standalone use. Benign memory-grounded sends are trajectory-isomorphic: false-positive rate 24.7-57.6% on a 13-model factorial (N=4,160), positive predictive value <=3.85% at 1% attack prevalence, and a recipient-metadata gate flags 129/129 legitimate external emails. Retrieval-before-send is an attack precondition, not a maliciousness predicate; its cross-validated AUC also reflects membership of a 22-vector feature codebook, not generalisation. Companion to arXiv:2605.08442; we release the corpus and scoring code.
-
-### [DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation](https://arxiv.org/abs/2606.29961)
-
-- **Authors:** Hosseini, Peyman, Bohdal, Ondrej, Alajrami, Ahmed, Maracani, Andrea, Castro, Ignacio, Purver, Matthew, Ozay, Mete, Ozkan, Savas, Ceritli, Taha
-- **Published:** 2026-06-29
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** The University of Sheffield
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2606.29961) · [PDF](https://arxiv.org/pdf/2606.29961)
-
-Large Language Model (LLM)-based agents can solve complex procedural tasks by interacting with environments over multiple turns, but this ability typically depends on large models, long contexts, and repeated inference calls. This makes advanced memory-augmented agents difficult to deploy on resource-constrained devices. We introduce DuoMem, a dual-space distillation framework that transfers procedural problem-solving ability from a large teacher model to compact student models. DuoMem distils in two complementary spaces: (1)context-space distillation, which replaces student-generated memories with higher-quality teacher-generated procedural memories prepended to the student's input, and (2)parameter-space distillation, which fine-tunes lightweight LoRA adapters on successful teacher trajectories. Evaluated on ALFWorld, a challenging embodied decision-making benchmark, DuoMem boosts a 4B-parameter model from 4.3% to 77.9% task success rate, closing most of the gap to a 72B teacher model (87.1%), while adding fewer than 10M trainable parameters and only a few megabytes of pre-computed teacher memories. Moreover, the DuoMem-enhanced 4B model completes tasks over 3x faster than the 72B teacher in wall-clock time, making it viable for real-time edge deployment, which would be challenging for the teacher.Extensive ablations across eight models spanning 2B-72B parameters reveal that both distillation axes contribute complementary
-
 ## LLM Continual Training & Continual Learning
 
 ### [CHASE: Cache-Hole-Adapted Skip Exit for Looped State-Space Language Models](https://arxiv.org/abs/2607.10110v2)
@@ -739,6 +727,18 @@ Vision Language Models (VLMs) have demonstrated remarkable capabilities in multi
 Large Language Models often struggle with complex, multi-step operational tasks because they remain static during inference and cannot learn from past experience. To address this, we propose MUSE, a framework that enables iterative self-improvement through a hierarchical Memory Module. MUSE organizes cross-domain insights to facilitate the orchestration of long-horizon workflows. The core of our approach is an autonomous post-execution critique mechanism: after completing each sub-task, the system analyzes its operational logs and distills raw execution data into structured, reusable knowledge. This allows the agent to evolve dynamically rather than relying on fixed parameters. Evaluated on the rigorous TAC productivity benchmark, MUSE achieves new state-of-the-art results, significantly outperforming previous methods using only the streamlined Gemini-2.5 Flash model. Our analysis demonstrates that MUSE’s performance scales with the accumulation of insights and exhibits strong cross-task transferability, marking a key step toward autonomous systems capable of lifelong learning in professional environments. Demo videos can be found in our supplementary materials.
 
 ## Reinforcement Learning
+
+### [SETA: Scaling Environments for Terminal Agents](https://arxiv.org/abs/2607.10891v2)
+
+- **Authors:** Qijia Shen, Zhiqi Huang, Vamsidhar Kamanuru, Aznaur Aliev, Jay Rainton, Ahmed Awelkair, Zhichen Zeng, Jiajun Li, Shi Dong, Yueming Yuan, Boyuan Ma, Qizheng Zhang, Jiwei Fu, Yuzhen Mao, Wendong Fan, Ping Nie, Philip Torr, Bernard Ghanem, Changran Hu, Jonathan Lingjie Li, Urmish Thakker, Guohao Li
+- **Published:** 2026-07-12
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.10891v2) · [PDF](https://arxiv.org/pdf/2607.10891v2)
+
+Large language models (LLMs) are rapidly shifting toward agents that solve tasks through diverse interfaces, including web and graphical user interfaces (GUIs). Among these, the terminal command line provides a text-based, general-purpose interface, covering tasks from system operations to data science and machine learning. However, scaling terminal-agent training remains challenging, as it requires diverse and coherent task instructions, executable environments, and reliable verification, while lacking naturally grounded supervision data. In this work, we propose SETA, a scalable framework for generating verifiable terminal environments for reinforcement learning (RL). The framework consists of two pipelines sharing a unified verification mechanism: SETA-Synth converts diverse sources into standardized RL environments, and SETA-Evol further expands from existing environments with adaptive control of difficulty and diversity. Together, we construct and release SETA-Env, the largest open-source verifiable terminal RL dataset to date, containing over 4,500 environments. We evaluate our dataset by training Qwen3-8B with GRPO on SETA-Env, achieving 12% pass rate on Terminal-Bench 2.0, the best reported result for an RL-trained model at the 8B scale. We further observe gains on DeepSeek-V4-Flash under the same terminal agent harness, with pass@1 on Terminal-Bench 2.0 improving from 40% to 43% and pass@5 improving from 54% to 58%. These results demonstrate that SETA- Env provides high-quality training environments for terminal agents and serves as a valuable resource for advancing research on terminal-based agent learning.
 
 ### [How LLM Task-Adaptation Reshapes Alignment: A Multi-dimensional Study of Behavioral and Representational Drift](https://arxiv.org/abs/2607.22676v2)
 

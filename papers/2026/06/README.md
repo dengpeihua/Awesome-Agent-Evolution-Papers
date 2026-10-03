@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 138 unique papers · Agent/LLM Self-Improvement 36 · Memory 85 · Continual Training 14 · Reinforcement Learning 17
+> 139 unique papers · Agent/LLM Self-Improvement 36 · Memory 85 · Continual Training 14 · Reinforcement Learning 18
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -13,6 +13,7 @@
 | 2026-06-29 | Agent/LLM Self-Improvement | [AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance](https://arxiv.org/abs/2606.30949v2)<br>[PDF](https://arxiv.org/pdf/2606.30949v2) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
 | 2026-06-29 | Agent/LLM Self-Improvement | [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2)<br>[PDF](https://arxiv.org/pdf/2606.30639v2) | arXiv.org | — | Citations: 4 (Semantic Scholar) |
 | 2026-06-29 | Agent Memory | [Retrieval Observability Bounds on Provenance Detection for Agent Memory Poisoning: Measured Coverage and a Falsified Standalone Detector](https://arxiv.org/abs/2606.30566v3)<br>[PDF](https://arxiv.org/pdf/2606.30566v3) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
+| 2026-06-29 | Reinforcement Learning | [Are We Measuring Strategy or Phrasing? The Gap Between Surface- and Approach-Level Diversity in LLM Math Reasoning](https://arxiv.org/abs/2606.29985v2)<br>[PDF](https://arxiv.org/pdf/2606.29985v2) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
 | 2026-06-29 | Agent/LLM Self-Improvement | [ManimAgent: Self-Evolving Multimodal Agents for Visual Education](https://arxiv.org/abs/2606.30296)<br>[PDF](https://arxiv.org/pdf/2606.30296) | arXiv.org | — | [GitHub ★ 6](https://github.com/jwj1342/Paper2Manim)<br>Citations: 1 (Semantic Scholar) |
 | 2026-06-29 | Agent Memory | [DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation](https://arxiv.org/abs/2606.29961)<br>[PDF](https://arxiv.org/pdf/2606.29961) | arXiv.org | — | Citations: 1 (Semantic Scholar) |
 | 2026-06-29 | Agent Memory | [MemDelta: Controlled Baselines and Hidden Confounds in Agent Memory Evaluation](https://arxiv.org/abs/2606.29914)<br>[PDF](https://arxiv.org/pdf/2606.29914) | arXiv.org | — | Citations: 3 (Semantic Scholar) |

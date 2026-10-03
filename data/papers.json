@@ -482,6 +482,48 @@
     "acceptance_first_seen": ""
   },
   {
+    "arxiv_id": "2610.01821",
+    "title": "Beyond Linear Concepts: Discovering and Aligning Non-Linear Concept Manifolds in Large Language Models",
+    "abstract": "Understanding information processing in large language models (LLMs) requires dissecting the geometric organization of their internal token representations. While existing mechanistic interpretability (MI) methods seek to extract concepts, they are constrained by a strong linearity assumption challenged by evidence of non-linear feature manifolds. We move beyond linear concepts by adapting Non-Linear Multi-Dimensional Concept Discovery (NLMCD) from computer vision to token-level LLM activations, modeling concepts as low-dimensional manifolds. To compare concept manifolds across layers and models, we introduce a concept-based alignment (CBA) score, a generalized Rand index that measures geometric proximity without explicit feature matching. Our analysis yields six key findings: (i) a neighboring-layer sanity check shows CBA is more sensitive than PCA- or CKA-based linear baselines; (ii) layer-by-layer alignment matrices reveal two block structures in intermediate and late layers, consistent across models and obscured by linear metrics; (iii) concept composition remains syntax-dominated through most of the network before giving way to increasingly mixed syntactic-semantic concepts in later layers, with increasing output-orientation toward the final layers; (iv) multilingual concept sharing between English and Mandarin is training-dependent rather than universal, strongest in Qwen, weaker in Llama, and absent in GPT-2; (v) inter-model alignment mirrors this structure, with strong correspondence between same-family Qwen models of different scale but weak alignment across model families; and (vi) across Tulu-3 training stages, alignment is highest between adjacent stages, with the largest shift between the base model and SFT, while subsequent preference-alignment stages (DPO, RLVR) leave early layers largely unchanged and RLVR mostly preserves DPO's concepts in late layers.",
+    "authors": [
+      "Tido Specht",
+      "Elias Benedict Krey",
+      "Nils Neukirch",
+      "Nils Strodthoff"
+    ],
+    "published": "2026-10-01T14:55:03+00:00",
+    "updated": "2026-10-01T14:55:03+00:00",
+    "url": "https://arxiv.org/abs/2610.01821v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.01821v1",
+    "primary_category": "cs.LG",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "doi": "",
+    "comment": "24 pages, 13 figures. Code: https://anonymous.4open.science/r/NLMCD-NLP-C5E7",
+    "journal_ref": "",
+    "venue": "",
+    "venue_tier": "",
+    "venue_source": "",
+    "acceptance_evidence": "",
+    "github_url": "",
+    "github_stars": null,
+    "citation_count": null,
+    "citation_source": "",
+    "affiliations": [],
+    "first_author_affiliations": [],
+    "industry_affiliations": [],
+    "industry_first_author_affiliations": [],
+    "affiliation_source": "",
+    "highlight_reasons": [],
+    "verified_at": "",
+    "acceptance_first_seen": ""
+  },
+  {
     "arxiv_id": "2610.01800",
     "title": "LineupRL: Verifiable Reinforcement Learning for Time Series Captioning via Caption-to-Series Identification",
     "abstract": "Time series captioning is a fundamental step in time series understanding and can also serve as the bridge between signal and natural language. Supervised fine-tuning (SFT) relies on a larger model's captions and cannot exceed their quality. Reinforcement learning (RL) can, but its rewards were designed for other modalities and other tasks, and they transfer poorly to open-ended generation in the time series domain. We address this by proposing LineupRL, a reinforcement learning with verifiable rewards (RLVR) pipeline whose reward is caption-to-series identification. The reward model is a frozen large language model (LLM) verifier that reads the generated caption and the candidate time series as raw values, never the chart, and must pick the described time series from multiple distractors. Matching is a far lighter demand on the verifier than writing questions or judging a caption, so an off-the-shelf LLM can supply the reward. Across two captioning benchmarks, and on forecasting and reconstruction where the predictor sees only the caption, LineupRL outperforms SFT and RL baselines on every metric. The 3B vision language model (VLM) trained by LineupRL also outperforms, at 1/24 of the parameters, the 72B VLM whose captions the SFT baseline is distilled from. Our case study shows that LineupRL resists reward hacking, and that the captioner it trains both traces the trend and names the values at key points.",
@@ -798,6 +840,46 @@
     "updated": "2026-10-01T10:53:23+00:00",
     "url": "https://arxiv.org/abs/2610.01458v1",
     "pdf_url": "https://arxiv.org/pdf/2610.01458v1",
+    "primary_category": "cs.AI",
+    "categories": [
+      "cs.AI"
+    ],
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "doi": "",
+    "comment": "",
+    "journal_ref": "",
+    "venue": "",
+    "venue_tier": "",
+    "venue_source": "",
+    "acceptance_evidence": "",
+    "github_url": "",
+    "github_stars": null,
+    "citation_count": null,
+    "citation_source": "",
+    "affiliations": [],
+    "first_author_affiliations": [],
+    "industry_affiliations": [],
+    "industry_first_author_affiliations": [],
+    "affiliation_source": "",
+    "highlight_reasons": [],
+    "verified_at": "",
+    "acceptance_first_seen": ""
+  },
+  {
+    "arxiv_id": "2610.01236",
+    "title": "Learning to Ask: Information Acquisition for SLM-LLM Collaboration, under a budget",
+    "abstract": "Collaboration between a small language model (SLM) and a large language model (LLM) offers an opportunity to combine the efficiency of smaller models with the strong reasoning capabilities of larger ones. Existing approaches primarily frame such collaboration as a computation allocation problem, determining which model should handle each portion of the reasoning process. In black-box API-based settings, however, this paradigm can be inefficient due to coarse-grained delegation or repeated transmission of context across model switches. In this work, we instead formulate SLM-LLM collaboration as an information acquisition problem, under an API budget constraint. The SLM remains the primary reasoner and selectively queries a black-box LLM advisor only when needed, issuing targeted queries rather than delegating the reasoning process itself. To realize this strategy, we develop a three-stage RLVR framework that learns whether to call the advisor, how to formulate useful queries, and how to integrate the collaboration into the reasoning process by jointly refining advisor invocation and information use. Across mathematical reasoning and coding tasks, our approach improves the performance--cost tradeoff over existing collaboration baselines and, in some settings, matches or exceeds oracle problem-level routing. Finally, we show that our strategy can transfer to other advisor model families, without further training.",
+    "authors": [
+      "Yongjun Kim",
+      "Xiaoxiao Li",
+      "Jaeho Lee"
+    ],
+    "published": "2026-10-01T07:36:26+00:00",
+    "updated": "2026-10-01T07:36:26+00:00",
+    "url": "https://arxiv.org/abs/2610.01236v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.01236v1",
     "primary_category": "cs.AI",
     "categories": [
       "cs.AI"
@@ -4170,6 +4252,53 @@
     "acceptance_first_seen": ""
   },
   {
+    "arxiv_id": "2609.37825",
+    "title": "Privy to the Foil: Recasting Value Estimation with a Self-Privileged Critic for RLVR",
+    "abstract": "Assigning credit to intermediate steps remains a central challenge in training Large Language Models (LLMs) on multi-step reasoning tasks with sparse terminal rewards, and actor-critic methods such as PPO address this by learning value functions to construct token-level advantages. Their effectiveness, however, hinges on reliable value estimation, a difficult task requiring the critic to both assess progress toward a correct solution and anticipate an evolving policy's future behavior; errors in either can compromise credit assignment and destabilize online training. In this paper, we revisit the standard state-only formulation of value estimation and propose $π$PPO, a self-privileged actor-critic framework. By reusing verified same-prompt rollouts as contrastive evidence, $π$PPO helps the critic assess intermediate reasoning against successful and failed attempts, while preserving standard policy optimization and the deployment interface. Experiments show that $π$PPO consistently improves value-estimation quality by a substantial margin and outperforms representative actor-critic and critic-free RLVR baselines on challenging mathematical reasoning benchmarks, while remaining effective even when paired with substantially smaller asymmetric critics.",
+    "authors": [
+      "Kun Liang",
+      "Chenming Tang",
+      "Clive Bai",
+      "Weijie Liu",
+      "Zeyuan Liu",
+      "Qingyang Zhang",
+      "Saiyong Yang",
+      "Yunfang Wu"
+    ],
+    "published": "2026-09-29T15:32:21+00:00",
+    "updated": "2026-09-29T15:32:21+00:00",
+    "url": "https://arxiv.org/abs/2609.37825v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37825v1",
+    "primary_category": "cs.LG",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "topics": [
+      "llm-continual-training",
+      "reinforcement-learning"
+    ],
+    "doi": "",
+    "comment": "",
+    "journal_ref": "",
+    "venue": "",
+    "venue_tier": "",
+    "venue_source": "",
+    "acceptance_evidence": "",
+    "github_url": "",
+    "github_stars": null,
+    "citation_count": null,
+    "citation_source": "",
+    "affiliations": [],
+    "first_author_affiliations": [],
+    "industry_affiliations": [],
+    "industry_first_author_affiliations": [],
+    "affiliation_source": "",
+    "highlight_reasons": [],
+    "verified_at": "",
+    "acceptance_first_seen": ""
+  },
+  {
     "arxiv_id": "2609.37633",
     "title": "RLTL;DR: Self-improvement by Internalizing Self-generated Feedback",
     "abstract": "The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize towards the successful ones. This becomes problematic in the realms of self-improvement, where tasks are so difficult that the agent has a low or even no chance of success, and where there are no teacher models or example solutions to distill from. In this paper, we introduce RLTL;DR. After each failed attempt, we show the policy the verifier outputs and let it write its own feedback, in the form of a single TL;DR insight. The next rollout is conditioned on all previous insights, and we sequentially sample rollouts until a solution is found. Moreover, we enable backpropagation on the in-context insights to internalize a direct task to insight mapping. On challenging tool-calling and coding datasets (filtered to Pass@128=0), standard GRPO training of a Qwen 3.5 9B Thinking policy stays flat at a Pass@1 of 0% to 1%. RLTL;DR breaks through this learning barrier, achieving a Pass@1 of 14-31% with insights in context during training and, crucially, 12-13% when no insight is in context at eval time. We identify that the key is the task to insight internalization. To study this further, we reduce our approach to SFTL;DR, training only on (task, insight) tuples, without showing or backpropagating on any rollouts. Training on only 4k of these tuples recovers almost the full performance of RLTL;DR and classical SFT on full rollouts. This demonstrates a promising compacted training paradigm of the form \"on this sort of task, keep this sort of thing in mind\", which we hope to inspire future research on.",
@@ -5518,8 +5647,8 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 0,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -9614,8 +9743,8 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 0,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -10526,6 +10655,52 @@
     "industry_affiliations": [],
     "industry_first_author_affiliations": [],
     "affiliation_source": "",
+    "highlight_reasons": [],
+    "verified_at": "",
+    "acceptance_first_seen": ""
+  },
+  {
+    "arxiv_id": "2609.32993",
+    "title": "X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization",
+    "abstract": "Multi-step agents are trained on flat action streams: SFT and RLVR weight every token uniformly and ignore the sub-procedures that recur across tasks, the hierarchy that lets humans plan top-down from reusable routines. This structure sits unused, and flat training uses each scarce trajectory less fully than its content allows. Recent agents do use that structure, but only as LLM-written skills in context, never in the weights, so their gains do not generalize beyond retrieval. We instead recover this hierarchy from the data itself and train on it, with no LLM calls. Following text tokenizers, which build a vocabulary by counting alone, we score action spans by reusability and merge canonicalized actions into a reusable eXperience tree (X-Tree). Each X-Tree node captures how a frequent and success-bearing skill is composed from sub-skills, guiding efficient generalization. We integrate X-Tree into three training settings: offline RL, with each node as a training instance; online RLVR, with an adaptive skill bonus; and on-policy self-distillation, with X-Tree as the self-teacher's privileged context. Across WebArena, ScienceWorld, and WebShop at three model scales, X-Tree improves over standard recipes at matched data and budget by up to 4.5% SR on WebArena, 5.8% SR on ScienceWorld and 4.1% success on WebShop. Matched analyses attribute the gains to the X-Tree structure and the three integrations.",
+    "authors": [
+      "Sitao Cheng",
+      "Xunjian Yin",
+      "Zhiyuan Sun",
+      "Yuxuan Li",
+      "Ruiwen Zhou",
+      "Xiangru Jian",
+      "Victor Zhong"
+    ],
+    "published": "2026-09-26T22:41:20+00:00",
+    "updated": "2026-09-26T22:41:20+00:00",
+    "url": "https://arxiv.org/abs/2609.32993v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.32993v1",
+    "primary_category": "cs.AI",
+    "categories": [
+      "cs.AI"
+    ],
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "doi": "",
+    "comment": "Project in Progress. Homepage: https://sitaocheng.github.io/xtree/. Code: https://github.com/sitaocheng/X-Tree/",
+    "journal_ref": "",
+    "venue": "",
+    "venue_tier": "",
+    "venue_source": "",
+    "acceptance_evidence": "",
+    "github_url": "",
+    "github_stars": null,
+    "citation_count": 0,
+    "citation_source": "Semantic Scholar",
+    "affiliations": [
+      "National University of Singapore"
+    ],
+    "first_author_affiliations": [],
+    "industry_affiliations": [],
+    "industry_first_author_affiliations": [],
+    "affiliation_source": "Semantic Scholar author profiles",
     "highlight_reasons": [],
     "verified_at": "",
     "acceptance_first_seen": ""
@@ -15306,6 +15481,45 @@
     "github_stars": null,
     "citation_count": 0,
     "citation_source": "Semantic Scholar",
+    "affiliations": [],
+    "first_author_affiliations": [],
+    "industry_affiliations": [],
+    "industry_first_author_affiliations": [],
+    "affiliation_source": "",
+    "highlight_reasons": [],
+    "verified_at": "",
+    "acceptance_first_seen": ""
+  },
+  {
+    "arxiv_id": "2610.00202",
+    "title": "When a Data Artifact Isn't a Shortcut: Causal Auditing of Synthetic RLVR Corpora",
+    "abstract": "Several recent pipelines build RLVR training data by masking a span of real corpus text and asking a language model to invent plausible wrong answers around it. The correct option is therefore genuine human prose; every distractor is synthetic. Correctness and provenance become entangled, and a policy could in principle learn the second instead of the first. We audit that possibility in GooseReason-0.7M. First we ask whether the asymmetry is visible at all: a classifier reading only five surface statistics (never the meaning) reaches AUROC 0.562 over 315,499 options, barely above chance. The aggregate hides something, though. Code sits at 0.416, below chance, and manual inspection explains why: code distractors turn out to be single-operator mutations of the gold answer rather than freely written alternatives, so the two classes are nearly identical by construction. Detecting a signal is not the same as showing a model uses it, so we then run an intervention. We build a paraphrase-matched control corpus, hold training-set size identical across arms, and train two policies under one fixed budget. The exploitation gap does not favour the unmodified-data arm: 0.021 against 0.027 for the control. Under our budget, in other words, a detectable artifact went unexploited. We think that dissociation, along with the domain-specific construction finding, is worth knowing for anyone curating corpora of this kind, and we release the audit as a mostly CPU-only protocol.",
+    "authors": [
+      "Esther Xin"
+    ],
+    "published": "2026-09-20T11:31:26+00:00",
+    "updated": "2026-09-20T11:31:26+00:00",
+    "url": "https://arxiv.org/abs/2610.00202v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.00202v1",
+    "primary_category": "cs.CL",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "doi": "",
+    "comment": "9 pages, 2 figures,4 tables;Code and data https://github.com/ethxin0011/rlvr_authenticity_audit",
+    "journal_ref": "",
+    "venue": "",
+    "venue_tier": "",
+    "venue_source": "",
+    "acceptance_evidence": "",
+    "github_url": "",
+    "github_stars": null,
+    "citation_count": null,
+    "citation_source": "",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -39213,6 +39427,51 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "2026-08-12",
+    "acceptance_first_seen": ""
+  },
+  {
+    "arxiv_id": "2606.29985",
+    "title": "Are We Measuring Strategy or Phrasing? The Gap Between Surface- and Approach-Level Diversity in LLM Math Reasoning",
+    "abstract": "Diversity in LLM mathematical reasoning is critical for exploration, but common diversity metrics mostly capture surface-level variation rather than differences in how a problem is solved. We address this gap by introducing approach-level diversity: variation in strategies across correct solutions to the same problem. Using a human-calibrated LLM judge framework, we show that prior diversity measures are unreliable proxies for approach-level diversity, and this mismatch carries over to diversity-aware RLVR, where target metrics are preserved while approach-level diversity declines. Investigating when approach-level diversity helps and whether it can be directly induced, we find that approach-diverse candidate sets improve test-time scaling. However, optimizing an LLM judge diversity reward during training causes the policy to exploit judge-specific preferences rather than broaden its approaches, leaving direct optimization of approach-level diversity as an open problem. Together, our work introduces the notion of approach-level diversity and uncovers a systematic divergence between surface- and approach-level signals, marking a step toward LLMs that reason in genuinely diverse, human-like ways.",
+    "authors": [
+      "Sangmook Lee",
+      "Minbeom Kim",
+      "Jeonghye Kim",
+      "Dohyung Kim",
+      "Sojeong Rhee",
+      "Kyomin Jung"
+    ],
+    "published": "2026-06-29T08:59:22+00:00",
+    "updated": "2026-09-29T02:02:15+00:00",
+    "url": "https://arxiv.org/abs/2606.29985v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.29985v2",
+    "primary_category": "cs.CL",
+    "categories": [
+      "cs.CL"
+    ],
+    "topics": [
+      "reinforcement-learning"
+    ],
+    "doi": "",
+    "comment": "Accepted to EMNLP 2026 and ICML 2026 Ai4Math Workshop (Honorable Mention). Code at https://github.com/helmsman12/LLM_reasoning_diversity",
+    "journal_ref": "",
+    "venue": "arXiv.org",
+    "venue_tier": "",
+    "venue_source": "Semantic Scholar publication metadata",
+    "acceptance_evidence": "",
+    "github_url": "",
+    "github_stars": null,
+    "citation_count": 2,
+    "citation_source": "Semantic Scholar",
+    "affiliations": [
+      "Seoul National University"
+    ],
+    "first_author_affiliations": [],
+    "industry_affiliations": [],
+    "industry_first_author_affiliations": [],
+    "affiliation_source": "Semantic Scholar author profiles",
+    "highlight_reasons": [],
+    "verified_at": "",
     "acceptance_first_seen": ""
   },
   {

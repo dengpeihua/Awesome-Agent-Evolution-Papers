@@ -1,11 +1,11 @@
-> **1473 papers** · Page 28/30 · Newest first across all pages
+> **1479 papers** · Page 28/30 · Newest first across all pages
 
 [1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md)
 
 # Daily Papers · 2026-10-03
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
-> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T04:25:42.456689+08:00**.
+> Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:38:38.500711+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -13,6 +13,12 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-02-05 | Agent Memory | [Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory](https://arxiv.org/abs/2602.06025) | 📈 Highly cited |
+| 2026-02-05 | Agent Memory, LLM Continual Training | [AriadneMem: Threading the Maze of Lifelong Memory for LLM Agents](https://arxiv.org/abs/2603.03290) | — |
+| 2026-02-05 | Agent/LLM Self-Improvement, Agent Memory | [UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents](https://arxiv.org/abs/2602.05832) | 📈 Highly cited |
+| 2026-02-05 | Agent Memory | [AI Agent Systems for Supply Chains: Structured Decision Prompts and Memory Retrieval](https://arxiv.org/abs/2602.05524) | — |
+| 2026-02-04 | LLM Continual Training | [Modular Expert Merging for Biomedical Retrieval](https://arxiv.org/abs/2602.04731v3) | — |
+| 2026-02-04 | Reinforcement Learning | [QUATRO: Query-Adaptive Trust Region Policy Optimization for LLM Fine-tuning](https://arxiv.org/abs/2602.04620v3) | — |
 | 2026-02-04 | Agent Memory | [ActMem: Bridging the Gap Between Memory Retrieval and Reasoning in LLM Agents](https://arxiv.org/abs/2603.00026) | — |
 | 2026-02-04 | Agent/LLM Self-Improvement | [Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing](https://arxiv.org/abs/2602.04837) | 📈 Highly cited |
 | 2026-02-04 | Agent/LLM Self-Improvement | [Self-evolving Embodied AI](https://arxiv.org/abs/2602.04411) | — |
@@ -57,17 +63,13 @@
 | 2026-01-23 | Agent Memory | [EMemBench: Interactive Benchmarking of Episodic Memory for VLM Agents](https://arxiv.org/abs/2601.16690v2) | — |
 | 2026-01-23 | Agent/LLM Self-Improvement, Agent Memory | [From Atom to Community: Structured and Evolving Agent Memory for User Behavior Modeling](https://arxiv.org/abs/2601.16872) | — |
 | 2026-01-23 | Agent Memory | [How Does Personalized Memory Shape LLM Behavior? Benchmarking Rational Preference Utilization in Personalized Assistants](https://arxiv.org/abs/2601.16621) | — |
-| 2026-01-22 | Agent Memory | [AgentSM: Semantic Memory for Agentic Text-to-SQL](https://arxiv.org/abs/2601.15709) | 📈 Highly cited |
-| 2026-01-21 | Agent Memory | [FAME: QoS-aware Async Service Orchestration for Agentic Workflows](https://arxiv.org/abs/2601.14735v3) | — |
-| 2026-01-20 | Agent Memory | [OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents](https://arxiv.org/abs/2601.13722) | 📈 Highly cited |
-| 2026-01-18 | Agent/LLM Self-Improvement | [A Survey of Agentic Reasoning for Large Language Models: Towards Recursively Self-Improving and Collective Agents](https://arxiv.org/abs/2601.12538v2) | 📈 Highly cited |
-| 2026-01-17 | Agent Memory | [LSTM-MAS: A Long Short-Term Memory Inspired Multi-Agent System for Long-Context Understanding](https://arxiv.org/abs/2601.11913) | — |
-| 2026-01-15 | LLM Continual Training | [SPRInG: Continual LLM Personalization via Selective Parametric Adaptation and Retrieval-Interpolated Generation](https://arxiv.org/abs/2601.09974v3) | — |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory](https://arxiv.org/abs/2602.06025) | 📈 Highly cited | First author: Nanyang Technological University (Semantic Scholar author profiles) |
+| [UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents](https://arxiv.org/abs/2602.05832) | 📈 Highly cited | The Chinese University of Hong Kong |
 | [Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing](https://arxiv.org/abs/2602.04837) | 📈 Highly cited | University of California, Santa Barbara |
 | [LatentMem: Customizing Latent Memory for Multi-Agent Systems](https://arxiv.org/abs/2602.03036) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Skill-Pro: Learning Reusable Skills from Experience via Non-Parametric PPO for LLM Agents](https://arxiv.org/abs/2602.01869) | 📈 Highly cited | University College London |
@@ -79,11 +81,20 @@
 | [Just-In-Time Reinforcement Learning: Continual Learning in LLM Agents Without Gradient Updates](https://arxiv.org/abs/2601.18510v4) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [FadeMem: Biologically-Inspired Forgetting for Efficient Agent Memory](https://arxiv.org/abs/2601.18642) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [MemWeaver: Weaving Hybrid Memories for Traceable Long-Horizon Agentic Reasoning](https://arxiv.org/abs/2601.18204) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>UNSW Sydney |
-| [AgentSM: Semantic Memory for Agentic Text-to-SQL](https://arxiv.org/abs/2601.15709) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents](https://arxiv.org/abs/2601.13722) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [A Survey of Agentic Reasoning for Large Language Models: Towards Recursively Self-Improving and Collective Agents](https://arxiv.org/abs/2601.12538v2) | 📈 Highly cited | Univeristy of Illinois Urbana Champaign, University of Illinois Urabna-Champaign, University of Illinois Urbana-Champaign |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
+
+### [UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents](https://arxiv.org/abs/2602.05832)
+
+- **Authors:** Xiao, Han, Wang, Guozhi, Wang, Hao, Liu, Shilong, Chai, Yuxiang, Pan, Yue, Zhou, Yufeng, Chen, Xiaoxin, Wen, Yafei, Li, Hongsheng
+- **Published:** 2026-02-05
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** The Chinese University of Hong Kong
+- **Categories:** cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2602.05832) · [PDF](https://arxiv.org/pdf/2602.05832)
+
+Online Reinforcement Learning (RL) offers a promising paradigm for enhancing GUI agents through direct environment interaction. However, its effectiveness is severely hindered by inefficient credit assignment in long-horizon tasks and repetitive errors across tasks due to the lack of experience transfer. To address these challenges, we propose UI-Mem, a novel framework that enhances GUI online RL with a Hierarchical Experience Memory. Unlike traditional replay buffers, our memory accumulates structured knowledge, including high-level workflows, subtask skills, and failure patterns. These experiences are stored as parameterized templates that enable cross-task and cross-application transfer. To effectively integrate memory guidance into online RL, we introduce Stratified Group Sampling, which injects varying levels of guidance across trajectories within each rollout group to maintain outcome diversity, driving the unguided policy toward internalizing guided behaviors. Furthermore, a Self-Evolving Loop continuously abstracts novel strategies and errors to keep the memory aligned with the agent's evolving policy. Experiments on online GUI benchmarks demonstrate that UI-Mem significantly outperforms traditional RL baselines and static reuse strategies, with strong generalization to unseen applications. Project page: https://ui-mem.github.io
 
 ### [Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing](https://arxiv.org/abs/2602.04837)
 
@@ -229,19 +240,55 @@ Conventional agent systems often struggle in open-ended environments where task 
 
 User behavior modeling lies at the heart of personalized applications like recommender systems. With LLM-based agents, user preference representation has evolved from latent embeddings to semantic memory. While existing memory mechanisms show promise in textual dialogues, modeling non-textual behaviors remains challenging, as preferences must be inferred from implicit signals like clicks without ground truth supervision. Current approaches rely on a single unstructured summary, updated through simple overwriting. However, this is suboptimal: users exhibit multi-faceted interests that get conflated, preferences evolve yet naive overwriting causes forgetting, and sparse individual interactions necessitate collaborative signals. We present STEAM (\textit{\textbf{ST}ructured and \textbf{E}volving \textbf{A}gent \textbf{M}emory}), a novel framework that reimagines how agent memory is organized and updated. STEAM decomposes preferences into atomic memory units, each capturing a distinct interest dimension with explicit links to observed behaviors. To exploit collaborative patterns, STEAM organizes similar memories across users into communities and generates prototype memories for signal propagation. The framework further incorporates adaptive evolution mechanisms, including consolidation for refining memories and formation for capturing emerging interests. Experiments on three real-world datasets demonstrate that STEAM substantially outperforms state-of-the-art baselines in recommendation accuracy, simulation fidelity, and diversity.
 
-### [A Survey of Agentic Reasoning for Large Language Models: Towards Recursively Self-Improving and Collective Agents](https://arxiv.org/abs/2601.12538v2)
-
-- **Authors:** Tianxin Wei, Ting-Wei Li, Zhining Liu, Xuying Ning, Ze Yang, Jiaru Zou, Zhichen Zeng, Ruizhong Qiu, Xiao Lin, Dongqi Fu, Zihao Li, Mengting Ai, Duo Zhou, Wenxuan Bao, Yunzhe Li, Gaotang Li, Cheng Qian, Yu Wang, Xiangru Tang, Yin Xiao, Liri Fang, Hui Liu, Xianfeng Tang, Yuji Zhang, Chi Wang, Jiaxuan You, Heng Ji, Hanghang Tong, Jingrui He
-- **Published:** 2026-01-18
-- **Priority:** 📈 Highly cited
-- **Venue:** arXiv
-- **Affiliations:** Univeristy of Illinois Urbana Champaign, University of Illinois Urabna-Champaign, University of Illinois Urbana-Champaign
-- **Categories:** cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2601.12538v2) · [PDF](https://arxiv.org/pdf/2601.12538v2)
-
-Reasoning is a fundamental cognitive process underlying inference, problem-solving, and decision-making. While large language models (LLMs) demonstrate strong reasoning capabilities in closed-world settings, they struggle in open-ended and dynamic environments. Agentic reasoning marks a paradigm shift by reframing LLMs as autonomous agents that plan, act, and learn through continual interaction. In this survey, we organize agentic reasoning along three complementary dimensions. First, we characterize environmental dynamics through three layers: foundational agentic reasoning, which establishes core single-agent capabilities including planning, tool use, and search in stable environments; self-evolving agentic reasoning, which studies how agents refine these capabilities through feedback, memory, and adaptation; and collective multi-agent reasoning, which extends intelligence to collaborative settings involving coordination, knowledge sharing, and shared goals. Across these layers, we distinguish in-context reasoning, which scales test-time interaction through structured orchestration, from post-training reasoning, which optimizes behaviors via reinforcement learning and supervised fine-tuning. We further review representative agentic reasoning frameworks across real-world applications and benchmarks, including science, robotics, healthcare, autonomous research, and mathematics. This survey synthesizes agentic reasoning methods into a unified roadmap bridging thought and action, and outlines open challenges and future directions, including personalization, long-horizon interaction, world modeling, scalable multi-agent training, and governance for real-world deployment.
-
 ## Agent Memory
+
+### [Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory](https://arxiv.org/abs/2602.06025)
+
+- **Authors:** Zhang, Haozhen, Yue, Haodong, Feng, Tao, Long, Quanyu, Bao, Jianzhu, Jin, Bowen, Zhang, Weizhi, Li, Xiao, You, Jiaxuan, Qin, Chengwei, Wang, Wenya
+- **Published:** 2026-02-05
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** Nanyang Technological University
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2602.06025) · [PDF](https://arxiv.org/pdf/2602.06025) · [Code](https://github.com/ViktorAxelsen/BudgetMem)
+
+Memory is increasingly central to Large Language Model (LLM) agents operating beyond a single context window, yet most existing systems rely on offline, query-agnostic memory construction that can be inefficient and may discard query-critical information. Although runtime memory utilization is a natural alternative, prior work often incurs substantial overhead and offers limited explicit control over the performance-cost trade-off. In this work, we present \textbf{BudgetMem}, a runtime agent memory framework for explicit, query-aware performance-cost control. BudgetMem structures memory processing as a set of memory modules, each offered in three budget tiers (i.e., \textsc{Low}/\textsc{Mid}/\textsc{High}). A lightweight router performs budget-tier routing across modules to balance task performance and memory construction cost, which is implemented as a compact neural policy trained with reinforcement learning. Using BudgetMem as a unified testbed, we study three complementary strategies for realizing budget tiers: implementation (method complexity), reasoning (inference behavior), and capacity (module model size). Across LoCoMo, LongMemEval, and HotpotQA, BudgetMem surpasses strong baselines when performance is prioritized (i.e., high-budget setting), and delivers better accuracy-cost frontiers under tighter budgets. Moreover, our analysis disentangles the strengths and weaknesses of different tiering strategies, clarifying when each axis delivers the most favorable trade-offs under varying budget regimes.
+
+### [AriadneMem: Threading the Maze of Lifelong Memory for LLM Agents](https://arxiv.org/abs/2603.03290)
+
+- **Authors:** Zhu, Wenhui, Chen, Xiwen, Wang, Zhipeng, Wang, Jingjing, Dong, Xuanzhao, Huang, Minzhou, Cai, Rui, Sang, Hejian, Wang, Hao, Qiu, Peijie, Deng, Yueyue, Tiwari, Prayag, Rappazzo, Brendan Hogan, Wang, Yalin
+- **Published:** 2026-02-05
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** University of California, Davis
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.03290) · [PDF](https://arxiv.org/pdf/2603.03290) · [Code](https://github.com/LLM-VLM-GSL/AriadneMem)
+
+Long-horizon LLM agents require memory systems that remain accurate under fixed context budgets. However, existing systems struggle with two persistent challenges in long-term dialogue: (i) \textbf{disconnected evidence}, where multi-hop answers require linking facts distributed across time, and (ii) \textbf{state updates}, where evolving information (e.g., schedule changes) creates conflicts with older static logs. We propose AriadneMem, a structured memory system that addresses these failure modes via a decoupled two-phase pipeline. In the \textbf{offline construction phase}, AriadneMem employs \emph{entropy-aware gating} to filter noise and low-information message before LLM extraction and applies \emph{conflict-aware coarsening} to merge static duplicates while preserving state transitions as temporal edges. In the \textbf{online reasoning phase}, rather than relying on expensive iterative planning, AriadneMem executes \emph{algorithmic bridge discovery} to reconstruct missing logical paths between retrieved facts, followed by \emph{single-call topology-aware synthesis}. On LoCoMo experiments with GPT-4o, AriadneMem improves \textbf{Multi-Hop F1 by 15.2\%} and \textbf{Average F1 by 9.0\%} over strong baselines. Crucially, by offloading reasoning to the graph layer, AriadneMem reduces \textbf{total runtime by 77.8\%} using only \textbf{497} context tokens. The code is available at https://github.com/LLM-VLM-GSL/AriadneMem.
+
+### [UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents](https://arxiv.org/abs/2602.05832)
+
+- **Authors:** Xiao, Han, Wang, Guozhi, Wang, Hao, Liu, Shilong, Chai, Yuxiang, Pan, Yue, Zhou, Yufeng, Chen, Xiaoxin, Wen, Yafei, Li, Hongsheng
+- **Published:** 2026-02-05
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** The Chinese University of Hong Kong
+- **Categories:** cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2602.05832) · [PDF](https://arxiv.org/pdf/2602.05832)
+
+Online Reinforcement Learning (RL) offers a promising paradigm for enhancing GUI agents through direct environment interaction. However, its effectiveness is severely hindered by inefficient credit assignment in long-horizon tasks and repetitive errors across tasks due to the lack of experience transfer. To address these challenges, we propose UI-Mem, a novel framework that enhances GUI online RL with a Hierarchical Experience Memory. Unlike traditional replay buffers, our memory accumulates structured knowledge, including high-level workflows, subtask skills, and failure patterns. These experiences are stored as parameterized templates that enable cross-task and cross-application transfer. To effectively integrate memory guidance into online RL, we introduce Stratified Group Sampling, which injects varying levels of guidance across trajectories within each rollout group to maintain outcome diversity, driving the unguided policy toward internalizing guided behaviors. Furthermore, a Self-Evolving Loop continuously abstracts novel strategies and errors to keep the memory aligned with the agent's evolving policy. Experiments on online GUI benchmarks demonstrate that UI-Mem significantly outperforms traditional RL baselines and static reuse strategies, with strong generalization to unseen applications. Project page: https://ui-mem.github.io
+
+### [AI Agent Systems for Supply Chains: Structured Decision Prompts and Memory Retrieval](https://arxiv.org/abs/2602.05524)
+
+- **Authors:** Yoshizato, Konosuke, Shimizu, Kazuma, Higa, Ryota, Otsuka, Takanobu
+- **Published:** 2026-02-05
+- **Priority:** —
+- **Venue:** Proceedings of the 25th International Conference on Autonomous Agents and Multiagent Systems
+- **Affiliations:** n/a
+- **Categories:** cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2602.05524) · [PDF](https://arxiv.org/pdf/2602.05524)
+
+This study investigates large language model (LLM) -based multi-agent systems (MASs) as a promising approach to inventory management, which is a key component of supply chain management. Although these systems have gained considerable attention for their potential to address the challenges associated with typical inventory management methods, key uncertainties regarding their effectiveness persist. Specifically, it is unclear whether LLM-based MASs can consistently derive optimal ordering policies and adapt to diverse supply chain scenarios. To address these questions, we examine an LLM-based MAS with a fixed-ordering strategy prompt that encodes the stepwise processes of the problem setting and a safe-stock strategy commonly used in inventory management. Our empirical results demonstrate that, even without detailed prompt adjustments, an LLM-based MAS can determine optimal ordering decisions in a restricted scenario. To enhance adaptability, we propose a novel agent called AIM-RM, which leverages similar historical experiences through similarity matching. Our results show that AIM-RM outperforms benchmark methods across various supply chain scenarios, highlighting its robustness and adaptability.
 
 ### [ActMem: Bridging the Gap Between Memory Retrieval and Reasoning in LLM Agents](https://arxiv.org/abs/2603.00026)
 
@@ -603,55 +650,31 @@ User behavior modeling lies at the heart of personalized applications like recom
 
 Large language model (LLM)-powered assistants have recently integrated memory mechanisms that record user preferences, leading to more personalized and user-aligned responses. However, irrelevant personalized memories are often introduced into the context, interfering with the LLM's intent understanding. To comprehensively investigate the dual effects of personalization, we develop RPEval, a benchmark comprising a personalized intent reasoning dataset and a multi-granularity evaluation protocol. RPEval reveals the widespread phenomenon of irrational personalization in existing LLMs and, through error pattern analysis, illustrates its negative impact on user experience. Finally, we introduce RP-Reasoner, which treats memory utilization as a pragmatic reasoning process, enabling the selective integration of personalized information. Experimental results demonstrate that our method significantly outperforms carefully designed baselines on RPEval, and resolves 80% of the bad cases observed in a large-scale commercial personalized assistant, highlighting the potential of pragmatic reasoning to mitigate irrational personalization. Our benchmark is publicly available at https://github.com/XueyangFeng/RPEval.
 
-### [AgentSM: Semantic Memory for Agentic Text-to-SQL](https://arxiv.org/abs/2601.15709)
+## LLM Continual Training & Continual Learning
 
-- **Authors:** Biswal, Asim, Lei, Chuan, Qin, Xiao, Li, Aodong, Narayanaswamy, Balakrishnan, Kraska, Tim
-- **Published:** 2026-01-22
-- **Priority:** 📈 Highly cited
+### [AriadneMem: Threading the Maze of Lifelong Memory for LLM Agents](https://arxiv.org/abs/2603.03290)
+
+- **Authors:** Zhu, Wenhui, Chen, Xiwen, Wang, Zhipeng, Wang, Jingjing, Dong, Xuanzhao, Huang, Minzhou, Cai, Rui, Sang, Hejian, Wang, Hao, Qiu, Peijie, Deng, Yueyue, Tiwari, Prayag, Rappazzo, Brendan Hogan, Wang, Yalin
+- **Published:** 2026-02-05
+- **Priority:** —
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2601.15709) · [PDF](https://arxiv.org/pdf/2601.15709)
+- **Affiliations:** University of California, Davis
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.03290) · [PDF](https://arxiv.org/pdf/2603.03290) · [Code](https://github.com/LLM-VLM-GSL/AriadneMem)
 
-Recent advances in LLM-based Text-to-SQL have achieved remarkable gains on public benchmarks such as BIRD and Spider. Yet, these systems struggle to scale in realistic enterprise settings with large, complex schemas, diverse SQL dialects, and expensive multi-step reasoning. Emerging agentic approaches show potential for adaptive reasoning but often suffer from inefficiency and instability-repeating interactions with databases, producing inconsistent outputs, and occasionally failing to generate valid answers. To address these challenges, we introduce Agent Semantic Memory (AgentSM), an agentic framework for Text-to-SQL that builds and leverages interpretable semantic memory. Instead of relying on raw scratchpads or vector retrieval, AgentSM captures prior execution traces-or synthesizes curated ones-as structured programs that directly guide future reasoning. This design enables systematic reuse of reasoning paths, which allows agents to scale to larger schemas, more complex questions, and longer trajectories efficiently and reliably. Compared to state-of-the-art systems, AgentSM achieves higher efficiency by reducing average token usage and trajectory length by 25% and 35%, respectively, on the Spider 2.0 benchmark. It also improves execution accuracy, reaching a state-of-the-art accuracy of 44.8% on the Spider 2.0 Lite benchmark.
+Long-horizon LLM agents require memory systems that remain accurate under fixed context budgets. However, existing systems struggle with two persistent challenges in long-term dialogue: (i) \textbf{disconnected evidence}, where multi-hop answers require linking facts distributed across time, and (ii) \textbf{state updates}, where evolving information (e.g., schedule changes) creates conflicts with older static logs. We propose AriadneMem, a structured memory system that addresses these failure modes via a decoupled two-phase pipeline. In the \textbf{offline construction phase}, AriadneMem employs \emph{entropy-aware gating} to filter noise and low-information message before LLM extraction and applies \emph{conflict-aware coarsening} to merge static duplicates while preserving state transitions as temporal edges. In the \textbf{online reasoning phase}, rather than relying on expensive iterative planning, AriadneMem executes \emph{algorithmic bridge discovery} to reconstruct missing logical paths between retrieved facts, followed by \emph{single-call topology-aware synthesis}. On LoCoMo experiments with GPT-4o, AriadneMem improves \textbf{Multi-Hop F1 by 15.2\%} and \textbf{Average F1 by 9.0\%} over strong baselines. Crucially, by offloading reasoning to the graph layer, AriadneMem reduces \textbf{total runtime by 77.8\%} using only \textbf{497} context tokens. The code is available at https://github.com/LLM-VLM-GSL/AriadneMem.
 
-### [FAME: QoS-aware Async Service Orchestration for Agentic Workflows](https://arxiv.org/abs/2601.14735v3)
+### [Modular Expert Merging for Biomedical Retrieval](https://arxiv.org/abs/2602.04731v3)
 
-- **Authors:** Haseeb Abdullah Kollorath, Vaibhav Jha, Varad Kulkarni, Vinay, Nikhil Reddy, Anand Eswaran, Praveen Jayachandran, Yogesh Simmhan
-- **Published:** 2026-01-21
+- **Authors:** Sameh Khattab, Jean-Philippe Corbeil, Osman Alperen Çinar-Koraş, Amin Dada, Julian Friedrich, Jiawei He, Douglas Teodoro, Jens Kleesiek
+- **Published:** 2026-02-04
 - **Priority:** —
 - **Venue:** arXiv
 - **Affiliations:** n/a
-- **Categories:** cs.DC
-- **Links:** [Paper](https://arxiv.org/abs/2601.14735v3) · [PDF](https://arxiv.org/pdf/2601.14735v3)
+- **Categories:** cs.CL, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2602.04731v3) · [PDF](https://arxiv.org/pdf/2602.04731v3)
 
-Agentic workflows built on Large Language Models (LLMs) increasingly rely on external tools, with Model Context Protocol (MCP) services emerging as a common interface for tool discovery and invocation. These workflows are stateful, bursty and can block for minutes to hours while external tools execute. Always-on virtual machines and managed agent runtimes simplify deployment, but can over-provision capacity, bill idle wait time or encounter execution limits for long-running tool calls. We present FAME, a service-oriented middleware that optimizes MCP-enabled agentic workflows through modular service orchestration, explicit state management, MCP service input/output reduction and timeout-safe async invocation for long-running external services. FAME realizes these composite services using FaaS-based agent roles, persists workflow state through agent memory injection, and reduces MCP service overhead using S3 handle passing and tool-output caching. For long-running external MCP tools, FAME checkpoints agent and orchestrator state, suspends execution and resumes from callbacks without billing idle waits. Across 26 short-running service tasks over 10 MCP servers, FAME improves service-level QoS by reducing infrastructure cost by 8-12x relative to virtual machines and 43-106x relative to managed runtimes, while reducing latency by up to 17x, input tokens by up to 88% and total cost by up to 66%. On two long-running MLZero workloads from MLE-Bench, FAME completes all iterations while synchronous AWS Step Functions time out, and is 3.64-4.24x cheaper than AWS Durable Functions at the agent level and 2.67-8.23x cheaper at the orchestrator level.
-
-### [OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents](https://arxiv.org/abs/2601.13722)
-
-- **Authors:** Hu, Yulin, Long, Zimo, Guo, Jiahe, Sui, Xingyu, Fu, Xing, Zhao, Weixiang, Zhao, Yanyan, Qin, Bing
-- **Published:** 2026-01-20
-- **Priority:** 📈 Highly cited
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2601.13722) · [PDF](https://arxiv.org/pdf/2601.13722)
-
-Memory-augmented conversational agents enable personalized interactions using long-term user memory and have gained substantial traction. However, existing benchmarks primarily focus on whether agents can recall and apply user information, while overlooking whether such personalization is used appropriately. In fact, agents may overuse personal information, producing responses that feel forced, intrusive, or socially inappropriate to users. We refer to this issue as \emph{over-personalization}. In this work, we formalize over-personalization into three types: Irrelevance, Repetition, and Sycophancy, and introduce \textbf{OP-Bench} a benchmark of 1,700 verified instances constructed from long-horizon dialogue histories. Using \textbf{OP-Bench}, we evaluate multiple large language models and memory-augmentation methods, and find that over-personalization is widespread when memory is introduced. Further analysis reveals that agents tend to retrieve and over-attend to user memories even when unnecessary. To address this issue, we propose \textbf{Self-ReCheck}, a lightweight, model-agnostic memory filtering mechanism that mitigates over-personalization while preserving personalization performance. Our work takes an initial step toward more controllable and appropriate personalization in memory-augmented dialogue systems.
-
-### [LSTM-MAS: A Long Short-Term Memory Inspired Multi-Agent System for Long-Context Understanding](https://arxiv.org/abs/2601.11913)
-
-- **Authors:** Jiang, Yichen, Yuan, Jiakang, Tu, Chongjun, Ye, Peng, Chen, Tao
-- **Published:** 2026-01-17
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** Fudan University, University of North Carolina at Chapel Hill
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2601.11913) · [PDF](https://arxiv.org/pdf/2601.11913)
-
-Effectively processing long contexts remains a fundamental yet unsolved challenge for large language models (LLMs). Existing single-LLM-based methods primarily reduce the context window or optimize the attention mechanism, but they often encounter additional computational costs or constrained expanded context length. While multi-agent-based frameworks can mitigate these limitations, they remain susceptible to the accumulation of errors and the propagation of hallucinations. In this work, we draw inspiration from the Long Short-Term Memory (LSTM) architecture to design a Multi-Agent System called LSTM-MAS, emulating LSTM's hierarchical information flow and gated memory mechanisms for long-context understanding. Specifically, LSTM-MAS organizes agents in a chained architecture, where each node comprises a worker agent for segment-level comprehension, a filter agent for redundancy reduction, a judge agent for continuous error detection, and a manager agent for globally regulates information propagation and retention, analogous to LSTM and its input gate, forget gate, constant error carousel unit, and output gate. These novel designs enable controlled information transfer and selective long-term dependency modeling across textual segments, which can effectively avoid error accumulation and hallucination propagation. We conducted an extensive evaluation of our method. Compared with the previous best multi-agent approach, CoA, our model achieves improvements of 97.97%, 65.75%, 122.19%, 39.61% and 10.80% on Narrative QA, Qasper, HotpotQA, 2WikiMQA and MuSiQue, respectively.
-
-## LLM Continual Training & Continual Learning
+Adapting general-purpose LLMs into domain-specialized dense retrievers typically requires large-scale training on mixed-domain data. We show that merging independently trained domain-specialized experts consistently exceeds this approach across four decoder-only LLM families (0.6B-7B), four merging methods, and twelve medical and general retrieval tasks from MTEB, suggesting that parameter-space composition captures complementary domain strengths that large-scale mixed-domain training averages out. To further maximize expert quality, we introduce Synthesize-Train-Merge (STM), a modular framework that synthesizes hard negatives with a top-tier LLM and fine-tunes domain-specialized experts via LoRA before merging them, without continual pre-training. Synthesized hard negatives yield the largest gains for smaller models, and STM achieves strong performance on biomedical retrieval tasks while maintaining competitive general-domain results across all four backbone families.
 
 ### [LatentMem: Customizing Latent Memory for Multi-Agent Systems](https://arxiv.org/abs/2602.03036)
 
@@ -713,19 +736,19 @@ While Large Language Model (LLM) agents excel at general tasks, they inherently 
 
 Large language models deployed as autonomous agents face critical memory limitations, lacking selective forgetting mechanisms that lead to either catastrophic forgetting at context boundaries or information overload within them. While human memory naturally balances retention and forgetting through adaptive decay processes, current AI systems employ binary retention strategies that preserve everything or lose it entirely. We propose FadeMem, a biologically-inspired agent memory architecture that incorporates active forgetting mechanisms mirroring human cognitive efficiency. FadeMem implements differential decay rates across a dual-layer memory hierarchy, where retention is governed by adaptive exponential decay functions modulated by semantic relevance, access frequency, and temporal patterns. Through LLM-guided conflict resolution and intelligent memory fusion, our system consolidates related information while allowing irrelevant details to fade. Experiments on Multi-Session Chat, LoCoMo, and LTI-Bench demonstrate superior multi-hop reasoning and retrieval with 45\% storage reduction, validating the effectiveness of biologically-inspired forgetting in agent memory systems.
 
-### [SPRInG: Continual LLM Personalization via Selective Parametric Adaptation and Retrieval-Interpolated Generation](https://arxiv.org/abs/2601.09974v3)
+## Reinforcement Learning
 
-- **Authors:** Seoyeon Kim, Jaehyung Kim
-- **Published:** 2026-01-15
+### [QUATRO: Query-Adaptive Trust Region Policy Optimization for LLM Fine-tuning](https://arxiv.org/abs/2602.04620v3)
+
+- **Authors:** Doyeon Lee, Eunyi Lyou, Hyunsoo Cho, Sookyung Kim, Joonseok Lee, Jaemoo Choi
+- **Published:** 2026-02-04
 - **Priority:** —
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
-- **Categories:** cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2601.09974v3) · [PDF](https://arxiv.org/pdf/2601.09974v3)
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2602.04620v3) · [PDF](https://arxiv.org/pdf/2602.04620v3)
 
-Personalizing Large Language Models typically relies on static retrieval or one-time adaptation, assuming user preferences remain invariant over time. However, real-world interactions are dynamic, where user interests continuously evolve, posing a challenge for models to adapt to preference drift without catastrophic forgetting. Standard continual learning approaches often struggle in this context, as they indiscriminately update on noisy interaction streams, failing to distinguish genuine preference shifts from transient contexts. To address this, we introduce SPRInG, a novel semi-parametric framework designed for effective continual personalization. During training, SPRInG employs drift-driven selective adaptation, which utilizes a likelihood-based scoring function to identify high-novelty interactions, selectively updating the user-specific adapter on drift signals while preserving hard-to-learn residuals in a replay buffer. During inference, we apply strict relevance gating and fuse parametric knowledge with retrieved history via probability interpolation. Experiments on the long-form personalized generation benchmark demonstrate that SPRInG significantly outperforms existing baselines, validating its robustness for real-world continual personalization.
-
-## Reinforcement Learning
+GRPO-style reinforcement learning (RL)-based LLM fine-tuning algorithms have recently gained popularity. Relying on heuristic trust-region approximations, however, they can lead to brittle optimization behavior, as global importance-ratio clipping and group-wise normalization fail to regulate samples whose importance ratios fall outside the clipping range. We propose Query-Adaptive Trust-Region policy Optimization (QUATRO), which directly enforces trust-region constraints through a principled optimization. This yields a clear and interpretable objective that enables explicit control over policy updates and stable, entropy-controlled optimization, with a stabilizer terms arising intrinsically from the exact trust-region formulation. Empirically verified on diverse mathematical reasoning benchmarks, QUATRO shows stable training under increased policy staleness and aggressive learning rates, maintaining well-controlled entropy throughout training.
 
 ### [MolLangData: A Large-Scale Dataset for Molecular Structure-Language Description via a Rule-Regularized Method](https://arxiv.org/abs/2602.02320v5)
 

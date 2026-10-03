@@ -24,11 +24,11 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 
 | Metric | Count |
 | --- | ---: |
-| Total papers | 1535 |
+| Total papers | 1541 |
 | Agent/LLM self-evolution & self-improvement | 576 |
 | Agent memory | 649 |
-| LLM continual training | 241 |
-| Reinforcement Learning | 242 |
+| LLM continual training | 242 |
+| Reinforcement Learning | 248 |
 | Daily archives | 9 |
 
 ## 📚 Table of Contents
@@ -293,11 +293,11 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 
 | Month | Papers | Agent/LLM Self-Improvement | Memory | Continual Training | RL |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| [2026-10](papers/2026/10/README.md) | 28 | 10 | 3 | 3 | 13 |
-| [2026-09](papers/2026/09/README.md) | 425 | 182 | 70 | 71 | 130 |
+| [2026-10](papers/2026/10/README.md) | 30 | 10 | 3 | 3 | 15 |
+| [2026-09](papers/2026/09/README.md) | 428 | 182 | 70 | 72 | 133 |
 | [2026-08](papers/2026/08/README.md) | 267 | 140 | 76 | 49 | 16 |
 | [2026-07](papers/2026/07/README.md) | 137 | 58 | 67 | 21 | 11 |
-| [2026-06](papers/2026/06/README.md) | 138 | 36 | 85 | 14 | 17 |
+| [2026-06](papers/2026/06/README.md) | 139 | 36 | 85 | 14 | 18 |
 | [2026-05](papers/2026/05/README.md) | 156 | 48 | 98 | 16 | 18 |
 | [2026-04](papers/2026/04/README.md) | 95 | 30 | 66 | 12 | 7 |
 | [2026-03](papers/2026/03/README.md) | 85 | 19 | 63 | 15 | 8 |
@@ -330,6 +330,7 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 | 2026-10-01 | LLM Continual Training & Continual Learning | [Cross-Lingual Alignment for Decoder-Only Models using MoE Routers](https://arxiv.org/abs/2610.01921v1) | [Paper](https://arxiv.org/abs/2610.01921v1) / [PDF](https://arxiv.org/pdf/2610.01921v1) |
 | 2026-10-01 | Reinforcement Learning | [Asynchronous LLM Post-Training: Group-Mass Capping and Convergence Analysis](https://arxiv.org/abs/2610.01896v1) | [Paper](https://arxiv.org/abs/2610.01896v1) / [PDF](https://arxiv.org/pdf/2610.01896v1) |
 | 2026-10-01 | LLM Continual Training & Continual Learning | [Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills](https://arxiv.org/abs/2610.01833v1) | [Paper](https://arxiv.org/abs/2610.01833v1) / [PDF](https://arxiv.org/pdf/2610.01833v1) |
+| 2026-10-01 | Reinforcement Learning | [Beyond Linear Concepts: Discovering and Aligning Non-Linear Concept Manifolds in Large Language Models](https://arxiv.org/abs/2610.01821v1) | [Paper](https://arxiv.org/abs/2610.01821v1) / [PDF](https://arxiv.org/pdf/2610.01821v1) |
 | 2026-10-01 | Reinforcement Learning | [LineupRL: Verifiable Reinforcement Learning for Time Series Captioning via Caption-to-Series Identification](https://arxiv.org/abs/2610.01800v1) | [Paper](https://arxiv.org/abs/2610.01800v1) / [PDF](https://arxiv.org/pdf/2610.01800v1) |
 | 2026-10-01 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [Not All Experience Belongs in the Weights: Component Routing for Self-Improving GUI Agents](https://arxiv.org/abs/2610.01787v1) | [Paper](https://arxiv.org/abs/2610.01787v1) / [PDF](https://arxiv.org/pdf/2610.01787v1) |
 | 2026-10-01 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [VideoEvolve: Evolving Agent Harnesses for Video Temporal Grounding](https://arxiv.org/abs/2610.01766v1) | [Paper](https://arxiv.org/abs/2610.01766v1) / [PDF](https://arxiv.org/pdf/2610.01766v1) |
@@ -338,6 +339,7 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 | 2026-10-01 | Reinforcement Learning | [Range-GRPO: Policy Optimization via Pairwise Relations among Reward Intervals](https://arxiv.org/abs/2610.01548v1) | [Paper](https://arxiv.org/abs/2610.01548v1) / [PDF](https://arxiv.org/pdf/2610.01548v1) |
 | 2026-10-01 | Reinforcement Learning | [Sharpening Tax in Post-Training](https://arxiv.org/abs/2610.01509v1) | [Paper](https://arxiv.org/abs/2610.01509v1) / [PDF](https://arxiv.org/pdf/2610.01509v1) |
 | 2026-10-01 | Reinforcement Learning | [Rethinking Probability-Based Reinforcement Learning From Posterior Concentration](https://arxiv.org/abs/2610.01458v1) | [Paper](https://arxiv.org/abs/2610.01458v1) / [PDF](https://arxiv.org/pdf/2610.01458v1) |
+| 2026-10-01 | Reinforcement Learning | [Learning to Ask: Information Acquisition for SLM-LLM Collaboration, under a budget](https://arxiv.org/abs/2610.01236v1) | [Paper](https://arxiv.org/abs/2610.01236v1) / [PDF](https://arxiv.org/pdf/2610.01236v1) |
 | 2026-10-01 | Reinforcement Learning | [Dependency-Aware Reward Shaping for Agentic Reinforcement Learning](https://arxiv.org/abs/2610.01207v1) | [Paper](https://arxiv.org/abs/2610.01207v1) / [PDF](https://arxiv.org/pdf/2610.01207v1) |
 | 2026-10-01 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement, Reinforcement Learning | [My FAULT: Self-Diagnosis as Credit Assignment in Self-Evolving Agentic Reinforcement Learning](https://arxiv.org/abs/2610.01161v1) | [Paper](https://arxiv.org/abs/2610.01161v1) / [PDF](https://arxiv.org/pdf/2610.01161v1) |
 | 2026-10-01 | Reinforcement Learning | [Grounding Large Language Models in DSGE Simulators for Policy Generation and Forecasting](https://arxiv.org/abs/2610.01128v1) | [Paper](https://arxiv.org/abs/2610.01128v1) / [PDF](https://arxiv.org/pdf/2610.01128v1) |
@@ -347,8 +349,6 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 | 2026-10-01 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks](https://arxiv.org/abs/2610.00972v1) | [Paper](https://arxiv.org/abs/2610.00972v1) / [PDF](https://arxiv.org/pdf/2610.00972v1) |
 | 2026-10-01 | Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement | [GUI-HARVEST: Self-Improving GUI Agents through Evidence-Driven Harness Evolution](https://arxiv.org/abs/2610.00948v1) | [Paper](https://arxiv.org/abs/2610.00948v1) / [PDF](https://arxiv.org/pdf/2610.00948v1) |
 | 2026-10-01 | Agent Memory | [MemFit: Efficient Long-Term Agentic Memory](https://arxiv.org/abs/2610.00872v1) | [Paper](https://arxiv.org/abs/2610.00872v1) / [PDF](https://arxiv.org/pdf/2610.00872v1) |
-| 2026-09-30 | Reinforcement Learning | [SHARPO: Segment-Level Credit Assignment for Agentic Reinforcement Learning](https://arxiv.org/abs/2610.00838v1) | [Paper](https://arxiv.org/abs/2610.00838v1) / [PDF](https://arxiv.org/pdf/2610.00838v1) |
-| 2026-09-30 | LLM Continual Training & Continual Learning | [ReLiveGym: Evaluating Long-Lived Agents over Weeks of Replayed Reality](https://arxiv.org/abs/2610.00710v1) | [Paper](https://arxiv.org/abs/2610.00710v1) / [PDF](https://arxiv.org/pdf/2610.00710v1) |
 
 ## 🗓️ Daily Archive
 
