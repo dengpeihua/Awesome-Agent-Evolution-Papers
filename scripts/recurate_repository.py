@@ -17,7 +17,12 @@ from agent_paper_digest.highlight import (  # noqa: E402
     qualification_reasons,
 )
 from agent_paper_digest.models import Paper  # noqa: E402
-from agent_paper_digest.topics import TOPIC_TITLES  # noqa: E402
+from agent_paper_digest.topics import (  # noqa: E402
+    MIN_PUBLICATION_DATE,
+    REINFORCEMENT_LEARNING_TOPIC,
+    TOPIC_TITLES,
+    rl_relevance_evidence,
+)
 
 
 def _write_audit(root: Path, candidates: list[Paper], papers: tuple[Paper, ...]) -> None:
@@ -26,6 +31,8 @@ def _write_audit(root: Path, candidates: list[Paper], papers: tuple[Paper, ...])
         "generated_at": datetime.now(UTC).isoformat(),
         "policy": {
             "required_topics": list(TOPIC_TITLES),
+            "first_publication_on_or_after": MIN_PUBLICATION_DATE.date().isoformat(),
+            "rl_scope": "Substantive RL directly related to language models or language agents",
             "highlight_signals": [
                 "CCF-A Artificial Intelligence Full/Regular paper",
                 "Selected top venue, including ECCV, EMNLP and ICLR",
@@ -53,6 +60,28 @@ def _write_audit(root: Path, candidates: list[Paper], papers: tuple[Paper, ...])
         json.dumps(audit, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    (root / "data" / "rl_screening.json").write_text(
+        json.dumps(
+            {
+                "policy": "Language-model context AND substantive RL evidence; "
+                "inherited tags ignored",
+                "evidence_level": "Automated title/abstract screening, not full-paper verification",
+                "papers": [
+                    {
+                        "id": p.arxiv_id,
+                        "published": p.published.isoformat(),
+                        "evidence": rl_relevance_evidence(p.title, p.abstract),
+                    }
+                    for p in papers
+                    if REINFORCEMENT_LEARNING_TOPIC in p.topics
+                ],
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
 
 
 def _write_report(root: Path, candidates: list[Paper], papers: tuple[Paper, ...]) -> None:
@@ -64,7 +93,8 @@ def _write_report(root: Path, candidates: list[Paper], papers: tuple[Paper, ...]
         "",
         "The public corpus covers four directions: every paper must address Agent/LLM "
         "self-evolution, self-improving systems, recursive self-improvement, Agent Memory, "
-        "LLM continual training, or Reinforcement Learning. Priority evidence is optional.",
+        "LLM continual training, or language-model/agent Reinforcement Learning. "
+        "First publication must be on or after 2025-01-01. Priority evidence is optional.",
         "",
         "## Current result",
         "",

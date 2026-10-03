@@ -5,7 +5,14 @@
 - Agent / LLM Self-Evolution and Self-Improvement.
 - Agent Memory.
 - LLM Continual Training and Continual Learning.
-- Reinforcement Learning, including general RL, RLHF, RLAIF, and GRPO.
+- Reinforcement Learning directly related to LLMs / language agents, including RLHF, RLAIF, RLVR, and GRPO.
+
+First publication must be on or after **2025-01-01**. Older papers remain excluded
+even when revised or accepted recently. RL requires language-model context plus
+a substantive training/research statement. Broad application-only RL, baseline
+comparisons and incidental survey mentions do not qualify. Historical RL labels
+are recomputed rather than trusted. See `data/rl_screening.json` for title/abstract
+evidence; these automated checks are not full-paper verification.
 
 All topical papers are eligible, including fresh preprints without citations or
 known affiliations. Priority labels do not change publication-date ordering.

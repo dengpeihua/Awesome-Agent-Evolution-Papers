@@ -11,7 +11,7 @@ from typing import Final
 import httpx
 
 from .models import Paper
-from .topics import normalize_topics
+from .topics import MIN_PUBLICATION_DATE, normalize_topics
 
 ATOM: Final = "http://www.w3.org/2005/Atom"
 ARXIV: Final = "http://arxiv.org/schemas/atom"
@@ -175,7 +175,10 @@ class ArxivSource:
             "reinforcement-learning": (
                 '(ti:"reinforcement learning" OR abs:"reinforcement learning" '
                 'OR ti:"RLHF" OR abs:"RLHF" OR ti:"GRPO" OR abs:"GRPO" '
-                'OR ti:"RLAIF" OR abs:"RLAIF")'
+                'OR ti:"RLAIF" OR abs:"RLAIF" OR ti:"RLVR" OR abs:"RLVR") '
+                'AND (ti:"language model" OR abs:"language model" '
+                'OR ti:"LLM" OR abs:"LLM" OR ti:"LLMs" OR abs:"LLMs" '
+                'OR ti:"vision-language" OR abs:"vision-language")'
             ),
             "agent-llm-self-evolution": (
                 '((all:"self-evolving" OR all:"self-improving" '
@@ -233,7 +236,9 @@ class ArxivSource:
                     response = await self._request_page(
                         client,
                         params={
-                            "search_query": query,
+                            "search_query": (
+                                f"({query}) AND submittedDate:[202501010000 TO 999912312359]"
+                            ),
                             "start": start,
                             "max_results": max_results_per_topic,
                             "sortBy": "lastUpdatedDate",
@@ -248,6 +253,8 @@ class ArxivSource:
                         paper for paper in page if max(paper.published, paper.updated) >= since
                     ]
                     for paper in recent:
+                        if paper.published < MIN_PUBLICATION_DATE:
+                            continue
                         existing = merged.get(paper.arxiv_id)
                         merged[paper.arxiv_id] = existing.merge(paper) if existing else paper
                     if len(page) < max_results_per_topic or len(recent) < len(page):

@@ -2,7 +2,7 @@ name: agent_paper_digest
 display_name: Agent Paper Digest
 desc: 每日检索 Agent Self-Evolving、Agent Memory、LLM Continual Training 和 Reinforcement Learning，标注大厂与顶会证据，完整补推并归档到 GitHub。
 short_desc: 四方向论文日报、大厂与顶会标注、离线补推及 GitHub 倒序归档。
-version: v0.5.0
+version: v0.5.1
 author: Agent Paper Digest
 repo: ""
 astrbot_version: ">=4.16,<5"

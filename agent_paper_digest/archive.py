@@ -20,6 +20,7 @@ from .models import Paper
 from .topics import (
     AGENT_MEMORY_TOPIC,
     CONTINUAL_TRAINING_TOPIC,
+    MIN_PUBLICATION_DATE,
     REINFORCEMENT_LEARNING_TOPIC,
     SELF_EVOLUTION_TOPIC,
     TOPIC_SHORT,
@@ -150,6 +151,7 @@ class ArchiveRepository:
                 )
             if current:
                 merged = current.merge(paper)
+                merged = classify_highlights(merged)
                 existing[paper.arxiv_id] = merged
                 if promotion_signature(merged) != promotion_signature(current):
                     promoted_papers.append(merged)
@@ -461,6 +463,10 @@ class ArchiveRepository:
         return "<br>".join(values) if values else "—"
 
     def _write_monthly_archives(self, papers: list[Paper]) -> None:
+        for old_index in (self.root / "papers").glob("*/*/README.md"):
+            year_name = old_index.parent.parent.name
+            if year_name.isdigit() and int(year_name) < MIN_PUBLICATION_DATE.year:
+                old_index.unlink()
         grouped: dict[tuple[int, int], list[Paper]] = defaultdict(list)
         for paper in papers:
             grouped[(paper.published.year, paper.published.month)].append(paper)
@@ -676,8 +682,11 @@ class ArchiveRepository:
                 "- **Agent Memory:** long-term, memory-augmented, and persistent agent memory",
                 "- **LLM Continual Training:** continual pre/post-training, lifelong and "
                 "online adaptation, retention, and catastrophic-forgetting mitigation",
-                "- **Reinforcement Learning:** RL methods and applications, including RLHF, "
-                "RLAIF, and GRPO; not restricted to Agent/LLM papers",
+                "- **Date boundary:** first publication on or after 2025-01-01; "
+                "a recent revision does not make an older paper eligible",
+                "- **Reinforcement Learning:** substantive RL training or research directly "
+                "related to language models / language agents, including RLHF, RLAIF, RLVR "
+                "and GRPO; generic control/robotics RL and incidental mentions are excluded",
                 "- **Public inclusion:** any of the four topics; industry, venue, and citation "
                 "signals highlight papers without excluding new preprints",
                 "- **Acceptance dates:** first observed means newly detected by this bot; "

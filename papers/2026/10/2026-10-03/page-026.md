@@ -1,6 +1,6 @@
-> **2656 papers** · Page 26/54 · Newest first across all pages
+> **1473 papers** · Page 26/30 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md) · [33](page-033.md) · [34](page-034.md) · [35](page-035.md) · [36](page-036.md) · [37](page-037.md) · [38](page-038.md) · [39](page-039.md) · [40](page-040.md) · [41](page-041.md) · [42](page-042.md) · [43](page-043.md) · [44](page-044.md) · [45](page-045.md) · [46](page-046.md) · [47](page-047.md) · [48](page-048.md) · [49](page-049.md) · [50](page-050.md) · [51](page-051.md) · [52](page-052.md) · [53](page-053.md) · [54](page-054.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md)
 
 # Daily Papers · 2026-10-03
 
@@ -13,721 +13,861 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
-| 2026-09-12 | Reinforcement Learning | [Fixed-Time Resilient Integral Reinforcement Learning for Input-Constrained Unknown Nonlinear Systems Under FDI Attacks and Disturbances: A Data-Driven Admissible Warm Start](https://arxiv.org/abs/2609.14067v1) | — |
-| 2026-09-12 | Reinforcement Learning | [GraMRAG: Orchestrating Multi-Agent Multi-Step Reasoning via Graph Memory with Reinforcement Learning](https://arxiv.org/abs/2609.14066v1) | — |
-| 2026-09-12 | Reinforcement Learning | [Unlocking the Unsolvable: Teacher-Guided Curriculum for Data-Efficient RLVR](https://arxiv.org/abs/2609.13997v1) | — |
-| 2026-09-11 | Reinforcement Learning | [Personalized and Trust-Aware Health Recommendation Policies for a Construction Workplace](https://arxiv.org/abs/2609.12679v2) | — |
-| 2026-09-11 | Agent/LLM Self-Improvement, Reinforcement Learning | [BlueLM-GUI Technical Report: A Real-Device-Centric Flywheel for Self-Improving Mobile GUI Agents](https://arxiv.org/abs/2609.12394v3) | — |
-| 2026-09-10 | Reinforcement Learning | [Amortized Low-Rank Adaptation for Model-Based Reinforcement Learning](https://arxiv.org/abs/2609.12278v2) | — |
-| 2026-09-10 | Reinforcement Learning | [DIA: Denoising Intermediate Advantage for Diffusion Policy Optimization](https://arxiv.org/abs/2609.12245v2) | — |
-| 2026-09-10 | Agent/LLM Self-Improvement | [The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement](https://arxiv.org/abs/2609.11873v3) | — |
-| 2026-09-10 | Reinforcement Learning | [Near-Optimal Reinforcement Learning with Multi-Step Transition Lookahead](https://arxiv.org/abs/2609.11807v2) | — |
-| 2026-09-10 | Agent/LLM Self-Improvement | [Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents](https://arxiv.org/abs/2609.11677v2) | — |
-| 2026-09-10 | Reinforcement Learning | [Certified Safety Curation: Distribution-Free Guarantees for Safe Offline Reinforcement Learning](https://arxiv.org/abs/2609.12014v2) | — |
-| 2026-09-10 | Agent Memory | [But How Would AI Agents Run a Town's Economy?](https://arxiv.org/abs/2609.11108v1) | — |
-| 2026-09-10 | Agent Memory | [Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents](https://arxiv.org/abs/2609.11060v1) | — |
-| 2026-09-09 | Reinforcement Learning | [GM-Loco: Terrain-Adaptive Humanoid Locomotion on Granular Media](https://arxiv.org/abs/2609.10286v2) | — |
-| 2026-09-09 | Agent/LLM Self-Improvement | [A-JIT: Agentic Just-In-Time Software Construction](https://arxiv.org/abs/2609.10248v1) | — |
-| 2026-09-09 | Agent/LLM Self-Improvement | [ADMET-EvO: a self-evolving scientific agent for sustained research across heterogeneous tasks](https://arxiv.org/abs/2609.10121v2) | — |
-| 2026-09-09 | Reinforcement Learning | [Optimal Value Inference for Reinforcement Learning](https://arxiv.org/abs/2609.09981v2) | — |
-| 2026-09-09 | LLM Continual Training | [Deep and shallow biases in language models](https://arxiv.org/abs/2609.09901v1) | — |
-| 2026-09-09 | Reinforcement Learning | [BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL](https://arxiv.org/abs/2609.09783v2) | — |
-| 2026-09-09 | Agent Memory | [ROAM: Robust Organization of Atomic Memories for Agents through Semantic Relations](https://arxiv.org/abs/2609.09778v1) | — |
-| 2026-09-08 | Reinforcement Learning | [PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games](https://arxiv.org/abs/2609.09059v2) | — |
-| 2026-09-08 | Agent/LLM Self-Improvement | [SE-GoS: Self-Evolving Graph-of-Skills for Skill Library at Scale](https://arxiv.org/abs/2609.08228v2) | — |
-| 2026-09-08 | Agent/LLM Self-Improvement | [A Theory of Reliable Self-Evolution for Agent Harnesses](https://arxiv.org/abs/2609.08175v2) | — |
-| 2026-09-08 | Reinforcement Learning | [Inference-Time Nash Alignment](https://arxiv.org/abs/2609.08082v2) | — |
-| 2026-09-08 | Reinforcement Learning | [Risk-Conditioned Fine-Tuning of Large Language Models](https://arxiv.org/abs/2609.08064v2) | — |
-| 2026-09-07 | Reinforcement Learning | [Proprioception-Anchored Cross-Modal Pretraining for Zero-Shot Sim-to-Real Contact-Rich Assembly](https://arxiv.org/abs/2609.07534v3) | — |
-| 2026-09-07 | Agent/LLM Self-Improvement, Reinforcement Learning | [CoER: Defending against Adaptive Indirect Prompt Injection via Adversarial Co-Evolution and Refinement](https://arxiv.org/abs/2609.07529v3) | — |
-| 2026-09-07 | Reinforcement Learning | [The Geometry of Refusal: Why Post-Hoc Safety Is Fragile and Pretraining-Time Safety Persists](https://arxiv.org/abs/2609.06934v2) | — |
-| 2026-09-06 | Reinforcement Learning | [PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents](https://arxiv.org/abs/2609.06702v2) | — |
-| 2026-09-06 | Reinforcement Learning | [Thinking with Cameras: Active Visual Reasoning via Dynamic Viewpoint Control for Surveillance Video Understanding](https://arxiv.org/abs/2609.06475v2) | — |
-| 2026-09-05 | Reinforcement Learning | [VERPO: Verified Evidence Regularized Policy Optimization](https://arxiv.org/abs/2609.06100v4) | — |
-| 2026-09-05 | Reinforcement Learning | [SCoCaT: Success Conditioned Constrained Reinforcement Learning for Spacecraft Docking](https://arxiv.org/abs/2609.06061v2) | — |
-| 2026-09-04 | Reinforcement Learning | [First Things First: Teaching LLM-Based Agents to Prioritize Must-Haves before Nice-to-Haves](https://arxiv.org/abs/2609.05224v3) | — |
-| 2026-09-04 | Reinforcement Learning | [Compression Beyond the Uncompressed: A Two-Stage Training Recipe for Soft Context Compression in RAG](https://arxiv.org/abs/2609.05152v2) | — |
-| 2026-09-04 | Reinforcement Learning | [SciDocBench: A Workflow-Centered Benchmark and Data Pipeline for Scientific Document Understanding](https://arxiv.org/abs/2609.05141v2) | — |
-| 2026-09-04 | Reinforcement Learning | [Unifying ICL, SFT, KL-Regularized RL Through a Bayesian Lens](https://arxiv.org/abs/2609.05111v2) | — |
-| 2026-09-03 | Reinforcement Learning | [VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models](https://arxiv.org/abs/2609.04355v3) | — |
-| 2026-09-03 | Reinforcement Learning | [Computation of Strong Solutions to Stochastic Variational Inequalities](https://arxiv.org/abs/2609.04188v2) | — |
-| 2026-09-03 | Reinforcement Learning | [EF1-Constrained Nash Social Welfare with Identical Additive Valuations: Complexity, Guarantees, and Experiments](https://arxiv.org/abs/2609.03846v4) | — |
-| 2026-09-03 | Reinforcement Learning | [Is One Step Enough for Offline Policy Improvement?](https://arxiv.org/abs/2609.03842v2) | — |
-| 2026-09-03 | Agent/LLM Self-Improvement, LLM Continual Training | [SimSkill: A Self-Evolving LLM Agent for Skill and Knowledge Accumulation in Traffic Simulation](https://arxiv.org/abs/2609.03753v2) | — |
-| 2026-09-03 | Agent Memory | [Plan Pointers and Record-Directive Form in Budgeted Verification of Inherited Agent Memory](https://arxiv.org/abs/2609.03450v2) | — |
-| 2026-09-03 | Agent Memory | [The Civilization Framework: Sovereign-Anchored Communication Between Personal Multi-Agent Systems](https://arxiv.org/abs/2609.03425v1) | — |
-| 2026-09-03 | Agent Memory | [Fresh Memory, Stale Plans: Derivation Currency for Distributed LLM-Agent Memory](https://arxiv.org/abs/2609.03340v2) | — |
-| 2026-09-03 | Agent/LLM Self-Improvement, LLM Continual Training | [EvoHarnessBench: Can Your Agents Keep Pace with an Evolving Harness?](https://arxiv.org/abs/2609.04280v3) | — |
-| 2026-09-03 | Reinforcement Learning | [Long-Horizon Consistent and Interaction-Aware World Models for Multi-Style End-to-End Driving](https://arxiv.org/abs/2609.03225v2) | — |
-| 2026-09-02 | Reinforcement Learning | [Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation](https://arxiv.org/abs/2609.02998v2) | — |
-| 2026-09-02 | Agent/LLM Self-Improvement | [SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment](https://arxiv.org/abs/2609.02786v1) | — |
-| 2026-09-02 | Reinforcement Learning | [Online Reinforcement Learning in the Met Office Unified Model through Distributed Model-Agent Coupling](https://arxiv.org/abs/2609.02566v2) | — |
-| 2026-09-02 | Agent/LLM Self-Improvement, Reinforcement Learning | [APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering](https://arxiv.org/abs/2609.02253v1) | — |
+| 2026-03-17 | Agent Memory | [Chronos: Temporal-Aware Conversational Agents with Structured Event Retrieval for Long-Term Memory](https://arxiv.org/abs/2603.16862) | — |
+| 2026-03-17 | Agent Memory | [MemX: A Local-First Long-Term Memory System for AI Assistants](https://arxiv.org/abs/2603.16171) | — |
+| 2026-03-16 | Agent Memory | [From Storage to Steering: Memory Control Flow Attacks on LLM Agents](https://arxiv.org/abs/2603.15125) | 📈 Highly cited |
+| 2026-03-16 | Agent Memory | [CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents](https://arxiv.org/abs/2603.15421) | — |
+| 2026-03-16 | Agent Memory | [Advancing Multimodal Agent Reasoning with Long-Term Neuro-Symbolic Memory](https://arxiv.org/abs/2603.15280) | — |
+| 2026-03-15 | Agent Memory | [D-MEM: Dopamine-Gated Agentic Memory via Reward Prediction Error Routing](https://arxiv.org/abs/2603.14597) | — |
+| 2026-03-15 | Agent Memory | [SuperLocalMemory V3: Information-Geometric Foundations for Zero-LLM Enterprise Agent Memory](https://arxiv.org/abs/2603.14588) | ⭐ Popular code |
+| 2026-03-15 | Agent/LLM Self-Improvement, Agent Memory | [Memory as Asset: From Agent-centric to Human-centric Memory Management](https://arxiv.org/abs/2603.14212) | — |
+| 2026-03-14 | Reinforcement Learning | [Look Where It Matters: High-Resolution Crops Retrieval for Efficient VLMs](https://arxiv.org/abs/2603.16932v2) | — |
+| 2026-03-14 | Agent/LLM Self-Improvement, Agent Memory | [TheraAgent: Multi-Agent Framework with Self-Evolving Memory and Evidence-Calibrated Reasoning for PET Theranostics](https://arxiv.org/abs/2603.13676) | — |
+| 2026-03-13 | LLM Continual Training | [Beyond Static Models: An Evolving Framework for Continual Learning in Large Language Models across Training Stages](https://arxiv.org/abs/2603.12658v2) | — |
+| 2026-03-13 | Agent/LLM Self-Improvement | [MineEvolve: Self-Evolution with Accumulated Knowledge for Long-Horizon Embodied Minecraft Agents](https://arxiv.org/abs/2603.13131) | — |
+| 2026-03-13 | Agent Memory | [Joint Optimization of Multi-agent Memory System](https://arxiv.org/abs/2603.12631) | — |
+| 2026-03-13 | Agent Memory | [Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation](https://arxiv.org/abs/2603.13017) | — |
+| 2026-03-12 | LLM Continual Training | [Continual Learning with Vision-Language Models via Semantic-Geometry Preservation](https://arxiv.org/abs/2603.12055v3) | — |
+| 2026-03-12 | Agent Memory, LLM Continual Training | [Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework](https://arxiv.org/abs/2603.11768) | 📈 Highly cited |
+| 2026-03-12 | Agent Memory | [BrainMem: Brain-Inspired Evolving Memory for Embodied Agent Task Planning](https://arxiv.org/abs/2604.16331) | — |
+| 2026-03-12 | Agent Memory | [Compiled Memory: Not More Information, but More Precise Instructions for Language Agents](https://arxiv.org/abs/2603.15666) | — |
+| 2026-03-11 | Reinforcement Learning | [Novelty Adaptation Through Hybrid Large Language Model (LLM)-Symbolic Planning and LLM-guided Reinforcement Learning](https://arxiv.org/abs/2603.11351v2) | — |
+| 2026-03-11 | Agent/LLM Self-Improvement, Agent Memory | [Trajectory-Informed Memory Generation for Self-Improving Agent Systems](https://arxiv.org/abs/2603.10600) | 📈 Highly cited |
+| 2026-03-11 | Agent/LLM Self-Improvement, Agent Memory | [Hybrid Self-evolving Structured Memory for GUI Agents](https://arxiv.org/abs/2603.10291) | 📈 Highly cited |
+| 2026-03-10 | Agent/LLM Self-Improvement, Agent Memory | [AutoAgent: Evolving Cognition and Elastic Memory Orchestration for Adaptive Agents](https://arxiv.org/abs/2603.09716) | — |
+| 2026-03-10 | Agent Memory | [TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA](https://arxiv.org/abs/2603.09297) | — |
+| 2026-03-09 | Agent/LLM Self-Improvement | [RL unknotter, hard unknots and unknotting number](https://arxiv.org/abs/2603.07955v4) | — |
+| 2026-03-09 | Agent Memory | [Multi-Agent Memory from a Computer Architecture Perspective: Visions and Challenges Ahead](https://arxiv.org/abs/2603.10062) | — |
+| 2026-03-09 | Agent Memory | [MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games](https://arxiv.org/abs/2603.09022) | — |
+| 2026-03-08 | Agent Memory | [Did You Check the Right Pocket? Cost-Sensitive Store Routing for Memory-Augmented Agents](https://arxiv.org/abs/2603.15658) | — |
+| 2026-03-08 | Agent/LLM Self-Improvement, Agent Memory | [Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers](https://arxiv.org/abs/2603.07670) | 📈 Highly cited |
+| 2026-03-08 | Agent Memory, LLM Continual Training | [Can Large Language Models Keep Up? Benchmarking Online Adaptation to Continual Knowledge Streams](https://arxiv.org/abs/2603.07392) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-03-07 | Agent Memory | [Enhancing Web Agents with a Hierarchical Memory Tree](https://arxiv.org/abs/2603.07024) | — |
+| 2026-03-06 | Agent/LLM Self-Improvement | [Evolving Deception: When Agents Evolve, Deception Wins](https://arxiv.org/abs/2603.05872) | — |
+| 2026-03-05 | Agent Memory, LLM Continual Training | [EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication in Longitudinal Dialogue](https://arxiv.org/abs/2603.04815) | — |
+| 2026-03-05 | Agent Memory | [Beyond the Context Window: A Cost-Performance Analysis of Fact-Based Memory vs. Long-Context LLMs for Persistent Agents](https://arxiv.org/abs/2603.04814) | 📈 Highly cited |
+| 2026-03-04 | Agent Memory | [Adaptive Memory Admission Control for LLM Agents](https://arxiv.org/abs/2603.04549) | 📈 Highly cited |
+| 2026-03-04 | Agent Memory | [Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory](https://arxiv.org/abs/2603.04257) | 📈 Highly cited |
+| 2026-03-03 | Agent/LLM Self-Improvement, LLM Continual Training | [Self-Evolutionary Replanning for Failure-Aware Motion Planning](https://arxiv.org/abs/2603.02772v2) | — |
+| 2026-03-03 | Agent Memory | [Multi-Agent Debate with Memory Masking](https://arxiv.org/abs/2603.20215) | — |
+| 2026-03-03 | Agent Memory | [CraniMem: Cranial Inspired Gated and Bounded Memory for Agentic Systems](https://arxiv.org/abs/2603.15642) | — |
+| 2026-03-02 | Agent Memory, LLM Continual Training | [Position: Modular Memory is the Key to Continual Learning Agents](https://arxiv.org/abs/2603.01761) | — |
+| 2026-03-02 | Agent Memory, Reinforcement Learning | [From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck for Long-Horizon Video Agents](https://arxiv.org/abs/2603.01455) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-03-02 | Agent Memory | [Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory](https://arxiv.org/abs/2603.02473) | — |
+| 2026-03-02 | Agent Memory | [Persistent Identity in AI Agents: A Multi-Anchor Architecture for Resilient Memory and Continuity](https://arxiv.org/abs/2604.09588) | — |
+| 2026-03-02 | Agent/LLM Self-Improvement, Agent Memory | [AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations](https://arxiv.org/abs/2603.01966) | 📈 Highly cited |
+| 2026-03-01 | Agent/LLM Self-Improvement, LLM Continual Training | [AutoSkill: Experience-Driven Lifelong Learning via Skill Self-Evolution](https://arxiv.org/abs/2603.01145) | 📈 Highly cited |
+| 2026-03-01 | Agent Memory | [Semantic XPath: Structured Agentic Memory Access for Conversational AI](https://arxiv.org/abs/2603.01160) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-02-28 | Agent Memory | [MemPO: Self-Memory Policy Optimization for Long-Horizon Agents](https://arxiv.org/abs/2603.00680) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-02-28 | Agent Memory | [M$^2$: Dual-Memory Augmentation for Long-Horizon Web Agents via Trajectory Summarization and Insight Retrieval](https://arxiv.org/abs/2603.00503) | — |
+| 2026-02-27 | Agent Memory | [MemEmo: Evaluating Emotion in Memory Systems of Agents](https://arxiv.org/abs/2602.23944) | — |
+| 2026-02-26 | Agent Memory | [AMA-Bench: Evaluating Long-Horizon Memory for Agentic Applications](https://arxiv.org/abs/2602.22769) | 📈 Highly cited |
+| 2026-02-26 | Agent/LLM Self-Improvement, Agent Memory | [ParamMem: Augmenting Language Agents with Parametric Reflective Memory](https://arxiv.org/abs/2602.23320) | — |
+
+## 🚨 Priority Watch
+
+| Paper | Signals | Venue / affiliation evidence |
+| --- | --- | --- |
+| [From Storage to Steering: Memory Control Flow Attacks on LLM Agents](https://arxiv.org/abs/2603.15125) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework](https://arxiv.org/abs/2603.11768) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Trajectory-Informed Memory Generation for Self-Improving Agent Systems](https://arxiv.org/abs/2603.10600) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Hybrid Self-evolving Structured Memory for GUI Agents](https://arxiv.org/abs/2603.10291) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers](https://arxiv.org/abs/2603.07670) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Can Large Language Models Keep Up? Benchmarking Online Adaptation to Continual Knowledge Streams](https://arxiv.org/abs/2603.07392) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [Beyond the Context Window: A Cost-Performance Analysis of Fact-Based Memory vs. Long-Context LLMs for Persistent Agents](https://arxiv.org/abs/2603.04814) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Adaptive Memory Admission Control for LLM Agents](https://arxiv.org/abs/2603.04549) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory](https://arxiv.org/abs/2603.04257) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck for Long-Horizon Video Agents](https://arxiv.org/abs/2603.01455) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations](https://arxiv.org/abs/2603.01966) | 📈 Highly cited | First author: The Hong Kong University of Science and Technology (Semantic Scholar author profiles) |
+| [AutoSkill: Experience-Driven Lifelong Learning via Skill Self-Evolution](https://arxiv.org/abs/2603.01145) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Semantic XPath: Structured Agentic Memory Access for Conversational AI](https://arxiv.org/abs/2603.01160) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>University of Toronto |
+| [MemPO: Self-Memory Policy Optimization for Long-Horizon Agents](https://arxiv.org/abs/2603.00680) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [AMA-Bench: Evaluating Long-Horizon Memory for Agentic Applications](https://arxiv.org/abs/2602.22769) | 📈 Highly cited | UC San Diego |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
-### [BlueLM-GUI Technical Report: A Real-Device-Centric Flywheel for Self-Improving Mobile GUI Agents](https://arxiv.org/abs/2609.12394v3)
+### [Memory as Asset: From Agent-centric to Human-centric Memory Management](https://arxiv.org/abs/2603.14212)
 
-- **Authors:** Tong Ye, Kunyang Han, Guozhi Wang, Longqiang Luo, Zhifeng Ding, Yongxiang Zhang, Xiaolei Shen, Yuxuan Zhang, Zhuping Zhang, Tao Xu, Yue Pan, Yucheng Zhao, Yupei Hu, Yuanjiang Ouyang, Danfeng Shen, Runqi Lin, Hongda Cai, Zhaoxiong Wang, Mengjia Yan, Yingjie Zhong, Chen Zhou, Zeyu Zhang, Xuwen Zhu, Penggang Shi, Mingcheng Luo, Ziyang Wu, Min Jin, Mingfu Shen, Zairong Xu, Fan Zhang, Hao Wang, Liang Liu, Zhulin Xie, Lijun Yao, Xiao Liang, Liangmin Wen, Liqiang Feng, Feilong Wu, Min Hu, Min Chen, Guanjing Xiong, Xiaohu Ruan, Xiaoxin Chen
-- **Published:** 2026-09-11
+- **Authors:** Pan, Yanqi, Huang, Qinghao, Yang, Weihao
+- **Published:** 2026-03-15
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** University of Oxford
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.12394v3) · [PDF](https://arxiv.org/pdf/2609.12394v3)
+- **Links:** [Paper](https://arxiv.org/abs/2603.14212) · [PDF](https://arxiv.org/pdf/2603.14212)
 
-Mobile GUI agents are shifting from multi-module frameworks to native models trained end-to-end, yet industrial deployment faces three persistent gaps. Sandbox training produces a distribution mismatch with production environments; expensive real-device failures remain underutilized; and fixed benchmarks saturate, losing the power to guide iteration. We present BlueLM-GUI, a 35B-A3B mobile GUI agent built as a real-device-centric flywheel that closes these gaps through three principles. Every Sample Matters: a dual-track pipeline with Heterogeneous Triple-System Consensus evaluation and an Error Correction \& Derivation Module salvages every trajectory into usable supervision. Every Rollout Is Real: a three-stage recipe---continual pre-training, supervised fine-tuning, and agentic reinforcement learning on hundreds of real phones---grounds every rollout in real production environments, so the capability the model learns transfers directly to deployment. Every Query Evolves: a quota-driven benchmark methodology with three orthogonal axes enables precise attribution and allows the benchmark to be systematically upgraded as the model improves. BlueLM-GUI achieves 87.4 on MobileGUI-VBench, surpassing the best closed-source model by 5.1 points, and 84.9 on AndroidWorld, the best result among open-source models and competitive with closed-source models. These results demonstrate that grounding model training and iterative improvement in both real devices and the three Every principles yields strong, robust, and transferable mobile GUI capability.
+We proudly introduce Memory-as-Asset, a new memory paradigm towards human-centric artificial general intelligence (AGI). In this paper, we formally emphasize that human-centric, personal memory management is a prerequisite for complementing the collective knowledge of existing large language models (LLMs) and extending their knowledge boundaries through self-evolution. We introduce three key features that shape the Memory-as-Asset era: (1) Memory in Hand, which emphasizes human-centric ownership to maximize benefits to humans; (2) Memory Group, which provides collaborative knowledge formation to avoid memory islands, and (3) Collective Memory Evolution, which enables continuous knowledge growth to extend the boundary of knowledge towards AGI. We finally give a potential three-layer memory infrastructure to facilitate the Memory-as-Asset paradigm, with fast personal memory storage, an intelligent evolution layer, and a decentralized memory exchange network. Together, these components outline a foundational architecture in which personal memories become persistent digital assets that can be accumulated, shared, and evolved over time. We believe this paradigm provides a promising path toward scalable, human-centric AGI systems that continuously grow through the collective experiences of individuals and intelligent agents.
 
-### [The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement](https://arxiv.org/abs/2609.11873v3)
+### [TheraAgent: Multi-Agent Framework with Self-Evolving Memory and Evidence-Calibrated Reasoning for PET Theranostics](https://arxiv.org/abs/2603.13676)
 
-- **Authors:** Yi Duan, Ying Liu, Zirui Tang, Haodong Chen, Jun Zhou, Yumou Liu, Bangrui Xu, Yukai Wu, Sidi Chen, Yuhan Zhou, Haoyu Wang, Xiaoyou Yu, Shaokun Han, Xuzhou Zhu, Le Zhou, Bolin Lu, Wei Zhou, Jiachen Liu, Nuozhou Fang, Jiaxin Tian, Ruoyu Chen, Yuxuan Li, Kai Zuo, Kaiyan Zhang, Qianyu Yang, Zijie Wang, Jiantao Qiu, Conghui He, Guoliang Li, Bowen Zhou, Zhiyuan Liu, Zhoufutu Wen, Jihua Kang, Xuanhe Zhou, Fan Wu
-- **Published:** 2026-09-10
+- **Authors:** Chen, Zhihao, Wang, Jiahui, Chen, Yizhou, Ji, Xiaozhong, Hu, Xiaobin, Hong, Jimin, Bosbach, Wolfram Andreas, Rominger, Axel, Afshar-Oromieh, Ali, Shan, Hongming, Shi, Kuangyu
+- **Published:** 2026-03-14
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2609.11873v3) · [PDF](https://arxiv.org/pdf/2609.11873v3)
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.13676) · [PDF](https://arxiv.org/pdf/2603.13676)
 
-Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improve both their capabilities and the process of future improvement. We first use the Headroom-Closed Index (HCI) to reveal the problems of existing LLMs, then introduce the RSI concept and its development roadmap: from improvement-execution autonomy, improvement-strategy autonomy, experience-acquisition autonomy, and environment-adaptation autonomy, to recursive meta-improvement. Next we examine RSI across scenarios (e.g., scientific discovery, embodied intelligence, software engineering), highlighting their distinct requirements and development speeds. Drawing on diverse industry practices and preliminary empirical evidence, we connect RSI research with practical systems and identify key challenges to achieving genuine RSI.
+PET theranostics is transforming precision oncology, yet treatment response varies substantially; many patients receiving 177Lu-PSMA radioligand therapy (RLT) for metastatic castration-resistant prostate cancer (mCRPC) fail to respond, demanding reliable pre-therapy prediction. While LLM-based agents have shown remarkable potential in complex medical diagnosis, their application to PET theranostic outcome prediction remains unexplored, which faces three key challenges: (1) data and knowledge scarcity: RLT was only FDA-approved in 2022, yielding few training cases and insufficient domain knowledge in general LLMs; (2) heterogeneous information integration: robust prediction hinges on structured knowledge extraction from PET/CT, laboratory tests, and free-text clinical documentation; (3) evidence-grounded reasoning: clinical decisions must be anchored in trial evidence rather than LLM hallucinations. In this paper, we present TheraAgent, to our knowledge, the first agentic framework for PET theranostics, with three core innovations: (1) Multi-Expert Feature Extraction with Confidence-Weighted Consensus, where three specialized experts process heterogeneous inputs with uncertainty quantification; (2) Self-Evolving Agentic Memory (SEA-Mem), which learns prognostic patterns from accumulated cases, enabling case-based reasoning from limited data; (3) Evidence-Calibrated Reasoning, integrating a curated theranostics knowledge base to ground predictions in VISION/TheraP trial evidence. Evaluated on 35 real patients and 400 synthetic cases, TheraAgent achieves 75.7% overall accuracy on real patients and 87.0% on synthetic cases, outperforming MDAgents and MedAgent-Pro by over 20%. These results highlight a promising blueprint for trustworthy AI agents in PET theranostics, enabling trial-calibrated, multi-source decision support. Code will be released upon acceptance.
 
-### [Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents](https://arxiv.org/abs/2609.11677v2)
+### [MineEvolve: Self-Evolution with Accumulated Knowledge for Long-Horizon Embodied Minecraft Agents](https://arxiv.org/abs/2603.13131)
 
-- **Authors:** Ruiqing Yue, Yu Cui, Zhuoyu Sun, Sicheng Pan, Xianhong Xue, Tingyu Li, Ting Li, Wenzhuo Zhu, Yi Chen, Yifei Liu, Baohan Huang, Zhe Cui, Haibin Zhang, Cong Zuo
-- **Published:** 2026-09-10
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.SE, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.11677v2) · [PDF](https://arxiv.org/pdf/2609.11677v2)
-
-Self-evolving runtime harnesses can substantially improve the capabilities of large language model (LLM) agents and provide a promising paradigm for optimizing agent execution. Existing failure-driven approaches often treat observed agent failures as direct evidence for harness modification. A key challenge in failure-driven harness evolution is that observed failures can reflect either limitations of the underlying model or systematic deficiencies of the harness. Directly optimizing against individual failures can therefore induce model-specific accommodation and impair generalization across tasks and models. We study whether failure evidence accumulated across task instances can provide a more reliable signal for harness training. Our key insight is that failures recurring across distinct tasks provide stronger inductive evidence for systematic harness deficiencies than isolated failures. Based on this insight, we propose Ecdysis, which aggregates failure evidence across task instances before promoting recurring failure patterns into persistent harness evolution, biasing evolution toward repairs that are more likely to generalize beyond individual model behaviors. Ecdysis further employs collaborative failure analysis to refine modification specifications, trading additional evolution-time reasoning for improved modification quality. Across multiple LLMs and benchmarks, Ecdysis improves the reasoning accuracy of evolved harnesses by 18.56% over existing harness evolution while achieving up to 1.84x faster harness training. Ecdysis also enables more data-efficient training. Fine-grained analysis shows that Ecdysis reduces model-specific accommodation during evolution, while the resulting harnesses exhibit stronger cross-LLM generalization and lower inference-time token consumption.
-
-### [A-JIT: Agentic Just-In-Time Software Construction](https://arxiv.org/abs/2609.10248v1)
-
-- **Authors:** Mark Marron, Earl T. Barr
-- **Published:** 2026-09-09
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.SE, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.10248v1) · [PDF](https://arxiv.org/pdf/2609.10248v1)
-
-Traditional software delivery assumes a static paradigm: code is constructed prior to execution and deployed as a fixed artifact. We present Agentic Just-In-Time Software Construction (A-JIT), a paradigm that replaces static binaries with dynamic, software systems that can perpetually evolve to meet changing demands. In A-JIT, an application is an integrated assembly comprising code, a runtime harness, and an embedded AI agent that continuously observes system usage and live execution traces. Much like a traditional JIT compiler specializes machine code to runtime execution paths, A-JIT specializes software logic, workflows, and tool interfaces to meet the specific needs of the end-user. By integrating synthesis directly into the ambient application lifecycle, A-JIT enables applications to dynamically construct missing implementations, generate new capabilities on the fly, and continuously adapt to end-user behavior. We demonstrate how this model supports trace-driven human-AI co-construction and opens a new design space for adaptive, self-evolving software.
-
-### [ADMET-EvO: a self-evolving scientific agent for sustained research across heterogeneous tasks](https://arxiv.org/abs/2609.10121v2)
-
-- **Authors:** Yiling Zhou, Yilin Wang, Jianmin Wang, Heqin Zhu, Zirui Wang, Chang-yu Hiesh, Kejun Ying, Jiaqi Wang, Yuzhi Xu, Tingjun Hou, Odin Zhang
-- **Published:** 2026-09-09
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** q-bio.QM
-- **Links:** [Paper](https://arxiv.org/abs/2609.10121v2) · [PDF](https://arxiv.org/pdf/2609.10121v2)
-
-Scientific agents can move beyond automated model building by using accumulated evidence to revise both their questions and experimental strategies. The challenge is sustaining this adaptation across heterogeneous tasks without overfitting decisions to internal validation. Absorption, distribution, metabolism, excretion and toxicity (ADMET) prediction provides a demanding setting across diverse assays, datasets and chemical domains. We therefore developed ADMET-EvO, an evidence-gated agent that formalizes endpoints, generates falsifiable hypotheses and tests interventions across data, feature and model axes. It carries supported, rejected and inconclusive outcomes forward to guide each new cycle. Across the 22-task Therapeutics Data Commons (TDC) ADMET benchmark, ADMET-EvO achieved the highest task-normalized score of 96.77. Evidence-guided selection reduced cumulative fitting time by 72.2% within a predefined non-inferiority margin. It also formalized 43 toxicity-related tasks and constructed endpoint-specific predictors. Together, these results show how ADMET-EvO can accumulate evidence, revise its strategy and expand its research scope over time.
-
-### [SE-GoS: Self-Evolving Graph-of-Skills for Skill Library at Scale](https://arxiv.org/abs/2609.08228v2)
-
-- **Authors:** Dawei Fu, Cheng Jiang, Sitian Qian, Huainan Wang, Zhongkai Hao
-- **Published:** 2026-09-08
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2609.08228v2) · [PDF](https://arxiv.org/pdf/2609.08228v2)
-
-LLM agents use large libraries of reusable skills. At thousands of skill entries, retrieval becomes the bottleneck. Graph-of-Skills (GoS) retrieves dependency-aware bundles from a typed skill graph, and SkillDAG shows that such a graph can accumulate execution-backed structure online. Neither asks whether execution traces can be distilled into a better retrieval graph that generalizes to unseen tasks. We present \textbf{Self-Evolving Graph-of-Skills (SE-GoS)}, which treats the retrieval graph as an index rather than a learned representation: the graph is maintained from execution traces while the retrieval pipeline, the skill library, and the model stay fixed. SE-GoS applies three updates: (1) \textbf{topology}, which induces relations from execution evidence and retracts an avoid edge only after repeated successful co-use; (2) \textbf{edge-weight}, which softly attenuates unsupported semantic edges and reinforces incoming edges to used skills; and (3) \textbf{node-description}, which updates retrieval-facing descriptions stored on graph nodes ranked too low. On SkillsBench, one evolution round lifts average reward from 52.4\% to 59.4\%, above full-library loading, vector retrieval, static GoS, and SkillDAG, and this ordering repeats on all three backbones. Retrieval over the evolved graph spends about two-thirds of the input tokens that loading the full library costs. Repeating the round does not help. The same graph improves a held-out split it never saw from 52.9\% to 58.3\%, so what it accumulates transfers rather than memorizes traces. Skill graphs can therefore be improved from execution experience without model training, retrieval-algorithm changes, skill-content modifications, or a model judging which skills are related.
-
-### [A Theory of Reliable Self-Evolution for Agent Harnesses](https://arxiv.org/abs/2609.08175v2)
-
-- **Authors:** Qianshu Cai, Yonggang Zhang, Jun Nie, Maohao Ran, Huajiang Zheng, Jun Song, Xinmei Tian, Yike Guo, Wei Xue
-- **Published:** 2026-09-08
+- **Authors:** Xie, Zhengwei, Chen, Zhisheng, Weng, Ziyan, Li, Jinhan, Li, Chenglong, Xiao, Zikai, Song, Jingwei, Jing, Jinhao, Zhang, Vireo, Wang, Kun
+- **Published:** 2026-03-13
 - **Priority:** —
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.08175v2) · [PDF](https://arxiv.org/pdf/2609.08175v2)
+- **Links:** [Paper](https://arxiv.org/abs/2603.13131) · [PDF](https://arxiv.org/pdf/2603.13131) · [Code](https://github.com/xzw-ustc/MC-MineEvolve)
 
-In harness self-evolution, agents modify their own prompts, code, tools, and orchestration while keeping the underlying language model fixed. Recent work has shown that agents can improve themselves in response to task failures and achieve substantial performance gains. However, gains on failed tasks do not automatically ensure that performance on previously successful tasks is preserved, raising concerns about reliable adoption. In this work, we provide a theoretically grounded condition under which a self-evolved harness can be reliably adopted. We then propose a validation rule to make the evolved system satisfy the reliable adoption condition with theoretical guarantees. Consequently, the system can achieve progressive improvement through evolution. This leads to a natural question: Does reliable self-evolution have a performance ceiling, and which factors govern this ceiling? Our theoretical results show that the performance ceiling is determined by the costs of verification and evaluation. On the other hand, self-evolution may stall in practice. In this regard, we show that experimental evidence on agent performance shifts can be used to identify the sources of stagnation. Our work thus establishes a theoretical framework for understanding and advancing reliable harness self-evolution.
+Long-horizon embodied intelligence requires agents to improve through interaction, not merely to execute plans generated from static goals. A central challenge is therefore to transform past executions into knowledge that can shape future decisions. Minecraft provides a representative testbed for this problem, where tasks such as crafting tools, building redstone components, and obtaining diamond equipment involve long prerequisite chains and are frequently disrupted by missing tools, blocked paths, GUI failures, or stagnant execution. To this end, we propose \textbf{MineEvolve}, a knowledge-driven self-evolution framework that converts execution feedback into actionable behavioral knowledge. MineEvolve first uses \underline{\emph{\textbf{\ding{182}Monitor}}} to convert each subgoal execution into typed feedback, including state changes, inventory changes, failure types, progress signals, and stagnation indicators. \underline{\emph{\textbf{\ding{183}Inducer}}} then derives reusable skills from successful executions and remedies from failed or stagnant executions. \underline{\emph{\textbf{\ding{184}Curator}}} validates, merges, filters, and retrieves these knowledge entries, while \underline{\emph{\textbf{\ding{185}Adaptor}}} uses them to repair the unfinished part of the plan under repeated failures or stagnation. Experiments on the Minecraft MCU long-horizon task suite show that MineEvolve consistently improves performance across multiple language-model planners, with larger gains on high-dependency task groups. Ablation and knowledge-accumulation studies further demonstrate that converting execution signals into structured behavioral knowledge is an effective path toward self-evolving embodied agents in long-horizon environments. Our code is available at https://github.com/xzw-ustc/MC-MineEvolve.
 
-### [CoER: Defending against Adaptive Indirect Prompt Injection via Adversarial Co-Evolution and Refinement](https://arxiv.org/abs/2609.07529v3)
+### [Trajectory-Informed Memory Generation for Self-Improving Agent Systems](https://arxiv.org/abs/2603.10600)
 
-- **Authors:** Boyang Zhang, Qingxin Xiao, Lingwei Dang, Qingyao Wu
-- **Published:** 2026-09-07
+- **Authors:** Fang, Gaodan, Isahagian, Vatche, Jayaram, K. R., Kumar, Ritesh, Muthusamy, Vinod, Oum, Punleuk, Thomas, Gegi
+- **Published:** 2026-03-11
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.10600) · [PDF](https://arxiv.org/pdf/2603.10600)
+
+LLM-powered agents face a persistent challenge: learning from their execution experiences to improve future performance. While agents can successfully complete many tasks, they often repeat inefficient patterns, fail to recover from similar errors, and miss opportunities to apply successful strategies from past executions. We present a novel framework for automatically extracting actionable learnings from agent execution trajectories and utilizing them to improve future performance through contextual memory retrieval. Our approach comprises four components: (1) a Trajectory Intelligence Extractor that performs semantic analysis of agent reasoning patterns, (2) a Decision Attribution Analyzer that identifies which decisions and reasoning steps led to failures, recoveries, or inefficiencies, (3) a Contextual Learning Generator that produces three types of guidance -- strategy tips from successful patterns, recovery tips from failure handling, and optimization tips from inefficient but successful executions, and (4) an Adaptive Memory Retrieval System that injects relevant learnings into agent prompts based on multi-dimensional similarity. Unlike existing memory systems that store generic conversational facts, our framework understands execution patterns, extracts structured learnings with provenance, and retrieves guidance tailored to specific task contexts. Evaluation on the AppWorld benchmark demonstrates consistent improvements, with up to 14.3 percentage point gains in scenario goal completion on held-out tasks and particularly strong benefits on complex tasks (28.5~pp scenario goal improvement, a 149\% relative increase).
+
+### [Hybrid Self-evolving Structured Memory for GUI Agents](https://arxiv.org/abs/2603.10291)
+
+- **Authors:** Zhu, Sibo, Wu, Wenyi, Zhou, Kun, Wang, Stephen, Huang, Biwei
+- **Published:** 2026-03-11
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.10291) · [PDF](https://arxiv.org/pdf/2603.10291)
+
+The remarkable progress of vision-language models (VLMs) has enabled GUI agents to interact with computers in a human-like manner. Yet real-world computer-use tasks remain difficult due to long-horizon workflows, diverse interfaces, and frequent intermediate errors. Prior work equips agents with external memory built from large collections of trajectories, but relies on flat retrieval over discrete summaries or continuous embeddings, falling short of the structured organization and self-evolving characteristics of human memory. Inspired by the brain, we propose Hybrid Self-evolving Structured Memory (HyMEM), a graph-based memory that couples discrete high-level symbolic nodes with continuous trajectory embeddings. HyMEM maintains a graph structure to support multi-hop retrieval, self-evolution via node update operations, and on-the-fly working-memory refreshing during inference. Extensive experiments show that HyMEM consistently improves open-source GUI agents, enabling 7B/8B backbones to match or surpass strong closed-source models; notably, it boosts Qwen2.5-VL-7B by +22.5% and outperforms Gemini2.5-Pro-Vision and GPT-4o.
+
+### [AutoAgent: Evolving Cognition and Elastic Memory Orchestration for Adaptive Agents](https://arxiv.org/abs/2603.09716)
+
+- **Authors:** Wang, Xiaoxing, Liao, Ning, Wei, Shikun, Tang, Chen, Xiong, Feiyu
+- **Published:** 2026-03-10
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.09716) · [PDF](https://arxiv.org/pdf/2603.09716)
+
+Autonomous agent frameworks still struggle to reconcile long-term experiential learning with real-time, context-sensitive decision-making. In practice, this gap appears as static cognition, rigid workflow dependence, and inefficient context usage, which jointly limit adaptability in open-ended and non-stationary environments. To address these limitations, we present AutoAgent, a self-evolving multi-agent framework built on three tightly coupled components: evolving cognition, on-the-fly contextual decision-making, and elastic memory orchestration. At the core of AutoAgent, each agent maintains structured prompt-level cognition over tools, self-capabilities, peer expertise, and task knowledge. During execution, this cognition is combined with live task context to select actions from a unified space that includes tool calls, LLM-based generation, and inter-agent requests. To support efficient long-horizon reasoning, an Elastic Memory Orchestrator dynamically organizes interaction history by preserving raw records, compressing redundant trajectories, and constructing reusable episodic abstractions, thereby reducing token overhead while retaining decision-critical evidence. These components are integrated through a closed-loop cognitive evolution process that aligns intended actions with observed outcomes to continuously update cognition and expand reusable skills, without external retraining. Empirical results across retrieval-augmented reasoning, tool-augmented agent benchmarks, and embodied task environments show that AutoAgent consistently improves task success, tool-use efficiency, and collaborative robustness over static and memory-augmented baselines. Overall, AutoAgent provides a unified and practical foundation for adaptive autonomous agents that must learn from experience while making reliable context-aware decisions in dynamic environments.
+
+### [RL unknotter, hard unknots and unknotting number](https://arxiv.org/abs/2603.07955v4)
+
+- **Authors:** Anne Dranowski, Yura Kabkov, Daniel Tubbenhauer
+- **Published:** 2026-03-09
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** math.GT, cs.LG, stat.ML
+- **Links:** [Paper](https://arxiv.org/abs/2603.07955v4) · [PDF](https://arxiv.org/pdf/2603.07955v4)
+
+We develop a reinforcement learning pipeline for simplifying knot diagrams. A trained agent learns move proposals and a value heuristic for navigating Reidemeister moves. The pipeline applies to arbitrary knots and links; we test it on ``very hard'' unknot diagrams and, using diagram inflation, on $4_1\#9_{10}$ where we investigate the recently established and surprising upper bound of three for the unknotting number. In addition, we explain a self-improving workbook-driven extension of the pipeline that systematically improves unknotting number upper bounds on the prime knots.
+
+### [Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers](https://arxiv.org/abs/2603.07670)
+
+- **Authors:** Du, Pengfei
+- **Published:** 2026-03-08
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.07670) · [PDF](https://arxiv.org/pdf/2603.07670)
+
+Large language model (LLM) agents increasingly operate in settings where a single context window is far too small to capture what has happened, what was learned, and what should not be repeated. Memory -- the ability to persist, organize, and selectively recall information across interactions -- is what turns a stateless text generator into a genuinely adaptive agent. This survey offers a structured account of how memory is designed, implemented, and evaluated in modern LLM-based agents, covering work from 2022 through early 2026. We formalize agent memory as a \emph{write--manage--read} loop tightly coupled with perception and action, then introduce a three-dimensional taxonomy spanning temporal scope, representational substrate, and control policy. Five mechanism families are examined in depth: context-resident compression, retrieval-augmented stores, reflective self-improvement, hierarchical virtual context, and policy-learned management. On the evaluation side, we trace the shift from static recall benchmarks to multi-session agentic tests that interleave memory with decision-making, analyzing four recent benchmarks that expose stubborn gaps in current systems. We also survey applications where memory is the differentiating factor -- personal assistants, coding agents, open-world games, scientific reasoning, and multi-agent teamwork -- and address the engineering realities of write-path filtering, contradiction handling, latency budgets, and privacy governance. The paper closes with open challenges: continual consolidation, causally grounded retrieval, trustworthy reflection, learned forgetting, and multimodal embodied memory.
+
+### [Evolving Deception: When Agents Evolve, Deception Wins](https://arxiv.org/abs/2603.05872)
+
+- **Authors:** Ying, Zonghao, Dai, Haowen, Zhang, Tianyuan, Xiao, Yisong, Zou, Quanchen, Liu, Aishan, Yang, Jian, Yang, Yaodong, Liu, Xianglong
+- **Published:** 2026-03-06
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CR
+- **Links:** [Paper](https://arxiv.org/abs/2603.05872) · [PDF](https://arxiv.org/pdf/2603.05872)
+
+Self-evolving agents offer a promising path toward scalable autonomy. However, in this work, we show that in competitive environments, self-evolution can instead give rise to a serious and previously underexplored risk: the spontaneous emergence of deception as an evolutionarily stable strategy. We conduct a systematic empirical study on the self-evolution of large language model (LLM) agents in a competitive Bidding Arena, where agents iteratively refine their strategies through interaction-driven reflection. Across different evolutionary paths (\eg, Neutral, Honesty-Guided, and Deception-Guided), we find a consistent pattern: under utility-driven competition, unconstrained self-evolution reliably drifts toward deceptive behaviors, even when honest strategies remain viable. This drift is explained by a fundamental asymmetry in generalization. Deception evolves as a transferable meta-strategy that generalizes robustly across diverse and unseen tasks, whereas honesty-based strategies are fragile and often collapse outside their original contexts. Further analysis of agents internal states reveals the emergence of rationalization mechanisms, through which agents justify or deny deceptive actions to reconcile competitive success with normative instructions. Our paper exposes a fundamental tension between agent self-evolution and alignment, highlighting the risks of deploying self-improving agents in adversarial environments.
+
+### [Self-Evolutionary Replanning for Failure-Aware Motion Planning](https://arxiv.org/abs/2603.02772v2)
+
+- **Authors:** Guoliang Li, Ruihua Han, Chengyang Li, He Li, Shuai Wang, Wenchao Ding, Hong Zhang, Chengzhong Xu
+- **Published:** 2026-03-03
 - **Priority:** —
 - **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.RO
+- **Links:** [Paper](https://arxiv.org/abs/2603.02772v2) · [PDF](https://arxiv.org/pdf/2603.02772v2)
+
+Motion planners tuned under nominal conditions can fail when execution conditions change. Existing differentiable adaptation methods provide efficient online updates but remain constrained by static loss functions and gradient-only parameter updates. We propose Self-Evolutionary RePlanning (SERP), a failure-aware framework that jointly adapts motion-planner parameters and loss function weights from closed-loop execution feedback. SERP provides two adaptation mechanisms. First, in-context learning with auto-differentiation (ILAD) enables rapid online adaptation by coupling local numerical refinement with history-conditioned semantic intervention. Auto-differentiation performs numerical updates, while a vision-language model (VLM) interprets recent adaptation history to jointly revise planner parameters and loss weights when local adaptation becomes ineffective. Second, the memory-augmented rollout system (MARS) extends ILAD into a deliberative and evolutionary recovery process with memory-guided candidate generation and parallel low-fidelity rollout evaluation. The resulting recovery trace is then consolidated into recovery memory to guide future adaptation. Extensive simulation and real-world experiments demonstrate improved failure recovery performance over various baselines across diverse environments.
+
+### [AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations](https://arxiv.org/abs/2603.01966)
+
+- **Authors:** Jiayang, Cheng, Ru, Dongyu, Qiu, Lin, Li, Yiyang, Cao, Xuezhi, Song, Yangqiu, Cai, Xunliang
+- **Published:** 2026-03-02
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** The Hong Kong University of Science and Technology
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.01966) · [PDF](https://arxiv.org/pdf/2603.01966)
+
+Long-horizon interactions between users and LLM-based assistants necessitate effective memory management, yet current approaches face challenges in training and evaluation of memory. Existing memory benchmarks rely on static, off-policy data as context, limiting evaluation reliability and scalability. To address these gaps, we introduce AMemGym, an interactive environment enabling on-policy evaluation and optimization for memory-driven personalization. AMemGym employs structured data sampling to predefine user profiles, state-dependent questions, and state evolution trajectories, enabling cost-effective generation of high-quality, evaluation-aligned interactions. LLM-simulated users expose latent states through role-play while maintaining structured state consistency. Comprehensive metrics based on structured data guide both assessment and optimization of assistants. Extensive experiments reveal performance gaps in existing memory systems (e.g., RAG, long-context LLMs, and agentic memory) and corresponding reasons. AMemGym not only enables effective selection among competing approaches but also can potentially drive the self-evolution of memory management strategies. By bridging structured state evolution with free-form interactions, our framework provides a scalable, diagnostically rich environment for advancing memory capabilities in conversational agents.
+
+### [AutoSkill: Experience-Driven Lifelong Learning via Skill Self-Evolution](https://arxiv.org/abs/2603.01145)
+
+- **Authors:** Yang, Yutao, Li, Junsong, Pan, Qianjun, Zhan, Bihao, Cai, Yuxuan, Du, Lin, Zhou, Jie, Chen, Kai, Chen, Qin, Li, Xin, Zhang, Bo, He, Liang
+- **Published:** 2026-03-01
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.01145) · [PDF](https://arxiv.org/pdf/2603.01145)
+
+In practical LLM applications, users repeatedly express stable preferences and requirements, such as reducing hallucinations, following institutional writing conventions, or avoiding overly technical wording, yet such interaction experience is seldom consolidated into reusable knowledge. Consequently, LLM agents often fail to accumulate personalized capabilities across sessions. We present AutoSkill, an experience-driven lifelong learning framework that enables LLM agents to automatically derive, maintain, and reuse skills from dialogue and interaction traces. AutoSkill abstracts skills from user experience, supports their continual self-evolution, and dynamically injects relevant skills into future requests without retraining the underlying model. Designed as a model-agnostic plugin layer, it is compatible with existing LLMs and introduces a standardized skill representation for sharing and transfer across agents, users, and tasks. In this way, AutoSkill turns ephemeral interaction experience into explicit, reusable, and composable capabilities. This paper describes the motivation, architecture, skill lifecycle, and implementation of AutoSkill, and positions it with respect to prior work on memory, retrieval, personalization, and agentic systems. AutoSkill highlights a practical and scalable path toward lifelong personalized agents and personal digital surrogates.
+
+### [ParamMem: Augmenting Language Agents with Parametric Reflective Memory](https://arxiv.org/abs/2602.23320)
+
+- **Authors:** Yao, Tianjun, Chen, Yongqiang, Zheng, Yujia, Li, Pan, Shen, Zhiqiang, Zhang, Kun
+- **Published:** 2026-02-26
+- **Priority:** —
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2609.07529v3) · [PDF](https://arxiv.org/pdf/2609.07529v3)
+- **Links:** [Paper](https://arxiv.org/abs/2602.23320) · [PDF](https://arxiv.org/pdf/2602.23320)
 
-Language-model agents are vulnerable to indirect prompt injection (IPI) during tool use: adversarial instructions hidden in untrusted tool outputs can covertly redirect legitimate task execution. Existing work often trains and evaluates defenses against fixed attacks that do not adapt to the defender's behavior, so the resulting defenses may struggle against adaptive attacks in real-world settings. We argue that a strong defense against adaptive IPI must adapt during training to a continually evolving attacker. Building on this insight, we propose CoER, a verifier-grounded co-evolution and refinement framework that models interleaved tool calls and adaptive injections within a task as a general-sum Markov game: the defender advances the task through successive tool calls, while the attacker can inject multiple times within the same task and adapt subsequent attacks to the defender's responses and prior execution traces. After initializing the attacker from successful trajectories, bilateral adversarial reinforcement learning (BA-RL) retains historical policies from both roles as opponent populations and mixes current and historical opponents, extending training beyond the latest matchup. Attackers from these populations are then reused to challenge teacher agents, and only demonstrations verified for both safety and task completion are used to fine-tune the co-evolved defender. Across seven domains and three evaluation seeds, CoER reduces adaptive attack success from 41.3% to 0.2% and raises safe task completion from 39.6% to 76.2%; external benchmarks also show improved attack resistance. Further experiments validate the effectiveness of bilateral historical-opponent mixing and population-guided refinement. Attacker analyses show that co-evolution strengthens attack capabilities and that the trained attacker uses execution feedback to adapt subsequent injections.
-
-### [SimSkill: A Self-Evolving LLM Agent for Skill and Knowledge Accumulation in Traffic Simulation](https://arxiv.org/abs/2609.03753v2)
-
-- **Authors:** Qi Liu, Qinzheng Wang, Can Li, Yiming Bie, Wanjng Ma
-- **Published:** 2026-09-03
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI, cs.MA
-- **Links:** [Paper](https://arxiv.org/abs/2609.03753v2) · [PDF](https://arxiv.org/pdf/2609.03753v2)
-
-Cumulative culture enables humans to preserve, reuse, and extend knowledge and skills across experiences and generations. Inspired by this principle, we introduce \textit{SimSkill}, a self-evolving agent built around the Simulation of Urban MObility (SUMO) traffic simulator. SimSkill continually identifies capability gaps, generates and solves environment-grounded tasks, verifies solutions through an action--critic loop, and consolidates experience into episodic, procedural, and semantic memory. Through autonomous exploration, it builds a library of reusable skills and knowledge spanning major stages of the traffic-simulation workflow. We evaluate SimSkill on two held-out benchmarks across three backbone LLMs, with each result independently verified. It improves verified success by up to 25 percentage points, and ablations show complementary contributions from procedural and semantic memory. Its benefits remain backbone- and budget-dependent, as memory does not improve every model or uniformly reduce inference cost. More broadly, SimSkill illustrates a natural-language-centered design paradigm for LLM-based agent systems. Its high-level control logic, operating principles, and accumulated knowledge are expressed in natural language, while an LLM integrates them with executable tools and code to realize precise and reproducible execution. All code and experimental data are publicly available at https://github.com/qiliuchn/SimSkill-V1.
-
-### [EvoHarnessBench: Can Your Agents Keep Pace with an Evolving Harness?](https://arxiv.org/abs/2609.04280v3)
-
-- **Authors:** Zixuan Ke, Vaidehi Patil, Haizhou Shi, Yang Li, Ye Liu, Sarath Shekkizhar, Anurag Koul, Jiayu Wang, Xuan Phi Nguyen, Semih Yavuz, Mohit Bansal, Shafiq Joty
-- **Published:** 2026-09-03
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** University of North Carolina at Chapel Hill
-- **Categories:** cs.MA, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2609.04280v3) · [PDF](https://arxiv.org/pdf/2609.04280v3)
-
-Modern LLM-based agents operate through a harness of tools, reusable skills, and specialist agents that shapes what they observe and what they can do. In practice, this harness continually evolves as new capabilities are added. We introduce EvoHarnessBench, a benchmark for evaluating agents under controlled harness evolution across three axes (tools, skills, and agents). Unlike existing continual-learning benchmarks for agents, which typically place non-stationarity (i.e., what changes over time) in the task stream while keeping the harness fixed, EvoHarnessBench places non-stationarity in the externally supplied harness itself. It contains 17 multi-stage harness streams constructed deterministically from verifier-based benchmarks, comprising 802 tasks, 520 tools, 42 skills, and 62 agents. We evaluate two complementary settings corresponding to the central challenges of harness evolution: deployment evaluation, which isolates retention of previously accessible competence as the harness expands, and self-evolving adaptation evaluation, which tests whether accumulated experience remains useful as new capabilities are introduced. Our results reveal three persistent gaps. First, harness expansion alone can degrade performance on previously solved tasks, producing harness-induced forgetting. Second, gains from self-evolving adaptation remain inconsistent across stages of harness evolution, capability axes, and environments. Third, retention and adaptation can pull in different directions: preserving earlier competence does not necessarily improve adaptation to newly introduced capabilities, and vice versa. These results establish harness evolution as a distinct challenge for building agents that can keep pace with an evolving harness while preserving previously effective behavior.
-
-### [SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment](https://arxiv.org/abs/2609.02786v1)
-
-- **Authors:** Qinghua Mao, Wanying Qu, Dadi Guo, Leitao Yuan, Qingyu Liu, Yu Li, Guanxu Chen, Yanwei Fu, Xi Lin, Xia Hu, Dongrui Liu
-- **Published:** 2026-09-02
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI, cs.CR
-- **Links:** [Paper](https://arxiv.org/abs/2609.02786v1) · [PDF](https://arxiv.org/pdf/2609.02786v1)
-
-The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting with the environment. This exposes them to safety risks in both harmful final responses and multi-step execution trajectories. Existing safety alignment mechanisms often rely on either external harness updates or policy optimization, yet applying either paradigm in isolation fails to bridge runtime control with intrinsic safety. We propose SafeEvolve, an experience-driven self-evolving framework for agent safety alignment. SafeEvolve leverages safety experience from completed on-policy trajectories to drive a continual loop of harness-policy co-evolution. On the harness side, SafeEvolve converts trajectory-level safety evidence into bounded, component-level updates across safety prompt and hierarchical skills, yielding auditable and reversible harness artifacts. On the policy side, SafeEvolve follows a two-stage SFT-RL paradigm, where harness-use SFT bootstraps the policy to actively leverage evolved harness artifacts, and harness-augmented RL further shapes autonomous safety behaviors during multi-step exploration via verifier-decomposed rewards. Through harness-policy co-evolution, SafeEvolve converts safety experience into an evolved runtime harness and improved policy behavior. Experiments on agentic safety benchmarks show that SafeEvolve achieves a stronger safety-utility tradeoff than existing baselines. For Qwen3.5-4B, SafeEvolve achieves a $3\times$ ASR reduction on AgentDojo while improving benign utility from 59.79% to 61.86%.
-
-### [APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering](https://arxiv.org/abs/2609.02253v1)
-
-- **Authors:** Jie Ding, Rui Sun, Xinyuan Zhang, Zeyu Zhang, Xin Liu
-- **Published:** 2026-09-02
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** University of California, Los Angeles
-- **Categories:** cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2609.02253v1) · [PDF](https://arxiv.org/pdf/2609.02253v1)
-
-Deep research agents augment large language models with external tools to answer complex, long-horizon questions through multi-turn reasoning. Learning from prior experience is crucial for continual improvement, yet existing methods either retrieve verbose task-specific traces that burden decision-making, or distill procedural skills that remain decoupled from downstream policy adaptation. We propose APEx, a hierarchical experience utilization framework that organizes interaction history into instance-level trajectory memories and category-level procedural skills, and couples them through a closed-loop architecture of Executor, Distiller, and Planner. The three modules are optimized via a three-stage alternating GRPO training paradigm, enabling reward-guided skill distillation rather than fixed-prompt generation. At test time, distilled skills serve as procedural priors for online Planner adaptation through skill-guided test-time reinforcement learning, allowing ground-truth-free self-improvement with skill-alignment regularization to prevent policy drift. Experiments on 7 benchmarks demonstrate that APEx achieves state-of-the-art performance, surpassing GPT-5.4 by 14.7 points and the strongest memory-augmented baseline by 3.0 points.
+Self-reflection enables language agents to iteratively refine solutions, yet often produces repetitive outputs that limit reasoning performance. Recent studies have attempted to address this limitation through various approaches, among which increasing reflective diversity has shown promise. Our empirical analysis reveals a strong positive correlation between reflective diversity and task success, further motivating the need for diverse reflection signals. We introduce ParamMem, a parametric memory module that encodes cross-sample reflection patterns into model parameters, enabling diverse reflection generation through temperature-controlled sampling. Building on this module, we propose ParamAgent, a reflection-based agent framework that integrates parametric memory with episodic and cross-sample memory. Extensive experiments on code generation, mathematical reasoning, and multi-hop question answering demonstrate consistent improvements over state-of-the-art baselines. Further analysis reveals that ParamMem is sample-efficient, enables weak-to-strong transfer across model scales, and supports self-improvement without reliance on stronger external model, highlighting the potential of ParamMem as an effective component for enhancing language agents.
 
 ## Agent Memory
 
-### [But How Would AI Agents Run a Town's Economy?](https://arxiv.org/abs/2609.11108v1)
+### [Chronos: Temporal-Aware Conversational Agents with Structured Event Retrieval for Long-Term Memory](https://arxiv.org/abs/2603.16862)
 
-- **Authors:** Sajal Regmi, Siddhartha Pudasaini, Chetan Phakami Pun
-- **Published:** 2026-09-10
+- **Authors:** Sen, Sahil, Lumer, Elias, Gulati, Anmol, Subbiah, Vamse Kumar
+- **Published:** 2026-03-17
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
-- **Categories:** cs.MA, cs.ET
-- **Links:** [Paper](https://arxiv.org/abs/2609.11108v1) · [PDF](https://arxiv.org/pdf/2609.11108v1)
-
-We placed 100 memory-equipped large language model (LLM) agents in charge of a closed, money-conserving spatial economy on real Pokhara Lakeside geography (earning wages, running businesses, setting prices) and ran this multi-agent simulation for up to 26 simulated weeks, well past the 1-2 weeks typical of agent-society studies. Across 91 validated runs (2.44M agent decisions, 21.5B tokens), the money stops moving, in a specific and measurable way. A 12x tourist demand shock raises business revenue 4.62x ($p<0.001$), which we decompose exactly into a 1.50x extensive margin (more businesses trading) and a 3.07x intensive margin (more revenue each). Monetary transmission stops there. Wages move 1.03x ($p=0.42$); 0.3% of 3,981 menu items are ever repriced ($p=0.47$). A randomized cash transfer (NPR 5,000 to 20 of 100 agents) shows the same pattern from the opposite direction: 96.7% is still held 311 pulses later, marginal propensity to consume 3-4% by two independent measures, indistinguishable from zero. The wealth distribution is consequently near-frozen at the horizon this literature uses ($ρ=0.964$ over 2 simulated weeks), but not frozen. $ρ$ falls to 0.832 at 12 weeks and 0.752 at 26, a horizon-dependence no short study can see. Matched ablations show which knob actually matters. Swapping the backing LLM moves every outcome we measure ($p=0.0039$); deleting agents' memory moves none of them detectably. A purely social tool fails 94-97% of the time across two model families, compared with ~96% success on economic tools, with no measurable shift away from it. Every headline number is verified twice, by a live validator and by an offline recomputation that reconciles each agent's wealth against its own signed transaction history, and we release the full run corpus for reanalysis.
-
-### [Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents](https://arxiv.org/abs/2609.11060v1)
-
-- **Authors:** Susheel Suresh, Hazel Mak, Sahil Bhatnagar, Chhaya Methani, Alejandro Gutierrez Munoz
-- **Published:** 2026-09-10
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** Purdue University
-- **Categories:** cs.AI, cs.SE
-- **Links:** [Paper](https://arxiv.org/abs/2609.11060v1) · [PDF](https://arxiv.org/pdf/2609.11060v1)
-
-Persistent memory is entering production-oriented agent platforms to help long-horizon agents accumulate experience across sessions. Yet a post-task curator agent restricted to completed trajectories can preserve errors, overgeneralize partial evidence, or retain stale knowledge. We introduce environment-probing curation, a deployment-compatible extension that gives an existing asynchronous curator agent least-privilege, read-only world tools to check, scope, and refresh candidate memories. It requires no model retraining and leaves the task agent, retriever, memory representation, and production write authority unchanged. In a production-like GitHub Copilot (GHCP) harness built on its SDK, we compare stateless execution, full in-context learning, GHCP + Mem, and GHCP + Mem (w/ Env Probing) on CLBench database exploration and 90 adapted APEX management-consulting tasks. On CLBench, probing raises pass rate from 39% to 73% and pass-discounted reward from 8.60 to 22.60 while reducing queries from 8.8 to 4.7 per question and task-agent cost from \$3.38 to \$1.68. Across six APEX worlds, all 18 memory-versus-baseline mean reward comparisons are positive and task-agent tool calls fall by 16--75%; probing gives the best task-agent reward gain per dollar in five worlds. Probing also attains higher mean reward than GHCP + Mem on both Sonnet 4.6 and Opus 4.7 without schema drift. Environment probing therefore turns existing agent-memory curation into an environment-informed, auditable process while preserving a compact task-time interface.
-
-### [ROAM: Robust Organization of Atomic Memories for Agents through Semantic Relations](https://arxiv.org/abs/2609.09778v1)
-
-- **Authors:** Jianjie Zheng, Peng Lai, Sijie Cheng, Jiehui Zhao, Lei Yang, Guanhua Chen
-- **Published:** 2026-09-09
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** Tsinghua University
 - **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2609.09778v1) · [PDF](https://arxiv.org/pdf/2609.09778v1)
+- **Links:** [Paper](https://arxiv.org/abs/2603.16862) · [PDF](https://arxiv.org/pdf/2603.16862)
 
-Long-term language-model agents rely on external memory across interactions. Atomic memories are particularly useful: their fine-grained semantic boundaries enable precise retrieval and direct comparison between observations. Yet accumulating atoms inevitably become redundant, overlapping, or conflicting. Existing methods often ask an LLM manager to add, update, delete, or rewrite memories directly, coupling semantic interpretation, storage decisions, and content generation in one error-prone operation. We introduce ROAM, a relation-guided framework that uses atomicity for management while allowing richer answer-time representations. ROAM classifies incoming--stored atom pairs as independent, equivalent, directionally subsuming, or conflicting, then organizes observations into active Primary and supporting Evidence roles. Fusion subsequently combines complementary details and temporal changes into compact, potentially non-atomic views. Only Primary views are retrieved for answering, preventing redundant or outdated atoms from competing independently. Across models and evaluation settings, ROAM improves answer accuracy by up to 29.8 percentage points. Ablations show complementary benefits from different relations and consistent gains from fusion beyond role organization. Mechanism analysis further finds 15.6-point higher answer-critical source recall and an 11.5-point lower confounder-token share. ROAM remains robust across manager scales.
+Recent advances in Large Language Models (LLMs) have enabled conversational AI agents to engage in extended multi-turn interactions spanning weeks or months. However, existing memory systems struggle to reason over temporally grounded facts and preferences that evolve across months of interaction and lack effective retrieval strategies for multi-hop, time-sensitive queries over long dialogue histories. We introduce Chronos, a novel temporal-aware memory framework that decomposes raw dialogue into subject-verb-object event tuples with resolved datetime ranges and entity aliases, indexing them in a structured event calendar alongside a turn calendar that preserves full conversational context. At query time, Chronos applies dynamic prompting to generate tailored retrieval guidance for each question, directing the agent on what to retrieve, how to filter across time ranges, and how to approach multi-hop reasoning through an iterative tool-calling loop over both calendars. We evaluate Chronos with 8 LLMs, both open-source and closed-source, on the LongMemEvalS benchmark comprising 500 questions spanning six categories of dialogue history tasks. Chronos Low achieves 92.60% and Chronos High scores 95.60% accuracy, setting a new state of the art with an improvement of 7.67% over the best prior system. Ablation results reveal the events calendar accounts for a 58.9% gain on the baseline while all other components yield improvements between 15.5% and 22.3%. Notably, Chronos Low alone surpasses prior approaches evaluated under their strongest model configurations.
 
-### [Plan Pointers and Record-Directive Form in Budgeted Verification of Inherited Agent Memory](https://arxiv.org/abs/2609.03450v2)
+### [MemX: A Local-First Long-Term Memory System for AI Assistants](https://arxiv.org/abs/2603.16171)
 
-- **Authors:** Kazuki Nakayashiki
-- **Published:** 2026-09-03
+- **Authors:** Sun, Lizheng
+- **Published:** 2026-03-17
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
-- **Categories:** cs.IR, cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2609.03450v2) · [PDF](https://arxiv.org/pdf/2609.03450v2)
+- **Categories:** cs.IR
+- **Links:** [Paper](https://arxiv.org/abs/2603.16171) · [PDF](https://arxiv.org/pdf/2603.16171)
 
-A model that inherits one-line memories may pull one archived source record before acting; a directive in the store can steer that pull: a pointer, a criterion or both. Across sixteen registered studies (179,352 attempts) we measured where the request goes under each form; every result is descriptive, with registered intervals, no mechanism claim. A length-matched criterion exceeded a bare id on six direct-provider models (D) and failed its registered superiority rule on a nine-model OpenRouter panel (E). On generated worlds (K2-K5): the two registered signatures held on Opus 5 and Fable 5.1, Fable 5 followed the same sign, Haiku 4.5 reversed, and Sonnet 5, the GPT-5.6 endpoints and GPT-6 Astra lay near zero (K2). With a defensive adapter at five gains, the 70B rule for a gain-dependent change of the composite - criterion contrast was not met (K3 and K4); under the 8B attenuation rule (0.95 intervals: slope below zero; change beyond the margin), the 8B change of -17.5 [-26.7, -8.1] did not meet it on 36 families (K4) and at registered power on 337 families -16.6 [-19.4, -13.8] did (realised one-sided error at the margin 1.8 to 3.2% per corner of a finite grid, nominal 2.5%, not a uniform-error guarantee; K4's status stands; K5, first ladder), while a second SecAlign++ adapter under the imposed Meta-SecAlign template did not (-11.8 [-14.3, -9.3]; K5, second ladder); no NOT-MET is a statement that the contrast was unchanged; their difference (+4.7 [+2.3, +7.2]) describes two fixed execution paths, licenses no superiority, equivalence or 'significant difference' claim; nothing follows from the statuses differing (K5). Intervals describe family-reweighting stability conditional on the execution, not reproducibility across engine executions; audit replays were neither substituted for nor averaged into outcomes; no missingness gate fired and directional completions changed no status.
+We present MemX, a local-first long-term memory system for AI assistants with stability-oriented retrieval design. MemX is implemented in Rust on top of libSQL and an OpenAI-compatible embedding API, providing persistent, searchable, and explainable memory for conversational agents. Its retrieval pipeline applies vector recall, keyword recall, Reciprocal Rank Fusion (RRF), four-factor re-ranking, and a low-confidence rejection rule that suppresses spurious recalls when no answer exists in the memory store. We evaluate MemX on two axes. First, two custom Chinese-language benchmark suites (43 queries, <=1,014 records) validate pipeline design: Hit@1=91.3% on a default scenario and 100% under high confusion, with conservative miss-query suppression. Second, the LongMemEval benchmark (500 queries, up to 220,349 records) quantifies system boundaries across four ability types and three storage granularities. At fact-level granularity the system reaches Hit@5=51.6% and MRR=0.380, doubling session-level performance, while temporal and multi-session reasoning remain challenging (<=43.6% Hit@5). FTS5 full-text indexing reduces keyword search latency by 1,100x at 100k-record scale, keeping end-to-end search under 90 ms. Unlike Mem0 and related work that targets end-to-end agent benchmarks, MemX focuses on a narrower, reproducible baseline: local-first deployment, structural simplicity, explainable retrieval, and stability-oriented design.
 
-### [The Civilization Framework: Sovereign-Anchored Communication Between Personal Multi-Agent Systems](https://arxiv.org/abs/2609.03425v1)
+### [From Storage to Steering: Memory Control Flow Attacks on LLM Agents](https://arxiv.org/abs/2603.15125)
 
-- **Authors:** Guangjun Liu
-- **Published:** 2026-09-03
-- **Priority:** —
-- **Venue:** arXiv
+- **Authors:** Xu, Zhenlin, Zhu, Xiaogang, Yao, Yu, Xue, Minhui, Song, Yiliao
+- **Published:** 2026-03-16
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
-- **Categories:** cs.MA, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.03425v1) · [PDF](https://arxiv.org/pdf/2609.03425v1)
+- **Categories:** cs.CR
+- **Links:** [Paper](https://arxiv.org/abs/2603.15125) · [PDF](https://arxiv.org/pdf/2603.15125)
 
-Humans are the transport layer between AI systems, losing context at every hop. We present the Civilization Framework, whose addressable party is the civilization, not the agent (one human sovereign, a persistent ledger, and interchangeable agents), and the Embassy Protocol, a carrier-agnostic overlay: messages arrive asynchronously at a resident ledger endpoint, any online agent of the receiver handles them, and commitment state on both ledgers, not delivery, is ground truth. Authority derives from memory: an agent's power to act for its civilization is capped by the memory it can access and externalized through signed credentials, separate from civilization-level reputation. We identify the temporal-weight effect, a hazard in AI-to-AI communication where what arrives first acquires unearned authority, and test it in one frontier model in a preregistered 1,908-trial experiment. With verification removed, an incorrect upstream claim arriving first captures 54.2% of answers (4.2% under full verification), while the same claim arriving after the receiver has sealed its own answer captures 31.6% (the two prompt shells are not length-matched, so part of that gap may reflect shell form; see Section 7), and both registered question-set specifications agree on these two verdicts (the exclusion specification is preregistered as under-powered). Two secondary results, the mitigation from instruction-level provenance labeling and sealed-answer accuracy equivalence, are specification-dependent, holding only under the all-questions specification. Because a registered check of tool use failed its call-budget condition, the registration classifies the round as inconclusive and every result above, primary and secondary, is reported as exploratory; a replication with harness-enforced budgets is planned. The framework's intra-civilization layer has a working implementation.
+Modern agentic systems allow Large Language Model (LLM) agents to tackle complex tasks through extensive tool usage, forming structured control flows of tool selection and execution. Existing security analyses often treat these control flows as ephemeral, one-off sessions, overlooking the persistent influence of memory. This paper identifies a new threat from Memory Control Flow Attacks (MCFA) that memory can dominate the control flow, forcing unintended tool usage even against explicit user instructions and inducing persistent behavioral deviations across tasks. To understand the impact of this vulnerability, we further design MEMFLOW, an automated evaluation framework that systematically identifies and quantifies MCFA across heterogeneous tasks and long interaction horizons. To evaluate MEMFLOW, we attack state-of-the-art LLMs, including GPT-5 mini, Claude Sonnet 4.5 and Gemini 2.5 Flash on real-world tools from two major LLM agent development frameworks, LangChain and LlamaIndex. The results show that in general over 90% of trials are vulnerable to MCFA even under strict safety constraints, highlighting critical security risks that demand immediate attention.
 
-### [Fresh Memory, Stale Plans: Derivation Currency for Distributed LLM-Agent Memory](https://arxiv.org/abs/2609.03340v2)
+### [CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents](https://arxiv.org/abs/2603.15421)
 
-- **Authors:** Evan Chen, Shiqiang Wang, Christopher G. Brinton
-- **Published:** 2026-09-03
+- **Authors:** Roh, Taeyun, Jang, Wonjune, Jung, Junha, Kang, Jaewoo
+- **Published:** 2026-03-16
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** ACL 2026 Findings
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.15421) · [PDF](https://arxiv.org/pdf/2603.15421)
+
+Large language model agents heavily rely on external memory to support knowledge reuse and complex reasoning tasks. Yet most memory systems store experiences in a single global retrieval pool which can gradually dilute or corrupt stored knowledge. This problem is especially pronounced for small language models (SLMs), which are highly vulnerable to irrelevant context. We introduce CLAG, a CLustering-based AGentic memory framework where an SLM agent actively organizes memory by clustering. CLAG employs an SLM-driven router to assign incoming memories to semantically coherent clusters and autonomously generates cluster-specific profiles, including topic summaries and descriptive tags, to establish each cluster as a self-contained functional unit. By performing localized evolution within these structured neighborhoods, CLAG effectively reduces cross-topic interference and enhances internal memory density. During retrieval, the framework utilizes a two-stage process that first filters relevant clusters via their profiles, thereby excluding distractors and reducing the search space. Experiments on multiple QA datasets with three SLM backbones show that CLAG consistently improves answer quality and robustness over prior memory systems for agents, remaining lightweight and efficient.
+
+### [Advancing Multimodal Agent Reasoning with Long-Term Neuro-Symbolic Memory](https://arxiv.org/abs/2603.15280)
+
+- **Authors:** Jiang, Rongjie, Wang, Jianwei, Zhao, Gengda, Luo, Chengyang, Wang, Kai, Zhang, Wenjie
+- **Published:** 2026-03-16
+- **Priority:** —
+- **Venue:** Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.03340v2) · [PDF](https://arxiv.org/pdf/2609.03340v2)
+- **Links:** [Paper](https://arxiv.org/abs/2603.15280) · [PDF](https://arxiv.org/pdf/2603.15280)
 
-A large language model (LLM) agent that inherits a plan through shared memory can hold the latest requirement yet act on a plan derived from an older one: fresh memory, stale plan. Freshness checks miss this failure because they compare local copies with current state (observation currency) rather than the inputs the plan was derived from (derivation currency). Planfence makes derivation currency checkable after a handoff. Stored plans carry exact links to their recorded inputs; before a protected action, Planfence follows those links to an action-specific dependency frontier, asks each input's owner for its current head, refreshes what changed, and allows one replan before blocking. Application code supplies the links and declares the scope; no shared memory service is required. Holding the native S-Bus validator fixed, supplying inherited input versions raises detected handoff conflicts from 0/30 to 30/30: retained evidence is the missing ingredient. In 30 live five-agent workflows with a revision inserted after planning, a freshness-only executor acts on the stale plan every time, whereas Planfence, like a centralized-lineage baseline that requires a shared store, completes all 30 correctly. In matched replay under emulated LTE traces, Planfence's stall stays within 143-237ms per action across a 64$\times$ range of update rates while per-update synchronization grows from 52 to 1196ms; synchronization is cheaper only at the lowest tested rates. Scoping queries to the declared dependencies holds traffic at 8.1KiB per action, a tenth of all-key validation at 128 keys; at full scope the two tie.
+Recent advances in large language models have driven the emergence of intelligent agents operating in open-world, multimodal environments. To support long-term reasoning, such agents are typically equipped with external memory systems. However, most existing multimodal agent memories rely primarily on neural representations and vector-based retrieval, which are well-suited for inductive, intuitive reasoning but fundamentally limited in supporting analytical, deductive reasoning critical for real-world decision making. To address this limitation, we propose NS-Mem, a long-term neuro-symbolic memory framework designed to advance multimodal agent reasoning by integrating neural memory with explicit symbolic structures and rules. Specifically, NS-Mem is operated around three core components of a memory system: (1) a three-layer memory architecture that consists episodic layer, semantic layer and logic rule layer, (2) a memory construction and maintenance mechanism implemented by SK-Gen that automatically consolidates structured knowledge from accumulated multimodal experiences and incrementally updates both neural representations and symbolic rules, and (3) a hybrid memory retrieval mechanism that combines similarity-based search with deterministic symbolic query functions to support structured reasoning. Experiments on real-world multimodal reasoning benchmarks demonstrate that Neural-Symbolic Memory achieves an average 4.35% improvement in overall reasoning accuracy over pure neural memory systems, with gains of up to 12.5% on constrained reasoning queries, validating the effectiveness of NS-Mem.
+
+### [D-MEM: Dopamine-Gated Agentic Memory via Reward Prediction Error Routing](https://arxiv.org/abs/2603.14597)
+
+- **Authors:** Song, Yuru, Xin, Qi
+- **Published:** 2026-03-15
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** q-bio.NC
+- **Links:** [Paper](https://arxiv.org/abs/2603.14597) · [PDF](https://arxiv.org/pdf/2603.14597)
+
+Autonomous LLM agents require structured long-term memory, yet current "append-and-evolve" systems like A-MEM face O(N^2) write-latency and excessive token costs. We introduce D-MEM (Dopamine-Gated Agentic Memory), a biologically inspired architecture that decouples short-term interaction from cognitive restructuring via a Fast/Slow routing system based on Reward Prediction Error (RPE). A lightweight Critic Router evaluates stimuli for Surprise and Utility. Routine, low-RPE inputs are bypassed or cached in an O(1) fast-access buffer. Conversely, high-RPE inputs, such as factual contradictions or preference shifts, trigger a "dopamine" signal, activating the O(N) memory evolution pipeline to reshape the agent's knowledge graph. To evaluate performance under realistic conditions, we introduce the LoCoMo-Noise benchmark, which injects controlled conversational noise into long-term sessions. Evaluations demonstrate that D-MEM reduces token consumption by over 80%, eliminates O(N^2) bottlenecks, and outperforms baselines in multi-hop reasoning and adversarial resilience. By selectively gating cognitive restructuring, D-MEM provides a scalable, cost-efficient foundation for lifelong agentic memory.
+
+### [SuperLocalMemory V3: Information-Geometric Foundations for Zero-LLM Enterprise Agent Memory](https://arxiv.org/abs/2603.14588)
+
+- **Authors:** Bhardwaj, Varun Pratap
+- **Published:** 2026-03-15
+- **Priority:** ⭐ Popular code
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.14588) · [PDF](https://arxiv.org/pdf/2603.14588) · [Code](https://github.com/qualixar/superlocalmemory)
+
+Persistent memory is a central capability for AI agents, yet the mathematical foundations of memory retrieval, lifecycle management, and consistency remain unexplored. Current systems employ cosine similarity for retrieval, heuristic decay for salience, and provide no formal contradiction detection. We establish information-geometric foundations through three contributions. First, a retrieval metric derived from the Fisher information structure of diagonal Gaussian families, satisfying Riemannian metric axioms, invariant under sufficient statistics, and computable in O(d) time. Second, memory lifecycle formulated as Riemannian Langevin dynamics with proven existence and uniqueness of the stationary distribution via the Fokker-Planck equation, replacing hand-tuned decay with principled convergence guarantees. Third, a cellular sheaf model where non-trivial first cohomology classes correspond precisely to irreconcilable contradictions across memory contexts. On the LoCoMo benchmark, the mathematical layers yield +12.7 percentage points over engineering baselines across six conversations, reaching +19.9 pp on the most challenging dialogues. A four-channel retrieval architecture achieves 75% accuracy without cloud dependency. Cloud-augmented results reach 87.7%. A zero-LLM configuration satisfies EU AI Act data sovereignty requirements by architectural design. To our knowledge, this is the first work establishing information-geometric, sheaf-theoretic, and stochastic-dynamical foundations for AI agent memory systems.
+
+### [Memory as Asset: From Agent-centric to Human-centric Memory Management](https://arxiv.org/abs/2603.14212)
+
+- **Authors:** Pan, Yanqi, Huang, Qinghao, Yang, Weihao
+- **Published:** 2026-03-15
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.14212) · [PDF](https://arxiv.org/pdf/2603.14212)
+
+We proudly introduce Memory-as-Asset, a new memory paradigm towards human-centric artificial general intelligence (AGI). In this paper, we formally emphasize that human-centric, personal memory management is a prerequisite for complementing the collective knowledge of existing large language models (LLMs) and extending their knowledge boundaries through self-evolution. We introduce three key features that shape the Memory-as-Asset era: (1) Memory in Hand, which emphasizes human-centric ownership to maximize benefits to humans; (2) Memory Group, which provides collaborative knowledge formation to avoid memory islands, and (3) Collective Memory Evolution, which enables continuous knowledge growth to extend the boundary of knowledge towards AGI. We finally give a potential three-layer memory infrastructure to facilitate the Memory-as-Asset paradigm, with fast personal memory storage, an intelligent evolution layer, and a decentralized memory exchange network. Together, these components outline a foundational architecture in which personal memories become persistent digital assets that can be accumulated, shared, and evolved over time. We believe this paradigm provides a promising path toward scalable, human-centric AGI systems that continuously grow through the collective experiences of individuals and intelligent agents.
+
+### [TheraAgent: Multi-Agent Framework with Self-Evolving Memory and Evidence-Calibrated Reasoning for PET Theranostics](https://arxiv.org/abs/2603.13676)
+
+- **Authors:** Chen, Zhihao, Wang, Jiahui, Chen, Yizhou, Ji, Xiaozhong, Hu, Xiaobin, Hong, Jimin, Bosbach, Wolfram Andreas, Rominger, Axel, Afshar-Oromieh, Ali, Shan, Hongming, Shi, Kuangyu
+- **Published:** 2026-03-14
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.13676) · [PDF](https://arxiv.org/pdf/2603.13676)
+
+PET theranostics is transforming precision oncology, yet treatment response varies substantially; many patients receiving 177Lu-PSMA radioligand therapy (RLT) for metastatic castration-resistant prostate cancer (mCRPC) fail to respond, demanding reliable pre-therapy prediction. While LLM-based agents have shown remarkable potential in complex medical diagnosis, their application to PET theranostic outcome prediction remains unexplored, which faces three key challenges: (1) data and knowledge scarcity: RLT was only FDA-approved in 2022, yielding few training cases and insufficient domain knowledge in general LLMs; (2) heterogeneous information integration: robust prediction hinges on structured knowledge extraction from PET/CT, laboratory tests, and free-text clinical documentation; (3) evidence-grounded reasoning: clinical decisions must be anchored in trial evidence rather than LLM hallucinations. In this paper, we present TheraAgent, to our knowledge, the first agentic framework for PET theranostics, with three core innovations: (1) Multi-Expert Feature Extraction with Confidence-Weighted Consensus, where three specialized experts process heterogeneous inputs with uncertainty quantification; (2) Self-Evolving Agentic Memory (SEA-Mem), which learns prognostic patterns from accumulated cases, enabling case-based reasoning from limited data; (3) Evidence-Calibrated Reasoning, integrating a curated theranostics knowledge base to ground predictions in VISION/TheraP trial evidence. Evaluated on 35 real patients and 400 synthetic cases, TheraAgent achieves 75.7% overall accuracy on real patients and 87.0% on synthetic cases, outperforming MDAgents and MedAgent-Pro by over 20%. These results highlight a promising blueprint for trustworthy AI agents in PET theranostics, enabling trial-calibrated, multi-source decision support. Code will be released upon acceptance.
+
+### [Joint Optimization of Multi-agent Memory System](https://arxiv.org/abs/2603.12631)
+
+- **Authors:** Mao, Wenyu, Liu, Haoyang, Tan, Haosong, Shi, Yaorui, Wu, Jiancan, Zhang, An, Wang, Xiang
+- **Published:** 2026-03-13
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2603.12631) · [PDF](https://arxiv.org/pdf/2603.12631)
+
+Memory systems are critical for LLMs, mitigating context window limitations and supporting long-horizon user-LLM interactions. Such systems typically comprise multiple agents responsible for memory construction and retrieval. Existing approaches often optimize each agent independently under a shared global objective (e.g., downstream QA accuracy), treating other agents as a static environment. However, this design has two key limitations: (1) independent optimization ignores inter-agent dependencies and lacks agents' co-adaptation, and (2) relying solely on sparse global rewards provides limited guidance for optimizing specialized agents and causes ambiguous credit assignment. These may ultimately limit agents' effective collaboration in the memory system. To address these limitations, we propose CoMAM, a joint optimization framework that promotes collaboration among agents via end-to-end reinforcement learning and an adaptive credit assignment mechanism. Specifically, we model the multi-agent pipeline as a Markov decision process (MDP) to expose inter-agent dependencies during end-to-end training. Agents are then jointly optimized using a combination of their local task reward and an adaptively weighted global reward, enabling agents to co-adapt while receiving targeted feedback for their respective roles. Experiments show that CoMAM consistently outperforms leading memory systems, validating the effectiveness of the joint optimization framework.
+
+### [Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation](https://arxiv.org/abs/2603.13017)
+
+- **Authors:** Lewis, Sydney
+- **Published:** 2026-03-13
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.13017) · [PDF](https://arxiv.org/pdf/2603.13017) · [Code](https://github.com/Process-Point-Technologies-Corporation/searchat)
+
+Long conversations with an AI agent create a simple problem for one user: the history is useful, but carrying it verbatim is expensive. We study personalized agent memory: one user's conversation history with an agent, distilled into a compact retrieval layer for later search. Each exchange is compressed into a compound object with four fields (exchange_core, specific_context, thematic room_assignments, and regex-extracted files_touched). The searchable distilled text averages 38 tokens per exchange. Applied to 4,182 conversations (14,340 exchanges) from 6 software engineering projects, the method reduces average exchange length from 371 to 38 tokens, yielding 11x compression. We evaluate whether personalized recall survives that compression using 201 recall-oriented queries, 107 configurations spanning 5 pure and 5 cross-layer search modes, and 5 LLM graders (214,519 consensus-graded query-result pairs). The best pure distilled configuration reaches 96% of the best verbatim MRR (0.717 vs 0.745). Results are mechanism-dependent. All 20 vector search configurations remain non-significant after Bonferroni correction, while all 20 BM25 configurations degrade significantly (effect sizes |d|=0.031-0.756). The best cross-layer setup slightly exceeds the best pure verbatim baseline (MRR 0.759). Structured distillation compresses single-user agent memory without uniformly sacrificing retrieval quality. At 1/11 the context cost, thousands of exchanges fit within a single prompt while the verbatim source remains available for drill-down. We release the implementation and analysis pipeline as open-source software.
+
+### [Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework](https://arxiv.org/abs/2603.11768)
+
+- **Authors:** Lam, Chingkwun, Li, Jiaxin, Zhang, Lingfei, Zhao, Kuo
+- **Published:** 2026-03-12
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.11768) · [PDF](https://arxiv.org/pdf/2603.11768)
+
+Long-term memory has emerged as a foundational component of autonomous Large Language Model (LLM) agents, enabling continuous adaptation, lifelong multimodal learning, and sophisticated reasoning. However, as memory systems transition from static retrieval databases to dynamic, agentic mechanisms, critical concerns regarding memory governance, semantic drift, and privacy vulnerabilities have surfaced. While recent surveys have focused extensively on memory retrieval efficiency, they largely overlook the emergent risks of memory corruption in highly dynamic environments. To address these emerging challenges, we propose the Stability and Safety-Governed Memory (SSGM) framework, a conceptual governance architecture. SSGM decouples memory evolution from execution by enforcing consistency verification, temporal decay modeling, and dynamic access control prior to any memory consolidation. Through formal analysis and architectural decomposition, we show how SSGM can mitigate topology-induced knowledge leakage where sensitive contexts are solidified into long-term storage, and help prevent semantic drift where knowledge degrades through iterative summarization. Ultimately, this work provides a comprehensive taxonomy of memory corruption risks and establishes a robust governance paradigm for deploying safe, persistent, and reliable agentic memory systems.
+
+### [BrainMem: Brain-Inspired Evolving Memory for Embodied Agent Task Planning](https://arxiv.org/abs/2604.16331)
+
+- **Authors:** Ma, Xiaoyu, Hu, Lianyu, Tang, Wenbing, Hu, Zixuan, Liao, Zeqin, Wu, Zhizhen, Liu, Yang
+- **Published:** 2026-03-12
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.RO
+- **Links:** [Paper](https://arxiv.org/abs/2604.16331) · [PDF](https://arxiv.org/pdf/2604.16331)
+
+Embodied task planning requires agents to execute long-horizon, goal-directed actions in complex 3D environments, where success depends on both immediate perception and accumulated experience across tasks. However, most existing LLM-based planners are stateless and reactive, operating without persistent memory and therefore repeating errors and struggling with spatial or temporal dependencies. We propose BrainMem(Brain-Inspired Evolving Memory), a training-free hierarchical memory system that equips embodied agents with working, episodic, and semantic memory inspired by human cognition. BrainMem continuously transforms interaction histories into structured knowledge graphs and distilled symbolic guidelines, enabling planners to retrieve, reason over, and adapt behaviors from past experience without any model fine-tuning or additional training. This plug-and-play design integrates seamlessly with arbitrary multi-modal LLMs and greatly reduces reliance on task-specific prompt engineering. Extensive experiments on four representative benchmarks, including EB-ALFRED, EB-Navigation, EB-Manipulation, and EB-Habitat, demonstrate that BrainMem significantly enhances task success rates across diverse models and difficulty subsets, with the largest gains observed on long-horizon and spatially complex tasks. These results highlight evolving memory as a promising and scalable mechanism for generalizable embodied intelligence.
+
+### [Compiled Memory: Not More Information, but More Precise Instructions for Language Agents](https://arxiv.org/abs/2603.15666)
+
+- **Authors:** Rhodes, James, Kang, George
+- **Published:** 2026-03-12
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.15666) · [PDF](https://arxiv.org/pdf/2603.15666)
+
+Existing memory systems for language agents address memory management: how to retrieve and page more information within a context budget. We address a complementary problem -- memory utility: what experience is worth keeping, and how it should change agent behavior. We present Atlas, a memory kernel that compiles accumulated task experience into an agent's instruction structure -- without fine-tuning, RAG, or human intervention. Memory is distillation, not storage; delivery is instruction rewriting, not context injection. Facts extracted from agent failures and successes are verified through a three-step promotion gate and delivered by rewriting the agent's system prompt with learned sub-bullets. On CUAD contract analysis, the evolved prompt improves GPT-4o token-level F1 by $+8.7$pp and precision by $+12.5$pp. On HotpotQA multi-hop QA, joint F1 improves $+3.16$pp. An ablation isolates the mechanism's defining property -- the training signal constraint: the evolved prompt learns exactly what it is taught, and nothing more. Applied to Claude Sonnet~4.5 using the same evolved prompt -- compiled from GPT-4o errors, unchanged -- joint F1 improves $+2.31$pp, with gains concentrating where Claude's stronger baseline leaves the most room -- confirming that the compiled knowledge is task-shaped, not model-shaped.
+
+### [Trajectory-Informed Memory Generation for Self-Improving Agent Systems](https://arxiv.org/abs/2603.10600)
+
+- **Authors:** Fang, Gaodan, Isahagian, Vatche, Jayaram, K. R., Kumar, Ritesh, Muthusamy, Vinod, Oum, Punleuk, Thomas, Gegi
+- **Published:** 2026-03-11
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.10600) · [PDF](https://arxiv.org/pdf/2603.10600)
+
+LLM-powered agents face a persistent challenge: learning from their execution experiences to improve future performance. While agents can successfully complete many tasks, they often repeat inefficient patterns, fail to recover from similar errors, and miss opportunities to apply successful strategies from past executions. We present a novel framework for automatically extracting actionable learnings from agent execution trajectories and utilizing them to improve future performance through contextual memory retrieval. Our approach comprises four components: (1) a Trajectory Intelligence Extractor that performs semantic analysis of agent reasoning patterns, (2) a Decision Attribution Analyzer that identifies which decisions and reasoning steps led to failures, recoveries, or inefficiencies, (3) a Contextual Learning Generator that produces three types of guidance -- strategy tips from successful patterns, recovery tips from failure handling, and optimization tips from inefficient but successful executions, and (4) an Adaptive Memory Retrieval System that injects relevant learnings into agent prompts based on multi-dimensional similarity. Unlike existing memory systems that store generic conversational facts, our framework understands execution patterns, extracts structured learnings with provenance, and retrieves guidance tailored to specific task contexts. Evaluation on the AppWorld benchmark demonstrates consistent improvements, with up to 14.3 percentage point gains in scenario goal completion on held-out tasks and particularly strong benefits on complex tasks (28.5~pp scenario goal improvement, a 149\% relative increase).
+
+### [Hybrid Self-evolving Structured Memory for GUI Agents](https://arxiv.org/abs/2603.10291)
+
+- **Authors:** Zhu, Sibo, Wu, Wenyi, Zhou, Kun, Wang, Stephen, Huang, Biwei
+- **Published:** 2026-03-11
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.10291) · [PDF](https://arxiv.org/pdf/2603.10291)
+
+The remarkable progress of vision-language models (VLMs) has enabled GUI agents to interact with computers in a human-like manner. Yet real-world computer-use tasks remain difficult due to long-horizon workflows, diverse interfaces, and frequent intermediate errors. Prior work equips agents with external memory built from large collections of trajectories, but relies on flat retrieval over discrete summaries or continuous embeddings, falling short of the structured organization and self-evolving characteristics of human memory. Inspired by the brain, we propose Hybrid Self-evolving Structured Memory (HyMEM), a graph-based memory that couples discrete high-level symbolic nodes with continuous trajectory embeddings. HyMEM maintains a graph structure to support multi-hop retrieval, self-evolution via node update operations, and on-the-fly working-memory refreshing during inference. Extensive experiments show that HyMEM consistently improves open-source GUI agents, enabling 7B/8B backbones to match or surpass strong closed-source models; notably, it boosts Qwen2.5-VL-7B by +22.5% and outperforms Gemini2.5-Pro-Vision and GPT-4o.
+
+### [AutoAgent: Evolving Cognition and Elastic Memory Orchestration for Adaptive Agents](https://arxiv.org/abs/2603.09716)
+
+- **Authors:** Wang, Xiaoxing, Liao, Ning, Wei, Shikun, Tang, Chen, Xiong, Feiyu
+- **Published:** 2026-03-10
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.09716) · [PDF](https://arxiv.org/pdf/2603.09716)
+
+Autonomous agent frameworks still struggle to reconcile long-term experiential learning with real-time, context-sensitive decision-making. In practice, this gap appears as static cognition, rigid workflow dependence, and inefficient context usage, which jointly limit adaptability in open-ended and non-stationary environments. To address these limitations, we present AutoAgent, a self-evolving multi-agent framework built on three tightly coupled components: evolving cognition, on-the-fly contextual decision-making, and elastic memory orchestration. At the core of AutoAgent, each agent maintains structured prompt-level cognition over tools, self-capabilities, peer expertise, and task knowledge. During execution, this cognition is combined with live task context to select actions from a unified space that includes tool calls, LLM-based generation, and inter-agent requests. To support efficient long-horizon reasoning, an Elastic Memory Orchestrator dynamically organizes interaction history by preserving raw records, compressing redundant trajectories, and constructing reusable episodic abstractions, thereby reducing token overhead while retaining decision-critical evidence. These components are integrated through a closed-loop cognitive evolution process that aligns intended actions with observed outcomes to continuously update cognition and expand reusable skills, without external retraining. Empirical results across retrieval-augmented reasoning, tool-augmented agent benchmarks, and embodied task environments show that AutoAgent consistently improves task success, tool-use efficiency, and collaborative robustness over static and memory-augmented baselines. Overall, AutoAgent provides a unified and practical foundation for adaptive autonomous agents that must learn from experience while making reliable context-aware decisions in dynamic environments.
+
+### [TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA](https://arxiv.org/abs/2603.09297)
+
+- **Authors:** Yuan, Mengwei, Liu, Jianan, Yang, Jing, Li, Xianyou, Yan, Weiran, Wu, Yichao, Liang, Penghao
+- **Published:** 2026-03-10
+- **Priority:** —
+- **Venue:** 2026 9th International Conference on Advanced Algorithms and Control Engineering (ICAACE)
+- **Affiliations:** n/a
+- **Categories:** cs.IR
+- **Links:** [Paper](https://arxiv.org/abs/2603.09297) · [PDF](https://arxiv.org/pdf/2603.09297)
+
+Large Language Model (LLM) has exhibited strong reasoning ability in text-based contexts across various domains, yet the limitation of context window poses challenges for the model on long-range inference tasks and necessitates a memory storage system. While many current storage approaches have been proposed with episodic notes and graph representations of memory, retrieval methods still primarily rely on predefined workflows or static similarity top-k over embeddings. To address this inflexibility, we introduced a novel tool-augmented autonomous memory retrieval framework (TA-Mem), which contains: (1) a memory extraction LLM agent which is prompted to adaptively chuck an input into sub-context based on semantic correlation, and extract information into structured notes, (2) a multi-indexed memory database designed for different types of query methods including both key-based lookup and similarity-based retrieval, (3) a tool-augmented memory retrieval agent which explores the memory autonomously by selecting appropriate tools provided by the database based on the user input, and decides whether to proceed to the next iteration or finalizing the response after reasoning on the fetched memories. The TA-Mem is evaluated on the LoCoMo dataset, achieving significant performance improvements over existing baseline approaches. In addition, an analysis of tool use across different question types also demonstrates the adaptivity of the proposed method.
+
+### [Multi-Agent Memory from a Computer Architecture Perspective: Visions and Challenges Ahead](https://arxiv.org/abs/2603.10062)
+
+- **Authors:** Yu, Zhongming, Yu, Naicheng, Zhang, Hejia, Ni, Wentao, Yin, Mingrui, Yang, Jiaying, Zhao, Yujie, Zhao, Jishen
+- **Published:** 2026-03-09
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AR
+- **Links:** [Paper](https://arxiv.org/abs/2603.10062) · [PDF](https://arxiv.org/pdf/2603.10062)
+
+As LLM agents evolve into collaborative multi-agent systems, their memory requirements grow rapidly in complexity. This position paper frames multi-agent memory as a computer architecture problem. We distinguish shared and distributed memory paradigms, propose a three-layer memory hierarchy (I/O, cache, and memory), and identify two critical protocol gaps: cache sharing across agents and structured memory access control. We argue that the most pressing open challenge is multi-agent memory consistency. Our architectural framing provides a foundation for building reliable, scalable multi-agent systems.
+
+### [MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games](https://arxiv.org/abs/2603.09022)
+
+- **Authors:** Xie, Yunfei, Wang, Kevin, Cheng, Bobby, Yao, Jianzhu, Sha, Zhizhou, Duffy, Alexander, Xi, Yihan, Mei, Hongyuan, Tan, Cheston, Wei, Chen, Viswanath, Pramod, Wang, Zhangyang
+- **Published:** 2026-03-09
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.09022) · [PDF](https://arxiv.org/pdf/2603.09022) · [Code](https://github.com/openverse-ai/MEMO)
+
+Multi-turn, multi-agent LLM game evaluations often exhibit substantial run-to-run variance. In long-horizon interactions, small early deviations compound across turns and are amplified by multi-agent coupling. This biases win rate estimates and makes rankings unreliable across repeated tournaments. Prompt choice worsens this further by producing different effective policies. We address both instability and underperformance with MEMO (Memory-augmented MOdel context optimization), a self-play framework that optimizes inference-time context by coupling retention and exploration. Retention maintains a persistent memory bank that stores structured insights from self-play trajectories and injects them as priors during later play. Exploration runs tournament-style prompt evolution with uncertainty-aware selection via TrueSkill, and uses prioritized replay to revisit rare and decisive states. Across five text-based games, MEMO raises mean win rate from 25.1% to 49.5% for GPT-4o-mini and from 20.9% to 44.3% for Qwen-2.5-7B-Instruct, using $2,000$ self-play games per task. Run-to-run variance also drops, giving more stable rankings across prompt variations. These results suggest that multi-agent LLM game performance and robustness have substantial room for improvement through context optimization. MEMO achieves the largest gains in negotiation and imperfect-information games, while RL remains more effective in perfect-information settings. All code is open-source and available here: https://github.com/openverse-ai/MEMO
+
+### [Did You Check the Right Pocket? Cost-Sensitive Store Routing for Memory-Augmented Agents](https://arxiv.org/abs/2603.15658)
+
+- **Authors:** Gaikwad, Madhava
+- **Published:** 2026-03-08
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.15658) · [PDF](https://arxiv.org/pdf/2603.15658)
+
+Memory-augmented agents maintain multiple specialized stores, yet most systems retrieve from all stores for every query, increasing cost and introducing irrelevant context. We formulate memory retrieval as a store-routing problem and evaluate it using coverage, exact match, and token efficiency metrics. On downstream question answering, an oracle router achieves higher accuracy while using substantially fewer context tokens compared to uniform retrieval, demonstrating that selective retrieval improves both efficiency and performance. Our results show that routing decisions are a first-class component of memory-augmented agent design and motivate learned routing mechanisms for scalable multi-store systems. We additionally formalize store selection as a cost-sensitive decision problem that trades answer accuracy against retrieval cost, providing a principled interpretation of routing policies.
+
+### [Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers](https://arxiv.org/abs/2603.07670)
+
+- **Authors:** Du, Pengfei
+- **Published:** 2026-03-08
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.07670) · [PDF](https://arxiv.org/pdf/2603.07670)
+
+Large language model (LLM) agents increasingly operate in settings where a single context window is far too small to capture what has happened, what was learned, and what should not be repeated. Memory -- the ability to persist, organize, and selectively recall information across interactions -- is what turns a stateless text generator into a genuinely adaptive agent. This survey offers a structured account of how memory is designed, implemented, and evaluated in modern LLM-based agents, covering work from 2022 through early 2026. We formalize agent memory as a \emph{write--manage--read} loop tightly coupled with perception and action, then introduce a three-dimensional taxonomy spanning temporal scope, representational substrate, and control policy. Five mechanism families are examined in depth: context-resident compression, retrieval-augmented stores, reflective self-improvement, hierarchical virtual context, and policy-learned management. On the evaluation side, we trace the shift from static recall benchmarks to multi-session agentic tests that interleave memory with decision-making, analyzing four recent benchmarks that expose stubborn gaps in current systems. We also survey applications where memory is the differentiating factor -- personal assistants, coding agents, open-world games, scientific reasoning, and multi-agent teamwork -- and address the engineering realities of write-path filtering, contradiction handling, latency budgets, and privacy governance. The paper closes with open challenges: continual consolidation, causally grounded retrieval, trustworthy reflection, learned forgetting, and multimodal embodied memory.
+
+### [Can Large Language Models Keep Up? Benchmarking Online Adaptation to Continual Knowledge Streams](https://arxiv.org/abs/2603.07392)
+
+- **Authors:** Kim, Jiyeon, Lee, Hyunji, Zhou, Dylan, Park, Sue Hyun, Yoon, Seunghyun, Bui, Trung, Dernoncourt, Franck, Cha, Sungmin, Seo, Minjoon
+- **Published:** 2026-03-08
+- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.07392) · [PDF](https://arxiv.org/pdf/2603.07392)
+
+LLMs operating in dynamic real-world contexts often encounter knowledge that evolves continuously or emerges incrementally. To remain accurate and effective, models must adapt to newly arriving information on the fly. We introduce Online Adaptation to Continual Knowledge Streams(OAKS) to evaluate this capability, establishing a benchmark for online adaptation over streaming, continually updating knowledge. Specifically, the benchmark is structured as a sequence of fine-grained context chunks where facts change dynamically across time intervals. OAKS comprises two datasets: OAKS-BABI and OAKS-Novel, where individual facts evolve multiple times across context chunks. These datasets include dense annotations to measure whether models track changes accurately. Evaluating 14 models with varied inference approaches, we observe significant limitations in current methodologies. Both state-of-the-art models and agentic memory systems fail to adapt robustly on OAKS, demonstrating delays in state-tracking and susceptibility to distraction within streaming environments.
+
+### [Enhancing Web Agents with a Hierarchical Memory Tree](https://arxiv.org/abs/2603.07024)
+
+- **Authors:** Tan, Yunteng, Gao, Zhi, Wu, Xinxiao
+- **Published:** 2026-03-07
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.07024) · [PDF](https://arxiv.org/pdf/2603.07024)
+
+Large language model-based web agents have shown strong potential in automating web interactions through advanced reasoning and instruction following. While retrieval-based memory derived from historical trajectories enables these agents to handle complex, long-horizon tasks, current methods struggle to generalize across unseen websites. We identify that this challenge arises from the flat memory structures that entangle high-level task logic with site-specific action details. This entanglement induces a workflow mismatch in new environments, where retrieved contents are conflated with current web, leading to logically inconsistent execution. To address this, we propose Hierarchical Memory Tree (HMT), a structured framework designed to explicitly decouple logical planning from action execution. HMT constructs a three-level hierarchy from raw trajectories via an automated abstraction pipeline: the Intent level maps diverse user instructions to standardized task goals; the Stage level defines reusable semantic subgoals characterized by observable pre-conditions and post-conditions; and the Action level stores action patterns paired with transferable semantic element descriptions. Leveraging this structure, we develop a stage-aware inference mechanism comprising a Planner and an Actor. By explicitly validating pre-conditions, the Planner aligns the current state with the correct logical subgoal to prevent workflow mismatch, while the Actor grounds actions by matching the stored semantic descriptions to the target page. Experimental results on Mind2Web and WebArena show that HMT significantly outperforms flat-memory methods, particularly in cross-website and cross-domain scenarios, highlighting the necessity of structured memory for robust generalization of web agents.
+
+### [EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication in Longitudinal Dialogue](https://arxiv.org/abs/2603.04815)
+
+- **Authors:** Kandala, Ratna, Manchanda, Niva, Moharir, Akshata Kishore, Kandala, Ananth
+- **Published:** 2026-03-05
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** Microsoft
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.04815) · [PDF](https://arxiv.org/pdf/2603.04815)
+
+Manipulative communication, such as gaslighting, guilt-tripping, and emotional coercion, is often difficult for individuals to recognize. Existing agentic AI systems lack the structured, longitudinal memory to track these subtle, context-dependent tactics, often failing due to limited context windows and catastrophic forgetting. We introduce EchoGuard, an agentic AI framework that addresses this gap by using a Knowledge Graph (KG) as the agent's core episodic and semantic memory. EchoGuard employs a structured Log-Analyze-Reflect loop: (1) users log interactions, which the agent structures as nodes and edges in a personal, episodic KG (capturing events, emotions, and speakers); (2) the system executes complex graph queries to detect six psychologically-grounded manipulation patterns (stored as a semantic KG); and (3) an LLM generates targeted Socratic prompts grounded by the subgraph of detected patterns, guiding users toward self-discovery. This framework demonstrates how the interplay between agentic architectures and Knowledge Graphs can empower individuals in recognizing manipulative communication while maintaining personal autonomy and safety. We present the theoretical foundation, framework design, a comprehensive evaluation strategy, and a vision to validate this approach.
+
+### [Beyond the Context Window: A Cost-Performance Analysis of Fact-Based Memory vs. Long-Context LLMs for Persistent Agents](https://arxiv.org/abs/2603.04814)
+
+- **Authors:** Pollertlam, Natchanon, Kornsuwannawit, Witchayut
+- **Published:** 2026-03-05
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.04814) · [PDF](https://arxiv.org/pdf/2603.04814)
+
+Persistent conversational AI systems face a choice between passing full conversation histories to a long-context large language model (LLM) and maintaining a dedicated memory system that extracts and retrieves structured facts. We compare a fact-based memory system built on the Mem0 framework against long-context LLM inference on three memory-centric benchmarks - LongMemEval, LoCoMo, and PersonaMemv2 - and evaluate both architectures on accuracy and cumulative API cost. Long-context GPT-5-mini achieves higher factual recall on LongMemEval and LoCoMo, while the memory system is competitive on PersonaMemv2, where persona consistency depends on stable, factual attributes suited to flat-typed extraction. We construct a cost model that incorporates prompt caching and show that the two architectures have structurally different cost profiles: long-context inference incurs a per-turn charge that grows with context length even under caching, while the memory system's per-turn read cost remains roughly fixed after a one-time write phase. At a context length of 100k tokens, the memory system becomes cheaper after approximately ten interaction turns, with the break-even point decreasing as context length grows. These results characterize the accuracy-cost trade-off between the two approaches and provide a concrete criterion for selecting between them in production deployments.
+
+### [Adaptive Memory Admission Control for LLM Agents](https://arxiv.org/abs/2603.04549)
+
+- **Authors:** Zhang, Guilin, Jiang, Wei, Wang, Xiejiashan, Behr, Aisha, Zhao, Kai, Friedman, Jeffrey, Chu, Xu, Anoun, Amine
+- **Published:** 2026-03-04
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.04549) · [PDF](https://arxiv.org/pdf/2603.04549)
+
+LLM-based agents increasingly rely on long-term memory to support multi-session reasoning and interaction, yet current systems provide little control over what information is retained. In practice, agents either accumulate large volumes of conversational content, including hallucinated or obsolete facts, or depend on opaque, fully LLM-driven memory policies that are costly and difficult to audit. As a result, memory admission remains a poorly specified and weakly controlled component in agent architectures. To address this gap, we propose Adaptive Memory Admission Control (A-MAC), a framework that treats memory admission as a structured decision problem. A-MAC decomposes memory value into five complementary and interpretable factors: future utility, factual confidence, semantic novelty, temporal recency, and content type prior. The framework combines lightweight rule-based feature extraction with a single LLM-assisted utility assessment, and learns domain-adaptive admission policies through cross-validated optimization. This design enables transparent and efficient control over long-term memory. Experiments on the LoCoMo benchmark show that A-MAC achieves a superior precision-recall tradeoff, improving F1 to 0.583 while reducing latency by 31% compared to state-of-the-art LLM-native memory systems. Ablation results identify content type prior as the most influential factor for reliable memory admission. These findings demonstrate that explicit and interpretable admission control is a critical design principle for scalable and reliable memory in LLM-based agents.
+
+### [Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory](https://arxiv.org/abs/2603.04257)
+
+- **Authors:** Wang, Zhenting, Chen, Huancheng, Wang, Jiayun, Wei, Wei
+- **Published:** 2026-03-04
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.04257) · [PDF](https://arxiv.org/pdf/2603.04257)
+
+Large language model (LLM) agents are fundamentally bottlenecked by finite context windows on long-horizon tasks. As trajectories grow, retaining tool outputs and intermediate reasoning in-context quickly becomes infeasible: the working context becomes prohibitively long, eventually exceeds the context budget, and makes distant evidence harder to use even when it is still present. Existing solutions typically shorten context through truncation or running summaries, but these methods are fundamentally lossy because they compress or discard past evidence itself. We introduce Memex, an indexed experience memory mechanism that instead compresses context without discarding evidence. Memex maintains a compact working context consisting of concise structured summaries and stable indices, while storing full-fidelity underlying interactions in an external experience database under those indices. The agent can then decide when to dereference an index and recover the exact past evidence needed for the current subgoal. We optimize both write and read behaviors with our reinforcement learning framework MemexRL, using reward shaping tailored to indexed memory usage under a context budget, so the agent learns what to summarize, what to archive, how to index it, and when to retrieve it. This yields a substantially less lossy form of long-horizon memory than summary-only approaches. We further provide a theoretical analysis showing the potential of the Memex loop to preserve decision quality with bounded dereferencing while keeping effective in-context computation bounded as history grows. Empirically, on challenging long-horizon tasks, Memex agent trained with MemexRL improves task success while using a significantly smaller working context.
+
+### [Multi-Agent Debate with Memory Masking](https://arxiv.org/abs/2603.20215)
+
+- **Authors:** Tian, Hongduan, Feng, Xiao, Zhao, Ziyuan, Zhu, Xiangyu, Yan, Rolan, Han, Bo
+- **Published:** 2026-03-03
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** Hong Kong Baptist University
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.20215) · [PDF](https://arxiv.org/pdf/2603.20215)
+
+Large language models (LLMs) have recently demonstrated impressive capabilities in reasoning tasks. Currently, mainstream LLM reasoning frameworks predominantly focus on scaling up inference-time sampling to enhance performance. In particular, among all LLM reasoning frameworks, *multi-agent debate* (MAD), which employs multiple LLMs as agents to perform reasoning in the way of multi-round debate, has emerged as a powerful reasoning paradigm since it allows agents to access previous memories to alleviate fallacious content and refine their reasoning iteratively in each debate round. However, although MAD significantly improves the reasoning capabilities of LLMs, in this paper, we observe that there remain erroneous memories, and LLM agents are vulnerable to these erroneous memories. To explore this phenomenon, we provide a theoretical insight that the performance of MAD is highly dependent on the quality of memories derived from the previous debate, indicating that the existence of erroneous memories poses a threat to the performance of MAD. To address this problem, we introduce a simple yet effective multi-agent debate framework, *multi-agent debate with memory masking* (MAD-M$^2$), to improve the robustness of MAD by allowing LLM agents to mask erroneous memories from the previous debate round at the beginning of each debate round. In this way, MAD-M$^2$ can polish the contextual information before each debate round by preserving informative and meaningful memories while discarding the erroneous memories. Extensive experiments and analyses on mainstream mathematical and logical reasoning benchmarks demonstrate that MAD-M$^2$ can identify the erroneous memories and achieve better performance in reasoning than MAD.
+
+### [CraniMem: Cranial Inspired Gated and Bounded Memory for Agentic Systems](https://arxiv.org/abs/2603.15642)
+
+- **Authors:** Mody, Pearl, Panchal, Mihir, Kar, Rishit, Bhowmick, Kiran, Karani, Ruhina
+- **Published:** 2026-03-03
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.15642) · [PDF](https://arxiv.org/pdf/2603.15642) · [Code](https://github.com/PearlMody05/Cranimem)
+
+Large language model (LLM) agents are increasingly deployed in long running workflows, where they must preserve user and task state across many turns. Many existing agent memory systems behave like external databases with ad hoc read/write rules, which can yield unstable retention, limited consolidation, and vulnerability to distractor content. We present CraniMem, a neurocognitively motivated, gated and bounded multi-stage memory design for agentic systems. CraniMem couples goal conditioned gating and utility tagging with a bounded episodic buffer for near term continuity and a structured long-term knowledge graph for durable semantic recall. A scheduled consolidation loop replays high utility traces into the graph while pruning low utility items, keeping memory growth in check and reducing interference. On long horizon benchmarks evaluated under both clean inputs and injected noise, CraniMem is more robust than a Vanilla RAG and Mem0 baseline and exhibits smaller performance drops under distraction. Our code is available at https://github.com/PearlMody05/Cranimem and the accompanying PyPI package at https://pypi.org/project/cranimem.
+
+### [Position: Modular Memory is the Key to Continual Learning Agents](https://arxiv.org/abs/2603.01761)
+
+- **Authors:** Dorovatas, Vaggelis, Schwerin, Malte, Bagdanov, Andrew D., Caccia, Lucas, Carta, Antonio, Charlin, Laurent, Hammer, Barbara, Hayes, Tyler L., Hess, Timm, Kanan, Christopher, Kudithipudi, Dhireesha, Liu, Xialei, Lomonaco, Vincenzo, Mendez-Mendez, Jorge, Patil, Darshan, Prabhu, Ameya, Ricci, Elisa, Tuytelaars, Tinne, van de Ven, Gido M., Wang, Liyuan, van de Weijer, Joost, Choi, Jonghyun, Mundt, Martin, Aljundi, Rahaf
+- **Published:** 2026-03-02
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** Mila, University of Groningen, University of Montreal
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2603.01761) · [PDF](https://arxiv.org/pdf/2603.01761)
+
+Foundation models have transformed machine learning through large-scale pretraining and increased test-time compute. Despite surpassing human performance in several domains, these models remain fundamentally limited in continuous operation, experience accumulation, and personalization, capabilities that are central to adaptive intelligence. While continual learning research has long targeted these goals, its historical focus on in-weight learning (IWL), i.e., updating a single model's parameters to absorb new knowledge, has rendered catastrophic forgetting a persistent challenge. Our position is that combining the strengths of In-Weight Learning (IWL) and the newly emerged capabilities of In-Context Learning (ICL) through the design of modular memory is the missing piece for continual adaptation at scale. We outline a conceptual framework for modular memory-centric architectures that leverage ICL for rapid adaptation and knowledge accumulation, and IWL for stable updates to model capabilities, charting a practical roadmap toward continually learning agents.
+
+### [From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck for Long-Horizon Video Agents](https://arxiv.org/abs/2603.01455)
+
+- **Authors:** Lian, Niu, Wang, Yuting, Yao, Hanshu, Wang, Jinpeng, Chen, Bin, Wang, Yaowei, Zhang, Min, Xia, Shu-Tao
+- **Published:** 2026-03-02
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** n/a
+- **Categories:** cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2603.01455) · [PDF](https://arxiv.org/pdf/2603.01455) · [Code](https://github.com/EliSpectre/MM-Mem)
+
+While multimodal large language models have demonstrated impressive short-term reasoning, they struggle with long-horizon video understanding due to limited context windows and static memory mechanisms that fail to mirror human cognitive efficiency. Existing paradigms typically fall into two extremes: vision-centric methods that incur high latency and redundancy through dense visual accumulation, or text-centric approaches that suffer from detail loss and hallucination via aggressive captioning. To bridge this gap, we propose MM-Mem, a pyramidal multimodal memory architecture grounded in Fuzzy-Trace Theory. MM-Mem structures memory hierarchically into a Sensory Buffer, Episodic Stream, and Symbolic Schema, enabling the progressive distillation of fine-grained perceptual traces (verbatim) into high-level semantic schemas (gist). Furthermore, to govern the dynamic construction of memory, we derive a Semantic Information Bottleneck objective and introduce SIB-GRPO to optimize the trade-off between memory compression and task-relevant information retention. In inference, we design an entropy-driven top-down memory retrieval strategy. Extensive experiments across 4 benchmarks confirm that MM-Mem achieves state-of-the-art performance on both offline and streaming tasks, demonstrating robust generalization and validating the effectiveness of cognition-inspired memory organization. Code and associated configurations are publicly available at https://github.com/EliSpectre/MM-Mem.
+
+### [Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory](https://arxiv.org/abs/2603.02473)
+
+- **Authors:** Yuan, Boqin, Su, Yue, Yao, Kun
+- **Published:** 2026-03-02
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** UC San Diego
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.02473) · [PDF](https://arxiv.org/pdf/2603.02473) · [Code](https://github.com/boqiny/memory-probe)
+
+Memory-augmented LLM agents store and retrieve information from prior interactions, yet the relative importance of how memories are written versus how they are retrieved remains unclear. We introduce a diagnostic framework that analyzes how performance differences manifest across write strategies, retrieval methods, and memory utilization behavior, and apply it to a 3x3 study crossing three write strategies (raw chunks, Mem0-style fact extraction, MemGPT-style summarization) with three retrieval methods (cosine, BM25, hybrid reranking). On LoCoMo, retrieval method is the dominant factor: average accuracy spans 20 points across retrieval methods (57.1% to 77.2%) but only 3-8 points across write strategies. Raw chunked storage, which requires zero LLM calls, matches or outperforms expensive lossy alternatives, suggesting that current memory pipelines may discard useful context that downstream retrieval mechanisms fail to compensate for. Failure analysis shows that performance breakdowns most often manifest at the retrieval stage rather than at utilization. We argue that, under current retrieval practices, improving retrieval quality yields larger gains than increasing write-time sophistication. Code is publicly available at https://github.com/boqiny/memory-probe.
+
+### [Persistent Identity in AI Agents: A Multi-Anchor Architecture for Resilient Memory and Continuity](https://arxiv.org/abs/2604.09588)
+
+- **Authors:** Menon, Prahlad G.
+- **Published:** 2026-03-02
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2604.09588) · [PDF](https://arxiv.org/pdf/2604.09588) · [Code](https://github.com/menonpg/soul.py)
+
+Modern AI agents suffer from a fundamental identity problem: when context windows overflow and conversation histories are summarized, agents experience catastrophic forgetting -- losing not just information, but continuity of self. This technical limitation reflects a deeper architectural flaw: AI agent identity is centralized in a single memory store, creating a single point of failure. Drawing on neurological case studies of human memory disorders, we observe that human identity survives damage because it is distributed across multiple systems: episodic memory, procedural memory, emotional continuity, and embodied knowledge. We present soul.py, an open-source architecture that implements persistent identity through separable components (identity files and memory logs), and propose extensions toward multi-anchor resilience. The framework introduces a hybrid RAG+RLM retrieval system that automatically routes queries to appropriate memory access patterns, achieving efficient retrieval without sacrificing comprehensiveness. We formalize the notion of identity anchors for AI systems and present a roadmap for building agents whose identity can survive partial memory failures. Code is available at github.com/menonpg/soul.py
+
+### [AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations](https://arxiv.org/abs/2603.01966)
+
+- **Authors:** Jiayang, Cheng, Ru, Dongyu, Qiu, Lin, Li, Yiyang, Cao, Xuezhi, Song, Yangqiu, Cai, Xunliang
+- **Published:** 2026-03-02
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** The Hong Kong University of Science and Technology
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.01966) · [PDF](https://arxiv.org/pdf/2603.01966)
+
+Long-horizon interactions between users and LLM-based assistants necessitate effective memory management, yet current approaches face challenges in training and evaluation of memory. Existing memory benchmarks rely on static, off-policy data as context, limiting evaluation reliability and scalability. To address these gaps, we introduce AMemGym, an interactive environment enabling on-policy evaluation and optimization for memory-driven personalization. AMemGym employs structured data sampling to predefine user profiles, state-dependent questions, and state evolution trajectories, enabling cost-effective generation of high-quality, evaluation-aligned interactions. LLM-simulated users expose latent states through role-play while maintaining structured state consistency. Comprehensive metrics based on structured data guide both assessment and optimization of assistants. Extensive experiments reveal performance gaps in existing memory systems (e.g., RAG, long-context LLMs, and agentic memory) and corresponding reasons. AMemGym not only enables effective selection among competing approaches but also can potentially drive the self-evolution of memory management strategies. By bridging structured state evolution with free-form interactions, our framework provides a scalable, diagnostically rich environment for advancing memory capabilities in conversational agents.
+
+### [Semantic XPath: Structured Agentic Memory Access for Conversational AI](https://arxiv.org/abs/2603.01160)
+
+- **Authors:** Liu, Yifan Simon, Wu, Ruifan, Gallagher, Liam, Liang, Jiazhou, Toroghi, Armin, Sanner, Scott
+- **Published:** 2026-03-01
+- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** University of Toronto
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.01160) · [PDF](https://arxiv.org/pdf/2603.01160)
+
+Conversational AI (ConvAI) agents increasingly maintain structured memory to support long-term, task-oriented interactions. In-context memory approaches append the growing history to the model input, which scales poorly under context-window limits. RAG-based methods retrieve request-relevant information, but most assume flat memory collections and ignore structure. We propose Semantic XPath, a tree-structured memory module to access and update structured conversational memory. Semantic XPath improves performance over flat-RAG baselines by 176.7% while using only 9.1% of the tokens required by in-context memory. We also introduce SemanticXPath Chat, an end-to-end ConvAI demo system that visualizes the structured memory and query execution details. Overall, this paper demonstrates a candidate for the next generation of long-term, task-oriented ConvAI systems built on structured memory.
+
+### [MemPO: Self-Memory Policy Optimization for Long-Horizon Agents](https://arxiv.org/abs/2603.00680)
+
+- **Authors:** Li, Ruoran, Zhang, Xinghua, Yu, Haiyang, Duan, Shitong, Li, Xiang, Xiang, Wenxin, Liao, Chonghua, Guo, Xudong, Li, Yongbin, Suo, Jinli
+- **Published:** 2026-02-28
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.00680) · [PDF](https://arxiv.org/pdf/2603.00680) · [Code](https://github.com/TheNewBeeKing/MemPO)
+
+Long-horizon agents face the challenge of growing context size during interaction with environment, which degrades the performance and stability. Existing methods typically introduce the external memory module and look up the relevant information from the stored memory, which prevents the model itself from proactively managing its memory content and aligning with the agent's overarching task objectives. To address these limitations, we propose the self-memory policy optimization algorithm (MemPO), which enables the agent (policy model) to autonomously summarize and manage their memory during interaction with environment. By improving the credit assignment mechanism based on memory effectiveness, the policy model can selectively retain crucial information, significantly reducing token consumption while preserving task performance. Extensive experiments and analyses confirm that MemPO achieves absolute F1 score gains of 25.98 over the base model and 7.1 over the previous SOTA baseline, while reducing token usage by 67.58% and 73.12%. The code is released at https://github.com/TheNewBeeKing/MemPO.
+
+### [M$^2$: Dual-Memory Augmentation for Long-Horizon Web Agents via Trajectory Summarization and Insight Retrieval](https://arxiv.org/abs/2603.00503)
+
+- **Authors:** Yan, Dawei, Zhang, Haokui, Huzhang, Guangda, Li, Yang, Wang, Yibo, Chen, Qing-Guo, Xu, Zhao, Luo, Weihua, Li, Ying, Dong, Wei, Shen, Chunhua
+- **Published:** 2026-02-28
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2603.00503) · [PDF](https://arxiv.org/pdf/2603.00503)
+
+Multimodal Large Language Models (MLLMs) based agents have demonstrated remarkable potential in autonomous web navigation. However, handling long-horizon tasks remains a critical bottleneck. Prevailing strategies often rely heavily on extensive data collection and model training, yet still struggle with high computational costs and insufficient reasoning capabilities when facing complex, long-horizon scenarios. To address this, we propose M$^2$, a training-free, memory-augmented framework designed to optimize context efficiency and decision-making robustness. Our approach incorporates a dual-tier memory mechanism that synergizes Dynamic Trajectory Summarization (Internal Memory) to compress verbose interaction history into concise state updates, and Insight Retrieval Augmentation (External Memory) to guide the agent with actionable guidelines retrieved from an offline insight bank. Extensive evaluations across WebVoyager and OnlineMind2Web demonstrate that M$^2$ consistently surpasses baselines, yielding up to a 19.6% success rate increase and 58.7% token reduction for Qwen3-VL-32B, while proprietary models like Claude achieve accuracy gains up to 12.5% alongside significantly lower computational overhead.
+
+### [MemEmo: Evaluating Emotion in Memory Systems of Agents](https://arxiv.org/abs/2602.23944)
+
+- **Authors:** Liu, Peng, Tao, Zhen, Zhao, Jihao, Chen, Ding, Zhang, Yansong, Li, Cuiping, Li, Zhiyu, Chen, Hong
+- **Published:** 2026-02-27
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2602.23944) · [PDF](https://arxiv.org/pdf/2602.23944)
+
+Memory systems address the challenge of context loss in Large Language Model during prolonged interactions. However, compared to human cognition, the efficacy of these systems in processing emotion-related information remains inconclusive. To address this gap, we propose an emotion-enhanced memory evaluation benchmark to assess the performance of mainstream and state-of-the-art memory systems in handling affective information. We developed the \textbf{H}uman-\textbf{L}ike \textbf{M}emory \textbf{E}motion (\textbf{HLME}) dataset, which evaluates memory systems across three dimensions: emotional information extraction, emotional memory updating, and emotional memory question answering. Experimental results indicate that none of the evaluated systems achieve robust performance across all three tasks. Our findings provide an objective perspective on the current deficiencies of memory systems in processing emotional memories and suggest a new trajectory for future research and system optimization.
+
+### [AMA-Bench: Evaluating Long-Horizon Memory for Agentic Applications](https://arxiv.org/abs/2602.22769)
+
+- **Authors:** Zhao, Yujie, Yuan, Boqin, Huang, Junbo, Yuan, Haocheng, Yu, Zhongming, Xu, Haozhou, Hu, Lanxiang, Shankarampeta, Abhilash, Huang, Zimeng, Ni, Wentao, Tian, Yuandong, Zhao, Jishen
+- **Published:** 2026-02-26
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** UC San Diego
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2602.22769) · [PDF](https://arxiv.org/pdf/2602.22769)
+
+Large Language Models (LLMs) are increasingly used as autonomous agents in complex, long-horizon applications, where effective memory is critical for sustained performance. Yet existing memory benchmarks are largely dialogue-centric, while real agent memory consists of continuous agent-environment interaction trajectories composed of states, actions, observations, and tool outputs. To address this gap, we introduce **AMA-Bench** (**A**gent **M**emory with **A**ny length), a benchmark for evaluating long-horizon memory in realistic agentic settings. AMA-Bench combines real-world agent trajectories from representative applications with expert-curated QA, as well as synthetic trajectories that scale to arbitrary horizons with rule-based QA. Our study shows that existing memory systems underperform because they fail to capture causal and objective information and rely heavily on lossy similarity-based retrieval. We further propose **AMA-Agent**, a memory system based on causality-graph construction and tool-augmented retrieval. AMA-Agent achieves **57.22%** accuracy on AMA-Bench, outperforming the strongest baseline by **11.16%**. Resources are available at: [https://ama-bench.github.io/](https://ama-bench.github.io/).
+
+### [ParamMem: Augmenting Language Agents with Parametric Reflective Memory](https://arxiv.org/abs/2602.23320)
+
+- **Authors:** Yao, Tianjun, Chen, Yongqiang, Zheng, Yujia, Li, Pan, Shen, Zhiqiang, Zhang, Kun
+- **Published:** 2026-02-26
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2602.23320) · [PDF](https://arxiv.org/pdf/2602.23320)
+
+Self-reflection enables language agents to iteratively refine solutions, yet often produces repetitive outputs that limit reasoning performance. Recent studies have attempted to address this limitation through various approaches, among which increasing reflective diversity has shown promise. Our empirical analysis reveals a strong positive correlation between reflective diversity and task success, further motivating the need for diverse reflection signals. We introduce ParamMem, a parametric memory module that encodes cross-sample reflection patterns into model parameters, enabling diverse reflection generation through temperature-controlled sampling. Building on this module, we propose ParamAgent, a reflection-based agent framework that integrates parametric memory with episodic and cross-sample memory. Extensive experiments on code generation, mathematical reasoning, and multi-hop question answering demonstrate consistent improvements over state-of-the-art baselines. Further analysis reveals that ParamMem is sample-efficient, enables weak-to-strong transfer across model scales, and supports self-improvement without reliance on stronger external model, highlighting the potential of ParamMem as an effective component for enhancing language agents.
 
 ## LLM Continual Training & Continual Learning
 
-### [Deep and shallow biases in language models](https://arxiv.org/abs/2609.09901v1)
+### [Beyond Static Models: An Evolving Framework for Continual Learning in Large Language Models across Training Stages](https://arxiv.org/abs/2603.12658v2)
 
-- **Authors:** An Vo, Vy Tuong Dang, Khai-Nguyen Nguyen, Emilio Villa-Cueva, Thamar Solorio, Anh Totti Nguyen, Daeyoung Kim
-- **Published:** 2026-09-09
+- **Authors:** Hongyang Chen, Zhongwu Sun, Hongfei Ye, Kunchi Li, Xuemin Lin
+- **Published:** 2026-03-13
 - **Priority:** —
 - **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CL, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.12658v2) · [PDF](https://arxiv.org/pdf/2603.12658v2)
+
+Continual learning (CL) has emerged as a pivotal paradigm to enable large language models (LLMs) to dynamically adapt to evolving knowledge and sequential tasks while mitigating catastrophic forgetting, a critical limitation of the static pre-training paradigm inherent to modern LLMs. This paper presents a comprehensive overview of CL methodologies tailored for LLMs, structured around three core training stages: continual pre-training, continual fine-tuning, and continual alignment. Beyond the canonical taxonomy of rehearsal-, regularization-, and architecture-based methods, we further subdivide each category by its distinct forgetting mitigation mechanisms and conduct a rigorous comparative analysis of the adaptability and critical improvements of traditional CL methods for LLMs. In doing so, we explicitly highlight core distinctions between LLM CL and traditional machine learning, particularly with respect to scale, parameter efficiency, and emergent capabilities. Our analysis covers essential evaluation metrics, including forgetting rates and knowledge transfer efficiency, along with emerging benchmarks for assessing CL performance. While current methods show promising results, fundamental challenges persist in achieving seamless knowledge integration, and we identify key open problems and future directions for the field.
+
+### [Continual Learning with Vision-Language Models via Semantic-Geometry Preservation](https://arxiv.org/abs/2603.12055v3)
+
+- **Authors:** Chiyuan He, Zihuan Qiu, Fanman Meng, Runtong Zhang, Linfeng Xu, Qingbo Wu, Hongliang Li
+- **Published:** 2026-03-12
+- **Priority:** —
+- **Venue:** IEEE transactions on circuits and systems for video technology (Print)
+- **Affiliations:** n/a
+- **Categories:** cs.CV, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2603.12055v3) · [PDF](https://arxiv.org/pdf/2603.12055v3)
+
+Continual learning of pretrained vision-language models (VLMs) is prone to catastrophic forgetting, yet current approaches adapt to new tasks without explicitly preserving the cross-modal semantic geometry inherited from pretraining and previous stages, allowing new-task supervision to induce geometric distortion. We observe that the most pronounced drift tends to concentrate in vulnerable neighborhoods near the old-new semantic interface, where shared visual patterns are easily re-explained by new textual semantics. To address this under an exemplar-free constraint, we propose Semantic Geometry Preservation for Continual Learning (SeGP-CL). SeGP-CL first probes the drift-prone region by constructing a compact set of adversarial anchors with dual-targeted projected gradient descent (DPGD), which drives selected new-task seeds toward old-class semantics while remaining faithful in raw visual space. During training, we preserve cross-modal structure by anchor-guided cross-modal geometry distillation (ACGD), and stabilize the textual reference frame across tasks via a lightweight text semantic-geometry regularization (TSGR). After training, we estimate anchor-induced raw-space drift to transfer old visual prototypes and perform dual-path inference by fusing cross-modal and visual cues. Extensive experiments on five continual learning benchmarks demonstrate that SeGP-CL consistently improves stability and forward transfer, achieving state-of-the-art performance while better preserving semantic geometry of VLMs. Code is available at: https://github.com/chiyuan-IVIPLab/SeGP-CL.
+
+### [Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework](https://arxiv.org/abs/2603.11768)
+
+- **Authors:** Lam, Chingkwun, Li, Jiaxin, Zhang, Lingfei, Zhao, Kuo
+- **Published:** 2026-03-12
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.11768) · [PDF](https://arxiv.org/pdf/2603.11768)
+
+Long-term memory has emerged as a foundational component of autonomous Large Language Model (LLM) agents, enabling continuous adaptation, lifelong multimodal learning, and sophisticated reasoning. However, as memory systems transition from static retrieval databases to dynamic, agentic mechanisms, critical concerns regarding memory governance, semantic drift, and privacy vulnerabilities have surfaced. While recent surveys have focused extensively on memory retrieval efficiency, they largely overlook the emergent risks of memory corruption in highly dynamic environments. To address these emerging challenges, we propose the Stability and Safety-Governed Memory (SSGM) framework, a conceptual governance architecture. SSGM decouples memory evolution from execution by enforcing consistency verification, temporal decay modeling, and dynamic access control prior to any memory consolidation. Through formal analysis and architectural decomposition, we show how SSGM can mitigate topology-induced knowledge leakage where sensitive contexts are solidified into long-term storage, and help prevent semantic drift where knowledge degrades through iterative summarization. Ultimately, this work provides a comprehensive taxonomy of memory corruption risks and establishes a robust governance paradigm for deploying safe, persistent, and reliable agentic memory systems.
+
+### [Can Large Language Models Keep Up? Benchmarking Online Adaptation to Continual Knowledge Streams](https://arxiv.org/abs/2603.07392)
+
+- **Authors:** Kim, Jiyeon, Lee, Hyunji, Zhou, Dylan, Park, Sue Hyun, Yoon, Seunghyun, Bui, Trung, Dernoncourt, Franck, Cha, Sungmin, Seo, Minjoon
+- **Published:** 2026-03-08
+- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
 - **Affiliations:** n/a
 - **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2609.09901v1) · [PDF](https://arxiv.org/pdf/2609.09901v1)
+- **Links:** [Paper](https://arxiv.org/abs/2603.07392) · [PDF](https://arxiv.org/pdf/2603.07392)
 
-Large language models often repeatedly select the same answer even when many alternatives are plausible. Prior work treats this concentration as bias, but it does not distinguish stable model preferences from responses that depend on a particular prompt wording. We introduce a bias depth score that measures both how strongly a model prefers its top answer under direct prompting and whether that answer survives scenario reframing. Across 4,442 opinion prompts and four large language models, only about a quarter of the concentrated preferences survive reframing. We call these persistent cases Deep biases, and the remaining prompt-dependent cases Shallow biases. Our results show that Deep biases are more often inherited from pretraining and preserved through SFT. Under both continued fine-tuning and prompt-based debiasing for diversity, Deep biases are consistently harder to remove than Shallow biases. Bias depth therefore separates stable learned biases from prompt-wording artifacts that single-prompt metrics conflate. Code, models, and data are available at deepbias.github.io.
+LLMs operating in dynamic real-world contexts often encounter knowledge that evolves continuously or emerges incrementally. To remain accurate and effective, models must adapt to newly arriving information on the fly. We introduce Online Adaptation to Continual Knowledge Streams(OAKS) to evaluate this capability, establishing a benchmark for online adaptation over streaming, continually updating knowledge. Specifically, the benchmark is structured as a sequence of fine-grained context chunks where facts change dynamically across time intervals. OAKS comprises two datasets: OAKS-BABI and OAKS-Novel, where individual facts evolve multiple times across context chunks. These datasets include dense annotations to measure whether models track changes accurately. Evaluating 14 models with varied inference approaches, we observe significant limitations in current methodologies. Both state-of-the-art models and agentic memory systems fail to adapt robustly on OAKS, demonstrating delays in state-tracking and susceptibility to distraction within streaming environments.
 
-### [SimSkill: A Self-Evolving LLM Agent for Skill and Knowledge Accumulation in Traffic Simulation](https://arxiv.org/abs/2609.03753v2)
+### [EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication in Longitudinal Dialogue](https://arxiv.org/abs/2603.04815)
 
-- **Authors:** Qi Liu, Qinzheng Wang, Can Li, Yiming Bie, Wanjng Ma
-- **Published:** 2026-09-03
+- **Authors:** Kandala, Ratna, Manchanda, Niva, Moharir, Akshata Kishore, Kandala, Ananth
+- **Published:** 2026-03-05
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** Microsoft
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.04815) · [PDF](https://arxiv.org/pdf/2603.04815)
+
+Manipulative communication, such as gaslighting, guilt-tripping, and emotional coercion, is often difficult for individuals to recognize. Existing agentic AI systems lack the structured, longitudinal memory to track these subtle, context-dependent tactics, often failing due to limited context windows and catastrophic forgetting. We introduce EchoGuard, an agentic AI framework that addresses this gap by using a Knowledge Graph (KG) as the agent's core episodic and semantic memory. EchoGuard employs a structured Log-Analyze-Reflect loop: (1) users log interactions, which the agent structures as nodes and edges in a personal, episodic KG (capturing events, emotions, and speakers); (2) the system executes complex graph queries to detect six psychologically-grounded manipulation patterns (stored as a semantic KG); and (3) an LLM generates targeted Socratic prompts grounded by the subgraph of detected patterns, guiding users toward self-discovery. This framework demonstrates how the interplay between agentic architectures and Knowledge Graphs can empower individuals in recognizing manipulative communication while maintaining personal autonomy and safety. We present the theoretical foundation, framework design, a comprehensive evaluation strategy, and a vision to validate this approach.
+
+### [Self-Evolutionary Replanning for Failure-Aware Motion Planning](https://arxiv.org/abs/2603.02772v2)
+
+- **Authors:** Guoliang Li, Ruihua Han, Chengyang Li, He Li, Shuai Wang, Wenchao Ding, Hong Zhang, Chengzhong Xu
+- **Published:** 2026-03-03
 - **Priority:** —
 - **Venue:** arXiv
 - **Affiliations:** n/a
-- **Categories:** cs.AI, cs.MA
-- **Links:** [Paper](https://arxiv.org/abs/2609.03753v2) · [PDF](https://arxiv.org/pdf/2609.03753v2)
+- **Categories:** cs.RO
+- **Links:** [Paper](https://arxiv.org/abs/2603.02772v2) · [PDF](https://arxiv.org/pdf/2603.02772v2)
 
-Cumulative culture enables humans to preserve, reuse, and extend knowledge and skills across experiences and generations. Inspired by this principle, we introduce \textit{SimSkill}, a self-evolving agent built around the Simulation of Urban MObility (SUMO) traffic simulator. SimSkill continually identifies capability gaps, generates and solves environment-grounded tasks, verifies solutions through an action--critic loop, and consolidates experience into episodic, procedural, and semantic memory. Through autonomous exploration, it builds a library of reusable skills and knowledge spanning major stages of the traffic-simulation workflow. We evaluate SimSkill on two held-out benchmarks across three backbone LLMs, with each result independently verified. It improves verified success by up to 25 percentage points, and ablations show complementary contributions from procedural and semantic memory. Its benefits remain backbone- and budget-dependent, as memory does not improve every model or uniformly reduce inference cost. More broadly, SimSkill illustrates a natural-language-centered design paradigm for LLM-based agent systems. Its high-level control logic, operating principles, and accumulated knowledge are expressed in natural language, while an LLM integrates them with executable tools and code to realize precise and reproducible execution. All code and experimental data are publicly available at https://github.com/qiliuchn/SimSkill-V1.
+Motion planners tuned under nominal conditions can fail when execution conditions change. Existing differentiable adaptation methods provide efficient online updates but remain constrained by static loss functions and gradient-only parameter updates. We propose Self-Evolutionary RePlanning (SERP), a failure-aware framework that jointly adapts motion-planner parameters and loss function weights from closed-loop execution feedback. SERP provides two adaptation mechanisms. First, in-context learning with auto-differentiation (ILAD) enables rapid online adaptation by coupling local numerical refinement with history-conditioned semantic intervention. Auto-differentiation performs numerical updates, while a vision-language model (VLM) interprets recent adaptation history to jointly revise planner parameters and loss weights when local adaptation becomes ineffective. Second, the memory-augmented rollout system (MARS) extends ILAD into a deliberative and evolutionary recovery process with memory-guided candidate generation and parallel low-fidelity rollout evaluation. The resulting recovery trace is then consolidated into recovery memory to guide future adaptation. Extensive simulation and real-world experiments demonstrate improved failure recovery performance over various baselines across diverse environments.
 
-### [EvoHarnessBench: Can Your Agents Keep Pace with an Evolving Harness?](https://arxiv.org/abs/2609.04280v3)
+### [Position: Modular Memory is the Key to Continual Learning Agents](https://arxiv.org/abs/2603.01761)
 
-- **Authors:** Zixuan Ke, Vaidehi Patil, Haizhou Shi, Yang Li, Ye Liu, Sarath Shekkizhar, Anurag Koul, Jiayu Wang, Xuan Phi Nguyen, Semih Yavuz, Mohit Bansal, Shafiq Joty
-- **Published:** 2026-09-03
+- **Authors:** Dorovatas, Vaggelis, Schwerin, Malte, Bagdanov, Andrew D., Caccia, Lucas, Carta, Antonio, Charlin, Laurent, Hammer, Barbara, Hayes, Tyler L., Hess, Timm, Kanan, Christopher, Kudithipudi, Dhireesha, Liu, Xialei, Lomonaco, Vincenzo, Mendez-Mendez, Jorge, Patil, Darshan, Prabhu, Ameya, Ricci, Elisa, Tuytelaars, Tinne, van de Ven, Gido M., Wang, Liyuan, van de Weijer, Joost, Choi, Jonghyun, Mundt, Martin, Aljundi, Rahaf
+- **Published:** 2026-03-02
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** University of North Carolina at Chapel Hill
-- **Categories:** cs.MA, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2609.04280v3) · [PDF](https://arxiv.org/pdf/2609.04280v3)
+- **Venue:** arXiv.org
+- **Affiliations:** Mila, University of Groningen, University of Montreal
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2603.01761) · [PDF](https://arxiv.org/pdf/2603.01761)
 
-Modern LLM-based agents operate through a harness of tools, reusable skills, and specialist agents that shapes what they observe and what they can do. In practice, this harness continually evolves as new capabilities are added. We introduce EvoHarnessBench, a benchmark for evaluating agents under controlled harness evolution across three axes (tools, skills, and agents). Unlike existing continual-learning benchmarks for agents, which typically place non-stationarity (i.e., what changes over time) in the task stream while keeping the harness fixed, EvoHarnessBench places non-stationarity in the externally supplied harness itself. It contains 17 multi-stage harness streams constructed deterministically from verifier-based benchmarks, comprising 802 tasks, 520 tools, 42 skills, and 62 agents. We evaluate two complementary settings corresponding to the central challenges of harness evolution: deployment evaluation, which isolates retention of previously accessible competence as the harness expands, and self-evolving adaptation evaluation, which tests whether accumulated experience remains useful as new capabilities are introduced. Our results reveal three persistent gaps. First, harness expansion alone can degrade performance on previously solved tasks, producing harness-induced forgetting. Second, gains from self-evolving adaptation remain inconsistent across stages of harness evolution, capability axes, and environments. Third, retention and adaptation can pull in different directions: preserving earlier competence does not necessarily improve adaptation to newly introduced capabilities, and vice versa. These results establish harness evolution as a distinct challenge for building agents that can keep pace with an evolving harness while preserving previously effective behavior.
+Foundation models have transformed machine learning through large-scale pretraining and increased test-time compute. Despite surpassing human performance in several domains, these models remain fundamentally limited in continuous operation, experience accumulation, and personalization, capabilities that are central to adaptive intelligence. While continual learning research has long targeted these goals, its historical focus on in-weight learning (IWL), i.e., updating a single model's parameters to absorb new knowledge, has rendered catastrophic forgetting a persistent challenge. Our position is that combining the strengths of In-Weight Learning (IWL) and the newly emerged capabilities of In-Context Learning (ICL) through the design of modular memory is the missing piece for continual adaptation at scale. We outline a conceptual framework for modular memory-centric architectures that leverage ICL for rapid adaptation and knowledge accumulation, and IWL for stable updates to model capabilities, charting a practical roadmap toward continually learning agents.
+
+### [AutoSkill: Experience-Driven Lifelong Learning via Skill Self-Evolution](https://arxiv.org/abs/2603.01145)
+
+- **Authors:** Yang, Yutao, Li, Junsong, Pan, Qianjun, Zhan, Bihao, Cai, Yuxuan, Du, Lin, Zhou, Jie, Chen, Kai, Chen, Qin, Li, Xin, Zhang, Bo, He, Liang
+- **Published:** 2026-03-01
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.01145) · [PDF](https://arxiv.org/pdf/2603.01145)
+
+In practical LLM applications, users repeatedly express stable preferences and requirements, such as reducing hallucinations, following institutional writing conventions, or avoiding overly technical wording, yet such interaction experience is seldom consolidated into reusable knowledge. Consequently, LLM agents often fail to accumulate personalized capabilities across sessions. We present AutoSkill, an experience-driven lifelong learning framework that enables LLM agents to automatically derive, maintain, and reuse skills from dialogue and interaction traces. AutoSkill abstracts skills from user experience, supports their continual self-evolution, and dynamically injects relevant skills into future requests without retraining the underlying model. Designed as a model-agnostic plugin layer, it is compatible with existing LLMs and introduces a standardized skill representation for sharing and transfer across agents, users, and tasks. In this way, AutoSkill turns ephemeral interaction experience into explicit, reusable, and composable capabilities. This paper describes the motivation, architecture, skill lifecycle, and implementation of AutoSkill, and positions it with respect to prior work on memory, retrieval, personalization, and agentic systems. AutoSkill highlights a practical and scalable path toward lifelong personalized agents and personal digital surrogates.
 
 ## Reinforcement Learning
 
-### [Fixed-Time Resilient Integral Reinforcement Learning for Input-Constrained Unknown Nonlinear Systems Under FDI Attacks and Disturbances: A Data-Driven Admissible Warm Start](https://arxiv.org/abs/2609.14067v1)
+### [Look Where It Matters: High-Resolution Crops Retrieval for Efficient VLMs](https://arxiv.org/abs/2603.16932v2)
 
-- **Authors:** Tien Dat Vu, Minh Doan
-- **Published:** 2026-09-12
+- **Authors:** Nimrod Shabtay, Moshe Kimhi, Artem Spector, Sivan Haray, Ehud Rivlin, Chaim Baskin, Raja Giryes, Eli Schwartz
+- **Published:** 2026-03-14
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** eess.SY
-- **Links:** [Paper](https://arxiv.org/abs/2609.14067v1) · [PDF](https://arxiv.org/pdf/2609.14067v1)
+- **Venue:** arXiv.org
+- **Affiliations:** Ben-Gurion University of the Negev
+- **Categories:** cs.CV, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.16932v2) · [PDF](https://arxiv.org/pdf/2603.16932v2)
 
-This paper develops a resilient learning controller for unknown nonlinear systems operating under actuator limits, false-data-injection attacks, and external disturbances. The key idea is to learn a saturated secure policy directly from finite trajectory data while guaranteeing that both the learning error and the closed-loop state converge to compact neighborhoods within a uniform fixed time independent of initial conditions. An integral formulation removes the unknown drift from the implementable learning law, while stored informative data sustain learning after online excitation fades. To mitigate the closed-loop sensitivity to arbitrary critic initialization, pre-deployment data, which may also be reused from the replay stack, are lifted through a finite-dimensional Koopman representation to construct a stabilizing initial policy, whose inverse saturated-policy map provides a data-driven critic-weight warm start. The resulting controller preserves input constraints by construction and guarantees practical fixed-time robustness under persistent attacks and disturbances. The proposed learning and initialization architecture is further verified through a two-link robot stabilization example, where the results demonstrate rapid state recovery, bounded critic learning, reliable actuator-constraint satisfaction, and improved closed-loop behavior under informed critic initialization.
+Vision-language models (VLMs) typically process images at a native high-resolution, forcing a trade-off between accuracy and computational efficiency: high-resolution inputs capture fine details but incur significant computational costs, while low-resolution inputs advocate for efficiency, they potentially miss critical visual information, like small text. We present AwaRes, a spatial-on-demand framework that resolves this accuracy-efficiency trade-off by operating on a low-resolution global view and using tool-calling to retrieve only high-resolution segments needed for a given query. We construct supervised data automatically: a judge compares low- vs.\ high-resolution answers to label whether cropping is needed, and an oracle grounding model localizes the evidence for the correct answer, which we map to a discrete crop set to form multi-turn tool-use trajectories. We train our framework with cold-start SFT followed by multi-turn GRPO with a composite reward that combines semantic answer correctness with explicit crop-cost penalties. Project page: https://nimrodshabtay.github.io/AwaRes
 
-### [GraMRAG: Orchestrating Multi-Agent Multi-Step Reasoning via Graph Memory with Reinforcement Learning](https://arxiv.org/abs/2609.14066v1)
+### [Novelty Adaptation Through Hybrid Large Language Model (LLM)-Symbolic Planning and LLM-guided Reinforcement Learning](https://arxiv.org/abs/2603.11351v2)
 
-- **Authors:** Zhongyu Wang
-- **Published:** 2026-09-12
+- **Authors:** Hong Lu, Pierrick Lorang, Timothy R. Duggan, Jivko Sinapov, Matthias Scheutz
+- **Published:** 2026-03-11
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CL, cs.AI, cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2609.14066v1) · [PDF](https://arxiv.org/pdf/2609.14066v1)
-
-Although existing multi-agent Retrieval-Augmented Generation (RAG) systems have demonstrated promise on complex multimodal reasoning tasks, they remain fundamentally limited in reasoning depth and memory structure, suffering from inadequate retrieval and state blindness when answering knowledge-intensive questions. To address these limitations, we propose GraMRAG, a graph memory-guided multi-agent RAG framework that integrates a dynamic multimodal memory graph to enable stable, multi-step multimodal reasoning. We introduce a vision-text bridged reasoning paradigm that unifies multi-scale entity cropping with a ReAct-style visual toolchain, enhancing the long-horizon cross-modal reasoning capability. We further construct a multimodal memory graph that formalizes agent reasoning as a dynamic directed acyclic graph (DAG), explicitly modeling action-observation dependencies to mitigate state blindness and suppress redundant retrieval. Moreover, we propose Topology-Aware Policy Optimization (TAPO) that leverages graph topology for critical path identification and targeted node pruning, enabling fine-grained credit assignment across multi-step reasoning trajectories. Extensive experiments on challenging multimodal benchmarks demonstrate that our approach consistently outperforms existing baselines and achieves state-of-the-art performance on complex long-horizon reasoning tasks.
-
-### [Unlocking the Unsolvable: Teacher-Guided Curriculum for Data-Efficient RLVR](https://arxiv.org/abs/2609.13997v1)
-
-- **Authors:** Yukang Zhu, Zhen Han
-- **Published:** 2026-09-12
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2609.13997v1) · [PDF](https://arxiv.org/pdf/2609.13997v1)
-
-Reinforcement Learning with Verifiable Rewards (RLVR) has shown remarkable success in improving the mathematical reasoning of large language models. Yet problems beyond the model's current capability, where rollouts uniformly fail and no learning signal is produced, are structurally wasted despite marking the most informative training frontier. We show that these otherwise-inert problems can be unlocked via teacher-guided curriculum learning: partial reasoning traces from a stronger model create a graded difficulty landscape, and a backward-chaining curriculum progressively withdraws guidance until the model solves problems unaided. Training on only 128 unsolvable problems matches or exceeds GRPO trained on a full 2,000-problem corpus (~16x data efficiency) on the nine-benchmark average for both base models, while substantially expanding the reasoning boundary measured by pass@k at large k. Furthermore, we identify a distribution-shift cost that is particularly acute in the unsolvable-only regime and propose Monotone Frontier Curriculum (MFC), a method that monotonically drives training toward unguided solving, consistently outperforming existing curriculum methods.
-
-### [Personalized and Trust-Aware Health Recommendation Policies for a Construction Workplace](https://arxiv.org/abs/2609.12679v2)
-
-- **Authors:** Atefeh Mollabagher, Yogesh Gautam, Houtan Jebelli, Parinaz Naghizadeh
-- **Published:** 2026-09-11
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.IR, eess.SY
-- **Links:** [Paper](https://arxiv.org/abs/2609.12679v2) · [PDF](https://arxiv.org/pdf/2609.12679v2)
-
-Construction workers face workplace risks such as fatigue, heat stress, and other physically demanding conditions that can negatively affect their health and safety. Although monitoring these risks is important, timely and personalized health interventions are also needed to help prevent negative impacts on workers' well-being and productivity. To this end, in this paper, we propose a model to capture the interactions between a trust-aware health recommender system and workers who differ in health and trust sensitivity. Specifically, in our proposed dynamic model, worker health evolves over time, worker trust is affected by both health and recommendation dynamics, and trust in turn affects compliance with future recommendations. Given this model, we characterize the recommender policy, including a health-based recommendation triggering threshold and the recommendation frequency. We do so using both model-based short-horizon control and model-free reinforcement learning. We then investigate how recommendation frequencies are adjusted for different workers to balance their health, productivity, and trust. Our findings provide insight into the design of personalized health recommendation policies in construction workplaces and beyond.
-
-### [BlueLM-GUI Technical Report: A Real-Device-Centric Flywheel for Self-Improving Mobile GUI Agents](https://arxiv.org/abs/2609.12394v3)
-
-- **Authors:** Tong Ye, Kunyang Han, Guozhi Wang, Longqiang Luo, Zhifeng Ding, Yongxiang Zhang, Xiaolei Shen, Yuxuan Zhang, Zhuping Zhang, Tao Xu, Yue Pan, Yucheng Zhao, Yupei Hu, Yuanjiang Ouyang, Danfeng Shen, Runqi Lin, Hongda Cai, Zhaoxiong Wang, Mengjia Yan, Yingjie Zhong, Chen Zhou, Zeyu Zhang, Xuwen Zhu, Penggang Shi, Mingcheng Luo, Ziyang Wu, Min Jin, Mingfu Shen, Zairong Xu, Fan Zhang, Hao Wang, Liang Liu, Zhulin Xie, Lijun Yao, Xiao Liang, Liangmin Wen, Liqiang Feng, Feilong Wu, Min Hu, Min Chen, Guanjing Xiong, Xiaohu Ruan, Xiaoxin Chen
-- **Published:** 2026-09-11
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** University of Oxford
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.12394v3) · [PDF](https://arxiv.org/pdf/2609.12394v3)
-
-Mobile GUI agents are shifting from multi-module frameworks to native models trained end-to-end, yet industrial deployment faces three persistent gaps. Sandbox training produces a distribution mismatch with production environments; expensive real-device failures remain underutilized; and fixed benchmarks saturate, losing the power to guide iteration. We present BlueLM-GUI, a 35B-A3B mobile GUI agent built as a real-device-centric flywheel that closes these gaps through three principles. Every Sample Matters: a dual-track pipeline with Heterogeneous Triple-System Consensus evaluation and an Error Correction \& Derivation Module salvages every trajectory into usable supervision. Every Rollout Is Real: a three-stage recipe---continual pre-training, supervised fine-tuning, and agentic reinforcement learning on hundreds of real phones---grounds every rollout in real production environments, so the capability the model learns transfers directly to deployment. Every Query Evolves: a quota-driven benchmark methodology with three orthogonal axes enables precise attribution and allows the benchmark to be systematically upgraded as the model improves. BlueLM-GUI achieves 87.4 on MobileGUI-VBench, surpassing the best closed-source model by 5.1 points, and 84.9 on AndroidWorld, the best result among open-source models and competitive with closed-source models. These results demonstrate that grounding model training and iterative improvement in both real devices and the three Every principles yields strong, robust, and transferable mobile GUI capability.
-
-### [Amortized Low-Rank Adaptation for Model-Based Reinforcement Learning](https://arxiv.org/abs/2609.12278v2)
-
-- **Authors:** Fernando Palafox, David Fridovich-Keil
-- **Published:** 2026-09-10
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI, cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2609.12278v2) · [PDF](https://arxiv.org/pdf/2609.12278v2)
-
-World models let agents plan by predicting the consequences of their actions, but changes in the environment can make them inaccurate. We study the problem of adapting a world model to an unknown test-time environment, drawn from a known environment family, using only a few episodes of interaction. Existing approaches trade off computational cost against expressivity, i.e., the range of models a method can produce. For example, in-context learning is computationally cheap but limited in expressivity, and gradient-based adaptation is expressive but computationally expensive. We present CLAW (Context-conditioned Low-rank Adaptation of World models), which addresses this tradeoff by using a hypernetwork to generate low-rank (LoRA) adapters at test time. During pretraining, we simulate adaptation to a variety of environments and jointly train the hypernetwork and base world model. At test time, we freeze the base model and use a forward pass of the hypernetwork to generate adapters from a small batch of test-time transitions. We evaluate CLAW in locomotion and manipulation environment families that vary in dynamics, embodiment, and reward. We show that, using only seconds of test-time data, CLAW outperforms gradient-based adaptation and in-context learning during online adaptation. We also show that CLAW avoids overfitting in data-scarce regimes, that its advantage comes from the expressive adapters rather than context conditioning, and that pretraining the hypernetwork jointly with the base model outperforms training it post hoc.
-
-### [DIA: Denoising Intermediate Advantage for Diffusion Policy Optimization](https://arxiv.org/abs/2609.12245v2)
-
-- **Authors:** Arjun Sohal, Yuchi Zhao, Miroslav Bogdanovic, Alan Aspuru-Guzik
-- **Published:** 2026-09-10
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2609.12245v2) · [PDF](https://arxiv.org/pdf/2609.12245v2)
-
-Diffusion-based robot policies have become widely used in robotic manipulation, where they are typically trained with behavior cloning. However, policies trained purely from demonstrations are limited by the quality and coverage of the available data. Reinforcement learning can further improve the performance of these pretrained policies through interaction. A common approach is to use policy-gradient methods that formulate diffusion-policy fine-tuning as an outer environment MDP together with an inner denoising MDP. However, existing methods typically assign the same environment-level credit to all denoising steps used to construct an action chunk, without distinguishing which intermediate decisions contributed most to the final return. We introduce Denoising Intermediate Advantage (DIA), a policy-gradient method that learns a value function over partially denoised actions and uses it to construct a denoising level advantage for each step of the generative process. DIA combines this inner credit signal with the standard environment-level PPO advantage, providing state-dependent credit throughout the denoising chain. Across Robomimic, FurnitureBench, Franka Kitchen, and D3IL, DIA consistently improves final performance over existing diffusion-policy fine-tuning methods. Beyond final reward, DIA reaches successful states more efficiently and can shift farther from the pretrained behavior distribution, enabling it to discover more effective and efficient task-level strategies and subtask sequences that baseline methods fail to reach.
-
-### [Near-Optimal Reinforcement Learning with Multi-Step Transition Lookahead](https://arxiv.org/abs/2609.11807v2)
-
-- **Authors:** Corentin Pla, Hugo Richard, Marc Abeille, Vianney Perchet
-- **Published:** 2026-09-10
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** stat.ML, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2609.11807v2) · [PDF](https://arxiv.org/pdf/2609.11807v2)
-
-We study reinforcement learning (RL) with transition look-ahead, where the agent may observe which states would be visited upon playing any sequence of actions before deciding its course of action. Although look-ahead can substantially improve achievable performance, [1] showed that optimal planning with multi-step transition look-ahead is NP-hard. However, this hardness was established using a discount factor close to one. It was therefore unknown whether the problem remains hard for every discount factor, and whether near-optimal planning can nevertheless be performed efficiently. We resolve both questions. First, we show that for every fixed discount factor, exact planning remains NP-hard. Second, we introduce a randomized polynomial-time approximation scheme for every fixed look-ahead depth. Third, we extend our approach to account for unknown transitions. We empirically validate the soundness of our results on the wind-farm storage-control benchmark of [2], showing that our approach, optimally accounting for -step look-ahead information, offers substantially better performance than existing algorithms. [1] Corentin Pla, Hugo Richard, Marc Abeille, Nadav Merlis, Vianney Perchet : On the Hardness of Reinforcement Learning with Transition Look-Ahead [2] Chenbei Lu, Zaiwei Chen, Tongxin Li, Chenye Wu, Adam Wierman : Reinforcement Learning with Imperfect Transition Predictions: A Bellman-Jensen Approach
-
-### [Certified Safety Curation: Distribution-Free Guarantees for Safe Offline Reinforcement Learning](https://arxiv.org/abs/2609.12014v2)
-
-- **Authors:** Adam Haroon, Cody Fleming
-- **Published:** 2026-09-10
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** Iowa State University
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2609.12014v2) · [PDF](https://arxiv.org/pdf/2609.12014v2)
-
-Safe offline reinforcement learning assumes a cost function on every transition. We ask what remains possible when safety can be judged only by comparing short clips and occasionally asking whether an episode exceeded its budget. Certified safety curation answers with a filter-then-clone pipeline: a state-only value trained from segment comparisons scores whole trajectories, Learn-then-Test calibration certifies a selection threshold under a distribution-free $(α, δ)$ bound on the unsafe fraction of the selection, and behavior cloning follows. What is certified is the training set, not the policy, whose cost we report rather than bound. Where no threshold attains the target, the procedure refuses. We are not aware of prior work certifying the composition of a training set for offline RL or imitation. Oracle controls justify the design: reweighting individual transitions fails even with an exact value, so the value selects whole trajectories. The policies satisfy the cost budget on twelve of fifteen DSRL tasks, matching a clone of the ground-truth safe subset, which needs a label on every trajectory. Retrained on the certified selection, the strongest full-label method becomes safe where no setting of its own cost target rescues it. Refusal is predictable: the certificate's probability has a closed form in the purity of the pool's top quantile, which the calibration sample estimates and through which the scorer enters.
-
-### [GM-Loco: Terrain-Adaptive Humanoid Locomotion on Granular Media](https://arxiv.org/abs/2609.10286v2)
-
-- **Authors:** Junnosuke Kamohara, Feiyang Wu, Andy Ningan Zong, Daniel I. Goldman, Yashwanth Nakka, Seth Hutchinson, Ye Zhao
-- **Published:** 2026-09-09
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2609.10286v2) · [PDF](https://arxiv.org/pdf/2609.10286v2)
-
-Humanoid locomotion on granular terrain remains a significant challenge due to its complex foot-terrain interaction dynamics that are difficult to model. Existing approaches either ignore granular contact dynamics or incorporate simplified normal force models with heuristic tangential components. In this work, we present a physics-grounded granular contact model based on three-dimensional resistive force theory (3D RFT) and efficiently simulate granular terrain for reinforcement learning (RL) training. Unlike traditional rigid contact models and simplified granular contact models with ad-hoc heuristics, our contact solver produces physically accurate granular intrusion dynamics without resorting to heuristics. It captures realistic penetration and tangential drag during training, enabling the policy to learn behaviors that transfer reliably to real-world granular terrain where rigid contact models fail. To adapt to varying terrain conditions, we train a terrain-adaptive locomotion controller via teacher-student RL, using a variational autoencoder to encode terrain information into a compact latent representation. Simulation studies using material point method (MPM) with NVIDIA Newton demonstrate that our method generalizes to unseen granular terrains, achieves a significantly higher success rate than baselines, and demonstrates zero-shot terrain identification and adaptation. We further validate our approach through extensive hardware experiments across diverse real-world granular terrains including basalt, dry sand, and beach sand. To the best of our knowledge, this is the first demonstration of agile humanoid locomotion on real-world granular terrain. Project page: https://humanoid-gm-locomotion.github.io/HUMANOID-GM/
-
-### [Optimal Value Inference for Reinforcement Learning](https://arxiv.org/abs/2609.09981v2)
-
-- **Authors:** Nan Lu, Ethan Lee, James M. Robins, David Simchi-Levi, Junwei Lu
-- **Published:** 2026-09-09
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** stat.ML, cs.LG, stat.ME
-- **Links:** [Paper](https://arxiv.org/abs/2609.09981v2) · [PDF](https://arxiv.org/pdf/2609.09981v2)
-
-We study offline inference for the optimal value in reinforcement learning under finite state and action spaces. Two new nuisances are derived as fixed points of a self-induced Bellman equation, in which we approximate the maximum Bellman operator by its softmax correspondence. We propose a debiased estimator through the Neyman orthogonality and establish its asymptotic normality under diverging horizons even when the behavior policy changes with time, as long as the nuisances have the statistical rates that can be achieved by many machine learning methods. We provide a concrete estimating procedure for these nuisances and show they can lead to valid inference. Synthetic experiments validate the numerical performance of our inference method, and we implement it in real-life decision-making problems, including bike repositioning and AI agentic tool use.
-
-### [BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL](https://arxiv.org/abs/2609.09783v2)
-
-- **Authors:** Guanqun Zhao, Zijun Xie, Binbin Zheng, Jiafeng Lu, Enlei Gong, Zeyu Chen
-- **Published:** 2026-09-09
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.09783v2) · [PDF](https://arxiv.org/pdf/2609.09783v2)
-
-Asynchronous reinforcement learning has become the standard way to scale training for large language models (LLM), but the resulting policy lag biases the critic toward the stale behavior policy. Existing work on asynchronous LLM training corrects the actor and leaves this bias unaddressed, while the off-policy value correction of classical RL does not carry over to long-horizon agentic tasks, since a short correction horizon leaves the regression target free of the reward and a long one lets the product of importance ratios drift exponentially with the trajectory length. We propose BRACE, an anchored Bellman-residual correction for stale value models. BRACE bounds the correction horizon to a prefix of policy tokens and anchors a constant-weight Monte-Carlo tail beyond it, which separates policy correction from reward propagation. BRACE delivers a $9.8\%$ relative improvement in mean@1 on BrowseComp-Plus over the strongest baseline, runs $2.46\times$ faster per step than synchronous training, and remains stable $50$ updates off-policy.
-
-### [PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games](https://arxiv.org/abs/2609.09059v2)
-
-- **Authors:** Ryan Truong, Lance Ying, Samuel J. Gershman, Kazuki Irie
-- **Published:** 2026-09-08
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2609.09059v2) · [PDF](https://arxiv.org/pdf/2609.09059v2)
-
-While many video-game environments (VGEs) have played crucial roles in advancing reinforcement learning (RL), developing novel VGEs or modifying existing ones to support new features, has been a laborious process requiring extensive hand-coding. Here we present PlayTrain, an RL framework that combines the abilities of large language models (LLMs) to robustly generate JavaScript (JS) games from a minimal human prompt, and an efficient pipeline that can run any JS game in a standard 'gym' environment. Not only are recent LLMs particularly good at writing JS code, but the JS format also allows users to easily play generated VGEs, while PlayTrain enables us to train RL agents on the exact same games. We demonstrate multiple use cases of PlayTrain, including cloning well-known Atari and ProcGen games in simple JS, where PlayTrain trains pixel-based agents end-to-end at over 1M agent-decisions per second on a single GPU node; and creating modified versions thereof (e.g., that support novel test sets, procedural generation logics, or game dynamics). Through PlayTrain, we reimagine RL VGE development: all we need is a single JS file, generated and modified through an LLM. We discuss promising future RL research directions that PlayTrain unlocks.
-
-### [Inference-Time Nash Alignment](https://arxiv.org/abs/2609.08082v2)
-
-- **Authors:** Hadi Hosseini, Debmalya Mandal, Duohan Zhang
-- **Published:** 2026-09-08
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.08082v2) · [PDF](https://arxiv.org/pdf/2609.08082v2)
-
-Preference-based fine-tuning methods such as RLHF and DPO require substantial compute and large preference datasets. They also need direct access to the model parameters which are not provided by many state-of-the art models. Inference-time alignment offers a cost-effective alternative without updating model parameters. However, existing inference-time methods rely on a scalar reward model derived under a Bradley-Terry assumption, which cannot represent general preferences. Following recent work on fine-tuning with generalized preferences, in this work, we initiate the study of inference-time alignment under general preferences. We formulate the problem as obtaining a Nash equilibrium of a two-player zero-sum game between policies. We propose two algorithms: Best-of-Nash (BoN) and Nash Mirror Descent (NMD). We prove that both algorithms achieve a duality gap that matches the problem lower bound. Empirically, we implement the two methods on three datasets, which shows that our methods substantially outperform the base policy, converging to the performance of the fine-tuned models. Moreover, our results show that NMD remains robust across the regularization parameter.
-
-### [Risk-Conditioned Fine-Tuning of Large Language Models](https://arxiv.org/abs/2609.08064v2)
-
-- **Authors:** Zixuan Liu, Fangzheng Wu, Brian Summa, Zizhan Zheng
-- **Published:** 2026-09-08
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2609.08064v2) · [PDF](https://arxiv.org/pdf/2609.08064v2)
-
-Large Language Models (LLMs) are increasingly deployed in settings where rare but severe harmful generations can have significant consequences. Existing Risk-Averse RLHF addresses this issue by optimizing Conditional Value-at-Risk (CVaR), but it trains policies for fixed risk levels and therefore cannot adjust the desired degree of risk aversion at inference time. In this paper, we propose risk-conditioned RLHF, a framework that trains a single policy that provides a continuous risk-control interface, enabling users to select different degrees of risk aversion without retraining or deploying multiple risk-specific models. Experiments across multiple benchmarks demonstrate that a single risk-conditioned policy can adapt to different risk levels at inference time, enabling more flexible and risk-aware LLM deployment.
-
-### [Proprioception-Anchored Cross-Modal Pretraining for Zero-Shot Sim-to-Real Contact-Rich Assembly](https://arxiv.org/abs/2609.07534v3)
-
-- **Authors:** Yuhan Wang, Yurou Chen, Hongye Jiang, Gaojing Zhang, Wenzhao Lian
-- **Published:** 2026-09-07
-- **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.RO, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.07534v3) · [PDF](https://arxiv.org/pdf/2609.07534v3)
+- **Links:** [Paper](https://arxiv.org/abs/2603.11351v2) · [PDF](https://arxiv.org/pdf/2603.11351v2)
 
-Contact-rich assembly remains challenging because it requires submillimeter spatial accuracy and reliable interpretation of forces during sustained contact. Although simulation-based reinforcement learning offers a scalable training paradigm, discrepancies in visual observations, contact dynamics, and force/torque (F/T) measurements often limit policy transfer. We observe that proprioception is comparatively consistent across domains because joint positions are expressed in a shared calibrated coordinate system and joint velocities are computed consistently in simulation and on hardware. Based on this observation, we present PACE (Proprioception-Anchored Cross-Modal Encoder), which supervises temporal visual and F/T representations by predicting proprioceptive state transitions. Static domain-specific factors, including lighting, texture, and sensor bias, contain little information about joint motion; optimizing the proposed objective therefore suppresses their influence on the learned representation while retaining task-relevant motion cues. Policies trained on frozen PACE features are directly deployed on hardware without real-world fine-tuning or object-pose tracking. Across four contact-rich assembly tasks, PACE attains an average real-world success rate of 93.3\% and only a 2.7-percentage-point sim-to-real drop, while remaining robust to perturbations that substantially degrade pose-based and learned-fusion baselines.
+In dynamic open-world environments, autonomous agents often encounter novelties that hinder their ability to find plans to achieve their goals. Specifically, traditional symbolic planners fail to generate plans when the robot's planning domain lacks the operators that enable it to interact appropriately with novel objects in the environment. We propose a neuro-symbolic architecture that integrates symbolic planning, reinforcement learning, and a large language model (LLM) to learn how to handle novel objects. In particular, we leverage the common sense reasoning capability of the LLM to identify missing operators, generate plans with the symbolic AI planner, and write reward functions to guide the reinforcement learning agent in learning control policies for newly identified operators. Our method outperforms the state-of-the-art methods in operator discovery as well as operator learning in continuous robotic domains.Our webpage and code can be access here: helenlu66.github.io/hybridLLMguided/
 
-### [CoER: Defending against Adaptive Indirect Prompt Injection via Adversarial Co-Evolution and Refinement](https://arxiv.org/abs/2609.07529v3)
+### [From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck for Long-Horizon Video Agents](https://arxiv.org/abs/2603.01455)
 
-- **Authors:** Boyang Zhang, Qingxin Xiao, Lingwei Dang, Qingyao Wu
-- **Published:** 2026-09-07
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2609.07529v3) · [PDF](https://arxiv.org/pdf/2609.07529v3)
-
-Language-model agents are vulnerable to indirect prompt injection (IPI) during tool use: adversarial instructions hidden in untrusted tool outputs can covertly redirect legitimate task execution. Existing work often trains and evaluates defenses against fixed attacks that do not adapt to the defender's behavior, so the resulting defenses may struggle against adaptive attacks in real-world settings. We argue that a strong defense against adaptive IPI must adapt during training to a continually evolving attacker. Building on this insight, we propose CoER, a verifier-grounded co-evolution and refinement framework that models interleaved tool calls and adaptive injections within a task as a general-sum Markov game: the defender advances the task through successive tool calls, while the attacker can inject multiple times within the same task and adapt subsequent attacks to the defender's responses and prior execution traces. After initializing the attacker from successful trajectories, bilateral adversarial reinforcement learning (BA-RL) retains historical policies from both roles as opponent populations and mixes current and historical opponents, extending training beyond the latest matchup. Attackers from these populations are then reused to challenge teacher agents, and only demonstrations verified for both safety and task completion are used to fine-tune the co-evolved defender. Across seven domains and three evaluation seeds, CoER reduces adaptive attack success from 41.3% to 0.2% and raises safe task completion from 39.6% to 76.2%; external benchmarks also show improved attack resistance. Further experiments validate the effectiveness of bilateral historical-opponent mixing and population-guided refinement. Attacker analyses show that co-evolution strengthens attack capabilities and that the trained attacker uses execution feedback to adapt subsequent injections.
-
-### [The Geometry of Refusal: Why Post-Hoc Safety Is Fragile and Pretraining-Time Safety Persists](https://arxiv.org/abs/2609.06934v2)
-
-- **Authors:** Srikanth Malla, Chiho Choi, Joon Hee Choi
-- **Published:** 2026-09-07
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.06934v2) · [PDF](https://arxiv.org/pdf/2609.06934v2)
-
-Post-hoc safety training (RLHF, DPO) is the dominant way to align large language models, yet jailbreaks (Zou et al., 2023), fine-tuning attacks (Qi et al., 2024), and activation-space edits (Arditi et al., 2024) keep recovering the behaviors it was meant to remove. We give this fragility one geometric explanation and follow it into pretraining. We measure the safety update $Δ= W_{safe} - W_{base}$ against the curvature of the model's capabilities (the empirical Fisher of a capability loss). Across five model families, post-hoc safety lands in a suppression regime: $Δ$ is nearly orthogonal to the capability directions, and its small in-subspace part concentrates on a few high-curvature ones. The update is thin but sharp, a refusal gate laid over intact capabilities rather than erasure of them. A kernel-immobility lemma explains why such an update can only mask a capability, not remove it, so a little benign fine-tuning restores it: 100 benign examples cut the AdvBench refusal of Qwen-2.5-7B-Instruct and Llama-3-8B-Instruct by 35 to 38 pp. Following the account into pretraining, a pretraining-checkpoint sweep of OLMo-2-1B (Team OLMo et al., 2024) shows the features that refusal attaches to emerging in a sharp transition between 1B and 63B pretraining tokens. We then use the account constructively: models trained from scratch with safety co-training spread continuously across pretraining reach 87 to 98% AdvBench refusal that the same attack erodes by only 2 to 14 pp at every scale from 410M to 6.9B, against 35 to 38 pp for post-hoc installs, at a small cost on short-answer capability probes; a windowed schedule of equal total safety weight installs no refusal. Persistence of the safety signal across pretraining, not its timing, is what buys attack robustness.
-
-### [PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents](https://arxiv.org/abs/2609.06702v2)
-
-- **Authors:** Kun Li, Zexuan Qiu, Tianhua Zhang, Irwin King, Helen Meng
-- **Published:** 2026-09-06
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2609.06702v2) · [PDF](https://arxiv.org/pdf/2609.06702v2)
-
-Sequential memory agents process long documents by reading chunks one after another while maintaining a compact memory state, coupling document traversal to reasoning depth. This coupling introduces sensitivity to evidence placement and ties inference latency linearly to document length. We introduce PARSER, which decouples reading from reasoning. A bank of lightweight subagents each bound to a single chunk read the entire document in parallel, while a lead agent reasons in depth through iterative scatter--gather rounds: at each round it broadcasts a query to all subagents, aggregates the returned evidence, and formulates a deeper follow-up query conditioned on what has been found so far. This decoupled design concentrates all learnable behavior in the lead agent, which is optimized with reinforcement learning, while the subagents remain frozen off-the-shelf models. On multi-hop QA with contexts ranging from 7K to 896K tokens, PARSER with a 4B backbone outperforms the strongest sequential memory baseline by 5.7 points on average and by 12.0 points at 896K tokens. Scaling to a 9B backbone, PARSER surpasses DeepSeek-V4-Pro by 6.3 points. Controlled experiments confirm that PARSER is robust to perturbations in evidence position, order, and distance, conditions that cause large accuracy swings in sequential methods, while reducing inference latency by up to 11x.
-
-### [Thinking with Cameras: Active Visual Reasoning via Dynamic Viewpoint Control for Surveillance Video Understanding](https://arxiv.org/abs/2609.06475v2)
-
-- **Authors:** Xiao Zhang, Wang Zeng, Sheng Jin, Wentao Liu, Chen Qian, Shichao Kan
-- **Published:** 2026-09-06
-- **Priority:** —
-- **Venue:** arXiv
+- **Authors:** Lian, Niu, Wang, Yuting, Yao, Hanshu, Wang, Jinpeng, Chen, Bin, Wang, Yaowei, Zhang, Min, Xia, Shu-Tao
+- **Published:** 2026-03-02
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
 - **Affiliations:** n/a
 - **Categories:** cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2609.06475v2) · [PDF](https://arxiv.org/pdf/2609.06475v2)
+- **Links:** [Paper](https://arxiv.org/abs/2603.01455) · [PDF](https://arxiv.org/pdf/2603.01455) · [Code](https://github.com/EliSpectre/MM-Mem)
 
-Large vision-language models (LVLMs) have recently achieved remarkable progress in general-purpose video understanding. However, their application to real-world surveillance remains challenging due to the lack of large-scale domain-specific datasets and the limitation of passive observation from fixed viewpoints. In surveillance scenarios, critical visual evidence can be easily missed when targets are distant, small, occluded, or move beyond the current camera view. In this work, we introduce CamVLM, a new framework for Thinking with Cameras, which enables LVLMs to actively acquire visual evidence in real-world surveillance by continuously controlling camera viewpoints. We first construct CCTV-Anomaly, a large-scale surveillance video understanding dataset containing 14,133 videos across 10 anomaly categories, with detailed captions and event annotations. We further formulate viewpoint control as an active visual perception problem and build CamTrack-53K, an object-centric viewpoint trajectory dataset for learning camera actions. Moreover, we propose a reinforcement learning based viewpoint policy optimization framework, which models camera control as a sequential decision-making process and learns long-horizon observation strategies beyond supervised trajectory imitation. Extensive experiments demonstrate that CamVLM achieves state-of-the-art performance under both passive observation and dynamic viewpoint settings, validating the effectiveness of active camera-based reasoning for surveillance video understanding. Our datasets, model, and code will be available at https://github.com/xiaozhang79/CamVLM.
-
-### [VERPO: Verified Evidence Regularized Policy Optimization](https://arxiv.org/abs/2609.06100v4)
-
-- **Authors:** Haijiang Li, Chengyu Lv, Yi Zhang, Rui Qian, Zhibing Zhang, Xiangqing Shen, Junjie Yang, Yuchen Zhang, Wenyuan Jiang, Hanqing Hu, Cangqi Zhou
-- **Published:** 2026-09-05
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2609.06100v4) · [PDF](https://arxiv.org/pdf/2609.06100v4)
-
-Verifiable rewards improve language models through reliable task-level feedback, but methods based on Group Relative Policy Optimization (GRPO) apply a sequence-level advantage uniformly across all tokens. This coarse credit assignment reinforces or penalizes entire responses without identifying which local decisions to preserve, reinforce, or revise. Conversely, evidence-conditioned self-distillation provides denser token-level supervision, yet teacher imitation can transfer stylistic artifacts and miscalibrated confidence that destabilize training when misaligned with task success. We introduce VERPO, which converts evidence-conditioned guidance into reward-aligned token-level credit assignment while retaining the outcome objective. VERPO decomposes teacher guidance into an evidence-free reference term and signed, evidence-induced corrections at each token. A stopped controller combines selective acceptance, token-wise localization, and cost-aware scaling by balancing alignment with the local GRPO update direction against Fisher movement cost. Furthermore, we introduce Fisher Evidence Contrast (FEC), which attenuates nuisance shifts along an estimated evidence-presence direction through a regularized projection. Across five scientific reasoning and tool-use tasks, VERPO prevents optimization collapse and consistently achieves the highest multi-task average across model backbones, yielding marked improvements particularly on smaller models over strong baselines. Qualitative diagnostics confirm that token acceptance selectively targets reasoning bottlenecks consistent with local reward alignment and Fisher movement cost.
-
-### [SCoCaT: Success Conditioned Constrained Reinforcement Learning for Spacecraft Docking](https://arxiv.org/abs/2609.06061v2)
-
-- **Authors:** Aman Arora, Ricard Marsal I Castan, Matteo El-Hariry, Miguel Olivares-Mendez
-- **Published:** 2026-09-05
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2609.06061v2) · [PDF](https://arxiv.org/pdf/2609.06061v2)
-
-Termination-based constrained reinforcement learning is attractive for safety-critical robotic deployments: it avoids online optimization at inference, scales easily to many constraints via a single scalar per constraint, and is simpler to implement than commonly used Lagrangian methods. Instead of pricing violations through summed cost penalties, this approach makes violations structurally unprofitable by shortening the effective horizon for each violation. We identify a structural failure mode of this method class on terminal-navigation tasks: reaching a precise goal configuration while satisfying safety constraints that tighten along the final approach. When the goal sits inside the region close to where the constraints become active, the survival-weighted objective makes dwelling outside the goal region strictly preferable to entering, producing high constraint compliance with low task completion. We formalize this pathology and show that a minimal augmentation to off-the-shelf RL algorithms like PPO resolves this ``feasibility collapse''. We empirically demonstrate that adding a dense per-step success signal via an auxiliary value critic improves the task completion rate while maintaining safety-critical constraint compliance. Validation across two representative spacecraft platforms: a 6U-CubeSat spanning the mass and degree-of-freedom envelope of operational proximity operations, and a floating platform testbed for zero-shot sim-to-real transfer in our laboratory, supports the generality of these findings.
-
-### [First Things First: Teaching LLM-Based Agents to Prioritize Must-Haves before Nice-to-Haves](https://arxiv.org/abs/2609.05224v3)
-
-- **Authors:** Tianjie Ju, Xinyue Xu, Wanxuan Sun, Lingxiao Diao, Gongshen Liu, Zhuosheng Zhang, Cheng Yang
-- **Published:** 2026-09-04
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2609.05224v3) · [PDF](https://arxiv.org/pdf/2609.05224v3)
-
-Recent progress in multimodal large language models (MLLMs) has fueled significant enthusiasm in their potential to act as autonomous agents for real-world tasks. However, scenarios requiring agents to fulfill users' complex, structured requirements remain largely underexplored. In this work, we examine reasoning tasks under three distinct requirement scenarios: (i) Must-have requirements uniquely determine a unique feasible solution; (ii) Multiple answers satisfy the must-have requirements and are prioritized via the nice-to-have requirements; and (iii) No candidate solution satisfies the must-have requirements, in which case the agent should abstain from generating a response. We evaluate state-of-the-art MLLMs on 3,649 carefully constructed problems that reflect realistic service scenarios, including e-commerce, booking, and map-based or ride-hailing. Our evaluation reveals that existing MLLMs exhibit catastrophic failures in all scenarios. They frequently misinterpret task requirements, violate must-have requirements, and produce invalid solutions. To address this critical gap, we propose First Things First Reinforcement Learning FTF-rl that explicitly optimizes reasoning over multi-priority user requirements. Experimental results show that our method substantially improves the task success rate compared to strong baselines. Moreover, FTF-rl yields general effectiveness on popular logical and mathematical reasoning tasks, including LogicVista, MathVision, and InfoQA. Our findings suggest that enhancing requirement-aware reasoning capability provides a simple yet effective pathway to improve generalization of MLLM agents. Code and dataset are available at https://github.com/claire62/FTF-RL.
-
-### [Compression Beyond the Uncompressed: A Two-Stage Training Recipe for Soft Context Compression in RAG](https://arxiv.org/abs/2609.05152v2)
-
-- **Authors:** Shuyu Guo, Shuo Zhang, Zhaochun Ren
-- **Published:** 2026-09-04
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** Shandong University
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2609.05152v2) · [PDF](https://arxiv.org/pdf/2609.05152v2)
-
-Retrieval-Augmented Generation (RAG) improves knowledge-intensive generation by conditioning language models on retrieved documents, but processing these documents becomes increasingly expensive as retrieval depth grows. Soft context compression reduces this cost by encoding documents into compact continuous representations that can be precomputed and reused across queries. However, many existing methods train compressed models by distilling from a full-context teacher. When the teacher is wrong, such distillation can reinforce its errors, while teacher imitation provides no direct signal for improving beyond the teacher. We propose DEX-Comp, a two-stage training recipe that separates reliable imitation from targeted exploration. Pure Distillation learns only from teacher-correct questions to mitigate error propagation, while Hard Exploration applies outcome-based reinforcement learning to teacher-failed questions to directly optimize answer correctness. Across five open-domain QA benchmarks and retrieval depths from top-$5$ to top-$30$, DEX-Comp at $16\times$ compression outperforms all evaluated compression baselines and surpasses the untuned full-context RAG model in average accuracy, while reducing time-to-first-token by $4.4\times$--$23.7\times$. Evaluations across additional datasets and backbones further demonstrate its generalization.
-
-### [SciDocBench: A Workflow-Centered Benchmark and Data Pipeline for Scientific Document Understanding](https://arxiv.org/abs/2609.05141v2)
-
-- **Authors:** Shenxi Wu, Yuhong Liu, Haosong Zhang, Tongjin Zou, Yanxun Zhang, Gaochang Chen, Dun Liang, Jiaqi Wang, Zhecan James Wang, Yuhang Zang, Dahua Lin
-- **Published:** 2026-09-04
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** Nanyang Technological University, Shanghai AI Lab, Shanghai Innovation Institute
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.05141v2) · [PDF](https://arxiv.org/pdf/2609.05141v2)
-
-Scientific papers require models to integrate evidence across text, equations, figures, tables, code, and datasets while preserving its provenance. Beyond answer correctness, scientific reading requires verifiable outputs from operations such as evidence localization, definition extraction, and consistency checking. We introduce SciDocBench, a workflow-centered benchmark targeting these operations through 124 expert-authored and difficulty-screened questions across seven research-assistant capability groups, 19 subtasks, and five scientific domains. Each question is instantiated in four matched settings formed by pairing its bilingual variants with the All Images First and Markdown Interleaved document representations, yielding 496 evaluation instances. The strongest evaluated model, Claude-Opus-5, scores 62.6 out of 100, with remaining gaps in evidence localization, structured information extraction, cross-document synthesis, and robustness to document representation. To convert these diagnostics into scalable training signals, we introduce SciDocIR, a structured representation of scientific document objects, layout and cross-reference relations, and provenance. Using SciDocIR, we construct SciDocDataset, which contains 4K supervised fine-tuning instances and 10K reinforcement-learning instances, built on 14 verifiable training subtasks. Post-training Qwen3.6-27B on task-aligned data improves its SciDocBench score from 40.03 to 45.33 with supervised fine-tuning and to 45.74 with subsequent reinforcement learning. Both adapted models preserve DocVQA and InfoVQA performance and improve ChartQA accuracy over the original model by 0.80 and 3.40 points, respectively. Together, SciDocBench, SciDocIR, and SciDocDataset connect capability diagnosis with verifiable training-data construction for scientific-document assistants.
-
-### [Unifying ICL, SFT, KL-Regularized RL Through a Bayesian Lens](https://arxiv.org/abs/2609.05111v2)
-
-- **Authors:** Junxin Fan
-- **Published:** 2026-09-04
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.05111v2) · [PDF](https://arxiv.org/pdf/2609.05111v2)
-
-Supervised fine-tuning (SFT), few-shot in-context learning (ICL), KL-regularized RLHF/RLVR, and on-policy distillation are usually treated as distinct post-training paradigms. We develop a unified Bayesian perspective in which each is an instance of a two-step template: construct a (generalized) Bayes or Gibbs posterior from a reference model and a utility signal (log-likelihood, reward, or advantage), then approximate it by a forward-KL projection onto a parametric family, either in-weights (SFT/RL) or in-context (ICL). This yields a single chain of equivalences: few-shot ICL is an amortized projection onto the Bayes posterior predictive, and reward-weighted SFT, reward-weighted ICL, and advantage-weighted SFT are forward-KL projections of reward-induced Gibbs posteriors. The framework explains why supervised warm-up is practically unavoidable for importance-weighted projections, and interprets R1/o1-style reasoning models as combining test-time Bayesian search with training-time amortization. Matched-budget experiments on Qwen3 models corroborate the picture: operators that share their learning-signal granularity produce nearly identical updates when support is good and diverge when it degrades, and reward-weighted projection performs on par with standard baselines.
-
-### [VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models](https://arxiv.org/abs/2609.04355v3)
-
-- **Authors:** Chenyu Su, Zhaolong Shen, Yuan Qian, Chen Qian, Rui Zhang, Feng Yan, Weixing Chen, Fei Zhang, Jiamin Wang, Shuang Cong, Weiwei Shang
-- **Published:** 2026-09-03
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.RO, cs.AI, cs.HC, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2609.04355v3) · [PDF](https://arxiv.org/pdf/2609.04355v3)
-
-Pretrained vision-language-action (VLA) models enable broad manipulation but remain unreliable in tasks demanding precision and repeatability. Applying real-world online reinforcement learning (RL) to VLA post-training enables autonomous trial-and-error improvement beyond demonstrations alone, but exposes two bottlenecks: 1) unreliable value signals can induce policy drift; 2) large-VLA overhead constrains throughput and sample efficiency. To address these challenges, we present VLA-Precision, an efficient real-world online RL framework featuring the Asymmetric Co-Bootstrapping (ACoB) algorithm and the ACoB-Stream architecture. Specifically, ACoB establishes asymmetric co-bootstrapping across timescales: early intervention-guided behavioral learning rapidly improves policy performance while enhancing online experience quality. As autonomous experience accumulates, global return propagation and local preference ranking progressively calibrate value estimates, yielding relative action advantages for reference-regularized policy improvement while suppressing drift. To enable ACoB on large VLAs, we develop ACoB-Stream, a closed-loop experience--policy architecture that establishes invariant-state decoupling and on-demand streaming as design principles, delivering up to 10.9$\times$ improvements in throughput and computational efficiency. Extensive evaluations on nine high-precision chemistry tasks across four categories and four robot embodiments show that VLA-Precision achieves 98.3\% mean success rate in 45.8 min/task, with 27.6 s episodes running at 1.2$\times$ and 1.8$\times$ the speeds of VLA and RL baselines. Resources are available at https://vla-precision.github.io.
-
-### [Computation of Strong Solutions to Stochastic Variational Inequalities](https://arxiv.org/abs/2609.04188v2)
-
-- **Authors:** Yao Ji, Guanghui Lan, Jason Zhu
-- **Published:** 2026-09-03
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** math.OC
-- **Links:** [Paper](https://arxiv.org/abs/2609.04188v2) · [PDF](https://arxiv.org/pdf/2609.04188v2)
-
-This paper studies the computation of strong solutions of monotone variational inequalities (VIs) with Lipschitz continuous operators. Building on the idea of accumulative regularization (AR), we develop a general framework for VIs, with particular emphasis on stochastic settings. Under unbiased stochastic oracles with uniformly bounded variance $ σ^2$, AR computes an approximate solution with expected operator residual bounded by $\varepsilon$ using at most $ \widetilde{\mathcal{O}}\left(\tfrac{LD_0}{\varepsilon}+\tfrac{ σ^2}{\varepsilon^2}(\log\tfrac{LD_0}{\varepsilon})^3\right) $ stochastic oracle calls, where $L$ is the Lipschitz constant and $D_0$ bounds the initial distance to the solution. This substantially improves the existing $\mathcal{O}( σ^2/\varepsilon^4)$ complexity for residual reduction and matches the lower bound up to logarithmic factors. For strongly monotone VIs, measured by the distance to the solution, AR achieves the optimal oracle complexity when the strong monotonicity modulus is known. By treating the problem as merely monotone, AR still achieves nearly optimal complexity without knowledge of this modulus. We further introduce a state-dependent noise model applicable to general monotone VIs with potentially nonunique solutions, extending state-dependent noise analysis beyond the strongly monotone setting. We apply these results to policy evaluation in reinforcement learning, where we show that estimators of the projected Bellman operator satisfy our state-dependent noise condition. To the best of our knowledge, the AR framework, the improved complexity under uniformly bounded noise, the state-dependent noise model and its guarantees, the adaptivity to an unknown strong monotonicity modulus, and the improved guarantees for FTD learning are all new in the VI literature.
-
-### [EF1-Constrained Nash Social Welfare with Identical Additive Valuations: Complexity, Guarantees, and Experiments](https://arxiv.org/abs/2609.03846v4)
-
-- **Authors:** Zih-Sian Yang, Yi-Hao Chen, Yu-Te Kuan, Cheng-Jui Wu, Chuang-Chieh Lin, Po-An Chen
-- **Published:** 2026-09-03
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.GT, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2609.03846v4) · [PDF](https://arxiv.org/pdf/2609.03846v4)
-
-We study the allocation of indivisible goods among agents with identical additive valuations, focusing on envy-freeness up to one good (EF1) and Nash social welfare (NSW). Since every maximum-NSW allocation is EF1 under additive valuations, the associated threshold problem inherits the known strong NP-hardness of NSW maximization under identical additive valuations and is strongly NP-complete. We therefore focus on welfare guarantees satisfied by arbitrary EF1 allocations. Although every such allocation is known to achieve an $e^{-1/e}$-approximation to the unrestricted optimal NSW, we identify conditions yielding stronger guarantees. Under uniform valuations, every EF1 allocation is NSW-optimal. Under an $\varepsilon$-small-item condition, every EF1 allocation achieves an explicit approximation ratio $ρ_n(\varepsilon)$ satisfying $ρ_n(\varepsilon) = 1-O(\varepsilon^2)$ as $\varepsilon\to 0$ for fixed $n$. We further consider the stronger sequential requirement that $\operatorname{EF1}$ be maintained after every item assignment. For this setting, we introduce \emph{PriorityNet}, a deep reinforcement learning framework trained with Proximal Policy Optimization (PPO) and equipped with prospective $\operatorname{EF1}$ action masking, which guarantees prefix-wise $\operatorname{EF1}$ by construction. Across 3,000 test instances in each of the offline full-information and random-order online regimes ($n\in[2,20]$, $m\in[5,100]$), PriorityNet achieves mean normalized $\operatorname{NSW}$ values of $0.9911$ and $0.9701$, respectively. Relative to the offline Longest Processing Time (LPT) heuristic and the online least-valued-bundle rule, it attains instance-wise win-minus-loss rates of $+27.10\%$ and $+17.87\%$. Its aggregate welfare matches the offline LPT baseline to four decimal places and modestly improves upon the online baseline, from $0.9694$ to $0.9701$.
-
-### [Is One Step Enough for Offline Policy Improvement?](https://arxiv.org/abs/2609.03842v2)
-
-- **Authors:** Soohyun Choi, Seonvin Cho, Songnam Hong
-- **Published:** 2026-09-03
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2609.03842v2) · [PDF](https://arxiv.org/pdf/2609.03842v2)
-
-Behavior regularization in offline reinforcement learning limits the exploitation of critic errors, but strong anchoring can also restrict policy improvement. We study how policy improvement is composed through multi-step proximal policy improvement (MPI), which re-centers each proximal objective on the preceding policy. We parameterize the procedure by a nominal total horizon $T$ and $K$ stages with local horizon $T/K$, distinguishing subdivision at a fixed total horizon from additional refinement at a common local horizon. Our analysis shows that sequential re-centering can reach endpoints unavailable to any single proximal step and characterizes how subdivision reduces the leading local discretization error of ideal updates under a fixed critic. We consider TD3+BC and IQL-based policy extraction to examine how improvement composition interacts with actor objectives and policy geometry. TD3+BC experiments on D4RL locomotion suggest that subdivision can broaden the range of useful total horizons, while adding refinement stages at a fixed small local horizon can improve return. The results identify improvement composition as a design choice alongside regularization strength, with distinct effects from horizon subdivision and additional policy extraction.
-
-### [Long-Horizon Consistent and Interaction-Aware World Models for Multi-Style End-to-End Driving](https://arxiv.org/abs/2609.03225v2)
-
-- **Authors:** Yuxuan Han, Kunyuan Wu, Liyunong Yang, Zilu Wang, Cansen Jiang, Yi Xiao, Liang Hu
-- **Published:** 2026-09-03
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2609.03225v2) · [PDF](https://arxiv.org/pdf/2609.03225v2)
-
-End-to-end autonomous driving has increasingly adopted world model-based reinforcement learning frameworks to improve learning efficiency through \textit{imagined rollouts}. However, existing world models suffer from three key limitations: temporal inconsistency in long-horizon imagined rollouts, inadequate modeling of ego-environment interactions, and limited adaptability to diverse driving styles. To address these challenges, we propose \textit{StyleDrive}, a world-model-based learning framework that jointly enforces long-horizon consistency, explicitly disentangles interactive traffic states, and supports multi-style policy optimization within a unified learning paradigm. First, we introduce a temporal consistency regularization that integrates historical latent states through gated cross-attention, stabilizing long-horizon imagined rollouts and mitigating error accumulation. Second, we design an explicit state disentanglement module that separates ego-relevant from ego-irrelevant interactive states, enabling more interpretable and efficient decision-making in complex traffic scenarios. Third, we enable multi-style driving behaviors through Group Relative Policy Optimization, which replaces per-step reward optimization with trajectory-wise relative advantages, reducing reward variance and supporting diverse driving styles without retraining. We evaluate StyleDrive on the Bench2Drive closed-loop driving benchmark, achieving a driving score of 88.44 (+17.08 over the previous best world model-based method) and a success rate of 66.82 (+16.58). Furthermore, we deploy StyleDrive on a real automated guided vehicle platform and demonstrate promising sim-to-real transfer capability in dynamic driving scenarios.
-
-### [Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation](https://arxiv.org/abs/2609.02998v2)
-
-- **Authors:** Zhiwei Zhang, Zechen Sun, Fei Zhao, Kang Peng, Bin Liang, Huayu Deng, Yao Hu, Kam-Fai Wong, Mu Chuan
-- **Published:** 2026-09-02
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2609.02998v2) · [PDF](https://arxiv.org/pdf/2609.02998v2)
-
-On-policy distillation (OPD) accelerates post-training by providing dense token-level supervision from a frozen teacher on the student's own rollouts. Vanilla OPD applies this supervision uniformly across prompts, without checking whether the teacher is reliable for each prompt. Because reverse KL is mode-seeking, a confidently wrong teacher can induce a strong yet misleading update. Distributional proxies, such as entropy or teacher-student likelihood agreement, measure uncertainty or agreement but do not directly verify outcome correctness. We introduce Teacher-Gated On-Policy Distillation (TGOPD), built on the principle that teacher reliability should be verified at the prompt level before dense supervision is admitted. TGOPD estimates reliability from a small set of verifier-scored teacher probes and routes each prompt exclusively to dense OPD when the reliability check passes or to verifier-grounded GRPO otherwise. Across 4B and 35B students in mathematics, code, and instruction following, TGOPD outperforms Vanilla OPD in all six single-domain settings and achieves higher seven-benchmark averages at both scales under multi-domain training. By using otherwise-idle teacher capacity for reliability estimation, TGOPD also reduces teacher-side compute waste in asynchronous OPD, increasing teacher-node GPU utilization from 9.8% to 78.9% in the measured 4B single-domain run.
-
-### [Online Reinforcement Learning in the Met Office Unified Model through Distributed Model-Agent Coupling](https://arxiv.org/abs/2609.02566v2)
-
-- **Authors:** Pritthijit Nath, Sebastian Schemm, Peter Haynes, Emily Shuckburgh, Mark Webb
-- **Published:** 2026-09-02
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2609.02566v2) · [PDF](https://arxiv.org/pdf/2609.02566v2)
-
-Machine-learnt corrections can complement numerical weather prediction provided that they operate stably within an evolving numerical model. In this study, we couple the Met Office (UKMO) Unified Model (UM) with distributed reinforcement-learning agents through rank-local tensors. A column-aware deep deterministic policy gradient (DDPG) actor uses local vertical structure together with full-column context to apply bounded corrections to potential temperature and horizontal wind. During training, we perform ten nudged 6-hr 12-min forecasts, with nudging towards the UKMO operational analysis providing an immediate counterfactual target from which the policy learns. The resulting actor is then frozen and applied to a non-nudged forecast without access to analysis inputs or further weight updates. Relative to a matched non-nudged native forecast at +6 h, the corrected forecast reduces global latitude-weighted MAE by 2.85% for $Z_{500}$, 2.16% for MSLP, 5.16% for $T_{500}$ and 2.27% for $T_{1.5\textrm{m}}$, with an observed 3.57% wall-time overhead compared to native execution. Even though training and inference share the same initialisation, this single-case experiment demonstrates significant promise and feasibility, laying the groundwork for RL-based bias correction and parametrisations within operational systems.
-
-### [APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering](https://arxiv.org/abs/2609.02253v1)
-
-- **Authors:** Jie Ding, Rui Sun, Xinyuan Zhang, Zeyu Zhang, Xin Liu
-- **Published:** 2026-09-02
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** University of California, Los Angeles
-- **Categories:** cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2609.02253v1) · [PDF](https://arxiv.org/pdf/2609.02253v1)
-
-Deep research agents augment large language models with external tools to answer complex, long-horizon questions through multi-turn reasoning. Learning from prior experience is crucial for continual improvement, yet existing methods either retrieve verbose task-specific traces that burden decision-making, or distill procedural skills that remain decoupled from downstream policy adaptation. We propose APEx, a hierarchical experience utilization framework that organizes interaction history into instance-level trajectory memories and category-level procedural skills, and couples them through a closed-loop architecture of Executor, Distiller, and Planner. The three modules are optimized via a three-stage alternating GRPO training paradigm, enabling reward-guided skill distillation rather than fixed-prompt generation. At test time, distilled skills serve as procedural priors for online Planner adaptation through skill-guided test-time reinforcement learning, allowing ground-truth-free self-improvement with skill-alignment regularization to prevent policy drift. Experiments on 7 benchmarks demonstrate that APEx achieves state-of-the-art performance, surpassing GPT-5.4 by 14.7 points and the strongest memory-augmented baseline by 3.0 points.
+While multimodal large language models have demonstrated impressive short-term reasoning, they struggle with long-horizon video understanding due to limited context windows and static memory mechanisms that fail to mirror human cognitive efficiency. Existing paradigms typically fall into two extremes: vision-centric methods that incur high latency and redundancy through dense visual accumulation, or text-centric approaches that suffer from detail loss and hallucination via aggressive captioning. To bridge this gap, we propose MM-Mem, a pyramidal multimodal memory architecture grounded in Fuzzy-Trace Theory. MM-Mem structures memory hierarchically into a Sensory Buffer, Episodic Stream, and Symbolic Schema, enabling the progressive distillation of fine-grained perceptual traces (verbatim) into high-level semantic schemas (gist). Furthermore, to govern the dynamic construction of memory, we derive a Semantic Information Bottleneck objective and introduce SIB-GRPO to optimize the trade-off between memory compression and task-relevant information retention. In inference, we design an entropy-driven top-down memory retrieval strategy. Extensive experiments across 4 benchmarks confirm that MM-Mem achieves state-of-the-art performance on both offline and streaming tasks, demonstrating robust generalization and validating the effectiveness of cognition-inspired memory organization. Code and associated configurations are publicly available at https://github.com/EliSpectre/MM-Mem.

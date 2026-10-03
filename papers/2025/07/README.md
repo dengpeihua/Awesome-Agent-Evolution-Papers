@@ -2,12 +2,11 @@
 
 [← Back to main index](../../../README.md)
 
-> 2 unique papers · Agent/LLM Self-Improvement 0 · Memory 0 · Continual Training 0 · Reinforcement Learning 2
+> 1 unique papers · Agent/LLM Self-Improvement 0 · Memory 0 · Continual Training 0 · Reinforcement Learning 1
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
 | 2025-07-29 | Reinforcement Learning | [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v2)<br>[PDF](https://arxiv.org/pdf/2507.21931v2) | arXiv.org | 📈 Highly cited | Citations: 13 (Semantic Scholar) |
-| 2025-07-29 | Reinforcement Learning | [On Policy Stochasticity in Mutual Information Optimal Control of Linear Systems](https://arxiv.org/abs/2507.21543v3)<br>[PDF](https://arxiv.org/pdf/2507.21543v3) | arXiv.org | — | Citations: 1 (Semantic Scholar) |
 
 ## Notes
 

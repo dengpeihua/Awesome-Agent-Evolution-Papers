@@ -5,7 +5,7 @@ from dataclasses import replace
 from typing import Final
 
 from .models import Paper
-from .topics import REQUIRED_TOPICS, infer_topics, normalize_topics
+from .topics import MIN_PUBLICATION_DATE, REQUIRED_TOPICS, infer_topics
 
 HIGH_CITATION_COUNT: Final = 10
 
@@ -219,7 +219,10 @@ def qualification_reasons(paper: Paper) -> tuple[str, ...]:
 
 def is_eligible(paper: Paper) -> bool:
     """Include topical papers; priority evidence is a label, not an entry barrier."""
-    return bool(REQUIRED_TOPICS.intersection(normalize_topics(paper.topics)))
+    return bool(
+        paper.published >= MIN_PUBLICATION_DATE
+        and REQUIRED_TOPICS.intersection(infer_topics(paper))
+    )
 
 
 def classify_highlights(paper: Paper) -> Paper:

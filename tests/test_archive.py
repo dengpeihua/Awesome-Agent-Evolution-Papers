@@ -10,7 +10,11 @@ def make_paper(arxiv_id: str, *, topics: tuple[str, ...]) -> Paper:
     return Paper(
         arxiv_id=arxiv_id,
         title=f"Paper {arxiv_id}",
-        abstract="A concise abstract.",
+        abstract=(
+            "We train large language models with reinforcement learning."
+            if "reinforcement-learning" in topics
+            else "A concise abstract."
+        ),
         authors=("A. Researcher",),
         published=datetime(2026, 7, 15, tzinfo=UTC),
         updated=datetime(2026, 7, 15, tzinfo=UTC),
@@ -232,3 +236,27 @@ def test_large_daily_archive_paginates_without_losing_or_reordering_papers(tmp_p
     assert "(../../../../README.md)" in second
     archive.replace_dataset(papers[:1])
     assert not second_path.exists()
+
+
+def test_first_publication_cutoff_rejects_old_papers_even_if_recently_updated(tmp_path):
+    old = replace(
+        make_eligible_paper("2412.00001", topics=("agent-memory",)),
+        published=datetime(2024, 12, 31, 23, 59, tzinfo=UTC),
+        updated=datetime(2026, 10, 3, tzinfo=UTC),
+    )
+    boundary = replace(old, arxiv_id="2501.00001", published=datetime(2025, 1, 1, tzinfo=UTC))
+    stale = tmp_path / "papers/2024/12/README.md"
+    stale.parent.mkdir(parents=True)
+    stale.write_text("Old paper list", encoding="utf-8")
+    result = ArchiveRepository(tmp_path).replace_dataset([old, boundary])
+    assert [p.arxiv_id for p in result] == ["2501.00001"]
+    assert not stale.exists()
+
+
+def test_recuration_removes_cached_rl_tags_without_losing_other_valid_topics(tmp_path):
+    paper = replace(
+        make_paper("2609.001", topics=("agent-memory",)),
+        topics=("agent-memory", "reinforcement-learning"),
+    )
+    result = ArchiveRepository(tmp_path).replace_dataset([paper])
+    assert result[0].topics == ("agent-memory",)

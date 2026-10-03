@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:15:43.061033+00:00",
+  "generated_at": "2026-10-03T09:36:11.495735+00:00",
   "policy": {
     "required_topics": [
       "agent-llm-self-evolution",
@@ -7,6 +7,8 @@
       "llm-continual-training",
       "reinforcement-learning"
     ],
+    "first_publication_on_or_after": "2025-01-01",
+    "rl_scope": "Substantive RL directly related to language models or language agents",
     "highlight_signals": [
       "CCF-A Artificial Intelligence Full/Regular paper",
       "Selected top venue, including ECCV, EMNLP and ICLR",
@@ -20,20 +22,20 @@
     "agent-llm-self-evolution": 576,
     "agent-memory": 649,
     "llm-continual-training": 241,
-    "reinforcement-learning": 1574
+    "reinforcement-learning": 243
   },
-  "public_paper_count": 2718,
+  "public_paper_count": 1535,
   "topic_counts": {
     "agent-llm-self-evolution": 576,
     "agent-memory": 649,
     "llm-continual-training": 241,
-    "reinforcement-learning": 1574
+    "reinforcement-learning": 242
   },
   "qualification_counts": {
-    "CCF-A": 48,
-    "Highly cited": 68,
-    "Industry": 12,
-    "Selected venue": 42
+    "CCF-A": 65,
+    "Highly cited": 163,
+    "Industry": 9,
+    "Selected venue": 30
   },
   "notes": [
     "Qualification counts overlap when one paper meets multiple criteria.",

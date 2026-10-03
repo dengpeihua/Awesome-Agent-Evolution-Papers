@@ -83,6 +83,7 @@ async def test_fetch_pages_until_the_complete_catch_up_window(monkeypatch) -> No
 
         async def get(self, _url, *, params):
             self.starts.append(params["start"])
+            assert "submittedDate:[202501010000" in params["search_query"]
             request = httpx.Request("GET", "https://export.arxiv.org/api/query")
             return httpx.Response(200, text=responses.pop(0), request=request)
 

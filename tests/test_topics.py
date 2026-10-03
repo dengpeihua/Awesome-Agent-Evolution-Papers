@@ -1,9 +1,12 @@
 from dataclasses import replace
 
+import pytest
+
 from agent_paper_digest.topics import (
     SELF_EVOLUTION_TOPIC,
     infer_topics,
     normalize_topics,
+    rl_relevance_evidence,
 )
 from tests.test_archive import make_paper
 
@@ -94,3 +97,43 @@ def test_preserves_agent_memory_as_a_separate_direction() -> None:
     )
 
     assert infer_topics(paper) == ("agent-memory",)
+
+
+@pytest.mark.parametrize(
+    "title,abstract",
+    [
+        (
+            "Traffic control with reinforcement learning",
+            "We train PPO policies for traffic lights.",
+        ),
+        (
+            "LLM Robot Planner",
+            "We use a language model for planning. PPO trains the motor controller.",
+        ),
+        ("LLM Code Designer", "Our language model outperforms a reinforcement learning baseline."),
+        ("LLM Data Security Survey", "This survey covers LLMs, RLHF, data cleaning and RAG."),
+        (
+            "Fetch My Beer",
+            "Fluid simulation is too costly for reinforcement learning. "
+            "We use a vision-language model to filter grasps.",
+        ),
+    ],
+)
+def test_rl_rejects_incidental_mentions_and_legacy_tags(title, abstract):
+    paper = replace(
+        make_paper("2609.001", topics=("reinforcement-learning",)), title=title, abstract=abstract
+    )
+    assert "reinforcement-learning" not in infer_topics(paper)
+    assert not rl_relevance_evidence(title, abstract)
+
+
+@pytest.mark.parametrize(
+    "title,abstract",
+    [
+        ("Agentic RL", "We train an LLM agent using GRPO on tool-use trajectories."),
+        ("LLM Reinforcement Learning", "Language models optimize a reward objective."),
+        ("Credit Assignment", "Language models suffer sparse rewards. We introduce GRPO updates."),
+    ],
+)
+def test_rl_keeps_explicit_language_policy_training(title, abstract):
+    assert rl_relevance_evidence(title, abstract)

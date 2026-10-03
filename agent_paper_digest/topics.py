@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from datetime import UTC, datetime
 from typing import Final
 
 from .models import Paper
@@ -9,6 +10,7 @@ SELF_EVOLUTION_TOPIC: Final = "agent-llm-self-evolution"
 AGENT_MEMORY_TOPIC: Final = "agent-memory"
 CONTINUAL_TRAINING_TOPIC: Final = "llm-continual-training"
 REINFORCEMENT_LEARNING_TOPIC: Final = "reinforcement-learning"
+MIN_PUBLICATION_DATE: Final = datetime(2025, 1, 1, tzinfo=UTC)
 
 TOPIC_ORDER: Final = (
     SELF_EVOLUTION_TOPIC,
@@ -68,6 +70,79 @@ CONTINUAL_TRAINING_PATTERN: Final = re.compile(
     re.IGNORECASE,
 )
 
+LANGUAGE_CONTEXT: Final = re.compile(
+    r"\b(?:llms?|vlms?|(?:large |vision[- ]|multimodal )?language models?|"
+    r"language[- ](?:model[- ])?agents?)\b",
+    re.IGNORECASE,
+)
+RL_METHOD: Final = re.compile(
+    r"\b(?:reinforcement[- ]learning|RLHF|RLAIF|RLVR|GRPO|PPO|"
+    r"(?:group relative|proximal) policy optimi[sz]ation)\b",
+    re.IGNORECASE,
+)
+RL_CONTRIBUTION: Final = re.compile(
+    r"\b(?:we |our |propos\w*|introduc\w*|develop\w*|present\w*|"
+    r"train\w*|fine[- ]?tun\w*|post[- ]train\w*|optimi[sz]\w*|"
+    r"analy[sz]\w*|stud\w*|investigat\w*|benchmark\w*)\b",
+    re.IGNORECASE,
+)
+INCIDENTAL_RL: Final = re.compile(
+    r"\b(?:without (?:using |any )?(?:reinforcement learning|RL)|RL[- ]free|"
+    r"(?:reinforcement learning|RL) baselines?|too costly|(?:unlike|instead of) "
+    r"(?:reinforcement learning|RL))\b",
+    re.IGNORECASE,
+)
+
+
+def rl_relevance_evidence(title: str, abstract: str) -> str:
+    """Require language-model context and substantive RL evidence, not query labels."""
+    text = f"{title}\n{abstract}"
+    if not LANGUAGE_CONTEXT.search(text):
+        return ""
+    if re.search(
+        r"\b(?:robot(?:ic|ics)?|humanoid|manipulation|loco[- ]manipulation|"
+        r"autonomous driving|motion planning|sim[- ]to[- ]real|VLA|"
+        r"traffic (?:control|signal)|quantum networks?)\b",
+        title,
+        re.IGNORECASE,
+    ):
+        return ""
+    if re.search(r"\bsurvey\b", text, re.IGNORECASE) and not RL_METHOD.search(title):
+        return ""
+    sentences = re.split(r"(?<=[.!?])\s+|\n+", text)
+    for sentence in sentences:
+        if not RL_METHOD.search(sentence) or INCIDENTAL_RL.search(sentence):
+            continue
+        # Title-level RL and an explicit language-model context form a strong
+        # signal. Abstract-only mentions also require a contribution/training cue.
+        if (
+            sentence == title
+            and LANGUAGE_CONTEXT.search(title)
+            and not re.search(r"\bLLM[- ](?:guided|assisted)\b", title, re.IGNORECASE)
+        ):
+            return sentence
+        if RL_CONTRIBUTION.search(sentence) and (
+            LANGUAGE_CONTEXT.search(sentence)
+            or (
+                re.search(r"\b(?:we|our)\b", sentence, re.IGNORECASE)
+                and re.search(r"\b(?:RLHF|RLAIF|RLVR|GRPO)\b", sentence, re.IGNORECASE)
+            )
+        ):
+            return sentence
+    if RL_METHOD.search(title):
+        for sentence in sentences[1:]:
+            if (
+                LANGUAGE_CONTEXT.search(sentence)
+                and re.search(
+                    r"\b(?:train\w*|fine[- ]tun\w*|learn\w*)\b.{0,70}\b(?:policy|reward)\b",
+                    sentence,
+                    re.IGNORECASE,
+                )
+                and not INCIDENTAL_RL.search(sentence)
+            ):
+                return f"{title} — {sentence}"
+    return ""
+
 
 def normalize_topics(topics: tuple[str, ...]) -> tuple[str, ...]:
     """Migrate legacy labels and return known topics in stable display order."""
@@ -83,14 +158,14 @@ def infer_topics_from_text(
 ) -> tuple[str, ...]:
     """Infer the requested directions while requiring an Agent/LLM context."""
     text = f"{title}\n{abstract}"
-    topics = set(normalize_topics(existing))
+    topics = set(normalize_topics(existing)) - {REINFORCEMENT_LEARNING_TOPIC}
     if AGENT_LLM_PATTERN.search(text) and SELF_EVOLUTION_PATTERN.search(text):
         topics.add(SELF_EVOLUTION_TOPIC)
     if AGENT_LLM_PATTERN.search(text) and AGENT_MEMORY_PATTERN.search(text):
         topics.add(AGENT_MEMORY_TOPIC)
     if LLM_PATTERN.search(text) and CONTINUAL_TRAINING_PATTERN.search(text):
         topics.add(CONTINUAL_TRAINING_TOPIC)
-    if re.search(r"\b(?:reinforcement[- ]learning|RLHF|RLAIF|GRPO)\b", text, re.IGNORECASE):
+    if rl_relevance_evidence(title, abstract):
         topics.add(REINFORCEMENT_LEARNING_TOPIC)
     return tuple(topic for topic in TOPIC_ORDER if topic in topics)
 
