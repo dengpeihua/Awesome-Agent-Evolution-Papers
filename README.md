@@ -29,7 +29,7 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 | Agent memory | 649 |
 | LLM continual training | 242 |
 | Reinforcement Learning | 248 |
-| Daily archives | 9 |
+| Daily archives | 10 |
 
 ## 📚 Table of Contents
 
@@ -352,6 +352,7 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 
 ## 🗓️ Daily Archive
 
+- [2026-10-04](papers/2026/10/2026-10-04.md)
 - [2026-10-03](papers/2026/10/2026-10-03.md)
 - [2026-09-15](papers/2026/09/2026-09-15.md)
 - [2026-09-12](papers/2026/09/2026-09-12.md)
