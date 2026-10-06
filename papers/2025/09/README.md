@@ -2,10 +2,11 @@
 
 [← Back to main index](../../../README.md)
 
-> 6 unique papers · Agent/LLM Self-Improvement 1 · Memory 0 · Continual Training 3 · Reinforcement Learning 2
+> 7 unique papers · Agent/LLM Self-Improvement 2 · Memory 0 · Continual Training 3 · Reinforcement Learning 2
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
+| 2025-09-29 | Agent/LLM Self-Improvement | [RFG: Self-Improving Diffusion Large Language Models with Reward-Free Guidance](https://arxiv.org/abs/2509.25604v2)<br>[PDF](https://arxiv.org/pdf/2509.25604v2) | arXiv | — | — |
 | 2025-09-26 | LLM Continual Training | [A Comprehensive FP8 Training Recipe for Reasoning-Enhanced Language Models](https://arxiv.org/abs/2509.22536v5)<br>[PDF](https://arxiv.org/pdf/2509.22536v5) | arXiv.org | — | Citations: 3 (Semantic Scholar) |
 | 2025-09-18 | Reinforcement Learning | [Stochastic Bilevel Optimization with Heavy-Tailed Noise](https://arxiv.org/abs/2509.14952v3)<br>[PDF](https://arxiv.org/pdf/2509.14952v3) | arXiv.org | — | Citations: 4 (Semantic Scholar) |
 | 2025-09-16 | LLM Continual Training | [GLAM: Efficient Continual Learning at Scale via Grouped LoRA Adapter Merging](https://arxiv.org/abs/2509.13211v4)<br>[PDF](https://arxiv.org/pdf/2509.13211v4) | arXiv | — | Citations: 1 (Semantic Scholar) |

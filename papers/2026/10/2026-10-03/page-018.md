@@ -37,7 +37,7 @@
 | 2026-06-23 | Agent Memory | [TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory](https://arxiv.org/abs/2606.25161) | — |
 | 2026-06-23 | Agent Memory, LLM Continual Training | [Forget to Improve: On-Device LLM-Agent Continual Learning via Budget-Curated Memory](https://arxiv.org/abs/2606.25115) | 📈 Highly cited |
 | 2026-06-23 | Agent Memory | [Are We Ready For An Agent-Native Memory System?](https://arxiv.org/abs/2606.24775) | ⭐ Popular code<br>📈 Highly cited |
-| 2026-06-23 | Agent Memory | [Governed Shared Memory for Multi-Agent LLM Systems](https://arxiv.org/abs/2606.24535) | — |
+| 2026-06-23 | Agent Memory | [Governed Shared Memory for Multi-Agent LLM Systems](https://arxiv.org/abs/2606.24535) | 📈 Highly cited |
 | 2026-06-23 | Agent Memory | [ReM-MoA: Reasoning Memory Sustains Mixture-of-Agents Scaling](https://arxiv.org/abs/2606.24437) | — |
 | 2026-06-23 | Agent Memory | [Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees](https://arxiv.org/abs/2606.24322) | 📈 Highly cited |
 | 2026-06-22 | LLM Continual Training | [HANCLIP: A Family of Hyperbolic Angular Negation Vision Language Models](https://arxiv.org/abs/2606.23843v2) | — |
@@ -71,6 +71,7 @@
 | [Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents](https://arxiv.org/abs/2606.27472) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Forget to Improve: On-Device LLM-Agent Continual Learning via Budget-Curated Memory](https://arxiv.org/abs/2606.25115) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Are We Ready For An Agent-Native Memory System?](https://arxiv.org/abs/2606.24775) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Governed Shared Memory for Multi-Agent LLM Systems](https://arxiv.org/abs/2606.24535) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees](https://arxiv.org/abs/2606.24322) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [ENPIRE: Agentic Robot Policy Self-Improvement in the Real World](https://arxiv.org/abs/2606.19980v2) | 📈 Highly cited | California Institute of Technology |
 
@@ -382,7 +383,7 @@ Memory for large language model (LLM) agents has rapidly evolved from simple ret
 
 - **Authors:** Margalit, Yanki, Cohen-Inger, Nurit, Avram, Erni, Taig, Ran, Margalit, Oded
 - **Published:** 2026-06-23
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI

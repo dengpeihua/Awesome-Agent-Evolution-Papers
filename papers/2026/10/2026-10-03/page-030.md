@@ -32,7 +32,7 @@
 | 2025-09-10 | Reinforcement Learning | [HumanAgencyBench: Scalable Evaluation of Human Agency Support in AI Assistants](https://arxiv.org/abs/2509.08494v2) | 📈 Highly cited |
 | 2025-08-21 | Agent/LLM Self-Improvement | [Language-Guided Tuning: Configuration Optimization for Automated ML Research](https://arxiv.org/abs/2508.15757v2) | — |
 | 2025-08-13 | Agent/LLM Self-Improvement | [EvoCurr: Self-evolving Curriculum with Behavior Code Generation for Complex Decision-making](https://arxiv.org/abs/2508.09586v3) | — |
-| 2025-08-04 | Reinforcement Learning | [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v6) | — |
+| 2025-08-04 | Reinforcement Learning | [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v7) | — |
 | 2025-07-29 | Reinforcement Learning | [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v2) | 📈 Highly cited |
 | 2025-06-09 | Agent Memory | [HiBerNAC: Hierarchical Brain-inspired Robotic Neural Agent Collective for Disentangling Complex Manipulation](https://arxiv.org/abs/2506.08296v3) | — |
 | 2025-05-30 | LLM Continual Training | [Advantageous Parameter Expansion Training Makes Better Large Language Models](https://arxiv.org/abs/2505.24241v2) | — |
@@ -377,7 +377,7 @@ This paper considers the smooth bilevel optimization in which the lower-level pr
 
 As humans delegate more tasks and decisions to artificial intelligence (AI), we risk losing control of our individual and collective futures. Relatively simple algorithmic systems already steer human decision-making, such as social media feed algorithms that lead people to unintentionally and absent-mindedly scroll through engagement-optimized content. In this paper, we develop the idea of human agency by integrating philosophical and scientific theories of agency with AI-assisted evaluation methods: using large language models (LLMs) to simulate and validate user queries and to evaluate AI responses. We develop HumanAgencyBench (HAB), a scalable and adaptive diagnostic tool for six behaviors related to human agency. HAB measures the tendency of an AI assistant to Ask Clarifying Questions, Avoid Value Manipulation, Correct Misinformation, Defer Important Decisions, Encourage Learning, and Maintain Social Boundaries. We find low-to-moderate agency support in contemporary LLM-based assistants, with substantial variation across system developers and behaviors. For example, while Anthropic LLMs most support human agency overall, they are the least supportive LLMs in terms of Avoid Value Manipulation. These behaviors do not appear to consistently result from increasing LLM capabilities or instruction-following (e.g., RLHF); we encourage further study of these behaviors so that developers and users can better understand the complexities of modern human-AI interaction.
 
-### [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v6)
+### [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v7)
 
 - **Authors:** Lei Pang, Jun Luo, Ruinan Jin
 - **Published:** 2025-08-04
@@ -385,7 +385,7 @@ As humans delegate more tasks and decisions to artificial intelligence (AI), we 
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2508.02833v6) · [PDF](https://arxiv.org/pdf/2508.02833v6)
+- **Links:** [Paper](https://arxiv.org/abs/2508.02833v7) · [PDF](https://arxiv.org/pdf/2508.02833v7)
 
 Group Relative Policy Optimization (GRPO) trains language models without a value critic using rewards centered within sampled response groups. We study how importance weighting, clipping, and length normalization affect its stochastic updates and propose Trajectory-level Importance-Corrected GRPO (TIC-GRPO), combining an upper importance-ratio cap with a full-trajectory likelihood ratio. Under common maximum-length normalization, a trajectory change of measure gives a score second moment proportional to the response horizon. We propagate this estimate through the actual empirical baseline and all inner updates. With separately optimized constant steps, the sampling term in TIC's stationarity bound has a linear horizon coefficient, versus order three halves for token-level GRPO$_2$. Matching upper and lower bounds separate the capped methods' worst-case response-level variances by a factor $T$. The bounds track prompt count, response-group size, vocabulary size, reward scale, and score regularity; per-response-normalized GRPO also retains a length-covariance term. Experiments at two Qwen3 scales on four reasoning and coding benchmarks evaluate both mechanisms in sampled-token-normalized training.
 

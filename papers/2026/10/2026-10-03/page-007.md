@@ -27,7 +27,7 @@
 | 2026-09-22 | Reinforcement Learning | [Informed Masking: Structure-Aware Perturbation for Reinforcement Learning in Diffusion Large Language Models](https://arxiv.org/abs/2609.25927v1) | — |
 | 2026-09-22 | Agent Memory | [When Does Execution Provenance Help Agent Memory Retrieval?](https://arxiv.org/abs/2609.25913v1) | — |
 | 2026-09-22 | LLM Continual Training | [Metric-Bench: Exploring In-context Spatial Metric Reasoning in VLMs for Indoor Scenes](https://arxiv.org/abs/2609.25841v1) | 🏅 Selected top venue: ECCV<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
-| 2026-09-22 | LLM Continual Training | [Efficient Cost-Aware LLM Evaluation via Bayesian Bandit Gittins Indices](https://arxiv.org/abs/2609.25645v1) | — |
+| 2026-09-22 | LLM Continual Training | [Efficient Cost-Aware LLM Evaluation via Bayesian Bandit Gittins Indices](https://arxiv.org/abs/2609.25645v2) | — |
 | 2026-09-22 | Agent/LLM Self-Improvement | [Ladders of Thought: A Self-Evolving Curriculum of Progressively Simplified Reasoning Traces](https://arxiv.org/abs/2609.25643v1) | — |
 | 2026-09-22 | Reinforcement Learning | [Reasoning-Preserving Fine-Tuning of Post-RL LLMs with Null-Basis LoRA](https://arxiv.org/abs/2609.25618v1) | — |
 | 2026-09-22 | Agent Memory | [AkasicMEM: Governed Enterprise Memory for Agents](https://arxiv.org/abs/2609.25563v1) | — |
@@ -54,7 +54,7 @@
 | 2026-09-21 | LLM Continual Training | [Brain-Inspired Hierarchical Modularity for General Continual Learning](https://arxiv.org/abs/2609.25146v1) | — |
 | 2026-09-21 | Agent/LLM Self-Improvement | [Listen, Critique, and Refine: RL-Based Self-Refinement for Instruction-Following Speech Synthesis](https://arxiv.org/abs/2609.24163v1) | — |
 | 2026-09-21 | Reinforcement Learning | [From Ideal Motion to Flight-Executable Communications: LLM-Evolved Multi-UAV Deployment for Cell-Free Massive MIMO](https://arxiv.org/abs/2609.23992v1) | — |
-| 2026-09-21 | Agent Memory | [Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents](https://arxiv.org/abs/2609.23986v1) | — |
+| 2026-09-21 | Agent Memory | [Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents](https://arxiv.org/abs/2609.23986v1) | 📈 Highly cited |
 | 2026-09-20 | LLM Continual Training | [Time-Incremental Continued Pretraining of LLMs: Knowledge Updates Without Catastrophic Forgetting](https://arxiv.org/abs/2609.23916v1) | — |
 | 2026-09-20 | Reinforcement Learning | [Listen Then Reason: Perception-Grounded Test-Time Reinforcement Learning for Large Audio-Language Models](https://arxiv.org/abs/2609.23589v1) | — |
 | 2026-09-20 | Reinforcement Learning | [When a Data Artifact Isn't a Shortcut: Causal Auditing of Synthetic RLVR Corpora](https://arxiv.org/abs/2610.00202v1) | — |
@@ -69,6 +69,7 @@
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
 | [Metric-Bench: Exploring In-context Spatial Metric Reasoning in VLMs for Indoor Scenes](https://arxiv.org/abs/2609.25841v1) | 🏅 Selected top venue: ECCV<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to ECCV |
+| [Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents](https://arxiv.org/abs/2609.23986v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -354,7 +355,7 @@ The effectiveness of agent memory ultimately depends on whether the underlying L
 
 - **Authors:** Dongming Jiang, Yi Li, Bingzhe Li
 - **Published:** 2026-09-21
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI, cs.LG
@@ -400,7 +401,7 @@ We introduce Rolling Conformal Prediction (rolling-CP), a distribution-free pred
 
 Metric reasoning is a critical and challenging task for Vision Language Models (VLMs), playing a pivotal role in embodied AI tasks such as robotic manipulation and autonomous navigation. However, current spatial reasoning remains bottlenecked by rigid pixel-level supervision; such localized optimization often compromises general multimodal intelligence, triggering performance degradation or catastrophic forgetting of broad reasoning capabilities. To address these limitations, we introduce Metric-Bench, a focused benchmark designed to guide metric-spatial reasoning using contextual information. By incorporating in-image reference objects with known physical dimensions, Metric-Bench guides models to implicitly learn the 2D-to-3D mapping without camera intrinsics. We further present MetricReasoner, a task-adapted reinforcement fine-tuning recipe for reference-grounded metric reasoning, using structured prompts and verifiable numerical rewards. Extensive experiments on Metric-Bench demonstrate that our approach significantly enhances spatial metric understanding, outperforming existing and even larger proprietary models by 43.1\%, while improving downstream embodied performance over a spatial-specialized counterpart by 30.4\% on RoboSpatial overall accuracy and 9.3\% on ERQA, and additionally delivering consistent gains on general benchmarks (15.9\% on V$\star$Bench, 88.9\% on BLINK), indicating that the proposed adaptation does not necessarily compromise general VLM capabilities.
 
-### [Efficient Cost-Aware LLM Evaluation via Bayesian Bandit Gittins Indices](https://arxiv.org/abs/2609.25645v1)
+### [Efficient Cost-Aware LLM Evaluation via Bayesian Bandit Gittins Indices](https://arxiv.org/abs/2609.25645v2)
 
 - **Authors:** Qian Xie, Yueli He, Nairen Cao
 - **Published:** 2026-09-22
@@ -408,7 +409,7 @@ Metric reasoning is a critical and challenging task for Vision Language Models (
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.CL, stat.ML
-- **Links:** [Paper](https://arxiv.org/abs/2609.25645v1) · [PDF](https://arxiv.org/pdf/2609.25645v1)
+- **Links:** [Paper](https://arxiv.org/abs/2609.25645v2) · [PDF](https://arxiv.org/pdf/2609.25645v2)
 
 Exhaustively evaluating every candidate LLM configuration on every benchmark item to identify a high-performing one is costly. We formulate configuration selection as a cost-aware Bayesian bandit problem and propose GittinsEval, which draws on the Bayesian-optimal Gittins policy to determine which configuration to evaluate next and when to stop. We extend the policy with an anytime recommendation rule over both fully and partially evaluated configurations, using an LCB-style score to account for posterior uncertainty. GittinsEval is computationally efficient, requiring only lightweight online updates after offline precomputation. Across GSM8K, PIQA, AlpacaEval, and MMLU response matrices, GittinsEval is consistently competitive, with particularly strong gains over configuration-level Bayesian optimization on large-example benchmarks and over cost-unaware bandit baselines on large-candidate tasks. Crucially, GittinsEval often attains near-zero simple regret using only 1% to 2% of the exhaustive-evaluation cost; it also offers an adaptive stopping rule that typically triggers at 1% to 10%.
 

@@ -44,7 +44,7 @@
 | 2026-07-16 | Agent/LLM Self-Improvement | [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777) | ⭐ Popular code<br>📈 Highly cited |
 | 2026-07-16 | Agent Memory | [MemPoison: Uncovering Persistent Memory Threats and Structural Blind Spots in LLM Agents](https://arxiv.org/abs/2607.14651) | — |
 | 2026-07-16 | Agent/LLM Self-Improvement, Agent Memory | [Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems](https://arxiv.org/abs/2607.14611) | — |
-| 2026-07-15 | Agent/LLM Self-Improvement | [Cura 1T: Specialized Model for Agentic Healthcare](https://arxiv.org/abs/2607.15314v2) | — |
+| 2026-07-15 | Agent/LLM Self-Improvement | [Cura 1T: Healthcare Foundation Model via Recursive Self-Improvement](https://arxiv.org/abs/2607.15314v3) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement | [SPyCE: Skill-Policy Co-evolution for Multimodal Agents](https://arxiv.org/abs/2607.13854v2) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement | [ReasFlow: Assisting Reasoning-Centric Scientific Discovery in Applied Mathematics via a Knowledge-Based Multi-Agent System](https://arxiv.org/abs/2607.14178v3) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement | [HarnessBank: Semantic Gene-Bank Search with Gated Verification for Agent-Harness Self-Evolution](https://arxiv.org/abs/2607.13683v2) | 📈 Highly cited |
@@ -246,17 +246,17 @@ Large language models are increasingly trained as interactive agents for long-ho
 
 A growing class of agentic systems maintain persistent state across sessions through memory files, behavioral preferences, and knowledge bases. While this makes agents more useful and self-improving, it also creates a new attack surface for prompt injections in which malicious instructions can be embedded within persistent files and influence future behavior. In this work, we study prompt injection attacks in memory-based agentic systems using a sandboxed synthetic workspace. We evaluate two agentic systems, Anthropic Claude Code and OpenAI Codex, across four models: Claude Haiku 4.5, Claude Opus 4.7, GPT-5.2, and GPT-5.5. Our results show that although it is difficult to make an agent overwrite its own memory files using untrusted external content, payloads already planted in those files can successfully attack current and future sessions. Attack success and payload persistence vary substantially across systems, models, adversarial goals, and multi-session attack sequences. These findings show that persistent memory changes the threat model for prompt injection and motivate defenses that protect memory updates without removing useful agent adaptation.
 
-### [Cura 1T: Specialized Model for Agentic Healthcare](https://arxiv.org/abs/2607.15314v2)
+### [Cura 1T: Healthcare Foundation Model via Recursive Self-Improvement](https://arxiv.org/abs/2607.15314v3)
 
-- **Authors:** actAVA AI, :, Haolin Chen, Leon Qi, Steve Brown, Deon Metelski, Tao Xia, Joonyul Lee, Qixuan Wang, Kevin Riley, Frank Wang, Weiran Yao
+- **Authors:** Haolin Chen, Leon Qi, Steve Brown, Deon Metelski, Tao Xia, Joonyul Lee, Qixuan Wang, Kevin Riley, Frank Wang, Weiran Yao
 - **Published:** 2026-07-15
 - **Priority:** —
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.15314v2) · [PDF](https://arxiv.org/pdf/2607.15314v2)
+- **Links:** [Paper](https://arxiv.org/abs/2607.15314v3) · [PDF](https://arxiv.org/pdf/2607.15314v3)
 
-Healthcare AI agents handle patient consultation, clinical reasoning over text and images, interactive diagnosis, and electronic health record (EHR) tool use, yet specialized agentic models that cover these use cases together remain limited. These capabilities fail in different ways, and a narrow update for one task can degrade another. We present Cura 1T, a healthcare-specialized LLM built on the open-weight Kimi-K2.6 and trained through a human-gated recursive self-improvement (RSI) loop. Specifically, in each round, the RSI harness plans a target capability, trains the model, evaluates benchmark trajectories, and refines the data mixture from observed failures with targeted synthetic and curated examples rather than a single generic medical-data update. Across the healthcare evaluation suite, Cura 1T ranks at or near the top among frontier baselines while remaining competitive on out-of-domain reasoning and agentic benchmarks.
+Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized language models that cover these use cases together remain limited. A healthcare model must handle patient consultation, clinical reasoning over text and images, interactive diagnosis, and electronic health record (EHR) tool use. These capabilities fail in different ways, and a narrow update for one task can degrade another. We present Cura 1T, a healthcare foundation model trained through recursive self-improvement (RSI). In each RSI round, the RSI harness runs the current model on healthcare benchmarks, evaluates the trajectories to locate capability gaps, and refines the training mixture by synthesizing training data. On 6 healthcare benchmarks, Cura 1T scores highest on MedAgentBench, HealthBench Professional, HealthBench Hard, MedXpertQA text, and AgentClinic, and second on MedXpertQA multimodal. It preserves performances on out-of-domain reasoning and agentic benchmarks including AIME, GPQA-Diamond, and $τ^2$-Bench.
 
 ### [SPyCE: Skill-Policy Co-evolution for Multimodal Agents](https://arxiv.org/abs/2607.13854v2)
 
