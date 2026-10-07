@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 268 unique papers · Agent/LLM Self-Improvement 140 · Memory 76 · Continual Training 49 · Reinforcement Learning 17
+> 269 unique papers · Agent/LLM Self-Improvement 140 · Memory 76 · Continual Training 49 · Reinforcement Learning 19
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -125,6 +125,7 @@
 | 2026-08-17 | Agent/LLM Self-Improvement | [Zetta $ζ$: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence](https://arxiv.org/abs/2608.16590v1)<br>[PDF](https://arxiv.org/pdf/2608.16590v1) | arXiv | — | Citations: 9 (Semantic Scholar) |
 | 2026-08-17 | LLM Continual Training | [Computational KJ-Ho: An Analyst-Bias-Free Insight Extraction Framework from Large-Scale Qualitative Data Using Domain-Specialized LLMs](https://arxiv.org/abs/2608.16467v1)<br>[PDF](https://arxiv.org/pdf/2608.16467v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-08-17 | Agent/LLM Self-Improvement | [JailbreakSkill: Scaling Automated Red-Teaming with Reusable and Ever-Evolving Skills](https://arxiv.org/abs/2608.16465v1)<br>[PDF](https://arxiv.org/pdf/2608.16465v1) | arXiv | — | Citations: 2 (Semantic Scholar) |
+| 2026-08-17 | Reinforcement Learning | [PertMind: Eliciting Emergent Biological Reasoning in LLM via Reinforcement Learning on Cellular Perturbation Data](https://arxiv.org/abs/2608.16419v3)<br>[PDF](https://arxiv.org/pdf/2608.16419v3) | arXiv | — | — |
 | 2026-08-17 | Agent/LLM Self-Improvement | [Towards Risk-free AI Agent Deployment](https://arxiv.org/abs/2608.16411v1)<br>[PDF](https://arxiv.org/pdf/2608.16411v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-08-17 | LLM Continual Training | [SoftModel: A Neural Model That Grows Its Own Topology -- Governed Structural Growth for Continual In-Service Learning](https://arxiv.org/abs/2608.16409v1)<br>[PDF](https://arxiv.org/pdf/2608.16409v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-08-17 | Agent Memory | [MELD: A Protocol for Merging Knowledge Across Distributed Agentic Memories](https://arxiv.org/abs/2608.16357v1)<br>[PDF](https://arxiv.org/pdf/2608.16357v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
@@ -223,7 +224,7 @@
 | 2026-08-06 | Agent/LLM Self-Improvement | [When Experience Becomes Instruction: Trajectory Poisoning in Self-Evolving Agent Skill Systems](https://arxiv.org/abs/2608.05563v2)<br>[PDF](https://arxiv.org/pdf/2608.05563v2) | arXiv | — | Citations: 1 (Semantic Scholar) |
 | 2026-08-06 | LLM Continual Training | [Different Perturbations, Different Mechanisms: Understanding Continued Pre-training for Zero-Shot Dialect Robustness](https://arxiv.org/abs/2608.05510v1)<br>[PDF](https://arxiv.org/pdf/2608.05510v1) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2026-08-05 | Agent/LLM Self-Improvement | [AutoScientist-Quant: Self-Evolving Coding Agents for Automatic Research in Quantitative Investment](https://arxiv.org/abs/2608.28632v2)<br>[PDF](https://arxiv.org/pdf/2608.28632v2) | arXiv | — | Citations: 2 (Semantic Scholar) |
-| 2026-08-05 | Agent/LLM Self-Improvement | [EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents](https://arxiv.org/abs/2608.05446v1)<br>[PDF](https://arxiv.org/pdf/2608.05446v1) | COLM 2026 | — | Citations: 4 (Semantic Scholar) |
+| 2026-08-05 | Agent/LLM Self-Improvement<br>Reinforcement Learning | [EvoHarness-RL: Learning Runtime Harness Coordination for Self-Evolving Agents](https://arxiv.org/abs/2608.05446v2)<br>[PDF](https://arxiv.org/pdf/2608.05446v2) | COLM 2026 | — | Citations: 4 (Semantic Scholar) |
 | 2026-08-05 | Agent/LLM Self-Improvement | [Argus: A General-Purpose Agentic Reasoning Runtime for Long-Horizon Tasks](https://arxiv.org/abs/2608.05144v2)<br>[PDF](https://arxiv.org/pdf/2608.05144v2) | arXiv | — | Citations: 2 (Semantic Scholar) |
 | 2026-08-05 | Agent/LLM Self-Improvement | [OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling](https://arxiv.org/abs/2608.05141v1)<br>[PDF](https://arxiv.org/pdf/2608.05141v1) | arXiv | — | Citations: 2 (Semantic Scholar) |
 | 2026-08-05 | Agent/LLM Self-Improvement | [EvolveNet: Collaborative Harness Evolution for Agent Self-Improvement](https://arxiv.org/abs/2608.04968v1)<br>[PDF](https://arxiv.org/pdf/2608.04968v1) | arXiv | — | Citations: 2 (Semantic Scholar) |

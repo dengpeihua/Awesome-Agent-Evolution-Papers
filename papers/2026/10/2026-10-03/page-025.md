@@ -72,7 +72,7 @@
 | [Poison Once, Exploit Forever: Environment-Injected Memory Poisoning Attacks on Web Agents](https://arxiv.org/abs/2604.02623) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [GEMS: Agent-Native Multimodal Generation with Memory and Skills](https://arxiv.org/abs/2603.28088) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization](https://arxiv.org/abs/2603.25973) | 📈 Highly cited | University of Illinois Chicago |
-| [PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments](https://arxiv.org/abs/2603.23231) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments](https://arxiv.org/abs/2603.23231) | 📈 Highly cited | University of Science and Technology of China |
 | [Benchmarking Bengali Dialectal Bias: A Multi-Stage Framework Integrating RAG-Based Translation and Human-Augmented RLAIF](https://arxiv.org/abs/2603.21359v2) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to the 2026 Main Conference on Empirical Methods in Natural Language Processing (EMNLP) |
 | [Memori: A Persistent Memory Layer for Efficient, Context-Aware LLM Agents](https://arxiv.org/abs/2603.19935) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [HumorGen: Cognitive Synergy for Humor Generation in Large Language Models via Persona-Based Distillation](https://arxiv.org/abs/2604.09629v3) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted at EMNLP 2026 Main Conference |
@@ -520,7 +520,7 @@ With the growing demand for intelligent in-vehicle experiences, vehicle-based ag
 - **Published:** 2026-03-24
 - **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
-- **Affiliations:** n/a
+- **Affiliations:** University of Science and Technology of China
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2603.23231) · [PDF](https://arxiv.org/pdf/2603.23231) · [Code](https://github.com/PolarisLiu1/PERMA)
 

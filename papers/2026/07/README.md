@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 139 unique papers · Agent/LLM Self-Improvement 58 · Memory 67 · Continual Training 22 · Reinforcement Learning 12
+> 140 unique papers · Agent/LLM Self-Improvement 58 · Memory 67 · Continual Training 22 · Reinforcement Learning 13
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -84,11 +84,11 @@
 | 2026-07-15 | Agent/LLM Self-Improvement<br>Agent Memory | [Experience Memory Graph: One-Shot Error Correction for Agents](https://arxiv.org/abs/2607.13884)<br>[PDF](https://arxiv.org/pdf/2607.13884) | arXiv.org | — | Citations: 0 (Semantic Scholar) |
 | 2026-07-15 | Agent Memory | [Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents](https://arxiv.org/abs/2607.13591)<br>[PDF](https://arxiv.org/pdf/2607.13591) | arXiv.org | — | Citations: 4 (Semantic Scholar) |
 | 2026-07-14 | Agent/LLM Self-Improvement | [Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents](https://arxiv.org/abs/2607.12790v2)<br>[PDF](https://arxiv.org/pdf/2607.12790v2) | arXiv.org | — | Citations: 1 (Semantic Scholar) |
+| 2026-07-14 | Agent/LLM Self-Improvement | [Critic Experience Bank: Self-Evolving Step-Level Confidence Estimation for LLM Agents](https://arxiv.org/abs/2607.12397v2)<br>[PDF](https://arxiv.org/pdf/2607.12397v2) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
 | 2026-07-14 | Agent Memory | [MemoHarness: Agent Harnesses That Learn from Experience](https://arxiv.org/abs/2607.14159)<br>[PDF](https://arxiv.org/pdf/2607.14159) | arXiv.org | 📈 Highly cited | Citations: 13 (Semantic Scholar) |
 | 2026-07-14 | Agent Memory | [Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents](https://arxiv.org/abs/2607.13157)<br>[PDF](https://arxiv.org/pdf/2607.13157) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
 | 2026-07-14 | Agent/LLM Self-Improvement | [Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104)<br>[PDF](https://arxiv.org/pdf/2607.13104) | arXiv.org | ⭐ Popular code<br>📈 Highly cited | [GitHub ★ 350](https://github.com/selfimproving-agent/awesome-Self-Improving-Agents)<br>Citations: 16 (Semantic Scholar) |
 | 2026-07-14 | Agent/LLM Self-Improvement<br>Agent Memory | [KnowAct-GUIClaw: Know Deeply, Act Perfectly, Personal GUI Assistant with Self-Evolving Memory and Skill](https://arxiv.org/abs/2607.12625)<br>[PDF](https://arxiv.org/pdf/2607.12625) | arXiv.org | — | Citations: 1 (Semantic Scholar) |
-| 2026-07-14 | Agent/LLM Self-Improvement | [Critic Experience Bank: Self-Evolving Step-Level Confidence Estimation for LLM Agents](https://arxiv.org/abs/2607.12397)<br>[PDF](https://arxiv.org/pdf/2607.12397) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
 | 2026-07-14 | Agent Memory | [PM-Bench: Evaluating Prospective Memory in LLM Agents](https://arxiv.org/abs/2607.12385)<br>[PDF](https://arxiv.org/pdf/2607.12385) | arXiv.org | — | Citations: 5 (Semantic Scholar) |
 | 2026-07-14 | Agent Memory | [Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents](https://arxiv.org/abs/2607.12267)<br>[PDF](https://arxiv.org/pdf/2607.12267) | arXiv.org | — | Citations: 1 (Semantic Scholar) |
 | 2026-07-14 | Agent Memory | [Speculate with Memory: Lossless Acceleration for LLM Agents](https://arxiv.org/abs/2607.12236)<br>[PDF](https://arxiv.org/pdf/2607.12236) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
@@ -125,6 +125,7 @@
 | 2026-07-06 | Agent Memory | [Your Agent's Memories Are Not Its Own: Forged Reasoning Attacks on LLM Agent Memory and Defenses](https://arxiv.org/abs/2607.05029)<br>[PDF](https://arxiv.org/pdf/2607.05029) | arXiv.org | — | Citations: 6 (Semantic Scholar) |
 | 2026-07-06 | Agent Memory | [MRMS: A Multi-Resolution Memory Substrate for Long-Lived AI Agents](https://arxiv.org/abs/2607.04617)<br>[PDF](https://arxiv.org/pdf/2607.04617) | arXiv.org | — | Citations: 0 (Semantic Scholar) |
 | 2026-07-05 | LLM Continual Training | [RL Forgets! Towards Continual Policy Optimization](https://arxiv.org/abs/2607.04364v3)<br>[PDF](https://arxiv.org/pdf/2607.04364v3) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
+| 2026-07-05 | Reinforcement Learning | [On the effectiveness of reward functions in reinforcement learning for confidence calibration of large language models](https://arxiv.org/abs/2607.04332v2)<br>[PDF](https://arxiv.org/pdf/2607.04332v2) | arXiv | — | — |
 | 2026-07-05 | Agent/LLM Self-Improvement | [Self-Reference in Large Language Models: The Introspection Threshold for Recursive Self-Improvement](https://arxiv.org/abs/2607.04277v2)<br>[PDF](https://arxiv.org/pdf/2607.04277v2) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
 | 2026-07-05 | Agent Memory | [Memory-Orchestrated Semantic System (MOSS): An Auditable Agentic Memory Architecture](https://arxiv.org/abs/2607.04391)<br>[PDF](https://arxiv.org/pdf/2607.04391) | arXiv.org | — | Citations: 0 (Semantic Scholar) |
 | 2026-07-05 | Agent Memory<br>LLM Continual Training | [PLACEMEM: Toward a Compute-Aware Memory Plane for Lifelong Agents](https://arxiv.org/abs/2607.04089)<br>[PDF](https://arxiv.org/pdf/2607.04089) | arXiv.org | — | Citations: 0 (Semantic Scholar) |

@@ -2,15 +2,43 @@
 
 [← Back to main index](../../../README.md)
 
-> 56 unique papers · Agent/LLM Self-Improvement 18 · Memory 6 · Continual Training 10 · Reinforcement Learning 25
+> 88 unique papers · Agent/LLM Self-Improvement 30 · Memory 15 · Continual Training 17 · Reinforcement Learning 32
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-06 | LLM Continual Training | [PEARS: Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffusion Steering for Tactile Manipulation](https://arxiv.org/abs/2610.08784v1)<br>[PDF](https://arxiv.org/pdf/2610.08784v1) | arXiv | — | — |
+| 2026-10-06 | Reinforcement Learning | [Sherpa: Teaching LLMs to Teach Adaptively](https://arxiv.org/abs/2610.08778v1)<br>[PDF](https://arxiv.org/pdf/2610.08778v1) | arXiv | — | — |
+| 2026-10-06 | Agent/LLM Self-Improvement | [VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning](https://arxiv.org/abs/2610.08761v1)<br>[PDF](https://arxiv.org/pdf/2610.08761v1) | arXiv | — | — |
+| 2026-10-06 | Agent/LLM Self-Improvement | [Towards In-Parameter Memory Augmentation for Large Language Models](https://arxiv.org/abs/2610.08630v1)<br>[PDF](https://arxiv.org/pdf/2610.08630v1) | arXiv | — | — |
+| 2026-10-06 | Agent Memory | [MINDSET: Energy-based Schema Evolution for Long Conversational Agent Memory](https://arxiv.org/abs/2610.08586v1)<br>[PDF](https://arxiv.org/pdf/2610.08586v1) | arXiv | — | — |
+| 2026-10-06 | Reinforcement Learning | [Reinforcement Learning for Hierarchical Reasoning Rewards: Minimax-Optimal Rates with Transformers](https://arxiv.org/abs/2610.08561v1)<br>[PDF](https://arxiv.org/pdf/2610.08561v1) | arXiv | — | — |
+| 2026-10-06 | Agent/LLM Self-Improvement | [EMHO: EMbodied Agent Harness Optimization via Experience Traces](https://arxiv.org/abs/2610.08432v1)<br>[PDF](https://arxiv.org/pdf/2610.08432v1) | arXiv | — | — |
+| 2026-10-06 | Agent/LLM Self-Improvement | [MedZERO: Self-Evolving Agents for Open-Ended Medical Reasoning Through Controlled Knowledge Accumulation](https://arxiv.org/abs/2610.08327v1)<br>[PDF](https://arxiv.org/pdf/2610.08327v1) | NeurIPS 2026 | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-07 (actual acceptance date unverified) | — |
+| 2026-10-06 | LLM Continual Training | [CoDe-LoRA: Mitigating the Orthogonality Dilemma in Continual Learning of LLMs via Knowledge Consolidation and Decoupling](https://arxiv.org/abs/2610.08312v1)<br>[PDF](https://arxiv.org/pdf/2610.08312v1) | EMNLP 2026 | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-07 (actual acceptance date unverified) | — |
+| 2026-10-06 | Agent/LLM Self-Improvement | [Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?](https://arxiv.org/abs/2610.08215v1)<br>[PDF](https://arxiv.org/pdf/2610.08215v1) | arXiv | — | — |
+| 2026-10-06 | Agent Memory | [Beyond Corrected Memory: Execution Consistency in Multi-Agent Systems](https://arxiv.org/abs/2610.08101v1)<br>[PDF](https://arxiv.org/pdf/2610.08101v1) | arXiv | — | — |
+| 2026-10-06 | Reinforcement Learning | [PhysTacGen: Physics-Aware Visual-Tactile Sensor Image Generation](https://arxiv.org/abs/2610.08068v1)<br>[PDF](https://arxiv.org/pdf/2610.08068v1) | arXiv | — | — |
+| 2026-10-06 | Agent Memory | [DAEDALUS: Bootstrapping Agent Memory from Self-Generated Tasks](https://arxiv.org/abs/2610.08048v1)<br>[PDF](https://arxiv.org/pdf/2610.08048v1) | arXiv | — | — |
+| 2026-10-06 | Agent/LLM Self-Improvement | [Learning from Revision Consequences: Hindsight Meta-Experience Distillation for Self-Improving Agents](https://arxiv.org/abs/2610.07979v1)<br>[PDF](https://arxiv.org/pdf/2610.07979v1) | arXiv | — | — |
+| 2026-10-06 | Agent/LLM Self-Improvement | [EmbodiedSmith: Scaling Embodied Data through Recursive Self-Improvement Flywheel in Simulation](https://arxiv.org/abs/2610.07969v1)<br>[PDF](https://arxiv.org/pdf/2610.07969v1) | arXiv | — | — |
+| 2026-10-06 | Agent/LLM Self-Improvement | [SIGMA: Self-Improving Alignment Generalization from a Model Spec](https://arxiv.org/abs/2610.07935v1)<br>[PDF](https://arxiv.org/pdf/2610.07935v1) | arXiv | — | — |
+| 2026-10-06 | LLM Continual Training | [Privileged Context as Drift in On-Policy Self-Distillation](https://arxiv.org/abs/2610.07842v1)<br>[PDF](https://arxiv.org/pdf/2610.07842v1) | arXiv | — | — |
+| 2026-10-06 | Agent/LLM Self-Improvement<br>LLM Continual Training | [ServeLearnBench: How Well Can Agents Self-Improve from Serving Experience?](https://arxiv.org/abs/2610.07792v1)<br>[PDF](https://arxiv.org/pdf/2610.07792v1) | arXiv | — | — |
+| 2026-10-06 | Agent Memory | [Persistent Memory in Multi-Agent LLM Inference: What It Costs, What It Buys, and When You Can Tell](https://arxiv.org/abs/2610.07782v1)<br>[PDF](https://arxiv.org/pdf/2610.07782v1) | arXiv | — | — |
+| 2026-10-06 | Reinforcement Learning | [TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models](https://arxiv.org/abs/2610.07767v1)<br>[PDF](https://arxiv.org/pdf/2610.07767v1) | arXiv | — | — |
+| 2026-10-06 | LLM Continual Training | [DLoop: Looped Speculative Decoding](https://arxiv.org/abs/2610.07659v1)<br>[PDF](https://arxiv.org/pdf/2610.07659v1) | arXiv | — | — |
+| 2026-10-06 | Agent/LLM Self-Improvement | [SkillPoison: Progressive Skill Poisoning via Successful Experiences](https://arxiv.org/abs/2610.07645v1)<br>[PDF](https://arxiv.org/pdf/2610.07645v1) | arXiv | — | — |
+| 2026-10-05 | Agent/LLM Self-Improvement | [Selective Critique for Cost-Aware LLM Agents in Long-Horizon Decision Making](https://arxiv.org/abs/2610.07335v1)<br>[PDF](https://arxiv.org/pdf/2610.07335v1) | NeurIPS 2026 | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-07 (actual acceptance date unverified) | — |
+| 2026-10-05 | Agent Memory | [Understanding and Mitigating Inference-Time Overreliance Using Agentic Memory](https://arxiv.org/abs/2610.07311v1)<br>[PDF](https://arxiv.org/pdf/2610.07311v1) | arXiv | — | — |
+| 2026-10-05 | Agent Memory | [The Right Memory in the Wrong Context: Verifying Retrieval Admissibility in Long-Term Agent Memory](https://arxiv.org/abs/2610.07309v1)<br>[PDF](https://arxiv.org/pdf/2610.07309v1) | arXiv | — | — |
+| 2026-10-05 | Agent Memory | [Lineage-Aware Memory Governance: A Derivation-Gated Framework for Privacy-Preserving Column-Level Access Control in Enterprise AI Agents](https://arxiv.org/abs/2610.07258v1)<br>[PDF](https://arxiv.org/pdf/2610.07258v1) | arXiv | — | — |
+| 2026-10-05 | Reinforcement Learning | [Reward-Driven Learning under Prompt-Level Differential Privacy](https://arxiv.org/abs/2610.07212v1)<br>[PDF](https://arxiv.org/pdf/2610.07212v1) | arXiv | — | — |
 | 2026-10-05 | Reinforcement Learning | [Towards Looped Models Done Right, Part II: Rethinking at Fixed Points](https://arxiv.org/abs/2610.06833v1)<br>[PDF](https://arxiv.org/pdf/2610.06833v1) | arXiv | — | — |
 | 2026-10-05 | Agent Memory<br>Reinforcement Learning | [MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents](https://arxiv.org/abs/2610.06830v1)<br>[PDF](https://arxiv.org/pdf/2610.06830v1) | arXiv | — | — |
-| 2026-10-05 | LLM Continual Training | [Improving Diversity in LLM Short Story Generation](https://arxiv.org/abs/2610.06729v1)<br>[PDF](https://arxiv.org/pdf/2610.06729v1) | arXiv | — | — |
+| 2026-10-05 | LLM Continual Training | [Improving Diversity in LLM Short Story Generation](https://arxiv.org/abs/2610.06729v2)<br>[PDF](https://arxiv.org/pdf/2610.06729v2) | arXiv | — | — |
 | 2026-10-05 | LLM Continual Training | [Learning What to Imitate: Entropy-Aware Distribution Mixing](https://arxiv.org/abs/2610.06671v1)<br>[PDF](https://arxiv.org/pdf/2610.06671v1) | arXiv | — | — |
 | 2026-10-05 | Reinforcement Learning | [LoGRA: Scaling LLM Reinforcement Learning with Low-Rank Gradient Sketches](https://arxiv.org/abs/2610.06647v1)<br>[PDF](https://arxiv.org/pdf/2610.06647v1) | arXiv | — | — |
+| 2026-10-05 | Agent Memory | [When to Remember, When to Abstain: Category-Conditioned Retention for Reliable Agent Memory](https://arxiv.org/abs/2610.07100v1)<br>[PDF](https://arxiv.org/pdf/2610.07100v1) | arXiv | — | — |
 | 2026-10-05 | Agent/LLM Self-Improvement<br>Agent Memory | [Capability-Driven Self-Evolution of Agent Memory](https://arxiv.org/abs/2610.06361v1)<br>[PDF](https://arxiv.org/pdf/2610.06361v1) | arXiv | — | — |
 | 2026-10-05 | Reinforcement Learning | [Ontology Concept Overlap as a Training Signal: Knowledge-Grounded Reinforcement Learning for Clinical Question Answering](https://arxiv.org/abs/2610.06360v1)<br>[PDF](https://arxiv.org/pdf/2610.06360v1) | arXiv | — | — |
 | 2026-10-05 | LLM Continual Training | [DIALER: A Case for Improving Rare-Class Accuracy in Retraining-Free Edge Video Analytics](https://arxiv.org/abs/2610.06358v1)<br>[PDF](https://arxiv.org/pdf/2610.06358v1) | arXiv | — | — |
@@ -20,10 +48,12 @@
 | 2026-10-05 | LLM Continual Training | [MATE: Adaptive Long- and Short-Term User Memory for LLM-Based Recommendation](https://arxiv.org/abs/2610.06050v1)<br>[PDF](https://arxiv.org/pdf/2610.06050v1) | arXiv | — | — |
 | 2026-10-05 | Reinforcement Learning | [ThunderSyncRL: Lossless Acceleration of Agentic Reinforcement Learning](https://arxiv.org/abs/2610.05935v1)<br>[PDF](https://arxiv.org/pdf/2610.05935v1) | arXiv | — | — |
 | 2026-10-05 | Agent/LLM Self-Improvement | [VERA: Scaling Verifiable Environments for Agentic co-Evolution](https://arxiv.org/abs/2610.05923v1)<br>[PDF](https://arxiv.org/pdf/2610.05923v1) | arXiv | — | — |
+| 2026-10-05 | Reinforcement Learning | [Learning to Simulate Individuals from Macro Social Signals](https://arxiv.org/abs/2610.07062v1)<br>[PDF](https://arxiv.org/pdf/2610.07062v1) | arXiv | — | — |
 | 2026-10-05 | Agent/LLM Self-Improvement | [Second-Order Problem Solving for Recursive Self-Improvement in Formal Verification](https://arxiv.org/abs/2610.05701v1)<br>[PDF](https://arxiv.org/pdf/2610.05701v1) | arXiv | — | — |
+| 2026-10-05 | Reinforcement Learning | [TRIAGE: Direction-Aware Mismatch Stabilization of Native NVFP4 Reinforcement Learning](https://arxiv.org/abs/2610.07043v1)<br>[PDF](https://arxiv.org/pdf/2610.07043v1) | arXiv | — | — |
 | 2026-10-04 | Reinforcement Learning | [An LLM-in-the-loop RL Framework for Bioinformatics Feature Selection](https://arxiv.org/abs/2610.05600v1)<br>[PDF](https://arxiv.org/pdf/2610.05600v1) | arXiv | — | — |
 | 2026-10-04 | Reinforcement Learning | [Hierarchical Reinforcement Learning with Stable Temporal Abstraction for Language Model Agents](https://arxiv.org/abs/2610.05473v1)<br>[PDF](https://arxiv.org/pdf/2610.05473v1) | arXiv | — | — |
-| 2026-10-04 | Agent/LLM Self-Improvement | [TeleTune: Evolving Agent Skills From Offline Telemetry](https://arxiv.org/abs/2610.05437v1)<br>[PDF](https://arxiv.org/pdf/2610.05437v1) | arXiv | — | — |
+| 2026-10-04 | Agent/LLM Self-Improvement | [TeleTune: Evolving Agent Skills From Offline Telemetry](https://arxiv.org/abs/2610.05437v2)<br>[PDF](https://arxiv.org/pdf/2610.05437v2) | arXiv | — | — |
 | 2026-10-04 | Reinforcement Learning | [Unmentioned Checklist Findings Change How Reinforcement Learning Appears to Improve Chest Radiograph Report Checking](https://arxiv.org/abs/2610.05425v1)<br>[PDF](https://arxiv.org/pdf/2610.05425v1) | arXiv | — | — |
 | 2026-10-04 | LLM Continual Training | [Task Vector Descent: Learning from Non-IID Batches](https://arxiv.org/abs/2610.05402v1)<br>[PDF](https://arxiv.org/pdf/2610.05402v1) | arXiv | — | — |
 | 2026-10-04 | Agent/LLM Self-Improvement | [Sibyl: An Efficient Small-large Model Collaboration Framework for Long-horizon Tasks](https://arxiv.org/abs/2610.05383v1)<br>[PDF](https://arxiv.org/pdf/2610.05383v1) | arXiv | — | — |
@@ -32,6 +62,8 @@
 | 2026-10-04 | LLM Continual Training | [Learning without Overwriting: A Theory of Self-Distillation and Supervised Fine-Tuning in Continual Reasoning](https://arxiv.org/abs/2610.05200v1)<br>[PDF](https://arxiv.org/pdf/2610.05200v1) | arXiv | — | — |
 | 2026-10-04 | Agent Memory | [AECG: Asymmetric Experience Consolidation and Governance In Multi-Agent Systems](https://arxiv.org/abs/2610.05176v1)<br>[PDF](https://arxiv.org/pdf/2610.05176v1) | arXiv | — | — |
 | 2026-10-04 | Agent/LLM Self-Improvement | [Recursive Self-Improvement of Visuomotor Policies through Local Recovery Supervision](https://arxiv.org/abs/2610.05151v1)<br>[PDF](https://arxiv.org/pdf/2610.05151v1) | arXiv | — | — |
+| 2026-10-02 | Agent/LLM Self-Improvement<br>LLM Continual Training | [PAPER2LLM++: Continual Self-Evolution of LLMs from Research Papers](https://arxiv.org/abs/2610.02793v2)<br>[PDF](https://arxiv.org/pdf/2610.02793v2) | arXiv | — | — |
+| 2026-10-02 | Agent Memory<br>LLM Continual Training | [Decoupling Memory from Context: Structured Memory for Token-Efficient Test-Time Continual Learning](https://arxiv.org/abs/2610.02687v2)<br>[PDF](https://arxiv.org/pdf/2610.02687v2) | arXiv | — | — |
 | 2026-10-01 | Agent/LLM Self-Improvement | [Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents](https://arxiv.org/abs/2610.02204v1)<br>[PDF](https://arxiv.org/pdf/2610.02204v1) | arXiv | — | — |
 | 2026-10-01 | Agent/LLM Self-Improvement | [InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.02196v1)<br>[PDF](https://arxiv.org/pdf/2610.02196v1) | arXiv | — | — |
 | 2026-10-01 | Agent Memory | [From Knowledge Access to Source Learning: Developing Source-Specific Competence](https://arxiv.org/abs/2610.02150v1)<br>[PDF](https://arxiv.org/pdf/2610.02150v1) | arXiv | — | — |

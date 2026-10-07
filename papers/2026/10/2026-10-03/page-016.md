@@ -53,11 +53,11 @@
 | 2026-07-15 | Agent/LLM Self-Improvement | [A Self-Evolving Agent for Longitudinal Personal Health Management](https://arxiv.org/abs/2607.13940) | ⭐ Popular code |
 | 2026-07-15 | Agent Memory | [Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents](https://arxiv.org/abs/2607.13591) | — |
 | 2026-07-14 | Agent/LLM Self-Improvement | [Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents](https://arxiv.org/abs/2607.12790v2) | — |
+| 2026-07-14 | Agent/LLM Self-Improvement | [Critic Experience Bank: Self-Evolving Step-Level Confidence Estimation for LLM Agents](https://arxiv.org/abs/2607.12397v2) | — |
 | 2026-07-14 | Agent/LLM Self-Improvement, Agent Memory | [KnowAct-GUIClaw: Know Deeply, Act Perfectly, Personal GUI Assistant with Self-Evolving Memory and Skill](https://arxiv.org/abs/2607.12625) | — |
 | 2026-07-14 | Agent Memory | [MemoHarness: Agent Harnesses That Learn from Experience](https://arxiv.org/abs/2607.14159) | 📈 Highly cited |
 | 2026-07-14 | Agent Memory | [Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents](https://arxiv.org/abs/2607.13157) | — |
 | 2026-07-14 | Agent/LLM Self-Improvement | [Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104) | ⭐ Popular code<br>📈 Highly cited |
-| 2026-07-14 | Agent/LLM Self-Improvement | [Critic Experience Bank: Self-Evolving Step-Level Confidence Estimation for LLM Agents](https://arxiv.org/abs/2607.12397) | — |
 | 2026-07-14 | Agent Memory | [PM-Bench: Evaluating Prospective Memory in LLM Agents](https://arxiv.org/abs/2607.12385) | — |
 | 2026-07-14 | Agent Memory | [Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents](https://arxiv.org/abs/2607.12267) | — |
 | 2026-07-14 | Agent Memory | [Speculate with Memory: Lossless Acceleration for LLM Agents](https://arxiv.org/abs/2607.12236) | — |
@@ -330,6 +330,18 @@ Personal health management unfolds over repeated encounters, yet most health AI 
 
 Self-evolving agent systems create, revise, and retire their own skills, but every such loop assumes a reliable evaluation metric already exists. In many real applications none does. We show the metric itself can be the evolving object: our loop searches compositions of small typed drawback detectors under a full evolutionary lifecycle, selecting for agreement with a ten-item anchored reference set and regularizing by consensus over unlabeled outputs. What evolves is the function that grades one output, never the fixed task sets it is scored on, and what comes out is an inspectable expression rather than an opaque judge. It is also valid: on code generation it gains 0.21 agreement with hidden ground truth on a locked set that metric selection never reads (paired $p=0.014$), beating the bare LLM judge it contains. Validity is where safety lives: removing the anchor guards collapses the metric into a vacuous always-pass detector while removing the detector lifecycle does not, inverting the lesson from skill evolution. That collapse warns this line of work that downstream task score cannot validate a self-evolved evaluator, since the collapsed metric trains skills just as well. Task score answers only sufficiency, and an evolved metric suffices: \emph{Double Ratchet}, co-evolving the metric with a lifecycle-managed skill loop, retains 88--110\% of the lift ground truth or a hand-written rubric buys, across MBPP+, Spider~2.0-Snow, and report generation. When evolved skills gamed the report rubric, an independent judge caught it and one added detector repaired it.
 
+### [Critic Experience Bank: Self-Evolving Step-Level Confidence Estimation for LLM Agents](https://arxiv.org/abs/2607.12397v2)
+
+- **Authors:** Yaopei Zeng, Congchao Wang, JianHang Chen, Nan Wang, Yurui Chang, Lu Lin
+- **Published:** 2026-07-14
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.12397v2) · [PDF](https://arxiv.org/pdf/2607.12397v2)
+
+LLM agents operate in stateful environments, where a single erroneous step can waste limited interaction budget or cause irreversible effects before task failure becomes apparent. Reliable deployment therefore requires step-level confidence estimation: estimating, before execution, the probability that a proposed action will advance the task. Existing LLM confidence estimators are typically designed for static question answering under a fixed task context and evaluation criterion. For an agent, however, its action productivity depends on an environment transition that is observed only after execution. To address this challenge, we introduce Critic Experience Bank (CEB), a training-free framework that turns feedback from completed trajectories into reusable evidence for future confidence judgments. After each trajectory, an LLM assigns hindsight productivity pseudo-labels to individual actions and stores them with the critic's original pre-execution confidence, task context, action, and observed feedback. For a new action, by retrieving related productive and unproductive experiences, CEB grounds pre-execution confidence in feedback from completed trajectories to condition a fixed LLM critic. CEB thereby adapts over a task stream without parameter updates or ground-truth step labels at deployment. Across four agent benchmarks spanning offline and live web navigation, mobile GUI and shell tasks, and three critic backbones, CEB achieves the best or tied-best ECE, Brier score, and AUC in all twelve benchmark-backbone settings under rule-based step labels, reducing ECE by up to 53.8% relative to the strongest training-free baseline. Its confidence scores also improve downstream utility in selective execution and simulated task success.
+
 ### [KnowAct-GUIClaw: Know Deeply, Act Perfectly, Personal GUI Assistant with Self-Evolving Memory and Skill](https://arxiv.org/abs/2607.12625)
 
 - **Authors:** Li, Yunxin, Li, Jinchao, Su, Shibo, Xu, Zhenran, Zhao, Chenrui, Bian, Tongshu, Liang, Xiaoman, Zhang, Meishan, Hu, Baotian, Zhang, Min
@@ -353,18 +365,6 @@ OpenClaw has emerged as a leading agent framework for complex task automation, y
 - **Links:** [Paper](https://arxiv.org/abs/2607.13104) · [PDF](https://arxiv.org/pdf/2607.13104) · [Code](https://github.com/selfimproving-agent/awesome-Self-Improving-Agents)
 
 Self-improving autonomous agents are moving from research prototypes to deployed systems. The primary goal is controllable evolution, or adaptation, from experience with minimal or even no human input. This survey frames modern self-improving agents as adaptive systems that convert experience into accumulated capability gains. We offer a system-level framework that represents a modern agent as a configuration coupling a foundation model with an operational scaffold of prompts, memory, tools, and control logic. Within this framework, self-improvement is formalized as a self-induced update operator that obtains and commits updates to model parameters or scaffold components. We organize prior work by update target and by the signals that drive change, then review applications and discuss evaluation, before closing with open problems and future directions. For convenience, we track technical updates on https://github.com/selfimproving-agent/awesome-Self-Improving-Agents.
-
-### [Critic Experience Bank: Self-Evolving Step-Level Confidence Estimation for LLM Agents](https://arxiv.org/abs/2607.12397)
-
-- **Authors:** Zeng, Yaopei, Wang, Congchao, Chen, JianHang, Wang, Nan, Chang, Yurui, Lin, Lu
-- **Published:** 2026-07-14
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.12397) · [PDF](https://arxiv.org/pdf/2607.12397)
-
-LLM agents act in external environments where each action changes the state that later decisions condition on, and where a single wrong step can waste interaction budget or trigger irreversible side effects long before the final failure is observed. Reliable deployment therefore requires \emph{step-level confidence estimation}: a calibrated probability that each proposed action is productive, available \emph{before} the action is executed. Existing LLM confidence estimators are designed to score a response from the given prompt, but agent confidence also depends on execution consequences: whether similar actions in similar situations actually advanced the task after the environment responded. We introduce the \method (\methodshort), a self-evolving critic framework in which an LLM critic accumulates evidence from its own past judgments and their observed consequences. After each trajectory, a hindsight LLM that sees the full execution feedback votes on whether each step was productive. The resulting pseudo-labels populate a memory bank from which related productive and unproductive experiences are retrieved into the critic's prompt whenever a similar step recurs. \methodshort requires no training and uses no ground truth step labels. Across three agent benchmarks and three critic backbones, \methodshort attains the best calibration (ECE and Brier) and ranking (AUC) in every dataset--critic combination, reducing ECE by up to $54\%$ relative to the strongest training-free baseline.
 
 ### [The Path to Self-Evolving Clinical Systems: Scaling Medical Agents from Assistance to Autonomy](https://arxiv.org/abs/2607.11175v2)
 
