@@ -187,7 +187,7 @@ While neural networks excel in autonomous control, their black-box nature makes 
 - **Authors:** Jianhui Wei, Yan Zhang, Jie Tan, Hengchuan Zhu, Xiaotian Zhang, Ziyi Chen, Daoan Zhang, Wei Xu, Yeying Jin, Zuozhu Liu
 - **Published:** 2026-06-06
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CV
 - **Links:** [Paper](https://arxiv.org/abs/2606.08091v2) · [PDF](https://arxiv.org/pdf/2606.08091v2)
@@ -417,7 +417,7 @@ Large language model (LLM) agents are increasingly expected to operate over long
 - **Authors:** Ripon Chandra Malo, Tong Qiu
 - **Published:** 2026-06-10
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.12329v2) · [PDF](https://arxiv.org/pdf/2606.12329v2)

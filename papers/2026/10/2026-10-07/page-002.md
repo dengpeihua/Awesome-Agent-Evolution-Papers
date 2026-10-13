@@ -40,7 +40,7 @@
 | 2025-11-25 | Reinforcement Learning | [Stabilizing Off-Policy Training for Long-Horizon LLM Agent via Turn-Level Importance Sampling and Clipping-Triggered Normalization](https://arxiv.org/abs/2511.20718v3) | — |
 | 2025-11-14 | Reinforcement Learning | [Honesty over Accuracy: Trustworthy Language Models through Reinforced Hesitation](https://arxiv.org/abs/2511.11500v3) | — |
 | 2025-10-21 | Agent/LLM Self-Improvement | [A Model Can Help Itself: Reward-Free Self-Training for LLM Reasoning](https://arxiv.org/abs/2510.18814v5) | — |
-| 2025-10-01 | Reinforcement Learning | [Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers](https://arxiv.org/abs/2510.00915v5) | — |
+| 2025-10-01 | Reinforcement Learning | [Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers](https://arxiv.org/abs/2510.00915v5) | 📈 Highly cited |
 | 2025-09-29 | Agent/LLM Self-Improvement | [RFG: Self-Improving Diffusion Large Language Models with Reward-Free Guidance](https://arxiv.org/abs/2509.25604v2) | — |
 | 2025-08-22 | Reinforcement Learning | [PuzzleJAX: A Benchmark for Reasoning and Learning](https://arxiv.org/abs/2508.16821v2) | — |
 | 2025-06-30 | Reinforcement Learning | [Logit-Gap Steering: A Forward-Pass Diagnostic for Alignment Robustness](https://arxiv.org/abs/2506.24056v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-07 (actual acceptance date unverified) |
@@ -53,8 +53,9 @@
 | [Dream-RSI: Recursive Self-Improvement through Evolving Worlds](https://arxiv.org/abs/2609.14858v2) | 📈 Highly cited | First author: University of Maryland, College Park (Semantic Scholar author profiles) |
 | [Governed Shared Memory for Multi-Agent LLM Systems](https://arxiv.org/abs/2606.24535) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Belief Memory: Agent Memory Under Partial Observability](https://arxiv.org/abs/2605.05583) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [Unbiased Reward Modeling from Implicit Feedback for LLM Alignment](https://arxiv.org/abs/2603.23184v2) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-07 (actual acceptance date unverified) | arXiv comment: Accepted by ICML 2026 |
+| [Unbiased Reward Modeling from Implicit Feedback for LLM Alignment](https://arxiv.org/abs/2603.23184v2) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-07 (actual acceptance date unverified) | arXiv comment: Accepted by ICML 2026<br>First author: zhejiang university (Semantic Scholar author profiles) |
 | [MemWeaver: Weaving Hybrid Memories for Traceable Long-Horizon Agentic Reasoning](https://arxiv.org/abs/2601.18204) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>UNSW Sydney |
+| [Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers](https://arxiv.org/abs/2510.00915v5) | 📈 Highly cited | RIKEN Center for Advanced Intelligence Project |
 | [Logit-Gap Steering: A Forward-Pass Diagnostic for Alignment Robustness](https://arxiv.org/abs/2506.24056v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-07 (actual acceptance date unverified) | arXiv comment: Accepted at NeurIPS 2026 Main Track (poster). Camera-ready version |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
@@ -124,7 +125,7 @@ Recursive self-improvement is becoming essential for autonomous AI agents, whose
 - **Authors:** Mengqi Li, Lei Zhao, Anthony Man-Cho So, Ruoyu Sun, Xiao Li
 - **Published:** 2025-10-21
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2510.18814v5) · [PDF](https://arxiv.org/pdf/2510.18814v5)
@@ -323,7 +324,7 @@ Large language models can describe mechanisms, yet scalable post-training still 
 - **Published:** 2026-08-17
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Northeastern University, Northwestern University
 - **Categories:** cs.LG, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2608.16072v2) · [PDF](https://arxiv.org/pdf/2608.16072v2)
 
@@ -346,7 +347,7 @@ LoRA adapters are often shared on their own, and the amount of information they 
 - **Authors:** Chee Heng Tan, Zhuoyi Lin, Mehul Motani, Wee Sun Lee
 - **Published:** 2026-07-05
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2607.04332v2) · [PDF](https://arxiv.org/pdf/2607.04332v2)
@@ -358,8 +359,8 @@ In this paper, we consider the setting where large language models (LLMs) are tr
 - **Authors:** Ashutosh Srivastava, Siddharth Yedlapati, Vinay Aggarwal, Yaman Kumar Singla, Shashwat Dixit, Jitendra Ajmera, Balaji Krishnamurthy
 - **Published:** 2026-05-23
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** Adobe, IIIT-Delhi, SUNY-Buffalo
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2607.20471v2) · [PDF](https://arxiv.org/pdf/2607.20471v2)
 
@@ -371,7 +372,7 @@ Personalization is classically a two-party problem: a sender chooses what to say
 - **Published:** 2026-05-20
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Northeastern University
 - **Categories:** cs.LG, cs.AI, cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.20740v2) · [PDF](https://arxiv.org/pdf/2605.20740v2)
 
@@ -382,7 +383,7 @@ Large language models (LLMs) have emerged as flexible regressors capable of pred
 - **Authors:** Dongyi Liu, Yifan Niu, Qinwen Wang, Han Xiao, Jia Li
 - **Published:** 2026-05-10
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.09287v3) · [PDF](https://arxiv.org/pdf/2605.09287v3)
@@ -395,7 +396,7 @@ Large Language Model (LLM)-based search agents trained with reinforcement learni
 - **Published:** 2026-03-24
 - **Priority:** 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-07 (actual acceptance date unverified)
 - **Venue:** ICML 2026
-- **Affiliations:** n/a
+- **Affiliations:** zhejiang university
 - **Categories:** cs.CL, cs.AI, stat.AP
 - **Links:** [Paper](https://arxiv.org/abs/2603.23184v2) · [PDF](https://arxiv.org/pdf/2603.23184v2)
 
@@ -418,7 +419,7 @@ Reinforcement learning (RL) algorithms such as PPO and GRPO are widely used to t
 - **Authors:** Mohamad Amin Mohamadi, Tianhao Wang, Zhiyuan Li
 - **Published:** 2025-11-14
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2511.11500v3) · [PDF](https://arxiv.org/pdf/2511.11500v3)
@@ -429,9 +430,9 @@ Modern language models fail a fundamental requirement of trustworthy intelligenc
 
 - **Authors:** Xin-Qiang Cai, Wei Wang, Feng Liu, Tongliang Liu, Gang Niu, Masashi Sugiyama
 - **Published:** 2025-10-01
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** RIKEN Center for Advanced Intelligence Project
 - **Categories:** cs.LG, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2510.00915v5) · [PDF](https://arxiv.org/pdf/2510.00915v5)
 
@@ -442,8 +443,8 @@ Reinforcement Learning with Verifiable Rewards (RLVR) replaces costly human labe
 - **Authors:** Sam Earle, Graham Todd, Yuchen Li, Ahmed Khalifa, Muhammad Umair Nasir, Zehua Jiang, Andrzej Banburski-Fahey, Julian Togelius
 - **Published:** 2025-08-22
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** University of the Witwatersrand
 - **Categories:** cs.AI, cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2508.16821v2) · [PDF](https://arxiv.org/pdf/2508.16821v2)
 

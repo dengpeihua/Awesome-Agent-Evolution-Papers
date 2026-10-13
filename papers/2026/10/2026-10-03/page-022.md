@@ -15,7 +15,7 @@
 | --- | --- | --- | --- |
 | 2026-05-16 | Agent/LLM Self-Improvement, Agent Memory | [SE-GA: Memory-Augmented Self-Evolution for GUI Agents](https://arxiv.org/abs/2605.16883) | — |
 | 2026-05-16 | Agent Memory | [State Contamination in Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.16746) | — |
-| 2026-05-15 | Reinforcement Learning | [ReAlign: Generalizable Image Forgery Detection via Reasoning-Aligned Representation](https://arxiv.org/abs/2605.16080v2) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-05-15 | Reinforcement Learning | [ReAlign: Generalizable Image Forgery Detection via Reasoning-Aligned Representation](https://arxiv.org/abs/2605.16080v3) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-05-15 | Agent Memory | [DimMem: Dimensional Structuring for Efficient Long-Term Agent Memory](https://arxiv.org/abs/2605.15759) | — |
 | 2026-05-15 | Agent Memory | [Accurate and Efficient Long-Term Memory for LLM Agents](https://arxiv.org/abs/2607.16211) | — |
 | 2026-05-15 | Agent Memory | [Visual Agentic Memory: Enabling Online Long Video Understanding via Online Indexing, Hierarchical Memory, and Agentic Retrieval](https://arxiv.org/abs/2605.16481) | — |
@@ -44,11 +44,11 @@
 | 2026-05-12 | Agent Memory | [LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues](https://arxiv.org/abs/2605.12493) | 📈 Highly cited |
 | 2026-05-12 | Agent Memory | [Executable Agentic Memory for GUI Agent](https://arxiv.org/abs/2605.12294) | — |
 | 2026-05-11 | Agent/LLM Self-Improvement | [GRAFT-ATHENA: Self-Improving Agentic Teams for Autonomous Discovery and Evolutionary Numerical Algorithms](https://arxiv.org/abs/2605.11117v2) | — |
+| 2026-05-11 | Agent Memory | [MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading](https://arxiv.org/abs/2605.10268v2) | — |
+| 2026-05-11 | Agent/LLM Self-Improvement | [MAGE: Multi-Agent Self-Evolution with Co-Evolutionary Knowledge Graphs](https://arxiv.org/abs/2605.10064v3) | — |
 | 2026-05-11 | Agent/LLM Self-Improvement | [NanoResearch: Co-Evolving Skills, Memory, and Policy for Personalized Research Automation](https://arxiv.org/abs/2605.10813) | — |
 | 2026-05-11 | Agent/LLM Self-Improvement | [Swarm Skills: A Portable, Self-Evolving Multi-Agent System Specification for Coordination Engineering](https://arxiv.org/abs/2605.10052) | — |
 | 2026-05-11 | Agent Memory | [PREPING: Building Agent Memory without Tasks](https://arxiv.org/abs/2605.13880) | — |
-| 2026-05-11 | Agent Memory | [MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading](https://arxiv.org/abs/2605.10268) | — |
-| 2026-05-11 | Agent/LLM Self-Improvement | [MAGE: Multi-Agent Self-Evolution with Co-Evolutionary Knowledge Graphs](https://arxiv.org/abs/2605.10064) | — |
 | 2026-05-11 | Agent Memory | [HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution](https://arxiv.org/abs/2605.09942) | — |
 | 2026-05-10 | Agent/LLM Self-Improvement | [Empowering VLMs for Few-Shot Multimodal Time Series Classification via Tailored Agentic Reasoning](https://arxiv.org/abs/2605.09395v3) | — |
 | 2026-05-10 | Reinforcement Learning | [dFlowGRPO: Rate-Aware Policy Optimization for Discrete Flow Models](https://arxiv.org/abs/2605.09291v2) | — |
@@ -68,7 +68,7 @@
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
-| [ReAlign: Generalizable Image Forgery Detection via Reasoning-Aligned Representation](https://arxiv.org/abs/2605.16080v2) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted by CVPR 2026 |
+| [ReAlign: Generalizable Image Forgery Detection via Reasoning-Aligned Representation](https://arxiv.org/abs/2605.16080v3) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted by CVPR 2026 |
 | [RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents](https://arxiv.org/abs/2605.16045) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [Remember Your Trace: Memory-Guided Long-Horizon Agentic Framework for Consistent and Hierarchical Repository-Level Code Documentation](https://arxiv.org/abs/2605.14563v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026 |
 | [Hidden in Memory: Sleeper Memory Poisoning in LLM Agents](https://arxiv.org/abs/2605.15338) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
@@ -165,6 +165,18 @@ Agent skills extend LLM agents with reusable instructions, tool interfaces, and 
 
 Scientific methods are developed for classes of problems, so knowledge transfers across structurally related cases. Language-model agents can execute scientific workflows, but their problem--method relationships remain implicit, so each new problem restarts the search and little of what worked transfers. We introduce GRAFT--ATHENA, which makes this problem-to-method map explicit as an expandable probabilistic structure of admissible problems, methods, and their dependencies. Graph factorization keeps the substrate tractable, and semantic fingerprints measure similarity, so experience guides related problems. As a result, the framework matched or exceeded expert baselines, attaining near-machine-precision losses in physics-informed learning, reproducing clinically consistent blood-rheology trends, and developing a high-order hypersonic-flow solver for the Apollo Command Module that matched experimental measurements within $1.8\%$. It also proposed a certified regularization for ill-posed in vivo brain-flow reconstruction, developed a spectrally convergent physics-informed architecture, and established machine-checked universal-approximation theorems for two widely used architectures. Scientific structure enables cumulative and verifiable agentic discovery.
 
+### [MAGE: Multi-Agent Self-Evolution with Co-Evolutionary Knowledge Graphs](https://arxiv.org/abs/2605.10064v3)
+
+- **Authors:** Ruiyi Yang, Zechen Li, Hao Xue, Imran Razzak, Flora D. Salim
+- **Published:** 2026-05-11
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** University of New South Wales
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2605.10064v3) · [PDF](https://arxiv.org/pdf/2605.10064v3)
+
+Self-evolving language-model agents must decide what to learn next and how to preserve what they have learned across iterations. Existing systems typically carry this cross-iteration knowledge as natural-language feedback, flat episodic memory, or implicit reinforcement signals, none of which cleanly supports a frozen weak backbone at inference time. This paper introduces MAGE (Multi-Agent Graph-guided Evolution), a framework that externalizes self-knowledge into a four-subgraph co-evolutionary knowledge graph. Its experience subgraph stores both teacher-written failure corrections and the learner's own past correct reasoning traces, which are retrieved as task-conditioned guidance for a frozen execution model. During evolution, the graph, a task-level search bandit, and a skill-level routing bandit are updated from the same reward stream, while the learner's backbone remains unchanged. We further provide structural analysis showing how append-only memory growth, bounded curriculum coverage, and task-filtered retrieval together support stable improvement of the retrieval substrate for frozen-learner evolution. Across nine benchmarks spanning mathematical reasoning, multi-hop and open-domain question answering, spatio-temporal analysis, financial numerical reasoning, medical multiple-choice, an open-world survival game, and web navigation, MAGE achieves strong performance against prompt-based frozen-backbone baselines. Ablations show that self-harvested success traces and teacher-written corrections are complementary, with success memories contributing most on reasoning-template-heavy tasks and corrective memories supporting harder composition and interaction settings. Code is available in https://github.com/RuiyiYang01/mage-alg
+
 ### [NanoResearch: Co-Evolving Skills, Memory, and Policy for Personalized Research Automation](https://arxiv.org/abs/2605.10813)
 
 - **Authors:** Xu, Jinhang, Zhu, Qiyuan, Wu, Yujun, Wang, Zirui, Zhang, Dongxu, Tian, Marcia, Duan, Yiling, Li, Siyuan, Wei, Jingxuan, Han, Sirui, Guo, Yike, Zhang, Odin, He, Conghui, Tan, Cheng
@@ -188,18 +200,6 @@ LLM-powered multi-agent systems can now automate the full research pipeline from
 - **Links:** [Paper](https://arxiv.org/abs/2605.10052) · [PDF](https://arxiv.org/pdf/2605.10052)
 
 As artificial intelligence engineering paradigms shift from single-agent Prompt and Context Engineering toward multi-agent \textbf{Coordination Engineering}, the ability to codify and systematically improve how multiple agents collaborate has emerged as a critical bottleneck. While single-agent skills can now be distributed as portable assets, multi-agent coordination protocols remain locked within framework-internal code or static configurations, preventing them from being shared across systems or autonomously improved over time. We propose \textbf{Swarm Skills}, a portable specification that extends the Anthropic Skills standard with multi-agent semantics. Swarm Skills turns multi-agent workflows into first-class, distributable assets that consist of roles, workflows, execution bounds, and a built-in semantic structure for self-evolution. To operationalize the specification's evolving nature, we present a companion self-evolution algorithm that automatically distills successful execution trajectories into new Swarm Skills and continuously patches existing ones based on multi-dimensional scoring (Effectiveness, Utilization, and Freshness), eliminating the need for human-in-the-loop oversight during the refinement process. Through an architectural compatibility analysis and a comprehensive qualitative case study using the open-source JiuwenSwarm reference implementation, we demonstrate how Swarm Skills achieves zero-adapter cross-agent portability via progressive disclosure, enabling agent teams to self-evolve their coordination strategies without framework lock-in.
-
-### [MAGE: Multi-Agent Self-Evolution with Co-Evolutionary Knowledge Graphs](https://arxiv.org/abs/2605.10064)
-
-- **Authors:** Yang, Ruiyi, Li, Zechen, Xue, Hao, Razzak, Imran, Salim, Flora D.
-- **Published:** 2026-05-11
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** University of New South Wales
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2605.10064) · [PDF](https://arxiv.org/pdf/2605.10064)
-
-Self-evolving language-model agents must decide what to learn next and how to preserve what they have learned across iterations. Existing systems typically carry this cross-iteration knowledge as natural-language feedback, flat episodic memory, or implicit reinforcement signals, none of which cleanly supports a frozen weak backbone at inference time. This paper introduces MAGE (Multi-Agent Graph-guided Evolution), a framework that externalizes self-knowledge into a four-subgraph co-evolutionary knowledge graph. Its experience subgraph stores both teacher-written failure corrections and the learner's own past correct reasoning traces, which are retrieved as task-conditioned guidance for a frozen execution model. During evolution, the graph, a task-level search bandit, and a skill-level routing bandit are updated from the same reward stream, while the learner's backbone remains unchanged. We further provide structural analysis showing how append-only memory growth, bounded curriculum coverage, and task-filtered retrieval together support stable improvement of the retrieval substrate for frozen-learner evolution. Across nine benchmarks spanning mathematical reasoning, multi-hop and open-domain question answering, spatio-temporal analysis, financial numerical reasoning, medical multiple-choice, an open-world survival game, and web navigation, MAGE achieves strong performance against prompt-based frozen-backbone baselines. Ablations show that self-harvested success traces and teacher-written corrections are complementary, with success memories contributing most on reasoning-template-heavy tasks and corrective memories supporting harder composition and interaction settings.
 
 ### [Empowering VLMs for Few-Shot Multimodal Time Series Classification via Tailored Agentic Reasoning](https://arxiv.org/abs/2605.09395v3)
 
@@ -254,7 +254,7 @@ Multi-agent reasoning has shown promise for improving the problem-solving abilit
 - **Authors:** Min Yang, Jinghua Piao, Xu Xia, Xiaochong Lan, Jiaju Chen, Yongshun Gong, Yong Li
 - **Published:** 2026-05-09
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.08693v3) · [PDF](https://arxiv.org/pdf/2605.08693v3)
@@ -515,6 +515,18 @@ Long-term memory is crucial for agents in specialized web environments, where su
 
 Modern GUI agents typically rely on a model-centric and step-wise interaction paradigm, where LLMs must re-interpret the UI and re-decide actions at every screen, which is fragile in long-horizon tasks. In this paper, we propose Executable Agentic Memory (EAM), a structured Knowledge Graph (KG) that shifts GUI planning from free-form generation to a robust retrieval-and-execution process. Our approach includes a sample-efficient memory construction pipeline using state-aware DFS and action-group mining to compress multi-step routines. To ensure efficient planning, we introduce a value-guided graph search where a lightweight Q-function model steers Monte Carlo Tree Search (MCTS) over the KG. We theoretically establish bias-consistency for the Q-model and derive sample complexity bounds for path recovery. Empirically, EAM outperforms state-of-the-art baselines like UI-TARS-7B by up to $19.6\%$ on AndroidWorld, while reducing token costs $6\times$ relative to GPT-4o. With a $2.8$s average latency, EAM enables reliable, quick, and long-horizon GUI automation.
 
+### [MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading](https://arxiv.org/abs/2605.10268v2)
+
+- **Authors:** Baibei Ji, Xiaoyang Weng, Juntao Li, Zecheng Tang, Yihang Lou, Min Zhang
+- **Published:** 2026-05-11
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2605.10268v2) · [PDF](https://arxiv.org/pdf/2605.10268v2)
+
+Long-context reasoning tasks have motivated agent-memory approaches that process document chunks sequentially while maintaining a dynamically updated memory, avoiding the quadratic complexity of standard attention. Existing methods often rely on retrieval to recover information discarded during memory overwriting, but remain vulnerable to evidence loss during memory formation and interference from invalid queries. To overcome these limitations, we propose MemReread. Built upon streaming reading, it circumvents intermediate retrieval, triggering question decomposition and targeted rereading when the final memory is insufficient. By recovering indirect evidence that may have been prematurely discarded, MemReread enables non-linear reasoning while preserving the logical flow of document comprehension. We further introduce a reinforcement learning framework that improves length extrapolation and adaptively determines the number of rereading passes according to task complexity, enabling flexible control of computational overhead. Our MemReread-4B outperforms strong baselines on long-context reasoning tasks (e.g., +1.6pp v.s. DeepSeek-V4-Pro on 2WikiMultiHopQA) while maintaining linear time complexity with respect to context length.
+
 ### [PREPING: Building Agent Memory without Tasks](https://arxiv.org/abs/2605.13880)
 
 - **Authors:** Choi, Yumin, Park, Sangwoo, Kang, Minki, Baek, Jinheon, Hwang, Sung Ju
@@ -526,18 +538,6 @@ Modern GUI agents typically rely on a model-centric and step-wise interaction pa
 - **Links:** [Paper](https://arxiv.org/abs/2605.13880) · [PDF](https://arxiv.org/pdf/2605.13880)
 
 Agent memory is typically constructed either offline from curated demonstrations or online from post-deployment interactions. However, regardless of how it is built, an agent faces a cold-start gap when first introduced to a new environment without any task-specific experience available. In this paper, we study pre-task memory construction: whether an agent can build procedural memory before observing any target-environment tasks, using only self-generated synthetic practice. Yet, synthetic interaction alone is insufficient, as without controlling what to practice and what to store, synthetic tasks become redundant, infeasible, and ultimately uninformative, and memory further degrades quickly due to unfiltered trajectories. To overcome this, we present Preping, a proposer-guided memory construction framework. At its core is proposer memory, a structured control state that shapes future practice. A Proposer generates synthetic tasks conditioned on this state, a Solver executes them, and a Validator determines which trajectories are eligible for memory insertion while also providing feedback to guide future proposals. Experiments on AppWorld, BFCL v3, and MCP-Universe show that Preping substantially improves over a no-memory baseline and achieves performance competitive with strong playbook-based methods built from offline or online experience, with deployment cost $2.99\times$ lower on AppWorld and $2.23\times$ lower on BFCL v3 than online memory construction. Further analyses reveal that the main benefit does not come from synthetic volume alone, but from proposer-side control over feasibility, redundancy, and coverage, combined with selective memory updates.
-
-### [MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading](https://arxiv.org/abs/2605.10268)
-
-- **Authors:** Ji, Baibei, Weng, Xiaoyang, Li, Juntao, Tang, Zecheng, Lou, Yihang, Zhang, Min
-- **Published:** 2026-05-11
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2605.10268) · [PDF](https://arxiv.org/pdf/2605.10268)
-
-To tackle long-context reasoning tasks without the quadratic complexity of standard attention mechanisms, approaches based on agent memory have emerged, which typically maintain a dynamically updated memory when linearly processing document chunks. To mitigate the potential loss of latent evidence in this memorize-while-reading paradigm, recent works have integrated retrieval modules that allow agents to recall information previously discarded during memory overwriting. However, retrieval-based recall suffers from both evidence loss during memory formation and interference induced by invalid queries. To overcome these limitations, we propose MemReread. Built upon streaming reading, MemReread circumvents intermediate retrieval. It triggers question decomposition and rereading when the final memory is insufficient, enabling the recovery of indirect facts that were prematurely discarded. This design supports non-linear reasoning while preserving the inherent logical flow of document comprehension. To further enhance practicality, we introduce a reinforcement learning framework that enhances length extrapolation capability while dynamically determining the number of rereading passes based on task complexity, thereby flexibly controlling computational overhead. Extensive experiments demonstrate that MemReread consistently outperforms baseline frameworks on long-context reasoning tasks, while maintaining linear time complexity with respect to context length.
 
 ### [HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution](https://arxiv.org/abs/2605.09942)
 
@@ -651,7 +651,7 @@ Recent works have advanced feedback-based learning systems, whereby a foundation
 
 ## Reinforcement Learning
 
-### [ReAlign: Generalizable Image Forgery Detection via Reasoning-Aligned Representation](https://arxiv.org/abs/2605.16080v2)
+### [ReAlign: Generalizable Image Forgery Detection via Reasoning-Aligned Representation](https://arxiv.org/abs/2605.16080v3)
 
 - **Authors:** Qing Huang, Zhipei Xu, Xuanyu Zhang, Xiangyu Yu, Jian Zhang
 - **Published:** 2026-05-15
@@ -659,7 +659,7 @@ Recent works have advanced feedback-based learning systems, whereby a foundation
 - **Venue:** CVPR 2026
 - **Affiliations:** n/a
 - **Categories:** cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2605.16080v2) · [PDF](https://arxiv.org/pdf/2605.16080v2)
+- **Links:** [Paper](https://arxiv.org/abs/2605.16080v3) · [PDF](https://arxiv.org/pdf/2605.16080v3)
 
 The rise of AI-generated images (AIGIs) poses growing challenges for digital authenticity, prompting the need for efficient, generalizable image forgery detection systems. Existing methods, whether non-LLM-based or LLM-based, exhibit distinct advantages and limitations. While non-LLM-based models offer efficient low-level artifact detection, they often lack semantic understanding. Conversely, LLM-based methods provide strong semantic reasoning and explainability but are computationally intensive and less sensitive to subtle visual artifacts. Moreover, the true contribution of explanatory reasoning texts to forgery detection performance remains unclear. In this work, we investigate the intrinsic value and potential of LLM-generated reasoning texts, considering it a source of generalization and semantic-error sensitivity. Based on these findings, we propose ReAlign, a novel framework that distills high-quality reasoning texts generated by a GRPO-optimized LLM into a lightweight AIGI detector via contrastive learning. ReAlign effectively inherits the generalization ability and semantic sensitivity capability of reasoning textual representations, while remaining efficient and lightweight for deployment. Moreover, ReAlign adopts a tailored joint optimization strategy that integrates contrastive loss for image-text alignment and classification loss for accurate forgery discrimination. Experimental results on AIGCDetectBenchmark, AIGI-Holmes, and our newly constructed UltraSynth-10k demonstrate that ReAlign consistently outperforms existing state-of-the-art detectors in both accuracy and generalization, particularly when facing complex, high-fidelity forgeries from modern generative models.
 
@@ -680,7 +680,7 @@ Large language models (LLMs) provide a flexible foundation for multi-agent syste
 - **Authors:** Tianle Zhong, Neiwen Ling, Yifan Pi, Zijun Wei, Tianshu Yu, Geoffrey Fox, Peng Wu, Xiao Yu
 - **Published:** 2026-05-14
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI, cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.14220v2) · [PDF](https://arxiv.org/pdf/2605.14220v2)
@@ -704,7 +704,7 @@ Group Relative Policy Optimization (GRPO) is one of the most widely adopted RLVR
 - **Authors:** Zhong Guan, Yongjian Guo, Haoran Sun, Wen Huang, Shuai Di, Likang Wu, Xiong Jun Wu, Hongke Zhao
 - **Published:** 2026-05-12
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.12070v3) · [PDF](https://arxiv.org/pdf/2605.12070v3)
@@ -716,7 +716,7 @@ Asynchronous reinforcement learning improves rollout throughput for large langua
 - **Authors:** Zhengyan Wan, Yidong Ouyang, Panwen Hu, Qiang Sun
 - **Published:** 2026-05-10
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG, stat.AP
 - **Links:** [Paper](https://arxiv.org/abs/2605.09291v2) · [PDF](https://arxiv.org/pdf/2605.09291v2)
@@ -728,7 +728,7 @@ Discrete flow models (DFMs) are a class of flexible generative models for genera
 - **Authors:** Min Yang, Jinghua Piao, Xu Xia, Xiaochong Lan, Jiaju Chen, Yongshun Gong, Yong Li
 - **Published:** 2026-05-09
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.08693v3) · [PDF](https://arxiv.org/pdf/2605.08693v3)

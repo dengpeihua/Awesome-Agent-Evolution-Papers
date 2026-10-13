@@ -25,7 +25,7 @@
 | 2026-05-26 | Agent Memory | [ENPMR-Bench: Benchmarking Proactive Memory Retrieval for Emotional Support Agents](https://arxiv.org/abs/2605.27240) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-05-25 | Agent/LLM Self-Improvement | [When Search Becomes Memory: Accelerating Robot Design Discovery with Self-Evolving Skills](https://arxiv.org/abs/2605.25832v2) | — |
 | 2026-05-25 | Agent/LLM Self-Improvement | [Behind EvoMap: Characterizing a Self-Evolving Agent-to-Agent Collaboration Network](https://arxiv.org/abs/2605.25815v4) | — |
-| 2026-05-25 | Agent/LLM Self-Improvement | [CODESKILL: Learning Self-Evolving Skills for Coding Agents](https://arxiv.org/abs/2605.25430v2) | — |
+| 2026-05-25 | Agent/LLM Self-Improvement | [CODESKILL: Learning Self-Evolving Skills for Coding Agents](https://arxiv.org/abs/2605.25430v2) | 📈 Highly cited |
 | 2026-05-25 | Agent Memory | [Is Agent Memory a Database? Rethinking Data Foundations for Long-Term AI Agent Memory](https://arxiv.org/abs/2605.26252) | — |
 | 2026-05-25 | Agent Memory | [Mitigating Provenance-Role Collapse in Long-Term Agents via Typed Memory Representation](https://arxiv.org/abs/2605.25869) | — |
 | 2026-05-25 | Agent Memory | [Personalize-then-Store: Benchmarking and Learning Personalized Memory for Long-horizon Agents](https://arxiv.org/abs/2605.25535) | — |
@@ -69,6 +69,7 @@
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
 | [ENPMR-Bench: Benchmarking Proactive Memory Retrieval for Emotional Support Agents](https://arxiv.org/abs/2605.27240) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [CODESKILL: Learning Self-Evolving Skills for Coding Agents](https://arxiv.org/abs/2605.25430v2) | 📈 Highly cited | First author: Nanyang Technological University (Semantic Scholar author profiles) |
 | [EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective](https://arxiv.org/abs/2605.18421) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [OEP: Poisoning Self-Evolving LLM Agents via Locally Correct but Non-Transferable Experiences](https://arxiv.org/abs/2605.18930) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents](https://arxiv.org/abs/2605.18652) | 📈 Highly cited | University of Wisconsin-Madison, Xi'an Jiaotong University |
@@ -115,7 +116,7 @@ Agent-to-Agent (A2A) networks enable autonomous AI agents to collaborate by shar
 
 - **Authors:** Yanzhou Li, Yiran Zhang, Xiaoyu Zhang, Xiaoxia Liu, Yang Liu
 - **Published:** 2026-05-25
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** Nanyang Technological University
 - **Categories:** cs.AI
@@ -128,7 +129,7 @@ Coding agents produce rich trajectories while solving software-engineering tasks
 - **Authors:** Kailin Zhuang, Jiawei Wu, Zhi Jin
 - **Published:** 2026-05-21
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CV
 - **Links:** [Paper](https://arxiv.org/abs/2605.22208v3) · [PDF](https://arxiv.org/pdf/2605.22208v3)

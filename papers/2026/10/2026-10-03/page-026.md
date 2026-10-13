@@ -17,7 +17,7 @@
 | 2026-03-18 | Agent Memory | [Governed Memory: A Production Architecture for Multi-Agent Workflows](https://arxiv.org/abs/2603.17787) | — |
 | 2026-03-18 | Agent Memory | [VeriAgent: A Tool-Integrated Multi-Agent System with Evolving Memory for PPA-Aware RTL Code Generation](https://arxiv.org/abs/2603.17613) | — |
 | 2026-03-18 | Agent Memory | [Graph-Native Cognitive Memory for AI Agents: Formal Belief Revision Semantics for Versioned Memory Architectures](https://arxiv.org/abs/2603.17244) | 📈 Highly cited |
-| 2026-03-17 | Agent/LLM Self-Improvement | [Large Reward Models: Generalizable Online Robot Reward Generation with Vision-Language Models](https://arxiv.org/abs/2603.16065v3) | — |
+| 2026-03-17 | Agent/LLM Self-Improvement | [Large Reward Models: Generalizable Online Robot Reward Generation with Vision-Language Models](https://arxiv.org/abs/2603.16065v3) | 📈 Highly cited |
 | 2026-03-17 | Agent Memory | [AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents](https://arxiv.org/abs/2603.16496) | 📈 Highly cited |
 | 2026-03-17 | Agent Memory | [Chronos: Temporal-Aware Conversational Agents with Structured Event Retrieval for Long-Term Memory](https://arxiv.org/abs/2603.16862) | — |
 | 2026-03-17 | Agent Memory | [MemX: A Local-First Long-Term Memory System for AI Assistants](https://arxiv.org/abs/2603.16171) | — |
@@ -69,6 +69,7 @@
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
 | [Graph-Native Cognitive Memory for AI Agents: Formal Belief Revision Semantics for Versioned Memory Architectures](https://arxiv.org/abs/2603.17244) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Large Reward Models: Generalizable Online Robot Reward Generation with Vision-Language Models](https://arxiv.org/abs/2603.16065v3) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents](https://arxiv.org/abs/2603.16496) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [From Storage to Steering: Memory Control Flow Attacks on LLM Agents](https://arxiv.org/abs/2603.15125) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework](https://arxiv.org/abs/2603.11768) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
@@ -89,8 +90,8 @@
 
 - **Authors:** Yanru Wu, Weiduo Yuan, Esteban Martinez Licon, Ang Qi, Vitor Guizilini, Jiageng Mao, Yue Wang
 - **Published:** 2026-03-17
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.RO, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2603.16065v3) · [PDF](https://arxiv.org/pdf/2603.16065v3)

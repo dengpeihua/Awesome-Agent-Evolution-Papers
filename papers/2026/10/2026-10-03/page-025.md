@@ -689,8 +689,8 @@ Stable training is often treated as evidence that learning is succeeding, but st
 - **Authors:** Debajyoti Mazumder, Divyansh Pathak, Prashant Kodali, Jasabanta Patro
 - **Published:** 2026-03-20
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** Present: DSE, IISERB. Past: ETRO, VUB and CSE, IIT Kharagpur
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2603.19771v2) · [PDF](https://arxiv.org/pdf/2603.19771v2)
 
@@ -715,8 +715,8 @@ Lifelong interactive agents are expected to assist users over months or years, w
 - **Authors:** Sahaj Singh Maini, Robert L. Goldstone, Zoran Tiganj
 - **Published:** 2026-04-02
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** Indiana University
 - **Categories:** cs.MA, cs.AI, cs.CL, cs.GT
 - **Links:** [Paper](https://arxiv.org/abs/2604.02578v2) · [PDF](https://arxiv.org/pdf/2604.02578v2)
 

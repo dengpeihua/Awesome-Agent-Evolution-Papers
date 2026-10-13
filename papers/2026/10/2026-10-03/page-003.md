@@ -115,7 +115,7 @@ Language model agents can be improved by updating their model weights or refinin
 - **Published:** 2026-09-29
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** University of Hong Kong
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2609.37025v1) · [PDF](https://arxiv.org/pdf/2609.37025v1)
 
@@ -151,7 +151,7 @@ As the capabilities of large language models (LLMs) continue to advance, increas
 - **Published:** 2026-09-29
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Shanghai Jiao Tong University
 - **Categories:** cs.LG, cs.AI, cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2609.36750v1) · [PDF](https://arxiv.org/pdf/2609.36750v1)
 
@@ -479,7 +479,7 @@ LLM agents deployed in real-world environments continually encounter new tasks a
 - **Published:** 2026-09-28
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** University of Illinois Urbana Champaign
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2609.36246v2) · [PDF](https://arxiv.org/pdf/2609.36246v2)
 
@@ -553,7 +553,7 @@ EEG-based brain-computer interfaces support a broad range of applications, yet d
 - **Published:** 2026-09-29
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** IIT Delhi
 - **Categories:** cs.AI, math.OC
 - **Links:** [Paper](https://arxiv.org/abs/2609.37356v1) · [PDF](https://arxiv.org/pdf/2609.37356v1)
 

@@ -6,13 +6,13 @@
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 2025-11-27 | Agent/LLM Self-Improvement | [Co-Evolving Agents: Learning from Failures as Hard Negatives](https://arxiv.org/abs/2511.22254v5)<br>[PDF](https://arxiv.org/pdf/2511.22254v5) | arXiv | — | — |
-| 2025-11-25 | Reinforcement Learning | [Stabilizing Off-Policy Training for Long-Horizon LLM Agent via Turn-Level Importance Sampling and Clipping-Triggered Normalization](https://arxiv.org/abs/2511.20718v3)<br>[PDF](https://arxiv.org/pdf/2511.20718v3) | arXiv | — | — |
+| 2025-11-27 | Agent/LLM Self-Improvement | [Co-Evolving Agents: Learning from Failures as Hard Negatives](https://arxiv.org/abs/2511.22254v5)<br>[PDF](https://arxiv.org/pdf/2511.22254v5) | arXiv.org | — | Citations: 8 (Semantic Scholar) |
+| 2025-11-25 | Reinforcement Learning | [Stabilizing Off-Policy Training for Long-Horizon LLM Agent via Turn-Level Importance Sampling and Clipping-Triggered Normalization](https://arxiv.org/abs/2511.20718v3)<br>[PDF](https://arxiv.org/pdf/2511.20718v3) | arXiv | — | Citations: 7 (Semantic Scholar) |
 | 2025-11-24 | Agent/LLM Self-Improvement | [VDC-Agent: When Video Detailed Captioners Evolve Themselves via Agentic Self-Reflection](https://arxiv.org/abs/2511.19436v2)<br>[PDF](https://arxiv.org/pdf/2511.19436v2) | ECCV 2026 | 🏅 Selected top venue: ECCV 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Citations: 4 (Semantic Scholar) |
 | 2025-11-24 | Reinforcement Learning | [SLMFix: Leveraging Small Language Models for Domain Specific Language Error Fixing with Reinforcement Learning](https://arxiv.org/abs/2511.19422v2)<br>[PDF](https://arxiv.org/pdf/2511.19422v2) | arXiv | — | Citations: 3 (Semantic Scholar) |
 | 2025-11-20 | Agent/LLM Self-Improvement<br>Reinforcement Learning | [Agent0: Unleashing Self-Evolving Agents from Zero Data via Tool-Integrated Reasoning](https://arxiv.org/abs/2511.16043v2)<br>[PDF](https://arxiv.org/pdf/2511.16043v2) | arXiv.org | 📈 Highly cited | Citations: 72 (Semantic Scholar) |
-| 2025-11-19 | LLM Continual Training | [Parameter Importance-Driven Continual Learning for Foundation Models](https://arxiv.org/abs/2511.15375v2)<br>[PDF](https://arxiv.org/pdf/2511.15375v2) | arXiv.org | — | Citations: 1 (Semantic Scholar) |
-| 2025-11-14 | Reinforcement Learning | [Honesty over Accuracy: Trustworthy Language Models through Reinforced Hesitation](https://arxiv.org/abs/2511.11500v3)<br>[PDF](https://arxiv.org/pdf/2511.11500v3) | arXiv | — | — |
+| 2025-11-19 | LLM Continual Training | [Parameter Importance-Driven Continual Learning for Foundation Models](https://arxiv.org/abs/2511.15375v2)<br>[PDF](https://arxiv.org/pdf/2511.15375v2) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
+| 2025-11-14 | Reinforcement Learning | [Honesty over Accuracy: Trustworthy Language Models through Reinforced Hesitation](https://arxiv.org/abs/2511.11500v3)<br>[PDF](https://arxiv.org/pdf/2511.11500v3) | arXiv.org | — | Citations: 4 (Semantic Scholar) |
 
 ## Notes
 

@@ -61,7 +61,7 @@
 | 2026-05-28 | Agent/LLM Self-Improvement | [EvoRepair: Enhancing Vulnerability Repair Agents Through Experience-Based Self-Evolution](https://arxiv.org/abs/2605.30105v2) | — |
 | 2026-05-28 | Agent/LLM Self-Improvement | [GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents](https://arxiv.org/abs/2605.29668v3) | 📈 Highly cited<br>🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-05-28 | Agent/LLM Self-Improvement | [PTCG-Bench: Can LLM Agents Master Pokémon Trading Card Game?](https://arxiv.org/abs/2605.29653v2) | — |
-| 2026-05-28 | Reinforcement Learning | [GrepSeek: Training Search Agents for Direct Corpus Interaction](https://arxiv.org/abs/2605.29307v2) | — |
+| 2026-05-28 | Reinforcement Learning | [GrepSeek: Training Search Agents for Direct Corpus Interaction](https://arxiv.org/abs/2605.29307v2) | 📈 Highly cited |
 | 2026-05-28 | Agent/LLM Self-Improvement | [Compute Allocation for Self-Evolving LLMs: From Depth-Breadth to Multi-Armed Bandits](https://arxiv.org/abs/2605.29268v3) | — |
 
 ## 🚨 Priority Watch
@@ -75,6 +75,7 @@
 | [SkillDAG: Self-Evolving Typed Skill Graphs for LLM Skill Selection at Scale](https://arxiv.org/abs/2606.03056) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Reasoning with Sampling: Cutting at Decision Points](https://arxiv.org/abs/2605.30327v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: to be published in NeurIPS 2026 |
 | [GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents](https://arxiv.org/abs/2605.29668v3) | 📈 Highly cited<br>🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted at EMNLP 2026 (Main Conference). Code and data: https://github.com/jomoll/GRASP |
+| [GrepSeek: Training Search Agents for Direct Corpus Interaction](https://arxiv.org/abs/2605.29307v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -251,7 +252,7 @@ Long-horizon autonomous agents require memory systems to retain historical infor
 - **Authors:** Churui Zeng, Kedong Xiu, Weiwei Qi, Yuqi Hao, Chaochao Lu, Liang He, Zhan Qin, Tianhang Zheng
 - **Published:** 2026-05-29
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CR
 - **Links:** [Paper](https://arxiv.org/abs/2605.30883v2) · [PDF](https://arxiv.org/pdf/2605.30883v2)
@@ -713,8 +714,8 @@ The rapid advancement of instruction-guided audio generation has highlighted the
 - **Authors:** Chuanyu Qin, Chenxu Yang, Qingyi Si, Naibin Gu, Peng Fu, Zheng Lin
 - **Published:** 2026-06-02
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** Institute of Information Engineering, Chinese Academy of Sciences
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2606.03087v2) · [PDF](https://arxiv.org/pdf/2606.03087v2)
 
@@ -748,8 +749,8 @@ Frontier reasoning models are produced by post-training base language models wit
 
 - **Authors:** Alireza Salemi, Chang Zeng, Atharva Nijasure, Jui-Hui Chung, Razieh Rahimi, Fernando Diaz, Hamed Zamani
 - **Published:** 2026-05-28
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL, cs.AI, cs.IR, cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2605.29307v2) · [PDF](https://arxiv.org/pdf/2605.29307v2)

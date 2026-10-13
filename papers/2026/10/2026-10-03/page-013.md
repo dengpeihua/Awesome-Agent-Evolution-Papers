@@ -26,7 +26,7 @@
 | 2026-08-12 | Agent Memory | [Towards a Formal Definition of Agent Memory: Basis, Span, Optimality, and the Sequential Memory Problem](https://arxiv.org/abs/2608.11654v1) | — |
 | 2026-08-12 | LLM Continual Training | [Luna-TTS Family Technical Report](https://arxiv.org/abs/2608.11593v1) | — |
 | 2026-08-11 | LLM Continual Training | [Measure, Don't Optimize: Forecasting Recovery in LLM Unlearning](https://arxiv.org/abs/2608.11408v1) | — |
-| 2026-08-11 | Agent/LLM Self-Improvement | [Self-Evolving Embodied Agents via Skill-Harness Evolution](https://arxiv.org/abs/2608.11350v2) | — |
+| 2026-08-11 | Agent/LLM Self-Improvement | [Self-Evolving Embodied Agents via Skill-Harness Evolution](https://arxiv.org/abs/2608.11350v2) | 📈 Highly cited |
 | 2026-08-11 | Agent/LLM Self-Improvement | [Self-evolving network verifiers](https://arxiv.org/abs/2608.11340v1) | — |
 | 2026-08-11 | Agent/LLM Self-Improvement | [Test-Time Self-Evolving GUI Visual Grounding via Reflection-Guided On-Policy Self-Distillation](https://arxiv.org/abs/2608.11191v1) | — |
 | 2026-08-11 | LLM Continual Training | [Evaluating Agentic Learning Harness Capabilities Without Labels via the Scaling Hypothesis](https://arxiv.org/abs/2608.13608v1) | — |
@@ -63,6 +63,12 @@
 | 2026-08-07 | Agent/LLM Self-Improvement | [Mendel Gödel Machine: Recursive Self-Improving Coding Agents via Comparative Evolution](https://arxiv.org/abs/2608.07645v1) | — |
 | 2026-08-07 | Agent Memory | [Learning Suffers More Than the Policy Class Under Partial Observability: A Closed-Form Analysis](https://arxiv.org/abs/2608.07228v1) | — |
 | 2026-08-07 | Agent Memory | [Agent Memory Distillation: Empowering Small LLM Agents with Hierarchical Teacher Memory](https://arxiv.org/abs/2608.07169v1) | — |
+
+## 🚨 Priority Watch
+
+| Paper | Signals | Venue / affiliation evidence |
+| --- | --- | --- |
+| [Self-Evolving Embodied Agents via Skill-Harness Evolution](https://arxiv.org/abs/2608.11350v2) | 📈 Highly cited | Beihang University, University of Chinese Academy of Sciences |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -142,7 +148,7 @@ Memory is a core component of AI agents, enabling them to accumulate experience,
 
 - **Authors:** Peidong Wang, Zhiming Ma, Ying Chang, Xufang Luo, Yiqun Zhang, Zihan Wang, Xiaocui Yang, Shi Feng, Yuqing Yang, Dongsheng Li
 - **Published:** 2026-08-11
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** Beihang University, University of Chinese Academy of Sciences
 - **Categories:** cs.CL, cs.RO
@@ -664,7 +670,7 @@ Reinforcement learning (RL) has become a central post-training paradigm for elic
 - **Published:** 2026-08-10
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Peking University, Tencent Inc
 - **Categories:** cs.DB, cs.AI, cs.SE
 - **Links:** [Paper](https://arxiv.org/abs/2608.09185v1) · [PDF](https://arxiv.org/pdf/2608.09185v1)
 

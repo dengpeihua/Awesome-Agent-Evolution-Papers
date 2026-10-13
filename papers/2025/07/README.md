@@ -2,11 +2,12 @@
 
 [← Back to main index](../../../README.md)
 
-> 1 unique papers · Agent/LLM Self-Improvement 0 · Memory 0 · Continual Training 0 · Reinforcement Learning 1
+> 2 unique papers · Agent/LLM Self-Improvement 0 · Memory 0 · Continual Training 0 · Reinforcement Learning 2
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
 | 2025-07-29 | Reinforcement Learning | [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v2)<br>[PDF](https://arxiv.org/pdf/2507.21931v2) | arXiv.org | 📈 Highly cited | Citations: 13 (Semantic Scholar) |
+| 2025-07-20 | Reinforcement Learning | [AgentFly: Scaling Agentic Reinforcement Learning with Unified Resource System](https://arxiv.org/abs/2507.14897v2)<br>[PDF](https://arxiv.org/pdf/2507.14897v2) | arXiv | — | Citations: 8 (Semantic Scholar) |
 
 ## Notes
 

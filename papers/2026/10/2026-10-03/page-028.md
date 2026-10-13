@@ -38,7 +38,7 @@
 | 2026-01-31 | Agent Memory | [SpeechLess: Micro-utterance with Personalized Spatial Memory-aware Assistant in Everyday Augmented Reality](https://arxiv.org/abs/2602.00793) | — |
 | 2026-01-31 | Agent Memory | [Field-Theoretic Memory for AI Agents: Continuous Dynamics for Context Preservation](https://arxiv.org/abs/2602.21220) | — |
 | 2026-01-31 | Agent Memory | [Cross-Modal Memory Compression for Efficient Multi-Agent Debate](https://arxiv.org/abs/2602.00454) | — |
-| 2026-01-30 | Reinforcement Learning | [Why GRPO Needs Normalization: A Local-Curvature Perspective on Adaptive Gradients](https://arxiv.org/abs/2601.23135v2) | — |
+| 2026-01-30 | Reinforcement Learning | [Why GRPO Needs Normalization: A Local-Curvature Perspective on Adaptive Gradients](https://arxiv.org/abs/2601.23135v2) | 📈 Highly cited |
 | 2026-01-30 | LLM Continual Training | [AutoRefine: Compiling Trajectories into Validated Typed Agent Artifacts](https://arxiv.org/abs/2601.22758) | — |
 | 2026-01-30 | Agent/LLM Self-Improvement | [Large Language Model Agents Are Not Always Faithful Self-Evolvers](https://arxiv.org/abs/2601.22436) | — |
 | 2026-01-30 | Agent Memory | [Mem-T: Densifying Rewards for Long-Horizon Memory Agents](https://arxiv.org/abs/2601.23014) | 📈 Highly cited |
@@ -74,6 +74,7 @@
 | [LatentMem: Customizing Latent Memory for Multi-Agent Systems](https://arxiv.org/abs/2602.03036) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Skill-Pro: Learning Reusable Skills from Experience via Non-Parametric PPO for LLM Agents](https://arxiv.org/abs/2602.01869) | 📈 Highly cited | University College London |
 | [ES-MemEval: Benchmarking Conversational Agents on Personalized Long-Term Emotional Support](https://arxiv.org/abs/2602.01885) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Why GRPO Needs Normalization: A Local-Curvature Perspective on Adaptive Gradients](https://arxiv.org/abs/2601.23135v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Mem-T: Densifying Rewards for Long-Horizon Memory Agents](https://arxiv.org/abs/2601.23014) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [AMA: Adaptive Memory via Multi-Agent Collaboration](https://arxiv.org/abs/2601.20352) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [BMAM: Brain-inspired Multi-Agent Memory Framework](https://arxiv.org/abs/2601.20465) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
@@ -767,7 +768,7 @@ Molecular function is largely determined by structure. Accurately aligning molec
 - **Authors:** Jingwei Song, Meng Chen, Jie Xiao, Qingnan Ren, Jiaqi Huang, Yangshen Deng, Chris Tong, Wanyi Chen, Suli Wang, Zhisheng Chen, Ziqian Bi, Shuo Lu, Yiqun Duan, Xu Wang, Rymon Yu, Lynn Ai, Eric Yang, Tianyu Shi
 - **Published:** 2026-02-02
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.DC
 - **Links:** [Paper](https://arxiv.org/abs/2602.02192v6) · [PDF](https://arxiv.org/pdf/2602.02192v6)
@@ -790,8 +791,8 @@ LLM-driven agents excel at sequential decision-making but often rely on on-the-f
 
 - **Authors:** Cheng Ge, Caitlyn Heqi Yin, Hao Liang, Jiawei Zhang
 - **Published:** 2026-01-30
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2601.23135v2) · [PDF](https://arxiv.org/pdf/2601.23135v2)

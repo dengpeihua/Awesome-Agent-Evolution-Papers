@@ -14,7 +14,7 @@
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
 | 2026-06-29 | Agent/LLM Self-Improvement | [AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance](https://arxiv.org/abs/2606.30949v2) | — |
-| 2026-06-29 | Agent/LLM Self-Improvement | [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2) | — |
+| 2026-06-29 | Agent/LLM Self-Improvement | [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2) | 📈 Highly cited |
 | 2026-06-29 | Agent Memory | [Retrieval Observability Bounds on Provenance Detection for Agent Memory Poisoning: Measured Coverage and a Falsified Standalone Detector](https://arxiv.org/abs/2606.30566v3) | — |
 | 2026-06-29 | Reinforcement Learning | [Are We Measuring Strategy or Phrasing? The Gap Between Surface- and Approach-Level Diversity in LLM Math Reasoning](https://arxiv.org/abs/2606.29985v2) | — |
 | 2026-06-29 | Agent/LLM Self-Improvement | [ManimAgent: Self-Evolving Multimodal Agents for Visual Education](https://arxiv.org/abs/2606.30296) | — |
@@ -68,6 +68,7 @@
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents](https://arxiv.org/abs/2606.27472) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Forget to Improve: On-Device LLM-Agent Continual Learning via Budget-Curated Memory](https://arxiv.org/abs/2606.25115) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Are We Ready For An Agent-Native Memory System?](https://arxiv.org/abs/2606.24775) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
@@ -93,7 +94,7 @@ High-Level Synthesis (HLS) provides a fast path from concepts to silicon, but co
 
 - **Authors:** Xuan Zhang, Wenxuan Zhang, See-Kiong Ng, Yang Deng
 - **Published:** 2026-06-29
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI, cs.CL
@@ -337,7 +338,7 @@ Prior research on memory mechanism in RAG-based conversational system has emphas
 - **Published:** 2026-06-23
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** University of Illinois Chicago
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2606.24595v3) · [PDF](https://arxiv.org/pdf/2606.24595v3)
 
@@ -676,7 +677,7 @@ Reinforcement learning (RL) has become a dominant post-training paradigm, drivin
 - **Authors:** Jubayer Ibn Hamid, Ifdita Hasan Orney, Michael Y. Li, Omar Shaikh, Yoonho Lee, Dorsa Sadigh, Chelsea Finn, Noah Goodman
 - **Published:** 2026-06-22
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.23595v2) · [PDF](https://arxiv.org/pdf/2606.23595v2)

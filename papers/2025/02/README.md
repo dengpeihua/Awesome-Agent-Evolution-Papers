@@ -7,7 +7,7 @@
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
 | 2025-02-26 | Reinforcement Learning | [Reward Shaping to Mitigate Reward Hacking in RLHF](https://arxiv.org/abs/2502.18770v8)<br>[PDF](https://arxiv.org/pdf/2502.18770v8) | arXiv.org | 📈 Highly cited | Citations: 96 (Semantic Scholar) |
-| 2025-02-06 | Reinforcement Learning | [Dynamic Optimizations of LLM Ensembles with Two-Stage Reinforcement Learning Agents](https://arxiv.org/abs/2502.04492v3)<br>[PDF](https://arxiv.org/pdf/2502.04492v3) | arXiv | — | — |
+| 2025-02-06 | Reinforcement Learning | [Dynamic Optimizations of LLM Ensembles with Two-Stage Reinforcement Learning Agents](https://arxiv.org/abs/2502.04492v3)<br>[PDF](https://arxiv.org/pdf/2502.04492v3) | arXiv | — | Citations: 3 (Semantic Scholar) |
 
 ## Notes
 

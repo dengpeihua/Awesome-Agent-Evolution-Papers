@@ -23,7 +23,7 @@
 | 2026-09-14 | Agent/LLM Self-Improvement | [RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments](https://arxiv.org/abs/2609.15364v2) | — |
 | 2026-09-14 | LLM Continual Training | [When Agents Slow Down: Understanding LLM Agents' Test-Time Strategies via Elo-per-token Analysis](https://arxiv.org/abs/2609.15309v1) | — |
 | 2026-09-14 | Agent/LLM Self-Improvement | [EMR: Self-Evolving Medical Multi-Agent System via Experience Mining and Reuse](https://arxiv.org/abs/2609.15161v1) | — |
-| 2026-09-14 | Reinforcement Learning | [Salesforce Koa: An Enterprise Language Model for Agentic Tool Use](https://arxiv.org/abs/2609.15066v1) | — |
+| 2026-09-14 | Reinforcement Learning | [Salesforce Koa: An Enterprise Language Model for Agentic Tool Use](https://arxiv.org/abs/2609.15066v2) | — |
 | 2026-09-14 | Reinforcement Learning | [What Does an LLM Learn from Reinforcement Learning? A Mechanistic Interpretability Perspective with Fixed-SAE Track](https://arxiv.org/abs/2609.15064v1) | — |
 | 2026-09-14 | Reinforcement Learning | [Not All Prompts Are Equal: Exploration-Guided Prompt Scaffolding for Multimodal Reinforcement Post-Training](https://arxiv.org/abs/2609.15051v1) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-09-14 | LLM Continual Training, Reinforcement Learning | [Forty Shades of Blue: Quality-Diversity Alignment via Mode-Conditioned Reinforcement Learning](https://arxiv.org/abs/2609.14896v1) | — |
@@ -48,7 +48,7 @@
 | 2026-09-08 | Reinforcement Learning | [PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games](https://arxiv.org/abs/2609.09059v2) | — |
 | 2026-09-08 | Agent/LLM Self-Improvement | [SE-GoS: Self-Evolving Graph-of-Skills for Skill Library at Scale](https://arxiv.org/abs/2609.08228v2) | — |
 | 2026-09-08 | Agent/LLM Self-Improvement | [A Theory of Reliable Self-Evolution for Agent Harnesses](https://arxiv.org/abs/2609.08175v2) | — |
-| 2026-09-08 | Reinforcement Learning | [Risk-Conditioned Fine-Tuning of Large Language Models](https://arxiv.org/abs/2609.08064v2) | — |
+| 2026-09-08 | Reinforcement Learning | [Risk-Conditioned Fine-Tuning of Large Language Models](https://arxiv.org/abs/2609.08064v3) | — |
 | 2026-09-07 | Agent/LLM Self-Improvement | [CoER: Defending against Adaptive Indirect Prompt Injection via Adversarial Co-Evolution and Refinement](https://arxiv.org/abs/2609.07529v3) | — |
 | 2026-09-07 | Reinforcement Learning | [The Geometry of Refusal: Why Post-Hoc Safety Is Fragile and Pretraining-Time Safety Persists](https://arxiv.org/abs/2609.06934v2) | — |
 | 2026-09-05 | Reinforcement Learning | [VERPO: Verified Evidence Regularized Policy Optimization](https://arxiv.org/abs/2609.06100v4) | — |
@@ -260,7 +260,7 @@ In harness self-evolution, agents modify their own prompts, code, tools, and orc
 - **Published:** 2026-09-07
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** South China University of Technology
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2609.07529v3) · [PDF](https://arxiv.org/pdf/2609.07529v3)
 
@@ -572,17 +572,17 @@ Reinforcement learning with verifiable rewards (RLVR) has become a central appro
 
 Text-to-Time Series Generation (Text-to-TS) provides a promising paradigm for synthesizing time series from natural language, enabling scenario-specific generation when real observations are scarce or costly to acquire. However, existing methods typically lack an explicit mechanism for deriving generation logic from textual descriptions to guide time series synthesis. In this paper, we propose CodeTS, a verifiable framework that uses code as an intermediate generation interface, reformulating Text-to-TS generation as a Text-to-Code-to-TS process. CodeTS first maps textual temporal descriptions into an explicit code space, where executable code specifies how textual requirements shape target temporal patterns, and then obtains the time series through code execution. To learn this code generation process reliably without real code annotations, CodeTS constructs aligned Text-Code-TS triplets from structured temporal attributes for supervised initialization. More importantly, we further design multi-stage execution-based rewards that verify format validity, code executability, and time series quality, enabling real Text-TS pairs to provide training signals for Reinforcement Learning with Verifiable Rewards (RLVR). Extensive experiments on eight benchmarks across short, medium, and long generation lengths demonstrate that CodeTS provides a strong zero-shot solution for Text-to-TS generation, outperforming LLM-based baselines and achieving better averaged results than supervised generative baselines trained on the target datasets.
 
-### [Salesforce Koa: An Enterprise Language Model for Agentic Tool Use](https://arxiv.org/abs/2609.15066v1)
+### [Salesforce Koa: An Enterprise Language Model for Agentic Tool Use](https://arxiv.org/abs/2609.15066v2)
 
-- **Authors:** Zixiang Chen, Sufeng Niu, Yingchi Liu, Wenting Zhao, Akshara Prabhakar, Shubham Mehrotra, Bin Bi, Zhujun Lan, Katherine Tan, Mohammad Ramezanali, Tulika Manoj Awalgaonkar, Monojit Banerjee, Jielin Qiu, Shiva Kumar Pentyala, Zhepeng Cen, Anupam Tripathi, Ali Ziaei, Regunathan Radhakrishnan, Darvish Lee Shadravan, Shelby Heinecke, Sitaram Asur, Silvio Savarese, James Zhu, Phil Mui, Huan Wang
+- **Authors:** Zixiang Chen, Sufeng Niu, Yingchi Liu, Wenting Zhao, Akshara Prabhakar, Shubham Mehrotra, Bin Bi, Zhujun Lan, Katherine Tan, Mohammad Ramezanali, Tulika Manoj Awalgaonkar, Monojit Banerjee, Jielin Qiu, Shiva Kumar Pentyala, Zhepeng Cen, Anupam Tripathi, Ali Ziaei, Regunathan Radhakrishnan, Darvish Lee Shadravan, Shelby Heinecke, Sitaram Asur, Jayesh Govindarajan, Silvio Savarese, James Zhu, Phil Mui, Huan Wang
 - **Published:** 2026-09-14
 - **Priority:** —
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.CL, cs.AI, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2609.15066v1) · [PDF](https://arxiv.org/pdf/2609.15066v1)
+- **Links:** [Paper](https://arxiv.org/abs/2609.15066v2) · [PDF](https://arxiv.org/pdf/2609.15066v2)
 
-We present Salesforce Koa, an enterprise language model built by post-training the open-weight Nemotron-3-Super-120B foundation model with reinforcement learning using Group Relative Policy Optimization (GRPO). Salesforce Koa is trained on public and synthetically generated data, with no customer data, to improve tool use and agentic capabilities while preserving strong general-purpose performance. Its distinctive component is a simulation-to-reward pipeline that expands workflow specifications into persona-conditioned multi-turn tasks with task-resolution rewards grounded in successful tool use for data-dependent requests. For enterprise domains, these specifications are written in Agent Script, Salesforce's declarative language for building Agentforce agents; for public tool-use domains, we synthesize the workflow structure directly. The same simulation and grounded-reward machinery drives GRPO across both. Across public tool-use, agentic-reasoning, and enterprise Customer Relationship Management (CRM) benchmarks, Salesforce Koa improves over its open-weight base, with the clearest gains on multi-turn tool use, and surpasses a strong proprietary baseline while remaining below the strongest frontier models. These results show that specification-driven reinforcement learning is a practical path to specializing open-weight foundation models for enterprise agentic tasks.
+We present Salesforce Koa, an enterprise language model built by post-training the open-weight Nemotron-3-Super-120B foundation model with reinforcement learning using Group Relative Policy Optimization (GRPO), and deployed in FP8 for production. Koa is trained only on public and synthetically generated data, and specialized for the agentic tool use that enterprise workflows demand: routing a request to the correct action, invoking the right tool with valid arguments, and completing multi-turn business tasks. The distinctive component of our pipeline is specification-driven task construction: declarative Agent Script specifications are expanded into persona-conditioned multi-turn environments whose rewards are grounded in successful tool use. Applied to enterprise CRM specifications, the same pipeline produces the in-domain training distribution on which Koa is specialized. On CRMAgentBench and the human-labeled production tool-calling set, Koa outperforms both its untuned open-weight base and GPT-4.1 and is competitive with the strongest frontier models. It reaches 87% Task Success Rate on CRMAgentBench (vs. GPT-4.1 at 82% and the base at 79%), is at or near the top of every metric on the human-labeled portion of an internal production benchmark, and preserves the base model's general capability on public benchmarks (Tau2Bench, BFCL). A controlled comparison with architecture and RL recipe held fixed shows that the additional in-domain RL stage improves argument accuracy and full tool-call success on the human-labeled enterprise benchmark.
 
 ### [What Does an LLM Learn from Reinforcement Learning? A Mechanistic Interpretability Perspective with Fixed-SAE Track](https://arxiv.org/abs/2609.15064v1)
 
@@ -680,7 +680,7 @@ Asynchronous reinforcement learning has become the standard way to scale trainin
 
 While many video-game environments (VGEs) have played crucial roles in advancing reinforcement learning (RL), developing novel VGEs or modifying existing ones to support new features, has been a laborious process requiring extensive hand-coding. Here we present PlayTrain, an RL framework that combines the abilities of large language models (LLMs) to robustly generate JavaScript (JS) games from a minimal human prompt, and an efficient pipeline that can run any JS game in a standard 'gym' environment. Not only are recent LLMs particularly good at writing JS code, but the JS format also allows users to easily play generated VGEs, while PlayTrain enables us to train RL agents on the exact same games. We demonstrate multiple use cases of PlayTrain, including cloning well-known Atari and ProcGen games in simple JS, where PlayTrain trains pixel-based agents end-to-end at over 1M agent-decisions per second on a single GPU node; and creating modified versions thereof (e.g., that support novel test sets, procedural generation logics, or game dynamics). Through PlayTrain, we reimagine RL VGE development: all we need is a single JS file, generated and modified through an LLM. We discuss promising future RL research directions that PlayTrain unlocks.
 
-### [Risk-Conditioned Fine-Tuning of Large Language Models](https://arxiv.org/abs/2609.08064v2)
+### [Risk-Conditioned Fine-Tuning of Large Language Models](https://arxiv.org/abs/2609.08064v3)
 
 - **Authors:** Zixuan Liu, Fangzheng Wu, Brian Summa, Zizhan Zheng
 - **Published:** 2026-09-08
@@ -688,7 +688,7 @@ While many video-game environments (VGEs) have played crucial roles in advancing
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2609.08064v2) · [PDF](https://arxiv.org/pdf/2609.08064v2)
+- **Links:** [Paper](https://arxiv.org/abs/2609.08064v3) · [PDF](https://arxiv.org/pdf/2609.08064v3)
 
 Large Language Models (LLMs) are increasingly deployed in settings where rare but severe harmful generations can have significant consequences. Existing Risk-Averse RLHF addresses this issue by optimizing Conditional Value-at-Risk (CVaR), but it trains policies for fixed risk levels and therefore cannot adjust the desired degree of risk aversion at inference time. In this paper, we propose risk-conditioned RLHF, a framework that trains a single policy that provides a continuous risk-control interface, enabling users to select different degrees of risk aversion without retraining or deploying multiple risk-specific models. Experiments across multiple benchmarks demonstrate that a single risk-conditioned policy can adapt to different risk levels at inference time, enabling more flexible and risk-aware LLM deployment.
 

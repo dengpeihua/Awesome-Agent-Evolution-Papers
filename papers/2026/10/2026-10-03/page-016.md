@@ -749,8 +749,8 @@ Test-time scaling through iterative self-evolution with environment feedback, as
 - **Authors:** Chen Wang, Zhaochun Li, Jionghao Bai, Yining Zhang, Hexuan Deng, Ge Lan, Yue Wang
 - **Published:** 2026-07-19
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** Harbin Institute of Technology (ShenZhen)
 - **Categories:** cs.LG, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2607.17247v2) · [PDF](https://arxiv.org/pdf/2607.17247v2)
 

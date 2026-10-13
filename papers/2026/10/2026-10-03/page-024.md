@@ -56,7 +56,7 @@
 | 2026-04-10 | Agent Memory | [Constraint-Aware Corrective Memory for Language-Based Drug Discovery Agents](https://arxiv.org/abs/2604.09308) | — |
 | 2026-04-09 | LLM Continual Training | [BioELX: Context-Aware Cross-lingual Biomedical Entity Linking without Task-Specific Supervision](https://arxiv.org/abs/2605.27380v2) | — |
 | 2026-04-09 | Reinforcement Learning | [LLM-Guided Dynamic Action Spaces for Synthesizable Molecular Optimization](https://arxiv.org/abs/2604.07669v3) | — |
-| 2026-04-09 | Reinforcement Learning | [An Imperfect Verifier is Good Enough: Learning with Noisy Rewards](https://arxiv.org/abs/2604.07666v2) | — |
+| 2026-04-09 | Reinforcement Learning | [An Imperfect Verifier is Good Enough: Learning with Noisy Rewards](https://arxiv.org/abs/2604.07666v2) | 📈 Highly cited |
 | 2026-04-09 | Agent Memory | [Lightweight LLM Agent Memory with Small Language Models](https://arxiv.org/abs/2604.07798) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-09 | Agent/LLM Self-Improvement, Agent Memory | [SEARL: Joint Optimization of Policy and Tool Graph Memory for Self-Evolving Agents](https://arxiv.org/abs/2604.07791) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-09 | Agent Memory | [MemReader: From Passive to Active Extraction for Long-Term Agent Memory](https://arxiv.org/abs/2604.07877) | — |
@@ -86,6 +86,7 @@
 | [MolMem: Memory-Augmented Agentic Reinforcement Learning for Sample-Efficient Molecular Optimization](https://arxiv.org/abs/2604.12237) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [Thought-Retriever: Don't Just Retrieve Raw Data, Retrieve Thoughts for Memory-Augmented Agentic Systems](https://arxiv.org/abs/2604.12231) | 📈 Highly cited | First author: UIUC (Semantic Scholar author profiles) |
 | [StreamMeCo: Long-Term Agent Memory Compression for Efficient Streaming Video Understanding](https://arxiv.org/abs/2604.09000) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [An Imperfect Verifier is Good Enough: Learning with Noisy Rewards](https://arxiv.org/abs/2604.07666v2) | 📈 Highly cited | First author: ETH Zurich (Semantic Scholar author profiles) |
 | [Lightweight LLM Agent Memory with Small Language Models](https://arxiv.org/abs/2604.07798) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [SEARL: Joint Optimization of Policy and Tool Graph Memory for Self-Evolving Agents](https://arxiv.org/abs/2604.07791) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering](https://arxiv.org/abs/2604.08224) | 📈 Highly cited | First author: Shanghai Jiao Tong Univeristy (Semantic Scholar author profiles) |
@@ -157,7 +158,7 @@ Large language model agents can adapt to complex tasks by constructing workflows
 - **Authors:** Dixi Yao, Tahseen Rabbani, Manzil Zaheer, Tian Li
 - **Published:** 2026-04-18
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2604.16778v3) · [PDF](https://arxiv.org/pdf/2604.16778v3)
@@ -799,7 +800,7 @@ Speculative decoding accelerates large language model (LLM) inference. It uses a
 - **Authors:** Chenhao Ye, Huaizheng Zhang, Mingcong Han, Baoquan Zhong, Xiang Li, Qixiang Chen, Xinyi Zhang, Weidong Zhang, Kaihua Jiang, Wang Zhang, He Sun, Wencong Xiao, Andrea C. Arpaci-Dusseau, Remzi H. Arpaci-Dusseau
 - **Published:** 2026-04-10
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** Proceedings of the ACM SIGOPS 32nd Symposium on Operating Systems Principles
 - **Affiliations:** n/a
 - **Categories:** cs.DC, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2604.09107v2) · [PDF](https://arxiv.org/pdf/2604.09107v2)
@@ -822,7 +823,7 @@ Synthesizable molecular optimization seeks to improve target properties while en
 
 - **Authors:** Andreas Plesner, Francisco Guzmán, Anish Athalye
 - **Published:** 2026-04-09
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** ETH Zurich, MIT
 - **Categories:** cs.LG, cs.AI

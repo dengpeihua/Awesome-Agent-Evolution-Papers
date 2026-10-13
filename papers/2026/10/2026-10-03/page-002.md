@@ -120,7 +120,7 @@ Textual skills enable large language model (LLM) based agents to accumulate reus
 - **Published:** 2026-09-30
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Google
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2609.39148v1) · [PDF](https://arxiv.org/pdf/2609.39148v1)
 
@@ -180,7 +180,7 @@ Adapting robot manipulation policies to new tasks and environments remains highl
 - **Published:** 2026-09-30
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Nanyang Technological University, Zhejiang University
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2609.38798v1) · [PDF](https://arxiv.org/pdf/2609.38798v1)
 
@@ -300,7 +300,7 @@ A harness is the code around a language-model agent that organizes prompts, call
 - **Published:** 2026-09-29
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Carnegie Mellon University, Georgia Institute of Technology, Atlanta, USA, University of Southern California
 - **Categories:** cs.LG, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2609.38349v1) · [PDF](https://arxiv.org/pdf/2609.38349v1)
 
@@ -312,7 +312,7 @@ Modern agentic systems combine an AI model with a harness that controls executio
 - **Published:** 2026-09-29
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** University of Illinois at Urbana-Champaign
 - **Categories:** cs.AI, cs.CL, cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2609.38143v2) · [PDF](https://arxiv.org/pdf/2609.38143v2)
 
@@ -324,7 +324,7 @@ Agent performance depends on both reasoning ability and the environment in which
 - **Published:** 2026-09-29
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** GSAI, Renmin University of China
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2609.38288v1) · [PDF](https://arxiv.org/pdf/2609.38288v1)
 
@@ -336,7 +336,7 @@ We present AREX-2, an effort to advance the self-improving capability of LLM age
 - **Published:** 2026-09-29
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** University of Southern California
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2609.37989v1) · [PDF](https://arxiv.org/pdf/2609.37989v1)
 
@@ -360,7 +360,7 @@ Advances in the coding capabilities of LLM agents allow them to inspect and modi
 - **Published:** 2026-09-29
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Inha University
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2609.37953v1) · [PDF](https://arxiv.org/pdf/2609.37953v1)
 

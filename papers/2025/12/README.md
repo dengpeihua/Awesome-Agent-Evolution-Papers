@@ -10,7 +10,7 @@
 | 2025-12-10 | LLM Continual Training | [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3)<br>[PDF](https://arxiv.org/pdf/2512.11908v3) | arXiv.org | 📈 Highly cited | Citations: 11 (Semantic Scholar) |
 | 2025-12-09 | LLM Continual Training | [Prompt-Based Continual Compositional Zero-Shot Learning](https://arxiv.org/abs/2512.09172v3)<br>[PDF](https://arxiv.org/pdf/2512.09172v3) | arXiv.org | — | Citations: 1 (Semantic Scholar) |
 | 2025-12-05 | LLM Continual Training | [K2-V2: A 360-Open, Reasoning-Enhanced LLM](https://arxiv.org/abs/2512.06201v3)<br>[PDF](https://arxiv.org/pdf/2512.06201v3) | arXiv | — | Citations: 0 (Semantic Scholar) |
-| 2025-12-02 | Agent/LLM Self-Improvement | [Think, Then Look: Active Spatial Reasoning for House-Scale 3D Scene Understanding](https://arxiv.org/abs/2512.03284v2)<br>[PDF](https://arxiv.org/pdf/2512.03284v2) | arXiv | — | — |
+| 2025-12-02 | Agent/LLM Self-Improvement | [Think, Then Look: Active Spatial Reasoning for House-Scale 3D Scene Understanding](https://arxiv.org/abs/2512.03284v2)<br>[PDF](https://arxiv.org/pdf/2512.03284v2) | arXiv | — | Citations: 2 (Semantic Scholar) |
 
 ## Notes
 

@@ -29,7 +29,7 @@
 | 2026-08-18 | LLM Continual Training | [When to Review: Spaced Repetition for Continual Pre-Training of Language Models](https://arxiv.org/abs/2608.17530v1) | — |
 | 2026-08-17 | Agent Memory | [SkillEffect: Checked Lowering for Memory-Bounded Agent Tools](https://arxiv.org/abs/2608.17007v2) | — |
 | 2026-08-17 | Agent/LLM Self-Improvement | [GenRouter: Unified Workflow Routing for Agentic Image Generation](https://arxiv.org/abs/2608.16721v1) | — |
-| 2026-08-17 | Agent/LLM Self-Improvement | [Zetta $ζ$: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence](https://arxiv.org/abs/2608.16590v1) | — |
+| 2026-08-17 | Agent/LLM Self-Improvement | [Zetta $ζ$: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence](https://arxiv.org/abs/2608.16590v1) | 📈 Highly cited |
 | 2026-08-17 | LLM Continual Training | [Computational KJ-Ho: An Analyst-Bias-Free Insight Extraction Framework from Large-Scale Qualitative Data Using Domain-Specialized LLMs](https://arxiv.org/abs/2608.16467v1) | — |
 | 2026-08-17 | Agent/LLM Self-Improvement | [JailbreakSkill: Scaling Automated Red-Teaming with Reusable and Ever-Evolving Skills](https://arxiv.org/abs/2608.16465v1) | — |
 | 2026-08-17 | Agent/LLM Self-Improvement | [Towards Risk-free AI Agent Deployment](https://arxiv.org/abs/2608.16411v1) | — |
@@ -68,6 +68,7 @@
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [Zetta $ζ$: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence](https://arxiv.org/abs/2608.16590v1) | 📈 Highly cited | Institue for AI Industry Research (AIR), Tsinghua University |
 | [Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents](https://arxiv.org/abs/2608.15071v2) | 📈 Highly cited | Univeristy of Illinois Urbana Champaign, University of Illinois Urbana-Champaign |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
@@ -172,7 +173,7 @@ The rapid evolution of text-to-image (T2I) generation models has effectively sol
 
 - **Authors:** Xin Ding, Liang Mi, Mingzhe Huang, Zixuan Wang, Chao Zhang, Zixu Hao, Fu Chen, Xiangyu Li, Yikai Zheng, Yaoyu Guo, Weijun Wang, Kun Li, Hao Wu, Yunxin Liu, Ting Cao
 - **Published:** 2026-08-17
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** Institue for AI Industry Research (AIR), Tsinghua University
 - **Categories:** cs.RO

@@ -7,7 +7,7 @@
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
 | 2025-04-19 | LLM Continual Training | [CLIP-Powered Domain Generalization and Domain Adaptation: A Comprehensive Survey](https://arxiv.org/abs/2504.14280v2)<br>[PDF](https://arxiv.org/pdf/2504.14280v2) | IEEE Transactions on Pattern Analysis and Machine Intelligence | 📈 Highly cited<br>🏆 CCF-A: IEEE Transactions on Pattern Analysis and Machine Intelligence<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Citations: 29 (Semantic Scholar) |
-| 2025-04-07 | Agent/LLM Self-Improvement | [Generalising from Self-Produced Data: Model Training Beyond Human Constraints](https://arxiv.org/abs/2504.04711v2)<br>[PDF](https://arxiv.org/pdf/2504.04711v2) | arXiv | — | — |
+| 2025-04-07 | Agent/LLM Self-Improvement | [Generalising from Self-Produced Data: Model Training Beyond Human Constraints](https://arxiv.org/abs/2504.04711v2)<br>[PDF](https://arxiv.org/pdf/2504.04711v2) | arXiv.org | — | Citations: 0 (Semantic Scholar) |
 
 ## Notes
 

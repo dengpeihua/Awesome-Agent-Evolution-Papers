@@ -32,7 +32,7 @@
 | 2025-09-10 | Reinforcement Learning | [HumanAgencyBench: Scalable Evaluation of Human Agency Support in AI Assistants](https://arxiv.org/abs/2509.08494v2) | 📈 Highly cited |
 | 2025-08-21 | Agent/LLM Self-Improvement | [Language-Guided Tuning: Configuration Optimization for Automated ML Research](https://arxiv.org/abs/2508.15757v2) | — |
 | 2025-08-13 | Agent/LLM Self-Improvement | [EvoCurr: Self-evolving Curriculum with Behavior Code Generation for Complex Decision-making](https://arxiv.org/abs/2508.09586v3) | — |
-| 2025-08-04 | Reinforcement Learning | [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v7) | — |
+| 2025-08-04 | Reinforcement Learning | [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v7) | 📈 Highly cited |
 | 2025-07-29 | Reinforcement Learning | [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v2) | 📈 Highly cited |
 | 2025-06-09 | Agent Memory | [HiBerNAC: Hierarchical Brain-inspired Robotic Neural Agent Collective for Disentangling Complex Manipulation](https://arxiv.org/abs/2506.08296v3) | — |
 | 2025-05-30 | LLM Continual Training | [Advantageous Parameter Expansion Training Makes Better Large Language Models](https://arxiv.org/abs/2505.24241v2) | — |
@@ -52,6 +52,7 @@
 | [Memory-Free Continual Learning with Null Space Adaptation for Zero-Shot Vision-Language Models](https://arxiv.org/abs/2510.21175v2) | 🏅 Selected top venue: ICLR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Published at ICLR 2026. Code: https://github.com/ZoYujin/NuSA-CL |
 | [What Drives Compositional Generalization in Visual Generative Models? The Importance of Continuous Training Objectives](https://arxiv.org/abs/2510.03075v4) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted at NeurIPS 2026 |
 | [HumanAgencyBench: Scalable Evaluation of Human Agency Support in AI Assistants](https://arxiv.org/abs/2509.08494v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v7) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v2) | 📈 Highly cited | Heinrich-Heine-University Düsseldorf, Heinrich-Heine-Universität Düsseldorf |
 | [OSPO: Object-Centric Self-Improving Preference Optimization for Text-to-Image Generation](https://arxiv.org/abs/2506.02015v4) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to CVPR 2026 (camera-ready version) |
 | [CLIP-Powered Domain Generalization and Domain Adaptation: A Comprehensive Survey](https://arxiv.org/abs/2504.14280v2) | 📈 Highly cited<br>🏆 CCF-A: IEEE Transactions on Pattern Analysis and Machine Intelligence<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Published in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) |
@@ -76,7 +77,7 @@ Spatial reasoning in large-scale 3D environments remains challenging for current
 - **Authors:** Yeonsung Jung, Trilok Padhi, Sina Shaham, Dipika Khullar, Joonhyun Jeong, Ninareh Mehrabi, Eunho Yang
 - **Published:** 2025-11-27
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2511.22254v5) · [PDF](https://arxiv.org/pdf/2511.22254v5)
@@ -148,7 +149,7 @@ Recent advances in Multimodal Large Language Models (MLLMs) have enabled unified
 - **Authors:** Alfath Daryl Alhajir, Jennifer Dodgson, Joseph Lim, Truong Ma Phi, Julian Peh, Akira Rafhael Janson Pattirane, Lokesh Poovaragan
 - **Published:** 2025-04-07
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2504.04711v2) · [PDF](https://arxiv.org/pdf/2504.04711v2)
@@ -381,7 +382,7 @@ As humans delegate more tasks and decisions to artificial intelligence (AI), we 
 
 - **Authors:** Lei Pang, Jun Luo, Ruinan Jin
 - **Published:** 2025-08-04
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG

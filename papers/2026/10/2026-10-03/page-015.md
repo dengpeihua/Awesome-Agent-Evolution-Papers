@@ -24,7 +24,7 @@
 | 2026-08-02 | Agent/LLM Self-Improvement | [Auditing Discovery Claims: A Two-Sided Criterion for Agentic Science, with the Negative Side Decidable](https://arxiv.org/abs/2608.00981v1) | — |
 | 2026-08-02 | Agent Memory | [TrajWiki: Source-Grounded Memory Trajectories for Long-Horizon Dialogue Agents](https://arxiv.org/abs/2608.00967v1) | — |
 | 2026-08-02 | Agent Memory | [PMMC: Prospective Multimodal Memory Compilation for Long-Term LVLM Agents](https://arxiv.org/abs/2608.00962v1) | — |
-| 2026-08-02 | Reinforcement Learning | [Gaokerena: A Small Persian Medical Language Model Family](https://arxiv.org/abs/2608.00932v3) | — |
+| 2026-08-02 | Reinforcement Learning | [Gaokerena: A Small Persian Medical Language Model Family](https://arxiv.org/abs/2608.00932v5) | — |
 | 2026-08-01 | LLM Continual Training | [Unleashing the Potential of Large Language Models: A Blueprint for Real-Time, Enterprise-Ready Deployments](https://arxiv.org/abs/2608.00419v1) | — |
 | 2026-07-31 | Agent/LLM Self-Improvement | [CrystalMem: Elastic Memory for Self-Evolving LLM Agents via Knowledge Crystallization](https://arxiv.org/abs/2608.00303v1) | — |
 | 2026-07-31 | Agent/LLM Self-Improvement | [AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks?](https://arxiv.org/abs/2608.00155v2) | — |
@@ -690,7 +690,7 @@ Reinforcement learning (RL) fine-tuning is widely used in language model trainin
 
 ## Reinforcement Learning
 
-### [Gaokerena: A Small Persian Medical Language Model Family](https://arxiv.org/abs/2608.00932v3)
+### [Gaokerena: A Small Persian Medical Language Model Family](https://arxiv.org/abs/2608.00932v5)
 
 - **Authors:** Mehrdad Ghassabi, Hamidreza Baradaran Kashani, Pedram Rostami, Sadra Hakim, Zahra Kazemi, Amirhossein Poursina, Milad Tavakoli, Audrina Ebrahimi
 - **Published:** 2026-08-02
@@ -698,7 +698,7 @@ Reinforcement learning (RL) fine-tuning is widely used in language model trainin
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2608.00932v3) · [PDF](https://arxiv.org/pdf/2608.00932v3)
+- **Links:** [Paper](https://arxiv.org/abs/2608.00932v5) · [PDF](https://arxiv.org/pdf/2608.00932v5)
 
 The integration of artificial intelligence into medical question-answering systems has advanced rapidly; however, research remains predominantly focused on English, leaving low-resource languages like Persian significantly underserved. To address this gap, this paper introduces Gaokerena, a novel family of compact Persian medical language models optimized for deployment on consumer-grade hardware. As a foundational step toward localized digital healthcare, we first present Gaokerena-V, developed by training a baseline model on a strategically selected subset of a newly curated 90-million-token Persian medical corpus (approximately 54 million tokens) together with 20,000 expert-vetted physician Q&A pairs (approximately 3 million tokens), for a total of 57 million new tokens. This training improved performance on a translated medical MMLU benchmark from 46.64% to 49.31%. Second, recognizing the critical demands of clinical reasoning, we developed Gaokerena-R by integrating a Chain-of-Thought approach with two novel Reinforcement Learning with AI Feedback (RLAIF) frameworks to optimize preference-based reasoning. Despite utilizing the same baseline architecture and a smaller dataset than Gaokerena-V, Gaokerena-R achieved a superior benchmark score of 52.98%. Furthermore, both models are equipped with custom-developed uncertainty heads that predict the models confidence in its responses based solely on internal hidden states. While these results demonstrate significant progress in Persian medical language modeling and proactive safety estimation, current performance levels remain insufficient for direct clinical application, highlighting the necessity for further research into robust knowledge acquisition and rigorous safety verification prior to real-world deployment.
 

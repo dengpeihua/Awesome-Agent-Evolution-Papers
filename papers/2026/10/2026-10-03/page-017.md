@@ -14,7 +14,7 @@
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
 | 2026-07-13 | Agent Memory | [Heterogeneous Agent Cohorts for Safe Open-Ended Exploration with Runtime Constraint Memory](https://arxiv.org/abs/2607.11226) | — |
-| 2026-07-12 | Reinforcement Learning | [SETA: Scaling Environments for Terminal Agents](https://arxiv.org/abs/2607.10891v2) | — |
+| 2026-07-12 | Reinforcement Learning | [SETA: Scaling Environments for Terminal Agents](https://arxiv.org/abs/2607.10891v2) | 📈 Highly cited |
 | 2026-07-12 | Agent/LLM Self-Improvement | [Agents Don't Just Agree, They Remember: Benchmarking Persistent Sycophancy in Self-Improving Personal Agents](https://arxiv.org/abs/2607.10526v4) | — |
 | 2026-07-12 | Agent Memory | [The Compliance Trap: Diagnosing How AI Agents Consume Conflicting Memory](https://arxiv.org/abs/2607.10608) | — |
 | 2026-07-12 | Agent Memory | [MemDecay: Region-Aware KV Cache Eviction for Efficient LLM Agent Inference](https://arxiv.org/abs/2607.10582) | — |
@@ -32,7 +32,7 @@
 | 2026-07-08 | Agent Memory | [Seeing and Reflecting: Multimodal Memory-Enhanced Agent Collaboration for Recommendation](https://arxiv.org/abs/2607.07108) | — |
 | 2026-07-08 | Agent/LLM Self-Improvement | [MILES: Modular Instruction Memory with Learnable Selection for Self-Improving LLM Reasoning](https://arxiv.org/abs/2607.06974) | — |
 | 2026-07-07 | Agent Memory | [StateFuse: Deterministic Conflict-Preserving Memory for Multi-Agent Systems](https://arxiv.org/abs/2607.05844) | — |
-| 2026-07-06 | Reinforcement Learning | [CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents](https://arxiv.org/abs/2607.05378v2) | — |
+| 2026-07-06 | Reinforcement Learning | [CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents](https://arxiv.org/abs/2607.05378v2) | 📈 Highly cited |
 | 2026-07-06 | Agent Memory | [Memory in the Loop: In-Process Retrieval as Extended Working Memory for Language Agents](https://arxiv.org/abs/2607.05690) | — |
 | 2026-07-06 | Agent Memory | [When Agents Remember Too Much: Memory Poisoning Attacks on Large Language Model Agents](https://arxiv.org/abs/2607.06595) | — |
 | 2026-07-06 | Agent Memory | [Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory](https://arxiv.org/abs/2607.05511) | — |
@@ -68,7 +68,9 @@
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [SETA: Scaling Environments for Terminal Agents](https://arxiv.org/abs/2607.10891v2) | 📈 Highly cited | Arm, Peking University, SambaNova Systems, Stanford University, University of Illinois Urbana-Champaign, University of Wisconsin Madison |
 | [Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents](https://arxiv.org/abs/2607.08716) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents](https://arxiv.org/abs/2607.05378v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://aclanthology.org/2026.findings-acl.483/) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [When Not to Write Memory: Governing False Promotion from Correlated Agent Traces](https://arxiv.org/abs/2607.02579) | 🏆 CCF-A: 2026 6th International Conference on Machine Learning and Intelligent Systems Engineering (MLISE)<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: 2026 6th International Conference on Machine Learning and Intelligent Systems Engineering (MLISE) |
 
@@ -163,8 +165,8 @@ Agents are increasingly used to construct workflows and assist humans in complet
 - **Authors:** Haiwen Li, Jing Tang, Rui Chen, Lei Sun, Xiangxiang Chu
 - **Published:** 2026-07-01
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** AMAP, Alibaba Group, Alibaba, Tsinghua University
 - **Categories:** cs.MA
 - **Links:** [Paper](https://arxiv.org/abs/2607.00685v2) · [PDF](https://arxiv.org/pdf/2607.00685v2)
 
@@ -707,8 +709,8 @@ Scientific Fitness Coaching (SFC) is typically delivered by human professionals,
 - **Authors:** Haiwen Li, Jing Tang, Rui Chen, Lei Sun, Xiangxiang Chu
 - **Published:** 2026-07-01
 - **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Venue:** arXiv.org
+- **Affiliations:** AMAP, Alibaba Group, Alibaba, Tsinghua University
 - **Categories:** cs.MA
 - **Links:** [Paper](https://arxiv.org/abs/2607.00685v2) · [PDF](https://arxiv.org/pdf/2607.00685v2)
 
@@ -732,9 +734,9 @@ Large Language Models often struggle with complex, multi-step operational tasks 
 
 - **Authors:** Qijia Shen, Zhiqi Huang, Vamsidhar Kamanuru, Aznaur Aliev, Jay Rainton, Ahmed Awelkair, Zhichen Zeng, Jiajun Li, Shi Dong, Yueming Yuan, Boyuan Ma, Qizheng Zhang, Jiwei Fu, Yuzhen Mao, Wendong Fan, Ping Nie, Philip Torr, Bernard Ghanem, Changran Hu, Jonathan Lingjie Li, Urmish Thakker, Guohao Li
 - **Published:** 2026-07-12
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** Arm, Peking University, SambaNova Systems, Stanford University, University of Illinois Urbana-Champaign, University of Wisconsin Madison
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2607.10891v2) · [PDF](https://arxiv.org/pdf/2607.10891v2)
 
@@ -756,8 +758,8 @@ Post-training is a key mechanism for adapting large language models to downstrea
 
 - **Authors:** Yujiang Li, Zhenyu Hou, Yi Jing, Jie Tang, Yuxiao Dong
 - **Published:** 2026-07-06
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2607.05378v2) · [PDF](https://arxiv.org/pdf/2607.05378v2)
