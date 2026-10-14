@@ -19,7 +19,7 @@
 | 2026-03-18 | Agent Memory | [Graph-Native Cognitive Memory for AI Agents: Formal Belief Revision Semantics for Versioned Memory Architectures](https://arxiv.org/abs/2603.17244) | 📈 Highly cited |
 | 2026-03-17 | Agent/LLM Self-Improvement | [Large Reward Models: Generalizable Online Robot Reward Generation with Vision-Language Models](https://arxiv.org/abs/2603.16065v3) | 📈 Highly cited |
 | 2026-03-17 | Agent Memory | [AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents](https://arxiv.org/abs/2603.16496) | 📈 Highly cited |
-| 2026-03-17 | Agent Memory | [Chronos: Temporal-Aware Conversational Agents with Structured Event Retrieval for Long-Term Memory](https://arxiv.org/abs/2603.16862) | — |
+| 2026-03-17 | Agent Memory | [Chronos: Temporal-Aware Conversational Agents with Structured Event Retrieval for Long-Term Memory](https://arxiv.org/abs/2603.16862) | 📈 Highly cited |
 | 2026-03-17 | Agent Memory | [MemX: A Local-First Long-Term Memory System for AI Assistants](https://arxiv.org/abs/2603.16171) | — |
 | 2026-03-16 | Agent Memory | [From Storage to Steering: Memory Control Flow Attacks on LLM Agents](https://arxiv.org/abs/2603.15125) | 📈 Highly cited |
 | 2026-03-16 | Agent Memory | [CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents](https://arxiv.org/abs/2603.15421) | — |
@@ -43,7 +43,7 @@
 | 2026-03-10 | Agent/LLM Self-Improvement, Agent Memory | [AutoAgent: Evolving Cognition and Elastic Memory Orchestration for Adaptive Agents](https://arxiv.org/abs/2603.09716) | — |
 | 2026-03-10 | Agent Memory | [TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA](https://arxiv.org/abs/2603.09297) | — |
 | 2026-03-09 | Agent/LLM Self-Improvement | [RL unknotter, hard unknots and unknotting number](https://arxiv.org/abs/2603.07955v4) | — |
-| 2026-03-09 | Agent Memory | [Multi-Agent Memory from a Computer Architecture Perspective: Visions and Challenges Ahead](https://arxiv.org/abs/2603.10062) | — |
+| 2026-03-09 | Agent Memory | [Multi-Agent Memory from a Computer Architecture Perspective: Visions and Challenges Ahead](https://arxiv.org/abs/2603.10062) | 📈 Highly cited |
 | 2026-03-09 | Agent Memory | [MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games](https://arxiv.org/abs/2603.09022) | — |
 | 2026-03-08 | Agent Memory | [Did You Check the Right Pocket? Cost-Sensitive Store Routing for Memory-Augmented Agents](https://arxiv.org/abs/2603.15658) | — |
 | 2026-03-08 | Agent/LLM Self-Improvement, Agent Memory | [Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers](https://arxiv.org/abs/2603.07670) | 📈 Highly cited |
@@ -55,7 +55,7 @@
 | 2026-03-04 | Agent Memory | [Adaptive Memory Admission Control for LLM Agents](https://arxiv.org/abs/2603.04549) | 📈 Highly cited |
 | 2026-03-04 | Agent Memory | [Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory](https://arxiv.org/abs/2603.04257) | 📈 Highly cited |
 | 2026-03-03 | Agent/LLM Self-Improvement, LLM Continual Training | [Self-Evolutionary Replanning for Failure-Aware Motion Planning](https://arxiv.org/abs/2603.02772v2) | — |
-| 2026-03-03 | Agent Memory | [Multi-Agent Debate with Memory Masking](https://arxiv.org/abs/2603.20215) | — |
+| 2026-03-03 | Agent Memory | [Multi-Agent Debate with Memory Masking](https://arxiv.org/abs/2603.20215) | 📈 Highly cited |
 | 2026-03-03 | Agent Memory | [CraniMem: Cranial Inspired Gated and Bounded Memory for Agentic Systems](https://arxiv.org/abs/2603.15642) | — |
 | 2026-03-02 | Agent Memory, LLM Continual Training | [Position: Modular Memory is the Key to Continual Learning Agents](https://arxiv.org/abs/2603.01761) | — |
 | 2026-03-02 | Agent Memory, Reinforcement Learning | [From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck for Long-Horizon Video Agents](https://arxiv.org/abs/2603.01455) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
@@ -71,15 +71,18 @@
 | [Graph-Native Cognitive Memory for AI Agents: Formal Belief Revision Semantics for Versioned Memory Architectures](https://arxiv.org/abs/2603.17244) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Large Reward Models: Generalizable Online Robot Reward Generation with Vision-Language Models](https://arxiv.org/abs/2603.16065v3) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents](https://arxiv.org/abs/2603.16496) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Chronos: Temporal-Aware Conversational Agents with Structured Event Retrieval for Long-Term Memory](https://arxiv.org/abs/2603.16862) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [From Storage to Steering: Memory Control Flow Attacks on LLM Agents](https://arxiv.org/abs/2603.15125) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework](https://arxiv.org/abs/2603.11768) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Trajectory-Informed Memory Generation for Self-Improving Agent Systems](https://arxiv.org/abs/2603.10600) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Hybrid Self-evolving Structured Memory for GUI Agents](https://arxiv.org/abs/2603.10291) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Multi-Agent Memory from a Computer Architecture Perspective: Visions and Challenges Ahead](https://arxiv.org/abs/2603.10062) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers](https://arxiv.org/abs/2603.07670) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Can Large Language Models Keep Up? Benchmarking Online Adaptation to Continual Knowledge Streams](https://arxiv.org/abs/2603.07392) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [Beyond the Context Window: A Cost-Performance Analysis of Fact-Based Memory vs. Long-Context LLMs for Persistent Agents](https://arxiv.org/abs/2603.04814) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Adaptive Memory Admission Control for LLM Agents](https://arxiv.org/abs/2603.04549) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory](https://arxiv.org/abs/2603.04257) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Multi-Agent Debate with Memory Masking](https://arxiv.org/abs/2603.20215) | 📈 Highly cited | First author: Hong Kong Baptist University (Semantic Scholar author profiles) |
 | [From Verbatim to Gist: Distilling Pyramidal Multimodal Memory via Semantic Information Bottleneck for Long-Horizon Video Agents](https://arxiv.org/abs/2603.01455) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations](https://arxiv.org/abs/2603.01966) | 📈 Highly cited | First author: The Hong Kong University of Science and Technology (Semantic Scholar author profiles) |
 | [AutoSkill: Experience-Driven Lifelong Learning via Skill Self-Evolution](https://arxiv.org/abs/2603.01145) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
@@ -308,7 +311,7 @@ Large language model (LLM) agents increasingly rely on external memory to suppor
 
 - **Authors:** Sen, Sahil, Lumer, Elias, Gulati, Anmol, Subbiah, Vamse Kumar
 - **Published:** 2026-03-17
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
@@ -524,7 +527,7 @@ Large Language Model (LLM) has exhibited strong reasoning ability in text-based 
 
 - **Authors:** Yu, Zhongming, Yu, Naicheng, Zhang, Hejia, Ni, Wentao, Yin, Mingrui, Yang, Jiaying, Zhao, Yujie, Zhao, Jishen
 - **Published:** 2026-03-09
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AR
@@ -644,7 +647,7 @@ Large language model (LLM) agents are fundamentally bottlenecked by finite conte
 
 - **Authors:** Tian, Hongduan, Feng, Xiao, Zhao, Ziyuan, Zhu, Xiangyu, Yan, Rolan, Han, Bo
 - **Published:** 2026-03-03
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** Hong Kong Baptist University
 - **Categories:** cs.CL

@@ -44,7 +44,7 @@
 | 2026-10-07 | LLM Continual Training | [When Rank Rises as LLMs Degrade](https://arxiv.org/abs/2610.09647v1) | — |
 | 2026-10-07 | Reinforcement Learning | [COPC: Coupled Off-Policy Correction for Asynchronous LLM Reinforcement Learning](https://arxiv.org/abs/2610.09597v1) | — |
 | 2026-09-22 | Agent/LLM Self-Improvement | [Towards Strategy-Level RSI for Skill-Augmented Agents: Learning When to Reuse Skills from Execution Feedback](https://arxiv.org/abs/2609.26863v3) | — |
-| 2026-09-20 | Reinforcement Learning | [Do Language Models Need Music Supervision? Verifiable Rewards for Multi-Constraint Symbolic Music Generation](https://arxiv.org/abs/2609.23665v2) | — |
+| 2026-09-20 | Reinforcement Learning | [Do Language Models Need Music Supervision? Verifiable Rewards for Multi-Constraint Symbolic Music Generation](https://arxiv.org/abs/2609.23665v3) | — |
 | 2026-08-31 | LLM Continual Training | [CPR for LLMs: Critical-Point Routing against Catastrophic Forgetting in Domain Adaptation](https://arxiv.org/abs/2608.30158v3) | — |
 | 2026-08-25 | Reinforcement Learning | [On-policy Distillation with Verifiable Reward](https://arxiv.org/abs/2608.24696v4) | 📈 Highly cited |
 | 2026-08-20 | Agent/LLM Self-Improvement | [AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement](https://arxiv.org/abs/2608.20318v1) | 📈 Highly cited |
@@ -88,7 +88,7 @@
 - **Published:** 2026-10-07
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** University of Wisconsin-Madison, Georgia Institute of Technology
+- **Affiliations:** Georgia Institute of Technology, University of Wisconsin-Madison
 - **Categories:** cs.CV, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2610.10782v1) · [PDF](https://arxiv.org/pdf/2610.10782v1)
 
@@ -550,7 +550,7 @@ Language models trained with long-horizon agentic reinforcement learning can gen
 - **Published:** 2026-10-07
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** University of Wisconsin-Madison, Georgia Institute of Technology
+- **Affiliations:** Georgia Institute of Technology, University of Wisconsin-Madison
 - **Categories:** cs.CV, cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2610.10782v1) · [PDF](https://arxiv.org/pdf/2610.10782v1)
 
@@ -640,7 +640,7 @@ Reinforcement learning is now central to eliciting reasoning in large language m
 
 Asynchronous RL accelerates large language model post-training by decoupling rollout generation from optimization, but trains on stale trajectories. Existing methods primarily correct token-level policy mismatch through importance-ratio control in the actor objective. We show that this \emph{policy-side correction} alone is insufficient: advantage estimates also inherit mismatch from behavior-policy continuations, which we term \emph{advantage staleness}. We derive exact bias and variance decompositions for a general two-channel actor update, revealing nonseparable coupling between policy-weight and advantage-estimation errors: their interaction induces multiplicative bias terms, while squared policy weights amplify advantage uncertainty in gradient variance. This motivates the hypothesis that policy- and advantage-side correction should be coordinated. We introduce Coupled Off-Policy Correction (COPC), an actor--critic method combining token-level ratio masking with two-sided clipped-ratio weighting of TD residuals for return and advantage estimation. Joint parameter sweeps across staleness levels support this hypothesis: the effect of one correction parameter depends on, and can reverse with, the other. COPC achieves the highest reported performance on tool-integrated mathematical reasoning and search, outperforming the strongest reported asynchronous baseline in each setting. It also offers a broad high-performing parameter region and improved training stability. In search, COPC remains stable throughout training, while most evaluated asynchronous baselines collapse late in training. These gains persist at 64-step policy staleness. COPC adds minimal step-time overhead over asynchronous PPO and retains a $1.7\times$ step-time speedup over synchronous PPO.
 
-### [Do Language Models Need Music Supervision? Verifiable Rewards for Multi-Constraint Symbolic Music Generation](https://arxiv.org/abs/2609.23665v2)
+### [Do Language Models Need Music Supervision? Verifiable Rewards for Multi-Constraint Symbolic Music Generation](https://arxiv.org/abs/2609.23665v3)
 
 - **Authors:** Haoyue Liu, Xiaoying Tang
 - **Published:** 2026-09-20
@@ -648,9 +648,9 @@ Asynchronous RL accelerates large language model post-training by decoupling rol
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.SD, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.23665v2) · [PDF](https://arxiv.org/pdf/2609.23665v2)
+- **Links:** [Paper](https://arxiv.org/abs/2609.23665v3) · [PDF](https://arxiv.org/pdf/2609.23665v3)
 
-Language models now generate symbolic music from text, and research has focused on musicality. However, many applications require a score that meets explicit constraints, which models struggle to satisfy jointly: on MusicConstraintBench, our benchmark of 2,180 items over eight families of programmatically verifiable constraints, Llama-3.1-70B satisfies 0.630 of single-constraint items but only 0.044 of four-constraint ones. As a remedy, we introduce MusicRLVR, which trains a language model with group relative policy optimisation (GRPO) on verifier rewards alone, needing no human annotation, reward model or music-domain supervised fine-tuning. MusicRLVR incorporates (1) a hard validation gate that rejects malformed scores, (2) graded per-family credit that, unlike a binary reward, separates partially correct outputs, and (3) an all-satisfied bonus for meeting every constraint at once. Extensive experiments show that, in under four hours of training, MusicRLVR raises Qwen3-4B-Instruct-2507 from 0.160 to 0.797 on mixed constraints, outperforming Llama-3.1-70B, and generalises to unseen property combinations, out-of-range parameters and more constraints than any training prompt. The recipe transfers to Qwen3-8B, and neither trained model loses significant accuracy on general benchmarks.
+Language models can now generate symbolic music from natural-language instructions. However, existing models still struggle to satisfy multiple explicit musical constraints simultaneously. To systematically evaluate this capability, we introduce MusicConstraintBench, a benchmark of 2180 items spanning eight families of programmatically verifiable constraints. On this benchmark, Llama-3.1-70B satisfies 0.630 of single-constraint items but only 0.044 of four-constraint ones. To address this challenge, we propose MusicRLVR, which trains a language model with group relative policy optimisation (GRPO) on verifier rewards alone, needing no human annotation, reward model or music-domain supervised fine-tuning. MusicRLVR incorporates (1) a hard validation gate that rejects malformed scores, (2) graded per-family credit that, unlike a binary reward, separates partially correct outputs, and (3) an all-satisfied bonus for meeting every constraint at once. Extensive experiments show that, after 300 GRPO updates, MusicRLVR raises Qwen3-4B-Instruct-2507 from 0.160 to 0.807 on mixed constraints, outperforming Llama-3.1-70B, and generalises to unseen property combinations, out-of-range parameters and more constraints than any training prompt. The recipe transfers to Qwen3-8B, and neither trained model loses significant accuracy on general benchmarks.
 
 ### [On-policy Distillation with Verifiable Reward](https://arxiv.org/abs/2608.24696v4)
 

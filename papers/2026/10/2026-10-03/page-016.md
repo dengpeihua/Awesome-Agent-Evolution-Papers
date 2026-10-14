@@ -23,7 +23,7 @@
 | 2026-07-24 | Agent/LLM Self-Improvement | [CausalSmith: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference](https://arxiv.org/abs/2607.22511v4) | — |
 | 2026-07-24 | Agent/LLM Self-Improvement, Reinforcement Learning | [Teaching LLMs to Self-Evolve: Cultivating Core Meta-Skills with Reinforcement Learning](https://arxiv.org/abs/2607.21971v2) | — |
 | 2026-07-24 | LLM Continual Training | [When Machines Lie Differently: Detecting AI vs Human Fake News](https://arxiv.org/abs/2607.21967v2) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
-| 2026-07-24 | Agent/LLM Self-Improvement | [Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills](https://arxiv.org/abs/2607.22529) | ⭐ Popular code |
+| 2026-07-24 | Agent/LLM Self-Improvement | [Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills](https://arxiv.org/abs/2607.22529) | ⭐ Popular code<br>📈 Highly cited |
 | 2026-07-23 | Agent/LLM Self-Improvement | [AREX: Towards a Recursively Self-Improving Agent for Deep Research](https://arxiv.org/abs/2607.21461v3) | — |
 | 2026-07-23 | Agent Memory | [AttriMem: Attribution-Guided Process Feedback for Agent Memory Construction](https://arxiv.org/abs/2607.21106v3) | — |
 | 2026-07-22 | LLM Continual Training | [Multi-Mask Diffusion Language Models for Few-Step Generation](https://arxiv.org/abs/2607.19686v3) | — |
@@ -35,7 +35,7 @@
 | 2026-07-19 | Reinforcement Learning | [Distilled Reinforcement Learning for LLM Post-training](https://arxiv.org/abs/2607.17247v2) | — |
 | 2026-07-18 | LLM Continual Training | [AgentBrew: Lifelong Knowledge Brewing from Strong Teachers to Weak LLM Agents](https://arxiv.org/abs/2607.16851) | — |
 | 2026-07-18 | Agent Memory | [RECON: Benchmarking Agent Memory for Compositional Reasoning over Long Contexts](https://arxiv.org/abs/2607.16716) | — |
-| 2026-07-18 | Agent/LLM Self-Improvement | [PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution](https://arxiv.org/abs/2607.16636) | — |
+| 2026-07-18 | Agent/LLM Self-Improvement | [PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution](https://arxiv.org/abs/2607.16636) | 📈 Highly cited |
 | 2026-07-18 | Agent/LLM Self-Improvement, Agent Memory | [From Memory to Skills: Evidence-Grounded Co-Evolution Governance for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.16621) | — |
 | 2026-07-17 | Agent Memory | [LazyMem: Retrieve Broadly, Construct Selectively for Efficient Long-Term Agent Memory](https://arxiv.org/abs/2607.22690v2) | — |
 | 2026-07-17 | Agent Memory | [Do Agents Dream of False Memories? Black-box Visual Attacks on Long-term Memory in Multimodal AI Agents](https://arxiv.org/abs/2607.15657) | — |
@@ -71,6 +71,8 @@
 | [RSIBench-Data: Benchmarking Data-Centric Research for Recursive Self-Improvement](https://arxiv.org/abs/2607.25886v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [MemTX: Transactional Belief Commit for Stateful Agent Memory](https://arxiv.org/abs/2607.23929v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [When Machines Lie Differently: Detecting AI vs Human Fake News](https://arxiv.org/abs/2607.21967v2) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted at the International Conference on Machine Learning and Applications (ICMLA 2026) |
+| [Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills](https://arxiv.org/abs/2607.22529) | ⭐ Popular code<br>📈 Highly cited | ETH Zurich |
+| [PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution](https://arxiv.org/abs/2607.16636) | 📈 Highly cited | SUN YAT-SEN UNIVERSITY |
 | [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [HarnessBank: Semantic Gene-Bank Search with Gated Verification for Agent-Harness Self-Evolution](https://arxiv.org/abs/2607.13683v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [MemoHarness: Agent Harnesses That Learn from Experience](https://arxiv.org/abs/2607.14159) | 📈 Highly cited | University of Southern California |
@@ -166,7 +168,7 @@ Test-time scaling through iterative self-evolution with environment feedback, as
 
 - **Authors:** Huang, Siyuan, Cheng, Pengyu, Liu, Haotian, Chen, Tao, Liu, Yihao, Ni, Jingwei, Zhou, Shijie, Yang, Ziyi, Jiang, Gangwei, Zhou, Mengyu, Cheng, Yu, Jiang, Xiaoxi, Jiang, Guanjun
 - **Published:** 2026-07-24
-- **Priority:** ⭐ Popular code
+- **Priority:** ⭐ Popular code<br>📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** ETH Zurich
 - **Categories:** cs.CL
@@ -202,7 +204,7 @@ Existing self-evolving memory systems mainly improve agent memory based on textu
 
 - **Authors:** Liu, Yang, Chen, Weixing, Song, Xinshuai, Pu, Tao, Mo, Siwen, Bai, Yongjie, Chen, Zihao, Sun, Qianran, Zhong, Liruo, Shen, Ying, Lin, Liang
 - **Published:** 2026-07-18
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** SUN YAT-SEN UNIVERSITY
 - **Categories:** cs.RO

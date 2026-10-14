@@ -78,7 +78,7 @@ Generating safety-critical scenarios is essential for validating and improving a
 - **Published:** 2026-05-28
 - **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
-- **Affiliations:** Southeast University, Alibaba Group
+- **Affiliations:** Alibaba Group, Southeast University
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2605.29847v2) · [PDF](https://arxiv.org/pdf/2605.29847v2)
 

@@ -15,7 +15,7 @@
 | --- | --- | --- | --- |
 | 2026-06-17 | LLM Continual Training, Reinforcement Learning | [EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts](https://arxiv.org/abs/2606.18967v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-06-17 | Agent Memory | [Making AI Scientists Auditable from Evidence to Claim](https://arxiv.org/abs/2606.18874v4) | — |
-| 2026-06-17 | Agent Memory | [GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents](https://arxiv.org/abs/2606.18829) | ⭐ Popular code |
+| 2026-06-17 | Agent Memory | [GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents](https://arxiv.org/abs/2606.18829) | ⭐ Popular code<br>📈 Highly cited |
 | 2026-06-16 | Reinforcement Learning | [Zone of Proximal Policy Optimization: Teacher in Prompts, Not Gradients](https://arxiv.org/abs/2606.18216v5) | — |
 | 2026-06-16 | Agent/LLM Self-Improvement | [FinAcumen: Financial Multimodal Reasoning via Self-Evolving Experience Memory Harness](https://arxiv.org/abs/2606.17642v6) | — |
 | 2026-06-16 | Agent Memory | [CoreMem: Riemannian Retrieval and Fisher-Guided Distillation for Long-Term Memory in Dialogue Agents](https://arxiv.org/abs/2606.18406) | — |
@@ -69,6 +69,7 @@
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
 | [EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts](https://arxiv.org/abs/2606.18967v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026; Project Page: https://github.com/furiosa-ai/EfficientRollout |
+| [GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents](https://arxiv.org/abs/2606.18829) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Self-evolving LLM agents with in-distribution Optimization](https://arxiv.org/abs/2606.07367) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: ICML 2026<br>TU Eindhoven |
 | [Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference](https://arxiv.org/abs/2606.05922v3) | 📈 Highly cited | First author: City University of Hong Kong (Semantic Scholar author profiles) |
 
@@ -260,7 +261,7 @@ AI research systems can report improved results without establishing that the te
 
 - **Authors:** Ren, Zhe, Yang, Yibo, Chen, Yimeng, Zhao, Zijun, Fu, Benshuo, Shu, Zhihao, Zhang, Bingjie, Xu, Yangyang, Guo, Dandan, Yan, Shuicheng
 - **Published:** 2026-06-17
-- **Priority:** ⭐ Popular code
+- **Priority:** ⭐ Popular code<br>📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG

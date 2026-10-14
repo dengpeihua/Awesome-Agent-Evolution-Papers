@@ -58,7 +58,7 @@
 | 2026-03-22 | Reinforcement Learning | [Benchmarking Bengali Dialectal Bias: A Multi-Stage Framework Integrating RAG-Based Translation and Human-Augmented RLAIF](https://arxiv.org/abs/2603.21359v2) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-03-21 | Agent Memory | [MemoNoveltyAgent: A Historical Research Memory-Aware Agent Workflow for Paper Novelty Assessment](https://arxiv.org/abs/2603.20884v4) | — |
 | 2026-03-20 | LLM Continual Training | [Neither Here Nor There: Cross-Lingual Representation Dynamics of Code-Mixed Text in Multilingual Encoders](https://arxiv.org/abs/2603.19771v2) | — |
-| 2026-03-20 | Agent Memory, LLM Continual Training | [All-Mem: Agentic Lifelong Memory via Dynamic Topology Evolution](https://arxiv.org/abs/2603.19595) | — |
+| 2026-03-20 | Agent Memory, LLM Continual Training | [All-Mem: Agentic Lifelong Memory via Dynamic Topology Evolution](https://arxiv.org/abs/2603.19595) | 📈 Highly cited |
 | 2026-03-20 | Agent Memory | [Memory poisoning and secure multi-agent systems](https://arxiv.org/abs/2603.20357) | — |
 | 2026-03-20 | Agent Memory | [Memori: A Persistent Memory Layer for Efficient, Context-Aware LLM Agents](https://arxiv.org/abs/2603.19935) | 📈 Highly cited |
 | 2026-03-19 | Reinforcement Learning | [HumorGen: Cognitive Synergy for Humor Generation in Large Language Models via Persona-Based Distillation](https://arxiv.org/abs/2604.09629v3) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
@@ -74,6 +74,7 @@
 | [MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization](https://arxiv.org/abs/2603.25973) | 📈 Highly cited | University of Illinois Chicago |
 | [PERMA: Benchmarking Personalized Memory Agents via Event-Driven Preference and Realistic Task Environments](https://arxiv.org/abs/2603.23231) | 📈 Highly cited | University of Science and Technology of China |
 | [Benchmarking Bengali Dialectal Bias: A Multi-Stage Framework Integrating RAG-Based Translation and Human-Augmented RLAIF](https://arxiv.org/abs/2603.21359v2) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to the 2026 Main Conference on Empirical Methods in Natural Language Processing (EMNLP) |
+| [All-Mem: Agentic Lifelong Memory via Dynamic Topology Evolution](https://arxiv.org/abs/2603.19595) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Memori: A Persistent Memory Layer for Efficient, Context-Aware LLM Agents](https://arxiv.org/abs/2603.19935) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [HumorGen: Cognitive Synergy for Humor Generation in Large Language Models via Persona-Based Distillation](https://arxiv.org/abs/2604.09629v3) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted at EMNLP 2026 Main Conference |
 | [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718) | 📈 Highly cited | First author: The Pennsylvania State University (Semantic Scholar author profiles) |
@@ -566,7 +567,7 @@ To alleviate the heavy burden of paper screening, researchers increasingly rely 
 
 - **Authors:** Lv, Can, Chang, Heng, Tao, Shengyu, Chen, Mingju, Fan, Zhaoxin, Zhang, Ziwei, Guo, Yuchen, Zhou, Shiji
 - **Published:** 2026-03-20
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.IR
@@ -700,7 +701,7 @@ Multilingual encoder-based language models are widely used for code-mixed analys
 
 - **Authors:** Lv, Can, Chang, Heng, Tao, Shengyu, Chen, Mingju, Fan, Zhaoxin, Zhang, Ziwei, Guo, Yuchen, Zhou, Shiji
 - **Published:** 2026-03-20
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.IR

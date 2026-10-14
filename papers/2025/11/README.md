@@ -12,7 +12,7 @@
 | 2025-11-24 | Reinforcement Learning | [SLMFix: Leveraging Small Language Models for Domain Specific Language Error Fixing with Reinforcement Learning](https://arxiv.org/abs/2511.19422v2)<br>[PDF](https://arxiv.org/pdf/2511.19422v2) | arXiv | — | Citations: 3 (Semantic Scholar) |
 | 2025-11-20 | Agent/LLM Self-Improvement<br>Reinforcement Learning | [Agent0: Unleashing Self-Evolving Agents from Zero Data via Tool-Integrated Reasoning](https://arxiv.org/abs/2511.16043v2)<br>[PDF](https://arxiv.org/pdf/2511.16043v2) | arXiv.org | 📈 Highly cited | Citations: 72 (Semantic Scholar) |
 | 2025-11-19 | LLM Continual Training | [Parameter Importance-Driven Continual Learning for Foundation Models](https://arxiv.org/abs/2511.15375v2)<br>[PDF](https://arxiv.org/pdf/2511.15375v2) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
-| 2025-11-14 | Reinforcement Learning | [Honesty over Accuracy: Trustworthy Language Models through Reinforced Hesitation](https://arxiv.org/abs/2511.11500v3)<br>[PDF](https://arxiv.org/pdf/2511.11500v3) | arXiv.org | — | Citations: 4 (Semantic Scholar) |
+| 2025-11-14 | Reinforcement Learning | [Honesty over Accuracy: Trustworthy Language Models through Reinforced Hesitation](https://arxiv.org/abs/2511.11500v3)<br>[PDF](https://arxiv.org/pdf/2511.11500v3) | arXiv.org | — | Citations: 5 (Semantic Scholar) |
 
 ## Notes
 

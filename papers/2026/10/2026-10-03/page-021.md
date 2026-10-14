@@ -42,7 +42,7 @@
 | 2026-05-21 | Agent Memory, Reinforcement Learning | [What Training Data Teaches RL Memory Agents: An Empirical Study of Curriculum Effects in Memory-Augmented QA](https://arxiv.org/abs/2605.23067) | — |
 | 2026-05-21 | Agent/LLM Self-Improvement, Agent Memory | [Self-Evolving Multi-Agent Systems via Decentralized Memory](https://arxiv.org/abs/2605.22721) | — |
 | 2026-05-21 | Agent/LLM Self-Improvement | [Dynamic Mixture of Latent Memories for Self-Evolving Agents](https://arxiv.org/abs/2605.21951) | — |
-| 2026-05-20 | Agent Memory | [Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.21768) | — |
+| 2026-05-20 | Agent Memory | [Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.21768) | 📈 Highly cited |
 | 2026-05-20 | Agent Memory | [MemGym: a Long-Horizon Memory Environment for LLM Agents](https://arxiv.org/abs/2605.20833) | — |
 | 2026-05-20 | Agent Memory | [CALMem : Application-Layer Dual Memory for Conversational AI](https://arxiv.org/abs/2605.20724) | — |
 | 2026-05-20 | Agent Memory, Reinforcement Learning | [Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents](https://arxiv.org/abs/2605.20616) | — |
@@ -70,6 +70,7 @@
 | --- | --- | --- |
 | [ENPMR-Bench: Benchmarking Proactive Memory Retrieval for Emotional Support Agents](https://arxiv.org/abs/2605.27240) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [CODESKILL: Learning Self-Evolving Skills for Coding Agents](https://arxiv.org/abs/2605.25430v2) | 📈 Highly cited | First author: Nanyang Technological University (Semantic Scholar author profiles) |
+| [Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.21768) | 📈 Highly cited | Centre for Information and Language Processing, LMU Munich |
 | [EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective](https://arxiv.org/abs/2605.18421) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [OEP: Poisoning Self-Evolving LLM Agents via Locally Correct but Non-Transferable Experiences](https://arxiv.org/abs/2605.18930) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents](https://arxiv.org/abs/2605.18652) | 📈 Highly cited | University of Wisconsin-Madison, Xi'an Jiaotong University |
@@ -502,7 +503,7 @@ Self-evolving multi-agent systems (MAS) have emerged as a promising route to LLM
 
 - **Authors:** Yan, Sikuan, Bahloul, Ahmed, Nie, Ercong, Schwarzmann, Susanna, Trivisonno, Riccardo, Tresp, Volker, Ma, Yunpu
 - **Published:** 2026-05-20
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** Centre for Information and Language Processing, LMU Munich
 - **Categories:** cs.LG
