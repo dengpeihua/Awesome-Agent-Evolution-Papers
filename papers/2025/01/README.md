@@ -6,8 +6,8 @@
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
-| 2025-01-30 | Long-Horizon Task Agents | [Integrating LMM Planners and 3D Skill Policies for Generalizable Manipulation](https://arxiv.org/abs/2501.18733v1)<br>[PDF](https://arxiv.org/pdf/2501.18733v1) | arXiv | — | — |
-| 2025-01-16 | Long-Horizon Task Agents | [SOP-Agent: Empower General Purpose AI Agent with Domain-Specific SOPs](https://arxiv.org/abs/2501.09316v1)<br>[PDF](https://arxiv.org/pdf/2501.09316v1) | arXiv | — | — |
+| 2025-01-30 | Long-Horizon Task Agents | [Integrating LMM Planners and 3D Skill Policies for Generalizable Manipulation](https://arxiv.org/abs/2501.18733v1)<br>[PDF](https://arxiv.org/pdf/2501.18733v1) | arXiv.org | — | Citations: 8 (Semantic Scholar) |
+| 2025-01-16 | Long-Horizon Task Agents | [SOP-Agent: Empower General Purpose AI Agent with Domain-Specific SOPs](https://arxiv.org/abs/2501.09316v1)<br>[PDF](https://arxiv.org/pdf/2501.09316v1) | arXiv.org | 📈 Highly cited | Citations: 14 (Semantic Scholar) |
 
 ## Notes
 

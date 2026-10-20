@@ -40,7 +40,7 @@
 | 2026-06-02 | Agent/LLM Self-Improvement, Agent Memory, Long-Horizon Task Agents | [PhotoCraft: Agentic Reasoning with Hierarchical Self-Evolving Memory for Deep Image Search](https://arxiv.org/abs/2606.03099v1) | — |
 | 2026-06-02 | Reinforcement Learning | [Learning to Solve, Forgetting to Retain: Correct-Set Turnover in RLVR](https://arxiv.org/abs/2606.03087v2) | — |
 | 2026-06-02 | Reinforcement Learning | [Libra: Efficient Resource Management for Agentic RL Post-Training](https://arxiv.org/abs/2606.03077v3) | — |
-| 2026-06-02 | Agent/LLM Self-Improvement | [SkillDAG: Self-Evolving Typed Skill Graphs for LLM Skill Selection at Scale](https://arxiv.org/abs/2606.03056) | 📈 Highly cited |
+| 2026-06-02 | Agent/LLM Self-Improvement | [SkillDAG: Self-Evolving Typed Skill Graphs for LLM Skill Selection at Scale](https://arxiv.org/abs/2606.03056v3) | 📈 Highly cited |
 | 2026-06-02 | LLM Continual Training | [RIZZ: Routing Interactions to Near Zero-Interference Zones for Continual Adaptation of Black-Box Agents](https://arxiv.org/abs/2606.20638) | — |
 | 2026-06-02 | Agent Memory | [Exploring the Topology and Memory of Consensus: How LLM Agents Agree, Fragment, or Settle When Forming Conventions](https://arxiv.org/abs/2606.04197) | — |
 | 2026-06-02 | Agent Memory | [SaliMory: Orchestrating Cognitive Memory for Conversational Agents](https://arxiv.org/abs/2606.04120) | — |
@@ -73,7 +73,7 @@
 | [TOKI: A Bitemporal Operator Algebra for Contradiction Resolution in LLM-Agent Persistent Memory](https://arxiv.org/abs/2606.06240) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [From Untrusted Input to Trusted Memory: A Systematic Study of Memory Poisoning Attacks in LLM Agents](https://arxiv.org/abs/2606.04329) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Agent libOS: A Runtime Substrate for Capability-Controlled Self-Evolving LLM Agents](https://arxiv.org/abs/2606.03895v3) | 📈 Highly cited | First author: Tsinghua University (Semantic Scholar author profiles) |
-| [SkillDAG: Self-Evolving Typed Skill Graphs for LLM Skill Selection at Scale](https://arxiv.org/abs/2606.03056) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [SkillDAG: Self-Evolving Typed Skill Graphs for LLM Skill Selection at Scale](https://arxiv.org/abs/2606.03056v3) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Reasoning with Sampling: Cutting at Decision Points](https://arxiv.org/abs/2605.30327v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: to be published in NeurIPS 2026 |
 | [GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents](https://arxiv.org/abs/2605.29668v3) | 📈 Highly cited<br>🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted at EMNLP 2026 (Main Conference). Code and data: https://github.com/jomoll/GRASP |
 
@@ -199,17 +199,17 @@ Recent progress in Large Language Model (LLM) agents has enabled promising advan
 
 Deep Image Search requires multi-step reasoning over rich contextual cues, such as time, location, and event relations. However, most existing LLM-based agents are stateless and reactive, lacking persistent memory to maintain long-horizon context or transfer experience across tasks, which often leads to execution drift and experience isolation. To address these limitations, we propose PhotoCraft, a training-free, hierarchical memory system for photo-search agents. Inspired by human cognition, PhotoCraft equips MLLMs with working, episodic, and semantic memory, which are dynamically invoked during reasoning to preserve logical consistency and knowledge transferability throughout multi-step reasoning and answer generation. Extensive experiments on DISBench demonstrate that PhotoCraft consistently improves context-aware retrieval across diverse MLLM backbones, achieving gains of up to 18.5\% and effectively mitigating key bottlenecks in memoryless deep image search, offering a practical path toward reliable and generalizable multimodal search agents.
 
-### [SkillDAG: Self-Evolving Typed Skill Graphs for LLM Skill Selection at Scale](https://arxiv.org/abs/2606.03056)
+### [SkillDAG: Self-Evolving Typed Skill Graphs for LLM Skill Selection at Scale](https://arxiv.org/abs/2606.03056v3)
 
-- **Authors:** Bai, Tong, Wan, Zhenglin, Zhou, Pengfei, Yu, Xingrui, You, Yang, Tsang, Ivor W.
+- **Authors:** Tong Bai, Zhenglin Wan, Pengfei Zhou, Xingrui Yu, Yang You, Ivor W. Tsang
 - **Published:** 2026-06-02
 - **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2606.03056) · [PDF](https://arxiv.org/pdf/2606.03056)
+- **Links:** [Paper](https://arxiv.org/abs/2606.03056v3) · [PDF](https://arxiv.org/pdf/2606.03056v3)
 
-As LLM agents adopt large skill libraries, selecting the right subset becomes a structural problem rather than a similarity-matching one: skills depend on, conflict with, specialize, or duplicate one another, a structure invisible to both full enumeration and embedding similarity. We present SkillDAG, which models inter-skill relationships as a typed directed graph and exposes it to an LLM agent as an inference-time, agent-callable structural retrieval interface, queried and evolved during execution rather than baked into a fixed retrieval pipeline: each search returns vector matches, typed-edge neighbors, and conflict signals, and a propose-then-commit protocol lets the agent register execution-backed edges so the graph accumulates structure across episodes. On ALFWorld and SkillsBench with MiniMax-M2.7, SkillDAG reaches 67.1% success and 27.3% reward, exceeding the strongest reported Graph-of-Skills baseline by +12.8 and +8.6 points; the advantage ports to gpt-5.2-codex, and intrinsic SkillsBench Ret@K rises from 65.5 to 78.2 under matched queries. These gains trace to isolable mechanisms: candidate ranking that stays robust as the pool grows 10x where a fixed seeding-diffusion pipeline degrades, and set-monotone online edits that enlarge ground-truth recall without evicting prior hits.
+Large skill libraries are now standard equipment for LLM agents, and which subset reaches the prompt decides what the agent can do. Enumeration and top-$K$ embedding retrieval both treat skills as independent documents, assuming relevance is a property of one skill at a time. It is not: skills depend on, conflict with, specialize, and duplicate one another, so the closest match to a task can name it while omitting a prerequisite it needs. Graph retrieval encodes these relations but spends them in a fixed pipeline, handing the agent an opaque bundle. We present SkillDAG, which exposes a typed skill graph to the LLM as an agent-callable interface rather than consuming it for the agent: search returns vector matches, typed-edge neighbors, and conflict signals, and a propose-then-commit protocol lets it register execution-backed edges as it works. Across two benchmarks and three model families, SkillDAG outperforms full-library prompting, vector retrieval, and Graph-of-Skills, gaining +14.3 points of ALFWorld success and tying only at ceiling; its ranking holds flat across a $10\times$ pool expansion that degrades the fixed pipeline. Inter-skill structure, these results suggest, is worth more to an agent that can query and revise it than to a retriever that consumes it.
 
 ### [EvoMemNav: Efficient Self-Evolving Fine-Grained Memory for Zero-Shot Embodied Navigation](https://arxiv.org/abs/2606.03509)
 
