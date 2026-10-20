@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 from dataclasses import replace
+from datetime import UTC, datetime
 from typing import Final
 
 from .models import Paper
@@ -220,7 +221,7 @@ def qualification_reasons(paper: Paper) -> tuple[str, ...]:
 def is_eligible(paper: Paper) -> bool:
     """Include topical papers; priority evidence is a label, not an entry barrier."""
     return bool(
-        paper.published >= MIN_PUBLICATION_DATE
+        MIN_PUBLICATION_DATE <= paper.published <= datetime.now(UTC)
         and REQUIRED_TOPICS.intersection(infer_topics(paper))
     )
 

@@ -91,9 +91,11 @@ def _write_report(root: Path, candidates: list[Paper], papers: tuple[Paper, ...]
         "",
         "## Scope",
         "",
-        "The public corpus covers four directions: every paper must address Agent/LLM "
+        "The public corpus covers five directions plus explicit requests: "
+        "papers address Agent/LLM "
         "self-evolution, self-improving systems, recursive self-improvement, Agent Memory, "
-        "LLM continual training, or language-model/agent Reinforcement Learning. "
+        "LLM continual training, language-model/agent Reinforcement Learning, "
+        "or long-horizon agents. "
         "First publication must be on or after 2025-01-01. Priority evidence is optional.",
         "",
         "## Current result",

@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -60,7 +60,7 @@
 | 2026-09-28 | Agent/LLM Self-Improvement | [F4R: Failure-Driven Recognition, Reconstruction, Refinement, and Redeployment for Continual Robot Self-Improvement](https://arxiv.org/abs/2609.35575v2) | — |
 | 2026-09-28 | Agent/LLM Self-Improvement, Agent Memory | [From Experience to Expertise: Adoption-Aware Memory Learning for Data-Scarce NPU Kernel Synthesis](https://arxiv.org/abs/2609.35568v1) | — |
 | 2026-09-28 | Agent/LLM Self-Improvement | [RSI-Master: Structuring Experiments to Guide Autonomous Model Improvement](https://arxiv.org/abs/2609.35561v2) | — |
-| 2026-09-28 | Reinforcement Learning | [Continuous Context Management](https://arxiv.org/abs/2609.35540v1) | — |
+| 2026-09-28 | Reinforcement Learning, Long-Horizon Task Agents | [Continuous Context Management](https://arxiv.org/abs/2609.35540v1) | — |
 | 2026-09-28 | Agent/LLM Self-Improvement, LLM Continual Training | [ARISE: Adapting to Evolving Capability Gaps in Agentic Reinforcement Learning](https://arxiv.org/abs/2609.35532v1) | — |
 | 2026-09-28 | LLM Continual Training | [AutoBCI: Forecast-Guided Agentic Neural Architecture Discovery for EEG-Based Brain--Computer Interfaces](https://arxiv.org/abs/2609.35456v1) | — |
 
@@ -774,6 +774,20 @@ Large language models (LLMs) excel at structured, verifiable tasks, but their lo
 - **Links:** [Paper](https://arxiv.org/abs/2609.35677v1) · [PDF](https://arxiv.org/pdf/2609.35677v1)
 
 In reinforcement learning with verifiable rewards (RLVR), imperfect verifiers can reward incorrect responses, creating opportunities for reward hacking. Using gradient flow with a fixed verifier, we characterize the conditions under which reward rises while correctness falls. We then show that the observations available during RLVR are, in general, insufficient to detect or identify accepted errors, or to guarantee their reduction without sacrificing correct responses. To address this limit, we construct a correction using additional feedback about correctness from audits. This correction achieves \emph{selective control}: at the current policy, it lowers the probability of accepted errors and raises that of correct responses, provided it outweighs the pressure toward errors from verifier reward. Experiments with log linear and neural contextual bandits and with a language model support the analysis and show that selective control under partial auditing reduces accepted errors while increasing correctness.
+
+### [Continuous Context Management](https://arxiv.org/abs/2609.35540v1)
+
+- **Authors:** William Hoy, Jingxuan Fan, Nurcin Celik, Xu Pan
+- **Published:** 2026-09-28
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2609.35540v1) · [PDF](https://arxiv.org/pdf/2609.35540v1)
+
+Long-horizon large language model (LLM) agents commonly retain their complete interaction history until compaction is triggered at a predefined threshold. We study Continuous Context Management (CCM), which performs compaction at every turn to prevent interaction history from accumulating in the active prompt. At each turn, a CCM agent emits an updated memory together with an environment action; its next prompt contains the original task, retained memory, and newest observation rather than the complete transcript. We first evaluate CCM without fine-tuning on TerminalBench-2 using Claude Sonnet 4.6, Claude Opus 4.6, GLM-5, and Kimi K3. CCM substantially reduces cumulative input usage and active-prompt size, although it lowers task success for most models while preserving performance for Kimi K3. We use GRPO with privileged full-history distillation to improve CCM in open-weight models. A frozen copy of the student's initial model scores each sampled student action under the complete history reconstructed from that student's rollout, providing dense action-token supervision without a separate teacher rollout or reference solution. On WebShop, this objective substantially improves CCM over GRPO at both evaluated model scales and surpasses full-history GRPO for Qwen3-4B-Instruct, though not for Qwen3-8B. On Endless Terminals, the augmented method provides a modest improvement over GRPO, with both CCM policies outperforming the untrained full-history baseline. These results demonstrate that CCM is a viable inference paradigm for agents operating with substantially reduced retained context and that its performance can be improved through reinforcement learning with privileged full-history distillation.
+
+## Long-Horizon Task Agents
 
 ### [Continuous Context Management](https://arxiv.org/abs/2609.35540v1)
 

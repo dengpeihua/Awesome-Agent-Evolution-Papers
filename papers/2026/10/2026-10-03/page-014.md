@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -26,13 +26,13 @@
 | 2026-08-06 | Agent/LLM Self-Improvement | [When Experience Becomes Instruction: Trajectory Poisoning in Self-Evolving Agent Skill Systems](https://arxiv.org/abs/2608.05563v2) | — |
 | 2026-08-06 | LLM Continual Training | [Different Perturbations, Different Mechanisms: Understanding Continued Pre-training for Zero-Shot Dialect Robustness](https://arxiv.org/abs/2608.05510v1) | — |
 | 2026-08-05 | Agent/LLM Self-Improvement | [AutoScientist-Quant: Self-Evolving Coding Agents for Automatic Research in Quantitative Investment](https://arxiv.org/abs/2608.28632v2) | — |
-| 2026-08-05 | Agent/LLM Self-Improvement, Reinforcement Learning | [EvoHarness-RL: Learning Runtime Harness Coordination for Self-Evolving Agents](https://arxiv.org/abs/2608.05446v2) | — |
+| 2026-08-05 | Agent/LLM Self-Improvement, Reinforcement Learning, Long-Horizon Task Agents | [EvoHarness-RL: Learning Runtime Harness Coordination for Self-Evolving Agents](https://arxiv.org/abs/2608.05446v2) | — |
 | 2026-08-05 | Agent/LLM Self-Improvement | [Argus: A General-Purpose Agentic Reasoning Runtime for Long-Horizon Tasks](https://arxiv.org/abs/2608.05144v2) | — |
-| 2026-08-05 | Agent/LLM Self-Improvement | [OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling](https://arxiv.org/abs/2608.05141v2) | — |
+| 2026-08-05 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling](https://arxiv.org/abs/2608.05141v2) | — |
 | 2026-08-05 | Agent/LLM Self-Improvement | [EvolveNet: Collaborative Harness Evolution for Agent Self-Improvement](https://arxiv.org/abs/2608.04968v1) | — |
 | 2026-08-05 | Agent/LLM Self-Improvement | [Search2Skill: Skill Distillation Beyond Knowledge Boundaries Via Rubric-Based Reinforcement Learning](https://arxiv.org/abs/2608.05245v1) | — |
 | 2026-08-05 | Agent/LLM Self-Improvement | [A-SR: Self-Evolving Agentic LLMs for Symbolic Regression via Hierarchical Coordination](https://arxiv.org/abs/2608.04872v2) | — |
-| 2026-08-05 | Agent Memory | [MemoryCPT: An End-to-End Agent Memory Framework for Cost-Performance Trade-off](https://arxiv.org/abs/2608.04843v1) | — |
+| 2026-08-05 | Agent Memory, Long-Horizon Task Agents | [MemoryCPT: An End-to-End Agent Memory Framework for Cost-Performance Trade-off](https://arxiv.org/abs/2608.04843v1) | — |
 | 2026-08-05 | Agent/LLM Self-Improvement | [InsightEmb: Learning Action-Intent Embeddings for Agentic Insight Retrieval](https://arxiv.org/abs/2608.04761v2) | — |
 | 2026-08-05 | Agent Memory | [Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems](https://arxiv.org/abs/2608.04746v1) | — |
 | 2026-08-05 | Agent/LLM Self-Improvement | [A/B Agent: A Self-Evolving Agent for Strategy Iteration in Industrial A/B Testing](https://arxiv.org/abs/2608.04625v1) | — |
@@ -43,7 +43,7 @@
 | 2026-08-04 | Agent Memory | [SafeCommit: Certifying When Memory-Grounded Agents May Safely Act](https://arxiv.org/abs/2608.04289v1) | — |
 | 2026-08-04 | Agent/LLM Self-Improvement | [PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents](https://arxiv.org/abs/2608.04003v1) | — |
 | 2026-08-04 | LLM Continual Training | [ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?](https://arxiv.org/abs/2608.03874v2) | — |
-| 2026-08-04 | Agent Memory | [MAFIA: Query-Only Memory Attacks via Probing and Factual Injection against Audited LLM Agents](https://arxiv.org/abs/2608.03844v1) | — |
+| 2026-08-04 | Agent Memory, Long-Horizon Task Agents | [MAFIA: Query-Only Memory Attacks via Probing and Factual Injection against Audited LLM Agents](https://arxiv.org/abs/2608.03844v1) | — |
 | 2026-08-04 | Agent/LLM Self-Improvement | [GDPevo: Evaluating Agent Self-Evolution on Real Business Tasks](https://arxiv.org/abs/2608.03764v1) | — |
 | 2026-08-04 | Agent/LLM Self-Improvement | [SkillJack: Persistent Skill Backdoors in Self-Evolving Agents](https://arxiv.org/abs/2608.03509v2) | — |
 | 2026-08-04 | LLM Continual Training | [Beyond Initialization Loss: A Systematic Study of Token Embedding Initialization Strategies for LLM Vocabulary Extension](https://arxiv.org/abs/2608.03494v1) | — |
@@ -55,7 +55,7 @@
 | 2026-08-03 | Agent Memory | [MutMem: Cryptographically Authorized Mutation in Persistent Agent Memory](https://arxiv.org/abs/2608.02843v1) | — |
 | 2026-08-03 | Agent/LLM Self-Improvement, Agent Memory | [RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States](https://arxiv.org/abs/2608.02508v3) | — |
 | 2026-08-03 | LLM Continual Training | [Local Margin Restoration for Test-Time Adaptation of Vision-Language Models](https://arxiv.org/abs/2608.02216v1) | — |
-| 2026-08-03 | Agent Memory | [EvoGraph-Mem: Failure-Aware Editable Graph Memory for Long-Term Language Agents](https://arxiv.org/abs/2608.11248v1) | — |
+| 2026-08-03 | Agent Memory, Long-Horizon Task Agents | [EvoGraph-Mem: Failure-Aware Editable Graph Memory for Long-Term Language Agents](https://arxiv.org/abs/2608.11248v1) | — |
 | 2026-08-03 | Agent/LLM Self-Improvement, Agent Memory | [CoEvoKG: Co-Evolving Knowledge Graphs with Self-Evolving Search Agents](https://arxiv.org/abs/2608.01904v1) | — |
 | 2026-08-03 | Agent/LLM Self-Improvement | [Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting Weights to Robots that Write their Own Skills](https://arxiv.org/abs/2608.01851v1) | — |
 | 2026-08-03 | Agent/LLM Self-Improvement | [Benign Alone, Harmful Together: Exploiting Experience Composition in Self-Evolving LLM Agents](https://arxiv.org/abs/2608.01759v1) | — |
@@ -719,3 +719,65 @@ Autonomous cyber defense systems based on Deep Reinforcement Learning (DRL) have
 - **Links:** [Paper](https://arxiv.org/abs/2608.01717v2) · [PDF](https://arxiv.org/pdf/2608.01717v2)
 
 Recent reinforcement learning methods for diffusion large language models (dLLMs) commonly rely on on-policy rollouts generated by the target dLLM itself. When successful on-policy rollouts are scarce, however, on-policy training may receive little positive reward and make only limited progress. To mitigate this problem, we explore incorporating higher-reward rollouts generated by a stronger external policy alongside on-policy rollouts from the target dLLM. However, directly incorporating these external rollouts introduces two practical challenges: differences in rollout length and instability when jointly processing rewards from on-policy and external rollouts. To address these challenges, we propose External Rollout Integration with Length Control and Source-Specific Processing (ERILS), which controls external-rollout length and processes the rewards of on-policy and external rollouts separately. Experiments on Sudoku, Countdown, and MATH500 under zero-shot evaluation show that ERILS improves multi-sample performance across all three tasks, with the largest gains on Sudoku. On Sudoku, ERILS achieves 98.4% best-of-4 completion accuracy, compared with 40.3% for the strongest baseline. ERILS also maintains approximately 90% deterministic single-completion accuracy on Sudoku across generation lengths of 128, 256, and 512 tokens. Our component analysis further shows that length-controlled external rollouts are more effective than uncontrolled external rollouts, and that source-specific reward processing avoids the training collapse observed with joint reward processing. These results show that rollout construction and reward processing are important design dimensions when integrating external rollouts into dLLM reinforcement learning.
+
+## Long-Horizon Task Agents
+
+### [EvoHarness-RL: Learning Runtime Harness Coordination for Self-Evolving Agents](https://arxiv.org/abs/2608.05446v2)
+
+- **Authors:** Xuying Ning, Dongqi Fu, Tianxin Wei, Yuanchen Bei, Xiyuan Yang, Wujiang Xu, Yueqi Song, Bingxuan Li, Zihao Li, Hanqing Zeng, Xiang Shen, Yajuan Wang, Yifan Wu, Qifan Wang, Jiayi Liu, Hong Li, Yinglong Xia, Xiangjun Fan, Hanghang Tong, Jingrui He
+- **Published:** 2026-08-05
+- **Priority:** —
+- **Venue:** COLM 2026
+- **Affiliations:** University of Illinois Urbana-Champaign
+- **Categories:** cs.LG, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2608.05446v2) · [PDF](https://arxiv.org/pdf/2608.05446v2)
+
+Long-horizon LLM agents increasingly rely on external execution support to maintain state, track progress, recover from failures, and reuse experience across extended interactions. Yet existing harnesses and their use are often tailored to environments and controlled through prompts, heuristics, or system-specific rules, making agent and harness coordination difficult to jointly optimize. We introduce EvoHarness-RL, a unified framework that separates environment-specific harness implementations from a shared policy-facing interface. EvoHarness-RL organizes external support into a Belief, Progress, and Experience (BPE) workspace and exposes four compact harness actions for accessing and updating this state. We first instantiate BPE as an inference-time scaffold and then make harness coordination learnable through supervised initialization followed by cost-aware GRPO. Across heterogeneous long-horizon tasks, EvoHarness-Base improves the average success rate of frontier models by 10.0 percentage points, while EvoHarness-RL outperforms the strongest open-source baseline by 8.5 percentage points, together with higher RL rollout efficiency and stronger generalization to unseen tasks. Our analyses show that training gradually shifts agents from frequent scaffold use toward selective, environment-dependent harness access as the policy becomes more capable, while the external workspace continues to evolve and refine itself to better support task execution and generalization. Together, these results show that long-horizon agents benefit not only from external scaffolding itself, but also from learning how and when to coordinate with external support as part of a cost-aware policy.
+
+### [OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling](https://arxiv.org/abs/2608.05141v2)
+
+- **Authors:** Indraneil Paul, Falko Helm, Goran Glavaš, Iryna Gurevych
+- **Published:** 2026-08-05
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.LG, cs.SE
+- **Links:** [Paper](https://arxiv.org/abs/2608.05141v2) · [PDF](https://arxiv.org/pdf/2608.05141v2)
+
+Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. However, existing long-context corpora are dominated by books, academic articles, and code repositories, which are finite and often lack long-distance dependencies. In this work, we introduce OctoLong, a context-engineering pipeline that instruments an AST parser, a language server backend, and a package manager to recursively retrieve code references, enabling the curation of dependency-rich code contexts up to millions of tokens long. We then train OctoLong-Instruct, a suite of capable long-context open LMs, derived from base models ranging in size from 600M to 14B parameters, via context-extension mid-training on a approx 50B-token mixture containing approx 6.2B tokens of OctoLong code contexts, followed by approx 10B tokens of instruction tuning. Our ablations and experimental evaluations against 18 strong long-context open-weight LMs show that supplanting just 12% of conventional context-extension corpora with OctoLong data yields substantial gains in long-range retrieval, long-term state tracking, repository-level code understanding, and downstream agentic tasks, while also enhancing API usage in regular coding scenarios.
+
+### [MemoryCPT: An End-to-End Agent Memory Framework for Cost-Performance Trade-off](https://arxiv.org/abs/2608.04843v1)
+
+- **Authors:** Songxin Lei, Kun Ouyang, Weilin Ruan, Yuqian Wu, Zhijiang Guo, Yushi Sun, Fugee Tsung
+- **Published:** 2026-08-05
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** HKUST, HKUST (GZ)
+- **Categories:** cs.IR
+- **Links:** [Paper](https://arxiv.org/abs/2608.04843v1) · [PDF](https://arxiv.org/pdf/2608.04843v1)
+
+Long-horizon LLM agents require memory systems that recover useful evidence from large interaction histories without passing excessive context to downstream models. Existing memory pipelines often rely on hand-crafted heuristics and repeated LLM calls, which can introduce redundant context and high inference cost. We propose MemoryCPT, an end-to-end trainable agent memory pipeline that spans offline memory construction and online query-conditioned context generation. MemoryCPT consists of two stages: Query-agnostic Distillation (QAD), which distills a modular memory-construction pipeline into a compact model using explicit reasoning traces; and Query-aware Retrieval and Summarization (QAR), which combines reciprocal rank fusion (RRF) with a LoRA-based summarizer trained via Group Relative Policy Optimization (GRPO) under a cost-aware reward. We further introduce Quality per Cost (QPC) to quantify answer quality per unit inference cost. Experiments on LoCoMo and LongMemEval show that MemoryCPT improves the cost-performance trade-off over the evaluated baselines, while ablation and sensitivity analyses characterize the contributions of its components and the effects of key design choices.
+
+### [MAFIA: Query-Only Memory Attacks via Probing and Factual Injection against Audited LLM Agents](https://arxiv.org/abs/2608.03844v1)
+
+- **Authors:** Jiaming Chen, Yisen Gao, Yanping Li, Zifan Liu, Yumeng Zhang, Jun Zhang
+- **Published:** 2026-08-04
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2608.03844v1) · [PDF](https://arxiv.org/pdf/2608.03844v1)
+
+Memory-augmented LLM agents rely on rich context for long-horizon reasoning and acting, yet their memory modules expose a persistent attack surface for malicious records, making the study of memory poisoning threats imperative. However, existing query-only attacks often fail to remain effective in two realistic and prevalent settings: large-scale benign memory pools and active input auditing. Consequently, current approaches fall short when facing the dual challenges of high retrieval competitiveness and rigorous semantic checks. To overcome these limitations, we propose MAFIA, a query-only Memory Attack framework via probing and Factual Injection against Audit, tailored to this extended threat model. Specifically, MAFIA introduces: (1) a placement strategy that ensures retrieval-competitive injection via memory probing, budget allocation, and scheduling; and (2) a payload design that bypasses audits using compact factual cloaks, preserving malicious effects while maintaining high semantic similarity. Extensive evaluations reveal that MAFIA achieves up to a 90.7% attack success rate while suppressing audit detection from a peak of 83.3% to at most 7.4%, exposing critical vulnerabilities across agentic memory systems. Code will be made publicly available at https://github.com/JiamingChen1234/MAFIA.
+
+### [EvoGraph-Mem: Failure-Aware Editable Graph Memory for Long-Term Language Agents](https://arxiv.org/abs/2608.11248v1)
+
+- **Authors:** Yuxi Qian, Yuxiang Ren
+- **Published:** 2026-08-03
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2608.11248v1) · [PDF](https://arxiv.org/pdf/2608.11248v1)
+
+Long-term memory is essential for language agents operating across extended interactions and evolving tasks. Existing memory-augmented agents mainly focus on storing and retrieving past experience, but the quality of stored memories may degrade over time. In particular, previously distilled insights can become outdated, over-generalized, or harmful under new task contexts, causing memory pollution when repeatedly reused. To address this issue, we study insight-level memory maintenance for long-term language agents and propose a failure-aware memory maintenance framework based on an editable insight graph. Each insight node tracks positive evidence, negative evidence, and an activation state, enabling the agent to distinguish reusable insights from conflicting or invalid ones. We further introduce a utility-aware retrieval mechanism and a graph controller that updates the memory graph after task execution by keeping reliable insights, archiving invalid ones, revising outdated ones, and adding newly discovered reusable insights. Extensive experiments show that our method consistently outperforms representative memory-based agent baselines across different backbone models. Ablation studies further demonstrate that append-only memory is insufficient for long-horizon tasks, while evidence-aware retrieval and graph-level editing improve memory reliability and downstream task performance.

@@ -137,3 +137,39 @@ def test_rl_rejects_incidental_mentions_and_legacy_tags(title, abstract):
 )
 def test_rl_keeps_explicit_language_policy_training(title, abstract):
     assert rl_relevance_evidence(title, abstract)
+
+
+@pytest.mark.parametrize(
+    "title,abstract,expected",
+    [
+        ("Long-Horizon LLM Agents", "We evaluate tool-use tasks.", True),
+        ("Shopping assistants", "LLM agents fail in long trajectories.", True),
+        ("Long horizon robot control", "A classical agent uses a control policy.", False),
+        ("Long-context language models", "An LLM agent summarizes a document.", False),
+    ],
+)
+def test_long_horizon_requires_language_agent_and_task_horizon(title, abstract, expected):
+    paper = replace(
+        make_paper("2610.00001", topics=("long-horizon-agent",)), title=title, abstract=abstract
+    )
+    assert ("long-horizon-agent" in infer_topics(paper)) is expected
+
+
+def test_user_requested_distillation_is_preserved_without_forcing_rl():
+    paper = replace(
+        make_paper("2609.30837", topics=("user-requested",)),
+        title="MOPD-Router: Multi-Teacher On-Policy Distillation",
+        abstract="We route teacher supervision at each token.",
+    )
+    assert infer_topics(paper) == ("user-requested",)
+
+
+@pytest.mark.parametrize(
+    "title",
+    [
+        "Group-in-Group Policy Optimization for LLM Agent Training",
+        "ShopSimulator: Evaluating and Exploring RL-Driven LLM Agent for Shopping Assistants",
+    ],
+)
+def test_requested_agent_rl_titles_are_recognized(title):
+    assert rl_relevance_evidence(title, "We evaluate language agents.")

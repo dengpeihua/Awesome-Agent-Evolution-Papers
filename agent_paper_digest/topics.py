@@ -10,6 +10,8 @@ SELF_EVOLUTION_TOPIC: Final = "agent-llm-self-evolution"
 AGENT_MEMORY_TOPIC: Final = "agent-memory"
 CONTINUAL_TRAINING_TOPIC: Final = "llm-continual-training"
 REINFORCEMENT_LEARNING_TOPIC: Final = "reinforcement-learning"
+LONG_HORIZON_TOPIC: Final = "long-horizon-agent"
+REQUESTED_TOPIC: Final = "user-requested"
 MIN_PUBLICATION_DATE: Final = datetime(2025, 1, 1, tzinfo=UTC)
 
 TOPIC_ORDER: Final = (
@@ -17,6 +19,8 @@ TOPIC_ORDER: Final = (
     AGENT_MEMORY_TOPIC,
     CONTINUAL_TRAINING_TOPIC,
     REINFORCEMENT_LEARNING_TOPIC,
+    LONG_HORIZON_TOPIC,
+    REQUESTED_TOPIC,
 )
 TOPIC_TITLES: Final = {
     SELF_EVOLUTION_TOPIC: (
@@ -25,12 +29,16 @@ TOPIC_TITLES: Final = {
     AGENT_MEMORY_TOPIC: "Agent Memory",
     CONTINUAL_TRAINING_TOPIC: "LLM Continual Training & Continual Learning",
     REINFORCEMENT_LEARNING_TOPIC: "Reinforcement Learning",
+    LONG_HORIZON_TOPIC: "Long-Horizon Task Agents",
+    REQUESTED_TOPIC: "Explicitly Requested Papers",
 }
 TOPIC_SHORT: Final = {
     SELF_EVOLUTION_TOPIC: "Agent/LLM Self-Improvement",
     AGENT_MEMORY_TOPIC: "Agent Memory",
     CONTINUAL_TRAINING_TOPIC: "LLM Continual Training",
     REINFORCEMENT_LEARNING_TOPIC: "Reinforcement Learning",
+    LONG_HORIZON_TOPIC: "Long-Horizon Task Agents",
+    REQUESTED_TOPIC: "Explicitly Requested Papers",
 }
 REQUIRED_TOPICS: Final = frozenset(TOPIC_ORDER)
 
@@ -77,7 +85,8 @@ LANGUAGE_CONTEXT: Final = re.compile(
 )
 RL_METHOD: Final = re.compile(
     r"\b(?:reinforcement[- ]learning|RLHF|RLAIF|RLVR|GRPO|PPO|"
-    r"(?:group relative|proximal) policy optimi[sz]ation)\b",
+    r"(?:group relative|proximal|group[- ]in[- ]group) policy optimi[sz]ation|"
+    r"GiGPO|RL[- ](?:driven|trained))\b",
     re.IGNORECASE,
 )
 RL_CONTRIBUTION: Final = re.compile(
@@ -158,7 +167,20 @@ def infer_topics_from_text(
 ) -> tuple[str, ...]:
     """Infer the requested directions while requiring an Agent/LLM context."""
     text = f"{title}\n{abstract}"
-    topics = set(normalize_topics(existing)) - {REINFORCEMENT_LEARNING_TOPIC}
+    topics = set(normalize_topics(existing)) - {REINFORCEMENT_LEARNING_TOPIC, LONG_HORIZON_TOPIC}
+    if (
+        LANGUAGE_CONTEXT.search(text)
+        and re.search(r"\bagent(?:s|ic)?\b", text, re.I)
+        and re.search(
+            (
+                r"\b(?:long[- ]?horizon|long[- ](?:trajectories|running tasks)|"
+                r"multi[- ]step tasks|extended[- ]horizon)\b"
+            ),
+            text,
+            re.I,
+        )
+    ):
+        topics.add(LONG_HORIZON_TOPIC)
     if AGENT_LLM_PATTERN.search(text) and SELF_EVOLUTION_PATTERN.search(text):
         topics.add(SELF_EVOLUTION_TOPIC)
     if AGENT_LLM_PATTERN.search(text) and AGENT_MEMORY_PATTERN.search(text):

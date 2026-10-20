@@ -2,12 +2,26 @@
 
 [← Back to main index](../../../README.md)
 
-> 2 unique papers · Agent/LLM Self-Improvement 0 · Memory 0 · Continual Training 0 · Reinforcement Learning 2
+> 16 unique papers · Agent/LLM Self-Improvement 2 · Memory 0 · Continual Training 1 · Reinforcement Learning 5 · Long-Horizon 14
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
+| 2025-02-27 | Long-Horizon Task Agents | [Optimus-2: Multimodal Minecraft Agent with Goal-Observation-Action Conditioned Policy](https://arxiv.org/abs/2502.19902v2)<br>[PDF](https://arxiv.org/pdf/2502.19902v2) | arXiv | — | — |
 | 2025-02-26 | Reinforcement Learning | [Reward Shaping to Mitigate Reward Hacking in RLHF](https://arxiv.org/abs/2502.18770v8)<br>[PDF](https://arxiv.org/pdf/2502.18770v8) | arXiv.org | 📈 Highly cited | Citations: 96 (Semantic Scholar) |
+| 2025-02-23 | Long-Horizon Task Agents | [The Hidden Strength of Disagreement: Unraveling the Consensus-Diversity Tradeoff in Adaptive Multi-Agent Systems](https://arxiv.org/abs/2502.16565v2)<br>[PDF](https://arxiv.org/pdf/2502.16565v2) | arXiv | — | — |
+| 2025-02-21 | Long-Horizon Task Agents | [R$^3$Mem: Bridging Memory Retention and Retrieval via Reversible Compression](https://arxiv.org/abs/2502.15957v1)<br>[PDF](https://arxiv.org/pdf/2502.15957v1) | arXiv | — | — |
+| 2025-02-21 | Reinforcement Learning<br>Long-Horizon Task Agents | [The Evolving Landscape of LLM- and VLM-Integrated Reinforcement Learning](https://arxiv.org/abs/2502.15214v1)<br>[PDF](https://arxiv.org/pdf/2502.15214v1) | arXiv | — | — |
+| 2025-02-20 | Long-Horizon Task Agents | [STeCa: Step-level Trajectory Calibration for LLM Agent Learning](https://arxiv.org/abs/2502.14276v2)<br>[PDF](https://arxiv.org/pdf/2502.14276v2) | arXiv | — | — |
+| 2025-02-20 | Long-Horizon Task Agents | [Mem2Ego: Empowering Vision-Language Models with Global-to-Ego Memory for Long-Horizon Embodied Navigation](https://arxiv.org/abs/2502.14254v3)<br>[PDF](https://arxiv.org/pdf/2502.14254v3) | arXiv | — | — |
+| 2025-02-19 | Long-Horizon Task Agents | [Vision-Based Generic Potential Function for Policy Alignment in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2502.13430v1)<br>[PDF](https://arxiv.org/pdf/2502.13430v1) | arXiv | — | — |
+| 2025-02-18 | Long-Horizon Task Agents | [CityEQA: A Hierarchical LLM Agent on Embodied Question Answering Benchmark in City Space](https://arxiv.org/abs/2502.12532v3)<br>[PDF](https://arxiv.org/pdf/2502.12532v3) | arXiv | — | — |
+| 2025-02-17 | Agent/LLM Self-Improvement<br>Long-Horizon Task Agents | [LLM Agents Making Agent Tools](https://arxiv.org/abs/2502.11705v2)<br>[PDF](https://arxiv.org/pdf/2502.11705v2) | ACL 2025 | 🏆 CCF-A: ACL 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | — |
+| 2025-02-11 | Reinforcement Learning<br>Long-Horizon Task Agents | [Advancing Autonomous VLM Agents via Variational Subgoal-Conditioned Reinforcement Learning](https://arxiv.org/abs/2502.07949v2)<br>[PDF](https://arxiv.org/pdf/2502.07949v2) | arXiv | — | — |
+| 2025-02-10 | Long-Horizon Task Agents | [Autonomous Deep Agent](https://arxiv.org/abs/2502.07056v1)<br>[PDF](https://arxiv.org/pdf/2502.07056v1) | arXiv | — | — |
+| 2025-02-09 | Agent/LLM Self-Improvement<br>LLM Continual Training<br>Long-Horizon Task Agents | [EvolvingAgent: Curriculum Self-evolving Agent with Continual World Model for Long-Horizon Tasks](https://arxiv.org/abs/2502.05907v3)<br>[PDF](https://arxiv.org/pdf/2502.05907v3) | arXiv | — | — |
 | 2025-02-06 | Reinforcement Learning | [Dynamic Optimizations of LLM Ensembles with Two-Stage Reinforcement Learning Agents](https://arxiv.org/abs/2502.04492v3)<br>[PDF](https://arxiv.org/pdf/2502.04492v3) | arXiv | — | Citations: 3 (Semantic Scholar) |
+| 2025-02-06 | Long-Horizon Task Agents | [Robotouille: An Asynchronous Planning Benchmark for LLM Agents](https://arxiv.org/abs/2502.05227v1)<br>[PDF](https://arxiv.org/pdf/2502.05227v1) | arXiv | — | — |
+| 2025-02-03 | Reinforcement Learning<br>Long-Horizon Task Agents | [Reinforcement Learning for Long-Horizon Interactive LLM Agents](https://arxiv.org/abs/2502.01600v3)<br>[PDF](https://arxiv.org/pdf/2502.01600v3) | arXiv | — | — |
 
 ## Notes
 

@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -15,11 +15,11 @@
 | --- | --- | --- | --- |
 | 2026-09-28 | Agent/LLM Self-Improvement | [Self-Evolving Agents via Likelihood-Guided Tool-Space Optimization](https://arxiv.org/abs/2609.34151v1) | — |
 | 2026-09-28 | Agent/LLM Self-Improvement | [Evo2Team: When Do Evolved Skills Transfer? From Selection to Deployment](https://arxiv.org/abs/2609.34135v1) | — |
-| 2026-09-28 | Agent Memory | [From Attack Success to Attack Severity: Counterfactual Memory Attacks on LLM Agents](https://arxiv.org/abs/2609.34132v1) | — |
+| 2026-09-28 | Agent Memory, Long-Horizon Task Agents | [From Attack Success to Attack Severity: Counterfactual Memory Attacks on LLM Agents](https://arxiv.org/abs/2609.34132v1) | — |
 | 2026-09-28 | LLM Continual Training | [Constrained Nonconvex Stochastic Optimization with One Projection](https://arxiv.org/abs/2609.34099v1) | — |
 | 2026-09-28 | Agent/LLM Self-Improvement, LLM Continual Training | [K-OPSD: Verifiable On-Policy Self-Distillation for Post-Training Vision-Language Models on AEC Drawings](https://arxiv.org/abs/2609.34082v1) | — |
 | 2026-09-28 | Agent/LLM Self-Improvement | [Towards Certificate-Driven Software Porting: A Self-Improving Agentic Harness for Scientific Program Optimization](https://arxiv.org/abs/2609.34069v1) | — |
-| 2026-09-28 | Reinforcement Learning | [Learning Perturbation Robust Policies for LLM Agents with Stable Optimization](https://arxiv.org/abs/2609.34064v1) | — |
+| 2026-09-28 | Reinforcement Learning, Long-Horizon Task Agents | [Learning Perturbation Robust Policies for LLM Agents with Stable Optimization](https://arxiv.org/abs/2609.34064v1) | — |
 | 2026-09-28 | Reinforcement Learning | [Vision--Language Signals in Constrained RL: Safety Gains Without Anticipation](https://arxiv.org/abs/2609.34041v1) | — |
 | 2026-09-27 | Reinforcement Learning | [RewardExplainer: Learning Reward Model Explanations from Counterfactual Preference Feedback](https://arxiv.org/abs/2609.33989v1) | — |
 | 2026-09-27 | Reinforcement Learning | [On the Token Value Inequality in Efficient Reasoning](https://arxiv.org/abs/2609.33970v1) | — |
@@ -42,14 +42,14 @@
 | 2026-09-27 | Agent/LLM Self-Improvement | [NLPG: Natural-Language Policy Gradients for Self-Evolving Language Agents](https://arxiv.org/abs/2609.33379v1) | — |
 | 2026-09-27 | Agent/LLM Self-Improvement | [TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces](https://arxiv.org/abs/2609.33295v1) | — |
 | 2026-09-27 | Reinforcement Learning | [Learning to Sell: Reinforcement Learning for Strategic Large Language Model Agents in Multi-Product Markets](https://arxiv.org/abs/2609.33289v2) | — |
-| 2026-09-27 | Agent Memory, LLM Continual Training | [ActiveMem: Dynamic Latent Memory Trees for Long-Horizon Agents](https://arxiv.org/abs/2609.33244v1) | — |
+| 2026-09-27 | Agent Memory, LLM Continual Training, Long-Horizon Task Agents | [ActiveMem: Dynamic Latent Memory Trees for Long-Horizon Agents](https://arxiv.org/abs/2609.33244v2) | — |
 | 2026-09-27 | Reinforcement Learning | [RMB: Reward Model Boosting Mitigates Reward Hacking](https://arxiv.org/abs/2609.33221v1) | — |
 | 2026-09-27 | LLM Continual Training | [AG-CoT: Verified Algorithmic Traces for LLM Program Synthesis on Clifford Circuits](https://arxiv.org/abs/2609.33192v1) | — |
 | 2026-09-27 | Agent/LLM Self-Improvement | [SeOPD: Self-Evolving LLMs via Online Policy Distillation from Self-Generated Chain-of-Thought](https://arxiv.org/abs/2609.33181v2) | — |
 | 2026-09-27 | Agent/LLM Self-Improvement | [Which Self-Improvements Should We Trust? Reliable Self-Improvement When Agents Reuse Their Benchmarks](https://arxiv.org/abs/2609.33180v2) | — |
 | 2026-09-27 | Agent/LLM Self-Improvement | [Compositional Safety Failures in Harness Evolution: Identification and Runtime Monitoring](https://arxiv.org/abs/2609.33123v2) | — |
 | 2026-09-27 | Agent/LLM Self-Improvement | [KernelZero: Co-Evolving Proposer and Coder for Continuously Improved GPU Kernel Generation](https://arxiv.org/abs/2609.33074v1) | — |
-| 2026-09-26 | Agent Memory | [The Epistemics of Agent Memory: Measuring, and Governing, the Consolidation Decision in Long-Horizon LLM Agents](https://arxiv.org/abs/2609.33013v1) | — |
+| 2026-09-26 | Agent Memory, Long-Horizon Task Agents | [The Epistemics of Agent Memory: Measuring, and Governing, the Consolidation Decision in Long-Horizon LLM Agents](https://arxiv.org/abs/2609.33013v1) | — |
 | 2026-09-26 | Agent Memory | [Tessera: Demand-Driven KV Cache Management for Retrieval-Augmented LLM Serving](https://arxiv.org/abs/2609.32999v1) | — |
 | 2026-09-26 | Reinforcement Learning | [X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization](https://arxiv.org/abs/2609.32993v1) | — |
 | 2026-09-26 | Agent/LLM Self-Improvement | [Certified Long-Horizon Code Agent Evolution via Validation-Gated Skill Optimization](https://arxiv.org/abs/2609.32990v1) | — |
@@ -392,7 +392,7 @@ As LLM agents increasingly rely on persistent memory for long-horizon and person
 
 LLM agents resend their whole conversation on every turn, and most of it was already processed on the previous turn. Serving systems avoid recomputing it by caching its key-value (KV) state and, when GPU memory runs out, by offloading that state to host memory. For agents, offloading gives inconsistent results: on the same coding-agent workload it speeds up one deployment, slows down another, and changes nothing on a third, even where loading a token back is several times cheaper than recomputing it. The reason is that cached state must survive until it is used again. While one agent waits for its tool, the server processes the contexts of all other agents, so an agent's prefix is reused only if the host tier holds the reusable context of the whole agent pool, which we call the reuse working set. A smaller tier keeps writing state that is evicted before anyone reads it. We present EfficientAgent, which sizes and manages the host tier by this working set. A stack-distance model estimates the working set from agent histories to size the host tier; its predictions, made before the experiments, located the capacity at which offloading starts to pay. When the tier is too small, a runtime policy stops writing large refills of evicted context and keeps extending prefixes that are still cached; when the tier is large enough, it writes everything. On SWE-bench Verified coding agents, a host tier sized to the estimated working set cuts recomputed prompt tokens by 93% and end-to-end time by 39%. With a small fixed tier, the policy cuts recomputation by 35%; with a large tier, it avoids the 4.3-fold increase caused by always filtering writes. Across three GPU types and two models, offloading pays off when the GPU has little compute per byte of host bandwidth and the host tier holds the working set. Code is available at https://github.com/KunmingSHAO/efficientagent_release.
 
-### [ActiveMem: Dynamic Latent Memory Trees for Long-Horizon Agents](https://arxiv.org/abs/2609.33244v1)
+### [ActiveMem: Dynamic Latent Memory Trees for Long-Horizon Agents](https://arxiv.org/abs/2609.33244v2)
 
 - **Authors:** Song-Li Wu, Jingyi Wang, Zhaocheng Du, Weinan Gan
 - **Published:** 2026-09-27
@@ -400,7 +400,7 @@ LLM agents resend their whole conversation on every turn, and most of it was alr
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.33244v1) · [PDF](https://arxiv.org/pdf/2609.33244v1)
+- **Links:** [Paper](https://arxiv.org/abs/2609.33244v2) · [PDF](https://arxiv.org/pdf/2609.33244v2)
 
 Large Language Model (LLM) agents increasingly rely on external memory to support long-horizon reasoning and decision making. Existing memory systems typically retrieve historical trajectories or summaries as independent context fragments, overlooking the procedural dependencies underlying multi-step execution. As memory scales, such flat retrieval introduces context fragmentation and cross-task interference, leading to structurally inconsistent reasoning trajectories. We propose ActiveMem, a hierarchical memory framework that recursively organizes agent experiences into dependency-aware latent execution trees. ActiveMem abstracts trajectories into reusable subtask nodes while explicitly preserving execution transitions, enabling coherent reasoning-path retrieval conditioned on the current execution state. To support continual adaptation, ActiveMem further learns dynamic memory expansion, retrieval, and pruning policies through reinforcement learning. Experiments across various agent benchmarks demonstrate that ActiveMem consistently improves task completion, reasoning stability, and memory efficiency over existing memory-based agents. Moreover, ActiveMem enables compact open-weight models to achieve competitive performance with substantially larger proprietary systems.
 
@@ -502,7 +502,7 @@ Modern language models are likely to be updated throughout their lifetime rather
 
 Recursive self-improvement (RSI) seeks to move large language models beyond static training pipelines toward systems that can participate in improving their own future behavior. Existing approaches largely follow two directions: updating model parameters through online learning, or improving the external context through search, reflection, and prompt optimization. Although both mechanisms can support continued improvement, they are typically studied independently. This separation overlooks an important interaction: the context shapes the experience from which a model learns, while an evolving model may interpret and utilize the same context differently over time. We therefore formulate RSI as a problem of parameter--context co-evolution, where model parameters and the learning context adapt within a shared feedback loop. We introduce COEVO, a framework that updates model parameters from on-policy experience while adapting contextual guidance according to the state of the evolving policy. Policy entropy and prompt-conditioned attention are used as complementary signals to guide this adaptation. Experiments show that COEVO consistently improves task performance over fixed-context reinforcement learning and produces policies that are more robust to changes in system prompts. More broadly, our results suggest that external context should be viewed not merely as a fixed interface to a large language model, but as an adaptive component of recursive self-improvement.
 
-### [ActiveMem: Dynamic Latent Memory Trees for Long-Horizon Agents](https://arxiv.org/abs/2609.33244v1)
+### [ActiveMem: Dynamic Latent Memory Trees for Long-Horizon Agents](https://arxiv.org/abs/2609.33244v2)
 
 - **Authors:** Song-Li Wu, Jingyi Wang, Zhaocheng Du, Weinan Gan
 - **Published:** 2026-09-27
@@ -510,7 +510,7 @@ Recursive self-improvement (RSI) seeks to move large language models beyond stat
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.33244v1) · [PDF](https://arxiv.org/pdf/2609.33244v1)
+- **Links:** [Paper](https://arxiv.org/abs/2609.33244v2) · [PDF](https://arxiv.org/pdf/2609.33244v2)
 
 Large Language Model (LLM) agents increasingly rely on external memory to support long-horizon reasoning and decision making. Existing memory systems typically retrieve historical trajectories or summaries as independent context fragments, overlooking the procedural dependencies underlying multi-step execution. As memory scales, such flat retrieval introduces context fragmentation and cross-task interference, leading to structurally inconsistent reasoning trajectories. We propose ActiveMem, a hierarchical memory framework that recursively organizes agent experiences into dependency-aware latent execution trees. ActiveMem abstracts trajectories into reusable subtask nodes while explicitly preserving execution transitions, enabling coherent reasoning-path retrieval conditioned on the current execution state. To support continual adaptation, ActiveMem further learns dynamic memory expansion, retrieval, and pruning policies through reinforcement learning. Experiments across various agent benchmarks demonstrate that ActiveMem consistently improves task completion, reasoning stability, and memory efficiency over existing memory-based agents. Moreover, ActiveMem enables compact open-weight models to achieve competitive performance with substantially larger proprietary systems.
 
@@ -707,3 +707,53 @@ Multi-step agents are trained on flat action streams: SFT and RLVR weight every 
 - **Links:** [Paper](https://arxiv.org/abs/2609.32792v1) · [PDF](https://arxiv.org/pdf/2609.32792v1)
 
 LLM post-training combines supervised fine-tuning (SFT), a mode-covering forward-KL objective, with reinforcement learning (RL), a mode-seeking reverse-KL objective. Frequency-weighted likelihood training leaves a well-known signature: \emph{anisotropy}, in which a few residual channels carry disproportionately large activations. Anisotropy is widely documented and usually treated as a defect, yet its function and its interaction with post-training remain unclear. We first analyze it. A label-free outlier rule isolates about 5\% of residual channels that are essential for language modeling: removing them raises perplexity from 10 to over $10^6$, versus 35 for count-matched random channels. Yet they barely distinguish correct from incorrect reasoning. SFT reshapes them, whereas RL leaves them largely intact and adapts the complementary channels. These channels therefore form the model's \emph{coherence substrate}, and reasoning adaptation happens elsewhere. We then exploit this. \textsc{SphereGate} learns one bounded gain per residual channel on a frozen backbone. Its activation-weighted gradients provably limit movement of high-energy coherence channels and leave the remaining channels free. With 0.1M trainable parameters, \textsc{SphereGate} outperforms parameter-efficient baselines by 2.0--7.3 points on MATH-500 across Qwen2.5 (0.5B--7B) and Llama-3-8B, is comparable or exceeds full-model GRPO. Anisotropy is not a defect but a division of labor that post-training can exploit.
+
+## Long-Horizon Task Agents
+
+### [From Attack Success to Attack Severity: Counterfactual Memory Attacks on LLM Agents](https://arxiv.org/abs/2609.34132v1)
+
+- **Authors:** Mingxi Zou, Langzhang Liang, Zhuo Wang, Yiyang Zhao, Lizhen Qu, Zenglin Xu
+- **Published:** 2026-09-28
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2609.34132v1) · [PDF](https://arxiv.org/pdf/2609.34132v1)
+
+As LLM agents increasingly rely on persistent memory for long-horizon and personalized behavior, they can retain and reuse information across interactions, but this also creates a lasting channel through which malicious memory writes can influence future behavior. Persistent-memory attacks are typically evaluated by whether they succeed, yet successful attacks can leave persistent states with substantially different downstream consequences. We study this severity as a distinct attack-design objective and formalize it with counterfactual memory regret (CMR), the paired increase in expected downstream loss relative to clean memory. We introduce MemHarm, which predeclares a finite class of sparse, grounded semantic edits, evaluates candidates through the normal agent memory interface using offline paired-loss feedback, and certifies resolved selections within that class. Compared with attack-success optimization, CMR-guided selection produces substantially larger downstream loss while retaining most of the success-rate gain. Across two agent benchmarks and diverse memory designs, MemHarm attains the highest CMR point estimates among the evaluated general attacks on identical support. Factor-removal interventions link this harm to the selected semantic factor, and native-agent deployments verify the write-to-fresh-process attack path.
+
+### [Learning Perturbation Robust Policies for LLM Agents with Stable Optimization](https://arxiv.org/abs/2609.34064v1)
+
+- **Authors:** Pengxin Wang, Yuanzhe LI, Yuxin Ren, Huanrui Yang, Jingdi Chen
+- **Published:** 2026-09-28
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** Tsinghua University
+- **Categories:** cs.LG, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2609.34064v1) · [PDF](https://arxiv.org/pdf/2609.34064v1)
+
+Reinforcement learning (RL) has become an effective post-training paradigm for long-horizon large language model (LLM) agents. However, we find that the resulting policies can be sensitive to various policy perturbations, such as hidden-state noise, pruning, and quantization. In this work, we study how to improve perturbation robustness during policy optimization. We first introduce the notion of a perturbation robust policy and analyze conditions under which perturbed policy updates preserve stable monotonic improvement. Based on this analysis, we introduce Stable Perturbation-Robust Policy Optimization (SPrPO), which applies adaptive and sensitivity-aware perturbations during RL training. We evaluate SPrPO on ALFWorld and WebShop and conduct systematic experiments across multiple perturbation types and scales, showing improved perturbation robustness while maintaining stable policy optimization.
+
+### [ActiveMem: Dynamic Latent Memory Trees for Long-Horizon Agents](https://arxiv.org/abs/2609.33244v2)
+
+- **Authors:** Song-Li Wu, Jingyi Wang, Zhaocheng Du, Weinan Gan
+- **Published:** 2026-09-27
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2609.33244v2) · [PDF](https://arxiv.org/pdf/2609.33244v2)
+
+Large Language Model (LLM) agents increasingly rely on external memory to support long-horizon reasoning and decision making. Existing memory systems typically retrieve historical trajectories or summaries as independent context fragments, overlooking the procedural dependencies underlying multi-step execution. As memory scales, such flat retrieval introduces context fragmentation and cross-task interference, leading to structurally inconsistent reasoning trajectories. We propose ActiveMem, a hierarchical memory framework that recursively organizes agent experiences into dependency-aware latent execution trees. ActiveMem abstracts trajectories into reusable subtask nodes while explicitly preserving execution transitions, enabling coherent reasoning-path retrieval conditioned on the current execution state. To support continual adaptation, ActiveMem further learns dynamic memory expansion, retrieval, and pruning policies through reinforcement learning. Experiments across various agent benchmarks demonstrate that ActiveMem consistently improves task completion, reasoning stability, and memory efficiency over existing memory-based agents. Moreover, ActiveMem enables compact open-weight models to achieve competitive performance with substantially larger proprietary systems.
+
+### [The Epistemics of Agent Memory: Measuring, and Governing, the Consolidation Decision in Long-Horizon LLM Agents](https://arxiv.org/abs/2609.33013v1)
+
+- **Authors:** Sasank Annapureddy, Anjaneya Prasad Thamatani
+- **Published:** 2026-09-26
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2609.33013v1) · [PDF](https://arxiv.org/pdf/2609.33013v1)
+
+Long-horizon LLM agents must convert accumulated experience into durable memory, deciding what to keep, compress, abstract into reusable skills and rules, or forget. We report a four-phase research program on this consolidation problem whose central finding is a shift in what is measured: from how much an agent remembers, to whether its consolidation decisions are any good, to whether those decisions can be trusted. Phase 1 learns episodic boundaries from agent traces by downstream utility; an honest near-miss (oracle correlation 0.691 vs a 0.70 bar) whose lasting output is a three-gate anti-leakage protocol. Phase 2 learns when to promote experience and to which abstraction level under a token budget, achieving a verified +22.7% task-success improvement with 7x compression, but exposing a degenerate-forgetting failure and a distribution-shift failure mode we name lambda-prevalence coupling. Phase 3 introduces ConsolidationBench, an oracle-by-construction benchmark that scores consolidation decisions against a known optimum on three non-circular axes; production retrieval systems retain information yet score zero on cross-level transfer. Phase 4 introduces governed consolidation: the decision wrapped in poison-resistance, reversibility, and auditability guarantees with a quality gate. Governance is statistically distinct from the quality score ($r^2 = 0.43$; partial $r = 0.27$; identical-quality policies differ threefold in governance), so the contribution survives independently of the metric's external validity. On that question we report a resolved negative: after a graded-reuse redesign removed a structural ceiling, a two-benchmark study with 2,532 real answer cells finds the quality score does not predict real transfer accuracy (pooled Spearman $ρ= -0.24$, n = 12, CI spanning zero). An adversarial self-critique pass cleared the final claim set with zero surviving overclaims.

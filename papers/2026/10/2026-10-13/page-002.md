@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-13
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-10-07T15:36:34.161200+08:00** → **2026-10-13T19:01:05.125248+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -18,8 +18,8 @@
 | 2026-10-08 | Agent Memory | [Do LLMs Learn from Rewards in Context? : Rethinking the role of reward in In-Context Reinforcement Learning](https://arxiv.org/abs/2610.11152v1) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-13 (actual acceptance date unverified) |
 | 2026-10-08 | LLM Continual Training | [Stability-Plasticity Balance via Singular-Vector Selection in LLM Continual Learning](https://arxiv.org/abs/2610.11076v1) | — |
 | 2026-10-08 | Reinforcement Learning | [Measuring and Mitigating Solution Mode Collapse in RLVR](https://arxiv.org/abs/2610.11064v2) | — |
-| 2026-10-07 | Reinforcement Learning | [StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents](https://arxiv.org/abs/2610.10942v1) | — |
-| 2026-10-07 | Reinforcement Learning | [NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime](https://arxiv.org/abs/2610.10787v1) | — |
+| 2026-10-07 | Reinforcement Learning, Long-Horizon Task Agents | [StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents](https://arxiv.org/abs/2610.10942v1) | — |
+| 2026-10-07 | Reinforcement Learning, Long-Horizon Task Agents | [NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime](https://arxiv.org/abs/2610.10787v2) | — |
 | 2026-10-07 | Agent/LLM Self-Improvement, Reinforcement Learning | [VICO: Visual Environments Co-Evolving for Vision-Language Model Reasoning](https://arxiv.org/abs/2610.10782v1) | — |
 | 2026-10-07 | Agent Memory | [MemoWM: How World Models Change What Agents Need to Remember](https://arxiv.org/abs/2610.10778v1) | — |
 | 2026-10-07 | Reinforcement Learning | [Decoupling Exploration from Optimization in RLVR](https://arxiv.org/abs/2610.10536v1) | — |
@@ -31,14 +31,14 @@
 | 2026-10-07 | Agent/LLM Self-Improvement | [OOM-RL II: Reality Is an Oracle, Not a Debugger Provenance-Constrained Diagnosis in Continually Evolving Agent-Engineered Systems](https://arxiv.org/abs/2610.10256v1) | — |
 | 2026-10-07 | Agent/LLM Self-Improvement | [VideoEvolve: Co-Evolving Memory and Retrieval for Long Video Understanding](https://arxiv.org/abs/2610.10183v1) | — |
 | 2026-10-07 | Agent/LLM Self-Improvement, LLM Continual Training | [UniSkill: Learning Actor-Aligned Skill Proposals for an Evolving Policy](https://arxiv.org/abs/2610.10164v1) | — |
-| 2026-10-07 | Agent/LLM Self-Improvement | [RewardWeaver: Long-Horizon Interactive Learning for Language Agents via Self-Evolving Reward Adaptation](https://arxiv.org/abs/2610.10120v1) | — |
+| 2026-10-07 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [RewardWeaver: Long-Horizon Interactive Learning for Language Agents via Self-Evolving Reward Adaptation](https://arxiv.org/abs/2610.10120v1) | — |
 | 2026-10-07 | Agent/LLM Self-Improvement | [SkillSandbox: Skill Verification via Dynamic Scenario Synthesis](https://arxiv.org/abs/2610.10088v1) | — |
 | 2026-10-07 | Agent/LLM Self-Improvement, Agent Memory | [HGP:An on-device personalized agent memory via hybrid graph storage](https://arxiv.org/abs/2610.10071v1) | — |
 | 2026-10-07 | Reinforcement Learning | [Learning to Accumulate Knowledge with Mutual Information](https://arxiv.org/abs/2610.10042v1) | — |
 | 2026-10-07 | Agent/LLM Self-Improvement | [The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate](https://arxiv.org/abs/2610.10629v1) | — |
 | 2026-10-07 | Agent/LLM Self-Improvement | [Self-Evolve With a Reference:Anchored Training of Tool-Integrated Agents](https://arxiv.org/abs/2610.09856v1) | — |
 | 2026-10-07 | LLM Continual Training | [A Deafening Silence: Catastrophic Forgetting Lives in the Output Embeddings of Tokens the Data Never Speaks](https://arxiv.org/abs/2610.09835v1) | — |
-| 2026-10-07 | Agent/LLM Self-Improvement, Reinforcement Learning | [SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles](https://arxiv.org/abs/2610.09832v1) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-13 (actual acceptance date unverified) |
+| 2026-10-07 | Agent/LLM Self-Improvement, Reinforcement Learning, Long-Horizon Task Agents | [SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles](https://arxiv.org/abs/2610.09832v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-13 (actual acceptance date unverified) |
 | 2026-10-07 | Reinforcement Learning | [BoT-GRPO: Efficient Process-Reward RL for Reasoning via Bag-of-Token Aggregation](https://arxiv.org/abs/2610.09804v1) | — |
 | 2026-10-07 | LLM Continual Training | [MIRROR: From Imitation to Internalization in LLM Personalization](https://arxiv.org/abs/2610.09795v1) | — |
 | 2026-10-07 | LLM Continual Training | [When Rank Rises as LLMs Degrade](https://arxiv.org/abs/2610.09647v1) | — |
@@ -51,13 +51,13 @@
 | 2026-08-17 | Agent/LLM Self-Improvement | [Zetta $ζ$: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence](https://arxiv.org/abs/2608.16590v1) | 📈 Highly cited |
 | 2026-08-11 | Agent/LLM Self-Improvement | [Self-Evolving Embodied Agents via Skill-Harness Evolution](https://arxiv.org/abs/2608.11350v2) | 📈 Highly cited |
 | 2026-08-07 | Reinforcement Learning | [ResidencyRL: Reinforcement Learning in Simulated Clinical Environments](https://arxiv.org/abs/2608.07418v2) | — |
-| 2026-07-24 | Reinforcement Learning | [Deconstructing Off-Policy Ratios: Entropy-Normalized Trust Regions for Asynchronous Reinforcement Learning](https://arxiv.org/abs/2607.22186v5) | — |
+| 2026-07-24 | Reinforcement Learning, Long-Horizon Task Agents | [Deconstructing Off-Policy Ratios: Entropy-Normalized Trust Regions for Asynchronous Reinforcement Learning](https://arxiv.org/abs/2607.22186v5) | — |
 | 2026-07-24 | Reinforcement Learning | [First-Order In-Context Shapley: Scalable Data Auditing for LLM Alignment and Evaluation](https://arxiv.org/abs/2607.22766v2) | — |
 | 2026-07-12 | Reinforcement Learning | [SETA: Scaling Environments for Terminal Agents](https://arxiv.org/abs/2607.10891v2) | 📈 Highly cited |
 | 2026-07-11 | Reinforcement Learning | [Beyond Euclidean Clipping: Overcoming Exploration Collapse in LLM RL via Riemannian Isometric Policy Optimization](https://arxiv.org/abs/2607.10169v2) | — |
-| 2026-07-06 | Reinforcement Learning | [CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents](https://arxiv.org/abs/2607.05378v2) | 📈 Highly cited |
-| 2026-06-29 | Agent/LLM Self-Improvement | [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2) | 📈 Highly cited |
-| 2026-06-28 | Agent/LLM Self-Improvement | [Hierarchical Experimentalist Agents](https://arxiv.org/abs/2606.29315v2) | — |
+| 2026-07-06 | Reinforcement Learning, Long-Horizon Task Agents | [CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents](https://arxiv.org/abs/2607.05378v2) | 📈 Highly cited |
+| 2026-06-29 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2) | 📈 Highly cited |
+| 2026-06-28 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Hierarchical Experimentalist Agents](https://arxiv.org/abs/2606.29315v2) | — |
 | 2026-06-24 | Agent/LLM Self-Improvement | [The Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators](https://arxiv.org/abs/2606.26294v3) | 📈 Highly cited |
 | 2026-06-20 | LLM Continual Training | [MixedPEFT: Combining Multiple PEFT Methods with Mixed Objectives for Unsupervised Domain Adaptation](https://arxiv.org/abs/2606.22272v2) | — |
 | 2026-06-17 | Reinforcement Learning | [Learning from Own Solutions: Self-Conditioned Credit Assignment for Reinforcement Learning with Verifiable Rewards](https://arxiv.org/abs/2606.18810v2) | — |
@@ -70,7 +70,7 @@
 | --- | --- | --- |
 | [DivMoE: Fine-Grained MoE Upcycling via Cross-Domain Expert Composition](https://arxiv.org/abs/2610.11317v1) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-13 (actual acceptance date unverified) | arXiv comment: 19 pages, published as a conference paper at NeurIPS 2026 |
 | [Do LLMs Learn from Rewards in Context? : Rethinking the role of reward in In-Context Reinforcement Learning](https://arxiv.org/abs/2610.11152v1) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-13 (actual acceptance date unverified) | arXiv comment: NeurIPS 2026 Spotlight (Negative Results Track) |
-| [SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles](https://arxiv.org/abs/2610.09832v1) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-13 (actual acceptance date unverified) | arXiv comment: Accepted at NeurIPS 2026<br>First author: Institute of Computing Technology (Semantic Scholar author profiles) |
+| [SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles](https://arxiv.org/abs/2610.09832v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-13 (actual acceptance date unverified) | arXiv comment: Accepted at NeurIPS 2026<br>First author: Institute of Computing Technology (Semantic Scholar author profiles) |
 | [On-policy Distillation with Verifiable Reward](https://arxiv.org/abs/2608.24696v4) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement](https://arxiv.org/abs/2608.20318v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Zetta $ζ$: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence](https://arxiv.org/abs/2608.16590v1) | 📈 Highly cited | Institue for AI Industry Research (AIR), Tsinghua University |
@@ -214,7 +214,7 @@ Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an 
 
 Self-evolving tool-integrated agents learn from tasks and feedback generated within their own training loop. A Curriculum Agent generates tasks, while an Executor Agent learns from self-consistency signals through reinforcement learning. However, relying solely on the current Executor for feedback has two limitations: group-relative advantages vanish under full consensus, while uncertainty-based curriculum rewards favor disagreement without showing whether the generated tasks support further learning. These limitations motivate an additional reference beyond the current Executor. We propose \textit{AnchorLoop}, which introduces a frozen copy of the previous iteration's Executor as a historical reference and reuses it on both sides of the training loop. For the Executor, the anchor provides a cross-reference advantage that evaluates current outputs against both current and historical majority answers. For the Curriculum, it provides an agreement-based reference based on differences in sampled majority agreement. Since the Executor and anchor have identical parameters during Curriculum training, this comparison serves as a proxy for task selection rather than evidence of inter-version improvement or correctness. Across 13 reasoning benchmarks, AnchorLoop improves over Agent0 by 2.5\% on mathematical reasoning and 2.8\% on general reasoning tasks. It also maintains higher effective-advantage variance and continues improving in later iterations as the unanchored baseline shows diminishing gains. These results demonstrate the benefit of introducing a lightweight historical reference into self-evolving tool-integrated agents without external task or answer supervision.
 
-### [SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles](https://arxiv.org/abs/2610.09832v1)
+### [SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles](https://arxiv.org/abs/2610.09832v2)
 
 - **Authors:** Yuyao Ge, Yiwei Wang, Yuchen He, Baolong Bi, Lingrui Mei, Jiayu Yao, Lizhe Chen, Shenghua Liu
 - **Published:** 2026-10-07
@@ -222,7 +222,7 @@ Self-evolving tool-integrated agents learn from tasks and feedback generated wit
 - **Venue:** NeurIPS 2026
 - **Affiliations:** Institute of Computing Technology
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2610.09832v1) · [PDF](https://arxiv.org/pdf/2610.09832v1)
+- **Links:** [Paper](https://arxiv.org/abs/2610.09832v2) · [PDF](https://arxiv.org/pdf/2610.09832v2)
 
 Memory-augmented reinforcement learning strengthens LLM agents' ability to solve complex long-horizon tasks. Skills are one such form of memory, pairing instructions with an applicability condition over task types. However, retaining every skill indiscriminately as the policy improves lets obsolete or harmful entries accumulate and mislead the agent. We propose SkillForge, an agentic RL method that compiles and evolves the skill library through a fitness-driven skill lifecycle of trial, active, stable, and retired states, so that the skills and the model co-evolve throughout training. A pre-RL evaluation phase first uses the base model's own rollouts to pre-retire low-fitness skills, yielding a filtered library that then seeds supervised fine-tuning. Reinforcement learning takes over from this checkpoint, and at each iteration selective retirement, stabilization, and LLM-guided mutation continue to forge the skill library alongside policy optimization. Across multiple interactive agent benchmarks, SkillForge achieves the highest aggregate success rate, delivering up to 7.8% relative improvement over the strongest baseline while keeping the skill library compact throughout training. We introduce SkillFurnace, a dataset of 5k+ annotated records bundling retirement-filtered SFT trajectories, evolved skill libraries with fitness annotations, and retirement events with human-annotated failure categories to support research on skill quality and lifecycle management.
 
@@ -532,7 +532,7 @@ A language model (LM) can usually answer the same question in more than one way,
 
 Reinforcement learning environments are now a primary lever for improving large language model (LLM) capabilities in post-training, yet most agentic benchmarks remain static: the world moves only when the agent acts, the reward is a terminal verdict, and the pass bar is set arbitrarily. We introduce StoreBench, a live-commerce environment in which an agent runs a mid-size online apparel store on a production-grade commerce backend, testing long-horizon planning and economic judgment under uncertainty. Customers order around the clock, suppliers reprice and fail, and market shocks arrive with partial or no warning. The agent acts through the same 29 merchant tools a human operator would use, under a windowed operation budget that makes simulated time a function of actions taken, so model latency cannot influence simulated time. Pass thresholds are calibrated against scripted anchor policies, the reward is hardened against a catalogue of reward hacks, and every episode replays identically given a sequence of actions. We evaluate seven frontier LLMs on 11 scenarios of 30 to 45 days and a full simulated year, over three world seeds at matched reasoning effort. No model matches the scripted smart-triage policy on average: the best, DeepSeek-V4-Pro, passes 49% of task-seed cells against the heuristic's 97%. Human experts working through the same tools and budgets outscore every model (mean composite 0.708 vs. 0.700). Over a full simulated year under the Claude Code harness, most models show dramatic performance improvement. In a GRPO post-training run, Qwen3.5-27B trained on only five disjoint tasks raises its mean composite on the held-out evaluation tasks from 0.136 to 0.373. We release five example training-split tasks, ten sample trajectories, and the scoring and verification tooling; the full environment and evaluation suite are withheld to keep the benchmark uncontaminated.
 
-### [NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime](https://arxiv.org/abs/2610.10787v1)
+### [NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime](https://arxiv.org/abs/2610.10787v2)
 
 - **Authors:** Gengze Zhou, Yicong Hong, Jiazhao Zhang, Xunyi Zhao, Jian Zhou, Zixing Lei, Zun Wang, Chongyang Zhao, Xionghui Chen, Stephen Gould, Anton van den Hengel, Qi Wu
 - **Published:** 2026-10-07
@@ -540,9 +540,9 @@ Reinforcement learning environments are now a primary lever for improving large 
 - **Venue:** arXiv
 - **Affiliations:** Australian National University
 - **Categories:** cs.RO, cs.AI, cs.CL, cs.CV, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2610.10787v1) · [PDF](https://arxiv.org/pdf/2610.10787v1)
+- **Links:** [Paper](https://arxiv.org/abs/2610.10787v2) · [PDF](https://arxiv.org/pdf/2610.10787v2)
 
-Language models trained with long-horizon agentic reinforcement learning can generalize knowledge through reasoning, express precise actions, and pursue goals over many steps, raising the ceiling on what an embodied agent can understand and decide. Physical interaction, however, remains the domain of action policies, which provide dense, low-latency control. We present NavGPT-3, a harness that connects the two models, with an OS-like runtime built above it: reasoning, acting, and monitoring run as threads with their own context, tools, and permissions, while the runtime schedules them and decides which thread controls the robot's motion, so that the robot can react to sudden real-world events through interruption and thread switching. Beneath it, our action policy NavGPT VLA, trained on 19.28M examples, allocates visual tokens using codec allocation, in proportion to scene change; its 8B model alone reaches 74.51 SR on R2R-CE and leads RxR-CE with 78.19 SR. With the complete harness, NavGPT-3 sets the state of the art on R2R-CE (81.51 SR) and, for the first time, brings an autonomous agent to human level: on RxR-CE it matches human followers in success (90.43 vs. 90.4 SR) and path fidelity (78.47 vs. 77.7 nDTW) at 1 min 22 s per episode, versus roughly 3 min for a human. We comprehensively ablate the harness design and the interaction between the two models, showing how tools and the action policy shape the path from language-model reasoning to physical control: when NavGPT VLA executes the route, the reasoning loop shortens and the system's minimum reaction time falls from 3-19 s per language-model decision to 0.5-1 s per action-policy step (1-2 Hz). These results show that designing this embodied interface is central to connecting frontier language-model intelligence with low-level physical control. We will release all models, code, and evaluation records.
+Language models trained with long-horizon agentic reinforcement learning can generalize knowledge through reasoning, express precise actions, and pursue goals over many steps, raising the ceiling on what an embodied agent can understand and decide. Physical interaction, however, remains the domain of action policies, which provide dense, low-latency control. We present NavGPT-3, a harness that connects the two models, with an OS-like runtime built above it: reasoning, acting, and monitoring run as threads with their own context, tools, and permissions, while the runtime schedules them and decides which thread controls the robot's motion, so that the robot can react to sudden real-world events through interruption and thread switching. Beneath it, our action policy NavGPT VLA, trained on 19.28M examples, allocates visual tokens using codec allocation, in proportion to scene change; its 8B model alone reaches 76.94 SR on R2R-CE and leads RxR-CE with 82.39 SR. With the complete harness, NavGPT-3 sets the state of the art on R2R-CE (81.51 SR) and, for the first time, brings an autonomous agent to human level: on RxR-CE it matches human followers in success (90.43 vs. 90.4 SR) and path fidelity (78.47 vs. 77.7 nDTW) at 1 min 22 s per episode, versus roughly 3 min for a human. We comprehensively ablate the harness design and the interaction between the two models, showing how tools and the action policy shape the path from language-model reasoning to physical control: when NavGPT VLA executes the route, the reasoning loop shortens and the system's minimum reaction time falls from 3-19 s per language-model decision to 0.5-1 s per action-policy step (1-2 Hz). These results show that designing this embodied interface is central to connecting frontier language-model intelligence with low-level physical control. We will release all models, code, and evaluation records.
 
 ### [VICO: Visual Environments Co-Evolving for Vision-Language Model Reasoning](https://arxiv.org/abs/2610.10782v1)
 
@@ -604,7 +604,7 @@ When reinforcement learning teaches a language model a new behavior, can we find
 
 Large language model (LLM) agents can improve their performance by reusing knowledge distilled from past interactions. However, curating new experiences into a knowledge bank that becomes more useful as it grows remains challenging. Effective knowledge accumulation should limit redundant overlap among entries and ensure that new knowledge contributes beyond what the bank already provides. Yet training a curator with Group Relative Policy Optimization (GRPO) on standalone task success can reinforce general guidance even when it duplicates existing knowledge. Therefore, we propose Knowledge Weaver, a reinforcement learning framework that trains a language model to curate reusable knowledge from agent trajectories. We couple feedback inspired by token-wise mutual information (MI) with marginal success rewards to guide knowledge accumulation. Together, these signals encourage the curator to preserve distinct information from experience and produce entries that improve task success when added to existing knowledge. Standalone success rewards also favor entries that are useful on their own. On ALFWorld and WebShop, Knowledge Weaver achieves mean success rates of 54.0\% and 42.0\% with k=10 retrieved entries, exceeding GRPO by 16.9 and 18.7 percentage points, respectively. Its knowledge banks also outperform the evaluated prompt-based and established banks, including human-written banks, in overall ALFWorld success rate and WebShop score with the executor frozen. Our codebase is available at https://github.com/LaoKuiZe/Knowledge-Weaver.
 
-### [SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles](https://arxiv.org/abs/2610.09832v1)
+### [SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles](https://arxiv.org/abs/2610.09832v2)
 
 - **Authors:** Yuyao Ge, Yiwei Wang, Yuchen He, Baolong Bi, Lingrui Mei, Jiayu Yao, Lizhe Chen, Shenghua Liu
 - **Published:** 2026-10-07
@@ -612,7 +612,7 @@ Large language model (LLM) agents can improve their performance by reusing knowl
 - **Venue:** NeurIPS 2026
 - **Affiliations:** Institute of Computing Technology
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2610.09832v1) · [PDF](https://arxiv.org/pdf/2610.09832v1)
+- **Links:** [Paper](https://arxiv.org/abs/2610.09832v2) · [PDF](https://arxiv.org/pdf/2610.09832v2)
 
 Memory-augmented reinforcement learning strengthens LLM agents' ability to solve complex long-horizon tasks. Skills are one such form of memory, pairing instructions with an applicability condition over task types. However, retaining every skill indiscriminately as the policy improves lets obsolete or harmful entries accumulate and mislead the agent. We propose SkillForge, an agentic RL method that compiles and evolves the skill library through a fitness-driven skill lifecycle of trial, active, stable, and retired states, so that the skills and the model co-evolve throughout training. A pre-RL evaluation phase first uses the base model's own rollouts to pre-retire low-fitness skills, yielding a filtered library that then seeds supervised fine-tuning. Reinforcement learning takes over from this checkpoint, and at each iteration selective retirement, stabilization, and LLM-guided mutation continue to forge the skill library alongside policy optimization. Across multiple interactive agent benchmarks, SkillForge achieves the highest aggregate success rate, delivering up to 7.8% relative improvement over the strongest baseline while keeping the skill library compact throughout training. We introduce SkillFurnace, a dataset of 5k+ annotated records bundling retirement-filtered SFT trajectories, evolved skill libraries with fitness annotations, and retirement events with human-annotated failure categories to support research on skill quality and lifecycle management.
 
@@ -759,3 +759,101 @@ Reinforcement learning with verifiable rewards (RLVR) has driven substantial pro
 - **Links:** [Paper](https://arxiv.org/abs/2606.09701v2) · [PDF](https://arxiv.org/pdf/2606.09701v2)
 
 Language model safety must continually adapt to evolving attacks. Recent works have demonstrated that reinforcement learning can be used to train stronger attacker and defender models in tandem by applying PPO-style self-play and DPO-style online preference optimization. In this work, we explore the efficacy of GRPO in this setting. Co-training can be challenging because it requires jointly optimizing multiple properties of both the attacker and defender. We therefore shape model outputs using multiple LLM judge-based reward channels and compute advantages with GDPO, which prevents any single channel from dominating. Our method uses a curriculum that progresses from attacker-only single-turn and multi-turn training to co-training, where attacker and defender models are updated in alternation. We show that this method produces highly effective and transferable attacks, and that co-trained defenders reach competitive safety while preserving general utility. Through a controlled ablation, we further identify which components of our training pipeline most affect the resulting balance between safety and utility. Finally, we find that GRPO tends to collapse attacker diversity over training and discuss possible ways to address this limitation.
+
+## Long-Horizon Task Agents
+
+### [StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents](https://arxiv.org/abs/2610.10942v1)
+
+- **Authors:** Daksh Raghuvanshi, Ved Vedere, Yifan Wang
+- **Published:** 2026-10-07
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2610.10942v1) · [PDF](https://arxiv.org/pdf/2610.10942v1)
+
+Reinforcement learning environments are now a primary lever for improving large language model (LLM) capabilities in post-training, yet most agentic benchmarks remain static: the world moves only when the agent acts, the reward is a terminal verdict, and the pass bar is set arbitrarily. We introduce StoreBench, a live-commerce environment in which an agent runs a mid-size online apparel store on a production-grade commerce backend, testing long-horizon planning and economic judgment under uncertainty. Customers order around the clock, suppliers reprice and fail, and market shocks arrive with partial or no warning. The agent acts through the same 29 merchant tools a human operator would use, under a windowed operation budget that makes simulated time a function of actions taken, so model latency cannot influence simulated time. Pass thresholds are calibrated against scripted anchor policies, the reward is hardened against a catalogue of reward hacks, and every episode replays identically given a sequence of actions. We evaluate seven frontier LLMs on 11 scenarios of 30 to 45 days and a full simulated year, over three world seeds at matched reasoning effort. No model matches the scripted smart-triage policy on average: the best, DeepSeek-V4-Pro, passes 49% of task-seed cells against the heuristic's 97%. Human experts working through the same tools and budgets outscore every model (mean composite 0.708 vs. 0.700). Over a full simulated year under the Claude Code harness, most models show dramatic performance improvement. In a GRPO post-training run, Qwen3.5-27B trained on only five disjoint tasks raises its mean composite on the held-out evaluation tasks from 0.136 to 0.373. We release five example training-split tasks, ten sample trajectories, and the scoring and verification tooling; the full environment and evaluation suite are withheld to keep the benchmark uncontaminated.
+
+### [NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime](https://arxiv.org/abs/2610.10787v2)
+
+- **Authors:** Gengze Zhou, Yicong Hong, Jiazhao Zhang, Xunyi Zhao, Jian Zhou, Zixing Lei, Zun Wang, Chongyang Zhao, Xionghui Chen, Stephen Gould, Anton van den Hengel, Qi Wu
+- **Published:** 2026-10-07
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** Australian National University
+- **Categories:** cs.RO, cs.AI, cs.CL, cs.CV, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2610.10787v2) · [PDF](https://arxiv.org/pdf/2610.10787v2)
+
+Language models trained with long-horizon agentic reinforcement learning can generalize knowledge through reasoning, express precise actions, and pursue goals over many steps, raising the ceiling on what an embodied agent can understand and decide. Physical interaction, however, remains the domain of action policies, which provide dense, low-latency control. We present NavGPT-3, a harness that connects the two models, with an OS-like runtime built above it: reasoning, acting, and monitoring run as threads with their own context, tools, and permissions, while the runtime schedules them and decides which thread controls the robot's motion, so that the robot can react to sudden real-world events through interruption and thread switching. Beneath it, our action policy NavGPT VLA, trained on 19.28M examples, allocates visual tokens using codec allocation, in proportion to scene change; its 8B model alone reaches 76.94 SR on R2R-CE and leads RxR-CE with 82.39 SR. With the complete harness, NavGPT-3 sets the state of the art on R2R-CE (81.51 SR) and, for the first time, brings an autonomous agent to human level: on RxR-CE it matches human followers in success (90.43 vs. 90.4 SR) and path fidelity (78.47 vs. 77.7 nDTW) at 1 min 22 s per episode, versus roughly 3 min for a human. We comprehensively ablate the harness design and the interaction between the two models, showing how tools and the action policy shape the path from language-model reasoning to physical control: when NavGPT VLA executes the route, the reasoning loop shortens and the system's minimum reaction time falls from 3-19 s per language-model decision to 0.5-1 s per action-policy step (1-2 Hz). These results show that designing this embodied interface is central to connecting frontier language-model intelligence with low-level physical control. We will release all models, code, and evaluation records.
+
+### [RewardWeaver: Long-Horizon Interactive Learning for Language Agents via Self-Evolving Reward Adaptation](https://arxiv.org/abs/2610.10120v1)
+
+- **Authors:** Hengbo Xiao, Boyao Zhang, Purui Liu, Yuxuan Zheng, Haoran Yin, Haibo Liu, Fan Zhang
+- **Published:** 2026-10-07
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2610.10120v1) · [PDF](https://arxiv.org/pdf/2610.10120v1)
+
+Reinforcement learning with verifiable rewards (RLVR) has driven substantial progress in domains where task outcomes can be reliably evaluated, but long-horizon interaction remains challenging due to sparse terminal feedback and difficult credit assignment. Process rewards provide denser supervision, yet the capabilities most relevant for training can change as the policy evolves: a behavior that is easy to evaluate or frequently deficient need not be the bottleneck currently limiting task success. We introduce RewardWeaver, a self-evolving reward adaptation framework for language agents in long-horizon interaction. RewardWeaver maintains a validated capability space in which the semantics of admitted Rubrics remain fixed, and closes the loop between policy optimization, task evaluation, failure attribution, and reward adaptation. After each training stage, it performs outcome-grounded backward attribution on low-outcome trajectories, aggregates recurrent and policy-controlled capability bottlenecks, and dynamically selects the corresponding process rewards for the next stage. Recurrent failures not covered by the existing capability space trigger a separate, controlled expansion procedure. We evaluate REWARDWEAVER on SOTOPIA, Amazon?HistoryPrice, and a newly constructed Sales Benchmark. Across social interaction, bilateral bargaining, and domain-specific sales, REWARDWEAVER establishes new state-of-the-art (SOTA) results. Ablations further demonstrate the importance of dynamic reward allocation, failure-grounded attribution, and stable semantics for admitted capabilities.
+
+### [SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles](https://arxiv.org/abs/2610.09832v2)
+
+- **Authors:** Yuyao Ge, Yiwei Wang, Yuchen He, Baolong Bi, Lingrui Mei, Jiayu Yao, Lizhe Chen, Shenghua Liu
+- **Published:** 2026-10-07
+- **Priority:** 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-13 (actual acceptance date unverified)
+- **Venue:** NeurIPS 2026
+- **Affiliations:** Institute of Computing Technology
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2610.09832v2) · [PDF](https://arxiv.org/pdf/2610.09832v2)
+
+Memory-augmented reinforcement learning strengthens LLM agents' ability to solve complex long-horizon tasks. Skills are one such form of memory, pairing instructions with an applicability condition over task types. However, retaining every skill indiscriminately as the policy improves lets obsolete or harmful entries accumulate and mislead the agent. We propose SkillForge, an agentic RL method that compiles and evolves the skill library through a fitness-driven skill lifecycle of trial, active, stable, and retired states, so that the skills and the model co-evolve throughout training. A pre-RL evaluation phase first uses the base model's own rollouts to pre-retire low-fitness skills, yielding a filtered library that then seeds supervised fine-tuning. Reinforcement learning takes over from this checkpoint, and at each iteration selective retirement, stabilization, and LLM-guided mutation continue to forge the skill library alongside policy optimization. Across multiple interactive agent benchmarks, SkillForge achieves the highest aggregate success rate, delivering up to 7.8% relative improvement over the strongest baseline while keeping the skill library compact throughout training. We introduce SkillFurnace, a dataset of 5k+ annotated records bundling retirement-filtered SFT trajectories, evolved skill libraries with fitness annotations, and retirement events with human-annotated failure categories to support research on skill quality and lifecycle management.
+
+### [Deconstructing Off-Policy Ratios: Entropy-Normalized Trust Regions for Asynchronous Reinforcement Learning](https://arxiv.org/abs/2607.22186v5)
+
+- **Authors:** Guanqun Zhao, Zijun Xie, Binbin Zheng, Yehan Yang, Jiafeng Lu, Aoqi Hu, Enlei Gong, Zeyu Chen
+- **Published:** 2026-07-24
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.22186v5) · [PDF](https://arxiv.org/pdf/2607.22186v5)
+
+Asynchronous reinforcement learning (RL) accelerates large language model (LLM) post-training by overlapping rollout generation with policy optimization, but the resulting stale, off-policy data destabilizes optimization and can cause policy collapse. Existing methods gate tokens by ratio magnitude alone, applying one threshold at every position. We show that the ratio's natural scale is set by token entropy, so deviations from mid-trajectory weight updates stay within this scale and carry genuine exploration. We further identify an overlooked low-entropy regime that breaks this scaling, where a near-zero probability amplifies train--inference mismatch into noise far beyond what the local entropy admits. A magnitude threshold admits this noise and discards the exploration. We therefore propose the Entropy-Normalized Trust Region (ENTR). Across long-horizon agentic tasks and mathematical reasoning benchmarks, ENTR outperforms existing asynchronous methods. It improves avg@1 on BrowseComp-Plus by $6.9\%$ over the strongest baseline, trains stably up to $30$ policy versions of staleness, and matches synchronous GRPO at a $2.6\times$ speedup.
+
+### [CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents](https://arxiv.org/abs/2607.05378v2)
+
+- **Authors:** Yujiang Li, Zhenyu Hou, Yi Jing, Jie Tang, Yuxiao Dong
+- **Published:** 2026-07-06
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2607.05378v2) · [PDF](https://arxiv.org/pdf/2607.05378v2)
+
+Long-horizon agentic LLMs are increasingly limited by finite context windows, as extended interaction trajectories can exceed the maximum context length before a task is completed. Context compaction offers a natural solution by summarizing previous interaction states and continuing the rollout under a compressed context, but incorporating compaction into reinforcement learning remains underexplored. We propose CompactionRL, a reinforcement learning strategy to train long-horizon agentic LLMs with context compaction. Our approach jointly optimizes task execution and summary generation with token-level loss normalization and cross-segment generalized advantage estimation. This design enables the LLM agents to learn from compacted long-horizon trajectories. We train CompactionRL on top of open models and observe consistent performance gains on agentic coding tasks. CompactionRL enables the open GLM-4.5-Air model (106B-A12B) to achieve Pass@1 scores of 66.4% on SWE-bench Verified and 26.2% on Terminal-Bench 2.0, exceeding the base model under inference-time compaction by 6.6 and 4.9 points, respectively. Built upon GLM-4.7-Flash (30B-A3B), CompactionRL improves Pass@1 by 5.5 and 6.7 points against the base model, reaching 56.0% on SWE-bench Verified and 20.2% on Terminal-Bench 2.0. CompactionRL is thus deployed in the RL pipeline for training the open GLM-5.2 model (750B-A40B).
+
+### [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2)
+
+- **Authors:** Xuan Zhang, Wenxuan Zhang, See-Kiong Ng, Yang Deng
+- **Published:** 2026-06-29
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2606.30639v2) · [PDF](https://arxiv.org/pdf/2606.30639v2)
+
+World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world model framework that revises its deployment-time context while keeping the downstream agent and all model parameters frozen. WorldEvolver integrates three modules: (i) Episodic Memory, which exploits real action transitions through retrieval-based simulation; (ii) Semantic Memory, which extracts persistent heuristic rules from prediction-observation mismatches; and (iii) Selective Foresight, which filters low-confidence predictions before integrating them into agent reasoning context. We evaluate WorldEvolver on ALFWorld and ScienceWorld, measuring world model prediction accuracy on Word2World and downstream agent success rate on AgentBoard. Extensive experiments show that WorldEvolver achieves the highest prediction accuracy across three backbones and leads other world model baselines on downstream agent success rate, demonstrating that test-time memory revision enhances both predictive fidelity and planning performance.
+
+### [Hierarchical Experimentalist Agents](https://arxiv.org/abs/2606.29315v2)
+
+- **Authors:** Abhranil Chandra, Utsav Dhanuka, Varun Gandhi, Sankaran Vaidyanathan, Scott Niekum
+- **Published:** 2026-06-28
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2606.29315v2) · [PDF](https://arxiv.org/pdf/2606.29315v2)
+
+Large language models (LLMs) are increasingly used to act in the real world and augment human decision-making, yet most systems rely on parametric knowledge acquired through imitation, optionally improved by post-training, retrieval, or search over fixed data. This paradigm struggles in novel domains or on complex queries that require information unavailable from prior knowledge alone; knowing the laws of physics, for example, does not by itself enable reliable reasoning or long-horizon actions in a complex physical system. We argue that agents need active experimentation: the ability to gather targeted query-specific evidence, discover general principles of unseen environments, and convert interaction experience into reusable skills. We introduce Hierarchical Experimentalist Agents (HExA), an in-context, experiment-centric self-improvement framework that (1) iteratively designs and refines query-relevant experiments, (2) incrementally distills experience into reusable and composable skills that accelerate experimentation within and across tasks, and (3) integrates experimental evidence to act or answer queries. HExA can work with any LLM including frontier black-box models, and requires no external supervision, oracle solutions, or offline data. We evaluate HExA on multi-step reasoning, interactive partially observable games, and physics law discovery tasks. To further evaluate when active experimentation is necessary, we introduce Interphyre, a set of hard procedural physics tasks where we enable tool-calling and intervention APIs. Current frontier LLMs including GPT-6 Astra fail in these settings: on the most challenging Interphyre tasks, we show that HExA can enable such models to near 100% success. Moreover, HExA improves token efficiency compared to naive agentic and memory baselines and enables generalization via hierarchical skill transfer from easier to harder tasks.

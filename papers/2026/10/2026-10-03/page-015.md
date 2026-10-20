@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -19,19 +19,19 @@
 | 2026-08-03 | Agent/LLM Self-Improvement | [Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories](https://arxiv.org/abs/2608.02276) | 📈 Highly cited |
 | 2026-08-02 | Agent Memory | [V-Mem: Modality-Routed Retrieval for Long-Term Multimodal Agentic Memory](https://arxiv.org/abs/2608.01543v1) | — |
 | 2026-08-02 | Agent/LLM Self-Improvement | [Asking Questions the Right Way: A Multi-Agent Conversational System for Prompt Formulation in Complex Task Resolution](https://arxiv.org/abs/2608.01366v2) | — |
-| 2026-08-02 | Agent Memory | [Stop When Memory Suffices: Evidence-Conditioned Progressive Execution for LLM Agents](https://arxiv.org/abs/2608.01285v1) | — |
+| 2026-08-02 | Agent Memory, Long-Horizon Task Agents | [Stop When Memory Suffices: Evidence-Conditioned Progressive Execution for LLM Agents](https://arxiv.org/abs/2608.01285v1) | — |
 | 2026-08-02 | Agent/LLM Self-Improvement | [Learning What to Remember and What to Internalize in LLM Self-Evolution via Adaptive Memory-Parameter Coordination](https://arxiv.org/abs/2608.01234v1) | — |
 | 2026-08-02 | Agent/LLM Self-Improvement | [Auditing Discovery Claims: A Two-Sided Criterion for Agentic Science, with the Negative Side Decidable](https://arxiv.org/abs/2608.00981v1) | — |
-| 2026-08-02 | Agent Memory | [TrajWiki: Source-Grounded Memory Trajectories for Long-Horizon Dialogue Agents](https://arxiv.org/abs/2608.00967v1) | — |
+| 2026-08-02 | Agent Memory, Long-Horizon Task Agents | [TrajWiki: Source-Grounded Memory Trajectories for Long-Horizon Dialogue Agents](https://arxiv.org/abs/2608.00967v1) | — |
 | 2026-08-02 | Agent Memory | [PMMC: Prospective Multimodal Memory Compilation for Long-Term LVLM Agents](https://arxiv.org/abs/2608.00962v1) | — |
 | 2026-08-02 | Reinforcement Learning | [Gaokerena: A Small Persian Medical Language Model Family](https://arxiv.org/abs/2608.00932v5) | — |
 | 2026-08-01 | LLM Continual Training | [Unleashing the Potential of Large Language Models: A Blueprint for Real-Time, Enterprise-Ready Deployments](https://arxiv.org/abs/2608.00419v1) | — |
 | 2026-07-31 | Agent/LLM Self-Improvement | [CrystalMem: Elastic Memory for Self-Evolving LLM Agents via Knowledge Crystallization](https://arxiv.org/abs/2608.00303v1) | — |
 | 2026-07-31 | Agent/LLM Self-Improvement | [AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks?](https://arxiv.org/abs/2608.00155v2) | — |
-| 2026-07-31 | Agent Memory | [HAM-VLN: Harnessing Hierarchical Agentic Memory for Zero-Shot Vision-and-Language Navigation](https://arxiv.org/abs/2607.29600v1) | — |
+| 2026-07-31 | Agent Memory, Long-Horizon Task Agents | [HAM-VLN: Harnessing Hierarchical Agentic Memory for Zero-Shot Vision-and-Language Navigation](https://arxiv.org/abs/2607.29600v1) | — |
 | 2026-07-31 | Agent/LLM Self-Improvement | [Self-Play Meets Skill Evolution: Self-Evolving Search Agents that Pose, Solve, and Remember](https://arxiv.org/abs/2607.29468v1) | — |
 | 2026-07-31 | Agent Memory | [Zero-Mem: Zero-Token Memory Operations for LLM Agents](https://arxiv.org/abs/2607.29377v1) | — |
-| 2026-07-31 | Agent/LLM Self-Improvement | [RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems](https://arxiv.org/abs/2607.29241v1) | — |
+| 2026-07-31 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems](https://arxiv.org/abs/2607.29241v1) | — |
 | 2026-07-31 | Agent/LLM Self-Improvement | [DarwinX: Evolving Agent Harnesses Through Natural Selection](https://arxiv.org/abs/2608.07545v1) | — |
 | 2026-07-31 | Agent/LLM Self-Improvement | [EvoReason: Self-Evolving Reasoning Primitive-Guided On-Policy Distillation for Latent Reasoning in Generative Recommendation](https://arxiv.org/abs/2607.29010v1) | — |
 | 2026-07-31 | Agent/LLM Self-Improvement | [Rethinking Self-Evolving Agent Skills: Feedback Dynamics over Multiple Rounds](https://arxiv.org/abs/2608.02636v1) | — |
@@ -46,7 +46,7 @@
 | 2026-07-30 | Agent/LLM Self-Improvement, LLM Continual Training | [IndustryForge-27B: A Domain-Enhanced Multimodal Foundation Model for Industrial CAD](https://arxiv.org/abs/2607.28050v1) | — |
 | 2026-07-30 | Agent/LLM Self-Improvement | [SciToolAgent-Evo: An Ontology-Aware Self-Evolving Agent for Open-World Scientific Tool Acquisition](https://arxiv.org/abs/2607.28692v1) | — |
 | 2026-07-30 | Agent Memory | [MemTxn: A Transaction Boundary for Source-Supported Updates and Complete-State Recovery in Agent Memory](https://arxiv.org/abs/2607.27834v1) | — |
-| 2026-07-30 | Agent Memory | [ChronoMem: Version Control and Semantic Rollback for Large Language Model Agent Memory](https://arxiv.org/abs/2607.27773v2) | — |
+| 2026-07-30 | Agent Memory, Long-Horizon Task Agents | [ChronoMem: Version Control and Semantic Rollback for Large Language Model Agent Memory](https://arxiv.org/abs/2607.27773v2) | — |
 | 2026-07-30 | Agent/LLM Self-Improvement | [Rehearse: Stepping Back from the Confidence Cliff in Self-Improving Autoresearch](https://arxiv.org/abs/2607.27687v1) | — |
 | 2026-07-30 | Agent/LLM Self-Improvement, LLM Continual Training | [Skill Training with Corruption and Reconstruction Loop](https://arxiv.org/abs/2607.27557v2) | — |
 | 2026-07-29 | Agent/LLM Self-Improvement | [SkillMentor: LLM Agent Self-Evolution via Learning Blind-Spot Diagnosis](https://arxiv.org/abs/2607.27360v1) | — |
@@ -737,3 +737,65 @@ Reinforcement learning with verifiable rewards (RLVR) improves the reasoning cap
 - **Links:** [Paper](https://arxiv.org/abs/2607.26358v2) · [PDF](https://arxiv.org/pdf/2607.26358v2)
 
 Reinforcement learning (RL) fine-tuning is widely used in language model training to improve performance on a target task while limiting drift from a reference policy. A standard way to balance this trade-off is via a KL-regularized RL objective, although this formulation does not by itself provide a principled way to set the regularization coefficient. In practice, the coefficient is typically chosen heuristically or via hyperparameter search, which can lead to unnecessary overhead in training cost or undesirable reward-retention trade-offs. We instead propose a game-theoretic framework that gives this trade-off an explicit statistical interpretation. Specifically, we study a sequential game in which an agent chooses a policy to maximize cumulative reward while a monitor observes policy outputs over time and tests for deviations from the reference policy. Although not originating from the same perspective, we show that the resulting equilibrium policy can nonetheless be expressed as the solution to a KL-regularized RL problem for an optimal regularization parameter that can be viewed as maximizing reward per unit of statistical distinguishability. Drawing on classical results from concave-convex fractional programming, we provide a principled method for learning this equilibrium coefficient via reduction to the KL-regularized RL objective, thus allowing for flexible integration into standard fine-tuning pipelines. In experiments with Qwen3-8B and Llama-3.2-1B, we show that our methods result in competitive reward-retention trade-offs in a continual learning setting, and illustrate how our framework may be used to audit API providers serving open-source models.
+
+## Long-Horizon Task Agents
+
+### [Stop When Memory Suffices: Evidence-Conditioned Progressive Execution for LLM Agents](https://arxiv.org/abs/2608.01285v1)
+
+- **Authors:** Yidan Lin, Kaixiang Wang, Jiong Lou, Jie Li
+- **Published:** 2026-08-02
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2608.01285v1) · [PDF](https://arxiv.org/pdf/2608.01285v1)
+
+The continued development of LLMs toward persistent and adaptive intelligence increasingly requires long-term memory mechanisms that preserve and reuse information across interactions. Existing memory systems either compress and structure histories for efficient access or perform deep research over broader trajectories. The former lowers online cost but may omit temporal, causal, or cross-step dependencies, while the latter improves evidence coverage at substantial latency and inference cost. This raises a key question: can a memory system achieve strong answer quality while maintaining low online latency? We introduce Router-Mem, an evidence-conditioned progressive execution framework for long-horizon agent memory. Router-Mem first applies a shared low-cost retrieval prefix to obtain evidence. A lightweight sufficiency router then predicts whether the context supports early termination, which enable a single-token decision at inference time. It is trained with evidence-level supervision and rationale-conditioned representation distillation. When evidence is insufficient, Router-Mem reuses retrieval hits to expand memory blocks and perform deeper analysis and aggregation. Experiments on AMA-Bench and BEAM show that Router-Mem achieves 55.17\% and 38.77\% score while reducing average inference time by 27.3\% and 25.5\% compared with full memory execution.
+
+### [TrajWiki: Source-Grounded Memory Trajectories for Long-Horizon Dialogue Agents](https://arxiv.org/abs/2608.00967v1)
+
+- **Authors:** Jingyu Sun, Yuyang Xue, Mingyang Li, Zhengtao Yao, Jiachen Li, Yang Cui, Wenhao Cai, Haozhe Liu, Fangying Wang, Magdalene Katharina Montgomery, Syed Murtuza Baker, Hongpeng Zhou
+- **Published:** 2026-08-02
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2608.00967v1) · [PDF](https://arxiv.org/pdf/2608.00967v1)
+
+Large language model agents have shown strong capabilities in generating coherent and contextually appropriate responses, yet robust long-horizon dialogue remains limited by the lack of external memory that is traceable, updatable, and diagnostically transparent. Existing memory-augmented agents often store memories as isolated records or overwritable states, making it difficult to preserve how information originates, evolves, conflicts, or becomes obsolete over time. We propose TrajWiki, a trajectory-based memory framework for long-horizon conversational agents. Instead of treating memory as static entries, TrajWiki represents each memory as a source-grounded evolution trajectory, maintained through immutable episodic snapshots and claim-level operations such as ADD, REVISE, and DEPRECATE. To reduce fragmentation and retrieval cost, TrajWiki further introduces Memory Wiki, a persistent intermediate layer that incrementally compiles dialogue history into structured and interlinked wiki pages capturing salient entities, events, quantities, topics, and conflicts. At inference time, queries are routed hierarchically from relevant wiki pages to linked memory trajectories, then to corresponding snapshots and source messages for evidence-grounded answer synthesis. Experiments on LoCoMo and MedMT show that TrajWiki improves long-horizon dialogue performance across both open-source and closed-source LLM backbones, while providing greater interpretability and diagnostic visibility into memory evolution, retrieval failures, and answer generation.
+
+### [HAM-VLN: Harnessing Hierarchical Agentic Memory for Zero-Shot Vision-and-Language Navigation](https://arxiv.org/abs/2607.29600v1)
+
+- **Authors:** An Liu, Bingxi Liu, Hongyu Ding, Yixuan Jiang, Yaran Chen, Fulin Tang, Cong Leng, Hong Zhang, Jian Cheng
+- **Published:** 2026-07-31
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.RO
+- **Links:** [Paper](https://arxiv.org/abs/2607.29600v1) · [PDF](https://arxiv.org/pdf/2607.29600v1)
+
+Vision-and-language navigation (VLN) enables robots to follow instructions in previously unseen environments. Recently, a training-free paradigm has emerged: the robot queries a multimodal LLM to understand its observations and plan the next action. However, long-horizon navigation based on either image streams or dense map inevitably introduces a growing memory and reasoning bottleneck. We present HAM-VLN, a decision-coupled, agent-authored memory that equips the robot with a persistent, depth-grounded world graph. In the same model call used to select the next action, HAM-VLN also records semantic and reflective information---including room type, objects, navigation progress, and failure notes. Recent waypoints remain verbatim within a bounded window, while older history re-enters the context only through retrieval scored by relevance, recency, and salience, together with one-hop topological expansion. This design requires no additional LLM calls beyond the per-waypoint decision. Compared to previous methods, HAM-VLN not only improves various navigation metrics but also reduces the context length by more than 65%. Specifically, HAM-VLN achieves 61.0% Success Rate (SR) on VLN-CE R2R, 52.7% SR on VLN-CE RxR, and 79.7% SR on HM3D-v2 ObjectNav without any training.
+
+### [RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems](https://arxiv.org/abs/2607.29241v1)
+
+- **Authors:** Haoran Ling, Yuecheng Li, Zeyu Song, Jing Yao, Shuwen Kang, Chi Lu, Wenjin Wu, Peng Jiang
+- **Published:** 2026-07-31
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.IR, cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2607.29241v1) · [PDF](https://arxiv.org/pdf/2607.29241v1)
+
+Optimizing modern recommender models still depends heavily on engineers manually iterating over architectural, objective, and training-strategy changes. While LLM-based agents can automate this trial-and-error process, allowing the LLM to both select modification directions and generate concrete hypotheses often leads to unstable search under limited experiment budgets. Inspired by the above challenge, we propose RecHarness, a Bandit-Routed Agentic Harness for automated recommender model optimization. RecHarness separates the optimization process into two steps: a bandit router selects the next modification direction according to historical validation feedback, while the LLM generates a concrete optimization hypothesis and executable code edit within the selected direction. To sustain long-horizon exploration, RecHarness uses a jump-basin mechanism to activate a structural-jump arm when local edits stagnate. Across multiple recommendation tasks, datasets, and model backbones, RecHarness achieves more stable performance improvements and uses limited trial budgets more effectively than LLM-reasoning search. During a 7-day online A/B test on a large-scale short-video advertising platform, the selected candidate improves ADVV by 2.084%, Revenue by 0.534%, and Exposure by 0.559%. Code is available at https://github.com/6lyc/RecHarness.
+
+### [ChronoMem: Version Control and Semantic Rollback for Large Language Model Agent Memory](https://arxiv.org/abs/2607.27773v2)
+
+- **Authors:** Yongye Su, Wujiang Xu, Chaoji Zuo, Elisa Bertino
+- **Published:** 2026-07-30
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2607.27773v2) · [PDF](https://arxiv.org/pdf/2607.27773v2)
+
+LLM agents increasingly rely on long-term memory to support multi-session interaction and personalization. However, existing agent memory systems are designed around forward-only evolution, continuously accumulating, consolidating, and overwriting knowledge, with no principled mechanism to inspect, version, or revert prior states. This makes agents brittle under corrections, concept drift, and memory corruption, particularly after they have already been exposed to subsequent information. We present ChronoMem, a semantic version-control layer for agentic memory integrated into the production-ready, open-source Agent Development Kit by Google. ChronoMem commits whole-memory snapshots at each memory write, maintains structured version histories, and supports natural-language rollback requests by mapping undo intents to concrete historical versions through hybrid lexical and semantic retrieval, rank fusion, and reranking. We further introduce a post-exposure evaluation protocol that tests whether an agent can behave counterfactually after rollback by answering queries and summarizing history as if future updates had never occurred. On long-horizon conversational benchmarks augmented with evolving memory states and rollback tasks, ChronoMem substantially improves rollback-consistent question answering and history summarization relative to prompt-only and retrieval-only baselines, while achieving strong performance in semantic version selection. To our knowledge, ChronoMem is the first open-source system and benchmark for systematic semantic global memory rollback in LLM agents.

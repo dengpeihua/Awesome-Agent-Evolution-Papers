@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -24,7 +24,7 @@
 | 2026-08-25 | Reinforcement Learning | [On-policy Distillation with Verifiable Reward](https://arxiv.org/abs/2608.24696v4) | 📈 Highly cited |
 | 2026-08-25 | Agent/LLM Self-Improvement, Agent Memory | [VideoHarness-RSI: Recursive Harness Self-Improvement for Long-Video Understanding with Frozen Vision-Language Models](https://arxiv.org/abs/2608.24302v2) | — |
 | 2026-08-25 | Agent/LLM Self-Improvement | [Multi-Agent Self-Improving Reinforcement Learning for Video Reasoning](https://arxiv.org/abs/2608.28675v1) | — |
-| 2026-08-24 | Agent/LLM Self-Improvement | [Prime Agent: A Self-Improving RLM Harness](https://arxiv.org/abs/2608.23552v1) | 📈 Highly cited |
+| 2026-08-24 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Prime Agent: A Self-Improving RLM Harness](https://arxiv.org/abs/2608.23552v1) | 📈 Highly cited |
 | 2026-08-24 | Reinforcement Learning | [Scaling Reinforcement Learning for Diffusion Models via Velocity Matching](https://arxiv.org/abs/2608.23664v2) | — |
 | 2026-08-24 | Agent Memory | [InjecMEM: Memory Injection Attack on LLM Agent Memory Systems](https://arxiv.org/abs/2608.23471v1) | — |
 | 2026-08-24 | Agent/LLM Self-Improvement | [MediSkill-Evo: Process-Constrained Self-Evolution for Evidence-Grounded Clinical Interaction](https://arxiv.org/abs/2608.23397v2) | — |
@@ -36,7 +36,7 @@
 | 2026-08-23 | Agent/LLM Self-Improvement | [Coalition-Aware Skill Reliability for Self-Evolving Agents](https://arxiv.org/abs/2608.22610v1) | — |
 | 2026-08-23 | Agent/LLM Self-Improvement | [CONTRAMEM: Learning Self-Evolving Procedural Memory from Contrasting Multi-Model Trajectories](https://arxiv.org/abs/2608.22533v2) | — |
 | 2026-08-23 | Agent/LLM Self-Improvement | [When Not to Imitate: Boundary-Aware Skill Memory for Reliable Tool-Use LLM Agents](https://arxiv.org/abs/2608.22339v1) | — |
-| 2026-08-23 | Agent Memory | [HERO: Human-profile Enhanced Retrieval Optimization Framework for Long-term Agent Memory](https://arxiv.org/abs/2608.22310v1) | — |
+| 2026-08-23 | Agent Memory, Long-Horizon Task Agents | [HERO: Human-profile Enhanced Retrieval Optimization Framework for Long-term Agent Memory](https://arxiv.org/abs/2608.22310v1) | — |
 | 2026-08-23 | Agent Memory | [Dual-Layer Agentic Memory with Fast Write Routing and Slow Consolidation](https://arxiv.org/abs/2608.22215v2) | — |
 | 2026-08-23 | Agent/LLM Self-Improvement | [BehaviorWorldGen: Closing the Loop between Action Models and World Simulators via Controllable Behavior-Aware Structured World Generation](https://arxiv.org/abs/2608.22187v3) | — |
 | 2026-08-22 | Agent Memory | [MEMORY Wins All: Indirect Bias Injection Attacks via Social Media Feeds](https://arxiv.org/abs/2608.22061v1) | — |
@@ -45,24 +45,24 @@
 | 2026-08-22 | Agent Memory | [MSM-Mem: A Universal Medical Structured Multimodal Memory Framework for Medical AI Agents](https://arxiv.org/abs/2608.21810v1) | — |
 | 2026-08-21 | LLM Continual Training | [Anchoring Bias: A Persistent Fairness Backdoor Attack against MLLMs under Continual Learning](https://arxiv.org/abs/2608.21577v1) | — |
 | 2026-08-21 | Agent Memory | [Utility Under Attack: Agent Memory Poisoning and the Limits of Content Screening and Provenance Ranking](https://arxiv.org/abs/2608.21230v1) | — |
-| 2026-08-21 | Agent/LLM Self-Improvement | [Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence](https://arxiv.org/abs/2608.21156v2) | — |
+| 2026-08-21 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence](https://arxiv.org/abs/2608.21156v2) | — |
 | 2026-08-21 | LLM Continual Training | [TASSO: TAsk-Specific Subspace Optimization for Continual Learning of Vision-Language Models](https://arxiv.org/abs/2608.21487v1) | — |
 | 2026-08-21 | LLM Continual Training | [Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs](https://arxiv.org/abs/2608.20953v1) | — |
 | 2026-08-21 | Agent/LLM Self-Improvement, Agent Memory | [ForeDreamer: A Self-Evolving Dual-Agent Memory Architecture for Future Event Prediction](https://arxiv.org/abs/2608.20920v2) | — |
 | 2026-08-21 | LLM Continual Training | [ResiliFlow: An Open Transport World Model for Infrastructure Perception and Disaster Resilience](https://arxiv.org/abs/2608.20709v1) | — |
 | 2026-08-21 | Agent/LLM Self-Improvement | [ArtiMo: Agent-Driven Articulated Mesh Animation](https://arxiv.org/abs/2608.20699v1) | — |
 | 2026-08-21 | Agent Memory | [DreamBench-SWE: A Multi-Session Memory-Hygiene Benchmark for Software Agents](https://arxiv.org/abs/2608.20664v1) | — |
-| 2026-08-21 | Agent Memory | [Weighted Memory Tree: Remembering What Matters for Long-Horizon LLM Agents](https://arxiv.org/abs/2608.20631v1) | — |
+| 2026-08-21 | Agent Memory, Long-Horizon Task Agents | [Weighted Memory Tree: Remembering What Matters for Long-Horizon LLM Agents](https://arxiv.org/abs/2608.20631v1) | — |
 | 2026-08-20 | Agent/LLM Self-Improvement | [AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement](https://arxiv.org/abs/2608.20318v1) | 📈 Highly cited |
 | 2026-08-20 | LLM Continual Training | [SCoRD: Semantic-Assisted Continual Retriever-Reranker Distillation for LLM-Based Recommendation](https://arxiv.org/abs/2608.19998v1) | — |
 | 2026-08-20 | LLM Continual Training | [COPA: Continual Preference Optimization for Adaptive Prompt Injection Defense](https://arxiv.org/abs/2608.19982v1) | — |
 | 2026-08-20 | Agent/LLM Self-Improvement | [Bringing analytic rigor to agentic AI for science: The Brain Researcher platform for neuroimaging data analysis](https://arxiv.org/abs/2608.19902v1) | — |
-| 2026-08-20 | Reinforcement Learning | [SAPO: Single-Rollout Autoregressive Policy Optimization for Agentic Reinforcement Learning](https://arxiv.org/abs/2608.19842v3) | — |
+| 2026-08-20 | Reinforcement Learning, Long-Horizon Task Agents | [SAPO: Single-Rollout Autoregressive Policy Optimization for Agentic Reinforcement Learning](https://arxiv.org/abs/2608.19842v3) | — |
 | 2026-08-20 | Agent Memory | [Beyond Memory Majority: Latent-Source Reasoning for Multi-Agent Memory Arbitration](https://arxiv.org/abs/2608.19701v1) | — |
 | 2026-08-20 | LLM Continual Training | [Frequency-Aware Continual Learning for Smart Contract Vulnerability Detection with Large Language Models](https://arxiv.org/abs/2608.19680v1) | — |
 | 2026-08-20 | Agent Memory | [Can Agent Memory Systems Track Evolving State?](https://arxiv.org/abs/2608.19652v1) | — |
 | 2026-08-19 | LLM Continual Training | [BF1: A Causal Dyadic Sparse-Attention Retrofit for Efficient Long-Context Transformers](https://arxiv.org/abs/2608.20427v1) | — |
-| 2026-08-19 | Agent/LLM Self-Improvement | [SPADE: Self-Play in Adaptive Synthetic Executable Environments](https://arxiv.org/abs/2608.19197v3) | — |
+| 2026-08-19 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [SPADE: Self-Play in Adaptive Synthetic Executable Environments](https://arxiv.org/abs/2608.19197v3) | — |
 
 ## 🚨 Priority Watch
 
@@ -704,3 +704,77 @@ Reliable planning requires converting natural-language instructions into executa
 - **Links:** [Paper](https://arxiv.org/abs/2608.19842v3) · [PDF](https://arxiv.org/pdf/2608.19842v3)
 
 Agentic reinforcement learning (RL) has emerged as an important post-training approach for enhancing the capabilities of Large Language Models (LLMs). However, existing methods face a trade-off between policy performance and resource efficiency. Conventional Proximal Policy Optimization (PPO) implementations incur substantial memory overhead from a separate critic, whereas critic-free group-relative methods require multiple rollouts and face potential learning bottlenecks on long-horizon tasks. In this work, we propose Single-rollout Autoregressive Policy Optimization (SAPO), an efficient PPO-style framework that unifies policy optimization and value learning within a single causal language model. SAPO exploits the autoregressive structure of LLMs to sequentially generate action and value estimation at distinct causal boundaries with shared parameters, and then jointly optimizes the PPO objectives and an auxiliary on-policy SARSA objective with turn-level generalized advantage estimation, where the latter is designed to facilitate value learning. Extensive experiments on ALFWorld and WebShop with Qwen2.5-1.5B/7B and Qwen3-14B demonstrate that SAPO reduces peak GPU memory usage by 23.1% and per-iteration runtime by 24.8% over strong PPO baseline, while matching or slightly improving task success rate. Our experiments also show that SAPO outperforms Group Relative Policy Optimization (GRPO) and recent cutting-edge variants in both task success and training stability.
+
+## Long-Horizon Task Agents
+
+### [Prime Agent: A Self-Improving RLM Harness](https://arxiv.org/abs/2608.23552v1)
+
+- **Authors:** Seth Karten, Alex L. Zhang, Kevin Thomas, Sebastian Müller, Elie Bakouch, Daniel Auras, Mika Senghaas, Fares Obeid, Konstantin Dunas, Johannes Hagemann, Sami Jaghouar
+- **Published:** 2026-08-24
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL, cs.SE
+- **Links:** [Paper](https://arxiv.org/abs/2608.23552v1) · [PDF](https://arxiv.org/pdf/2608.23552v1)
+
+Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic context processing and test-time compute, while Continual Harness preserves histories, memories, skills, prompts, and subagent specifications across trajectories. Recursive subagents coordinate through direct agent-to-agent communication, and the Agents View lets humans inspect and manage daemon-backed sessions. Prime Agent standardizes execution, recovery, verification, and resource accounting while leaving strategy construction to the model. This low-friction, expressive membrane prevents harness failures from becoming model failures and pushes measurement toward the model's true maximal underlying capability. Prime Agent raises ARC-AGI-3 RHAE Best@1 from 30% to 95.5% and matches or exceeds native and popular harnesses across long-context coding, GPU-kernel generation, emulator construction, and autonomous nanoGPT speedruns. On Factorio, we find refinement allows for continuous technology progression and dedicated subagents enable parallelized work. Code is available at https://github.com/PrimeIntellect-ai/prime-agent.
+
+### [HERO: Human-profile Enhanced Retrieval Optimization Framework for Long-term Agent Memory](https://arxiv.org/abs/2608.22310v1)
+
+- **Authors:** Yuanhua Lin, Yile Li, Zhiyuan Zhao, Jing Shang, Jian Sun
+- **Published:** 2026-08-23
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** China mobile research institute, alibaba
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2608.22310v1) · [PDF](https://arxiv.org/pdf/2608.22310v1)
+
+Long-term memory is crucial for personalized responses and long-horizon agent interactions. Existing methods often rely on LLMs to compress or rewrite dialogue histories and use the transformed memories as retrieval evidence. Despite the progress in organizing fragmented contexts, two major drawbacks persist: (1) information loss from compression, which discards fine-grained but later useful details, and (2) semantic drift from rewriting, which erodes the original tone and situated context. In this work, we propose a novel Human-profile Enhanced Retrieval Optimization framework for long-term agent memory (HERO). Specifically, HERO converts the dialogue history into a traceable heterogeneous memory graph that preserves raw dialogue text as evidence for reasoning, thereby mitigating information loss. For retrieval, HERO extracts initial anchors from the current query and incorporates human profiles via an iterative graph traversal; these anchors and profiles provide guidance signals that adaptively activate the most informative regions of the graph. Experiments on two benchmark datasets show that HERO outperforms strong baselines on both factual and personalized reasoning, while providing more faithful access to raw dialogue evidence.
+
+### [Graph Engineering in the Era of LLM Agents: From Individual Intelligence to System Intelligence](https://arxiv.org/abs/2608.21156v2)
+
+- **Authors:** Yuyuan Feng, Zhishang Xiang, Chaobin Yang, Qichao Ma, Zerui Chen, Yujing Zhang, Ke Huang, Chuanjie Wu, Zhaoxu Liu, Yili Wang, Xin He, Jiapu Wang, Zijin Hong, Hao Chen, Yuanchen Bei, Kun Wang, Shengyuan Chen, Ningyu Zhang, Enyan Dai, Linhao Luo, Qingyi Pan, Qi Wang, Wenqi Fan, Guangjing Wang, Na Zou, Yangqiu Song, Xin Wang, Zechao Li, Xia Hu, Qing Li, Xiao Huang, Zhihong Zhang, Jinsong Su, Qinggang Zhang, Yi Chang
+- **Published:** 2026-08-21
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.IR, cs.AI, cs.ET
+- **Links:** [Paper](https://arxiv.org/abs/2608.21156v2) · [PDF](https://arxiv.org/pdf/2608.21156v2)
+
+LLMs have evolved from language generators to autonomous agents capable of complex, long-horizon tasks. This evolution has produced paradigms including Prompt Engineering to elicit model capabilities, Context Engineering to manage information access, Harness Engineering to organize external tools and resources, and Loop Engineering to support continual reflection and self-improvement. Yet as tasks grow more complex, individual intelligence faces a fundamental limit: many tasks require heterogeneous expertise, interdependent subtasks, parallel execution, independent verification, and persistent state, exceeding any single agent's organizational capacity. Augmenting one agent's capabilities or context cannot resolve this architectural mismatch; intelligence must instead be distributed across specialized agents and organized at the system level. We call this System Intelligence: an agent system's ability to organize and coordinate multiple intelligent components into a coherent, adaptive whole pursuing a shared objective. Achieving it requires more than adding agents; it demands explicit structures to organize work, coordinate heterogeneous agents, and maintain evolving execution states. We introduce Graph Engineering, an emerging paradigm for next-generation agent systems. Unlike prior paradigms that mainly optimize individual interactions or agent-level behavior, Graph Engineering constructs explicit, dynamic, evolving graph structures representing tasks, agents, and system states. These abstractions provide a unified foundation for organizing complex objectives, orchestrating heterogeneous agents, modeling system dynamics, and enabling scalable agent evolution. We systematically review the principles, methodologies, and applications of Graph Engineering for LLM agents. Related papers, open-source data, and projects are collected at https://github.com/DEEP-JLU/Awesome-Graph-Engineering.
+
+### [Weighted Memory Tree: Remembering What Matters for Long-Horizon LLM Agents](https://arxiv.org/abs/2608.20631v1)
+
+- **Authors:** Quang Dao, Purvi Kathalkar, Kenneth Eaton
+- **Published:** 2026-08-21
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2608.20631v1) · [PDF](https://arxiv.org/pdf/2608.20631v1)
+
+Large language model (LLM) agents have demonstrated the ability to solve multi-step tasks requiring planning, tool use, and external information access, yet growing execution histories increase inference cost and expose reasoning to outdated, irrelevant, or misleading information, potentially degrading reasoning quality. Existing memory approaches organize or compress execution histories but provide limited mechanisms for deciding which memories remain active. We introduce the, a hierarchical memory system that organizes execution into tasks, subtasks, and actions while assigning each memory a dynamic retention score. Event-based updates and selection-based decay revise these scores, allowing WMT to preserve useful information, fold completed trajectories, suppress low-utility content, and retain access to folded context. We evaluate WMT on GAIA-Text using Qwen3-8B, Gemma 4 E4B, and Llama-3.1-8B, with ablations and memory-poisoning experiments. Relative to linear memory, WMT improves accuracy by an average of 9.97 percentage points while reducing prompt-token usage by 32.8%. Memory-poisoning experiments show that WMT limits the persistence and propagation of unreliable information. Our results suggest that effective long-horizon agent memory depends less on storing more information than on deciding which information should remain active.
+
+### [SAPO: Single-Rollout Autoregressive Policy Optimization for Agentic Reinforcement Learning](https://arxiv.org/abs/2608.19842v3)
+
+- **Authors:** Dayang Liang, Lang Feng, Bo An, Yunlong Liu
+- **Published:** 2026-08-20
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** Zhejiang University
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2608.19842v3) · [PDF](https://arxiv.org/pdf/2608.19842v3)
+
+Agentic reinforcement learning (RL) has emerged as an important post-training approach for enhancing the capabilities of Large Language Models (LLMs). However, existing methods face a trade-off between policy performance and resource efficiency. Conventional Proximal Policy Optimization (PPO) implementations incur substantial memory overhead from a separate critic, whereas critic-free group-relative methods require multiple rollouts and face potential learning bottlenecks on long-horizon tasks. In this work, we propose Single-rollout Autoregressive Policy Optimization (SAPO), an efficient PPO-style framework that unifies policy optimization and value learning within a single causal language model. SAPO exploits the autoregressive structure of LLMs to sequentially generate action and value estimation at distinct causal boundaries with shared parameters, and then jointly optimizes the PPO objectives and an auxiliary on-policy SARSA objective with turn-level generalized advantage estimation, where the latter is designed to facilitate value learning. Extensive experiments on ALFWorld and WebShop with Qwen2.5-1.5B/7B and Qwen3-14B demonstrate that SAPO reduces peak GPU memory usage by 23.1% and per-iteration runtime by 24.8% over strong PPO baseline, while matching or slightly improving task success rate. Our experiments also show that SAPO outperforms Group Relative Policy Optimization (GRPO) and recent cutting-edge variants in both task success and training stability.
+
+### [SPADE: Self-Play in Adaptive Synthetic Executable Environments](https://arxiv.org/abs/2608.19197v3)
+
+- **Authors:** Bo Liu, Simon Yu, Yiding Jiang, Ao Qu, Andrew Zhao, Zichen Liu, Junsu Kim, Zijian Zhou, Seungone Kim, Tongzheng Ren, Mickel Liu, Hanfei Yu, Zhaorun Chen, Weiyan Shi, Paul Pu Liang, Luke Zettlemoyer, Yejin Choi, Natasha Jaques
+- **Published:** 2026-08-19
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** Carnegie Mellon University, Tsinghua University, University of Chicago
+- **Categories:** cs.CL, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2608.19197v3) · [PDF](https://arxiv.org/pdf/2608.19197v3)
+
+Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self-Play in Adaptive Synthetic Executable Environments), a self-play RL framework in which a single LLM plays two roles: an Environment Designer that writes complete, long-horizon training environments as executable code with an OpenAI Gym-style reset()/step() interface, and a Reasoning Agent that learns to act in them. Each is a stateful, multi-turn environment (state transitions, reward functions, and verification code), so one interface spans reasoning problems and multi-step agentic tool use. The Reasoning Agent's regret is estimated using the gap between its reward with and without privileged hints; in optimizing this regret signal the Environment Designer learns to target environments at the edge of the agent's capabilities while keeping them feasible. Through extensive experimentation, we find several components critical to success: grounding the Environment Designer on documents sampled from a large pretraining corpus, and giving it an accumulated environment memory. Scaling to 30B-parameter models, SPADE improves over the strongest fixed-environment baseline by +5.3 on average across eight held-out math, science, code, and reasoning benchmarks, and lifts the tool-use setting by +5.7 on BFCL-v4 multi-turn and +13.9 on ACEBench-Agent; on the games setting, the margin over the strongest baseline grows with model scale. By making environment design itself a learnable component, SPADE takes a concrete step toward open-ended self-improvement.

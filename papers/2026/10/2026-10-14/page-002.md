@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-14
 
-> Prepared **10** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **10** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-10-13T19:01:05.125248+08:00** → **2026-10-14T21:19:53.201647+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -14,7 +14,7 @@
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
 | 2026-05-27 | Agent/LLM Self-Improvement | [Self-Improving Language Models with Bidirectional Evolutionary Search](https://arxiv.org/abs/2605.28814v2) | — |
-| 2026-05-20 | Agent Memory | [Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.21768) | 📈 Highly cited |
+| 2026-05-20 | Agent Memory, Long-Horizon Task Agents | [Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.21768v1) | 📈 Highly cited |
 | 2026-05-15 | Agent Memory | [RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents](https://arxiv.org/abs/2605.16045) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-17 | Reinforcement Learning | [Improving Heart-Focused Medical Question Answering in LLMs via Variance-Aware Rubric Rewards with GRPO](https://arxiv.org/abs/2606.05174v2) | — |
 | 2026-03-20 | Agent Memory, LLM Continual Training | [All-Mem: Agentic Lifelong Memory via Dynamic Topology Evolution](https://arxiv.org/abs/2603.19595) | 📈 Highly cited |
@@ -28,7 +28,7 @@
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
-| [Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.21768) | 📈 Highly cited | Centre for Information and Language Processing, LMU Munich |
+| [Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.21768v1) | 📈 Highly cited | Centre for Information and Language Processing, LMU Munich |
 | [RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents](https://arxiv.org/abs/2605.16045) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [All-Mem: Agentic Lifelong Memory via Dynamic Topology Evolution](https://arxiv.org/abs/2603.19595) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Chronos: Temporal-Aware Conversational Agents with Structured Event Retrieval for Long-Term Memory](https://arxiv.org/abs/2603.16862) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
@@ -64,15 +64,15 @@ Large Language Model (LLM) agents are reshaping the industrial landscape. Howeve
 
 ## Agent Memory
 
-### [Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.21768)
+### [Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.21768v1)
 
-- **Authors:** Yan, Sikuan, Bahloul, Ahmed, Nie, Ercong, Schwarzmann, Susanna, Trivisonno, Riccardo, Tresp, Volker, Ma, Yunpu
+- **Authors:** Sikuan Yan, Ahmed Bahloul, Ercong Nie, Susanna Schwarzmann, Riccardo Trivisonno, Volker Tresp, Yunpu Ma
 - **Published:** 2026-05-20
 - **Priority:** 📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** Centre for Information and Language Processing, LMU Munich
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2605.21768) · [PDF](https://arxiv.org/pdf/2605.21768)
+- **Categories:** cs.LG, cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2605.21768v1) · [PDF](https://arxiv.org/pdf/2605.21768v1)
 
 Memory-augmented LLM agents enable interactions that extend beyond finite context windows by storing, updating, and reusing information across sessions. However, training such agents with reinforcement learning in multi-session environments is challenging because memory turns the agent's past actions into part of its future environment. Once different rollouts write, update, or delete different memories, they no longer share the same intermediate memory state, making trajectory-level comparisons fundamentally unfair. This violates a key assumption behind group-relative methods such as GRPO, where rollouts are compared as if they were sampled from the same effective environment. Consequently, trajectory-level rewards provide noisy or biased credit signals for long-horizon memory operations. To address this challenge, we introduce Memory-R2, a training framework for long-horizon memory-augmented LLM agents. Its core algorithm, LoGo-GRPO, combines local and global group-relative optimization. The global objective preserves end-to-end learning from long-horizon trajectory-level rewards, while local rerollouts compare different memory-operation outcomes from the same intermediate memory state, yielding fairer group comparisons and more precise supervision for memory construction. Beyond credit assignment, Memory-R2 jointly optimizes memory formation and memory evolution with a shared-parameter co-learning design, where a fact extractor and a memory manager are instantiated from the same LLM backbone through role-specific prompts. To stabilize multi-step RL over long memory horizons, we adopt a progressive curriculum that increases the training horizon from 8 to 16 to 32 sessions. Together, these components provide an effective training paradigm for memory-augmented LLM agents in long-horizon multi-session settings.
 
@@ -175,3 +175,17 @@ Large language models can support medical question answering, but privacy, cost,
 - **Links:** [Paper](https://arxiv.org/abs/2604.02341v2) · [PDF](https://arxiv.org/pdf/2604.02341v2)
 
 Mathematical reasoning in large language models has improved substantially with reinforcement learning using verifiable rewards, where final answers can be checked automatically and converted into reliable training signals. Most such pipelines optimize outcome correctness only, which yields sparse feedback for long, multi-step solutions and offers limited guidance on intermediate reasoning errors. Recent work therefore introduces process reward models (PRMs) to score intermediate steps and provide denser supervision. In practice, PRM scores are often imperfectly aligned with final correctness and can reward locally fluent reasoning that still ends in an incorrect answer. When optimized as absolute rewards, such signals can amplify fluent failure modes and induce reward hacking. We propose PROGRS, a framework that leverages PRMs while keeping outcome correctness dominant. PROGRS treats process rewards as relative preferences within outcome groups rather than absolute targets. We introduce outcome-conditioned centering, which shifts PRM scores of incorrect trajectories to have zero mean within each prompt group. It removes systematic bias while preserving informative rankings. PROGRS combines a frozen quantile-regression PRM with a multi-scale coherence evaluator. We integrate the resulting centered process bonus into Group Relative Policy Optimization (GRPO) without auxiliary objectives or additional trainable components. Across MATH-500, AMC, AIME, MinervaMath, and OlympiadBench, PROGRS consistently improves Pass@1 over outcome-only baselines and achieves stronger performance with fewer rollouts. These results show that outcome-conditioned centering enables safe and effective use of process rewards for mathematical reasoning.
+
+## Long-Horizon Task Agents
+
+### [Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.21768v1)
+
+- **Authors:** Sikuan Yan, Ahmed Bahloul, Ercong Nie, Susanna Schwarzmann, Riccardo Trivisonno, Volker Tresp, Yunpu Ma
+- **Published:** 2026-05-20
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** Centre for Information and Language Processing, LMU Munich
+- **Categories:** cs.LG, cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2605.21768v1) · [PDF](https://arxiv.org/pdf/2605.21768v1)
+
+Memory-augmented LLM agents enable interactions that extend beyond finite context windows by storing, updating, and reusing information across sessions. However, training such agents with reinforcement learning in multi-session environments is challenging because memory turns the agent's past actions into part of its future environment. Once different rollouts write, update, or delete different memories, they no longer share the same intermediate memory state, making trajectory-level comparisons fundamentally unfair. This violates a key assumption behind group-relative methods such as GRPO, where rollouts are compared as if they were sampled from the same effective environment. Consequently, trajectory-level rewards provide noisy or biased credit signals for long-horizon memory operations. To address this challenge, we introduce Memory-R2, a training framework for long-horizon memory-augmented LLM agents. Its core algorithm, LoGo-GRPO, combines local and global group-relative optimization. The global objective preserves end-to-end learning from long-horizon trajectory-level rewards, while local rerollouts compare different memory-operation outcomes from the same intermediate memory state, yielding fairer group comparisons and more precise supervision for memory construction. Beyond credit assignment, Memory-R2 jointly optimizes memory formation and memory evolution with a shared-parameter co-learning design, where a fact extractor and a memory manager are instantiated from the same LLM backbone through role-specific prompts. To stabilize multi-step RL over long memory horizons, we adopt a progressive curriculum that increases the training horizon from 8 to 16 to 32 sessions. Together, these components provide an effective training paradigm for memory-augmented LLM agents in long-horizon multi-session settings.

@@ -20,6 +20,7 @@ from .models import Paper
 from .topics import (
     AGENT_MEMORY_TOPIC,
     CONTINUAL_TRAINING_TOPIC,
+    LONG_HORIZON_TOPIC,
     MIN_PUBLICATION_DATE,
     REINFORCEMENT_LEARNING_TOPIC,
     SELF_EVOLUTION_TOPIC,
@@ -326,7 +327,8 @@ class ArchiveRepository:
             f"# Daily Papers · {discovery_date.isoformat()}",
             "",
             f"> Prepared **{len(papers)}** new, promoted, or retried paper(s) "
-            "across four research tracks. Lists are newest publication first.",
+            "across five research tracks plus explicitly requested papers. "
+            "Lists are newest publication first.",
         ]
         if coverage_start and coverage_end:
             lines.append(
@@ -504,7 +506,8 @@ class ArchiveRepository:
             f"Agent/LLM Self-Improvement {topic_counts[SELF_EVOLUTION_TOPIC]} · "
             f"Memory {topic_counts[AGENT_MEMORY_TOPIC]} · "
             f"Continual Training {topic_counts[CONTINUAL_TRAINING_TOPIC]} · "
-            f"Reinforcement Learning {topic_counts[REINFORCEMENT_LEARNING_TOPIC]}",
+            f"Reinforcement Learning {topic_counts[REINFORCEMENT_LEARNING_TOPIC]} · "
+            f"Long-Horizon {topic_counts[LONG_HORIZON_TOPIC]}",
             "",
             "| Date | Track | Paper | Venue | Signals | Metrics |",
             "| --- | --- | --- | --- | --- | --- |",
@@ -554,7 +557,7 @@ class ArchiveRepository:
             "",
             "A daily collection of papers on **Agent/LLM self-evolution, self-improving "
             "systems, and recursive self-improvement**, **agent memory**, and **LLM "
-            "continual training**, and **Reinforcement Learning**,",
+            "continual training**, **Reinforcement Learning**, and **Long-Horizon Task Agents**,",
             "powered by AstrBot.",
             "",
             "The bot resumes from its last successful delivery after downtime, prioritizes",
@@ -582,6 +585,7 @@ class ArchiveRepository:
             f"| Agent memory | {topic_counts[AGENT_MEMORY_TOPIC]} |",
             f"| LLM continual training | {topic_counts[CONTINUAL_TRAINING_TOPIC]} |",
             f"| Reinforcement Learning | {topic_counts[REINFORCEMENT_LEARNING_TOPIC]} |",
+            f"| Long-Horizon Task Agents | {topic_counts[LONG_HORIZON_TOPIC]} |",
             f"| Daily archives | {len(daily_paths)} |",
             "",
             "## 📚 Table of Contents",
@@ -682,12 +686,15 @@ class ArchiveRepository:
                 "- **Agent Memory:** long-term, memory-augmented, and persistent agent memory",
                 "- **LLM Continual Training:** continual pre/post-training, lifelong and "
                 "online adaptation, retention, and catastrophic-forgetting mitigation",
+                "- **Long-Horizon Task Agents:** language agents executing extended, "
+                "multi-step tasks",
                 "- **Date boundary:** first publication on or after 2025-01-01; "
                 "a recent revision does not make an older paper eligible",
                 "- **Reinforcement Learning:** substantive RL training or research directly "
                 "related to language models / language agents, including RLHF, RLAIF, RLVR "
                 "and GRPO; generic control/robotics RL and incidental mentions are excluded",
-                "- **Public inclusion:** any of the four topics; industry, venue, and citation "
+                "- **Public inclusion:** any of the five topics or an explicit user request; "
+                "industry, venue, and citation "
                 "signals highlight papers without excluding new preprints",
                 "- **Acceptance dates:** first observed means newly detected by this bot; "
                 "it does not establish the actual date of acceptance",

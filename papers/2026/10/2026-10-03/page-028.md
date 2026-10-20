@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -13,8 +13,8 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-02-05 | Agent Memory | [Learning to Share: Selective Memory for Efficient Parallel Agentic Systems](https://arxiv.org/abs/2602.05965) | — |
 | 2026-02-05 | Agent Memory | [Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory](https://arxiv.org/abs/2602.06025) | 📈 Highly cited |
-| 2026-02-05 | Agent Memory, LLM Continual Training | [AriadneMem: Threading the Maze of Lifelong Memory for LLM Agents](https://arxiv.org/abs/2603.03290) | — |
 | 2026-02-05 | Agent/LLM Self-Improvement, Agent Memory | [UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents](https://arxiv.org/abs/2602.05832) | 📈 Highly cited |
 | 2026-02-05 | Agent Memory | [AI Agent Systems for Supply Chains: Structured Decision Prompts and Memory Retrieval](https://arxiv.org/abs/2602.05524) | — |
 | 2026-02-04 | LLM Continual Training | [Modular Expert Merging for Biomedical Retrieval](https://arxiv.org/abs/2602.04731v3) | — |
@@ -39,26 +39,26 @@
 | 2026-01-31 | Agent Memory | [Field-Theoretic Memory for AI Agents: Continuous Dynamics for Context Preservation](https://arxiv.org/abs/2602.21220) | — |
 | 2026-01-31 | Agent Memory | [Cross-Modal Memory Compression for Efficient Multi-Agent Debate](https://arxiv.org/abs/2602.00454) | — |
 | 2026-01-30 | Reinforcement Learning | [Why GRPO Needs Normalization: A Local-Curvature Perspective on Adaptive Gradients](https://arxiv.org/abs/2601.23135v2) | 📈 Highly cited |
+| 2026-01-30 | Agent Memory, Long-Horizon Task Agents | [MiTa: A Hierarchical Multi-Agent Collaboration Framework with Memory-integrated and Task Allocation](https://arxiv.org/abs/2601.22974v1) | — |
+| 2026-01-30 | Agent/LLM Self-Improvement, Agent Memory, Long-Horizon Task Agents | [Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution](https://arxiv.org/abs/2601.22528v1) | — |
 | 2026-01-30 | LLM Continual Training | [AutoRefine: Compiling Trajectories into Validated Typed Agent Artifacts](https://arxiv.org/abs/2601.22758) | — |
 | 2026-01-30 | Agent/LLM Self-Improvement | [Large Language Model Agents Are Not Always Faithful Self-Evolvers](https://arxiv.org/abs/2601.22436) | — |
 | 2026-01-30 | Agent Memory | [Mem-T: Densifying Rewards for Long-Horizon Memory Agents](https://arxiv.org/abs/2601.23014) | 📈 Highly cited |
-| 2026-01-30 | Agent Memory | [MiTa: A Hierarchical Multi-Agent Collaboration Framework with Memory-integrated and Task Allocation](https://arxiv.org/abs/2601.22974) | — |
-| 2026-01-30 | Agent/LLM Self-Improvement, Agent Memory | [Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution](https://arxiv.org/abs/2601.22528) | — |
 | 2026-01-29 | Reinforcement Learning | [Can David Beat Goliath? On Multi-Hop Reasoning with Resource-Constrained Agents](https://arxiv.org/abs/2601.21699v5) | — |
 | 2026-01-29 | Agent Memory | [ShardMemo: Scope-Before-Routing for Agentic Memory Retrieval](https://arxiv.org/abs/2601.21545v2) | — |
 | 2026-01-29 | Agent Memory | [E-mem: Multi-agent based Episodic Context Reconstruction for LLM Agent Memory](https://arxiv.org/abs/2601.21714) | — |
 | 2026-01-29 | Agent Memory | [MERMAID: Memory-Enhanced Retrieval and Reasoning with Multi-Agent Iterative Knowledge Grounding for Veracity Assessment](https://arxiv.org/abs/2601.22361) | — |
 | 2026-01-29 | Agent Memory | [Enhancing Conversational Agents via Task-Oriented Adversarial Memory Adaptation](https://arxiv.org/abs/2601.21797) | — |
 | 2026-01-28 | Agent/LLM Self-Improvement | [MadAgents](https://arxiv.org/abs/2601.21015v4) | — |
+| 2026-01-28 | Agent Memory | [BMAM: Brain-inspired Multi-Agent Memory Framework](https://arxiv.org/abs/2601.20465v1) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-01-28 | Agent Memory | [AMA: Adaptive Memory via Multi-Agent Collaboration](https://arxiv.org/abs/2601.20352) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-01-28 | Agent Memory | [MemCtrl: Using MLLMs as Active Memory Controllers on Embodied Agents](https://arxiv.org/abs/2601.20831) | — |
-| 2026-01-28 | Agent Memory | [BMAM: Brain-inspired Multi-Agent Memory Framework](https://arxiv.org/abs/2601.20465) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-01-27 | Agent/LLM Self-Improvement, Agent Memory | [GLOVE: Global Verifier for LLM Memory-Environment Realignment](https://arxiv.org/abs/2601.19249v2) | — |
 | 2026-01-27 | Agent Memory | [MAGNET: Towards Adaptive GUI Agents with Memory-Driven Knowledge Evolution](https://arxiv.org/abs/2601.19199) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-01-26 | LLM Continual Training, Reinforcement Learning | [Just-In-Time Reinforcement Learning: Continual Learning in LLM Agents Without Gradient Updates](https://arxiv.org/abs/2601.18510v4) | 📈 Highly cited |
+| 2026-01-26 | Agent Memory, Long-Horizon Task Agents | [MemWeaver: Weaving Hybrid Memories for Traceable Long-Horizon Agentic Reasoning](https://arxiv.org/abs/2601.18204v1) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-01-26 | Agent Memory, LLM Continual Training | [FadeMem: Biologically-Inspired Forgetting for Efficient Agent Memory](https://arxiv.org/abs/2601.18642) | 📈 Highly cited |
 | 2026-01-26 | Agent/LLM Self-Improvement | [Yunjue Agent Tech Report: A Fully Reproducible, Zero-Start In-Situ Self-Evolving Agent System for Open-Ended Tasks](https://arxiv.org/abs/2601.18226) | — |
-| 2026-01-26 | Agent Memory | [MemWeaver: Weaving Hybrid Memories for Traceable Long-Horizon Agentic Reasoning](https://arxiv.org/abs/2601.18204) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-01-24 | Agent Memory | [Memento: Towards Proactive Visualization of Everyday Memories with Personal Wearable AR Assistant](https://arxiv.org/abs/2601.17622) | — |
 | 2026-01-23 | Agent Memory | [EMemBench: Interactive Benchmarking of Episodic Memory for VLM Agents](https://arxiv.org/abs/2601.16690v2) | — |
 | 2026-01-23 | Agent/LLM Self-Improvement, Agent Memory | [From Atom to Community: Structured and Evolving Agent Memory for User Behavior Modeling](https://arxiv.org/abs/2601.16872) | — |
@@ -76,12 +76,12 @@
 | [ES-MemEval: Benchmarking Conversational Agents on Personalized Long-Term Emotional Support](https://arxiv.org/abs/2602.01885) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Why GRPO Needs Normalization: A Local-Curvature Perspective on Adaptive Gradients](https://arxiv.org/abs/2601.23135v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Mem-T: Densifying Rewards for Long-Horizon Memory Agents](https://arxiv.org/abs/2601.23014) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [BMAM: Brain-inspired Multi-Agent Memory Framework](https://arxiv.org/abs/2601.20465v1) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [AMA: Adaptive Memory via Multi-Agent Collaboration](https://arxiv.org/abs/2601.20352) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
-| [BMAM: Brain-inspired Multi-Agent Memory Framework](https://arxiv.org/abs/2601.20465) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [MAGNET: Towards Adaptive GUI Agents with Memory-Driven Knowledge Evolution](https://arxiv.org/abs/2601.19199) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [Just-In-Time Reinforcement Learning: Continual Learning in LLM Agents Without Gradient Updates](https://arxiv.org/abs/2601.18510v4) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [MemWeaver: Weaving Hybrid Memories for Traceable Long-Horizon Agentic Reasoning](https://arxiv.org/abs/2601.18204v1) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>UNSW Sydney |
 | [FadeMem: Biologically-Inspired Forgetting for Efficient Agent Memory](https://arxiv.org/abs/2601.18642) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [MemWeaver: Weaving Hybrid Memories for Traceable Long-Horizon Agentic Reasoning](https://arxiv.org/abs/2601.18204) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>UNSW Sydney |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -169,6 +169,18 @@ Text-to-image diffusion models have revolutionized generative AI, enabling high-
 
 While large language model (LLM) agents have demonstrated impressive problem-solving capabilities, they typically operate as static systems, lacking the ability to evolve through lifelong interaction. Existing attempts to bridge this gap primarily rely on retrieving successful past trajectories as demonstrations. However, this paradigm faces two critical limitations. First, by focusing solely on success, agents overlook the rich pedagogical value embedded in failed attempts, preventing them from identifying and avoiding recurrent pitfalls. Second, continually accumulating textual experiences not only increases the time consumption during retrieval but also inevitably introduces noise and exhausts the largest context window of current LLMs. To address these challenges, we propose a novel self-evolving framework for LLM agents that introduces a complementary evolution mechanism: First, a contrastive reflection strategy is introduced to explicitly summarize error-prone patterns and capture reusable insights. Second, we propose a self-consolidation mechanism that distills non-parametric textual experience into compact learnable parameters. This enables the agent to internalize extensive historical experience directly into its latent space. Extensive experiments demonstrate the advantages of our method in long-term agent evolution.
 
+### [Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution](https://arxiv.org/abs/2601.22528v1)
+
+- **Authors:** Hongze Mi, Yibo Feng, WenJie Lu, Song Cao, Jinyuan Li, Yanming Li, Xuelin Zhang, Haotian Luo, Songyang Peng, He Cui, Tengfei Tian, Jun Fang, Hua Chai, Naiqiang Tan
+- **Published:** 2026-01-30
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2601.22528v1) · [PDF](https://arxiv.org/pdf/2601.22528v1)
+
+Multimodal Large Language Model (MLLM) agents facilitate Graphical User Interface (GUI) automation but struggle with long-horizon, cross-application tasks due to limited context windows. While memory systems provide a viable solution, existing paradigms struggle to adapt to dynamic GUI environments, suffering from a granularity mismatch between high-level intent and low-level execution, and context pollution where the static accumulation of outdated experiences drives agents into hallucination. To address these bottlenecks, we propose the Darwinian Memory System (DMS), a self-evolving architecture that constructs memory as a dynamic ecosystem governed by the law of survival of the fittest. DMS decomposes complex trajectories into independent, reusable units for compositional flexibility, and implements Utility-driven Natural Selection to track survival value, actively pruning suboptimal paths and inhibiting high-risk plans. This evolutionary pressure compels the agent to derive superior strategies. Extensive experiments on real-world multi-app benchmarks validate that DMS boosts general-purpose MLLMs without training costs or architectural overhead, achieving average gains of 18.0% in success rate and 33.9% in execution stability, while reducing task latency, establishing it as an effective self-evolving memory system for GUI tasks.
+
 ### [Large Language Model Agents Are Not Always Faithful Self-Evolvers](https://arxiv.org/abs/2601.22436)
 
 - **Authors:** Zhao, Weixiang, Wang, Yingshuo, Zhang, Yichen, Deng, Yang, Zhao, Yanyan, Che, Wanxiang, Qin, Bing, Liu, Ting
@@ -180,18 +192,6 @@ While large language model (LLM) agents have demonstrated impressive problem-sol
 - **Links:** [Paper](https://arxiv.org/abs/2601.22436) · [PDF](https://arxiv.org/pdf/2601.22436)
 
 Self-evolving large language model (LLM) agents continually improve by accumulating and reusing past experience, yet it remains unclear whether they faithfully rely on that experience to guide their behavior. We present the first systematic investigation of experience faithfulness, the causal dependence of an agent's decisions on the experience it is given, in self-evolving LLM agents. Using controlled causal interventions on both raw and condensed forms of experience, we comprehensively evaluate four representative frameworks across 13 LLM backbones and 9 environments. Our analysis uncovers a striking asymmetry: while agents consistently depend on raw experience, they often disregard or misinterpret condensed experience, even when it is the only experience provided. This gap persists across single- and multi-agent configurations and across backbone scales. We trace its underlying causes to three factors: the semantic limitations of condensed content, internal processing biases that suppress experience, and task regimes where pretrained priors already suffice. These findings challenge prevailing assumptions about self-evolving methods and underscore the need for more faithful and reliable approaches to experience integration.
-
-### [Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution](https://arxiv.org/abs/2601.22528)
-
-- **Authors:** Mi, Hongze, Feng, Yibo, Lu, WenJie, Cao, Song, Li, Jinyuan, Li, Yanming, Zhang, Xuelin, Luo, Haotian, Peng, Songyang, Cui, He, Tian, Tengfei, Fang, Jun, Chai, Hua, Tan, Naiqiang
-- **Published:** 2026-01-30
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2601.22528) · [PDF](https://arxiv.org/pdf/2601.22528)
-
-Multimodal Large Language Model (MLLM) agents facilitate Graphical User Interface (GUI) automation but struggle with long-horizon, cross-application tasks due to limited context windows. While memory systems provide a viable solution, existing paradigms struggle to adapt to dynamic GUI environments, suffering from a granularity mismatch between high-level intent and low-level execution, and context pollution where the static accumulation of outdated experiences drives agents into hallucination. To address these bottlenecks, we propose the Darwinian Memory System (DMS), a self-evolving architecture that constructs memory as a dynamic ecosystem governed by the law of survival of the fittest. DMS decomposes complex trajectories into independent, reusable units for compositional flexibility, and implements Utility-driven Natural Selection to track survival value, actively pruning suboptimal paths and inhibiting high-risk plans. This evolutionary pressure compels the agent to derive superior strategies. Extensive experiments on real-world multi-app benchmarks validate that DMS boosts general-purpose MLLMs without training costs or architectural overhead, achieving average gains of 18.0% in success rate and 33.9% in execution stability, while reducing task latency, establishing it as an effective self-evolving memory system for GUI tasks.
 
 ### [MadAgents](https://arxiv.org/abs/2601.21015v4)
 
@@ -243,6 +243,18 @@ User behavior modeling lies at the heart of personalized applications like recom
 
 ## Agent Memory
 
+### [Learning to Share: Selective Memory for Efficient Parallel Agentic Systems](https://arxiv.org/abs/2602.05965)
+
+- **Authors:** Fioresi, Joseph, Kulkarni, Parth Parag, Vayani, Ashmal, Wang, Song, Shah, Mubarak
+- **Published:** 2026-02-05
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2602.05965) · [PDF](https://arxiv.org/pdf/2602.05965)
+
+Agentic systems solve complex tasks by coordinating multiple agents that iteratively reason, invoke tools, and exchange intermediate results. To improve robustness and solution quality, recent approaches deploy multiple agent teams running in parallel to explore diverse reasoning trajectories. However, parallel execution comes at a significant computational cost: when different teams independently reason about similar sub-problems or execute analogous steps, they repeatedly perform substantial overlapping computation. To address these limitations, in this paper, we propose Learning to Share (LTS), a learned shared-memory mechanism for parallel agentic frameworks that enables selective cross-team information reuse while controlling context growth. LTS introduces a global memory bank accessible to all teams and a lightweight controller that decides whether intermediate agent steps should be added to memory or not. The controller is trained using stepwise reinforcement learning with usage-aware credit assignment, allowing it to identify information that is globally useful across parallel executions. Experiments on the AssistantBench and GAIA benchmarks show that LTS significantly reduces overall runtime while matching or improving task performance compared to memory-free parallel baselines, demonstrating that learned memory admission is an effective strategy for improving the efficiency of parallel agentic systems. Project page: https://joefioresi718.github.io/LTS_webpage/
+
 ### [Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory](https://arxiv.org/abs/2602.06025)
 
 - **Authors:** Zhang, Haozhen, Yue, Haodong, Feng, Tao, Long, Quanyu, Bao, Jianzhu, Jin, Bowen, Zhang, Weizhi, Li, Xiao, You, Jiaxuan, Qin, Chengwei, Wang, Wenya
@@ -254,18 +266,6 @@ User behavior modeling lies at the heart of personalized applications like recom
 - **Links:** [Paper](https://arxiv.org/abs/2602.06025) · [PDF](https://arxiv.org/pdf/2602.06025) · [Code](https://github.com/ViktorAxelsen/BudgetMem)
 
 Memory is increasingly central to Large Language Model (LLM) agents operating beyond a single context window, yet most existing systems rely on offline, query-agnostic memory construction that can be inefficient and may discard query-critical information. Although runtime memory utilization is a natural alternative, prior work often incurs substantial overhead and offers limited explicit control over the performance-cost trade-off. In this work, we present \textbf{BudgetMem}, a runtime agent memory framework for explicit, query-aware performance-cost control. BudgetMem structures memory processing as a set of memory modules, each offered in three budget tiers (i.e., \textsc{Low}/\textsc{Mid}/\textsc{High}). A lightweight router performs budget-tier routing across modules to balance task performance and memory construction cost, which is implemented as a compact neural policy trained with reinforcement learning. Using BudgetMem as a unified testbed, we study three complementary strategies for realizing budget tiers: implementation (method complexity), reasoning (inference behavior), and capacity (module model size). Across LoCoMo, LongMemEval, and HotpotQA, BudgetMem surpasses strong baselines when performance is prioritized (i.e., high-budget setting), and delivers better accuracy-cost frontiers under tighter budgets. Moreover, our analysis disentangles the strengths and weaknesses of different tiering strategies, clarifying when each axis delivers the most favorable trade-offs under varying budget regimes.
-
-### [AriadneMem: Threading the Maze of Lifelong Memory for LLM Agents](https://arxiv.org/abs/2603.03290)
-
-- **Authors:** Zhu, Wenhui, Chen, Xiwen, Wang, Zhipeng, Wang, Jingjing, Dong, Xuanzhao, Huang, Minzhou, Cai, Rui, Sang, Hejian, Wang, Hao, Qiu, Peijie, Deng, Yueyue, Tiwari, Prayag, Rappazzo, Brendan Hogan, Wang, Yalin
-- **Published:** 2026-02-05
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** University of California, Davis
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2603.03290) · [PDF](https://arxiv.org/pdf/2603.03290) · [Code](https://github.com/LLM-VLM-GSL/AriadneMem)
-
-Long-horizon LLM agents require memory systems that remain accurate under fixed context budgets. However, existing systems struggle with two persistent challenges in long-term dialogue: (i) \textbf{disconnected evidence}, where multi-hop answers require linking facts distributed across time, and (ii) \textbf{state updates}, where evolving information (e.g., schedule changes) creates conflicts with older static logs. We propose AriadneMem, a structured memory system that addresses these failure modes via a decoupled two-phase pipeline. In the \textbf{offline construction phase}, AriadneMem employs \emph{entropy-aware gating} to filter noise and low-information message before LLM extraction and applies \emph{conflict-aware coarsening} to merge static duplicates while preserving state transitions as temporal edges. In the \textbf{online reasoning phase}, rather than relying on expensive iterative planning, AriadneMem executes \emph{algorithmic bridge discovery} to reconstruct missing logical paths between retrieved facts, followed by \emph{single-call topology-aware synthesis}. On LoCoMo experiments with GPT-4o, AriadneMem improves \textbf{Multi-Hop F1 by 15.2\%} and \textbf{Average F1 by 9.0\%} over strong baselines. Crucially, by offloading reasoning to the graph layer, AriadneMem reduces \textbf{total runtime by 77.8\%} using only \textbf{497} context tokens. The code is available at https://github.com/LLM-VLM-GSL/AriadneMem.
 
 ### [UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents](https://arxiv.org/abs/2602.05832)
 
@@ -435,6 +435,30 @@ We present a memory system for AI agents that treats stored information as conti
 
 Multi-agent debate can improve reasoning quality and reduce hallucinations, but it incurs rapidly growing context as debate rounds and agent count increase. Retaining full textual histories leads to token usage that can exceed context limits and often requires repeated summarization, adding overhead and compounding information loss. We introduce DebateOCR, a cross-modal compression framework that replaces long textual debate traces with compact image representations, which are then consumed through a dedicated vision encoder to condition subsequent rounds. This design compresses histories that commonly span tens to hundreds of thousands of tokens, cutting input tokens by more than 92% and yielding substantially lower compute cost and faster inference across multiple benchmarks. We further provide a theoretical perspective showing that diversity across agents supports recovery of omitted information: although any single compressed history may discard details, aggregating multiple agents' compressed views allows the collective representation to approach the information bottleneck with exponentially high probability.
 
+### [MiTa: A Hierarchical Multi-Agent Collaboration Framework with Memory-integrated and Task Allocation](https://arxiv.org/abs/2601.22974v1)
+
+- **Authors:** XiaoJie Zhang, JianHan Wu, Xiaoyang Qu, Jianzong Wang
+- **Published:** 2026-01-30
+- **Priority:** —
+- **Venue:** IEEE International Conference on Acoustics, Speech, and Signal Processing
+- **Affiliations:** n/a
+- **Categories:** cs.ET, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2601.22974v1) · [PDF](https://arxiv.org/pdf/2601.22974v1)
+
+Recent advances in large language models (LLMs) have substantially accelerated the development of embodied agents. LLM-based multi-agent systems mitigate the inefficiency of single agents in complex tasks. However, they still suffer from issues such as memory inconsistency and agent behavioral conflicts. To address these challenges, we propose MiTa, a hierarchical memory-integrated task allocative framework to enhance collaborative efficiency. MiTa organizes agents into a manager-member hierarchy, where the manager incorporates additional allocation and summary modules that enable (1) global task allocation and (2) episodic memory integration. The allocation module enables the manager to allocate tasks from a global perspective, thereby avoiding potential inter-agent conflicts. The summary module, triggered by task progress updates, performs episodic memory integration by condensing recent collaboration history into a concise summary that preserves long-horizon context. By combining task allocation with episodic memory, MiTa attains a clearer understanding of the task and facilitates globally consistent task distribution. Experimental results confirm that MiTa achieves superior efficiency and adaptability in complex multi-agent cooperation over strong baseline methods.
+
+### [Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution](https://arxiv.org/abs/2601.22528v1)
+
+- **Authors:** Hongze Mi, Yibo Feng, WenJie Lu, Song Cao, Jinyuan Li, Yanming Li, Xuelin Zhang, Haotian Luo, Songyang Peng, He Cui, Tengfei Tian, Jun Fang, Hua Chai, Naiqiang Tan
+- **Published:** 2026-01-30
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2601.22528v1) · [PDF](https://arxiv.org/pdf/2601.22528v1)
+
+Multimodal Large Language Model (MLLM) agents facilitate Graphical User Interface (GUI) automation but struggle with long-horizon, cross-application tasks due to limited context windows. While memory systems provide a viable solution, existing paradigms struggle to adapt to dynamic GUI environments, suffering from a granularity mismatch between high-level intent and low-level execution, and context pollution where the static accumulation of outdated experiences drives agents into hallucination. To address these bottlenecks, we propose the Darwinian Memory System (DMS), a self-evolving architecture that constructs memory as a dynamic ecosystem governed by the law of survival of the fittest. DMS decomposes complex trajectories into independent, reusable units for compositional flexibility, and implements Utility-driven Natural Selection to track survival value, actively pruning suboptimal paths and inhibiting high-risk plans. This evolutionary pressure compels the agent to derive superior strategies. Extensive experiments on real-world multi-app benchmarks validate that DMS boosts general-purpose MLLMs without training costs or architectural overhead, achieving average gains of 18.0% in success rate and 33.9% in execution stability, while reducing task latency, establishing it as an effective self-evolving memory system for GUI tasks.
+
 ### [Mem-T: Densifying Rewards for Long-Horizon Memory Agents](https://arxiv.org/abs/2601.23014)
 
 - **Authors:** Yue, Yanwei, Peng, Boci, Fan, Xuanbo, Guo, Jiaxin, Li, Qiankun, Zhang, Yan
@@ -446,30 +470,6 @@ Multi-agent debate can improve reasoning quality and reduce hallucinations, but 
 - **Links:** [Paper](https://arxiv.org/abs/2601.23014) · [PDF](https://arxiv.org/pdf/2601.23014)
 
 Memory agents, which depart from predefined memory-processing pipelines by endogenously managing the processing, storage, and retrieval of memories, have garnered increasing attention for their autonomy and adaptability. However, existing training paradigms remain constrained: agents often traverse long-horizon sequences of memory operations before receiving sparse and delayed rewards, which hinders truly end-to-end optimization of memory management policies. To address this limitation, we introduce Mem-T, an autonomous memory agent that interfaces with a lightweight hierarchical memory database to perform dynamic updates and multi-turn retrieval over streaming inputs. To effectively train long-horizon memory management capabilities, we further propose MoT-GRPO, a tree-guided reinforcement learning framework that transforms sparse terminal feedback into dense, step-wise supervision via memory operation tree backpropagation and hindsight credit assignment, thereby enabling the joint optimization of memory construction and retrieval. Extensive experiments demonstrate that Mem-T is (1) high-performing, surpassing frameworks such as A-Mem and Mem0 by up to $14.92\%$, and (2) economical, operating on a favorable accuracy-efficiency Pareto frontier and reducing inference tokens per query by $\sim24.45\%$ relative to GAM without sacrificing performance.
-
-### [MiTa: A Hierarchical Multi-Agent Collaboration Framework with Memory-integrated and Task Allocation](https://arxiv.org/abs/2601.22974)
-
-- **Authors:** Zhang, XiaoJie, Wu, JianHan, Qu, Xiaoyang, Wang, Jianzong
-- **Published:** 2026-01-30
-- **Priority:** —
-- **Venue:** IEEE International Conference on Acoustics, Speech, and Signal Processing
-- **Affiliations:** n/a
-- **Categories:** cs.ET
-- **Links:** [Paper](https://arxiv.org/abs/2601.22974) · [PDF](https://arxiv.org/pdf/2601.22974)
-
-Recent advances in large language models (LLMs) have substantially accelerated the development of embodied agents. LLM-based multi-agent systems mitigate the inefficiency of single agents in complex tasks. However, they still suffer from issues such as memory inconsistency and agent behavioral conflicts. To address these challenges, we propose MiTa, a hierarchical memory-integrated task allocative framework to enhance collaborative efficiency. MiTa organizes agents into a manager-member hierarchy, where the manager incorporates additional allocation and summary modules that enable (1) global task allocation and (2) episodic memory integration. The allocation module enables the manager to allocate tasks from a global perspective, thereby avoiding potential inter-agent conflicts. The summary module, triggered by task progress updates, performs episodic memory integration by condensing recent collaboration history into a concise summary that preserves long-horizon context. By combining task allocation with episodic memory, MiTa attains a clearer understanding of the task and facilitates globally consistent task distribution. Experimental results confirm that MiTa achieves superior efficiency and adaptability in complex multi-agent cooperation over strong baseline methods.
-
-### [Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution](https://arxiv.org/abs/2601.22528)
-
-- **Authors:** Mi, Hongze, Feng, Yibo, Lu, WenJie, Cao, Song, Li, Jinyuan, Li, Yanming, Zhang, Xuelin, Luo, Haotian, Peng, Songyang, Cui, He, Tian, Tengfei, Fang, Jun, Chai, Hua, Tan, Naiqiang
-- **Published:** 2026-01-30
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2601.22528) · [PDF](https://arxiv.org/pdf/2601.22528)
-
-Multimodal Large Language Model (MLLM) agents facilitate Graphical User Interface (GUI) automation but struggle with long-horizon, cross-application tasks due to limited context windows. While memory systems provide a viable solution, existing paradigms struggle to adapt to dynamic GUI environments, suffering from a granularity mismatch between high-level intent and low-level execution, and context pollution where the static accumulation of outdated experiences drives agents into hallucination. To address these bottlenecks, we propose the Darwinian Memory System (DMS), a self-evolving architecture that constructs memory as a dynamic ecosystem governed by the law of survival of the fittest. DMS decomposes complex trajectories into independent, reusable units for compositional flexibility, and implements Utility-driven Natural Selection to track survival value, actively pruning suboptimal paths and inhibiting high-risk plans. This evolutionary pressure compels the agent to derive superior strategies. Extensive experiments on real-world multi-app benchmarks validate that DMS boosts general-purpose MLLMs without training costs or architectural overhead, achieving average gains of 18.0% in success rate and 33.9% in execution stability, while reducing task latency, establishing it as an effective self-evolving memory system for GUI tasks.
 
 ### [ShardMemo: Scope-Before-Routing for Agentic Memory Retrieval](https://arxiv.org/abs/2601.21545v2)
 
@@ -519,6 +519,18 @@ Assessing the veracity of online content has become increasingly critical. Large
 
 Conversational agents struggle to handle long conversations due to context window limitations. Therefore, memory systems are developed to leverage essential historical information. Existing memory systems typically follow a pipeline of offline memory construction and update, and online retrieval. Despite the flexible online phase, the offline phase remains fixed and task-independent. In this phase, memory construction operates under a predefined workflow and fails to emphasize task relevant information. Meanwhile, memory updates are guided by generic metrics rather than task specific supervision. This leads to a misalignment between offline memory preparation and task requirements, which undermines downstream task performance. To this end, we propose an Adversarial Memory Adaptation mechanism (AMA) that aligns memory construction and update with task objectives by simulating task execution. Specifically, first, a challenger agent generates question answer pairs based on the original dialogues. The constructed memory is then used to answer these questions, simulating downstream inference. Subsequently, an evaluator agent assesses the responses and performs error analysis. Finally, an adapter agent analyzes the error cases and performs dual level updates on both the construction strategy and the content. Through this process, the memory system receives task aware supervision signals in advance during the offline phase, enhancing its adaptability to downstream tasks. AMA can be integrated into various existing memory systems, and extensive experiments on long dialogue benchmark LoCoMo demonstrate its effectiveness.
 
+### [BMAM: Brain-inspired Multi-Agent Memory Framework](https://arxiv.org/abs/2601.20465v1)
+
+- **Authors:** Yang Li, Jiaxiang Liu, Yusong Wang, Yujie Wu, Mingkun Xu
+- **Published:** 2026-01-28
+- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2601.20465v1) · [PDF](https://arxiv.org/pdf/2601.20465v1)
+
+Language-model-based agents operating over extended interaction horizons face persistent challenges in preserving temporally grounded information and maintaining behavioral consistency across sessions, a failure mode we term soul erosion. We present BMAM (Brain-inspired Multi-Agent Memory), a general-purpose memory architecture that models agent memory as a set of functionally specialized subsystems rather than a single unstructured store. Inspired by cognitive memory systems, BMAM decomposes memory into episodic, semantic, salience-aware, and control-oriented components that operate at complementary time scales. To support long-horizon reasoning, BMAM organizes episodic memories along explicit timelines and retrieves evidence by fusing multiple complementary signals. Experiments on the LoCoMo benchmark show that BMAM achieves 78.45 percent accuracy under the standard long-horizon evaluation setting, and ablation analyses confirm that the hippocampus-inspired episodic memory subsystem plays a critical role in temporal reasoning.
+
 ### [AMA: Adaptive Memory via Multi-Agent Collaboration](https://arxiv.org/abs/2601.20352)
 
 - **Authors:** Huang, Weiquan, Wang, Zixuan, Lin, Hehai, Wang, Sudong, Xu, Bo, Li, Qian, Zhu, Beier, Yang, Linyi, Qin, Chengwei
@@ -542,18 +554,6 @@ The rapid evolution of Large Language Model (LLM) agents has necessitated robust
 - **Links:** [Paper](https://arxiv.org/abs/2601.20831) · [PDF](https://arxiv.org/pdf/2601.20831)
 
 Foundation models rely on in-context learning for personalized decision making. The limited size of this context window necessitates memory compression and retrieval systems like RAG. These systems however often treat memory as large offline storage spaces, which is unfavorable for embodied agents that are expected to operate under strict memory and compute constraints, online. In this work, we propose MemCtrl, a novel framework that uses Multimodal Large Language Models (MLLMs) for pruning memory online. MemCtrl augments MLLMs with a trainable memory head \mu that acts as a gate to determine which observations or reflections to retain, update, or discard during exploration. We evaluate with training two types of \mu, 1) via an offline expert, and 2) via online RL, and observe significant improvement in overall embodied task completion ability on \mu-augmented MLLMs. In particular, on augmenting two low performing MLLMs with MemCtrl on multiple subsets of the EmbodiedBench benchmark, we observe that \mu-augmented MLLMs show an improvement of around 16% on average, with over 20% on specific instruction subsets. Finally, we present a qualitative analysis on the memory fragments collected by \mu, noting the superior performance of \mu augmented MLLMs on long and complex instruction types.
-
-### [BMAM: Brain-inspired Multi-Agent Memory Framework](https://arxiv.org/abs/2601.20465)
-
-- **Authors:** Li, Yang, Liu, Jiaxiang, Wang, Yusong, Wu, Yujie, Xu, Mingkun
-- **Published:** 2026-01-28
-- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
-- **Venue:** Annual Meeting of the Association for Computational Linguistics
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2601.20465) · [PDF](https://arxiv.org/pdf/2601.20465)
-
-Language-model-based agents operating over extended interaction horizons face persistent challenges in preserving temporally grounded information and maintaining behavioral consistency across sessions, a failure mode we term soul erosion. We present BMAM (Brain-inspired Multi-Agent Memory), a general-purpose memory architecture that models agent memory as a set of functionally specialized subsystems rather than a single unstructured store. Inspired by cognitive memory systems, BMAM decomposes memory into episodic, semantic, salience-aware, and control-oriented components that operate at complementary time scales. To support long-horizon reasoning, BMAM organizes episodic memories along explicit timelines and retrieves evidence by fusing multiple complementary signals. Experiments on the LoCoMo benchmark show that BMAM achieves 78.45 percent accuracy under the standard long-horizon evaluation setting, and ablation analyses confirm that the hippocampus-inspired episodic memory subsystem plays a critical role in temporal reasoning.
 
 ### [GLOVE: Global Verifier for LLM Memory-Environment Realignment](https://arxiv.org/abs/2601.19249v2)
 
@@ -579,6 +579,18 @@ Most existing memory-enhanced Large Language Model (LLM) approaches implicitly a
 
 Mobile GUI agents powered by large foundation models enable autonomous task execution, but frequent updates altering UI appearance and reorganizing workflows cause agents trained on historical data to fail. Despite surface changes, functional semantics and task intents remain fundamentally stable. Building on this insight, we introduce MAGNET, a memory-driven adaptive agent framework with dual-level memory: stationary memory linking diverse visual features to stable functional semantics for robust action grounding and procedural memory capturing stable task intents across varying workflows. We propose a dynamic memory evolution mechanism that continuously refines both memories by prioritizing frequently accessed knowledge. Online benchmark AndroidWorld evaluations show substantial improvements over baselines, while offline benchmarks confirm consistent gains under distribution shifts. These results validate that leveraging stable structures across interface changes improves agent performance and generalization in evolving software environments.
 
+### [MemWeaver: Weaving Hybrid Memories for Traceable Long-Horizon Agentic Reasoning](https://arxiv.org/abs/2601.18204v1)
+
+- **Authors:** Juexiang Ye, Xue Li, Xinyu Yang, Chengkai Huang, Lanshun Nie, Lina Yao, Dechen Zhan
+- **Published:** 2026-01-26
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** UNSW Sydney
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2601.18204v1) · [PDF](https://arxiv.org/pdf/2601.18204v1)
+
+Large language model-based agents operating in long-horizon interactions require memory systems that support temporal consistency, multi-hop reasoning, and evidence-grounded reuse across sessions. Existing approaches largely rely on unstructured retrieval or coarse abstractions, which often lead to temporal conflicts, brittle reasoning, and limited traceability. We propose MemWeaver, a unified memory framework that consolidates long-term agent experiences into three interconnected components: a temporally grounded graph memory for structured relational reasoning, an experience memory that abstracts recurring interaction patterns from repeated observations, and a passage memory that preserves original textual evidence. MemWeaver employs a dual-channel retrieval strategy that jointly retrieves structured knowledge and supporting evidence to construct compact yet information-dense contexts for reasoning. Experiments on the LoCoMo benchmark demonstrate that MemWeaver substantially improves multi-hop and temporal reasoning accuracy while reducing input context length by over 95\% compared to long-context baselines.
+
 ### [FadeMem: Biologically-Inspired Forgetting for Efficient Agent Memory](https://arxiv.org/abs/2601.18642)
 
 - **Authors:** Wei, Lei, Peng, Xiao, Dong, Xu, Xie, Niantao, Wang, Bin
@@ -590,18 +602,6 @@ Mobile GUI agents powered by large foundation models enable autonomous task exec
 - **Links:** [Paper](https://arxiv.org/abs/2601.18642) · [PDF](https://arxiv.org/pdf/2601.18642)
 
 Large language models deployed as autonomous agents face critical memory limitations, lacking selective forgetting mechanisms that lead to either catastrophic forgetting at context boundaries or information overload within them. While human memory naturally balances retention and forgetting through adaptive decay processes, current AI systems employ binary retention strategies that preserve everything or lose it entirely. We propose FadeMem, a biologically-inspired agent memory architecture that incorporates active forgetting mechanisms mirroring human cognitive efficiency. FadeMem implements differential decay rates across a dual-layer memory hierarchy, where retention is governed by adaptive exponential decay functions modulated by semantic relevance, access frequency, and temporal patterns. Through LLM-guided conflict resolution and intelligent memory fusion, our system consolidates related information while allowing irrelevant details to fade. Experiments on Multi-Session Chat, LoCoMo, and LTI-Bench demonstrate superior multi-hop reasoning and retrieval with 45\% storage reduction, validating the effectiveness of biologically-inspired forgetting in agent memory systems.
-
-### [MemWeaver: Weaving Hybrid Memories for Traceable Long-Horizon Agentic Reasoning](https://arxiv.org/abs/2601.18204)
-
-- **Authors:** Ye, Juexiang, Li, Xue, Yang, Xinyu, Huang, Chengkai, Nie, Lanshun, Yao, Lina, Zhan, Dechen
-- **Published:** 2026-01-26
-- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
-- **Venue:** Annual Meeting of the Association for Computational Linguistics
-- **Affiliations:** UNSW Sydney
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2601.18204) · [PDF](https://arxiv.org/pdf/2601.18204)
-
-Large language model-based agents operating in long-horizon interactions require memory systems that support temporal consistency, multi-hop reasoning, and evidence-grounded reuse across sessions. Existing approaches largely rely on unstructured retrieval or coarse abstractions, which often lead to temporal conflicts, brittle reasoning, and limited traceability. We propose MemWeaver, a unified memory framework that consolidates long-term agent experiences into three interconnected components: a temporally grounded graph memory for structured relational reasoning, an experience memory that abstracts recurring interaction patterns from repeated observations, and a passage memory that preserves original textual evidence. MemWeaver employs a dual-channel retrieval strategy that jointly retrieves structured knowledge and supporting evidence to construct compact yet information-dense contexts for reasoning. Experiments on the LoCoMo benchmark demonstrate that MemWeaver substantially improves multi-hop and temporal reasoning accuracy while reducing input context length by over 95\% compared to long-context baselines.
 
 ### [Memento: Towards Proactive Visualization of Everyday Memories with Personal Wearable AR Assistant](https://arxiv.org/abs/2601.17622)
 
@@ -652,18 +652,6 @@ User behavior modeling lies at the heart of personalized applications like recom
 Large language model (LLM)-powered assistants have recently integrated memory mechanisms that record user preferences, leading to more personalized and user-aligned responses. However, irrelevant personalized memories are often introduced into the context, interfering with the LLM's intent understanding. To comprehensively investigate the dual effects of personalization, we develop RPEval, a benchmark comprising a personalized intent reasoning dataset and a multi-granularity evaluation protocol. RPEval reveals the widespread phenomenon of irrational personalization in existing LLMs and, through error pattern analysis, illustrates its negative impact on user experience. Finally, we introduce RP-Reasoner, which treats memory utilization as a pragmatic reasoning process, enabling the selective integration of personalized information. Experimental results demonstrate that our method significantly outperforms carefully designed baselines on RPEval, and resolves 80% of the bad cases observed in a large-scale commercial personalized assistant, highlighting the potential of pragmatic reasoning to mitigate irrational personalization. Our benchmark is publicly available at https://github.com/XueyangFeng/RPEval.
 
 ## LLM Continual Training & Continual Learning
-
-### [AriadneMem: Threading the Maze of Lifelong Memory for LLM Agents](https://arxiv.org/abs/2603.03290)
-
-- **Authors:** Zhu, Wenhui, Chen, Xiwen, Wang, Zhipeng, Wang, Jingjing, Dong, Xuanzhao, Huang, Minzhou, Cai, Rui, Sang, Hejian, Wang, Hao, Qiu, Peijie, Deng, Yueyue, Tiwari, Prayag, Rappazzo, Brendan Hogan, Wang, Yalin
-- **Published:** 2026-02-05
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** University of California, Davis
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2603.03290) · [PDF](https://arxiv.org/pdf/2603.03290) · [Code](https://github.com/LLM-VLM-GSL/AriadneMem)
-
-Long-horizon LLM agents require memory systems that remain accurate under fixed context budgets. However, existing systems struggle with two persistent challenges in long-term dialogue: (i) \textbf{disconnected evidence}, where multi-hop answers require linking facts distributed across time, and (ii) \textbf{state updates}, where evolving information (e.g., schedule changes) creates conflicts with older static logs. We propose AriadneMem, a structured memory system that addresses these failure modes via a decoupled two-phase pipeline. In the \textbf{offline construction phase}, AriadneMem employs \emph{entropy-aware gating} to filter noise and low-information message before LLM extraction and applies \emph{conflict-aware coarsening} to merge static duplicates while preserving state transitions as temporal edges. In the \textbf{online reasoning phase}, rather than relying on expensive iterative planning, AriadneMem executes \emph{algorithmic bridge discovery} to reconstruct missing logical paths between retrieved facts, followed by \emph{single-call topology-aware synthesis}. On LoCoMo experiments with GPT-4o, AriadneMem improves \textbf{Multi-Hop F1 by 15.2\%} and \textbf{Average F1 by 9.0\%} over strong baselines. Crucially, by offloading reasoning to the graph layer, AriadneMem reduces \textbf{total runtime by 77.8\%} using only \textbf{497} context tokens. The code is available at https://github.com/LLM-VLM-GSL/AriadneMem.
 
 ### [Modular Expert Merging for Biomedical Retrieval](https://arxiv.org/abs/2602.04731v3)
 
@@ -822,3 +810,41 @@ Reinforcement learning (RL) trains small language model agents to answer multi-h
 - **Links:** [Paper](https://arxiv.org/abs/2601.18510v4) · [PDF](https://arxiv.org/pdf/2601.18510v4) · [Code](https://github.com/liushiliushi/JitRL)
 
 While Large Language Model (LLM) agents excel at general tasks, they inherently struggle with continual adaptation due to the frozen weights after deployment. Conventional reinforcement learning (RL) offers a solution but incurs prohibitive computational costs and the risk of catastrophic forgetting. We introduce Just-In-Time Reinforcement Learning (JitRL), a training-free framework that enables test-time policy optimization without any gradient updates. JitRL maintains a dynamic, non-parametric memory of experiences and retrieves relevant trajectories to estimate action advantages on-the-fly. These estimates are then used to directly modulate the LLM's output logits. We theoretically prove that this additive update rule is the exact closed-form solution to the KL-constrained policy optimization objective. Extensive experiments on WebArena and Jericho demonstrate that JitRL establishes a new state-of-the-art among training-free methods. Crucially, JitRL outperforms the performance of computationally expensive fine-tuning methods (e.g., WebRL) while reducing monetary costs by over 30 times, offering a scalable path for continual learning agents. The code is available at https://github.com/liushiliushi/JitRL.
+
+## Long-Horizon Task Agents
+
+### [MiTa: A Hierarchical Multi-Agent Collaboration Framework with Memory-integrated and Task Allocation](https://arxiv.org/abs/2601.22974v1)
+
+- **Authors:** XiaoJie Zhang, JianHan Wu, Xiaoyang Qu, Jianzong Wang
+- **Published:** 2026-01-30
+- **Priority:** —
+- **Venue:** IEEE International Conference on Acoustics, Speech, and Signal Processing
+- **Affiliations:** n/a
+- **Categories:** cs.ET, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2601.22974v1) · [PDF](https://arxiv.org/pdf/2601.22974v1)
+
+Recent advances in large language models (LLMs) have substantially accelerated the development of embodied agents. LLM-based multi-agent systems mitigate the inefficiency of single agents in complex tasks. However, they still suffer from issues such as memory inconsistency and agent behavioral conflicts. To address these challenges, we propose MiTa, a hierarchical memory-integrated task allocative framework to enhance collaborative efficiency. MiTa organizes agents into a manager-member hierarchy, where the manager incorporates additional allocation and summary modules that enable (1) global task allocation and (2) episodic memory integration. The allocation module enables the manager to allocate tasks from a global perspective, thereby avoiding potential inter-agent conflicts. The summary module, triggered by task progress updates, performs episodic memory integration by condensing recent collaboration history into a concise summary that preserves long-horizon context. By combining task allocation with episodic memory, MiTa attains a clearer understanding of the task and facilitates globally consistent task distribution. Experimental results confirm that MiTa achieves superior efficiency and adaptability in complex multi-agent cooperation over strong baseline methods.
+
+### [Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution](https://arxiv.org/abs/2601.22528v1)
+
+- **Authors:** Hongze Mi, Yibo Feng, WenJie Lu, Song Cao, Jinyuan Li, Yanming Li, Xuelin Zhang, Haotian Luo, Songyang Peng, He Cui, Tengfei Tian, Jun Fang, Hua Chai, Naiqiang Tan
+- **Published:** 2026-01-30
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2601.22528v1) · [PDF](https://arxiv.org/pdf/2601.22528v1)
+
+Multimodal Large Language Model (MLLM) agents facilitate Graphical User Interface (GUI) automation but struggle with long-horizon, cross-application tasks due to limited context windows. While memory systems provide a viable solution, existing paradigms struggle to adapt to dynamic GUI environments, suffering from a granularity mismatch between high-level intent and low-level execution, and context pollution where the static accumulation of outdated experiences drives agents into hallucination. To address these bottlenecks, we propose the Darwinian Memory System (DMS), a self-evolving architecture that constructs memory as a dynamic ecosystem governed by the law of survival of the fittest. DMS decomposes complex trajectories into independent, reusable units for compositional flexibility, and implements Utility-driven Natural Selection to track survival value, actively pruning suboptimal paths and inhibiting high-risk plans. This evolutionary pressure compels the agent to derive superior strategies. Extensive experiments on real-world multi-app benchmarks validate that DMS boosts general-purpose MLLMs without training costs or architectural overhead, achieving average gains of 18.0% in success rate and 33.9% in execution stability, while reducing task latency, establishing it as an effective self-evolving memory system for GUI tasks.
+
+### [MemWeaver: Weaving Hybrid Memories for Traceable Long-Horizon Agentic Reasoning](https://arxiv.org/abs/2601.18204v1)
+
+- **Authors:** Juexiang Ye, Xue Li, Xinyu Yang, Chengkai Huang, Lanshun Nie, Lina Yao, Dechen Zhan
+- **Published:** 2026-01-26
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** UNSW Sydney
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2601.18204v1) · [PDF](https://arxiv.org/pdf/2601.18204v1)
+
+Large language model-based agents operating in long-horizon interactions require memory systems that support temporal consistency, multi-hop reasoning, and evidence-grounded reuse across sessions. Existing approaches largely rely on unstructured retrieval or coarse abstractions, which often lead to temporal conflicts, brittle reasoning, and limited traceability. We propose MemWeaver, a unified memory framework that consolidates long-term agent experiences into three interconnected components: a temporally grounded graph memory for structured relational reasoning, an experience memory that abstracts recurring interaction patterns from repeated observations, and a passage memory that preserves original textual evidence. MemWeaver employs a dual-channel retrieval strategy that jointly retrieves structured knowledge and supporting evidence to construct compact yet information-dense contexts for reasoning. Experiments on the LoCoMo benchmark demonstrate that MemWeaver substantially improves multi-hop and temporal reasoning accuracy while reducing input context length by over 95\% compared to long-context baselines.

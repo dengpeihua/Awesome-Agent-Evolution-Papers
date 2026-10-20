@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -19,7 +19,7 @@
 | 2026-07-12 | Agent Memory | [The Compliance Trap: Diagnosing How AI Agents Consume Conflicting Memory](https://arxiv.org/abs/2607.10608) | — |
 | 2026-07-12 | Agent Memory | [MemDecay: Region-Aware KV Cache Eviction for Efficient LLM Agent Inference](https://arxiv.org/abs/2607.10582) | — |
 | 2026-07-11 | LLM Continual Training | [CHASE: Cache-Hole-Adapted Skip Exit for Looped State-Space Language Models](https://arxiv.org/abs/2607.10110v2) | — |
-| 2026-07-11 | Agent/LLM Self-Improvement, Agent Memory, LLM Continual Training | [ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory](https://arxiv.org/abs/2607.10350) | — |
+| 2026-07-11 | Agent/LLM Self-Improvement, Agent Memory, LLM Continual Training, Long-Horizon Task Agents | [ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory](https://arxiv.org/abs/2607.10350) | — |
 | 2026-07-10 | Agent Memory | [Shared Selective Persistent Memory for Agentic LLM Systems](https://arxiv.org/abs/2607.09493v2) | — |
 | 2026-07-10 | Reinforcement Learning | [How LLM Task-Adaptation Reshapes Alignment: A Multi-dimensional Study of Behavioral and Representational Drift](https://arxiv.org/abs/2607.22676v2) | — |
 | 2026-07-10 | Agent Memory | [FluctlightDB: A Memory Model of Data for AI Agents](https://arxiv.org/abs/2608.12365v2) | — |
@@ -27,12 +27,12 @@
 | 2026-07-10 | Agent Memory | [Memory-Conditioned Tool Calling for Camera-First Visual Agents](https://arxiv.org/abs/2607.09822) | — |
 | 2026-07-09 | Agent Memory | [Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents](https://arxiv.org/abs/2607.08716) | 📈 Highly cited |
 | 2026-07-09 | Agent Memory | [What to Keep, What to Forget: A Rate--Distortion View of Memory Compaction in LLMs and Agents](https://arxiv.org/abs/2607.08032) | — |
+| 2026-07-08 | Agent Memory, Long-Horizon Task Agents | [A hierarchical memory architecture overcomes context limits in long-horizon multi-agent computational modeling](https://arxiv.org/abs/2607.07666v4) | — |
 | 2026-07-08 | Agent/LLM Self-Improvement | [The Blind Curator: How a Biased Judge Silently Disables Skill Retirement in Self-Evolving Agents](https://arxiv.org/abs/2607.07436v2) | — |
-| 2026-07-08 | Agent Memory | [A hierarchical memory architecture overcomes context limits in long-horizon multi-agent computational modeling](https://arxiv.org/abs/2607.07666) | — |
 | 2026-07-08 | Agent Memory | [Seeing and Reflecting: Multimodal Memory-Enhanced Agent Collaboration for Recommendation](https://arxiv.org/abs/2607.07108) | — |
 | 2026-07-08 | Agent/LLM Self-Improvement | [MILES: Modular Instruction Memory with Learnable Selection for Self-Improving LLM Reasoning](https://arxiv.org/abs/2607.06974) | — |
 | 2026-07-07 | Agent Memory | [StateFuse: Deterministic Conflict-Preserving Memory for Multi-Agent Systems](https://arxiv.org/abs/2607.05844) | — |
-| 2026-07-06 | Reinforcement Learning | [CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents](https://arxiv.org/abs/2607.05378v2) | 📈 Highly cited |
+| 2026-07-06 | Reinforcement Learning, Long-Horizon Task Agents | [CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents](https://arxiv.org/abs/2607.05378v2) | 📈 Highly cited |
 | 2026-07-06 | Agent Memory | [Memory in the Loop: In-Process Retrieval as Extended Working Memory for Language Agents](https://arxiv.org/abs/2607.05690) | — |
 | 2026-07-06 | Agent Memory | [When Agents Remember Too Much: Memory Poisoning Attacks on Large Language Model Agents](https://arxiv.org/abs/2607.06595) | — |
 | 2026-07-06 | Agent Memory | [Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory](https://arxiv.org/abs/2607.05511) | — |
@@ -45,10 +45,10 @@
 | 2026-07-05 | Agent Memory, LLM Continual Training | [PLACEMEM: Toward a Compute-Aware Memory Plane for Lifelong Agents](https://arxiv.org/abs/2607.04089) | — |
 | 2026-07-04 | Agent/LLM Self-Improvement, Agent Memory | [SelfMem: Self-Optimizing Memory for AI Agents](https://arxiv.org/abs/2607.03726) | — |
 | 2026-07-03 | Agent Memory | [Organizational Memory for Agentic Business Process Execution](https://arxiv.org/abs/2607.03228) | — |
+| 2026-07-02 | Agent Memory, Long-Horizon Task Agents | [AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.02255v1) | — |
 | 2026-07-02 | LLM Continual Training | [Enhancing Fitness Intelligence through Domain-Specific LLM Post-Training](https://arxiv.org/abs/2607.02118v2) | — |
 | 2026-07-02 | Agent Memory | [ContextSniper: AntTrail's Token-Efficient Code Memory for Repository-Level Program Repair](https://arxiv.org/abs/2607.01916v6) | — |
 | 2026-07-02 | Agent Memory | [A-TMA: Decoupling State-Aware Memory Failures in Long-Term Agent Memory](https://arxiv.org/abs/2607.01935) | — |
-| 2026-07-02 | Agent Memory | [AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.02255) | — |
 | 2026-07-02 | Agent/LLM Self-Improvement, Agent Memory | [COMFYCLAW: Self-Evolving Skill Harnesses for Image Generation Workflows](https://arxiv.org/abs/2607.01709) | — |
 | 2026-07-01 | Reinforcement Learning | [Scaling Laws for Collapse in Asynchronous GRPO](https://arxiv.org/abs/2607.01083v3) | — |
 | 2026-07-01 | Agent Memory | [DART-VLN: Test-Time Memory Decay and Anti-Loop Regularization for Discrete Vision-Language Navigation](https://arxiv.org/abs/2607.01043v4) | — |
@@ -58,8 +58,8 @@
 | 2026-07-01 | Agent Memory | [Multi-Head Recurrent Memory Agents](https://arxiv.org/abs/2607.01523) | — |
 | 2026-07-01 | Agent/LLM Self-Improvement | [Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://aclanthology.org/2026.findings-acl.483/) | 📈 Highly cited |
 | 2026-07-01 | Agent Memory | [EMA: An Episodic Memory Agent for Efficient and Selective Memory](https://aclanthology.org/2026.findings-acl.250/) | — |
-| 2026-07-01 | Agent/LLM Self-Improvement, Agent Memory, LLM Continual Training | [Towards Self-Evolving Agents: Enabling Autonomy through Interactive Experience Refinement](https://aclanthology.org/2026.findings-acl.1522/) | — |
-| 2026-06-30 | Agent Memory | [ECHO: Prune To Act, Trace To Learn With Selective Turn Memory In Agentic RL](https://arxiv.org/abs/2606.31650v5) | — |
+| 2026-07-01 | Agent/LLM Self-Improvement, Agent Memory, LLM Continual Training, Long-Horizon Task Agents | [Towards Self-Evolving Agents: Enabling Autonomy through Interactive Experience Refinement](https://aclanthology.org/2026.findings-acl.1522/) | — |
+| 2026-06-30 | Agent Memory, Long-Horizon Task Agents | [ECHO: Prune To Act, Trace To Learn With Selective Turn Memory In Agentic RL](https://arxiv.org/abs/2606.31650v5) | — |
 | 2026-06-30 | Agent Memory | [What Memory Do GUI Agents Really Need? From Passive Records to Active Task-Driving States](https://arxiv.org/abs/2606.31612) | — |
 | 2026-06-30 | Agent Memory | [When Not to Write Memory: Governing False Promotion from Correlated Agent Traces](https://arxiv.org/abs/2607.02579) | 🏆 CCF-A: 2026 6th International Conference on Machine Learning and Intelligent Systems Engineering (MLISE)<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-06-30 | Agent Memory | [From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents](https://arxiv.org/abs/2607.00233) | — |
@@ -306,17 +306,17 @@ In long-horizon tasks, decision-relevant state is often scattered across an expa
 
 Large language models, and the agents built on them, spend an ever-growing share of their compute and memory on remembering: caching attention keys and values, carrying long prompts, maintaining recurrent state, and storing what happened in previous turns and sessions. Because none of this memory is free, four largely separate research communities have each learned to compact it. They evict or quantize the KV cache, prune or distill prompts, bound architectural state, and consolidate agent memory. We argue that these are instances of one problem: a rate--distortion decision about what context-derived information to retain versus discard, at what fidelity, under a resource budget, so as to preserve downstream task utility. We make this lens precise with a single compaction objective and a layer-agnostic lower bound, use it to build a seven-axis taxonomy that classifies methods from across the stack uniformly, and use it to transfer mechanisms between layers that have never been connected, from serving-stack KV management to agent long-term memory. Two patterns hold across the survey. At every layer the signal that decides what to keep is attention magnitude or recency, and it fails in the same way everywhere, by discarding, before the query is known and with no way to undo it, information the query later needs. And while compression is measured carefully on single-turn long context, the repeated compaction that agents actually perform is almost never measured, and no benchmark holds one budget axis across all the layers at once. We turn both observations into a benchmark proposal, a small reference experiment, and a set of compaction-aware design principles, and we map the open problems.
 
-### [A hierarchical memory architecture overcomes context limits in long-horizon multi-agent computational modeling](https://arxiv.org/abs/2607.07666)
+### [A hierarchical memory architecture overcomes context limits in long-horizon multi-agent computational modeling](https://arxiv.org/abs/2607.07666v4)
 
-- **Authors:** Tewari, Shivendra G., Kimko, Holly
+- **Authors:** Shivendra G. Tewari, Holly Kimko
 - **Published:** 2026-07-08
 - **Priority:** —
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
-- **Categories:** q-bio.QM
-- **Links:** [Paper](https://arxiv.org/abs/2607.07666) · [PDF](https://arxiv.org/pdf/2607.07666)
+- **Categories:** q-bio.QM, cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2607.07666v4) · [PDF](https://arxiv.org/pdf/2607.07666v4)
 
-Large language models (LLMs) demonstrate remarkable reasoning capabilities, yet their stateless architecture fundamentally limits deployment in long-horizon research workflows requiring multi-session continuity and quantitative rigor. Here we present Ensemble QSP, a multi-agent framework featuring a three-layer hierarchical memory architecture that keeps injected context bounded and constant in project duration (mid-term project state: median 301 tokens, max 4,050, across 104 runs) by capping each state category and evicting completed work, enabling continuous autonomous operation without context degradation. The system orchestrates five specialist worker agents under domain-expert principal investigators, enforcing physical constraints through physics-based checklists and structured-domain knowledge. Comprehensive benchmarking demonstrates robust autonomous pharmacokinetic-pharmacodynamic model selection without human intervention, consistent result quality across both lower-cost and frontier LLMs, improved PK parameter recovery relative to single-agent baselines, and stable model selection across linguistically diverse prompts of the same task. Feature-level ablation across physiologically based pharmacokinetic (PBPK) models spanning a broad complexity range shows that PI-agent oversight improves debugging efficiency while preserving final accuracy across conditions. The architecture is structurally domain-agnostic, adding a new scientific domain requires only a new PI agent configuration.
+Large language models (LLMs) demonstrate remarkable reasoning capabilities, yet their stateless architecture fundamentally limits deployment in long-horizon research workflows requiring multi-session continuity and quantitative rigor. Here we present Ensemble QSP, a multi-agent framework featuring a three-layer hierarchical memory architecture that bounds injected context (median 301 tokens, max 4,050) by capping state categories and evicting completed work. This enables continuous autonomous operation without context degradation. The system orchestrates five specialist worker agents under domain-expert principal investigators (PIs), enforcing physical constraints through physics-based checklists and structured domain knowledge. Comprehensive benchmarking demonstrates autonomous pharmacokinetic-pharmacodynamic (PKPD) model selection, improved parameter recovery relative to single-agent baselines, and robust interpretation of linguistically diverse prompts. Replication with open-weight models (DeepSeek-V4-Flash/Pro, Llama 3.1 70B) confirmed these architectural conclusions across PKPD modeling, literature synthesis, and PBPK model implementation, proving the framework is independent of proprietary LLMs. Feature-level ablations show that memory, retrieval, and PI oversight address distinct scientific failure modes, though underlying LLM capability remains consequential for stringent physical-consistency checks. The architecture is structurally agnostic to computational biology; adding a new scientific domain requires only a new PI-agent configuration.
 
 ### [Seeing and Reflecting: Multimodal Memory-Enhanced Agent Collaboration for Recommendation](https://arxiv.org/abs/2607.07108)
 
@@ -462,6 +462,18 @@ While current AI agents support increasingly long context windows, tool use, and
 
 LLM-based agents offer new opportunities for automating business process execution beyond the limits of rule-based systems. However, general-purpose LLMs lack the organization-specific knowledge required for reliable execution, which is typically fragmented across human-oriented artifacts such as policies, process models, and standard operating procedures. While such knowledge can technically be encoded in individual prompts or agent-specific retrieval setups, this approach does not scale in enterprises, as it gives rise to knowledge silos and rule duplicates, and makes consistent updates and learning across agents difficult. We argue that this calls for an organizational memory for agentic business process execution: a shared, governed, and agent-consumable reference layer of evolving organization-specific procedural knowledge about how work should be executed. We derive requirements for such a memory, propose an architecture for its curation and consumption, and demonstrate its effectiveness in a proof-of-concept based on a procurement scenario.
 
+### [AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.02255v1)
+
+- **Authors:** Xiangchen Cheng, Yunwei Jiang, Jianwen Sun, Zizhen Li, Chuanhao Li, Xiangcheng Cao, Yihao Liu, Fanrui Zhang, Li Jin, Kaipeng Zhang
+- **Published:** 2026-07-02
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2607.02255v1) · [PDF](https://arxiv.org/pdf/2607.02255v1)
+
+Memory for a long-horizon LLM agent is a contract about what each future decision is allowed to see. The simplest contract appends past observations, tool calls, and reflections to every prompt, which makes prior context easy to access but also turns it into a jumbled mixture in which the effect of any single memory component is hard to isolate. We introduce and instrument an alternative bounded contract: every decision is made from a fresh user message assembled by typed retrieval, with no raw cross-decision transcript appended. The prompt thus stays bounded across runs of any length, and any single layer can be ablated in isolation. We instantiate the contract in Slay the Spire 2, a closed-rule stochastic deck-building game whose runs require hundreds of tactical and strategic decisions. A public online benchmark of frontier LLMs on the same game reports zero wins at the lowest difficulty across five configurations, and the developer-reported human win rate at the same difficulty is 16%; the task is hard but not saturated. Within our harness, a fixed-A0 ablation shows the largest observed difference when triggered strategic skills are enabled: the no-store baseline wins 3/10 games and adding the skill layer 6/10. At this sample size the comparison is directional rather than statistically decisive (Fisher exact p\approx0.37); a cross-backbone probe and public accumulating-context baselines are reported as operational comparisons rather than controlled tests of the contract variable itself. We release a reproducible testbed: 298 completed trajectories with condition tags, frozen memory/skill snapshots, prompt records, and analysis scripts -- an agent design and a validated, reusable methodology for studying how explicit memory layers shape long-horizon LLM-agent decisions.
+
 ### [ContextSniper: AntTrail's Token-Efficient Code Memory for Repository-Level Program Repair](https://arxiv.org/abs/2607.01916v6)
 
 - **Authors:** Chiwang Luk, Matin Mohammad Najafi, Zhifeng Jia, Wei Yang, Xiuchang Li, Jinwei Zhu, Yang Ren, Lei Chen, Gao Cong
@@ -485,18 +497,6 @@ Large language model agents can repair real repository issues, but they often sp
 - **Links:** [Paper](https://arxiv.org/abs/2607.01935) · [PDF](https://arxiv.org/pdf/2607.01935)
 
 Long term memory lets LLM agents act as persistent assistants, but user facts change. A useful memory system must know what is true now, what used to be true, and what changed. We study \emph{ghost memory}, a state coordination failure in which old, current, and transition facts coexist in the memory bank, remain mixed during retrieval, and mislead the answer model. We argue that memory systems should be understood and optimized from three levels: bank maintenance, retrieval, and answer time resolution. We propose ATMA, a state aware overlay for existing memory systems. ATMA keeps superseded and transition records in the bank, builds evidence packets for the query's requested state view, and exposes current, historical, and transition labels to QA. We further call for decoupled evaluation of bank, retrieval, and answer level failures, since final QA accuracy can hide where ghost memory occurs. To make this failure measurable, we build LTP (LoCoMo Temporal Plus), a conflict heavy benchmark for ghost memory, and evaluate on LoCoMo for long conversation generalization. On LTP, Graphiti+ATMA improves conflict accuracy by 0.240 absolute over Graphiti. On LoCoMo, Graphiti+ATMA raises temporal F1 from 0.0295 to 0.1705. The gains are host dependent, but they indicate that explicit state roles can reduce memory failures hidden by final QA accuracy.
-
-### [AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.02255)
-
-- **Authors:** Cheng, Xiangchen, Jiang, Yunwei, Sun, Jianwen, Li, Zizhen, Li, Chuanhao, Cao, Xiangcheng, Liu, Yihao, Zhang, Fanrui, Jin, Li, Zhang, Kaipeng
-- **Published:** 2026-07-02
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.02255) · [PDF](https://arxiv.org/pdf/2607.02255)
-
-Memory for a long-horizon LLM agent is a contract about what each future decision is allowed to see. The simplest contract appends past observations, tool calls, and reflections to every prompt, which makes prior context easy to access but also turns it into a jumbled mixture in which the effect of any single memory component is hard to isolate. We introduce and instrument an alternative bounded contract: every decision is made from a fresh user message assembled by typed retrieval, with no raw cross-decision transcript appended. The prompt thus stays bounded across runs of any length, and any single layer can be ablated in isolation. We instantiate the contract in Slay the Spire 2, a closed-rule stochastic deck-building game whose runs require hundreds of tactical and strategic decisions. A public online benchmark of frontier LLMs on the same game reports zero wins at the lowest difficulty across five configurations, and the developer-reported human win rate at the same difficulty is 16%; the task is hard but not saturated. Within our harness, a fixed-A0 ablation shows the largest observed difference when triggered strategic skills are enabled: the no-store baseline wins 3/10 games and adding the skill layer 6/10. At this sample size the comparison is directional rather than statistically decisive (Fisher exact p\approx0.37); a cross-backbone probe and public accumulating-context baselines are reported as operational comparisons rather than controlled tests of the contract variable itself. We release a reproducible testbed: 298 completed trajectories with condition tags, frozen memory/skill snapshots, prompt records, and analysis scripts -- an agent design and a validated, reusable methodology for studying how explicit memory layers shape long-horizon LLM-agent decisions.
 
 ### [COMFYCLAW: Self-Evolving Skill Harnesses for Image Generation Workflows](https://arxiv.org/abs/2607.01709)
 
@@ -777,3 +777,77 @@ Long-horizon agentic LLMs are increasingly limited by finite context windows, as
 - **Links:** [Paper](https://arxiv.org/abs/2607.01083v3) · [PDF](https://arxiv.org/pdf/2607.01083v3)
 
 Asynchronous reinforcement learning improves the throughput of large language model post-training by decoupling rollout generation from policy optimization, but introduces a mismatch between the behavior and learner policies. How the resulting policy staleness couples with the learning rate to govern training stability and collapse time remains poorly understood. We investigate this coupling in vanilla GRPO through controlled sweeps of the synchronization interval $S$ and constant learning rate $η$ on Llama-3.2-1B/3B, complemented by experiments on Qwen3-8B. We identify two empirical scaling laws: (i) Stability-boundary scaling: the largest stable learning rate scales approximately as $S^{-1}$, yielding a stability boundary characterized by an approximately constant product $Sη$. (ii) Collapse-time scaling: among collapsing runs, estimated collapse times scale approximately as $η^{-1}$, corresponding to a model- and setup-dependent cumulative learning-rate budget that aligns across synchronization intervals in the Llama sweeps. We interpret these laws through a local analysis of the behavior-dependent GRPO surrogate and a complementary mean-field model. Under local regularity conditions, the analysis yields an $O(Sη)$ upper bound on the staleness-induced update bias that resets at synchronization. The mean-field model shows how sufficiently strong positive feedback can sustain directional drift when update directions persist across synchronization cycles. When drift speed saturates under optimizer normalization, this mechanism predicts exit from a local surrogate-validity region after an approximately fixed cumulative learning rate. Together, these findings motivate a practical calibration rule: estimate the stability threshold and collapse budget from a coarse sweep, then jointly select $S$ and $η$ for the intended training horizon.
+
+## Long-Horizon Task Agents
+
+### [ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory](https://arxiv.org/abs/2607.10350)
+
+- **Authors:** Tian, Jiayi, Liu, Shiao, Xu, Yuting, Lu, Jia, Guan, Zihao, Han, Honglin, Yang, Di, Gu, Minqi, Qian, Yifei, Zhang, Tianlin, Zhu, Yanqing, Ye, Zeqian, Yang, Menglin, Wang, Fei, Hu, Xu, Li, Xiuxian, Zhang, Wei, Su, Shihui, Ji, Yiyan, Wang, Jingbo, Feng, Ziteng, Liu, Jiaheng, Zhang, Zhaoxiang, Wu, Xiaolong, Tang, Zixiao, Gu, Zhining, Cai, Yang, Zheng, Linbo, Ma, Jingjing, Yin, Mingyang, Chu, Zedong, Tang, Wenbin, Xu, Mu
+- **Published:** 2026-07-11
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.10350) · [PDF](https://arxiv.org/pdf/2607.10350) · [Code](https://github.com/amap-cvlab/ABot-AgentOS)
+
+Recent VLM and VLA systems have improved robotic perception and action prediction, yet long-horizon embodied agents still require a general runtime layer for reasoning, memory, tool use, verification, and cross-embodiment execution. We present ABot-AgentOS, a general robotic Agent Operating System that sits above low-level controllers and provides a deliberative agent layer for scene-conditioned planning, context-isolated skill execution, multi-stage verification, multi-modal memory, and edge-cloud collaboration. To evaluate such systems, we introduce EmbodiedWorldBench, an executable benchmark with 16 indoor, outdoor, and hybrid scenes, four difficulty levels, and over 200 tasks involving navigation, object search, NPC dialogue, dynamic events, and trace-grounded scoring. ABot-AgentOS further introduces Universal Multi-modal Graph Memory, a persistent source-grounded substrate that converts dialogue, visual observations, spatial context, temporal relations, and task traces into typed nodes and edges. A failure-driven self-evolution loop converts diagnosed memory failures into gated runtime evo-assets that are promoted only to later evaluation splits, preventing current-split ground-truth leakage while enabling continual improvement. On an initial EmbodiedWorldBench subset, ABot-AgentOS improves over a single-controller baseline in both task success and goal completion. Across memory benchmarks, ABot-AgentOS Static achieves 87.5 on LoCoMo, 59.9 on OpenEQA EM-EQA, 88.6 on Mem-Gallery, and 76.5 Acc@All on NExT-QA; self-evolution further improves LoCoMo to 88.7, OpenEQA to 60.4, and Mem-Gallery to 89.0. These results suggest that a general Agent OS layer can improve long-horizon embodied execution while providing persistent, auditable memory for continual interaction.
+
+### [A hierarchical memory architecture overcomes context limits in long-horizon multi-agent computational modeling](https://arxiv.org/abs/2607.07666v4)
+
+- **Authors:** Shivendra G. Tewari, Holly Kimko
+- **Published:** 2026-07-08
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** q-bio.QM, cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2607.07666v4) · [PDF](https://arxiv.org/pdf/2607.07666v4)
+
+Large language models (LLMs) demonstrate remarkable reasoning capabilities, yet their stateless architecture fundamentally limits deployment in long-horizon research workflows requiring multi-session continuity and quantitative rigor. Here we present Ensemble QSP, a multi-agent framework featuring a three-layer hierarchical memory architecture that bounds injected context (median 301 tokens, max 4,050) by capping state categories and evicting completed work. This enables continuous autonomous operation without context degradation. The system orchestrates five specialist worker agents under domain-expert principal investigators (PIs), enforcing physical constraints through physics-based checklists and structured domain knowledge. Comprehensive benchmarking demonstrates autonomous pharmacokinetic-pharmacodynamic (PKPD) model selection, improved parameter recovery relative to single-agent baselines, and robust interpretation of linguistically diverse prompts. Replication with open-weight models (DeepSeek-V4-Flash/Pro, Llama 3.1 70B) confirmed these architectural conclusions across PKPD modeling, literature synthesis, and PBPK model implementation, proving the framework is independent of proprietary LLMs. Feature-level ablations show that memory, retrieval, and PI oversight address distinct scientific failure modes, though underlying LLM capability remains consequential for stringent physical-consistency checks. The architecture is structurally agnostic to computational biology; adding a new scientific domain requires only a new PI-agent configuration.
+
+### [CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents](https://arxiv.org/abs/2607.05378v2)
+
+- **Authors:** Yujiang Li, Zhenyu Hou, Yi Jing, Jie Tang, Yuxiao Dong
+- **Published:** 2026-07-06
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2607.05378v2) · [PDF](https://arxiv.org/pdf/2607.05378v2)
+
+Long-horizon agentic LLMs are increasingly limited by finite context windows, as extended interaction trajectories can exceed the maximum context length before a task is completed. Context compaction offers a natural solution by summarizing previous interaction states and continuing the rollout under a compressed context, but incorporating compaction into reinforcement learning remains underexplored. We propose CompactionRL, a reinforcement learning strategy to train long-horizon agentic LLMs with context compaction. Our approach jointly optimizes task execution and summary generation with token-level loss normalization and cross-segment generalized advantage estimation. This design enables the LLM agents to learn from compacted long-horizon trajectories. We train CompactionRL on top of open models and observe consistent performance gains on agentic coding tasks. CompactionRL enables the open GLM-4.5-Air model (106B-A12B) to achieve Pass@1 scores of 66.4% on SWE-bench Verified and 26.2% on Terminal-Bench 2.0, exceeding the base model under inference-time compaction by 6.6 and 4.9 points, respectively. Built upon GLM-4.7-Flash (30B-A3B), CompactionRL improves Pass@1 by 5.5 and 6.7 points against the base model, reaching 56.0% on SWE-bench Verified and 20.2% on Terminal-Bench 2.0. CompactionRL is thus deployed in the RL pipeline for training the open GLM-5.2 model (750B-A40B).
+
+### [AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.02255v1)
+
+- **Authors:** Xiangchen Cheng, Yunwei Jiang, Jianwen Sun, Zizhen Li, Chuanhao Li, Xiangcheng Cao, Yihao Liu, Fanrui Zhang, Li Jin, Kaipeng Zhang
+- **Published:** 2026-07-02
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2607.02255v1) · [PDF](https://arxiv.org/pdf/2607.02255v1)
+
+Memory for a long-horizon LLM agent is a contract about what each future decision is allowed to see. The simplest contract appends past observations, tool calls, and reflections to every prompt, which makes prior context easy to access but also turns it into a jumbled mixture in which the effect of any single memory component is hard to isolate. We introduce and instrument an alternative bounded contract: every decision is made from a fresh user message assembled by typed retrieval, with no raw cross-decision transcript appended. The prompt thus stays bounded across runs of any length, and any single layer can be ablated in isolation. We instantiate the contract in Slay the Spire 2, a closed-rule stochastic deck-building game whose runs require hundreds of tactical and strategic decisions. A public online benchmark of frontier LLMs on the same game reports zero wins at the lowest difficulty across five configurations, and the developer-reported human win rate at the same difficulty is 16%; the task is hard but not saturated. Within our harness, a fixed-A0 ablation shows the largest observed difference when triggered strategic skills are enabled: the no-store baseline wins 3/10 games and adding the skill layer 6/10. At this sample size the comparison is directional rather than statistically decisive (Fisher exact p\approx0.37); a cross-backbone probe and public accumulating-context baselines are reported as operational comparisons rather than controlled tests of the contract variable itself. We release a reproducible testbed: 298 completed trajectories with condition tags, frozen memory/skill snapshots, prompt records, and analysis scripts -- an agent design and a validated, reusable methodology for studying how explicit memory layers shape long-horizon LLM-agent decisions.
+
+### [Towards Self-Evolving Agents: Enabling Autonomy through Interactive Experience Refinement](https://aclanthology.org/2026.findings-acl.1522/)
+
+- **Authors:** Cheng Yang, Xuemeng Yang, Licheng Wen, Daocheng Fu, Jianbiao Mei, Rong Wu, Pinlong Cai, Yufan Shen, Nianchen Deng, Jia Xu, Botian Shi, Yu Qiao, Haifeng Li
+- **Published:** 2026-07-01
+- **Priority:** —
+- **Venue:** ACL 2026 Findings
+- **Affiliations:** Zhejiang University
+- **Categories:** cs.CL
+- **Links:** [Paper](https://aclanthology.org/2026.findings-acl.1522/) · [PDF](https://aclanthology.org/2026.findings-acl.1522.pdf)
+
+Large Language Models often struggle with complex, multi-step operational tasks because they remain static during inference and cannot learn from past experience. To address this, we propose MUSE, a framework that enables iterative self-improvement through a hierarchical Memory Module. MUSE organizes cross-domain insights to facilitate the orchestration of long-horizon workflows. The core of our approach is an autonomous post-execution critique mechanism: after completing each sub-task, the system analyzes its operational logs and distills raw execution data into structured, reusable knowledge. This allows the agent to evolve dynamically rather than relying on fixed parameters. Evaluated on the rigorous TAC productivity benchmark, MUSE achieves new state-of-the-art results, significantly outperforming previous methods using only the streamlined Gemini-2.5 Flash model. Our analysis demonstrates that MUSE’s performance scales with the accumulation of insights and exhibits strong cross-task transferability, marking a key step toward autonomous systems capable of lifelong learning in professional environments. Demo videos can be found in our supplementary materials.
+
+### [ECHO: Prune To Act, Trace To Learn With Selective Turn Memory In Agentic RL](https://arxiv.org/abs/2606.31650v5)
+
+- **Authors:** Zijun Xie, Binbin Zheng, Enlei Gong, Jihua Liu, Yuyang You, Lingfeng Liu, Jiayao Tang, Guanqun Zhao, Aoqi Hu, Zeyu Chen
+- **Published:** 2026-06-30
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2606.31650v5) · [PDF](https://arxiv.org/pdf/2606.31650v5)
+
+Long-horizon language agents must repeatedly interact with tools, accumulate evidence, and make decisions under bounded context windows. Context-management methods make such rollouts feasible by simplifying past interactions through deletion, folding, or memory editing. However, when useful history is collapsed into compressed states, the reconstructed context may no longer reveal which earlier observations support a successful final answer. This creates a mismatch between bounded-context acting and outcome-based reinforcement learning: the policy acts on reconstructed context, while the learner lacks source-level provenance for assigning credit to the evidence that mattered. We propose ECHO, a selective turn-memory framework for traceable context reconstruction in Agentic RL. ECHO compresses each completed environment turn into a compact source-indexed memory record, reconstructs bounded policy contexts by selecting useful records, and reuses the selected source indices to route positive outcome credit to the final trajectory segment, reused evidence turns, memory findings, and memory-selection actions. On BrowseComp-Plus, ECHO reaches 43.4% held-out accuracy, outperforming GRPO at 28.9% and the rolling-summary baseline SUPO at 36.1%, while using fewer turns and lower trajectory volume than SUPO. The trained policy also improves zero-shot generalization across multi-objective QA, code generation, and deep information-seeking benchmarks on both dense and MoE backbones.

@@ -115,3 +115,13 @@ def test_new_selected_venues_accept_explicit_acceptance(venue):
         comment=f"Accepted to {venue} 2026",
     )
     assert classify_highlights(paper).venue_tier == "selected-extra"
+
+
+def test_future_first_publication_is_not_eligible():
+    from datetime import UTC, datetime, timedelta
+
+    paper = replace(
+        make_paper("future", topics=("user-requested",)),
+        published=datetime.now(UTC) + timedelta(days=2),
+    )
+    assert not is_eligible(paper)

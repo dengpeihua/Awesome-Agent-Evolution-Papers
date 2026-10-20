@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -15,9 +15,9 @@
 | --- | --- | --- | --- |
 | 2026-05-08 | Reinforcement Learning | [Your Language Model is Its Own Critic: Reinforcement Learning with Value Estimation from Actor's Internal States](https://arxiv.org/abs/2605.07579v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-05-08 | LLM Continual Training | [ProteinJEPA: Latent prediction improves protein language model pretraining](https://arxiv.org/abs/2605.07554v2) | — |
-| 2026-05-08 | Agent/LLM Self-Improvement | [Tools as Continuous Flow for Evolving Agentic Reasoning](https://arxiv.org/abs/2605.07339v2) | — |
+| 2026-05-08 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Tools as Continuous Flow for Evolving Agentic Reasoning](https://arxiv.org/abs/2605.07339v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
 | 2026-05-08 | LLM Continual Training | [Limits of Reliability and Scaling in Language Models](https://arxiv.org/abs/2607.14112v3) | — |
-| 2026-05-08 | Agent/LLM Self-Improvement, Agent Memory | [MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs](https://arxiv.org/abs/2605.08374) | — |
+| 2026-05-08 | Agent/LLM Self-Improvement, Agent Memory, Long-Horizon Task Agents | [MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs](https://arxiv.org/abs/2605.08374) | — |
 | 2026-05-08 | Agent Memory | [MemCompiler: Compile, Don't Inject -- State-Conditioned Memory for Embodied Agents](https://arxiv.org/abs/2605.07594) | — |
 | 2026-05-08 | Agent/LLM Self-Improvement, Agent Memory | [PYTHALAB-MERA: Validation-Grounded Memory, Retrieval, and Acceptance Control for Frozen-LLM Coding Agents](https://arxiv.org/abs/2605.08468) | — |
 | 2026-05-08 | Agent Memory | [When Stored Evidence Stops Being Usable: Scale-Conditioned Evaluation of Agent Memory](https://arxiv.org/abs/2605.07313) | — |
@@ -29,66 +29,66 @@
 | 2026-05-07 | Agent Memory | [Belief Memory: Agent Memory Under Partial Observability](https://arxiv.org/abs/2605.05583) | 📈 Highly cited |
 | 2026-05-07 | Agent Memory, LLM Continual Training | [From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms](https://arxiv.org/abs/2605.06716) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-05-06 | LLM Continual Training | [Skill Neologisms: Towards Skill-based Continual Learning](https://arxiv.org/abs/2605.04970v3) | — |
+| 2026-05-06 | Agent Memory, Long-Horizon Task Agents | [Tree-based Credit Assignment for Multi-Agent Memory System](https://arxiv.org/abs/2605.04811v1) | — |
 | 2026-05-06 | Reinforcement Learning | [Reward-Decomposed Reinforcement Learning for Immersive Video Role-Playing](https://arxiv.org/abs/2605.04733v3) | — |
 | 2026-05-06 | Agent Memory | [Storage Is Not Memory: A Retrieval-Centered Architecture for Agent Recall](https://arxiv.org/abs/2605.04897) | — |
-| 2026-05-06 | Agent Memory | [Tree-based Credit Assignment for Multi-Agent Memory System](https://arxiv.org/abs/2605.04811) | — |
 | 2026-05-05 | Agent Memory | [What Happens Inside Agent Memory? Circuit Analysis from Emergence to Diagnosis](https://arxiv.org/abs/2605.03354v3) | — |
+| 2026-05-05 | Agent Memory, Long-Horizon Task Agents | [MemFlow: Intent-Driven Memory Orchestration for Small Language Model Agents](https://arxiv.org/abs/2605.03312v1) | — |
 | 2026-05-05 | Agent Memory | [ScrapMem: A Bio-inspired Framework for On-device Personalized Agent Memory via Optical Forgetting](https://arxiv.org/abs/2605.03804) | — |
 | 2026-05-05 | Agent Memory | [MEMTIER: Tiered Memory Architecture and Retrieval Bottleneck Analysis for Long-Running Autonomous AI Agents](https://arxiv.org/abs/2605.03675) | — |
 | 2026-05-05 | Agent Memory | [MEMSAD: Gradient-Coupled Anomaly Detection for Memory Poisoning in Retrieval-Augmented Agents](https://arxiv.org/abs/2605.03482) | — |
 | 2026-05-05 | LLM Continual Training | [CASCADE: Case-Based Continual Adaptation for Large Language Models During Deployment](https://arxiv.org/abs/2605.06702) | — |
-| 2026-05-05 | Agent Memory | [MemFlow: Intent-Driven Memory Orchestration for Small Language Model Agents](https://arxiv.org/abs/2605.03312) | — |
-| 2026-05-04 | Agent Memory | [Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory](https://arxiv.org/abs/2605.03228v2) | — |
+| 2026-05-04 | Agent Memory, Long-Horizon Task Agents | [Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory](https://arxiv.org/abs/2605.03228v2) | — |
 | 2026-05-04 | Agent/LLM Self-Improvement | [FitText: Evolving Agent Tool Ecologies via Memetic Retrieval](https://arxiv.org/abs/2605.02411v4) | — |
 | 2026-05-04 | Reinforcement Learning | [ANO: Robust Policy Optimization via Bounded, Redescending Gain Fields](https://arxiv.org/abs/2605.02320v3) | — |
 | 2026-05-04 | LLM Continual Training | [Anon: Extrapolating Adaptivity Beyond SGD and Adam](https://arxiv.org/abs/2605.02317v3) | — |
 | 2026-05-03 | Agent Memory | [Trojan Hippo Bench: A Dynamic Benchmark for Persistent Memory Attacks and Defenses in LLM Agents](https://arxiv.org/abs/2605.01970v4) | 📈 Highly cited |
-| 2026-05-03 | Agent Memory | [GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory](https://arxiv.org/abs/2605.01688) | — |
+| 2026-05-03 | Agent Memory, Long-Horizon Task Agents | [GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory](https://arxiv.org/abs/2605.01688) | — |
 | 2026-05-02 | LLM Continual Training | [Valley3: Scaling Omni Foundation Models for E-commerce](https://arxiv.org/abs/2605.01278v3) | — |
 | 2026-05-02 | Agent Memory | [MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents](https://arxiv.org/abs/2605.01386) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-30 | Agent Memory | [From Unstructured Recall to Schema-Grounded Memory: Reliable AI Memory via Iterative, Schema-Aware Extraction](https://arxiv.org/abs/2604.27906v3) | — |
 | 2026-04-30 | Agent Memory | [Learning When to Remember: Risk-Sensitive Contextual Bandits for Abstention-Aware Memory Retrieval in LLM-Based Coding Agents](https://arxiv.org/abs/2604.27283) | — |
 | 2026-04-29 | Agent/LLM Self-Improvement | [Discovering physical mechanisms from experiment-simulation mismatches](https://arxiv.org/abs/2604.26703v2) | — |
+| 2026-04-29 | Agent Memory, Long-Horizon Task Agents | [OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory](https://arxiv.org/abs/2604.26622v1) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-29 | Agent Memory | [Hierarchical Long-Term Semantic Memory for LinkedIn's Hiring Agent](https://arxiv.org/abs/2604.26197) | — |
 | 2026-04-29 | Agent Memory | [Detecting Clinical Discrepancies in Health Coaching Agents: A Dual-Stream Memory and Reconciliation Architecture](https://arxiv.org/abs/2604.27045) | — |
 | 2026-04-29 | Agent Memory, LLM Continual Training | [When Continual Learning Moves to Memory: A Study of Experience Reuse in LLM Agents](https://arxiv.org/abs/2604.27003) | — |
-| 2026-04-29 | Agent Memory | [OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory](https://arxiv.org/abs/2604.26622) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-26 | Agent Memory | [GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs](https://arxiv.org/abs/2604.23626) | 📈 Highly cited |
-| 2026-04-24 | Agent Memory | [ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents](https://arxiv.org/abs/2604.23069) | — |
+| 2026-04-24 | Agent Memory, Long-Horizon Task Agents | [ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents](https://arxiv.org/abs/2604.23069v2) | — |
+| 2026-04-23 | Agent Memory, Long-Horizon Task Agents | [Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents](https://arxiv.org/abs/2604.22085v1) | — |
 | 2026-04-23 | Agent/LLM Self-Improvement | [AEL: Evolving Agent Harness in Open-Ended Environments](https://arxiv.org/abs/2604.21725v2) | — |
-| 2026-04-23 | Agent Memory | [Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents](https://arxiv.org/abs/2604.22085) | — |
+| 2026-04-22 | Agent Memory, Long-Horizon Task Agents | [Stateless Decision Memory for Enterprise AI Agents](https://arxiv.org/abs/2604.20158v1) | — |
 | 2026-04-22 | Agent Memory, LLM Continual Training | [Ask Only When Needed: Proactive Retrieval from Memory and Skills for Experience-Driven Lifelong Agents](https://arxiv.org/abs/2604.20572) | — |
 | 2026-04-22 | Agent Memory | [Dual-Cluster Memory Agent: Resolving Multi-Paradigm Ambiguity in Optimization Problem Solving](https://arxiv.org/abs/2604.20183) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-22 | Agent Memory | [FSFM: A Biologically-Inspired Framework for Selective Forgetting of Agent Memory](https://arxiv.org/abs/2604.20300) | — |
 | 2026-04-22 | Agent/LLM Self-Improvement | [Learning to Evolve: A Self-Improving Framework for Multi-Agent Systems via Textual Parameter Graph Optimization](https://arxiv.org/abs/2604.20714) | — |
 | 2026-04-22 | Agent Memory | [Trust, Lies, and Long Memories: Emergent Social Dynamics and Reputation in Multi-Round Avalon with LLM Agents](https://arxiv.org/abs/2604.20582) | — |
-| 2026-04-22 | Agent Memory | [Memory-Augmented LLM-based Multi-Agent System for Automated Feature Generation on Tabular Data](https://arxiv.org/abs/2604.20261) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
 | [Your Language Model is Its Own Critic: Reinforcement Learning with Value Estimation from Actor's Internal States](https://arxiv.org/abs/2605.07579v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026; Project Page: https://elijah0430.github.io/poise/ |
+| [Tools as Continuous Flow for Evolving Agentic Reasoning](https://arxiv.org/abs/2605.07339v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted by NeurIPS 2026 |
 | [Belief Memory: Agent Memory Under Partial Observability](https://arxiv.org/abs/2605.05583) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms](https://arxiv.org/abs/2605.06716) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>Hong Kong Baptist University, National University of Singapore |
 | [Trojan Hippo Bench: A Dynamic Benchmark for Persistent Memory Attacks and Defenses in LLM Agents](https://arxiv.org/abs/2605.01970v4) | 📈 Highly cited | ETH Zürich |
 | [MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents](https://arxiv.org/abs/2605.01386) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
-| [OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory](https://arxiv.org/abs/2604.26622) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory](https://arxiv.org/abs/2604.26622v1) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to ACL 2026 (Main Conference) |
 | [GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs](https://arxiv.org/abs/2604.23626) | 📈 Highly cited | Nanyang Technological University |
 | [Dual-Cluster Memory Agent: Resolving Multi-Paradigm Ambiguity in Optimization Problem Solving](https://arxiv.org/abs/2604.20183) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
-| [Memory-Augmented LLM-based Multi-Agent System for Automated Feature Generation on Tabular Data](https://arxiv.org/abs/2604.20261) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
-### [Tools as Continuous Flow for Evolving Agentic Reasoning](https://arxiv.org/abs/2605.07339v2)
+### [Tools as Continuous Flow for Evolving Agentic Reasoning](https://arxiv.org/abs/2605.07339v3)
 
 - **Authors:** Tairan Huang, Siyu Shang, Qiang Chen, Xiu Su, Yi Chen
 - **Published:** 2026-05-08
-- **Priority:** —
-- **Venue:** arXiv.org
+- **Priority:** 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
+- **Venue:** NeurIPS 2026
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2605.07339v2) · [PDF](https://arxiv.org/pdf/2605.07339v2)
+- **Links:** [Paper](https://arxiv.org/abs/2605.07339v3) · [PDF](https://arxiv.org/pdf/2605.07339v3)
 
 Large Language Models (LLMs) have demonstrated remarkable capabilities in orchestrating tools for reasoning tasks. However, existing methods rely on a step-wise paradigm that lacks a global perspective, which causes error accumulation over long horizons and restricts generalization to unseen tools. To overcome these limitations, we propose Tools as Continuous Flow for Evolving Agentic Reasoning (FlowAgent), which reconceptualizes tool chaining as continuous trajectory generation within a semantic space. To systematically evaluate this paradigm, we introduce the first plan-level closed-loop benchmark dedicated to plan-level agentic reasoning in dynamic real-world environments. Specifically, the proposed FlowAgent leverages conditional flow matching to generate continuous latent trajectories, providing a global planning perspective to ensure coherent and robust tool execution. Theoretically, we establish formal bounds on utility convergence and prove that our continuous formulation fundamentally guarantees robust generalization and error attenuation. Empirical evaluations show that FlowAgent achieves superior robustness and adaptability in long-horizon reasoning tasks.
 
@@ -286,6 +286,18 @@ LLM agents that operate over long context depend on external memory to accumulat
 
 Large Language Model (LLM)-based agents have fundamentally reshaped artificial intelligence by integrating external tools and planning capabilities. While memory mechanisms have emerged as the architectural cornerstone of these systems, current research remains fragmented, oscillating between operating system engineering and cognitive science. This theoretical divide prevents a unified view of technological synthesis and a coherent evolutionary perspective. To bridge this gap, this survey proposes a novel evolutionary framework for LLM agent memory mechanisms, formalizing the development process into three stages: Storage (trajectory preservation), Reflection (trajectory refinement), and Experience (trajectory abstraction). We first formally define these three stages before analyzing the three core drivers of this evolution: the necessity for long-range consistency, the challenges in dynamic environments, and the ultimate goal of continual learning. Furthermore, we specifically explore two transformative mechanisms in the frontier Experience stage: proactive exploration and cross-trajectory abstraction. By synthesizing these disparate views, this work offers robust design principles and a clear roadmap for the development of next-generation LLM agents.
 
+### [Tree-based Credit Assignment for Multi-Agent Memory System](https://arxiv.org/abs/2605.04811v1)
+
+- **Authors:** Marina Mao, Alexandr Liu, Pengbo Li, Siheng Li, Bo Zhou, Xiang Wang
+- **Published:** 2026-05-06
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2605.04811v1) · [PDF](https://arxiv.org/pdf/2605.04811v1)
+
+Memory systems are widely adopted to enhance LLMs for long-horizon tasks, and are commonly organized as multi-agent pipelines with memory building, summarizing, and retrieval agents. To empower this system, existing RL-based methods either apply final downstream task rewards (e.g., QA accuracy) for all agents uniformly, which are coarse and ambiguous, or design task-specific rewards for agents on different subtasks, which require costly annotations (e.g., key evidence) and are difficult to define reliably. To address these limitations, we propose Tree-based Credit Assignment for Multi-Agent Memory Systems (TreeMem), which derives agent-specific credit from the final reward without task-specific annotations. Specifically, TreeMem extends the multi-agent pipeline (builder--summarizer--retrieval) into a tree structure, where each agent's outputs are expanded into multiple subsequent branches. The contribution of each agent is estimated via Monte Carlo averaging over its subsequent branches, capturing how intermediate agent actions may influence the final reward. This converts the coarse final reward into agent-specific optimization signals. These signals are then used to update all agent policies simultaneously, helping heterogeneous agents specialize effectively. Experiments on long-horizon benchmarks show that TreeMem improves memory system performance over strong baselines, validating the effectiveness of tree-structured credit assignment for the multi-agent memory system.
+
 ### [Storage Is Not Memory: A Retrieval-Centered Architecture for Agent Recall](https://arxiv.org/abs/2605.04897)
 
 - **Authors:** Adler, Joshua, Zehavi, Guy
@@ -298,18 +310,6 @@ Large Language Model (LLM)-based agents have fundamentally reshaped artificial i
 
 Extraction at ingestion is the wrong primitive for agent memory: content discarded before the query is known cannot be recovered at retrieval time. We propose True Memory, a six-layer architecture that shifts the center of the system from a storage schema to a multi-stage retrieval pipeline operating over events preserved verbatim. The full system runs as a single SQLite file on commodity CPU with no external database, vector index, graph store, or GPU. On LoCoMo (1,540 questions across 10 multi-session conversations), True Memory Pro reaches 93.0% accuracy (3-run mean) against 61.4% for Mem0, 65.4% for Supermemory, approximately 71% for Zep, and 94.5% for EverMemOS under a matched gpt-4.1-mini answer model. On LongMemEval (500 questions), True Memory Pro reaches 87.8% (3-run mean). On BEAM-1M (700 questions at the 1-million-token scale), True Memory Pro reaches 76.6% (3-run mean), above the prior published result of 73.9% for Hindsight. A 56-configuration ablation shows a 1.3-percentage-point spread within the top-performing configuration family.
 
-### [Tree-based Credit Assignment for Multi-Agent Memory System](https://arxiv.org/abs/2605.04811)
-
-- **Authors:** Mao, Marina, Liu, Alexandr, Li, Pengbo, Li, Siheng, Zhou, Bo, Wang, Xiang
-- **Published:** 2026-05-06
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.MA
-- **Links:** [Paper](https://arxiv.org/abs/2605.04811) · [PDF](https://arxiv.org/pdf/2605.04811)
-
-Memory systems are widely adopted to enhance LLMs for long-horizon tasks, and are commonly organized as multi-agent pipelines with memory building, summarizing, and retrieval agents. To empower this system, existing RL-based methods either apply final downstream task rewards (e.g., QA accuracy) for all agents uniformly, which are coarse and ambiguous, or design task-specific rewards for agents on different subtasks, which require costly annotations (e.g., key evidence) and are difficult to define reliably. To address these limitations, we propose Tree-based Credit Assignment for Multi-Agent Memory Systems (TreeMem), which derives agent-specific credit from the final reward without task-specific annotations. Specifically, TreeMem extends the multi-agent pipeline (builder--summarizer--retrieval) into a tree structure, where each agent's outputs are expanded into multiple subsequent branches. The contribution of each agent is estimated via Monte Carlo averaging over its subsequent branches, capturing how intermediate agent actions may influence the final reward. This converts the coarse final reward into agent-specific optimization signals. These signals are then used to update all agent policies simultaneously, helping heterogeneous agents specialize effectively. Experiments on long-horizon benchmarks show that TreeMem improves memory system performance over strong baselines, validating the effectiveness of tree-structured credit assignment for the multi-agent memory system.
-
 ### [What Happens Inside Agent Memory? Circuit Analysis from Emergence to Diagnosis](https://arxiv.org/abs/2605.03354v3)
 
 - **Authors:** Xutao Mao, Jinman Zhao, Gerald Penn, Cong Wang
@@ -321,6 +321,18 @@ Memory systems are widely adopted to enhance LLMs for long-horizon tasks, and ar
 - **Links:** [Paper](https://arxiv.org/abs/2605.03354v3) · [PDF](https://arxiv.org/pdf/2605.03354v3)
 
 Agent memory failures are silent: an LLM-based agent can produce a fluent response even when it fails to extract, retain, or retrieve the information needed across sessions. The write-manage-read loop describes the external pipeline of these systems but leaves open which internal computations implement each stage. We trace feature circuits across the Qwen-3 family (0.6B--14B), two memory frameworks (mem0, A-MEM), and a matched Gemma-3 replication, reporting two mechanistic findings plus one deliverable. First, under mem0, control is detectable before content. Routing circuitry is causally active at 0.6B, while content circuitry produces no detectable signal until 4B. Gemma-3 reproduces the same order at 1B and 4B. Small models therefore route memory decisions before they can reliably extract or ground the underlying facts. Second, the shared hub is recruited, not created. Write and Read converge on a late-layer hub that already exists in the base model as a context-grounding substrate, on which memory framing recruits a memory-specific functional direction. The hub and the early routing circuit carry over to A-MEM, indicating that these computations belong to the base model rather than to a particular interface. Building on this circuit structure, we develop an unsupervised stage-level diagnostic that localizes silent failures to the responsible operation at 76.2% accuracy. It outperforms a strong LLM trace judge by 3.1 points as well as a supervised hidden-state probe by 8.8 points. Together, these results establish circuit-level signatures as a practical handle for monitoring agent memory and guiding its structural design.
+
+### [MemFlow: Intent-Driven Memory Orchestration for Small Language Model Agents](https://arxiv.org/abs/2605.03312v1)
+
+- **Authors:** Jiayi Chen, Yingcong Li, Guiling Wang
+- **Published:** 2026-05-05
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2605.03312v1) · [PDF](https://arxiv.org/pdf/2605.03312v1)
+
+Modern language agents must operate over long-horizon, multi-turn histories, yet deploying such agents with Small Language Models (SLMs) remains fundamentally difficult. Full-context prompting causes context overflow, flat retrieval exposes the model to noisy evidence, and open-ended agentic loops are unreliable under limited reasoning capacity. We argue that a substantial portion of SLM memory failure arises from mismatched memory operations: different query types demand categorically different retrieval strategies, evidence transformations, and context budgets that SLMs cannot reliably self-orchestrate through open-ended reasoning. We introduce MemFlow, a training-free memory orchestration framework that externalizes memory planning from the SLM. A Router Agent classifies each query by intent and dispatches it to the Memory Agent, which executes one of three specialized tiers (Profile Lookup, Targeted Retrieval, or Deep Reasoning) and assembles the resulting evidence under a dynamic, tier-aware token budget. An Answer Agent then generates a response from this compact context, and a Validator Agent optionally retries with a heavier memory tier when the response is not supported by the provided evidence. This route-then-compile design avoids tool-selection hallucination and reasoning loops while keeping the answer context compact. Evaluated on a frozen Qwen3-1.7B backbone across long-horizon memory benchmarks - LongMemEval, LoCoMo, and LongBench - MemFlow improves accuracy by nearly 2x over full-context SLM baselines. These results suggest that structured intent routing and deterministic evidence preparation can make limited-capacity models substantially more effective in resource-constrained long-horizon agents.
 
 ### [ScrapMem: A Bio-inspired Framework for On-device Personalized Agent Memory via Optical Forgetting](https://arxiv.org/abs/2605.03804)
 
@@ -357,18 +369,6 @@ Long-running autonomous AI agents suffer from a well-documented memory coherence
 - **Links:** [Paper](https://arxiv.org/abs/2605.03482) · [PDF](https://arxiv.org/pdf/2605.03482)
 
 Persistent external memory enables LLM agents to maintain context across sessions, yet its security properties remain formally uncharacterized. We formalize memory poisoning attacks on retrieval-augmented agents as a Stackelberg game with a unified evaluation framework spanning three attack classes with escalating access assumptions. Correcting an evaluation protocol inconsistency in the triggered-query specification of Chen et al. (2024), we show faithful evaluation increases measured attack success by $4\times$ (ASR-R: $0.25 \to 1.00$). Our primary contribution is MEMSAD (Semantic Anomaly Detection), a calibration-based defense grounded in a gradient coupling theorem: under encoder regularity, the anomaly score gradient and the retrieval objective gradient are provably identical, so any continuous perturbation that reduces detection risk necessarily degrades retrieval rank. This coupling yields a certified detection radius guaranteeing correct classification regardless of adversary strategy. We prove minimax optimality via Le Cam's method, showing any threshold detector requires $\Omega(1/\rho^2)$ calibration samples and MEMSAD achieves this up to $\log(1/\delta)$ factors. We further derive online regret bounds for rolling calibration at rate $O(\sigma^{2/3}\Delta^{1/3})$, and formally characterize a discrete synonym-invariance loophole that marks the boundary of what continuous-space defenses can guarantee. Experiments on a $3 \times 5$ attack-defense matrix with bootstrap confidence intervals, Bonferroni-corrected hypothesis tests, and Clopper-Pearson validation ($n=1{,}000$) confirm: composite defenses achieve TPR $= 1.00$, FPR $= 0.00$ across all attacks, while synonym substitution evades detection at $\Delta$ ASR-R $\approx 0$, exposing a gap existing embedding-based defenses cannot close.
-
-### [MemFlow: Intent-Driven Memory Orchestration for Small Language Model Agents](https://arxiv.org/abs/2605.03312)
-
-- **Authors:** Chen, Jiayi, Li, Yingcong, Wang, Guiling
-- **Published:** 2026-05-05
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.MA
-- **Links:** [Paper](https://arxiv.org/abs/2605.03312) · [PDF](https://arxiv.org/pdf/2605.03312)
-
-Modern language agents must operate over long-horizon, multi-turn histories, yet deploying such agents with Small Language Models (SLMs) remains fundamentally difficult. Full-context prompting causes context overflow, flat retrieval exposes the model to noisy evidence, and open-ended agentic loops are unreliable under limited reasoning capacity. We argue that a substantial portion of SLM memory failure arises from mismatched memory operations: different query types demand categorically different retrieval strategies, evidence transformations, and context budgets that SLMs cannot reliably self-orchestrate through open-ended reasoning. We introduce MemFlow, a training-free memory orchestration framework that externalizes memory planning from the SLM. A Router Agent classifies each query by intent and dispatches it to the Memory Agent, which executes one of three specialized tiers (Profile Lookup, Targeted Retrieval, or Deep Reasoning) and assembles the resulting evidence under a dynamic, tier-aware token budget. An Answer Agent then generates a response from this compact context, and a Validator Agent optionally retries with a heavier memory tier when the response is not supported by the provided evidence. This route-then-compile design avoids tool-selection hallucination and reasoning loops while keeping the answer context compact. Evaluated on a frozen Qwen3-1.7B backbone across long-horizon memory benchmarks - LongMemEval, LoCoMo, and LongBench - MemFlow improves accuracy by nearly 2x over full-context SLM baselines. These results suggest that structured intent routing and deterministic evidence preparation can make limited-capacity models substantially more effective in resource-constrained long-horizon agents.
 
 ### [Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory](https://arxiv.org/abs/2605.03228v2)
 
@@ -442,6 +442,18 @@ Persistent AI memory is often reduced to a retrieval problem: store prior intera
 
 Large language model (LLM)-based coding agents increasingly rely on external memory to reuse prior debugging experience, repair traces, and repository-local operational knowledge. However, retrieved memory is useful only when the current failure is genuinely compatible with a previous one; superficial similarity in stack traces, terminal errors, paths, or configuration symptoms can lead to unsafe memory injection. This paper reframes issue-memory use as a selective, risk-sensitive control problem rather than a pure top-k retrieval problem. We introduce RSCB-MC, a risk-sensitive contextual bandit memory controller that decides whether an agent should use no memory, inject the top resolution, summarize multiple candidates, perform high-precision or high-recall retrieval, abstain, or ask for feedback. The system stores reusable issue knowledge through a pattern-variant-episode schema and converts retrieval evidence into a fixed 16-feature contextual state capturing relevance, uncertainty, structural compatibility, feedback history, false-positive risk, latency, and token cost. Its reward design penalizes false-positive memory injection more strongly than missed reuse, making non-injection and abstention first-class safety actions. In deterministic smoke-scale artifacts, RSCB-MC obtains the strongest non-oracle offline replay success rate, 62.5%, while maintaining a 0.0% false-positive rate. In a bounded 200-case hot-path validation, it reaches 60.5% proxy success with 0.0% false positives and a 331.466 microseconds p95 decision latency. The results show that, for coding-agent memory, the key question is not only which memory is most similar, but whether any retrieved memory is safe enough to influence the debugging trajectory.
 
+### [OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory](https://arxiv.org/abs/2604.26622v1)
+
+- **Authors:** Jinze Li, Yang Zhang, Xin Yang, Jiayi Qu, Jinfeng Xu, Shuo Yang, Junhua Ding, Edith Cheuk-Han Ngai
+- **Published:** 2026-04-29
+- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2604.26622v1) · [PDF](https://arxiv.org/pdf/2604.26622v1)
+
+Autonomous LLM agents increasingly operate in long-horizon, interactive settings where success depends on reusing experience accumulated over extended histories. However, existing agent memory systems are fundamentally constrained by text-context budgets: storing or revisiting raw trajectories is prohibitively token-expensive, while summarization and text-only retrieval trade token savings for information loss and fragmented evidence. To address this limitation, we propose Optical Context Retrieval Memory (OCR-Memory), a memory framework that leverages the visual modality as a high-density representation of agent experience, enabling retention of arbitrarily long histories with minimal prompt overhead at retrieval time. Specifically, OCR-Memory renders historical trajectories into images annotated with unique visual identifiers. OCR-Memory retrieves stored experience via a \emph{locate-and-transcribe} paradigm that selects relevant regions through visual anchors and retrieves the corresponding verbatim text, avoiding free-form generation and reducing hallucination. Experiments on long-horizon agent benchmarks show consistent gains under strict context limits, demonstrating that optical encoding increases effective memory capacity while preserving faithful evidence recovery.
+
 ### [Hierarchical Long-Term Semantic Memory for LinkedIn's Hiring Agent](https://arxiv.org/abs/2604.26197)
 
 - **Authors:** Xu, Zhentao, Zhang, Shangjin, Poyraz, Emir, Li, Yvonne, Jin, Ye, Lu, Xie, Gu, Xiaoyang, Ramgopal, Karthik, Bodigutla, Praveen Kumar, Wang, Xiaofeng
@@ -478,18 +490,6 @@ As Large Language Model (LLM) agents transition from single-session tools to per
 
 Memory-augmented LLM agents offer an appealing shortcut to continual learning: rather than updating model parameters, they accumulate experience in external memory, seemingly sidestepping the stability-plasticity dilemma of parametric learning. We show that this challenge does not disappear but resurfaces at the memory level. Under a limited context window, old and new experiences compete during retrieval, relocating the continual-learning bottleneck from parameter updates to memory access. To study this phenomenon, we introduce a (k,v) framework that disentangles two fundamental design axes of external memory: how experience is represented and how it is organized for retrieval. Across sequential-task experiments in ALFWorld and BabyAI, we find that abstract procedural memories transfer more reliably than detailed trajectories, while negative transfer disproportionately harms the hard cases. Moreover, finer-grained memory organization is not universally beneficial: designs that yield strong forward transfer can simultaneously induce severe forgetting. Together, these results reveal that external memory does not resolve the continual-learning problem; it reshapes it into a problem of memory representation and retrieval design.
 
-### [OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory](https://arxiv.org/abs/2604.26622)
-
-- **Authors:** Li, Jinze, Zhang, Yang, Yang, Xin, Qu, Jiayi, Xu, Jinfeng, Yang, Shuo, Ding, Junhua, Ngai, Edith Cheuk-Han
-- **Published:** 2026-04-29
-- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
-- **Venue:** Annual Meeting of the Association for Computational Linguistics
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2604.26622) · [PDF](https://arxiv.org/pdf/2604.26622)
-
-Autonomous LLM agents increasingly operate in long-horizon, interactive settings where success depends on reusing experience accumulated over extended histories. However, existing agent memory systems are fundamentally constrained by text-context budgets: storing or revisiting raw trajectories is prohibitively token-expensive, while summarization and text-only retrieval trade token savings for information loss and fragmented evidence. To address this limitation, we propose Optical Context Retrieval Memory (OCR-Memory), a memory framework that leverages the visual modality as a high-density representation of agent experience, enabling retention of arbitrarily long histories with minimal prompt overhead at retrieval time. Specifically, OCR-Memory renders historical trajectories into images annotated with unique visual identifiers. OCR-Memory retrieves stored experience via a \emph{locate-and-transcribe} paradigm that selects relevant regions through visual anchors and retrieves the corresponding verbatim text, avoiding free-form generation and reducing hallucination. Experiments on long-horizon agent benchmarks show consistent gains under strict context limits, demonstrating that optical encoding increases effective memory capacity while preserving faithful evidence recovery.
-
 ### [GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs](https://arxiv.org/abs/2604.23626)
 
 - **Authors:** Feng, Tao, Zhang, Haozhen, Lei, Zijie, Han, Peixuan, You, Jiaxuan
@@ -502,29 +502,41 @@ Autonomous LLM agents increasingly operate in long-horizon, interactive settings
 
 LLM routing has achieved promising results in integrating the strengths of diverse models while balancing efficiency and performance. However, to support more realistic and challenging applications, routing must extend into agentic LLM settings, where task planning, multi-round cooperation among heterogeneous agents, and memory utilization are indispensable. To address this gap, we propose GraphPlanner, a heterogeneous graph memory-augmented agentic router for multi-agent LLMs that generates routing workflows for each query and supports both inductive and transductive inference. GraphPlanner formulates workflow generation as a Markov Decision Process (MDP), where at each step it selects both the LLM backbone and the agent role, including Planner, Executor, and Summarizer. By leveraging a heterogeneous graph, denoted as GARNet, to capture interaction memories among queries, agents, and responses, GraphPlanner integrates historical memory and workflow memory into richer state representations. The entire pipeline is optimized with reinforcement learning, jointly improving task-specific performance and computational efficiency. We evaluate GraphPlanner across 14 diverse LLM tasks and demonstrate that: (1) GraphPlanner outperforms strong single-round and multi-round routers, improving accuracy by up to 9.3% while reducing GPU cost from 186.26 GiB to 1.04 GiB; (2) GraphPlanner generalizes robustly to unseen tasks and LLMs, exhibiting strong zero-shot capabilities; and (3) GraphPlanner effectively leverages historical memories, supporting both inductive and transductive inference for more adaptive routing. Our code for GraphPlanner is released at https://github.com/ulab-uiuc/GraphPlanner.
 
-### [ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents](https://arxiv.org/abs/2604.23069)
+### [ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents](https://arxiv.org/abs/2604.23069v2)
 
-- **Authors:** Wu, Yating, Zhang, Yuhao, Ghosh, Sayan, Basu, Sourya, Deoras, Anoop, Huan, Jun, Gupta, Gaurav
+- **Authors:** Yating Wu, Yuhao Zhang, Sayan Ghosh, Sourya Basu, Anoop Deoras, Jun Huan, Gaurav Gupta
 - **Published:** 2026-04-24
 - **Priority:** —
 - **Venue:** arXiv.org
 - **Affiliations:** University of Texas at Austin
 - **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2604.23069) · [PDF](https://arxiv.org/pdf/2604.23069)
+- **Links:** [Paper](https://arxiv.org/abs/2604.23069v2) · [PDF](https://arxiv.org/pdf/2604.23069v2)
 
-Large language model (LLM) agents often struggle in long-context interactions. As the agent accumulates more interaction history, context management approaches such as sliding window and prompt compression may omit earlier structured information that later steps rely on. Recent retrieval-based memory systems surface relevant content but still overlook the causal and logical structure needed for multi-step reasoning. We introduce ContextWeaver, a selective and dependency-structured memory framework that organizes an agent's interaction trace into a graph of reasoning steps and selects the relevant context for future actions. Unlike prior context management approaches, ContextWeaver supports: (1) dependency-based construction and traversal that link each step to the earlier steps it relies on; (2) compact dependency summarization that condenses root-to-step reasoning paths into reusable units; and (3) a lightweight validation layer that incorporates execution feedback. On the SWE-Bench Verified and Lite benchmarks, ContextWeaver improves performance over a sliding-window baseline in pass@1, while reducing reasoning steps and token usage. Our observations suggest that modeling logical dependencies provides a stable and scalable memory mechanism for LLM agents that use tools.
+Large language model (LLM) agents often struggle in long-context interactions. As the history grows, sliding windows and prompt compression may drop earlier information that later steps rely on. Retrieval-based memory systems surface relevant content but still overlook the causal and logical dependencies between steps. We introduce ContextWeaver, a selective and dependency-structured memory framework that organizes an agent's interaction trace into a graph of reasoning steps and selects the relevant context for future actions. ContextWeaver supports (1) dependency-based construction and traversal that link each step to the earlier steps it relies on; (2) compact dependency summaries of the reasoning paths; and (3) a lightweight validation layer that incorporates execution feedback. On five software-engineering and terminal benchmarks with a fixed budget per task, ContextWeaver improves the resolve rate over a sliding-window baseline on all five, with a significant gain when pooled across benchmarks, while using 13-18% fewer agent steps. It also performs favorably against alternative context-management approaches, with the largest gains on long-horizon repository tasks. On SWE-Bench Pro, ContextWeaver raises the resolve rate from 66.5% to 72.6%, with significant improvements across all three model backbones. The improvement also holds when the sliding window's budget is raised to cover the summary cost.
 
-### [Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents](https://arxiv.org/abs/2604.22085)
+### [Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents](https://arxiv.org/abs/2604.22085v1)
 
-- **Authors:** Abtahi, Seyed Moein, Rahnema, Rasa, Patel, Hetkumar, Patel, Neel, Fekri, Majid, Khani, Tara
+- **Authors:** Seyed Moein Abtahi, Rasa Rahnema, Hetkumar Patel, Neel Patel, Majid Fekri, Tara Khani
 - **Published:** 2026-04-23
 - **Priority:** —
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2604.22085) · [PDF](https://arxiv.org/pdf/2604.22085)
+- **Links:** [Paper](https://arxiv.org/abs/2604.22085v1) · [PDF](https://arxiv.org/pdf/2604.22085v1)
 
 The transition from stateless language model inference to persistent, multi session autonomous agents has revealed memory to be a primary architectural bottleneck in the deployment of production grade agentic systems. Existing methodologies largely depend on hybrid semantic graph architectures, which impose substantial computational overhead during both ingestion and retrieval. These systems typically require large language model mediated entity extraction, explicit graph schema maintenance, and multi query retrieval pipelines. This paper introduces Memanto, a universal memory layer for agentic artificial intelligence that challenges the prevailing assumption that knowledge graph complexity is necessary to achieve high fidelity agent memory. Memanto integrates a typed semantic memory schema comprising thirteen predefined memory categories, an automated conflict resolution mechanism, and temporal versioning. These components are enabled by Moorcheh's Information Theoretic Search engine, a no indexing semantic database that provides deterministic retrieval within sub ninety millisecond latency while eliminating ingestion delay. Through systematic benchmarking on the LongMemEval and LoCoMo evaluation suites, Memanto achieves state of the art accuracy scores of 89.8 percent and 87.1 percent respectively. These results surpass all evaluated hybrid graph and vector based systems while requiring only a single retrieval query, incurring no ingestion cost, and maintaining substantially lower operational complexity. A five stage progressive ablation study is presented to quantify the contribution of each architectural component, followed by a discussion of the implications for scalable deployment of agentic memory systems.
+
+### [Stateless Decision Memory for Enterprise AI Agents](https://arxiv.org/abs/2604.20158v1)
+
+- **Authors:** Vasundra Srinivasan
+- **Published:** 2026-04-22
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2604.20158v1) · [PDF](https://arxiv.org/pdf/2604.20158v1) · [Code](https://github.com/vasundras/stateless-decision-memory-enterprise-ai-agents)
+
+Enterprise deployment of long-horizon decision agents in regulated domains (underwriting, claims adjudication, tax examination) is dominated by retrieval-augmented pipelines despite a decade of increasingly sophisticated stateful memory architectures. We argue this reflects a hidden requirement: regulated deployment is load-bearing on four systems properties (deterministic replay, auditable rationale, multi-tenant isolation, statelessness for horizontal scale), and stateful architectures violate them by construction. We propose Deterministic Projection Memory (DPM): an append-only event log plus one task-conditioned projection at decision time. On ten regulated decisioning cases at three memory budgets, DPM matches summarization-based memory at generous budgets and substantially outperforms it when the budget binds: at a 20x compression ratio, DPM improves factual precision by +0.52 (Cohen's h=1.17, p=0.0014) and reasoning coherence by +0.53 (h=1.13, p=0.0034), paired permutation, n=10. DPM is additionally 7-15x faster at binding budgets, making one LLM call at decision time instead of N. A determinism study of 10 replays per case at temperature zero shows both architectures inherit residual API-level nondeterminism, but the asymmetry is structural: DPM exposes one nondeterministic call; summarization exposes N compounding calls. The audit surface follows the same one-versus-N pattern: DPM logs two LLM calls per decision while summarization logs 83-97 on LongHorizon-Bench. We conclude with TAMS, a practitioner heuristic for architecture selection, and a failure analysis of stateful memory under enterprise operating conditions. The contribution is the argument that statelessness is the load-bearing property explaining enterprise's preference for weaker but replayable retrieval pipelines, and that DPM demonstrates this property is attainable without the decisioning penalty retrieval pays.
 
 ### [Ask Only When Needed: Proactive Retrieval from Memory and Skills for Experience-Driven Lifelong Agents](https://arxiv.org/abs/2604.20572)
 
@@ -573,18 +585,6 @@ For LLM agents, memory management critically impacts efficiency, quality, and se
 - **Links:** [Paper](https://arxiv.org/abs/2604.20582) · [PDF](https://arxiv.org/pdf/2604.20582)
 
 We study emergent social dynamics in LLM agents playing The Resistance: Avalon, a hidden-role deception game. Unlike prior work on single-game performance, our agents play repeated games while retaining memory of previous interactions, including who played which roles and how they behaved, enabling us to study how social dynamics evolve. Across 188 games, two key phenomena emerge. First, reputation dynamics emerge organically when agents retain cross-game memory: agents reference past behavior in statements like "I am wary of repeating last game's mistake of over-trusting early success." These reputations are role-conditional: the same agent is described as "straightforward" when playing good but "subtle" when playing evil, and high-reputation players receive 46% more team inclusions. Second, higher reasoning effort supports more strategic deception: evil players more often pass early missions to build trust before sabotaging later ones, 75% in high-effort games vs 36% in low-effort games. Together, these findings show that repeated interaction with memory gives rise to measurable reputation and deception dynamics among LLM agents.
-
-### [Memory-Augmented LLM-based Multi-Agent System for Automated Feature Generation on Tabular Data](https://arxiv.org/abs/2604.20261)
-
-- **Authors:** Dong, Fengxian, Zheng, Zhi, Han, Xiao, Chen, Wei, Ruan, Jingqing, Xu, Tong, Chen, Yong, Chen, Enhong
-- **Published:** 2026-04-22
-- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
-- **Venue:** Annual Meeting of the Association for Computational Linguistics
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2604.20261) · [PDF](https://arxiv.org/pdf/2604.20261) · [Code](https://github.com/fxdong24/MALMAS)
-
-Automated feature generation extracts informative features from raw tabular data without manual intervention and is crucial for accurate, generalizable machine learning. Traditional methods rely on predefined operator libraries and cannot leverage task semantics, limiting their ability to produce diverse, high-value features for complex tasks. Recent Large Language Model (LLM)-based approaches introduce richer semantic signals, but still suffer from a restricted feature space due to fixed generation patterns and from the absence of feedback from the learning objective. To address these challenges, we propose a Memory-Augmented LLM-based Multi-Agent System (\textbf{MALMAS}) for automated feature generation. MALMAS decomposes the generation process into agents with distinct responsibilities, and a Router Agent activates an appropriate subset of agents per iteration, further broadening exploration of the feature space. We further integrate a memory module comprising procedural memory, feedback memory, and conceptual memory, enabling iterative refinement that adaptively guides subsequent feature generation and improves feature quality and diversity. Extensive experiments on multiple public datasets against state-of-the-art baselines demonstrate the effectiveness of our approach. The code is available at https://github.com/fxdong24/MALMAS
 
 ## LLM Continual Training & Continual Learning
 
@@ -757,3 +757,125 @@ Text-based role-playing models can imitate character styles, but often fail to c
 - **Links:** [Paper](https://arxiv.org/abs/2605.02320v3) · [PDF](https://arxiv.org/pdf/2605.02320v3)
 
 Proximal Policy Optimization (PPO) dominates reinforcement learning and LLM alignment, yet its hard-clipping mechanism and unconstrained alternatives (e.g., SPO) sit at two extremes of a stability-efficiency dilemma. We argue that this dilemma is best understood dynamically: a surrogate objective is a feedback law on the probability ratio, and its clipping/penalty shape defines a gain field that drives the update dynamics. PPO's clip induces a dead zone (zero feedback outside the trust region), leaving the policy to drift open-loop under momentum; SPO's quadratic penalty induces an unbounded, linearly growing gain that stiffens the dynamics and destabilizes under aggressive step sizes. Guided by this view, we derive Anchored Neighborhood Optimization (ANO), which designs the gain field directly: a $C^\infty$ shaping kernel that anchors the identity map at $r{=}1$, peaks exactly at a prescribed trust-region boundary $1{+}ε$, bounds the push on severely off-policy samples by a tunable $κ_{+}$, and exerts a bounded, redescending pull of tunable depth $κ_{-}$ on extreme outliers. The three hyperparameters have decoupled roles, and all internal constants are solved in closed form. Empirically, ANO ranks first on both Atari (40 games) and MuJoCo in IQM and Median of normalized scores. While the runner-up differs across domains (PAPO on Atari, SPO on MuJoCo), ANO is the only method consistently at the top. Under a learning-rate stress test ($3\times10^{-4}\!\to\!10^{-3}$), ANO degrades by only $0.9\%$ whereas PPO collapses by $54.5\%$, and the stressed ANO still outperforms PPO and PAPO at their best-tuned learning rates.
+
+## Long-Horizon Task Agents
+
+### [Tools as Continuous Flow for Evolving Agentic Reasoning](https://arxiv.org/abs/2605.07339v3)
+
+- **Authors:** Tairan Huang, Siyu Shang, Qiang Chen, Xiu Su, Yi Chen
+- **Published:** 2026-05-08
+- **Priority:** 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
+- **Venue:** NeurIPS 2026
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2605.07339v3) · [PDF](https://arxiv.org/pdf/2605.07339v3)
+
+Large Language Models (LLMs) have demonstrated remarkable capabilities in orchestrating tools for reasoning tasks. However, existing methods rely on a step-wise paradigm that lacks a global perspective, which causes error accumulation over long horizons and restricts generalization to unseen tools. To overcome these limitations, we propose Tools as Continuous Flow for Evolving Agentic Reasoning (FlowAgent), which reconceptualizes tool chaining as continuous trajectory generation within a semantic space. To systematically evaluate this paradigm, we introduce the first plan-level closed-loop benchmark dedicated to plan-level agentic reasoning in dynamic real-world environments. Specifically, the proposed FlowAgent leverages conditional flow matching to generate continuous latent trajectories, providing a global planning perspective to ensure coherent and robust tool execution. Theoretically, we establish formal bounds on utility convergence and prove that our continuous formulation fundamentally guarantees robust generalization and error attenuation. Empirical evaluations show that FlowAgent achieves superior robustness and adaptability in long-horizon reasoning tasks.
+
+### [MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs](https://arxiv.org/abs/2605.08374)
+
+- **Authors:** Liao, Junwei, Shi, Haoting, Zhou, Ruiwen, Wang, Jiaqian, Zhang, Shengtao, Zhang, Wei, Wen, Ying, Li, Zhiyu, Xiong, Feiyu, Tang, Bo, Zhang, Weinan, Wen, Muning
+- **Published:** 2026-05-08
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** National University of Singapore
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2605.08374) · [PDF](https://arxiv.org/pdf/2605.08374) · [Code](https://github.com/jwliao-ai/MemQ)
+
+Episodic memory allows LLM agents to accumulate and retrieve experience, but current methods treat each memory independently, i.e., evaluating retrieval quality in isolation without accounting for the dependency chains through which memories enable the creation of future memories. We introduce MemQ, which applies TD($\lambda$) eligibility traces to memory Q-values, propagating credit backward through a provenance DAG that records which memories were retrieved when each new memory was created. Credit weight decays as $(\gamma\lambda)^d$ with DAG depth $d$, replacing temporal distance with structural proximity. We formalize the setting as an Exogenous-Context MDP, whose factored transition decouples the exogenous task stream from the endogenous memory store. Across six benchmarks, spanning OS interaction, function calling, code generation, multimodal reasoning, embodied reasoning, and expert-level QA, MemQ achieves the highest success rate on all six in generalization evaluation and runtime learning, with gains largest on multi-step tasks that produce deep and relevant provenance chains (up to +5.7~pp) and smallest on single-step classification (+0.77~pp) where single-step updates already suffice. We further study how $\gamma$ and $\lambda$ interact with the EC-MDP structure, providing principled guidance for parameter selection and future research. Code is available at https://github.com/jwliao-ai/MemQ.
+
+### [Tree-based Credit Assignment for Multi-Agent Memory System](https://arxiv.org/abs/2605.04811v1)
+
+- **Authors:** Marina Mao, Alexandr Liu, Pengbo Li, Siheng Li, Bo Zhou, Xiang Wang
+- **Published:** 2026-05-06
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2605.04811v1) · [PDF](https://arxiv.org/pdf/2605.04811v1)
+
+Memory systems are widely adopted to enhance LLMs for long-horizon tasks, and are commonly organized as multi-agent pipelines with memory building, summarizing, and retrieval agents. To empower this system, existing RL-based methods either apply final downstream task rewards (e.g., QA accuracy) for all agents uniformly, which are coarse and ambiguous, or design task-specific rewards for agents on different subtasks, which require costly annotations (e.g., key evidence) and are difficult to define reliably. To address these limitations, we propose Tree-based Credit Assignment for Multi-Agent Memory Systems (TreeMem), which derives agent-specific credit from the final reward without task-specific annotations. Specifically, TreeMem extends the multi-agent pipeline (builder--summarizer--retrieval) into a tree structure, where each agent's outputs are expanded into multiple subsequent branches. The contribution of each agent is estimated via Monte Carlo averaging over its subsequent branches, capturing how intermediate agent actions may influence the final reward. This converts the coarse final reward into agent-specific optimization signals. These signals are then used to update all agent policies simultaneously, helping heterogeneous agents specialize effectively. Experiments on long-horizon benchmarks show that TreeMem improves memory system performance over strong baselines, validating the effectiveness of tree-structured credit assignment for the multi-agent memory system.
+
+### [MemFlow: Intent-Driven Memory Orchestration for Small Language Model Agents](https://arxiv.org/abs/2605.03312v1)
+
+- **Authors:** Jiayi Chen, Yingcong Li, Guiling Wang
+- **Published:** 2026-05-05
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2605.03312v1) · [PDF](https://arxiv.org/pdf/2605.03312v1)
+
+Modern language agents must operate over long-horizon, multi-turn histories, yet deploying such agents with Small Language Models (SLMs) remains fundamentally difficult. Full-context prompting causes context overflow, flat retrieval exposes the model to noisy evidence, and open-ended agentic loops are unreliable under limited reasoning capacity. We argue that a substantial portion of SLM memory failure arises from mismatched memory operations: different query types demand categorically different retrieval strategies, evidence transformations, and context budgets that SLMs cannot reliably self-orchestrate through open-ended reasoning. We introduce MemFlow, a training-free memory orchestration framework that externalizes memory planning from the SLM. A Router Agent classifies each query by intent and dispatches it to the Memory Agent, which executes one of three specialized tiers (Profile Lookup, Targeted Retrieval, or Deep Reasoning) and assembles the resulting evidence under a dynamic, tier-aware token budget. An Answer Agent then generates a response from this compact context, and a Validator Agent optionally retries with a heavier memory tier when the response is not supported by the provided evidence. This route-then-compile design avoids tool-selection hallucination and reasoning loops while keeping the answer context compact. Evaluated on a frozen Qwen3-1.7B backbone across long-horizon memory benchmarks - LongMemEval, LoCoMo, and LongBench - MemFlow improves accuracy by nearly 2x over full-context SLM baselines. These results suggest that structured intent routing and deterministic evidence preparation can make limited-capacity models substantially more effective in resource-constrained long-horizon agents.
+
+### [Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory](https://arxiv.org/abs/2605.03228v2)
+
+- **Authors:** Yuhui Wang, Tanqiu Jiang, Jiacheng Liang, Charles Fleming, Ting Wang
+- **Published:** 2026-05-04
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CR, cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2605.03228v2) · [PDF](https://arxiv.org/pdf/2605.03228v2)
+
+As large language model (LLM)-powered agents are increasingly deployed to perform complex, real-world tasks, they face a growing class of attacks that exploit extended user-agent-environment interactions to pursue malicious objectives improbable in single-turn settings. Such long-horizon threats pose significant risks to the safe deployment of LLM agents in critical domains. In this paper, we present ShadowMem, a novel defensive framework designed to counter a wide range of long-horizon threats. Inspired by the "shadow stack" abstraction in systems security, ShadowMem maintains a dedicated, safety-focused agentic memory that distills and retains safety-critical context across the agent's full execution trajectory, leveraging this shadow memory to proactively assess the risk of pending actions prior to their execution. Extensive evaluation demonstrates that ShadowMem substantially outperforms existing defenses across diverse long-horizon threats in detection accuracy, achieves early-stage detection for the majority of attacks, and introduces only negligible overhead to agent utility. To our best knowledge, ShadowMem represents the first framework to detect and mitigate long-horizon threats using an agentic memory approach, establishing a new paradigm for this critical challenge and opening promising directions for future research. The artifacts are available at https://github.com/ZJUWYH/ShadowMem
+
+### [GRAVITY: Architecture-Agnostic Structured Anchoring for Long-Horizon Conversational Memory](https://arxiv.org/abs/2605.01688)
+
+- **Authors:** Sun, Yushi, Cao, Bowen, Fang, Dong, Su, Lingfeng, Lam, Wai
+- **Published:** 2026-05-03
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2605.01688) · [PDF](https://arxiv.org/pdf/2605.01688)
+
+Long-horizon conversational agents rely on memory systems with increasingly sophisticated retrieval mechanisms. However, retrieved fragments are typically fed to the language model as unstructured text, lacking the relational, temporal, and thematic structures essential for complex reasoning. To bridge this reasoning gap, we introduce GRAVITY (\textbf{G}eneration-time \textbf{R}elational \textbf{A}nchoring \textbf{V}ia \textbf{I}njected \textbf{T}opological Memor\textbf{Y}), a plug-and-play structured memory module. GRAVITY extracts three complementary knowledge representations from raw conversational utterances: entity profiles grounded in relational graphs, temporal event tuples linked into causal traces, and cross-session topic summaries. At generation time, it injects these representations into the host system's prompt as structured anchoring contexts. This approach effectively synthesizes scattered evidence into a coherent, query-relevant context without requiring any architectural modifications to the host model. Extensive evaluations across five diverse memory systems on the LongMemEval and LoCoMo benchmarks demonstrate the efficacy of our approach. On average, GRAVITY improves LLM-judge accuracy by 7.5--10.1%. Gains are inversely correlated with baseline strength: the weakest host improves by 12.2% while the strongest still gains 3.8--5.7%. These findings establish structured context anchoring as a broadly effective, architecture-agnostic augmentation paradigm for long-horizon conversational memory.
+
+### [OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory](https://arxiv.org/abs/2604.26622v1)
+
+- **Authors:** Jinze Li, Yang Zhang, Xin Yang, Jiayi Qu, Jinfeng Xu, Shuo Yang, Junhua Ding, Edith Cheuk-Han Ngai
+- **Published:** 2026-04-29
+- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2604.26622v1) · [PDF](https://arxiv.org/pdf/2604.26622v1)
+
+Autonomous LLM agents increasingly operate in long-horizon, interactive settings where success depends on reusing experience accumulated over extended histories. However, existing agent memory systems are fundamentally constrained by text-context budgets: storing or revisiting raw trajectories is prohibitively token-expensive, while summarization and text-only retrieval trade token savings for information loss and fragmented evidence. To address this limitation, we propose Optical Context Retrieval Memory (OCR-Memory), a memory framework that leverages the visual modality as a high-density representation of agent experience, enabling retention of arbitrarily long histories with minimal prompt overhead at retrieval time. Specifically, OCR-Memory renders historical trajectories into images annotated with unique visual identifiers. OCR-Memory retrieves stored experience via a \emph{locate-and-transcribe} paradigm that selects relevant regions through visual anchors and retrieves the corresponding verbatim text, avoiding free-form generation and reducing hallucination. Experiments on long-horizon agent benchmarks show consistent gains under strict context limits, demonstrating that optical encoding increases effective memory capacity while preserving faithful evidence recovery.
+
+### [ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents](https://arxiv.org/abs/2604.23069v2)
+
+- **Authors:** Yating Wu, Yuhao Zhang, Sayan Ghosh, Sourya Basu, Anoop Deoras, Jun Huan, Gaurav Gupta
+- **Published:** 2026-04-24
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** University of Texas at Austin
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2604.23069v2) · [PDF](https://arxiv.org/pdf/2604.23069v2)
+
+Large language model (LLM) agents often struggle in long-context interactions. As the history grows, sliding windows and prompt compression may drop earlier information that later steps rely on. Retrieval-based memory systems surface relevant content but still overlook the causal and logical dependencies between steps. We introduce ContextWeaver, a selective and dependency-structured memory framework that organizes an agent's interaction trace into a graph of reasoning steps and selects the relevant context for future actions. ContextWeaver supports (1) dependency-based construction and traversal that link each step to the earlier steps it relies on; (2) compact dependency summaries of the reasoning paths; and (3) a lightweight validation layer that incorporates execution feedback. On five software-engineering and terminal benchmarks with a fixed budget per task, ContextWeaver improves the resolve rate over a sliding-window baseline on all five, with a significant gain when pooled across benchmarks, while using 13-18% fewer agent steps. It also performs favorably against alternative context-management approaches, with the largest gains on long-horizon repository tasks. On SWE-Bench Pro, ContextWeaver raises the resolve rate from 66.5% to 72.6%, with significant improvements across all three model backbones. The improvement also holds when the sliding window's budget is raised to cover the summary cost.
+
+### [Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents](https://arxiv.org/abs/2604.22085v1)
+
+- **Authors:** Seyed Moein Abtahi, Rasa Rahnema, Hetkumar Patel, Neel Patel, Majid Fekri, Tara Khani
+- **Published:** 2026-04-23
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2604.22085v1) · [PDF](https://arxiv.org/pdf/2604.22085v1)
+
+The transition from stateless language model inference to persistent, multi session autonomous agents has revealed memory to be a primary architectural bottleneck in the deployment of production grade agentic systems. Existing methodologies largely depend on hybrid semantic graph architectures, which impose substantial computational overhead during both ingestion and retrieval. These systems typically require large language model mediated entity extraction, explicit graph schema maintenance, and multi query retrieval pipelines. This paper introduces Memanto, a universal memory layer for agentic artificial intelligence that challenges the prevailing assumption that knowledge graph complexity is necessary to achieve high fidelity agent memory. Memanto integrates a typed semantic memory schema comprising thirteen predefined memory categories, an automated conflict resolution mechanism, and temporal versioning. These components are enabled by Moorcheh's Information Theoretic Search engine, a no indexing semantic database that provides deterministic retrieval within sub ninety millisecond latency while eliminating ingestion delay. Through systematic benchmarking on the LongMemEval and LoCoMo evaluation suites, Memanto achieves state of the art accuracy scores of 89.8 percent and 87.1 percent respectively. These results surpass all evaluated hybrid graph and vector based systems while requiring only a single retrieval query, incurring no ingestion cost, and maintaining substantially lower operational complexity. A five stage progressive ablation study is presented to quantify the contribution of each architectural component, followed by a discussion of the implications for scalable deployment of agentic memory systems.
+
+### [Stateless Decision Memory for Enterprise AI Agents](https://arxiv.org/abs/2604.20158v1)
+
+- **Authors:** Vasundra Srinivasan
+- **Published:** 2026-04-22
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2604.20158v1) · [PDF](https://arxiv.org/pdf/2604.20158v1) · [Code](https://github.com/vasundras/stateless-decision-memory-enterprise-ai-agents)
+
+Enterprise deployment of long-horizon decision agents in regulated domains (underwriting, claims adjudication, tax examination) is dominated by retrieval-augmented pipelines despite a decade of increasingly sophisticated stateful memory architectures. We argue this reflects a hidden requirement: regulated deployment is load-bearing on four systems properties (deterministic replay, auditable rationale, multi-tenant isolation, statelessness for horizontal scale), and stateful architectures violate them by construction. We propose Deterministic Projection Memory (DPM): an append-only event log plus one task-conditioned projection at decision time. On ten regulated decisioning cases at three memory budgets, DPM matches summarization-based memory at generous budgets and substantially outperforms it when the budget binds: at a 20x compression ratio, DPM improves factual precision by +0.52 (Cohen's h=1.17, p=0.0014) and reasoning coherence by +0.53 (h=1.13, p=0.0034), paired permutation, n=10. DPM is additionally 7-15x faster at binding budgets, making one LLM call at decision time instead of N. A determinism study of 10 replays per case at temperature zero shows both architectures inherit residual API-level nondeterminism, but the asymmetry is structural: DPM exposes one nondeterministic call; summarization exposes N compounding calls. The audit surface follows the same one-versus-N pattern: DPM logs two LLM calls per decision while summarization logs 83-97 on LongHorizon-Bench. We conclude with TAMS, a practitioner heuristic for architecture selection, and a failure analysis of stateful memory under enterprise operating conditions. The contribution is the argument that statelessness is the load-bearing property explaining enterprise's preference for weaker but replayable retrieval pipelines, and that DPM demonstrates this property is attainable without the decisioning penalty retrieval pays.

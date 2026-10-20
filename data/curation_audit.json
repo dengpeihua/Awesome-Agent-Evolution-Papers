@@ -1,11 +1,13 @@
 {
-  "generated_at": "2026-10-03T09:41:42.859818+00:00",
+  "generated_at": "2026-10-20T18:04:05.234492+00:00",
   "policy": {
     "required_topics": [
       "agent-llm-self-evolution",
       "agent-memory",
       "llm-continual-training",
-      "reinforcement-learning"
+      "reinforcement-learning",
+      "long-horizon-agent",
+      "user-requested"
     ],
     "first_publication_on_or_after": "2025-01-01",
     "rl_scope": "Substantive RL directly related to language models or language agents",
@@ -17,25 +19,29 @@
     ],
     "code_stars_are_qualifying": false
   },
-  "candidate_count": 2727,
+  "candidate_count": 4505,
   "candidate_topic_counts": {
-    "agent-llm-self-evolution": 576,
-    "agent-memory": 649,
-    "llm-continual-training": 242,
-    "reinforcement-learning": 249
+    "agent-llm-self-evolution": 776,
+    "agent-memory": 699,
+    "llm-continual-training": 307,
+    "reinforcement-learning": 458,
+    "long-horizon-agent": 1600,
+    "user-requested": 4
   },
-  "public_paper_count": 1541,
+  "public_paper_count": 3176,
   "topic_counts": {
-    "agent-llm-self-evolution": 576,
-    "agent-memory": 649,
-    "llm-continual-training": 242,
-    "reinforcement-learning": 248
+    "agent-llm-self-evolution": 776,
+    "agent-memory": 699,
+    "llm-continual-training": 307,
+    "reinforcement-learning": 457,
+    "long-horizon-agent": 1600,
+    "user-requested": 4
   },
   "qualification_counts": {
-    "CCF-A": 65,
-    "Highly cited": 163,
-    "Industry": 9,
-    "Selected venue": 30
+    "CCF-A": 135,
+    "Highly cited": 197,
+    "Industry": 12,
+    "Selected venue": 54
   },
   "notes": [
     "Qualification counts overlap when one paper meets multiple criteria.",

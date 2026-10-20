@@ -5,7 +5,7 @@ import hashlib
 import json
 import re
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import UTC, datetime
 from typing import Final
 
 import httpx
@@ -170,8 +170,14 @@ class ArxivSource:
 
     @staticmethod
     def topic_queries() -> dict[str, str]:
-        """Return queries for all four requested research tracks."""
+        """Return queries for all five requested research tracks."""
         return {
+            "long-horizon-agent": (
+                '(all:"long-horizon" OR all:"long horizon" OR all:"long trajectories" '
+                'OR all:"long-running tasks" OR all:"multi-step tasks") '
+                'AND (all:"agent" OR all:"agentic") '
+                'AND (all:"LLM" OR all:"language model" OR all:"language agents")'
+            ),
             "reinforcement-learning": (
                 '(ti:"reinforcement learning" OR abs:"reinforcement learning" '
                 'OR ti:"RLHF" OR abs:"RLHF" OR ti:"GRPO" OR abs:"GRPO" '
@@ -237,7 +243,8 @@ class ArxivSource:
                         client,
                         params={
                             "search_query": (
-                                f"({query}) AND submittedDate:[202501010000 TO 999912312359]"
+                                f"({query}) AND submittedDate:[202501010000 TO "
+                                f"{datetime.now(UTC):%Y%m%d%H%M}]"
                             ),
                             "start": start,
                             "max_results": max_results_per_topic,

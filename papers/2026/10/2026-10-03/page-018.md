@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -14,7 +14,7 @@
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
 | 2026-06-29 | Agent/LLM Self-Improvement | [AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance](https://arxiv.org/abs/2606.30949v2) | — |
-| 2026-06-29 | Agent/LLM Self-Improvement | [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2) | 📈 Highly cited |
+| 2026-06-29 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2) | 📈 Highly cited |
 | 2026-06-29 | Agent Memory | [Retrieval Observability Bounds on Provenance Detection for Agent Memory Poisoning: Measured Coverage and a Falsified Standalone Detector](https://arxiv.org/abs/2606.30566v3) | — |
 | 2026-06-29 | Reinforcement Learning | [Are We Measuring Strategy or Phrasing? The Gap Between Surface- and Approach-Level Diversity in LLM Math Reasoning](https://arxiv.org/abs/2606.29985v2) | — |
 | 2026-06-29 | Agent/LLM Self-Improvement | [ManimAgent: Self-Evolving Multimodal Agents for Visual Education](https://arxiv.org/abs/2606.30296) | — |
@@ -23,38 +23,38 @@
 | 2026-06-29 | Agent Memory | [Neural Procedural Memory: Empowering LLM Agents with Implicit Activation Steering](https://arxiv.org/abs/2606.29824) | — |
 | 2026-06-29 | Agent Memory | [Mandol: An Agglomerative Agent Memory System for Long-Term Conversations](https://arxiv.org/abs/2606.29778) | — |
 | 2026-06-29 | Agent Memory | [Analytic Concept-Centric Memory for Agentic Embodied Manipulation](https://arxiv.org/abs/2606.29774) | — |
-| 2026-06-28 | Agent Memory | [Selective Memory Retention for Long-Horizon LLM Agents](https://arxiv.org/abs/2606.29178) | — |
+| 2026-06-28 | Agent Memory, Long-Horizon Task Agents | [Selective Memory Retention for Long-Horizon LLM Agents](https://arxiv.org/abs/2606.29178v1) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
+| 2026-06-27 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Self-Evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution](https://arxiv.org/abs/2606.28971v2) | — |
 | 2026-06-27 | Agent Memory | [Memory as an Attack Surface in LLM Agents: A Study on Multiple-Choice Question Answering](https://arxiv.org/abs/2606.29030) | — |
-| 2026-06-27 | Agent/LLM Self-Improvement | [Self-Evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution](https://arxiv.org/abs/2606.28971) | — |
 | 2026-06-27 | Agent Memory | [HyphaeDB: A Living Knowledge Topology for Agent-First Memory](https://arxiv.org/abs/2606.28781) | — |
 | 2026-06-26 | LLM Continual Training | [BashCoder-R1: Towards Robust and Explainable Bash Code Generation with Robustness-Aware Group Relative Policy Optimization](https://arxiv.org/abs/2606.27733v3) | — |
 | 2026-06-26 | LLM Continual Training | [Continual Learning for Sequential Personalization of Small Language Models: A Stability Monitoring Analysis](https://arxiv.org/abs/2606.27634v2) | — |
 | 2026-06-25 | Agent Memory, Reinforcement Learning | [Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents](https://arxiv.org/abs/2606.27472) | 📈 Highly cited |
 | 2026-06-24 | Agent Memory | [Staying In Character: Perspective-Bounded Memory For Book-Based Role-Playing Agents](https://arxiv.org/abs/2606.25632) | — |
 | 2026-06-24 | Agent Memory | [Memory Makes the Difference: Evaluating How Different Memory Roles Shape Conversational Agents](https://arxiv.org/abs/2606.25361) | — |
+| 2026-06-23 | Agent Memory, Long-Horizon Task Agents | [Are We Ready For An Agent-Native Memory System?](https://arxiv.org/abs/2606.24775v1) | ⭐ Popular code<br>📈 Highly cited |
 | 2026-06-23 | Agent Memory | [MemAudit: Auditing Long-Term Agent Memory via Hidden User-State Recovery](https://arxiv.org/abs/2606.24595v3) | — |
 | 2026-06-23 | Reinforcement Learning | [Accelerating Disaggregated RL for Visual Generative LLMs with Diffusion-Based Parallelism and Trainer-Assisted Generation](https://arxiv.org/abs/2606.24369v3) | — |
 | 2026-06-23 | Agent Memory | [TRUSTMEM: Learning Trustworthy Memory Consolidation for LLM Agents with Long-Term Memory](https://arxiv.org/abs/2606.25161) | — |
 | 2026-06-23 | Agent Memory, LLM Continual Training | [Forget to Improve: On-Device LLM-Agent Continual Learning via Budget-Curated Memory](https://arxiv.org/abs/2606.25115) | 📈 Highly cited |
-| 2026-06-23 | Agent Memory | [Are We Ready For An Agent-Native Memory System?](https://arxiv.org/abs/2606.24775) | ⭐ Popular code<br>📈 Highly cited |
 | 2026-06-23 | Agent Memory | [Governed Shared Memory for Multi-Agent LLM Systems](https://arxiv.org/abs/2606.24535) | 📈 Highly cited |
 | 2026-06-23 | Agent Memory | [ReM-MoA: Reasoning Memory Sustains Mixture-of-Agents Scaling](https://arxiv.org/abs/2606.24437) | — |
 | 2026-06-23 | Agent Memory | [Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees](https://arxiv.org/abs/2606.24322) | 📈 Highly cited |
 | 2026-06-22 | LLM Continual Training | [HANCLIP: A Family of Hyperbolic Angular Negation Vision Language Models](https://arxiv.org/abs/2606.23843v2) | — |
 | 2026-06-22 | Reinforcement Learning | [SPIRAL: Learning to Search and Aggregate](https://arxiv.org/abs/2606.23595v2) | — |
+| 2026-06-22 | Agent Memory, Long-Horizon Task Agents | [HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory](https://arxiv.org/abs/2606.23565v1) | — |
 | 2026-06-22 | LLM Continual Training | [CADRE: Stable, Parameter Efficient Adaptation of Medical Vision Language Models with Bounded Forgetting and Prior Drift](https://arxiv.org/abs/2606.23487v2) | — |
 | 2026-06-22 | Agent Memory | [Understanding the (In)Security of Vibe-Coded Applications](https://arxiv.org/abs/2606.23130v4) | — |
 | 2026-06-22 | Agent Memory | [Memory Contagion: Cross-Temporal Propagation of Evaluator Bias via Agent Memory](https://arxiv.org/abs/2606.23195) | — |
-| 2026-06-22 | Agent Memory | [HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory](https://arxiv.org/abs/2606.23565) | — |
 | 2026-06-22 | Agent Memory | [Managing Procedural Memory in LLM Agents: Control, Adaptation, and Evaluation](https://arxiv.org/abs/2606.23127) | — |
 | 2026-06-22 | Agent Memory | [RaMem: Contextual Reinstatement for Long-term Agentic Memory](https://arxiv.org/abs/2606.22844) | — |
 | 2026-06-21 | Reinforcement Learning | [What are Key Factors for Updates in RL for LLM Reasoning?](https://arxiv.org/abs/2606.22570v2) | — |
 | 2026-06-20 | Agent/LLM Self-Improvement | [Evolving from Lessons: Skill-Augmented Table Graph Reasoning for Operation-wise Table Question Answering](https://arxiv.org/abs/2607.22633v2) | — |
 | 2026-06-20 | Agent Memory | [When Does Belief-Based Agent Memory Help? Reliability-Conditional Updating and Provenance-Capped Poisoning Defense](https://arxiv.org/abs/2606.22030) | — |
+| 2026-06-19 | Agent Memory, Long-Horizon Task Agents | [When Does Overlap Help? OSU-Mem and a Cell-Conditional Analysis of Trajectory Memory for LLM Agents](https://arxiv.org/abs/2606.28376v1) | — |
 | 2026-06-19 | Agent/LLM Self-Improvement | [The Metanym Game: An LLM Benchmark Without Ground Truth That Rises With the Models It Measures](https://arxiv.org/abs/2606.21008v4) | — |
 | 2026-06-19 | Agent Memory | [EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory](https://arxiv.org/abs/2606.21649) | — |
-| 2026-06-19 | Agent Memory | [When Does Overlap Help? OSU-Mem and a Cell-Conditional Analysis of Trajectory Memory for LLM Agents](https://arxiv.org/abs/2606.28376) | — |
-| 2026-06-18 | Agent Memory | [Learning What Not to Forget: Long-Horizon Agent Memory from a Few Kilobytes of Learning](https://arxiv.org/abs/2606.20954v2) | — |
+| 2026-06-18 | Agent Memory, Long-Horizon Task Agents | [Learning What Not to Forget: Long-Horizon Agent Memory from a Few Kilobytes of Learning](https://arxiv.org/abs/2606.20954v2) | — |
 | 2026-06-18 | LLM Continual Training | [Masked Self-Distillation: Internalizing the Chain-of-Thought in Language Models](https://arxiv.org/abs/2607.22629v3) | — |
 | 2026-06-18 | Agent/LLM Self-Improvement | [AgenticDB: Self-Evolving Reconfiguration Framework for Database Workloads](https://arxiv.org/abs/2606.20318v4) | — |
 | 2026-06-18 | Reinforcement Learning | [Connect the Dots: Training LLMs for Long-Lifecycle Agents with Cross-Domain Generalization Via Reinforcement Learning](https://arxiv.org/abs/2606.20002v2) | — |
@@ -69,9 +69,10 @@
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
 | [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Selective Memory Retention for Long-Horizon LLM Agents](https://arxiv.org/abs/2606.29178v1) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted at the International Conference on Machine Learning (ICML) 2026 |
 | [Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents](https://arxiv.org/abs/2606.27472) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Are We Ready For An Agent-Native Memory System?](https://arxiv.org/abs/2606.24775v1) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Forget to Improve: On-Device LLM-Agent Continual Learning via Budget-Curated Memory](https://arxiv.org/abs/2606.25115) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [Are We Ready For An Agent-Native Memory System?](https://arxiv.org/abs/2606.24775) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Governed Shared Memory for Multi-Agent LLM Systems](https://arxiv.org/abs/2606.24535) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees](https://arxiv.org/abs/2606.24322) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [ENPIRE: Agentic Robot Policy Self-Improvement in the Real World](https://arxiv.org/abs/2606.19980v2) | 📈 Highly cited | California Institute of Technology |
@@ -114,15 +115,15 @@ World models offer a principled way to equip long-horizon LLM agents with foresi
 
 Multi-round reflection lets agents built on large language models recover from failures within a single task, but each task remains an isolated episode: lessons learned across many reflection rounds on one task are discarded before the next begins. We study this gap on a code-generation task: from a scientific paper section, the agent writes Python in the open-source Manim library to render a mathematical animation. We present ManimAgent, a self-evolving multimodal agent that carries reflection experience across tasks through a dual-channel Episodic Memory Bank grown entirely from its own task stream, with no weight updates and no human seeds. After each animation converges, a vision-language model scores the rendered keyframes; the resulting signals populate a positive channel M+ that stores success rationales as soft Reference Examples, and a negative channel M- that stores validated failure patterns as hard Known Pitfalls. On a fixed-probe evaluation against no-memory, matched-budget retrieval-augmented generation, and shuffled-memory baselines, blind human Pass@1 rises and reflection rounds fall as memory size grows. We will release the code, frozen memory snapshots, and the task stream.
 
-### [Self-Evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution](https://arxiv.org/abs/2606.28971)
+### [Self-Evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution](https://arxiv.org/abs/2606.28971v2)
 
-- **Authors:** Cui, Shuang, Ji, Fan, Sun, Guanglong, Guo, Yufei, Tang, Xiongxin, Li, Jiangmeng, Xu, Fanjiang
+- **Authors:** Shuang Cui, Fan Ji, Guanglong Sun, Yufei Guo, Xiongxin Tang, Jiangmeng Li, Fanjiang Xu
 - **Published:** 2026-06-27
 - **Priority:** —
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2606.28971) · [PDF](https://arxiv.org/pdf/2606.28971)
+- **Links:** [Paper](https://arxiv.org/abs/2606.28971v2) · [PDF](https://arxiv.org/pdf/2606.28971v2)
 
 Real-world image restoration (IR) remains challenging due to complex and coupled degradations. While recent agentic IR frameworks leverage Large Language Models for flexible tool planning, they face two critical limitations. First, from a search scheme perspective, excessive reliance on greedy strategies fails to balance exploration and exploitation. Second, existing agentic systems underutilize information, exhibiting episodic amnesia. To address these challenges, we propose \textbf{Self-Evolving Agentic Image Restoration (SEAR)}, which formulates restoration as a sequential decision-making problem. Inspired by the dual-process theory, SEAR comprises an Intuitive Executor and a Deliberate Planner, respectively following the fast-thinking \textit{System 1} and slow-thinking \textit{System 2} principles. The Deliberate Planner employs Pruning-Aware Monte Carlo Tree Search for long-horizon reasoning, utilizing a hybrid no-reference reward and a Multimodal Large Language Model (MLLM)-based tournament to prevent metric exploitation. Complementarily, the Intuitive Executor leverages a self-evolving episodic memory indexed by degradation-aware state fingerprints. This mechanism distills expensive search trajectories into adaptive expertise, overcoming episodic amnesia while progressively amortizing cold-start exploration costs through memory reuse. Extensive experiments on synthetic and real-world benchmarks demonstrate its strong perceptual and quantitative performance.
 
@@ -260,15 +261,15 @@ Long-term conversational agents need to remember and query cross-session, multi-
 
 Long-horizon embodied manipulation requires agents to remember persistent objects, track changing scene states, and reuse prior interaction knowledge. However, existing agent memories are often stored as unstructured histories or embedding-based records, making it difficult to retrieve manipulation-relevant object parts, physical states, action effects, and executable skills. We propose an analytic concept-centric memory framework for agentic embodied manipulation. Our memory organizes experience around structured analytic concepts, where objects are represented by semantic parts, parametric templates, grounded poses, affordances, and manipulation states. It further connects object and scene memories with transition memory for action-induced state changes and skill memory for template-grounded and policy-grounded execution. At runtime, the agent performs structured coarse-to-fine retrieval to identify relevant objects, states, transitions, and skills, supporting state-consistent reasoning and skill reuse. Experiments on memory-dependent manipulation, articulated-object generalization, real-world memory evaluation, and ablations show that our approach improves task completion, retrieval accuracy, object re-identification, and cross-object skill generalization over unstructured and embedding-based memory baselines.
 
-### [Selective Memory Retention for Long-Horizon LLM Agents](https://arxiv.org/abs/2606.29178)
+### [Selective Memory Retention for Long-Horizon LLM Agents](https://arxiv.org/abs/2606.29178v1)
 
-- **Authors:** Reddy, Pranath
+- **Authors:** Pranath Reddy
 - **Published:** 2026-06-28
-- **Priority:** —
-- **Venue:** arXiv.org
+- **Priority:** 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
+- **Venue:** ICML 2026
 - **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2606.29178) · [PDF](https://arxiv.org/pdf/2606.29178)
+- **Categories:** cs.AI, cs.CL, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2606.29178v1) · [PDF](https://arxiv.org/pdf/2606.29178v1)
 
 When does retention matter for memory-augmented LLM agents? We study this with TraceRetain, a lightweight framework for bounded external memory in frozen LLM agents that scores entries by interpretable features (success, age, access frequency, redundancy, specificity, similarity, downstream utility) and evicts the lowest-scoring ones at capacity. On clean ALFWorld with gpt-5-mini, external memory robustly improves over no memory across two seeds, but differences among bounded retention policies fall within Wilson 95% CIs: clean ALFWorld at T=100 to T=200 does not naturally exhibit the memory pollution retention is designed to address. Under a controlled noisy-write stress (75% synthetic distractors), unbounded memory and FIFO-K50 degrade on Precision@5 (20.2% to 12.4% and 15.8% to 3.8%) while TraceRetain-CEM is essentially unchanged (16.9% to 16.6%) and preserves 97/100 task success. The mechanism: unbounded memory has the highest mean similarity (0.87) but lowest precision, indicating failed distractors close to the query in embedding space. Held-out in-distribution evaluation shows memory-augmented policies solving 47 to 49 of 50 tasks vs. 39/50 for no memory. Bounded retention buys memory and step efficiency on saturated clean benchmarks at no task-success cost, and only differentiates from cache heuristics when streams contain noise.
 
@@ -332,6 +333,18 @@ Recent LLM role-playing systems build character agents from novels by extracting
 
 Prior research on memory mechanism in RAG-based conversational system has emphasized how memory is stored and retrieved. However, far less is known about how memories with different functional roles influence response quality. Specifically, how they shape an agent's responses under varying conversational contexts and whether they lead to substantively different response behaviors. Existing evaluations in conversational system are also largely reference-based, insufficiently capturing the nuances in responses that may address users' preferences differently. In this work, we probe the impact of different memory types in shaping agents' responses. We present a fine-grained taxonomy of conversational memory, classify retrieved memories into different role types, and design a user-centric evaluation framework that simulates user perspectives. Through comparative experiments on long-term datasets and frontier LLMs, our analysis reveal many differentiated effects of memories: e.g., clarifying memory improves responses' factual accuracy and constraint awareness, making them more correct and personalized; irrelevant memory reduces topic relevance and degrades constraint awareness. Despite the power of frontier LLMs, these findings shed light on how different memory types can be leveraged to produce more personalized responses and inspire further research in this direction.
 
+### [Are We Ready For An Agent-Native Memory System?](https://arxiv.org/abs/2606.24775v1)
+
+- **Authors:** Wei Zhou, Xuanhe Zhou, Shaokun Han, Hongming Xu, Guoliang Li, Zhiyu Li, Feiyu Xiong, Fan Wu
+- **Published:** 2026-06-23
+- **Priority:** ⭐ Popular code<br>📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL, cs.DB, cs.IR
+- **Links:** [Paper](https://arxiv.org/abs/2606.24775v1) · [PDF](https://arxiv.org/pdf/2606.24775v1) · [Code](https://github.com/OpenDataBox/MemoryData)
+
+Memory for large language model (LLM) agents has rapidly evolved from simple retrieval-augmented mechanisms into a data management system that supports persistent information storage, retrieval, update, consolidation, and dynamic lifecycle governance throughout agent execution. Despite this evolution, existing evaluations still benchmark agent memory mainly through end-to-end task success metrics (e.g., F1, BLEU), while treating the underlying system as a monolithic black box. As a result, critical system-level concerns, including operational costs, architectural trade-offs across memory modules, and robustness under dynamic knowledge updates, remain insufficiently explored. In this paper, we present a systematic experimental study of agent memory from a data management perspective. We propose an analytical framework that decomposes agent memory into four core modules: memory representation and storage, extraction, retrieval and routing, and maintenance. Under this framework, we evaluate 12 representative memory systems and two reference baselines across five benchmark workloads spanning 11 datasets. Our extensive end-to-end evaluation shows that no single architecture dominates across all scenarios; instead, effectiveness depends heavily on how well the memory structure aligns with the workload bottleneck. Furthermore, through fine-grained ablation studies, we quantify their individual effects on representation fidelity, retrieval precision, update correctness, and long-horizon stability. Finally, we reveal cost-performance trade-offs under realistic workloads, showing localized maintenance is more cost-efficient than global reorganization. Based on these findings, we identify promising directions towards building truly agent-native memory systems. The code is publicly available at https://github.com/OpenDataBox/MemoryData.
+
 ### [MemAudit: Auditing Long-Term Agent Memory via Hidden User-State Recovery](https://arxiv.org/abs/2606.24595v3)
 
 - **Authors:** Enze Ma, Yufan Zhou, Wei-Chieh Huang, Jie Yang, Huanhuan Ma, Zixuan Wang, Chengze Li, Chunyu Miao, Philip S. Yu, Zhen Wang
@@ -367,18 +380,6 @@ Large language model (LLM) agents rely on long-term memory to support extended i
 - **Links:** [Paper](https://arxiv.org/abs/2606.25115) · [PDF](https://arxiv.org/pdf/2606.25115)
 
 On-device language-model agents improve by accumulating experience in retrieved memory rather than by updating weights. This memory is hard-bounded and exposed: it consumes RAM and energy, reaches peers through a thin uplink, and becomes an attack surface because it is writable by what the agent reads. Existing systems each cover one part of this problem: agentic memories grow without a budget, on-device methods keep entries by success alone, and poisoning is studied mainly as an attack rather than as a memory-governance problem. We propose \sys{}, a single net-value-per-byte score that governs an agent's experience-memory lifecycle. The main idea is to let the budget act as the curator: each entry is scored as value minus harm, per byte, so one ruler decides what to keep, share, and trust. \sys{} makes three decisions: (1) \textbf{KEEP} evicts low-value bytes under the RAM and energy budget; (2) \textbf{SHARE} sends an insight only when its value exceeds its uplink cost; and (3) \textbf{TRUST} gates a peer entry by provenance. On language-model-agent task-drift benchmarks and a real heterogeneous Jetson testbed with two robot-arm nodes and a hub, \sys{} reduces memory by $2.7\times$ and uplink by $2.4\times$, drives injection success from 0.75 to zero, and raises accuracy on cases corrupted by poison or stale memory. Curating by net value reduces footprint, energy, uplink, and injection success together without reducing accuracy. In this setting, forgetting by net value improves the agent rather than weakening it.
-
-### [Are We Ready For An Agent-Native Memory System?](https://arxiv.org/abs/2606.24775)
-
-- **Authors:** Zhou, Wei, Zhou, Xuanhe, Han, Shaokun, Xu, Hongming, Li, Guoliang, Li, Zhiyu, Xiong, Feiyu, Wu, Fan
-- **Published:** 2026-06-23
-- **Priority:** ⭐ Popular code<br>📈 Highly cited
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2606.24775) · [PDF](https://arxiv.org/pdf/2606.24775) · [Code](https://github.com/OpenDataBox/MemoryData)
-
-Memory for large language model (LLM) agents has rapidly evolved from simple retrieval-augmented mechanisms into a data management system that supports persistent information storage, retrieval, update, consolidation, and dynamic lifecycle governance throughout agent execution. Despite this evolution, existing evaluations still benchmark agent memory mainly through end-to-end task success metrics (e.g., F1, BLEU), while treating the underlying system as a monolithic black box. As a result, critical system-level concerns, including operational costs, architectural trade-offs across memory modules, and robustness under dynamic knowledge updates, remain insufficiently explored. In this paper, we present a systematic experimental study of agent memory from a data management perspective. We propose an analytical framework that decomposes agent memory into four core modules: memory representation and storage, extraction, retrieval and routing, and maintenance. Under this framework, we evaluate 12 representative memory systems and two reference baselines across five benchmark workloads spanning 11 datasets. Our extensive end-to-end evaluation shows that no single architecture dominates across all scenarios; instead, effectiveness depends heavily on how well the memory structure aligns with the workload bottleneck. Furthermore, through fine-grained ablation studies, we quantify their individual effects on representation fidelity, retrieval precision, update correctness, and long-horizon stability. Finally, we reveal cost-performance trade-offs under realistic workloads, showing localized maintenance is more cost-efficient than global reorganization. Based on these findings, we identify promising directions towards building truly agent-native memory systems. The code is publicly available at https://github.com/OpenDataBox/MemoryData.
 
 ### [Governed Shared Memory for Multi-Agent LLM Systems](https://arxiv.org/abs/2606.24535)
 
@@ -416,6 +417,18 @@ Mixture-of-Agents (MoA) architectures improve inference-time scaling by organizi
 
 LLM agents increasingly rely on persistent long-term memory, which creates a critical vulnerability that we study here: memory poisoning. An adversary can store untrusted content in one session that later steers a consequential action, such as a payment, a setting change, or data exfiltration, in a future session. Existing defenses base a memory item's authority to act on either its content (detection or trust-scoring) or its derivation history (lineage). We show that both signals are malleable. An attacker can launder an untrusted origin through three channels specific to LLM agents: the agent's own summarization, a trusted-tool echo, and manufactured corroboration. Each makes the content look benign and breaks or flips its derivation edge to ``trusted.'' We formalize malleability for the memory write-retrieve-act pipeline and prove a machine-checked separation theorem. No content- or lineage-based defense is sound under laundering (T1), write-time origin binding is necessary (T2), and non-malleable origin-bound authority with Sybil-resistant corroboration-gated elevation is sufficient (T3). Our construction, TMA-NM (Tamper-evident Memory Authority, Non-Malleable), instantiates non-malleable information-flow control (IFC) for LLM-agent memory. A cross-defense, cross-attack, and cross-model benchmark over eight frontier models shows that existing defenses fail exactly where the theory predicts (up to 68% laundering attack-success), while TMA-NM reaches 0% attack success on both direct and laundering attacks across all models and channels, at full legitimate utility. We release the benchmark, harness, and machine-checked TLA+ models to support reproducibility.
 
+### [HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory](https://arxiv.org/abs/2606.23565v1)
+
+- **Authors:** Xiaolin Zhou, Liu Liu, Tingyang Xiao, Wei Feng, Fa Fu, Xinrui Meng, Xinjie Wang, Jialiang Han, Boyang Yu, Yun Du, Wei Sui, Zhizhong Su
+- **Published:** 2026-06-22
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.RO, cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2606.23565v1) · [PDF](https://arxiv.org/pdf/2606.23565v1)
+
+LLM agents follow a practical execution loop in digital environments: they reason over structured states, invoke tools, inspect feedback, and revise actions. Extending this loop to physical robots is difficult because physical execution is continuous, embodiment-dependent, uncertain, and constrained by safety. Existing embodied-AI systems have advanced manipulation, spatial understanding, navigation, and humanoid control, but these capabilities often remain specialized modules or loosely coupled decision loops. In this work, we introduce HoloAgent-0, a unified embodied agent framework for real-world robot deployment. Embodied AgentOS converts language instructions into executable skill graphs, schedules robot resources, monitors execution, and triggers clarification or re-planning from runtime feedback. HoloAgent-0 organizes heterogeneous robot models and controllers through three coupled layers: Embodied AgentOS for closed-loop execution, 3D spatial memory for physical world grounding, and embodied skills for robot action. We deploy HoloAgent-0 on real hardware and evaluate its spatial memory, long-horizon navigation, and closed-loop execution across motion generation, object search, cross-robot coordination, and mobile manipulation.
+
 ### [Understanding the (In)Security of Vibe-Coded Applications](https://arxiv.org/abs/2606.23130v4)
 
 - **Authors:** Junquan Deng, Zhiyu Fan, Ruijie Meng
@@ -439,18 +452,6 @@ Recent advances in large language models (LLMs) have enabled vibe coding, an eme
 - **Links:** [Paper](https://arxiv.org/abs/2606.23195) · [PDF](https://arxiv.org/pdf/2606.23195)
 
 Large Language Model (LLM) agents increasingly rely on memory systems to maintain long-term coherence. Recent work shows that agent memories degrade during continuous consolidation. However, existing research assumes memories are derived from unbiased experiences. In this work, we identify and formalize a novel phenomenon: Memory Contagion -- the cross-temporal propagation of evaluator bias through agent memory. We show that when agents are trained or guided by biased evaluators, their experiences become biased; when these trajectories are stored and consolidated into memory, the bias propagates to future agents retrieving from the same memory store, even when consolidation is perfect (oracle). Across two bias types (length preference, authority bias) and four experimental phases, we demonstrate: (1) Memory Contagion occurs for length bias even with perfect consolidation on older models (Gamma_A = 13.18, DeepSeek V4-Chat), while newer models (V4-Pro, Claude) are immune, proving both that biased input is a sufficient cause and that contagion is model-generation-dependent; (2) authority bias fails to propagate in all 15 controlled multi-seed experiments (Gamma_A = 0.00), revealing that not all evaluator biases can cross temporal boundaries through current memory architectures; (3) No observed safe threshold: length bias propagation is detected at contamination rates as low as p=0.2. Our findings expose a critical but contingent vulnerability in current agent memory designs and provide formal tools for measuring cross-temporal bias propagation.
-
-### [HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory](https://arxiv.org/abs/2606.23565)
-
-- **Authors:** Zhou, Xiaolin, Liu, Liu, Xiao, Tingyang, Feng, Wei, Fu, Fa, Meng, Xinrui, Wang, Xinjie, Han, Jialiang, Yu, Boyang, Du, Yun, Sui, Wei, Su, Zhizhong
-- **Published:** 2026-06-22
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2606.23565) · [PDF](https://arxiv.org/pdf/2606.23565)
-
-LLM agents follow a practical execution loop in digital environments: they reason over structured states, invoke tools, inspect feedback, and revise actions. Extending this loop to physical robots is difficult because physical execution is continuous, embodiment-dependent, uncertain, and constrained by safety. Existing embodied-AI systems have advanced manipulation, spatial understanding, navigation, and humanoid control, but these capabilities often remain specialized modules or loosely coupled decision loops. In this work, we introduce HoloAgent-0, a unified embodied agent framework for real-world robot deployment. Embodied AgentOS converts language instructions into executable skill graphs, schedules robot resources, monitors execution, and triggers clarification or re-planning from runtime feedback. HoloAgent-0 organizes heterogeneous robot models and controllers through three coupled layers: Embodied AgentOS for closed-loop execution, 3D spatial memory for physical world grounding, and embodied skills for robot action. We deploy HoloAgent-0 on real hardware and evaluate its spatial memory, long-horizon navigation, and closed-loop execution across motion generation, object search, cross-robot coordination, and mobile manipulation.
 
 ### [Managing Procedural Memory in LLM Agents: Control, Adaptation, and Evaluation](https://arxiv.org/abs/2606.23127)
 
@@ -488,6 +489,18 @@ Long-term memory has become increasingly important for LLM agents that operate a
 
 We investigate when belief-based memory actually improves large language model (LLM) agents. Our vehicle is Nous, a long-term memory architecture that represents each entity-attribute pair as a categorical probability distribution updated through closed-form Bayesian inference, with information-theoretic surprise driving belief revision and entropy-based forgetting. A controlled ablation on the LoCoMo benchmark shows that Bayesian belief updating alone provides little benefit over naive last-write-wins because existing conversational memory benchmarks rarely contain contradictory or differently reliable evidence. We then introduce reliability-conditioned updating, estimating per-observation reliability from epistemic language, and show on a controlled contradiction benchmark that belief updating substantially outperforms last-write-wins and raw-memory retrieval when observations differ in trustworthiness. Because content-derived reliability is itself vulnerable to manipulation, we further propose provenance-capped belief updating, where trust is bounded by source provenance rather than textual confidence. Under controlled memory-poisoning experiments, this approach resists volumetric poisoning attacks while revealing the utility costs and implementation requirements of provenance-aware memory. Finally, we quantify a 27.5-point discrepancy between strict token-F1 and LLM-as-judge evaluation on identical outputs, highlighting important reproducibility concerns for long-term memory benchmarks. Our results suggest that probabilistic belief-based memory is most beneficial in environments requiring reasoning over conflicting and differently trustworthy evidence, rather than conventional conversational recall alone.
 
+### [When Does Overlap Help? OSU-Mem and a Cell-Conditional Analysis of Trajectory Memory for LLM Agents](https://arxiv.org/abs/2606.28376v1)
+
+- **Authors:** Mellow Baixuan Chen, Xiangguo Sun
+- **Published:** 2026-06-19
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.IR, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2606.28376v1) · [PDF](https://arxiv.org/pdf/2606.28376v1)
+
+Long-horizon large language model (LLM) agents accumulate interaction trajectories that quickly exceed any practical prompt budget, and existing memory methods either truncate aggressively and lose non-local evidence or retain boilerplate that degrades decision quality. We ask a mechanism question rather than claiming a better general-purpose memory system: when does organizing trajectory memory into overlapping semantic units (OSUs) -- groups of related steps in which one step may belong to several units -- help retrieval over flat or disjoint alternatives? We instantiate this in OSU-Mem, which retrieves from an overlapping OSU pool via budgeted coarse-to-fine expansion, and show its benefit is conditional: overlapping memory helps when the evidence steps a query needs share tool calls or entities, but hurts when those steps are fully heterogeneous and share neither. On a synthetic benchmark where evidence carries such shared structure by construction, OSU-Mem improves over the strongest baseline as the theory predicts; yet on a concatenated, constructed unaugmented $τ$-bench setting its aggregate advantage over flat retrieval vanishes. Splitting queries by whether their evidence shares tools and entities shows this near-tie to be an artifact of mixing query types rather than a property of either method, and ToolBench, a controlled probe built to carry shared structure by design, corroborates the same mechanism via an overlap-vs.-disjoint construction contrast (under a coverage-guided variant), isolating the construction principle rather than validating the full default system. Because the relevant sharing is cheaply estimable from metadata, the analysis yields a metadata-based heuristic for predicting when overlap is likely to improve retrieval. We deliberately isolate the retrieval layer, assessed by retrieval quality and an LLM-mediated evidence-selection stage.
+
 ### [EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory](https://arxiv.org/abs/2606.21649)
 
 - **Authors:** Nie, Chang, Fu, Chaoyou, Feng, Junlan, Shan, Caifeng
@@ -499,18 +512,6 @@ We investigate when belief-based memory actually improves large language model (
 - **Links:** [Paper](https://arxiv.org/abs/2606.21649) · [PDF](https://arxiv.org/pdf/2606.21649)
 
 Existing embedding models are inherently static: they encode text segments in isolation, ignoring their surrounding context and temporal order. This paper introduces EvoEmbedding, a novel embedding model that generates evolvable representations for retrieval. It is tailored for long-context scenarios, where information is dynamic, sequential, and requires continuous state tracking. Our design is simple: EvoEmbedding maintains a continuously updated latent memory as it sequentially processes inputs, and uses it alongside the raw content to jointly generate evolvable embeddings. Consequently, for the same query, our model adapts its representation to retrieve distinct targets based on the evolving context, going beyond static semantic search. To equip the model with this capability, we construct EvoTrain-180K, a diverse dataset for the joint optimization of latent memory and retrieval. Furthermore, we introduce a memory queue to prevent representation collapse during recurrent encoding, alongside segment-batching techniques that tackle significant length variance and accelerate training by 3.8$\times$. Extensive experiments show that our model not only outperforms larger-scale specialists (e.g., Qwen3-Embedding-8B and KaLM-Embedding-Gemma3-12B) across a range of long-context retrieval benchmarks, but also generalizes well to downstream tasks (e.g., personalization) with contexts 10$\times$ longer than its training window. Notably, EvoEmbedding seamlessly integrates into agentic workflows to boost performance. For instance, a naive RAG pipeline equipped with our model surpasses dedicated agentic memory systems. Project Page: https://clare-nie.github.io/EvoEmbedding/.
-
-### [When Does Overlap Help? OSU-Mem and a Cell-Conditional Analysis of Trajectory Memory for LLM Agents](https://arxiv.org/abs/2606.28376)
-
-- **Authors:** Chen, Mellow Baixuan, Sun, Xiangguo
-- **Published:** 2026-06-19
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.IR
-- **Links:** [Paper](https://arxiv.org/abs/2606.28376) · [PDF](https://arxiv.org/pdf/2606.28376)
-
-Long-horizon large language model (LLM) agents accumulate interaction trajectories that quickly exceed any practical prompt budget, and existing memory methods either truncate aggressively and lose non-local evidence or retain boilerplate that degrades decision quality. We ask a mechanism question rather than claiming a better general-purpose memory system: when does organizing trajectory memory into overlapping semantic units (OSUs) -- groups of related steps in which one step may belong to several units -- help retrieval over flat or disjoint alternatives? We instantiate this in OSU-Mem, which retrieves from an overlapping OSU pool via budgeted coarse-to-fine expansion, and show its benefit is conditional: overlapping memory helps when the evidence steps a query needs share tool calls or entities, but hurts when those steps are fully heterogeneous and share neither. On a synthetic benchmark where evidence carries such shared structure by construction, OSU-Mem improves over the strongest baseline as the theory predicts; yet on a concatenated, constructed unaugmented $\tau$-bench setting its aggregate advantage over flat retrieval vanishes. Splitting queries by whether their evidence shares tools and entities shows this near-tie to be an artifact of mixing query types rather than a property of either method, and ToolBench, a controlled probe built to carry shared structure by design, corroborates the same mechanism via an overlap-vs.-disjoint construction contrast (under a coverage-guided variant), isolating the construction principle rather than validating the full default system. Because the relevant sharing is cheaply estimable from metadata, the analysis yields a metadata-based heuristic for predicting when overlap is likely to improve retrieval. We deliberately isolate the retrieval layer, assessed by retrieval quality and an LLM-mediated evidence-selection stage.
 
 ### [Learning What Not to Forget: Long-Horizon Agent Memory from a Few Kilobytes of Learning](https://arxiv.org/abs/2606.20954v2)
 
@@ -707,3 +708,89 @@ Reinforcement Learning from Verifiable Rewards (RLVR) has emerged as a promising
 - **Links:** [Paper](https://arxiv.org/abs/2606.20002v2) · [PDF](https://arxiv.org/pdf/2606.20002v2)
 
 This work presents a general framework for training large language models (LLMs) to "Connect the Dots" (CoD), a meta-capability required by long-lifecycle agents: as an LLM-based AI agent gets deployed in an environment, it solves a long sequence of tasks while continuously exploring the environment, learning from its own experiences, and iteratively self-updating its context about the environment, thereby achieving progressively better performance on future tasks conditioned on the updated context. Major components of the CoD framework include: (1) algorithm design and infrastructure for end-to-end reinforcement learning (RL) with long rollout sequences interleaving solve-task and update-context episodes; (2) tasks and environments for incentivizing and eliciting the targeted meta-capability in LLMs during training, as well as for faithfully measuring progress during evaluation. We present proof-of-concept implementations of the CoD framework, including a GRPO-style RL algorithm with fine-grained credit assignment, as well as tasks and environments tailored to the targeted meta-capability (rather than domain-specific LLM capabilities or standard task-by-task RL). Empirical results with Qwen3-8B and Qwen3.6-27B validate the efficacy of end-to-end RL training in the CoD setting, and demonstrate the potential for out-of-distribution generalization -- within the training domains, across different domains, and from CoD to Ralph-loop settings -- of the elicited meta-capability. Our investigation of CoD connects several lines of prior work, and opens up new opportunities for advancing LLMs and AI agents. To facilitate further research and applications, we release our implementations at https://github.com/agentscope-ai/Trinity-RFT/tree/research/cod_v2/examples/research_cod.
+
+## Long-Horizon Task Agents
+
+### [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2)
+
+- **Authors:** Xuan Zhang, Wenxuan Zhang, See-Kiong Ng, Yang Deng
+- **Published:** 2026-06-29
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2606.30639v2) · [PDF](https://arxiv.org/pdf/2606.30639v2)
+
+World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world model framework that revises its deployment-time context while keeping the downstream agent and all model parameters frozen. WorldEvolver integrates three modules: (i) Episodic Memory, which exploits real action transitions through retrieval-based simulation; (ii) Semantic Memory, which extracts persistent heuristic rules from prediction-observation mismatches; and (iii) Selective Foresight, which filters low-confidence predictions before integrating them into agent reasoning context. We evaluate WorldEvolver on ALFWorld and ScienceWorld, measuring world model prediction accuracy on Word2World and downstream agent success rate on AgentBoard. Extensive experiments show that WorldEvolver achieves the highest prediction accuracy across three backbones and leads other world model baselines on downstream agent success rate, demonstrating that test-time memory revision enhances both predictive fidelity and planning performance.
+
+### [Selective Memory Retention for Long-Horizon LLM Agents](https://arxiv.org/abs/2606.29178v1)
+
+- **Authors:** Pranath Reddy
+- **Published:** 2026-06-28
+- **Priority:** 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
+- **Venue:** ICML 2026
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2606.29178v1) · [PDF](https://arxiv.org/pdf/2606.29178v1)
+
+When does retention matter for memory-augmented LLM agents? We study this with TraceRetain, a lightweight framework for bounded external memory in frozen LLM agents that scores entries by interpretable features (success, age, access frequency, redundancy, specificity, similarity, downstream utility) and evicts the lowest-scoring ones at capacity. On clean ALFWorld with gpt-5-mini, external memory robustly improves over no memory across two seeds, but differences among bounded retention policies fall within Wilson 95% CIs: clean ALFWorld at T=100 to T=200 does not naturally exhibit the memory pollution retention is designed to address. Under a controlled noisy-write stress (75% synthetic distractors), unbounded memory and FIFO-K50 degrade on Precision@5 (20.2% to 12.4% and 15.8% to 3.8%) while TraceRetain-CEM is essentially unchanged (16.9% to 16.6%) and preserves 97/100 task success. The mechanism: unbounded memory has the highest mean similarity (0.87) but lowest precision, indicating failed distractors close to the query in embedding space. Held-out in-distribution evaluation shows memory-augmented policies solving 47 to 49 of 50 tasks vs. 39/50 for no memory. Bounded retention buys memory and step efficiency on saturated clean benchmarks at no task-success cost, and only differentiates from cache heuristics when streams contain noise.
+
+### [Self-Evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution](https://arxiv.org/abs/2606.28971v2)
+
+- **Authors:** Shuang Cui, Fan Ji, Guanglong Sun, Yufei Guo, Xiongxin Tang, Jiangmeng Li, Fanjiang Xu
+- **Published:** 2026-06-27
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2606.28971v2) · [PDF](https://arxiv.org/pdf/2606.28971v2)
+
+Real-world image restoration (IR) remains challenging due to complex and coupled degradations. While recent agentic IR frameworks leverage Large Language Models for flexible tool planning, they face two critical limitations. First, from a search scheme perspective, excessive reliance on greedy strategies fails to balance exploration and exploitation. Second, existing agentic systems underutilize information, exhibiting episodic amnesia. To address these challenges, we propose \textbf{Self-Evolving Agentic Image Restoration (SEAR)}, which formulates restoration as a sequential decision-making problem. Inspired by the dual-process theory, SEAR comprises an Intuitive Executor and a Deliberate Planner, respectively following the fast-thinking \textit{System 1} and slow-thinking \textit{System 2} principles. The Deliberate Planner employs Pruning-Aware Monte Carlo Tree Search for long-horizon reasoning, utilizing a hybrid no-reference reward and a Multimodal Large Language Model (MLLM)-based tournament to prevent metric exploitation. Complementarily, the Intuitive Executor leverages a self-evolving episodic memory indexed by degradation-aware state fingerprints. This mechanism distills expensive search trajectories into adaptive expertise, overcoming episodic amnesia while progressively amortizing cold-start exploration costs through memory reuse. Extensive experiments on synthetic and real-world benchmarks demonstrate its strong perceptual and quantitative performance.
+
+### [Are We Ready For An Agent-Native Memory System?](https://arxiv.org/abs/2606.24775v1)
+
+- **Authors:** Wei Zhou, Xuanhe Zhou, Shaokun Han, Hongming Xu, Guoliang Li, Zhiyu Li, Feiyu Xiong, Fan Wu
+- **Published:** 2026-06-23
+- **Priority:** ⭐ Popular code<br>📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL, cs.DB, cs.IR
+- **Links:** [Paper](https://arxiv.org/abs/2606.24775v1) · [PDF](https://arxiv.org/pdf/2606.24775v1) · [Code](https://github.com/OpenDataBox/MemoryData)
+
+Memory for large language model (LLM) agents has rapidly evolved from simple retrieval-augmented mechanisms into a data management system that supports persistent information storage, retrieval, update, consolidation, and dynamic lifecycle governance throughout agent execution. Despite this evolution, existing evaluations still benchmark agent memory mainly through end-to-end task success metrics (e.g., F1, BLEU), while treating the underlying system as a monolithic black box. As a result, critical system-level concerns, including operational costs, architectural trade-offs across memory modules, and robustness under dynamic knowledge updates, remain insufficiently explored. In this paper, we present a systematic experimental study of agent memory from a data management perspective. We propose an analytical framework that decomposes agent memory into four core modules: memory representation and storage, extraction, retrieval and routing, and maintenance. Under this framework, we evaluate 12 representative memory systems and two reference baselines across five benchmark workloads spanning 11 datasets. Our extensive end-to-end evaluation shows that no single architecture dominates across all scenarios; instead, effectiveness depends heavily on how well the memory structure aligns with the workload bottleneck. Furthermore, through fine-grained ablation studies, we quantify their individual effects on representation fidelity, retrieval precision, update correctness, and long-horizon stability. Finally, we reveal cost-performance trade-offs under realistic workloads, showing localized maintenance is more cost-efficient than global reorganization. Based on these findings, we identify promising directions towards building truly agent-native memory systems. The code is publicly available at https://github.com/OpenDataBox/MemoryData.
+
+### [HoloAgent-0: A Unified Embodied Agent Framework with 3D Spatial Memory](https://arxiv.org/abs/2606.23565v1)
+
+- **Authors:** Xiaolin Zhou, Liu Liu, Tingyang Xiao, Wei Feng, Fa Fu, Xinrui Meng, Xinjie Wang, Jialiang Han, Boyang Yu, Yun Du, Wei Sui, Zhizhong Su
+- **Published:** 2026-06-22
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.RO, cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2606.23565v1) · [PDF](https://arxiv.org/pdf/2606.23565v1)
+
+LLM agents follow a practical execution loop in digital environments: they reason over structured states, invoke tools, inspect feedback, and revise actions. Extending this loop to physical robots is difficult because physical execution is continuous, embodiment-dependent, uncertain, and constrained by safety. Existing embodied-AI systems have advanced manipulation, spatial understanding, navigation, and humanoid control, but these capabilities often remain specialized modules or loosely coupled decision loops. In this work, we introduce HoloAgent-0, a unified embodied agent framework for real-world robot deployment. Embodied AgentOS converts language instructions into executable skill graphs, schedules robot resources, monitors execution, and triggers clarification or re-planning from runtime feedback. HoloAgent-0 organizes heterogeneous robot models and controllers through three coupled layers: Embodied AgentOS for closed-loop execution, 3D spatial memory for physical world grounding, and embodied skills for robot action. We deploy HoloAgent-0 on real hardware and evaluate its spatial memory, long-horizon navigation, and closed-loop execution across motion generation, object search, cross-robot coordination, and mobile manipulation.
+
+### [When Does Overlap Help? OSU-Mem and a Cell-Conditional Analysis of Trajectory Memory for LLM Agents](https://arxiv.org/abs/2606.28376v1)
+
+- **Authors:** Mellow Baixuan Chen, Xiangguo Sun
+- **Published:** 2026-06-19
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.IR, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2606.28376v1) · [PDF](https://arxiv.org/pdf/2606.28376v1)
+
+Long-horizon large language model (LLM) agents accumulate interaction trajectories that quickly exceed any practical prompt budget, and existing memory methods either truncate aggressively and lose non-local evidence or retain boilerplate that degrades decision quality. We ask a mechanism question rather than claiming a better general-purpose memory system: when does organizing trajectory memory into overlapping semantic units (OSUs) -- groups of related steps in which one step may belong to several units -- help retrieval over flat or disjoint alternatives? We instantiate this in OSU-Mem, which retrieves from an overlapping OSU pool via budgeted coarse-to-fine expansion, and show its benefit is conditional: overlapping memory helps when the evidence steps a query needs share tool calls or entities, but hurts when those steps are fully heterogeneous and share neither. On a synthetic benchmark where evidence carries such shared structure by construction, OSU-Mem improves over the strongest baseline as the theory predicts; yet on a concatenated, constructed unaugmented $τ$-bench setting its aggregate advantage over flat retrieval vanishes. Splitting queries by whether their evidence shares tools and entities shows this near-tie to be an artifact of mixing query types rather than a property of either method, and ToolBench, a controlled probe built to carry shared structure by design, corroborates the same mechanism via an overlap-vs.-disjoint construction contrast (under a coverage-guided variant), isolating the construction principle rather than validating the full default system. Because the relevant sharing is cheaply estimable from metadata, the analysis yields a metadata-based heuristic for predicting when overlap is likely to improve retrieval. We deliberately isolate the retrieval layer, assessed by retrieval quality and an LLM-mediated evidence-selection stage.
+
+### [Learning What Not to Forget: Long-Horizon Agent Memory from a Few Kilobytes of Learning](https://arxiv.org/abs/2606.20954v2)
+
+- **Authors:** Nusrat Jahan Lia, Aritra Mazumder
+- **Published:** 2026-06-18
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2606.20954v2) · [PDF](https://arxiv.org/pdf/2606.20954v2)
+
+Long-running language-model systems accumulate interaction history that outgrows the context window, so they must continually evict. When an eviction policy drops a task-critical detail, for example an access token issued at login or a path the next call needs, the action fails. We present LRE (Learned Relevance Eviction), a kilobyte-scale, CPU-only, language-model-free scorer that learns which units of history are task-critical and keeps them by verbatim extraction. Under a matched-budget comparison, in our experiment, no baseline dominates LRE on the accuracy-cost plane. On agents, LRE recovers 93% of the aggregate accuracy of keeping the entire history (41.1 vs. 44.0) and exceeds it by 27% on the simplest tasks, while requiring zero compressor calls and cutting the worst-case peak prompt by 52%. A controlled study trace shows LRE completes tasks where the others loop, finishing one such task in 37% fewer calls than keeping everything and solving 14 tasks where no other run policy does. On conversational memory, LRE outranks dense and token-pruning encoders at zero neural cost while being 295-1569x smaller in size. In downstream evaluation, LRE gives the best budgeted answer quality on LoCoMo reading 68% fewer tokens. Its supervision can also be annotation-free: training only on the system's own behavior recovers 95% of the supervised scorer's effectiveness. We argue that, because memory eviction in LLM agents is a fidelity problem, it requires a deployable proactive policy where the future query is unavailable and exact state is decisive, and that cheap learned relevance can be sufficient.

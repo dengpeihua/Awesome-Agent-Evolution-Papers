@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -13,7 +13,7 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
-| 2026-04-22 | Agent Memory | [Stateless Decision Memory for Enterprise AI Agents](https://arxiv.org/abs/2604.20158) | — |
+| 2026-04-22 | Agent Memory | [Memory-Augmented LLM-based Multi-Agent System for Automated Feature Generation on Tabular Data](https://arxiv.org/abs/2604.20261) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-22 | Agent Memory | [IMPACT-CYCLE: A Contract-Based Multi-Agent System for Claim-Level Supervisory Correction of Long-Video Semantic Memory](https://arxiv.org/abs/2604.20136) | — |
 | 2026-04-22 | Agent Memory | [To Know is to Construct: Schema-Constrained Generation for Agent Memory](https://arxiv.org/abs/2604.20117) | — |
 | 2026-04-21 | Agent Memory | [EgoSelf: From Memory to Personalized Egocentric Assistant](https://arxiv.org/abs/2604.19564) | — |
@@ -23,21 +23,21 @@
 | 2026-04-20 | Agent Memory | [HiGMem: A Hierarchical and LLM-Guided Memory System for Long-Term Conversational Agents](https://arxiv.org/abs/2604.18349) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-20 | Agent/LLM Self-Improvement, LLM Continual Training | [Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence](https://arxiv.org/abs/2604.18292) | 📈 Highly cited<br>🏢 Industry: ByteDance |
 | 2026-04-20 | Agent Memory | [EmbodiedLGR: Integrating Lightweight Graph Representation and Retrieval for Semantic-Spatial Memory in Robotic Agents](https://arxiv.org/abs/2604.18271) | — |
-| 2026-04-19 | Agent/LLM Self-Improvement | [EvoMaster: A Foundational Evolving Agent Framework for Agentic Science at Scale](https://arxiv.org/abs/2604.17406v5) | — |
+| 2026-04-19 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [EvoMaster: A Foundational Evolving Agent Framework for Agentic Science at Scale](https://arxiv.org/abs/2604.17406v5) | — |
 | 2026-04-19 | Agent Memory | [MemSearch-o1: Empowering Large Language Models with Reasoning-Aligned Memory Growth in Agentic Search](https://arxiv.org/abs/2604.17265) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-19 | Agent/LLM Self-Improvement | [Towards Self-Improving Error Diagnosis in Multi-Agent Systems](https://arxiv.org/abs/2604.17658) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
+| 2026-04-18 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)](https://arxiv.org/abs/2604.17091v1) | 🔥 Very popular code<br>📈 Highly cited |
 | 2026-04-18 | Agent/LLM Self-Improvement | [FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills](https://arxiv.org/abs/2607.21596v2) | — |
 | 2026-04-18 | Agent/LLM Self-Improvement | [Federation over Text: Insight Sharing for Multi-Agent Reasoning](https://arxiv.org/abs/2604.16778v3) | — |
-| 2026-04-18 | Agent/LLM Self-Improvement | [GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)](https://arxiv.org/abs/2604.17091) | 🔥 Very popular code<br>📈 Highly cited |
 | 2026-04-18 | Agent Memory | [Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory Poisoning](https://arxiv.org/abs/2604.16966) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-18 | Agent/LLM Self-Improvement, Agent Memory | [MEMRES: A Memory-Augmented Resolver with Confidence Cascade for Agentic Python Dependency Resolution](https://arxiv.org/abs/2604.16941) | — |
 | 2026-04-18 | Agent Memory | [HeLa-Mem: Hebbian Learning and Associative Memory for LLM Agents](https://arxiv.org/abs/2604.16839) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-17 | Agent/LLM Self-Improvement | [AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation](https://arxiv.org/abs/2604.16625v2) | — |
+| 2026-04-17 | Agent Memory, Long-Horizon Task Agents | [Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents](https://arxiv.org/abs/2604.15877v2) | 📈 Highly cited |
+| 2026-04-17 | Agent Memory, Long-Horizon Task Agents | [MemEvoBench: Benchmarking Safety Risks from Memory Misevolution in LLM Agents](https://arxiv.org/abs/2604.15774v2) | — |
 | 2026-04-17 | LLM Continual Training | [HyCal: A Training-Free Prototype Calibration Method for Cross-Discipline Few-Shot Class-Incremental Learning](https://arxiv.org/abs/2604.15678v2) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-17 | Agent Memory | [Long-Term Memory for VLA-based Agents in Open-World Task Execution](https://arxiv.org/abs/2604.15671) | — |
-| 2026-04-17 | Agent Memory | [Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents](https://arxiv.org/abs/2604.15877) | 📈 Highly cited |
 | 2026-04-17 | Agent Memory | [A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle](https://arxiv.org/abs/2604.16548) | 📈 Highly cited |
-| 2026-04-17 | Agent Memory | [MemEvoBench: Benchmarking Safety Risks from Memory Misevolution in LLM Agents](https://arxiv.org/abs/2604.15774) | — |
 | 2026-04-16 | LLM Continual Training | [Why Fine-Tuning Encourages Hallucinations and How to Fix It](https://arxiv.org/abs/2604.15574v3) | — |
 | 2026-04-16 | Reinforcement Learning | [Acceptance Dynamics Across Cognitive Domains in Speculative Decoding](https://arxiv.org/abs/2604.14682v2) | — |
 | 2026-04-16 | Agent/LLM Self-Improvement | [SAGER: Self-Evolving User Policy Skills for Recommendation Agent](https://arxiv.org/abs/2604.14972) | — |
@@ -55,9 +55,9 @@
 | 2026-04-10 | Agent Memory | [ADAM: A Systematic Data Extraction Attack on Agent Memory via Adaptive Querying](https://arxiv.org/abs/2604.09747) | — |
 | 2026-04-10 | Agent Memory | [Constraint-Aware Corrective Memory for Language-Based Drug Discovery Agents](https://arxiv.org/abs/2604.09308) | — |
 | 2026-04-09 | LLM Continual Training | [BioELX: Context-Aware Cross-lingual Biomedical Entity Linking without Task-Specific Supervision](https://arxiv.org/abs/2605.27380v2) | — |
+| 2026-04-09 | Agent Memory, Long-Horizon Task Agents | [Lightweight LLM Agent Memory with Small Language Models](https://arxiv.org/abs/2604.07798v3) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-09 | Reinforcement Learning | [LLM-Guided Dynamic Action Spaces for Synthesizable Molecular Optimization](https://arxiv.org/abs/2604.07669v3) | — |
 | 2026-04-09 | Reinforcement Learning | [An Imperfect Verifier is Good Enough: Learning with Noisy Rewards](https://arxiv.org/abs/2604.07666v2) | 📈 Highly cited |
-| 2026-04-09 | Agent Memory | [Lightweight LLM Agent Memory with Small Language Models](https://arxiv.org/abs/2604.07798) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-09 | Agent/LLM Self-Improvement, Agent Memory | [SEARL: Joint Optimization of Policy and Tool Graph Memory for Self-Evolving Agents](https://arxiv.org/abs/2604.07791) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-04-09 | Agent Memory | [MemReader: From Passive to Active Extraction for Long-Term Agent Memory](https://arxiv.org/abs/2604.07877) | — |
 | 2026-04-09 | Agent/LLM Self-Improvement, Agent Memory | [Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering](https://arxiv.org/abs/2604.08224) | 📈 Highly cited |
@@ -68,17 +68,18 @@
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [Memory-Augmented LLM-based Multi-Agent System for Automated Feature Generation on Tabular Data](https://arxiv.org/abs/2604.20261) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents](https://arxiv.org/abs/2604.20006) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [OpenGame: Open Agentic Coding for Games](https://arxiv.org/abs/2604.18394v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [HiGMem: A Hierarchical and LLM-Guided Memory System for Long-Term Conversational Agents](https://arxiv.org/abs/2604.18349) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence](https://arxiv.org/abs/2604.18292) | 📈 Highly cited<br>🏢 Industry: ByteDance | First author: Gaoling School of Artificial Intelligence, Renmin University of China (Official arXiv HTML and project page) |
 | [MemSearch-o1: Empowering Large Language Models with Reasoning-Aligned Memory Growth in Agentic Search](https://arxiv.org/abs/2604.17265) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics<br>Dalian University of Technology |
 | [Towards Self-Improving Error Diagnosis in Multi-Agent Systems](https://arxiv.org/abs/2604.17658) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
-| [GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)](https://arxiv.org/abs/2604.17091) | 🔥 Very popular code<br>📈 Highly cited | Fudan University |
+| [GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)](https://arxiv.org/abs/2604.17091v1) | 🔥 Very popular code<br>📈 Highly cited | Fudan University |
 | [Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory Poisoning](https://arxiv.org/abs/2604.16966) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [HeLa-Mem: Hebbian Learning and Associative Memory for LLM Agents](https://arxiv.org/abs/2604.16839) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents](https://arxiv.org/abs/2604.15877v2) | 📈 Highly cited | School of Computer Science and Engineering, Nanyang Technological University, Singapore |
 | [HyCal: A Training-Free Prototype Calibration Method for Cross-Discipline Few-Shot Class-Incremental Learning](https://arxiv.org/abs/2604.15678v2) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to CVPR 2026. Eunju Lee and MiHyeon Kim contributed equally as co-first authors. Official code implementation is available at: https://github.com/EJLEE5826/HyCal-CIL<br>First author: Chung-Ang University (Semantic Scholar author profiles) |
-| [Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents](https://arxiv.org/abs/2604.15877) | 📈 Highly cited | School of Computer Science and Engineering, Nanyang Technological University, Singapore |
 | [A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle](https://arxiv.org/abs/2604.16548) | 📈 Highly cited | First author: Zhejiang University;Institute for Advanced Algorithms Research, Shanghai;MemTensor (Semantic Scholar author profiles) |
 | [Autonomous Evolution of EDA Tools: Multi-Agent Self-Evolved ABC](https://arxiv.org/abs/2604.15082) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [APEX-MEM: Agentic Semi-Structured Memory with Temporal Reasoning for Long-Term Conversational AI](https://arxiv.org/abs/2604.14362) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
@@ -86,8 +87,8 @@
 | [MolMem: Memory-Augmented Agentic Reinforcement Learning for Sample-Efficient Molecular Optimization](https://arxiv.org/abs/2604.12237) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [Thought-Retriever: Don't Just Retrieve Raw Data, Retrieve Thoughts for Memory-Augmented Agentic Systems](https://arxiv.org/abs/2604.12231) | 📈 Highly cited | First author: UIUC (Semantic Scholar author profiles) |
 | [StreamMeCo: Long-Term Agent Memory Compression for Efficient Streaming Video Understanding](https://arxiv.org/abs/2604.09000) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [Lightweight LLM Agent Memory with Small Language Models](https://arxiv.org/abs/2604.07798v3) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted by ACL 2026 (main) |
 | [An Imperfect Verifier is Good Enough: Learning with Noisy Rewards](https://arxiv.org/abs/2604.07666v2) | 📈 Highly cited | First author: ETH Zurich (Semantic Scholar author profiles) |
-| [Lightweight LLM Agent Memory with Small Language Models](https://arxiv.org/abs/2604.07798) | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [SEARL: Joint Optimization of Policy and Tool Graph Memory for Self-Evolving Agents](https://arxiv.org/abs/2604.07791) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering](https://arxiv.org/abs/2604.08224) | 📈 Highly cited | First author: Shanghai Jiao Tong Univeristy (Semantic Scholar author profiles) |
 
@@ -141,6 +142,18 @@ The convergence of large language models and agents is catalyzing a new era of s
 
 Large Language Model (LLM)-based Multi-Agent Systems (MAS) enable complex problem-solving but introduce significant debugging challenges, characterized by long interaction traces, inter-agent dependencies, and delayed error manifestation. Existing diagnostic approaches often rely on expensive expert annotation or ''LLM-as-a-judge'' paradigms, which struggle to pinpoint decisive error steps within extended contexts. In this paper, we introduce ErrorProbe, a self-improving framework for semantic failure attribution that identifies responsible agents and the originating error step. The framework operates via a three-stage pipeline: (1) operationalizing the MAS failure taxonomy to detect local anomalies, (2) performing symptom-driven backward tracing to prune irrelevant context, and (3) employing a specialized multi-agent team (Strategist, Investigator, Arbiter) to validate error hypotheses through tool-grounded execution. Crucially, ErrorProbe maintains a verified episodic memory that updates only when error patterns are confirmed by executable evidence, without the need for annotation. Experiments across the TracerTraj and Who&When benchmarks demonstrate that ErrorProbe significantly outperforms baselines, particularly in step-level localization, while the verified memory enables robust cross-domain transfer without retraining.
 
+### [GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)](https://arxiv.org/abs/2604.17091v1)
+
+- **Authors:** Jiaqing Liang, Jinyi Han, Weijia Li, Xinyi Wang, Zhoujia Zhang, Zishang Jiang, Ying Liao, Tingyun Li, Ying Huang, Hao Shen, Hanyu Wu, Fang Guo, Keyi Wang, Zhonghua Hong, Zhiyu Lu, Lipeng Ma, Sihang Jiang, Yanghua Xiao
+- **Published:** 2026-04-18
+- **Priority:** 🔥 Very popular code<br>📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** Fudan University
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2604.17091v1) · [PDF](https://arxiv.org/pdf/2604.17091v1) · [Code](https://github.com/lsdefine/GenericAgent)
+
+Long-horizon large language model (LLM) agents are fundamentally limited by context. As interactions become longer, tool descriptions, retrieved memories, and raw environmental feedback accumulate and push out the information needed for decision-making. At the same time, useful experience gained from tasks is often lost across episodes. We argue that long-horizon performance is determined not by context length, but by how much decision-relevant information is maintained within a finite context budget. We present GenericAgent (GA), a general-purpose, self-evolving LLM agent system built around a single principle: context information density maximization. GA implements this through four closely connected components: a minimal atomic tool set that keeps the interface simple, a hierarchical on-demand memory that only shows a small high-level view by default, a self-evolution mechanism that turns verified past trajectories into reusable SOPs and executable code, and a context truncation and compression layer that maintains information density during long executions. Across task completion, tool use efficiency, memory effectiveness, self-evolution, and web browsing, GA consistently outperforms leading agent systems while using significantly fewer tokens and interactions, and it continues to evolve over time. Project: https://github.com/lsdefine/GenericAgent
+
 ### [FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills](https://arxiv.org/abs/2607.21596v2)
 
 - **Authors:** Zeyu Ren, Ling Yue, Ran Li, Yishu Wang, Shengxiang Xu, Hanmo Liu, Shaowu Pan, Shimin Di
@@ -164,18 +177,6 @@ Large language model agents can adapt to complex tasks by constructing workflows
 - **Links:** [Paper](https://arxiv.org/abs/2604.16778v3) · [PDF](https://arxiv.org/pdf/2604.16778v3)
 
 Modern agents specialize in varying domains while there is no clear approach combining different domain skills. We propose a federated learning-like framework, Federation over Text (FoT), that enables multiple clients solving different tasks to collectively generate a shared library of metacognitive insights by iteratively federating their local reasoning processes without sharing actual problem instances. Instead of federation over gradients (e.g., as in distributed training), FoT operates at the semantic level without any gradient optimization or supervision signal. At each round, client LLM agents independently apply arbitrary local reasoning and self-improvement procedures to their own tasks and share the resulting reasoning traces with a central server. The server then aggregates, distills, and consolidates knowledge across tasks and domains into a shared insight library, which can be reused by current and future agents to improve their reasoning. Experiments show that FoT improves reasoning effectiveness and efficiency across real-world daily tasks, cross-domain collaboration, and research insight discovery, achieving an average performance gain of 11.9 absolute percentage points while reducing client-generated task-completion tokens by 5.5%.
-
-### [GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)](https://arxiv.org/abs/2604.17091)
-
-- **Authors:** Liang, Jiaqing, Han, Jinyi, Li, Weijia, Wang, Xinyi, Zhang, Zhoujia, Jiang, Zishang, Liao, Ying, Li, Tingyun, Huang, Ying, Shen, Hao, Wu, Hanyu, Guo, Fang, Wang, Keyi, Hong, Zhonghua, Lu, Zhiyu, Ma, Lipeng, Jiang, Sihang, Xiao, Yanghua
-- **Published:** 2026-04-18
-- **Priority:** 🔥 Very popular code<br>📈 Highly cited
-- **Venue:** arXiv.org
-- **Affiliations:** Fudan University
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2604.17091) · [PDF](https://arxiv.org/pdf/2604.17091) · [Code](https://github.com/lsdefine/GenericAgent)
-
-Long-horizon large language model (LLM) agents are fundamentally limited by context. As interactions become longer, tool descriptions, retrieved memories, and raw environmental feedback accumulate and push out the information needed for decision-making. At the same time, useful experience gained from tasks is often lost across episodes. We argue that long-horizon performance is determined not by context length, but by how much decision-relevant information is maintained within a finite context budget. We present GenericAgent (GA), a general-purpose, self-evolving LLM agent system built around a single principle: context information density maximization. GA implements this through four closely connected components: a minimal atomic tool set that keeps the interface simple, a hierarchical on-demand memory that only shows a small high-level view by default, a self-evolution mechanism that turns verified past trajectories into reusable SOPs and executable code, and a context truncation and compression layer that maintains information density during long executions. Across task completion, tool use efficiency, memory effectiveness, self-evolution, and web browsing, GA consistently outperforms leading agent systems while using significantly fewer tokens and interactions, and it continues to evolve over time. Project: https://github.com/lsdefine/GenericAgent
 
 ### [MEMRES: A Memory-Augmented Resolver with Confidence Cascade for Agentic Python Dependency Resolution](https://arxiv.org/abs/2604.16941)
 
@@ -299,17 +300,17 @@ Large language model (LLM) agents are increasingly built less by changing model 
 
 ## Agent Memory
 
-### [Stateless Decision Memory for Enterprise AI Agents](https://arxiv.org/abs/2604.20158)
+### [Memory-Augmented LLM-based Multi-Agent System for Automated Feature Generation on Tabular Data](https://arxiv.org/abs/2604.20261)
 
-- **Authors:** Srinivasan, Vasundra
+- **Authors:** Dong, Fengxian, Zheng, Zhi, Han, Xiao, Chen, Wei, Ruan, Jingqing, Xu, Tong, Chen, Yong, Chen, Enhong
 - **Published:** 2026-04-22
-- **Priority:** —
-- **Venue:** arXiv.org
+- **Priority:** 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2604.20158) · [PDF](https://arxiv.org/pdf/2604.20158) · [Code](https://github.com/vasundras/stateless-decision-memory-enterprise-ai-agents)
+- **Links:** [Paper](https://arxiv.org/abs/2604.20261) · [PDF](https://arxiv.org/pdf/2604.20261) · [Code](https://github.com/fxdong24/MALMAS)
 
-Enterprise deployment of long-horizon decision agents in regulated domains (underwriting, claims adjudication, tax examination) is dominated by retrieval-augmented pipelines despite a decade of increasingly sophisticated stateful memory architectures. We argue this reflects a hidden requirement: regulated deployment is load-bearing on four systems properties (deterministic replay, auditable rationale, multi-tenant isolation, statelessness for horizontal scale), and stateful architectures violate them by construction. We propose Deterministic Projection Memory (DPM): an append-only event log plus one task-conditioned projection at decision time. On ten regulated decisioning cases at three memory budgets, DPM matches summarization-based memory at generous budgets and substantially outperforms it when the budget binds: at a 20x compression ratio, DPM improves factual precision by +0.52 (Cohen's h=1.17, p=0.0014) and reasoning coherence by +0.53 (h=1.13, p=0.0034), paired permutation, n=10. DPM is additionally 7-15x faster at binding budgets, making one LLM call at decision time instead of N. A determinism study of 10 replays per case at temperature zero shows both architectures inherit residual API-level nondeterminism, but the asymmetry is structural: DPM exposes one nondeterministic call; summarization exposes N compounding calls. The audit surface follows the same one-versus-N pattern: DPM logs two LLM calls per decision while summarization logs 83-97 on LongHorizon-Bench. We conclude with TAMS, a practitioner heuristic for architecture selection, and a failure analysis of stateful memory under enterprise operating conditions. The contribution is the argument that statelessness is the load-bearing property explaining enterprise's preference for weaker but replayable retrieval pipelines, and that DPM demonstrates this property is attainable without the decisioning penalty retrieval pays.
+Automated feature generation extracts informative features from raw tabular data without manual intervention and is crucial for accurate, generalizable machine learning. Traditional methods rely on predefined operator libraries and cannot leverage task semantics, limiting their ability to produce diverse, high-value features for complex tasks. Recent Large Language Model (LLM)-based approaches introduce richer semantic signals, but still suffer from a restricted feature space due to fixed generation patterns and from the absence of feedback from the learning objective. To address these challenges, we propose a Memory-Augmented LLM-based Multi-Agent System (\textbf{MALMAS}) for automated feature generation. MALMAS decomposes the generation process into agents with distinct responsibilities, and a Router Agent activates an appropriate subset of agents per iteration, further broadening exploration of the feature space. We further integrate a memory module comprising procedural memory, feedback memory, and conceptual memory, enabling iterative refinement that adaptively guides subsequent feature generation and improves feature quality and diversity. Extensive experiments on multiple public datasets against state-of-the-art baselines demonstrate the effectiveness of our approach. The code is available at https://github.com/fxdong24/MALMAS
 
 ### [IMPACT-CYCLE: A Contract-Based Multi-Agent System for Claim-Level Supervisory Correction of Long-Video Semantic Memory](https://arxiv.org/abs/2604.20136)
 
@@ -443,6 +444,30 @@ We present MEMRES, an agentic system for Python dependency resolution that intro
 
 Long-term memory is a critical challenge for Large Language Model agents, as fixed context windows cannot preserve coherence across extended interactions. Existing memory systems represent conversation history as unstructured embedding vectors, retrieving information through semantic similarity. This paradigm fails to capture the associative structure of human memory, wherein related experiences progressively strengthen interconnections through repeated co-activation. Inspired by cognitive neuroscience, we identify three mechanisms central to biological memory: association, consolidation, and spreading activation, which remain largely absent in current research. To bridge this gap, we propose HeLa-Mem, a bio-inspired memory architecture that models memory as a dynamic graph with Hebbian learning dynamics. HeLa-Mem employs a dual-level organization: (1) an episodic memory graph that evolves through co-activation patterns, and (2) a semantic memory store populated via Hebbian Distillation, wherein a Reflective Agent identifies densely connected memory hubs and distills them into structured, reusable semantic knowledge. This dual-path design leverages both semantic similarity and learned associations, mirroring the episodic-semantic distinction in human cognition. Experiments on LoCoMo demonstrate superior performance across four question categories while using significantly fewer context tokens. Code is available on GitHub: https://github.com/ReinerBRO/HeLa-Mem
 
+### [Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents](https://arxiv.org/abs/2604.15877v2)
+
+- **Authors:** Xing Zhang, Guanghui Wang, Yanwei Cui, Wei Qiu, Ziyuan Li, Bing Zhu, Peiyang He
+- **Published:** 2026-04-17
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** School of Computer Science and Engineering, Nanyang Technological University, Singapore
+- **Categories:** cs.AI, cs.CL, cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2604.15877v2) · [PDF](https://arxiv.org/pdf/2604.15877v2)
+
+As LLM agents scale to long-horizon, multi-session deployments, efficiently managing accumulated experience becomes a critical bottleneck. Agent memory systems and agent skill discovery both address this challenge, extracting reusable knowledge from interaction traces, yet a citation analysis of 1{,}136 references across 22 primary papers reveals a cross-community citation rate below 1\%. We propose the \emph{Experience Compression Spectrum}, a unifying framework that positions memory, skills, and rules as points along a single axis of increasing compression (5--20$\times$ for episodic memory, 50--500$\times$ for procedural skills, 1{,}000$\times$+ for declarative rules), directly reducing context consumption, retrieval latency, and compute overhead. Mapping 20+ systems onto this spectrum reveals that every system operates at a fixed, predetermined compression level: none supports adaptive cross-level compression, a gap we term the \emph{missing diagonal}. We further show that specialization alone is insufficient (both communities independently solve shared sub-problems without exchanging solutions), that evaluation methods are tightly coupled to compression levels, that transferability increases with compression at the cost of specificity, and that knowledge lifecycle management remains largely neglected. We articulate open problems and design principles for scalable, full-spectrum agent learning systems.
+
+### [MemEvoBench: Benchmarking Safety Risks from Memory Misevolution in LLM Agents](https://arxiv.org/abs/2604.15774v2)
+
+- **Authors:** Weiwei Xie, Shaoxiong Guo, Fan Zhang, Tian Xia, Xue Yang, Lizhuang Ma, Junchi Yan, Qibing Ren
+- **Published:** 2026-04-17
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2604.15774v2) · [PDF](https://arxiv.org/pdf/2604.15774v2)
+
+Equipping Large Language Models (LLMs) with persistent memory enhances interaction continuity and personalization but introduces new safety risks. Specifically, contaminated or biased memory accumulation can trigger abnormal agent behaviors. Existing evaluation methods have not yet established a standardized framework for measuring memory misevolution. This phenomenon refers to the gradual behavioral drift resulting from repeated exposure to misleading information. To address this gap, we introduce MemEvoBench, the first benchmark evaluating long-horizon memory safety in LLM agents against adversarial memory injection, noisy tool outputs, and biased feedback. The framework consists of QA-style tasks across 7 domains and 36 risk types, complemented by workflow-style tasks adapted from 20 Agent-SafetyBench environments with noisy tool returns. Both settings employ mixed benign and misleading memory pools within multi-round interactions to simulate memory evolution. Experiments on representative models reveal substantial safety degradation under biased memory updates. Our analysis suggests that memory evolution is a significant contributor to these failures. Furthermore, static prompt-based defenses prove insufficient, underscoring the urgency of securing memory evolution in LLM agents.
+
 ### [Long-Term Memory for VLA-based Agents in Open-World Task Execution](https://arxiv.org/abs/2604.15671)
 
 - **Authors:** Huang, Xu, Mao, Weixin, Li, Yinhao, Chen, Hua, Zhao, Jiabao
@@ -455,18 +480,6 @@ Long-term memory is a critical challenge for Large Language Model agents, as fix
 
 Vision-Language-Action (VLA) models have demonstrated significant potential for embodied decision-making; however, their application in complex chemical laboratory automation remains restricted by limited long-horizon reasoning and the absence of persistent experience accumulation. Existing frameworks typically treat planning and execution as decoupled processes, often failing to consolidate successful strategies, which results in inefficient trial-and-error in multi-stage protocols. In this paper, we propose ChemBot, a dual-layer, closed-loop framework that integrates an autonomous AI agent with a progress-aware VLA model (Skill-VLA) for hierarchical task decomposition and execution. ChemBot utilizes a dual-layer memory architecture to consolidate successful trajectories into retrievable assets, while a Model Context Protocol (MCP) server facilitates efficient sub-agent and tool orchestration. To address the inherent limitations of VLA models, we further implement a future-state-based asynchronous inference mechanism to mitigate trajectory discontinuities. Extensive experiments on collaborative robots demonstrate that ChemBot achieves superior operational safety, precision, and task success rates compared to existing VLA baselines in complex, long-horizon chemical experimentation.
 
-### [Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents](https://arxiv.org/abs/2604.15877)
-
-- **Authors:** Zhang, Xing, Wang, Guanghui, Cui, Yanwei, Qiu, Wei, Li, Ziyuan, Zhu, Bing, He, Peiyang
-- **Published:** 2026-04-17
-- **Priority:** 📈 Highly cited
-- **Venue:** arXiv.org
-- **Affiliations:** School of Computer Science and Engineering, Nanyang Technological University, Singapore
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2604.15877) · [PDF](https://arxiv.org/pdf/2604.15877)
-
-As LLM agents scale to long-horizon, multi-session deployments, efficiently managing accumulated experience becomes a critical bottleneck. Agent memory systems and agent skill discovery both address this challenge, extracting reusable knowledge from interaction traces, yet a citation analysis of 1{,}136 references across 22 primary papers reveals a cross-community citation rate below 1\%. We propose the \emph{Experience Compression Spectrum}, a unifying framework that positions memory, skills, and rules as points along a single axis of increasing compression (5--20$\times$ for episodic memory, 50--500$\times$ for procedural skills, 1{,}000$\times$+ for declarative rules), directly reducing context consumption, retrieval latency, and compute overhead. Mapping 20+ systems onto this spectrum reveals that every system operates at a fixed, predetermined compression level: none supports adaptive cross-level compression, a gap we term the \emph{missing diagonal}. We further show that specialization alone is insufficient (both communities independently solve shared sub-problems without exchanging solutions), that evaluation methods are tightly coupled to compression levels, that transferability increases with compression at the cost of specificity, and that knowledge lifecycle management remains largely neglected. We articulate open problems and design principles for scalable, full-spectrum agent learning systems.
-
 ### [A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle](https://arxiv.org/abs/2604.16548)
 
 - **Authors:** Lin, Zehao, Hao, Xixuan, Fu, Renyu, Cui, Shaobo, Chen, Kai, Li, Chunyu, Li, Zhiyu, Xiong, Feiyu
@@ -478,18 +491,6 @@ As LLM agents scale to long-horizon, multi-session deployments, efficiently mana
 - **Links:** [Paper](https://arxiv.org/abs/2604.16548) · [PDF](https://arxiv.org/pdf/2604.16548)
 
 The emergence of writable, cross-session persistent memory in LLM agents introduces a qualitatively different threat landscape from conventional input-centric security concerns, characterized by three properties: persistence, statefulness, and propagation. To systematically characterize this landscape, we propose a Memory Lifecycle Framework that organizes attacks, defenses, and their cross-phase dependencies along two axes: six lifecycle phases (Write, Store, Retrieve, Execute, Share & Propagate, Forget & Rollback) and four security objectives (Integrity, Confidentiality, Availability, Governance). This analysis in turn exposes the need for formal security guarantees at the system level, motivating Verifiable Memory Governance(VMG), a framework of five architectural primitives that specifies what verifiable mechanisms a long-term-memory system must provide to maintain auditable, recoverable control over its memory state. Our analysis indicates that robust Long-Term Memory (LTM) security cannot be retrofitted at retrieval or execution time alone, but must be anchored in storage-time provenance, versioning, and policy-aware retention from the outset.
-
-### [MemEvoBench: Benchmarking Safety Risks from Memory Misevolution in LLM Agents](https://arxiv.org/abs/2604.15774)
-
-- **Authors:** Xie, Weiwei, Guo, Shaoxiong, Zhang, Fan, Xia, Tian, Yang, Xue, Ma, Lizhuang, Yan, Junchi, Ren, Qibing
-- **Published:** 2026-04-17
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2604.15774) · [PDF](https://arxiv.org/pdf/2604.15774)
-
-Equipping Large Language Models (LLMs) with persistent memory enhances interaction continuity and personalization but introduces new safety risks. Specifically, contaminated or biased memory accumulation can trigger abnormal agent behaviors. Existing evaluation methods have not yet established a standardized framework for measuring memory misevolution. This phenomenon refers to the gradual behavioral drift resulting from repeated exposure to misleading information. To address this gap, we introduce MemEvoBench, the first benchmark evaluating long-horizon memory safety in LLM agents against adversarial memory injection, noisy tool outputs, and biased feedback. The framework consists of QA-style tasks across 7 domains and 36 risk types, complemented by workflow-style tasks adapted from 20 Agent-SafetyBench environments with noisy tool returns. Both settings employ mixed benign and misleading memory pools within multi-round interactions to simulate memory evolution. Experiments on representative models reveal substantial safety degradation under biased memory updates. Our analysis suggests that memory evolution is a significant contributor to these failures. Furthermore, static prompt-based defenses prove insufficient, underscoring the urgency of securing memory evolution in LLM agents.
 
 ### [APEX-MEM: Agentic Semi-Structured Memory with Temporal Reasoning for Long-Term Conversational AI](https://arxiv.org/abs/2604.14362)
 
@@ -623,15 +624,15 @@ Large Language Model (LLM) agents have achieved rapid adoption and demonstrated 
 
 Large language models are making autonomous drug discovery agents increasingly feasible, but reliable success in this setting is not determined by any single action or molecule. It is determined by whether the final returned set jointly satisfies protocol-level requirements such as set size, diversity, binding quality, and developability. This creates a fundamental control problem: the agent plans step by step, while task validity is decided at the level of the whole candidate set. Existing language-based drug discovery systems therefore tend to rely on long raw history and under-specified self-reflection, making failure localization imprecise and planner-facing agent states increasingly noisy. We present CACM (Constraint-Aware Corrective Memory), a language-based drug discovery framework built around precise set-level diagnosis and a concise memory write-back mechanism. CACM introduces protocol auditing and a grounded diagnostician, which jointly analyze multimodal evidence spanning task requirements, pocket context, and candidate-set evidence to localize protocol violations, generate actionable remediation hints, and bias the next action toward the most relevant correction. To keep planning context compact, CACM organizes memory into static, dynamic, and corrective channels and compresses them before write-back, thereby preserving persistent task information while exposing only the most decision-relevant failures. Our experimental results show that CACM improves the target-level success rate by 36.4% over the state-of-the-art baseline. The results show that reliable language-based drug discovery benefits not only from more powerful molecular tools, but also from more precise diagnosis and more economical agent states.
 
-### [Lightweight LLM Agent Memory with Small Language Models](https://arxiv.org/abs/2604.07798)
+### [Lightweight LLM Agent Memory with Small Language Models](https://arxiv.org/abs/2604.07798v3)
 
-- **Authors:** Zhang, Jiaquan, Zhang, Chaoning, Chen, Shuxu, Huang, Zhenzhen, Zheng, Pengcheng, Wang, Zhicheng, Guo, Ping, Mo, Fan, Bae, Sung-Ho, Zou, Jie, Wei, Jiwei, Yang, Yang
+- **Authors:** Jiaquan Zhang, Chaoning Zhang, Shuxu Chen, Zhenzhen Huang, Pengcheng Zheng, Zhicheng Wang, Ping Guo, Fan Mo, Sung-Ho Bae, Jie Zou, Jiwei Wei, Yang Yang
 - **Published:** 2026-04-09
 - **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
 - **Venue:** Annual Meeting of the Association for Computational Linguistics
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2604.07798) · [PDF](https://arxiv.org/pdf/2604.07798)
+- **Links:** [Paper](https://arxiv.org/abs/2604.07798v3) · [PDF](https://arxiv.org/pdf/2604.07798v3)
 
 Although LLM agents can leverage tools for complex tasks, they still need memory to maintain cross-turn consistency and accumulate reusable information in long-horizon interactions. However, retrieval-based external memory systems incur low online overhead but suffer from unstable accuracy due to limited query construction and candidate filtering. In contrast, many systems use repeated large-model calls for online memory operations, improving accuracy but accumulating latency over long interactions. We propose LightMem, a lightweight memory system for better agent memory driven by Small Language Models (SLMs). LightMem modularizes memory retrieval, writing, and long-term consolidation, and separates online processing from offline consolidation to enable efficient memory invocation under bounded compute. We organize memory into short-term memory (STM) for immediate conversational context, mid-term memory (MTM) for reusable interaction summaries, and long-term memory (LTM) for consolidated knowledge, and uses user identifiers to support independent retrieval and incremental maintenance in multi-user settings. Online, LightMem operates under a fixed retrieval budget and selects memories via a two-stage procedure: vector-based coarse retrieval followed by semantic consistency re-ranking. Offline, it abstracts reusable interaction evidence and incrementally integrates it into LTM. Experiments show consistent gains across model scales, with an average F1 improvement of about 2.5 over A-MEM on LoCoMo, while achieving higher efficiency and low median latency (83 ms for retrieval and 581 ms end-to-end).
 
@@ -830,3 +831,65 @@ Synthesizable molecular optimization seeks to improve target properties while en
 - **Links:** [Paper](https://arxiv.org/abs/2604.07666v2) · [PDF](https://arxiv.org/pdf/2604.07666v2)
 
 Reinforcement Learning with Verifiable Rewards (RLVR) is widely used for post-training Large Language Models, but practical verifiers can make errors. We study how the rate and structure of reward noise affect RLVR in code generation, with a preliminary scientific-reasoning check. In multi-seed Qwen3 8B experiments on MBPP, mean validation reward over two fixed late evaluations is within 1 percentage point of the clean baseline at the tested resampled group-rollout noise rates through 20%, and within about 2 points at 30%. Confidence intervals allow larger losses; these point estimates do not establish a general tolerance threshold. We also examine full-program pass@k, four controlled noise structures, two model-based verifiers, and policy models from three families spanning 4B-9B parameters. We derive conditional advantage distributions for symmetric and asymmetric group noise, including retained format penalties, and show why clipping limits simple gradient-scaling arguments. The analysis identifies information preserved by whole-group corruption and limits on interpreting our asymmetric sweep as a precision-recall comparison. Overall, the results indicate that imperfect verification can support effective RLVR in the tested settings, while aggregate error rates alone do not characterize the learning signal.
+
+## Long-Horizon Task Agents
+
+### [EvoMaster: A Foundational Evolving Agent Framework for Agentic Science at Scale](https://arxiv.org/abs/2604.17406v5)
+
+- **Authors:** Xinyu Zhu, Yuzhu Cai, Zexi Liu, Cheng Wang, Fengyang Li, Wenkai Jin, Wanxu Liu, Zehao Bing, Bingyang Zheng, Jingyi Chai, Shuo Tang, Rui Ye, Yuwen Du, Xianghe Pang, Yaxin Du, Tingjia Miao, Yuzhi Zhang, Ruoxue Liao, Zhaohan Ding, Linfeng Zhang, Yanfeng Wang, Weinan E, Siheng Chen
+- **Published:** 2026-04-19
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2604.17406v5) · [PDF](https://arxiv.org/pdf/2604.17406v5)
+
+The convergence of large language models and agents is catalyzing a new era of scientific discovery: Agentic Science. However, common agent infrastructure is repeatedly rebuilt across scientific fields (loop fragmentation) and useful evidence and experience are lost in long-horizon research (loop discontinuity), bringing obstacles to Agentic Science at Scale. We introduce EvoMaster, a foundational evolving agent framework for Agentic Science at Scale. EvoMaster handles loop fragmentation and loop discontinuity by implementing Loop Research in which external evidence persists and improves later decisions. Through three nested loops, Execution, Exploration and Evolution (E$^3$), loop research connects research within runs, across experiments and across studies. Across ten benchmarks spanning scientific research, coding and reasoning, EvoMaster achieves the best score among four agents using GPT-5.4, reaching a mean score of 58.02%, and outperforms the strongest competing agent Codex(40.29%) while costing 35.6% less. These results show that a shared loop-research foundation can support diverse scientific agents at scale.
+
+### [GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)](https://arxiv.org/abs/2604.17091v1)
+
+- **Authors:** Jiaqing Liang, Jinyi Han, Weijia Li, Xinyi Wang, Zhoujia Zhang, Zishang Jiang, Ying Liao, Tingyun Li, Ying Huang, Hao Shen, Hanyu Wu, Fang Guo, Keyi Wang, Zhonghua Hong, Zhiyu Lu, Lipeng Ma, Sihang Jiang, Yanghua Xiao
+- **Published:** 2026-04-18
+- **Priority:** 🔥 Very popular code<br>📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** Fudan University
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2604.17091v1) · [PDF](https://arxiv.org/pdf/2604.17091v1) · [Code](https://github.com/lsdefine/GenericAgent)
+
+Long-horizon large language model (LLM) agents are fundamentally limited by context. As interactions become longer, tool descriptions, retrieved memories, and raw environmental feedback accumulate and push out the information needed for decision-making. At the same time, useful experience gained from tasks is often lost across episodes. We argue that long-horizon performance is determined not by context length, but by how much decision-relevant information is maintained within a finite context budget. We present GenericAgent (GA), a general-purpose, self-evolving LLM agent system built around a single principle: context information density maximization. GA implements this through four closely connected components: a minimal atomic tool set that keeps the interface simple, a hierarchical on-demand memory that only shows a small high-level view by default, a self-evolution mechanism that turns verified past trajectories into reusable SOPs and executable code, and a context truncation and compression layer that maintains information density during long executions. Across task completion, tool use efficiency, memory effectiveness, self-evolution, and web browsing, GA consistently outperforms leading agent systems while using significantly fewer tokens and interactions, and it continues to evolve over time. Project: https://github.com/lsdefine/GenericAgent
+
+### [Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents](https://arxiv.org/abs/2604.15877v2)
+
+- **Authors:** Xing Zhang, Guanghui Wang, Yanwei Cui, Wei Qiu, Ziyuan Li, Bing Zhu, Peiyang He
+- **Published:** 2026-04-17
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** School of Computer Science and Engineering, Nanyang Technological University, Singapore
+- **Categories:** cs.AI, cs.CL, cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2604.15877v2) · [PDF](https://arxiv.org/pdf/2604.15877v2)
+
+As LLM agents scale to long-horizon, multi-session deployments, efficiently managing accumulated experience becomes a critical bottleneck. Agent memory systems and agent skill discovery both address this challenge, extracting reusable knowledge from interaction traces, yet a citation analysis of 1{,}136 references across 22 primary papers reveals a cross-community citation rate below 1\%. We propose the \emph{Experience Compression Spectrum}, a unifying framework that positions memory, skills, and rules as points along a single axis of increasing compression (5--20$\times$ for episodic memory, 50--500$\times$ for procedural skills, 1{,}000$\times$+ for declarative rules), directly reducing context consumption, retrieval latency, and compute overhead. Mapping 20+ systems onto this spectrum reveals that every system operates at a fixed, predetermined compression level: none supports adaptive cross-level compression, a gap we term the \emph{missing diagonal}. We further show that specialization alone is insufficient (both communities independently solve shared sub-problems without exchanging solutions), that evaluation methods are tightly coupled to compression levels, that transferability increases with compression at the cost of specificity, and that knowledge lifecycle management remains largely neglected. We articulate open problems and design principles for scalable, full-spectrum agent learning systems.
+
+### [MemEvoBench: Benchmarking Safety Risks from Memory Misevolution in LLM Agents](https://arxiv.org/abs/2604.15774v2)
+
+- **Authors:** Weiwei Xie, Shaoxiong Guo, Fan Zhang, Tian Xia, Xue Yang, Lizhuang Ma, Junchi Yan, Qibing Ren
+- **Published:** 2026-04-17
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2604.15774v2) · [PDF](https://arxiv.org/pdf/2604.15774v2)
+
+Equipping Large Language Models (LLMs) with persistent memory enhances interaction continuity and personalization but introduces new safety risks. Specifically, contaminated or biased memory accumulation can trigger abnormal agent behaviors. Existing evaluation methods have not yet established a standardized framework for measuring memory misevolution. This phenomenon refers to the gradual behavioral drift resulting from repeated exposure to misleading information. To address this gap, we introduce MemEvoBench, the first benchmark evaluating long-horizon memory safety in LLM agents against adversarial memory injection, noisy tool outputs, and biased feedback. The framework consists of QA-style tasks across 7 domains and 36 risk types, complemented by workflow-style tasks adapted from 20 Agent-SafetyBench environments with noisy tool returns. Both settings employ mixed benign and misleading memory pools within multi-round interactions to simulate memory evolution. Experiments on representative models reveal substantial safety degradation under biased memory updates. Our analysis suggests that memory evolution is a significant contributor to these failures. Furthermore, static prompt-based defenses prove insufficient, underscoring the urgency of securing memory evolution in LLM agents.
+
+### [Lightweight LLM Agent Memory with Small Language Models](https://arxiv.org/abs/2604.07798v3)
+
+- **Authors:** Jiaquan Zhang, Chaoning Zhang, Shuxu Chen, Zhenzhen Huang, Pengcheng Zheng, Zhicheng Wang, Ping Guo, Fan Mo, Sung-Ho Bae, Jie Zou, Jiwei Wei, Yang Yang
+- **Published:** 2026-04-09
+- **Priority:** 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** Annual Meeting of the Association for Computational Linguistics
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2604.07798v3) · [PDF](https://arxiv.org/pdf/2604.07798v3)
+
+Although LLM agents can leverage tools for complex tasks, they still need memory to maintain cross-turn consistency and accumulate reusable information in long-horizon interactions. However, retrieval-based external memory systems incur low online overhead but suffer from unstable accuracy due to limited query construction and candidate filtering. In contrast, many systems use repeated large-model calls for online memory operations, improving accuracy but accumulating latency over long interactions. We propose LightMem, a lightweight memory system for better agent memory driven by Small Language Models (SLMs). LightMem modularizes memory retrieval, writing, and long-term consolidation, and separates online processing from offline consolidation to enable efficient memory invocation under bounded compute. We organize memory into short-term memory (STM) for immediate conversational context, mid-term memory (MTM) for reusable interaction summaries, and long-term memory (LTM) for consolidated knowledge, and uses user identifiers to support independent retrieval and incremental maintenance in multi-user settings. Online, LightMem operates under a fixed retrieval budget and selects memories via a two-stage procedure: vector-based coarse retrieval followed by semantic consistency re-ranking. Offline, it abstracts reusable interaction evidence and incrementally integrates it into LTM. Experiments show consistent gains across model scales, with an average F1 improvement of about 2.5 over A-MEM on LoCoMo, while achieving higher efficiency and low median latency (83 ms for retrieval and 581 ms end-to-end).

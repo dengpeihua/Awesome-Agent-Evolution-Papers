@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -25,7 +25,7 @@
 | 2026-07-24 | LLM Continual Training | [When Machines Lie Differently: Detecting AI vs Human Fake News](https://arxiv.org/abs/2607.21967v2) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-07-24 | Agent/LLM Self-Improvement | [Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills](https://arxiv.org/abs/2607.22529) | ⭐ Popular code<br>📈 Highly cited |
 | 2026-07-23 | Agent/LLM Self-Improvement | [AREX: Towards a Recursively Self-Improving Agent for Deep Research](https://arxiv.org/abs/2607.21461v3) | — |
-| 2026-07-23 | Agent Memory | [AttriMem: Attribution-Guided Process Feedback for Agent Memory Construction](https://arxiv.org/abs/2607.21106v3) | — |
+| 2026-07-23 | Agent Memory, Long-Horizon Task Agents | [AttriMem: Attribution-Guided Process Feedback for Agent Memory Construction](https://arxiv.org/abs/2607.21106v3) | — |
 | 2026-07-22 | LLM Continual Training | [Multi-Mask Diffusion Language Models for Few-Step Generation](https://arxiv.org/abs/2607.19686v3) | — |
 | 2026-07-21 | LLM Continual Training | [AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters](https://arxiv.org/abs/2607.19223v3) | — |
 | 2026-07-21 | Agent Memory | [Supra Cognitive Modes: A Routed Architecture for Agent Memory](https://arxiv.org/abs/2607.19096) | — |
@@ -33,22 +33,22 @@
 | 2026-07-20 | Agent Memory | [Retain or Consolidate? Budget-Dependent Operator Selection for Language Agent Memory](https://arxiv.org/abs/2607.17545) | — |
 | 2026-07-20 | Agent/LLM Self-Improvement, Agent Memory | [Mechanistic Attention Guidance for Agent Memory Refinement](https://arxiv.org/abs/2607.17621) | — |
 | 2026-07-19 | Reinforcement Learning | [Distilled Reinforcement Learning for LLM Post-training](https://arxiv.org/abs/2607.17247v2) | — |
+| 2026-07-18 | Agent/LLM Self-Improvement, Agent Memory, Long-Horizon Task Agents | [From Memory to Skills: Evidence-Grounded Co-Evolution Governance for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.16621v1) | — |
 | 2026-07-18 | LLM Continual Training | [AgentBrew: Lifelong Knowledge Brewing from Strong Teachers to Weak LLM Agents](https://arxiv.org/abs/2607.16851) | — |
 | 2026-07-18 | Agent Memory | [RECON: Benchmarking Agent Memory for Compositional Reasoning over Long Contexts](https://arxiv.org/abs/2607.16716) | — |
 | 2026-07-18 | Agent/LLM Self-Improvement | [PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution](https://arxiv.org/abs/2607.16636) | 📈 Highly cited |
-| 2026-07-18 | Agent/LLM Self-Improvement, Agent Memory | [From Memory to Skills: Evidence-Grounded Co-Evolution Governance for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.16621) | — |
 | 2026-07-17 | Agent Memory | [LazyMem: Retrieve Broadly, Construct Selectively for Efficient Long-Term Agent Memory](https://arxiv.org/abs/2607.22690v2) | — |
 | 2026-07-17 | Agent Memory | [Do Agents Dream of False Memories? Black-box Visual Attacks on Long-term Memory in Multimodal AI Agents](https://arxiv.org/abs/2607.15657) | — |
+| 2026-07-16 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777v1) | ⭐ Popular code<br>📈 Highly cited |
 | 2026-07-16 | Reinforcement Learning | [A Continuous-Time Reinforcement Learning Framework for Fine-Tuning Discrete Diffusion Models](https://arxiv.org/abs/2607.14522v2) | — |
 | 2026-07-16 | Agent Memory | [RetroAgent: Harnessing LLMs to Search Over Structured Memory for Agentic Retrosynthesis Planning](https://arxiv.org/abs/2607.14512) | — |
-| 2026-07-16 | Agent/LLM Self-Improvement | [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777) | ⭐ Popular code<br>📈 Highly cited |
 | 2026-07-16 | Agent Memory | [MemPoison: Uncovering Persistent Memory Threats and Structural Blind Spots in LLM Agents](https://arxiv.org/abs/2607.14651) | — |
 | 2026-07-16 | Agent/LLM Self-Improvement, Agent Memory | [Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems](https://arxiv.org/abs/2607.14611) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement | [Cura 1T: Healthcare Foundation Model via Recursive Self-Improvement](https://arxiv.org/abs/2607.15314v3) | — |
+| 2026-07-15 | Agent/LLM Self-Improvement, Agent Memory, Long-Horizon Task Agents | [Experience Memory Graph: One-Shot Error Correction for Agents](https://arxiv.org/abs/2607.13884v2) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement | [SPyCE: Skill-Policy Co-evolution for Multimodal Agents](https://arxiv.org/abs/2607.13854v2) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement | [ReasFlow: Assisting Reasoning-Centric Scientific Discovery in Applied Mathematics via a Knowledge-Based Multi-Agent System](https://arxiv.org/abs/2607.14178v3) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement | [HarnessBank: Semantic Gene-Bank Search with Gated Verification for Agent-Harness Self-Evolution](https://arxiv.org/abs/2607.13683v2) | 📈 Highly cited |
-| 2026-07-15 | Agent/LLM Self-Improvement, Agent Memory | [Experience Memory Graph: One-Shot Error Correction for Agents](https://arxiv.org/abs/2607.13884) | — |
 | 2026-07-15 | Agent Memory | [Why Git Is the Memory Solution for the Agentic Development Lifecycle](https://arxiv.org/abs/2607.14390) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement | [A Self-Evolving Agent for Longitudinal Personal Health Management](https://arxiv.org/abs/2607.13940) | ⭐ Popular code |
 | 2026-07-15 | Agent Memory | [Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents](https://arxiv.org/abs/2607.13591) | — |
@@ -73,7 +73,7 @@
 | [When Machines Lie Differently: Detecting AI vs Human Fake News](https://arxiv.org/abs/2607.21967v2) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted at the International Conference on Machine Learning and Applications (ICMLA 2026) |
 | [Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills](https://arxiv.org/abs/2607.22529) | ⭐ Popular code<br>📈 Highly cited | ETH Zurich |
 | [PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution](https://arxiv.org/abs/2607.16636) | 📈 Highly cited | SUN YAT-SEN UNIVERSITY |
-| [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777v1) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [HarnessBank: Semantic Gene-Bank Search with Gated Verification for Agent-Harness Self-Evolution](https://arxiv.org/abs/2607.13683v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [MemoHarness: Agent Harnesses That Learn from Experience](https://arxiv.org/abs/2607.14159) | 📈 Highly cited | University of Southern California |
 | [Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
@@ -200,6 +200,18 @@ Deep research requires agents to find answers that jointly satisfy multiple cons
 
 Existing self-evolving memory systems mainly improve agent memory based on textual outputs, such as task trajectories and reflections. However, this text-based paradigm rarely incorporates internal mechanistic signals, leaving how retrieved memory is actually utilized during task execution underexplored. This limitation can lead to unreliable error attribution and hallucinated memory modifications. In this work, we show that retrieval-head attention provides a mechanistic signal for revealing segment-level memory utilization. By aggregating attention over memory segments and decision steps, we construct a context utilization matrix that exposes recurring memory-use patterns and indicates corresponding refinement strategies. Building on this observation, we propose Attention-Guided Memory Refinement (AGMR), a framework that uses utilization patterns revealed by attention to guide targeted segment-level memory updates. AGMR corrects or enhances memory for failed executions, simplifies memory for successful executions, and verifies each update through re-execution. Experiments on interactive decision-making benchmarks show that AGMR improves both task performance and memory efficiency over text-only memory refinement baselines. Code is available at https://anonymous.4open.science/r/AGMR_code-3262/
 
+### [From Memory to Skills: Evidence-Grounded Co-Evolution Governance for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.16621v1)
+
+- **Authors:** Bo Tang, Yang Zhang, Guomian Zhuang, Wenqiang Wei, Gaoyang Zheng, Lindong Xie, Yanchao Tan, Feiyu Xiong, Qingyu Yang, Edward Chung, Zhiyu li
+- **Published:** 2026-07-18
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2607.16621v1) · [PDF](https://arxiv.org/pdf/2607.16621v1)
+
+Existing memory systems for long-horizon LLM agents often retrieve prior traces as passive context rather than converting them into executable capabilities. In this paper, we propose MSCE, a training-free Memory--Skill Co-Evolution framework that organizes agent experience into grounded step traces, reusable procedural policies, and declarative environmental cognition. MSCE crystallizes evidence-backed L2 policies with positive estimated gain into callable skills that retain evidence links, applicability boundaries, decision guidance, verification rules, and reliability estimates. It further introduces reflection-weighted value backfilling, which propagates sparse terminal feedback through dense local self-reflections to produce evidence-calibrated trace values for governing memory and skill evolution. Experiments on EvoAgentBench and LoCoMo demonstrate that MSCE significantly outperforms state-of-the-art skill-augmented and memory-driven agent baselines, exhibiting strong cross-domain transferability and lifelong-evolution capabilities.
+
 ### [PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution](https://arxiv.org/abs/2607.16636)
 
 - **Authors:** Liu, Yang, Chen, Weixing, Song, Xinshuai, Pu, Tao, Mo, Siwen, Bai, Yongjie, Chen, Zihao, Sun, Qianran, Zhong, Liruo, Shen, Ying, Lin, Liang
@@ -212,27 +224,15 @@ Existing self-evolving memory systems mainly improve agent memory based on textu
 
 Vision-language-action models, world models, and agentic planners each advance physical intelligence, yet their composition lacks a common execution abstraction, shared state, semantic verification, and persistent experience across heterogeneous embodiments. We present PhyAgentOS, a runtime foundation delivering scheduling, verification, memory, benchmarking, and safety as system-level services. Its Session-Centered Runtime treats a session, not an action, as the minimum unit of scheduling, compatibility preflight, supervised execution, evidence collection, and acceptance. To decouple cognition from physical execution, the cognition-physics boundary is a file system: the State-as-a-File protocol materializes cross-layer state as Markdown with YAML, yielding inspectable, versionable records without code dependencies between Agent and Runtime layers. These views form a unified cognitive state space aligning intent, capabilities, environment, execution, and experience. The SessionVerifier distinguishes execution termination from semantic task completion via evidence-grounded verdicts of success, failure, or replan. Verified outcomes are consolidated through epistemic memory into reusable knowledge and corrective lessons, closing a trial-and-error loop without retraining. Benchmarking reuses the deployment session and verification path, so results trace to real execution. Layered safety constrains both policy-driven and agent-driven execution: preflight, action bridges, SafetyGuard, heartbeat monitoring, and target-local constraints. Validation is progressive: games test cognitive planning, simulation adds dynamics and control, real robots add hardware noise, with the cognitive layer held constant. PhyAgentOS is benchmarked on Optimus-67, StarDojo, and DST-Dojo, validated on 19+ simulated and physical embodiments, and gains on LIBERO, Calvin, and RoboCasa365 across multiple VLA models.
 
-### [From Memory to Skills: Evidence-Grounded Co-Evolution Governance for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.16621)
+### [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777v1)
 
-- **Authors:** Tang, Bo, Zhang, Yang, Zhuang, Guomian, Wei, Wenqiang, Zheng, Gaoyang, Xie, Lindong, Tan, Yanchao, Xiong, Feiyu, Yang, Qingyu, Chung, Edward, li, Zhiyu
-- **Published:** 2026-07-18
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2607.16621) · [PDF](https://arxiv.org/pdf/2607.16621)
-
-Existing memory systems for long-horizon LLM agents often retrieve prior traces as passive context rather than converting them into executable capabilities. In this paper, we propose MSCE, a training-free Memory--Skill Co-Evolution framework that organizes agent experience into grounded step traces, reusable procedural policies, and declarative environmental cognition. MSCE crystallizes evidence-backed L2 policies with positive estimated gain into callable skills that retain evidence links, applicability boundaries, decision guidance, verification rules, and reliability estimates. It further introduces reflection-weighted value backfilling, which propagates sparse terminal feedback through dense local self-reflections to produce evidence-calibrated trace values for governing memory and skill evolution. Experiments on EvoAgentBench and LoCoMo demonstrate that MSCE significantly outperforms state-of-the-art skill-augmented and memory-driven agent baselines, exhibiting strong cross-domain transferability and lifelong-evolution capabilities.
-
-### [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777)
-
-- **Authors:** Wu, Jinyang, Yang, Shuo, Lu, Zhengxi, Zhang, Fan, Shen, Yuhao, Feng, Lang, Luo, Haoran, Lian, Zheng, Zhang, Shuai, Wen, Zhengqi, Tao, Jianhua
+- **Authors:** Jinyang Wu, Shuo Yang, Zhengxi Lu, Fan Zhang, Yuhao Shen, Lang Feng, Haoran Luo, Zheng Lian, Shuai Zhang, Zhengqi Wen, Jianhua Tao
 - **Published:** 2026-07-16
 - **Priority:** ⭐ Popular code<br>📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2607.14777) · [PDF](https://arxiv.org/pdf/2607.14777) · [Code](https://github.com/jinyangwu/SEED)
+- **Links:** [Paper](https://arxiv.org/abs/2607.14777v1) · [PDF](https://arxiv.org/pdf/2607.14777v1) · [Code](https://github.com/jinyangwu/SEED)
 
 Large language models are increasingly trained as interactive agents for long-horizon tasks involving multi-turn interaction, tool use, and environment feedback. Outcome-based reinforcement learning (RL) provides a practical optimization paradigm, but its sparse trajectory-level rewards offer limited guidance on intermediate decisions, leaving a supervision gap between episode-level outcomes and token-level policy learning. We propose SEED (SElf-Evolving On-Policy Distillation), a self-evolving framework that converts completed on-policy trajectories into training-time hindsight skills and distills their behavioral effect back into the policy model. SEED first fine-tunes the policy to analyze completed trajectories and generate natural-language skills that capture reusable workflows, decisive observations, or failure-avoidance rules. During RL, the current policy both collects trajectories and serves as the analyzer that extracts hindsight skills from them. Policy updates therefore improve subsequent decision making and skill analysis together, allowing hindsight supervision to evolve with the policy. SEED then re-scores the sampled actions under ordinary and skill-augmented contexts, converting the skill-induced probability shift into a dense token-level on-policy distillation signal. This signal is jointly optimized with outcome-based RL, keeping the auxiliary supervision aligned with the current trajectory distribution. Extensive experiments on text-based and vision-based agentic tasks show that SEED consistently improves performance and sample efficiency, exhibiting robust generalization to unseen scenarios. Our code is available at https://github.com/jinyangwu/SEED.
 
@@ -259,6 +259,18 @@ A growing class of agentic systems maintain persistent state across sessions thr
 - **Links:** [Paper](https://arxiv.org/abs/2607.15314v3) · [PDF](https://arxiv.org/pdf/2607.15314v3)
 
 Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized language models that cover these use cases together remain limited. A healthcare model must handle patient consultation, clinical reasoning over text and images, interactive diagnosis, and electronic health record (EHR) tool use. These capabilities fail in different ways, and a narrow update for one task can degrade another. We present Cura 1T, a healthcare foundation model trained through recursive self-improvement (RSI). In each RSI round, the RSI harness runs the current model on healthcare benchmarks, evaluates the trajectories to locate capability gaps, and refines the training mixture by synthesizing training data. On 6 healthcare benchmarks, Cura 1T scores highest on MedAgentBench, HealthBench Professional, HealthBench Hard, MedXpertQA text, and AgentClinic, and second on MedXpertQA multimodal. It preserves performances on out-of-domain reasoning and agentic benchmarks including AIME, GPQA-Diamond, and $τ^2$-Bench.
+
+### [Experience Memory Graph: One-Shot Error Correction for Agents](https://arxiv.org/abs/2607.13884v2)
+
+- **Authors:** Wenjun Wang, Yuchen Fang, Fengrui Liu, Zibo Liang, Kai Zheng
+- **Published:** 2026-07-15
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.13884v2) · [PDF](https://arxiv.org/pdf/2607.13884v2)
+
+Large Language Model (LLM) agents have shown remarkable capabilities in autonomous decision-making by generating sequential trajectories of states, actions, and observations. However, in complex, long-horizon tasks, these agents frequently suffer from compounding errors and struggle to recover from failures. Existing self-correction mechanisms rely on prompt-based reflection, which is inherently brittle, incurs heavy time and API costs due to iterative trial-and-error loops, and produces task-specific memory that may be hard to generalize to new scenarios. To address this, we propose Experience Memory Graph (EMG), a framework that reformulates agent failure recovery as a graph matching problem. At training time, we convert both failed exploration trajectories and successful expert trajectories into directed action decision graphs. By matching these graphs, we extract common subgraphs (successful workflows) and graph edit paths that explicitly indicate how to correct failures (e.g., which actions to add, delete, or relabel under a given observation), and store them in a memory graph with intra-task nodes and cross-task edges. At test time, EMG retrieves relevant insights and guides the agent in a single, loop-free execution. Experiments on ALFWorld and ScienceWorld show that EMG consistently outperforms state-of-the-art reflection baselines in success rate and average reward, while requiring no test-time trial-and-error.
 
 ### [SPyCE: Skill-Policy Co-evolution for Multimodal Agents](https://arxiv.org/abs/2607.13854v2)
 
@@ -295,18 +307,6 @@ Recent advances in Large Language Models have fueled autonomous AI agents capabl
 - **Links:** [Paper](https://arxiv.org/abs/2607.13683v2) · [PDF](https://arxiv.org/pdf/2607.13683v2)
 
 Large Language Models (LLMs) have enabled capable agents across diverse applications. Beyond the foundation model, the performance of an agent is governed by the surrounding agent harness, including prompts, tools, control loops, etc. Automatically evolving this harness offers a promising pathway to agent improvement, yet existing approaches typically rely on greedy candidate selection and noisy self-generated feedback, rendering their gains susceptible to search collapse, task-specific overfitting, and poor verifiability. To tackle these challenges, we introduce HarnessBank, a trustworthy agent-harness self-evolution framework that pairs a task agent with a separate evolver agent for iterative failure diagnosis, harness generation, and evolution verification. HarnessBank maintains a Harness Gene Bank composed of high-performing harnesses of different semantic coordinates. Those harnesses are reinvented, recombined, screened, and selected during the self-evolution procedure. Moreover, we propose a Gated Harness Screening mechanism to efficiently filter high-quality harnesses and reduce the cost of evaluating numerous offspring harnesses. Across seven agent benchmarks, HarnessBank produces consistent performance improvements from 5.1% to 15.4%. Cross-model experiments further verify that the improvements come from the model-specific self-evolving process, instead of a universally optimal harness. Our code will be publicly available upon acceptance.
-
-### [Experience Memory Graph: One-Shot Error Correction for Agents](https://arxiv.org/abs/2607.13884)
-
-- **Authors:** Wang, Wenjun, Fang, Yuchen, Liu, Fengrui, Liang, Zibo, Zheng, Kai
-- **Published:** 2026-07-15
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.13884) · [PDF](https://arxiv.org/pdf/2607.13884)
-
-Large Language Model (LLM) agents have shown remarkable capabilities in autonomous decision-making by generating sequential trajectories of states, actions, and observations. However, in complex, long-horizon tasks, these agents frequently suffer from compounding errors and struggle to recover from failures. Existing self-correction mechanisms rely on prompt-based reflection, which is inherently brittle, incurs heavy time and API costs due to iterative trial-and-error loops, and produces task-specific memory that may be hard to generalize to new scenarios. To address this, we propose Experience Memory Graph (EMG), a framework that reformulates agent failure recovery as a graph matching problem. At training time, we convert both failed exploration trajectories and successful expert trajectories into directed action decision graphs. By matching these graphs, we extract common subgraphs (successful workflows) and graph edit paths that explicitly indicate how to correct failures (e.g., which actions to add, delete, or relabel under a given observation), and store them in a memory graph with intra-task nodes and cross-task edges. At test time, EMG retrieves relevant insights and guides the agent in a single, loop-free execution. Experiments on ALFWorld and ScienceWorld show that EMG consistently outperforms state-of-the-art reflection baselines in success rate and average reward, while requiring no test-time trial-and-error.
 
 ### [A Self-Evolving Agent for Longitudinal Personal Health Management](https://arxiv.org/abs/2607.13940)
 
@@ -454,6 +454,18 @@ Language agents depend on memory across interactions. However, the limited conte
 
 Existing self-evolving memory systems mainly improve agent memory based on textual outputs, such as task trajectories and reflections. However, this text-based paradigm rarely incorporates internal mechanistic signals, leaving how retrieved memory is actually utilized during task execution underexplored. This limitation can lead to unreliable error attribution and hallucinated memory modifications. In this work, we show that retrieval-head attention provides a mechanistic signal for revealing segment-level memory utilization. By aggregating attention over memory segments and decision steps, we construct a context utilization matrix that exposes recurring memory-use patterns and indicates corresponding refinement strategies. Building on this observation, we propose Attention-Guided Memory Refinement (AGMR), a framework that uses utilization patterns revealed by attention to guide targeted segment-level memory updates. AGMR corrects or enhances memory for failed executions, simplifies memory for successful executions, and verifies each update through re-execution. Experiments on interactive decision-making benchmarks show that AGMR improves both task performance and memory efficiency over text-only memory refinement baselines. Code is available at https://anonymous.4open.science/r/AGMR_code-3262/
 
+### [From Memory to Skills: Evidence-Grounded Co-Evolution Governance for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.16621v1)
+
+- **Authors:** Bo Tang, Yang Zhang, Guomian Zhuang, Wenqiang Wei, Gaoyang Zheng, Lindong Xie, Yanchao Tan, Feiyu Xiong, Qingyu Yang, Edward Chung, Zhiyu li
+- **Published:** 2026-07-18
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2607.16621v1) · [PDF](https://arxiv.org/pdf/2607.16621v1)
+
+Existing memory systems for long-horizon LLM agents often retrieve prior traces as passive context rather than converting them into executable capabilities. In this paper, we propose MSCE, a training-free Memory--Skill Co-Evolution framework that organizes agent experience into grounded step traces, reusable procedural policies, and declarative environmental cognition. MSCE crystallizes evidence-backed L2 policies with positive estimated gain into callable skills that retain evidence links, applicability boundaries, decision guidance, verification rules, and reliability estimates. It further introduces reflection-weighted value backfilling, which propagates sparse terminal feedback through dense local self-reflections to produce evidence-calibrated trace values for governing memory and skill evolution. Experiments on EvoAgentBench and LoCoMo demonstrate that MSCE significantly outperforms state-of-the-art skill-augmented and memory-driven agent baselines, exhibiting strong cross-domain transferability and lifelong-evolution capabilities.
+
 ### [RECON: Benchmarking Agent Memory for Compositional Reasoning over Long Contexts](https://arxiv.org/abs/2607.16716)
 
 - **Authors:** Arya, Mihir Shriniwas
@@ -465,18 +477,6 @@ Existing self-evolving memory systems mainly improve agent memory based on textu
 - **Links:** [Paper](https://arxiv.org/abs/2607.16716) · [PDF](https://arxiv.org/pdf/2607.16716)
 
 Large language models and LLM-based agents are widely used as personal chat assistants, enterprise copilots, and autonomous workflow agents. In all these applications, memory (the ability to retain, access, and reason over information accumulated over long contexts and multiple interactions) plays a crucial role in determining the reliability of any agent. We introduce RECON (Reasoning over Extended Contexts with Obfuscated Narratives), a benchmark for evaluating compositional reasoning over long contexts. RECON spans 24 case files across three domains (criminal, medical, and financial), each ranging from 50k to 100k tokens, and tests agents on six memory intensive tasks: reconstructing multi-hop evidence chains, propagating cascading invalidations, resolving source conflicts, counterfactual reasoning, satisfying temporal constraints, and temporal fact retrieval. Recent memory benchmarks evaluate whether agents can retrieve scattered facts or detect if a fact has changed whereas RECON evaluates what happens after the change, whether agents can trace which downstream conclusions are affected, which survive through independent support, and how alternative timelines would have unfolded. Our evaluation reveals substantial limitations across current architectures: even the strongest non-Oracle system reaches only 22.4% Accuracy, with retrieval and reasoning each surfacing as challenges.
-
-### [From Memory to Skills: Evidence-Grounded Co-Evolution Governance for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.16621)
-
-- **Authors:** Tang, Bo, Zhang, Yang, Zhuang, Guomian, Wei, Wenqiang, Zheng, Gaoyang, Xie, Lindong, Tan, Yanchao, Xiong, Feiyu, Yang, Qingyu, Chung, Edward, li, Zhiyu
-- **Published:** 2026-07-18
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2607.16621) · [PDF](https://arxiv.org/pdf/2607.16621)
-
-Existing memory systems for long-horizon LLM agents often retrieve prior traces as passive context rather than converting them into executable capabilities. In this paper, we propose MSCE, a training-free Memory--Skill Co-Evolution framework that organizes agent experience into grounded step traces, reusable procedural policies, and declarative environmental cognition. MSCE crystallizes evidence-backed L2 policies with positive estimated gain into callable skills that retain evidence links, applicability boundaries, decision guidance, verification rules, and reliability estimates. It further introduces reflection-weighted value backfilling, which propagates sparse terminal feedback through dense local self-reflections to produce evidence-calibrated trace values for governing memory and skill evolution. Experiments on EvoAgentBench and LoCoMo demonstrate that MSCE significantly outperforms state-of-the-art skill-augmented and memory-driven agent baselines, exhibiting strong cross-domain transferability and lifelong-evolution capabilities.
 
 ### [LazyMem: Retrieve Broadly, Construct Selectively for Efficient Long-Term Agent Memory](https://arxiv.org/abs/2607.22690v2)
 
@@ -538,15 +538,15 @@ Persistent external memory enhances agent continuity but introduces persistent s
 
 A growing class of agentic systems maintain persistent state across sessions through memory files, behavioral preferences, and knowledge bases. While this makes agents more useful and self-improving, it also creates a new attack surface for prompt injections in which malicious instructions can be embedded within persistent files and influence future behavior. In this work, we study prompt injection attacks in memory-based agentic systems using a sandboxed synthetic workspace. We evaluate two agentic systems, Anthropic Claude Code and OpenAI Codex, across four models: Claude Haiku 4.5, Claude Opus 4.7, GPT-5.2, and GPT-5.5. Our results show that although it is difficult to make an agent overwrite its own memory files using untrusted external content, payloads already planted in those files can successfully attack current and future sessions. Attack success and payload persistence vary substantially across systems, models, adversarial goals, and multi-session attack sequences. These findings show that persistent memory changes the threat model for prompt injection and motivate defenses that protect memory updates without removing useful agent adaptation.
 
-### [Experience Memory Graph: One-Shot Error Correction for Agents](https://arxiv.org/abs/2607.13884)
+### [Experience Memory Graph: One-Shot Error Correction for Agents](https://arxiv.org/abs/2607.13884v2)
 
-- **Authors:** Wang, Wenjun, Fang, Yuchen, Liu, Fengrui, Liang, Zibo, Zheng, Kai
+- **Authors:** Wenjun Wang, Yuchen Fang, Fengrui Liu, Zibo Liang, Kai Zheng
 - **Published:** 2026-07-15
 - **Priority:** —
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.13884) · [PDF](https://arxiv.org/pdf/2607.13884)
+- **Links:** [Paper](https://arxiv.org/abs/2607.13884v2) · [PDF](https://arxiv.org/pdf/2607.13884v2)
 
 Large Language Model (LLM) agents have shown remarkable capabilities in autonomous decision-making by generating sequential trajectories of states, actions, and observations. However, in complex, long-horizon tasks, these agents frequently suffer from compounding errors and struggle to recover from failures. Existing self-correction mechanisms rely on prompt-based reflection, which is inherently brittle, incurs heavy time and API costs due to iterative trial-and-error loops, and produces task-specific memory that may be hard to generalize to new scenarios. To address this, we propose Experience Memory Graph (EMG), a framework that reformulates agent failure recovery as a graph matching problem. At training time, we convert both failed exploration trajectories and successful expert trajectories into directed action decision graphs. By matching these graphs, we extract common subgraphs (successful workflows) and graph edit paths that explicitly indicate how to correct failures (e.g., which actions to add, delete, or relabel under a given observation), and store them in a memory graph with intra-task nodes and cross-task edges. At test time, EMG retrieves relevant insights and guides the agent in a single, loop-free execution. Experiments on ALFWorld and ScienceWorld show that EMG consistently outperforms state-of-the-art reflection baselines in success rate and average reward, while requiring no test-time trial-and-error.
 
@@ -769,3 +769,53 @@ Large language model (LLM) post-training is essential for improving reasoning, a
 - **Links:** [Paper](https://arxiv.org/abs/2607.14522v2) · [PDF](https://arxiv.org/pdf/2607.14522v2)
 
 We formulate reinforcement learning (RL) in continuous time with discrete state spaces and possibly arbitrary action spaces via a stochastic control approach, where the state dynamics are modeled as a controlled continuous-time Markov chain (CTMC). We consider policy optimization problems and derive corresponding policy gradient methods, leading to continuous-time variants of proximal policy optimization (PPO) and group relative policy optimization (GRPO). As a primary application, we develop a continuous-time RL framework for fine-tuning score-based discrete diffusion models, which enables reward-driven optimization without requiring differentiability on the reward signals. In contrast to the existing GRPO-based approaches that only rely on terminal rewards, our formulation allows intermediate reward or advantage signals to be incorporated throughout the denoising trajectory. Importantly, when specialized to masked diffusion models (MDMs), our framework encompasses a rich class of policy parameterizations over the vocabulary simplex with analytically tractable probability ratios, providing a unified perspective on exploration and policy optimization in MDMs. For diffusion large language models (dLLMs), we further propose trajectory subsampling techniques to efficiently estimate computationally prohibitive trajectory likelihoods, reducing the computational cost of computing per-position probability ratios. We showcase the effectiveness of our methods on both low-dimensional entropy-regularized optimization problems and RL post-training of dLLMs on reasoning and coding tasks.
+
+## Long-Horizon Task Agents
+
+### [AttriMem: Attribution-Guided Process Feedback for Agent Memory Construction](https://arxiv.org/abs/2607.21106v3)
+
+- **Authors:** Qinfeng Li, Yuntai Bao, Xinyan Yu, Hongze Chen, Yanming Liu, Huifeng Zhu, Yier Jin, Jintao Chen, Wenqi Zhang, Xuhong Zhang
+- **Published:** 2026-07-23
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.21106v3) · [PDF](https://arxiv.org/pdf/2607.21106v3)
+
+Effective memory is crucial for LLM agents, yet constructing it effectively remains challenging. A memory-construction policy decides what information to extract, store, update, compress, or discard as interactions accumulate. Heuristic memory methods rely on subjective, task-specific rules, which can misalign with downstream objectives and limit cross-task adaptability. RL-based methods, by contrast, learn from task feedback but mainly use outcome- or module-level rewards. These coarse signals indicate task success but cannot identify which intermediate memory contents support the final answer, creating a fine-grained credit-assignment bottleneck. However, constructing such process feedback is prohibitively difficult because intermediate memory decisions lack unique ground-truth targets, while the appropriate credit varies with the agent's uncertain reasoning trajectory and therefore cannot be specified in advance. We propose AttriMem, an attribution-guided process-feedback framework for learning memory-construction policies with RL. AttriMem augments the global outcome reward with local rewards derived from token-level contributions to the final answer. Experiments on long-horizon dialogue question answering show that AttriMem outperforms retrieval-based, heuristic, and RL-based baselines, generalizes across benchmarks and answer models, stabilizes RL optimization.
+
+### [From Memory to Skills: Evidence-Grounded Co-Evolution Governance for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.16621v1)
+
+- **Authors:** Bo Tang, Yang Zhang, Guomian Zhuang, Wenqiang Wei, Gaoyang Zheng, Lindong Xie, Yanchao Tan, Feiyu Xiong, Qingyu Yang, Edward Chung, Zhiyu li
+- **Published:** 2026-07-18
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2607.16621v1) · [PDF](https://arxiv.org/pdf/2607.16621v1)
+
+Existing memory systems for long-horizon LLM agents often retrieve prior traces as passive context rather than converting them into executable capabilities. In this paper, we propose MSCE, a training-free Memory--Skill Co-Evolution framework that organizes agent experience into grounded step traces, reusable procedural policies, and declarative environmental cognition. MSCE crystallizes evidence-backed L2 policies with positive estimated gain into callable skills that retain evidence links, applicability boundaries, decision guidance, verification rules, and reliability estimates. It further introduces reflection-weighted value backfilling, which propagates sparse terminal feedback through dense local self-reflections to produce evidence-calibrated trace values for governing memory and skill evolution. Experiments on EvoAgentBench and LoCoMo demonstrate that MSCE significantly outperforms state-of-the-art skill-augmented and memory-driven agent baselines, exhibiting strong cross-domain transferability and lifelong-evolution capabilities.
+
+### [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777v1)
+
+- **Authors:** Jinyang Wu, Shuo Yang, Zhengxi Lu, Fan Zhang, Yuhao Shen, Lang Feng, Haoran Luo, Zheng Lian, Shuai Zhang, Zhengqi Wen, Jianhua Tao
+- **Published:** 2026-07-16
+- **Priority:** ⭐ Popular code<br>📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2607.14777v1) · [PDF](https://arxiv.org/pdf/2607.14777v1) · [Code](https://github.com/jinyangwu/SEED)
+
+Large language models are increasingly trained as interactive agents for long-horizon tasks involving multi-turn interaction, tool use, and environment feedback. Outcome-based reinforcement learning (RL) provides a practical optimization paradigm, but its sparse trajectory-level rewards offer limited guidance on intermediate decisions, leaving a supervision gap between episode-level outcomes and token-level policy learning. We propose SEED (SElf-Evolving On-Policy Distillation), a self-evolving framework that converts completed on-policy trajectories into training-time hindsight skills and distills their behavioral effect back into the policy model. SEED first fine-tunes the policy to analyze completed trajectories and generate natural-language skills that capture reusable workflows, decisive observations, or failure-avoidance rules. During RL, the current policy both collects trajectories and serves as the analyzer that extracts hindsight skills from them. Policy updates therefore improve subsequent decision making and skill analysis together, allowing hindsight supervision to evolve with the policy. SEED then re-scores the sampled actions under ordinary and skill-augmented contexts, converting the skill-induced probability shift into a dense token-level on-policy distillation signal. This signal is jointly optimized with outcome-based RL, keeping the auxiliary supervision aligned with the current trajectory distribution. Extensive experiments on text-based and vision-based agentic tasks show that SEED consistently improves performance and sample efficiency, exhibiting robust generalization to unseen scenarios. Our code is available at https://github.com/jinyangwu/SEED.
+
+### [Experience Memory Graph: One-Shot Error Correction for Agents](https://arxiv.org/abs/2607.13884v2)
+
+- **Authors:** Wenjun Wang, Yuchen Fang, Fengrui Liu, Zibo Liang, Kai Zheng
+- **Published:** 2026-07-15
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.13884v2) · [PDF](https://arxiv.org/pdf/2607.13884v2)
+
+Large Language Model (LLM) agents have shown remarkable capabilities in autonomous decision-making by generating sequential trajectories of states, actions, and observations. However, in complex, long-horizon tasks, these agents frequently suffer from compounding errors and struggle to recover from failures. Existing self-correction mechanisms rely on prompt-based reflection, which is inherently brittle, incurs heavy time and API costs due to iterative trial-and-error loops, and produces task-specific memory that may be hard to generalize to new scenarios. To address this, we propose Experience Memory Graph (EMG), a framework that reformulates agent failure recovery as a graph matching problem. At training time, we convert both failed exploration trajectories and successful expert trajectories into directed action decision graphs. By matching these graphs, we extract common subgraphs (successful workflows) and graph edit paths that explicitly indicate how to correct failures (e.g., which actions to add, delete, or relabel under a given observation), and store them in a memory graph with intra-task nodes and cross-task edges. At test time, EMG retrieves relevant insights and guides the agent in a single, loop-free execution. Experiments on ALFWorld and ScienceWorld show that EMG consistently outperforms state-of-the-art reflection baselines in success rate and average reward, while requiring no test-time trial-and-error.

@@ -66,3 +66,23 @@ Large daily archives use linked pages of 50 papers to stay readable on GitHub.
 Run `.venv/Scripts/python.exe scripts/recurate_repository.py` to reclassify stored
 metadata and regenerate indexes and the audit. This does not claim successful
 notification and does not advance the delivery cursor.
+
+
+## Long-horizon task agents (2026-10-21)
+
+The fifth automatic track requires language-model context, agent context, and
+long-horizon / long-trajectory / extended-task evidence in title or abstract.
+A source query tag alone does not establish relevance. Long context alone and
+classical control without language agents are insufficient. All tracks enforce
+first publication between 2025-01-01 and the current execution time.
+
+Explicitly requested papers have a separate supplemental label. In particular,
+MOPD and MOPD-Router are not automatically treated as continual learning or
+long-horizon agent RL merely because they perform on-policy distillation.
+Industry and acceptance evidence policies apply unchanged to all new entries.
+An acceptance first-observed date does not establish the actual acceptance date;
+source coverage and indexing delays preclude a guarantee of exhaustive same-day detection.
+
+Run `python scripts/update_long_horizon.py` to reproduce the full new-track
+backfill and the four requested additions. It stages pending notifications but
+never advances the successful delivery cursor or sends messages itself.

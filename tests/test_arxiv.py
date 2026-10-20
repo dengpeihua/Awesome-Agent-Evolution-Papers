@@ -37,6 +37,7 @@ def test_build_query_contains_precise_topic_terms() -> None:
         "agent-memory",
         "llm-continual-training",
         "reinforcement-learning",
+        "long-horizon-agent",
     }
     assert '"self-evolving"' in queries["agent-llm-self-evolution"]
     assert '"recursive self-improvement"' in queries["agent-llm-self-evolution"]

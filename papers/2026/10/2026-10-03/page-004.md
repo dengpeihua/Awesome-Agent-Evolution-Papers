@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -13,7 +13,7 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
-| 2026-09-28 | Agent/LLM Self-Improvement | [Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence](https://arxiv.org/abs/2609.35432v1) | — |
+| 2026-09-28 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence](https://arxiv.org/abs/2609.35432v1) | — |
 | 2026-09-28 | Agent Memory | [Memory in the Sky: Low-Altitude Question Answering with Multi-Agent Memory Aggregation](https://arxiv.org/abs/2609.35431v1) | — |
 | 2026-09-28 | Reinforcement Learning | [Frontier Learning: Training LLM Reasoners at the Edge of Capability](https://arxiv.org/abs/2609.35426v1) | — |
 | 2026-09-28 | Agent/LLM Self-Improvement | [Hyper Algorithm Design Agent: Evolving Learnable Optimizer from Zero](https://arxiv.org/abs/2609.35328v2) | — |
@@ -22,7 +22,7 @@
 | 2026-09-28 | Reinforcement Learning | [PIVOT: Pivot-Aware On Policy Self Distillation for Multi-Turn VLM Agents](https://arxiv.org/abs/2609.35303v1) | — |
 | 2026-09-28 | LLM Continual Training | [Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment](https://arxiv.org/abs/2609.35291v1) | — |
 | 2026-09-28 | Agent Memory | [EP-Mem: Elastic Privacy Memory for Social Relationship-Aware LLM Agents](https://arxiv.org/abs/2609.35233v1) | — |
-| 2026-09-28 | Reinforcement Learning | [Cross-Rollout Bellman Closure for Long-Horizon Agentic Reinforcement Learning](https://arxiv.org/abs/2609.35082v1) | — |
+| 2026-09-28 | Reinforcement Learning, Long-Horizon Task Agents | [Cross-Rollout Bellman Closure for Long-Horizon Agentic Reinforcement Learning](https://arxiv.org/abs/2609.35082v1) | — |
 | 2026-09-28 | Agent/LLM Self-Improvement | [AutoDataBench: Can Agents Write the Data That Feeds the Self-Improvement Loop?](https://arxiv.org/abs/2609.35025v1) | — |
 | 2026-09-28 | Reinforcement Learning | [MaPP: A Unified Marginalized Posterior-Predictive Framework for Data-Efficient RLVR](https://arxiv.org/abs/2609.34990v1) | — |
 | 2026-09-28 | Agent/LLM Self-Improvement | [The Right Lesson at the Right Step: Deriving Control Updates for Self-Evolving Agents](https://arxiv.org/abs/2609.34988v1) | — |
@@ -39,18 +39,18 @@
 | 2026-09-28 | Agent Memory | [LongPuzzleBench: Evaluating GUI Agents on Long-Horizon Visual Puzzles](https://arxiv.org/abs/2609.34769v1) | — |
 | 2026-09-28 | Agent/LLM Self-Improvement | [WeaveData: A Multimodal Data Analysis System with Self-Critiquing and Self-Evolving LLM Plans](https://arxiv.org/abs/2609.34764v1) | — |
 | 2026-09-28 | Reinforcement Learning | [Loyal Agents: Training LLM Agents to Protect Principal Interests Under Strategic Information Asymmetry](https://arxiv.org/abs/2609.34714v1) | — |
-| 2026-09-28 | Agent/LLM Self-Improvement | [RSI-Router: Evolving Subtask-Level LLM Routing and Skills for Cost-Efficient Agents](https://arxiv.org/abs/2609.34712v1) | — |
+| 2026-09-28 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [RSI-Router: Evolving Subtask-Level LLM Routing and Skills for Cost-Efficient Agents](https://arxiv.org/abs/2609.34712v1) | — |
 | 2026-09-28 | Agent/LLM Self-Improvement | [V-Gym: Enhancing Agentic Visual Reasoning via Skill-Data Co-Evolution](https://arxiv.org/abs/2609.34682v1) | — |
-| 2026-09-28 | Agent/LLM Self-Improvement | [Beyond Skill Evolution: Self-Evolving Context Management Policies for Long-Horizon Agent Harnesses](https://arxiv.org/abs/2609.34649v1) | — |
+| 2026-09-28 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Beyond Skill Evolution: Self-Evolving Context Management Policies for Long-Horizon Agent Harnesses](https://arxiv.org/abs/2609.34649v1) | — |
 | 2026-09-28 | Reinforcement Learning | [Nereus: Adaptive Parallelism for LLM Post-Training](https://arxiv.org/abs/2609.34645v1) | — |
-| 2026-09-28 | Agent/LLM Self-Improvement | [GenMem: Generative Symbolic Memory for Self-Evolving Harness](https://arxiv.org/abs/2609.34633v1) | — |
+| 2026-09-28 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [GenMem: Generative Symbolic Memory for Self-Evolving Harness](https://arxiv.org/abs/2609.34633v1) | — |
 | 2026-09-28 | Reinforcement Learning | [Reinforcement Learning from Intermediate Renders for Image-to-Code Generation](https://arxiv.org/abs/2609.34587v1) | — |
 | 2026-09-28 | Reinforcement Learning | [Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence](https://arxiv.org/abs/2609.34563v1) | — |
 | 2026-09-28 | Agent/LLM Self-Improvement | [SkillRubric: Co-Evolving Actor Guidance and Evaluator Rubrics for Multimodal Agents](https://arxiv.org/abs/2609.34557v1) | — |
 | 2026-09-28 | Reinforcement Learning | [Can AI Make Money in Crypto? Measuring the Gap from Backtests to Real Markets](https://arxiv.org/abs/2609.34510v1) | — |
 | 2026-09-28 | Reinforcement Learning | [CharDuplex: Building Character-Consistent Full-Duplex Spoken Dialogue Models](https://arxiv.org/abs/2609.34461v1) | — |
 | 2026-09-28 | Reinforcement Learning | [LLMs as Adaptive Meta-Solvers: Strategy-Diverse RL for Industrial-Scale Optimization](https://arxiv.org/abs/2609.34427v1) | — |
-| 2026-09-28 | Agent Memory | [Coding Agent Memory Post-training: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via Reinforcement Learning](https://arxiv.org/abs/2609.34422v2) | — |
+| 2026-09-28 | Agent Memory, Long-Horizon Task Agents | [Coding Agent Memory Post-training: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via Reinforcement Learning](https://arxiv.org/abs/2609.34422v2) | — |
 | 2026-09-28 | Agent/LLM Self-Improvement | [SkillFocus: Evolving Agent Skills via Capability Decomposition](https://arxiv.org/abs/2609.34397v1) | — |
 | 2026-09-28 | Agent Memory | [Just-In-Time Agent Memory with Runtime Agentic Research](https://arxiv.org/abs/2609.34385v1) | — |
 | 2026-09-28 | Reinforcement Learning | [ABC-Align: Prediction-Powered Alignment with Adaptive Bias Control](https://arxiv.org/abs/2609.34374v1) | — |
@@ -671,3 +671,77 @@ Reinforcement learning (RL) has become a key paradigm for enhancing the reasonin
 - **Links:** [Paper](https://arxiv.org/abs/2609.34214v1) · [PDF](https://arxiv.org/pdf/2609.34214v1)
 
 We introduce GlyphBench, an environment suite for reinforcement learning (RL) post-training of language-model agents, with over 360 tasks spanning diverse games. GlyphBench renders spatial observations as two-dimensional Unicode grids and connects training, evaluation, and trajectory replay through a unified interface designed to support efficient and reproducible research. We use GlyphBench to study how observation interfaces, reasoning effort, and agent harnesses affect performance, and how RL configurations shape learning dynamics. Our results show that glyph observations outperform native text and pixels in our Craftax experiments, with further gains on several BALROG environments. RL on 100 GlyphBench tasks improves Qwen3.5-4B on held-out Reasoning Gym problems, reaching 63.48% accuracy and outperforming the base model, a math-trained baseline, and a code-trained baseline. These experiments provide empirical evidence that reasoning gains from gameplay can yield stronger transfer than math or code. Together, these results highlight GlyphBench's value as a testbed for systematic research on how language-model agents learn, interact, and generalize.
+
+## Long-Horizon Task Agents
+
+### [Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence](https://arxiv.org/abs/2609.35432v1)
+
+- **Authors:** Hongcheng Gao, Jingjing Zhou, Zelin Zheng, Shijia Ge, Jay Zhu, Yazhe Wang, Jianshu Zeng, Xuan Shangguan, Di Wu, Lingyu He, Zhiqi Jia, Sihang Wu, Xiao He
+- **Published:** 2026-09-28
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.RO
+- **Links:** [Paper](https://arxiv.org/abs/2609.35432v1) · [PDF](https://arxiv.org/pdf/2609.35432v1)
+
+Vision-language-action (VLA) and world-action (WAM) models map observations and instructions directly to robot actions. This directness ties a policy to training: minor layout or viewpoint changes cause failure, and instructions generalize poorly. The root cause lies in representation: task requirements, conditions, progress, and failure recovery are implicitly encoded in action sequences, making them difficult to inspect or revise. Digital coding agents offer a precedent: LLMs call tools, verify results, and revise from feedback as executable code. The same working pattern of explicit state, manageable execution, and revisable procedures underlies generalization and long-horizon execution in the physical world, letting physical experience return as reusable programs, memory, or evidence. We propose Physical Coding, representing task state and execution as code. Code as World records objects, relations, constraints, and progress; Code as Policy organizes planning, verification, recovery, and execution. We build HexaAnything, which calls perception, planning, and control tools, including VLA/WAM policies, and makes in-the-loop decisions from external feedback. Verified traces become data and memory, enabling evolution from tools and Harness to model weights, architectures, and ultimately hardware and task design. On RoboCasa365, HexaAnything improves Composite-Unseen and overall success over XR-1 VLA, and its Harness-trained HexaModel beats the base on every split, indicating code traces internalize physical execution. On PhyBench and a dual-arm AgileX robot, the agent autonomously completes physics experiments and most tabletop tasks, often faster than published results. We observe data, model, and tool self-evolution; future work targets weight internalization, autonomous redesign of architectures, languages, representations, and tasks, and deployment in manufacturing and science.
+
+### [Cross-Rollout Bellman Closure for Long-Horizon Agentic Reinforcement Learning](https://arxiv.org/abs/2609.35082v1)
+
+- **Authors:** Yangyang Ren, Haodong Zhu, Linlin Yang, Sheng Xu, Peichao Lai, Baochang Zhang
+- **Published:** 2026-09-28
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2609.35082v1) · [PDF](https://arxiv.org/pdf/2609.35082v1)
+
+Group-based reinforcement learning such as GRPO trains LLM agents by comparing rollouts sampled for each task, without a learned critic. In long-horizon settings, these rollouts revisit shared anchor states, offering cross-rollout evidence for step-level credit. Ideally, step-level credit should incorporate evidence beyond the realized suffixes observed at an anchor while aggregating alternative continuations according to their empirical frequencies. Visit-local averaging pools realized suffix returns at shared anchors and respects observed frequencies, but does not recursively propagate evidence across rollouts, whereas shortest-path estimators have global reach but allow a rarely observed route to dominate an anchor's value. We introduce Cross-Rollout Bellman Closure (CRBC), which merges each rollout group into a finite empirical process with absorbing success and failure boundaries and evaluates its behavior-policy Bellman fixed point with one linear solve. This fixed point uses the same empirical action and transition frequencies to propagate evidence through shared anchors and aggregate alternative continuations. Backing up the resulting state values through observed transitions yields action values, whose gain over the corresponding state value provides step-level credit. A corresponding finite-depth family recovers visit-local return averaging at zero depth and converges to the exact closure as depth increases. The normalized closure credit is combined with the trajectory-level group advantage for policy optimization, without additional environment rollouts. Across ALFWorld, WebShop, and Sokoban benchmarks with multiple model scales, CRBC consistently improves final performance and learning efficiency. For example, CRBC outperforms the strongest evaluated baseline by 5.59 percentage points on ALFWorld with Qwen2.5-1.5B-Instruct.
+
+### [RSI-Router: Evolving Subtask-Level LLM Routing and Skills for Cost-Efficient Agents](https://arxiv.org/abs/2609.34712v1)
+
+- **Authors:** Hao Li, Hangfan Zhang, Zhiyao Cui, Chunjiang Mu, Yiqun Zhang, Bo Zhang, Danyang Jia, Shuyue Hu
+- **Published:** 2026-09-28
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2609.34712v1) · [PDF](https://arxiv.org/pdf/2609.34712v1)
+
+Practical deployment of large language model (LLM) agents requires strong task performance at affordable inference cost. For long-horizon agentic tasks, this performance-cost trade-off can be improved through within-task large-small model collaboration, as smaller models can handle some stages even when they cannot solve the full task. In this paper, we introduce RSI-router, a routing framework that constructs subtask-level model assignments and model-specific skills through recursive self-improvement over accumulated experience. Each iteration consists of four stages: Subtask Mining derives subtask definitions and identification rules from training trajectories; Routing Strategy Evolution proposes and evaluates diverse model assignments; Model-Specific Skill Evolution compares routed and large-model-only trajectories to diagnose failures and develop reusable execution skills; and Pareto-Optimal Router Selection updates the Pareto population using historical and newly generated routers while retaining dominated routers as experience for subsequent evolution. Routing between DeepSeek-V4.1-Flash and Qwen3.5-9B, RSI-router consistently surpasses the DeepSeek-only baseline at roughly half the inference cost (48.3%) across five agentic benchmarks. In particular, on ALFWorld, ScienceWorld, and WebShop, it cuts inference cost by 74.7-82.2% while simultaneously improving performance; on Terminal-Bench 2.0, it achieves a 16.7% relative performance gain at 18.0% lower cost. Moreover, RSI-router establishes a stronger performance--cost Pareto frontier than 9 routing methods.
+
+### [Beyond Skill Evolution: Self-Evolving Context Management Policies for Long-Horizon Agent Harnesses](https://arxiv.org/abs/2609.34649v1)
+
+- **Authors:** Weiyuan Li, Jinghan Xu, Aili Chen, Xintao Wang, Shuang Liang, Jiaqing Liang, Deqing Yang
+- **Published:** 2026-09-28
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2609.34649v1) · [PDF](https://arxiv.org/pdf/2609.34649v1)
+
+Harness evolution improves LLM agents by learning from execution trajectories, but existing experience- and skill-based methods are less effective on long-horizon tasks. As interactions grow, useful evidence can be buried by redundant or outdated context, making context management itself a key bottleneck. We introduce ContextEvo, a framework that learns a context policy from long-horizon trajectories. ContextEvo reconstructs the model-visible context at key decision points, identifies context-related failures, and applies targeted policy updates. Starting from the open-source Pi-agent harness, ContextEvo improves performance across three long-horizon task benchmarks, achieving results comparable to or better than several prominent agent harnesses, including Codex, OpenCode, and OpenClaw. Additional analyses show that fixed or locally evolved context strategies can fall short under long-horizon information pressure, while our methods adapt to the information demands of each environment.
+
+### [GenMem: Generative Symbolic Memory for Self-Evolving Harness](https://arxiv.org/abs/2609.34633v1)
+
+- **Authors:** Xinke Jiang, Tao Feng, Weixuan Xu, Zhixin Zhang, Zhibang Yang, Wentao Zhang, Runchuan Zhu, Xu Chu, Junfeng Zhao, Yasha Wang
+- **Published:** 2026-09-28
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2609.34633v1) · [PDF](https://arxiv.org/pdf/2609.34633v1)
+
+Long-term memory supports the self-evolution of LLM agents by retaining experience and skills across tasks and enabling their retrieval, reuse, and revision in subsequent long-horizon decision-making. Yet existing memory management approaches remain limited to discriminative retrieval and to address the sparse, hierarchical, and highly redundant structure of reusable experience: only a small, task-dependent subset of trajectories and memories warrants retention, retrieval, or revision. Learning these operations is further complicated by sparse, delayed, and indirect task-level feedback, with weak supervision across the memory lifecycle. Moreover, continual memory evolution introduces an architectural tension as addressing invariance: stored experience is perpetually revised, yet the addressing interface consumed by learned retrieval policies must remain stable. To address, we present GenMem, which reformulates memory management as generative symbolic addressing. Its core mechanism is the Symbolic Identifier (SID), a multi-level discrete token tuple drawn from a Cartesian-product address space that factorizes a million-scale sparse memory space using fewer than one hundred discrete symbols. Instead of generating ever-changing raw content, the memory agent learns to generate SIDs, while memory evolution rewrites the payload at a fixed address without shifting the address itself. Architecturally, GenMem couples a MemRetriever and a MemEvolver within a multi-agent harness, trained via GRPO with dense process and outcome rewards with two-channels optimization. Under offline memory evolution, experiments spanning ALFWorld, WebShop, multi-hop QA, medical reasoning, and deep research evaluate GenMem against strong memory-augmented baselines...
+
+### [Coding Agent Memory Post-training: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via Reinforcement Learning](https://arxiv.org/abs/2609.34422v2)
+
+- **Authors:** Lirui Luo, Kelong Mao, Heming Xia, Rongqing Li, Xinwei Yang, Luyu Chen, Kieran Wong, Yudong Guo, Xinrui Wang, Jiayin Zhu, Simiu Gu, Sulong Xu, Cong Fang
+- **Published:** 2026-09-28
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2609.34422v2) · [PDF](https://arxiv.org/pdf/2609.34422v2)
+
+Language-model agents increasingly tackle long-horizon tasks whose interaction histories exceed the model's active context. Recent work has begun to use reinforcement learning to make memory control part of the policy, often relying on predefined memory tools within domain-specific training environments of relatively short horizons. This setup ties learned memory behavior to environment-specific interfaces that lie outside the base model's pre-training and must be learned from scratch, so even after post-training, agents struggle to use memory in long-horizon tasks. To address these limitations, we introduce Coding Agent Memory Gym (CAMG), a suite of long-horizon agentic-RL environments spanning Shop, Coding, DeepResearch, and AutoResearch. Alongside each environment's native task interface, CAMG provides executable shell access and an episode-persistent workspace, enabling agents to create, revise, search, and reuse files as memory throughout an episode. We also introduce CAMG-RL, which trains a single policy jointly across all four environments with fully asynchronous PPO, learning this file-based memory behavior directly from downstream task reward, and we train CAMG-RL-4B and CAMG-RL-9B from Qwen3.5 models of matching size. On SWE-bench Verified and MLE-bench Lite, CAMG-RL-4B and CAMG-RL-9B are competitive with Qwen3.5-35B-A3B and Qwen3.5-122B-A10B, respectively.

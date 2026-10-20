@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -15,7 +15,7 @@
 | --- | --- | --- | --- |
 | 2026-06-17 | LLM Continual Training, Reinforcement Learning | [EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts](https://arxiv.org/abs/2606.18967v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-06-17 | Agent Memory | [Making AI Scientists Auditable from Evidence to Claim](https://arxiv.org/abs/2606.18874v4) | — |
-| 2026-06-17 | Agent Memory | [GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents](https://arxiv.org/abs/2606.18829) | ⭐ Popular code<br>📈 Highly cited |
+| 2026-06-17 | Agent Memory, Long-Horizon Task Agents | [GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents](https://arxiv.org/abs/2606.18829v1) | ⭐ Popular code<br>📈 Highly cited |
 | 2026-06-16 | Reinforcement Learning | [Zone of Proximal Policy Optimization: Teacher in Prompts, Not Gradients](https://arxiv.org/abs/2606.18216v5) | — |
 | 2026-06-16 | Agent/LLM Self-Improvement | [FinAcumen: Financial Multimodal Reasoning via Self-Evolving Experience Memory Harness](https://arxiv.org/abs/2606.17642v6) | — |
 | 2026-06-16 | Agent Memory | [CoreMem: Riemannian Retrieval and Fisher-Guided Distillation for Long-Term Memory in Dialogue Agents](https://arxiv.org/abs/2606.18406) | — |
@@ -36,9 +36,9 @@
 | 2026-06-11 | Agent Memory | [MemRefine: LLM-Guided Compression for Long-Term Agent Memory](https://arxiv.org/abs/2606.13177) | — |
 | 2026-06-11 | Agent/LLM Self-Improvement | [ProPlay: Procedural World Models for Self-Evolving LLM Agents](https://arxiv.org/abs/2606.12780) | — |
 | 2026-06-10 | Agent Memory | [PROJECTMEM: A Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents](https://arxiv.org/abs/2606.12329v2) | — |
+| 2026-06-10 | Agent Memory, Long-Horizon Task Agents | [Organize then Retrieve: Hierarchical Memory Navigation for Efficient Agents](https://arxiv.org/abs/2606.11680v1) | — |
 | 2026-06-10 | Agent Memory | [SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM Agent Systems](https://arxiv.org/abs/2606.12703) | — |
-| 2026-06-10 | Agent Memory | [Organize then Retrieve: Hierarchical Memory Navigation for Efficient Agents](https://arxiv.org/abs/2606.11680) | — |
-| 2026-06-09 | Agent Memory | [MemVenom: Triggered Poisoning of Multimodal Memories in Web Agents](https://arxiv.org/abs/2606.10742) | — |
+| 2026-06-09 | Agent Memory, Long-Horizon Task Agents | [MemVenom: Triggered Poisoning of Multimodal Memories in Web Agents](https://arxiv.org/abs/2606.10742v1) | — |
 | 2026-06-09 | LLM Continual Training | [Continual LLM Upcycling: A Predictor-Gated Bank-Wise Sparsity Training Recipe for Dense-to-Sparse LLMs](https://arxiv.org/abs/2606.10722) | — |
 | 2026-06-09 | Agent Memory | [Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory](https://arxiv.org/abs/2606.10677) | — |
 | 2026-06-09 | Agent/LLM Self-Improvement | [TabClaw: An Interactive and Self-Evolving Agent for Spreadsheet Manipulation and Table Reasoning](https://arxiv.org/abs/2606.10316) | — |
@@ -55,23 +55,23 @@
 | 2026-06-06 | Reinforcement Learning | [DyCo-RL: Dynamic Cross-Modal Coordination for Visual Reasoning](https://arxiv.org/abs/2606.08035v2) | — |
 | 2026-06-06 | Agent Memory | [Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents](https://arxiv.org/abs/2606.08151) | — |
 | 2026-06-06 | Agent Memory | [MemToolAgent: Leveraging Memory for Tool Using Agents Based on Environment and User Feedback](https://arxiv.org/abs/2606.07909) | — |
+| 2026-06-05 | Agent/LLM Self-Improvement, Reinforcement Learning, Long-Horizon Task Agents | [Self-evolving LLM agents with in-distribution Optimization](https://arxiv.org/abs/2606.07367v1) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-06-05 | Agent/LLM Self-Improvement, LLM Continual Training | [FinEvolveBench: A Benchmark for Self-Evolving Agents on Low-Repetition Tasks with Implicit Rewards](https://arxiv.org/abs/2606.06960v4) | — |
+| 2026-06-05 | Agent Memory, Long-Horizon Task Agents | [AdMem: Advanced Memory for Task-solving Agents](https://arxiv.org/abs/2606.06787v1) | — |
 | 2026-06-05 | Agent Memory | [Less Context, More Accuracy: A Bi-Temporal Memory Engine for LLM Agents Where a Lean Retrieved Context Beats the Full History](https://arxiv.org/abs/2606.09900) | — |
-| 2026-06-05 | Agent/LLM Self-Improvement, Reinforcement Learning | [Self-evolving LLM agents with in-distribution Optimization](https://arxiv.org/abs/2606.07367) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
-| 2026-06-05 | Agent Memory | [AdMem: Advanced Memory for Task-solving Agents](https://arxiv.org/abs/2606.06787) | — |
 | 2026-06-04 | LLM Continual Training | [RECAP: Regression Evaluation for Continual Adaptation of Prompts](https://arxiv.org/abs/2606.06698v4) | — |
-| 2026-06-04 | Agent Memory | [Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads](https://arxiv.org/abs/2606.06448v2) | — |
+| 2026-06-04 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery](https://arxiv.org/abs/2606.06473v1) | ⭐ Popular code<br>📈 Highly cited |
+| 2026-06-04 | Agent Memory, Long-Horizon Task Agents | [Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads](https://arxiv.org/abs/2606.06448v2) | — |
 | 2026-06-04 | Agent/LLM Self-Improvement | [ANCHOR: An External LLM-Driven Supervisory Module Facilitating Healthy Evolution in Self-Evolving Systems](https://arxiv.org/abs/2606.06114v3) | — |
-| 2026-06-04 | Agent/LLM Self-Improvement | [Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference](https://arxiv.org/abs/2606.05922v3) | 📈 Highly cited |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
 | [EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts](https://arxiv.org/abs/2606.18967v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026; Project Page: https://github.com/furiosa-ai/EfficientRollout |
-| [GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents](https://arxiv.org/abs/2606.18829) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [Self-evolving LLM agents with in-distribution Optimization](https://arxiv.org/abs/2606.07367) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: ICML 2026<br>TU Eindhoven |
-| [Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference](https://arxiv.org/abs/2606.05922v3) | 📈 Highly cited | First author: City University of Hong Kong (Semantic Scholar author profiles) |
+| [GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents](https://arxiv.org/abs/2606.18829v1) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Self-evolving LLM agents with in-distribution Optimization](https://arxiv.org/abs/2606.07367v1) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: ICML 2026<br>TU Eindhoven |
+| [MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery](https://arxiv.org/abs/2606.06473v1) | ⭐ Popular code<br>📈 Highly cited | Verified metrics snapshot; see Metrics |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -195,6 +195,18 @@ While neural networks excel in autonomous control, their black-box nature makes 
 
 Agentic long video generation requires planning, tool orchestration, and cross-clip coordination over a long horizon. Most existing video agents either rely on static, human-crafted workflows, which require substantial manual effort and poorly adapt across tasks, or iteratively refine the output of the current task without persistently distilling execution experience into reusable skills for future tasks. We introduce VideoWeaver, an agent harness and benchmark that evaluates and evolves skills for long video generation. Given a single high-level instruction, an agent dynamically composes foundation skills into its own workflow rather than following a predefined pipeline. We construct a benchmark of 16 task categories and 285 cases, with references spanning text, image, audio, video, and their combinations. We further propose an evidence-grounded agent-as-judge that inspects both the execution trace and the final video to diagnose process and output failures. Based on this feedback, our evolution algorithm progressively refines category-level composition and creator skills, allowing recurring experience to guide dynamically constructed workflows for unseen cases. Experiments show that explicit composition skills improve the generation process over foundation skills alone, while skill evolution further improves output quality and generalizes to unseen cases. Incorporating judge feedback yields additional gains, especially on output metrics, and the agent-as-judge aligns well with human, particularly on process metrics. Code is available at https://github.com/JianhuiWei7/VideoWeaver.
 
+### [Self-evolving LLM agents with in-distribution Optimization](https://arxiv.org/abs/2606.07367v1)
+
+- **Authors:** Yudi Zhang, Meng Fang, Zhenfang Chen, Mykola Pechenizkiy
+- **Published:** 2026-06-05
+- **Priority:** 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** ICML 2026
+- **Affiliations:** TU Eindhoven
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2606.07367v1) · [PDF](https://arxiv.org/pdf/2606.07367v1)
+
+Large Language Models (LLMs) have recently emerged as powerful controllers for interactive agents in complex environments, yet training them to perform reliable long-horizon decision making remains a fundamental challenge. A key difficulty lies in credit assignment: agents often receive delayed rewards only at the end of episodes. In this paper, we propose Q-Evolve, a self-evolving framework for LLM agents that unifies automatic process-reward labeling and policy learning within a principled in-distribution reinforcement learning paradigm. In each evolving iteration, our method learns an in-distribution critic from a hybrid off-policy dataset that combines expert demonstrations with agent-generated trajectories, stabilizing Bellman backups in sparse-reward settings via a weighted Implicit Q-Learning objective. The learned value function is then used to derive step-wise process rewards through advantage estimation, enabling dense and reliable supervision without environment backtracking or human annotation. Leveraging these signals, we perform behavior-proximal policy optimization that evolves the agent over the data used for process reward labeling, allowing iterative self-improvement without exacerbating distribution shift. We evaluate our method on AlfWorld, WebShop, and ScienceWorld, showing Q-Evolve outperforms strong baselines in sample efficiency, robustness, and overall task performance. Our results demonstrate that stable agent self-evolution is achievable through the co-evolution of process-level supervision and policy, both grounded within a shared in-distribution learning loop.
+
 ### [FinEvolveBench: A Benchmark for Self-Evolving Agents on Low-Repetition Tasks with Implicit Rewards](https://arxiv.org/abs/2606.06960v4)
 
 - **Authors:** Yining Zhu, Zihao Deng, Leiming Wang, Jingfei Lu, Junbo Wang, Yuke Li, Jikun Shen, Chuncheng Ran
@@ -207,17 +219,17 @@ Agentic long video generation requires planning, tool orchestration, and cross-c
 
 Large language model (LLM) agents increasingly rely on external experience to continually adapt to changing environments without modifying their underlying models. Recent experience mechanisms have demonstrated promising results across diverse tasks. However, their effectiveness is typically evaluated within individual benchmark settings, and how experience mechanisms generalize across different scenarios remains insufficiently explored. In this work, we present a scenario-oriented analysis of experience mechanisms for LLM agents. We characterize existing evaluation scenarios along four dimensions: outcome observability, credit assignment complexity, environmental dynamics, and experience reusability. Our analysis shows that existing benchmarks often evaluate experience mechanisms under scenarios where at least one dimension is comparatively favorable, leaving more challenging combinations of scenario properties underexplored. To address this gap, we introduce \textsc{FinEvolveBench}, a reproducible benchmark built on a chronological stream of rich financial news and market data that enables systematic evaluation of experience-based self-evolution under challenging experience regimes characterized by noisy feedback, ambiguous credit assignment, environmental non-stationarity, and limited experience reusability. Experiments show that existing approaches exhibit substantially reduced or inconsistent gains in this setting, highlighting the scenario-dependent nature of experience mechanisms and the challenge of maintaining valid experience under changing environments.
 
-### [Self-evolving LLM agents with in-distribution Optimization](https://arxiv.org/abs/2606.07367)
+### [MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery](https://arxiv.org/abs/2606.06473v1)
 
-- **Authors:** Zhang, Yudi, Fang, Meng, Chen, Zhenfang, Pechenizkiy, Mykola
-- **Published:** 2026-06-05
-- **Priority:** 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
-- **Venue:** ICML 2026
-- **Affiliations:** TU Eindhoven
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2606.07367) · [PDF](https://arxiv.org/pdf/2606.07367)
+- **Authors:** Shangheng Du, Xiangchao Yan, Jinxin Shi, Zongsheng Cao, Shiyang Feng, Zichen Liang, Boyuan Sun, Tianshuo Peng, Yifan Zhou, Xin Li, Jie Zhou, Liang He, Bo Zhang, Lei Bai
+- **Published:** 2026-06-04
+- **Priority:** ⭐ Popular code<br>📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2606.06473v1) · [PDF](https://arxiv.org/pdf/2606.06473v1) · [Code](https://github.com/InternScience/MLEvolve)
 
-Large Language Models (LLMs) have recently emerged as powerful controllers for interactive agents in complex environments, yet training them to perform reliable long-horizon decision making remains a fundamental challenge. A key difficulty lies in credit assignment: agents often receive delayed rewards only at the end of episodes. In this paper, we propose Q-Evolve, a self-evolving framework for LLM agents that unifies automatic process-reward labeling and policy learning within a principled in-distribution reinforcement learning paradigm. In each evolving iteration, our method learns an in-distribution critic from a hybrid off-policy dataset that combines expert demonstrations with agent-generated trajectories, stabilizing Bellman backups in sparse-reward settings via a weighted Implicit Q-Learning objective. The learned value function is then used to derive step-wise process rewards through advantage estimation, enabling dense and reliable supervision without environment backtracking or human annotation. Leveraging these signals, we perform behavior-proximal policy optimization that evolves the agent over the data used for process reward labeling, allowing iterative self-improvement without exacerbating distribution shift. We evaluate our method on AlfWorld, WebShop, and ScienceWorld, showing Q-Evolve outperforms strong baselines in sample efficiency, robustness, and overall task performance. Our results demonstrate that stable agent self-evolution is achievable through the co-evolution of process-level supervision and policy, both grounded within a shared in-distribution learning loop.
+Large language model (LLM) agents are increasingly applied to long-horizon tasks such as scientific discovery and machine learning engineering (MLE), where sustained self-evolution becomes a key capability. However, existing MLE agents suffer from inter-branch information isolation, memoryless search, and lack of hierarchical control, which together hinder long-horizon optimization. We present MLEvolve, an LLM-based self-evolving multi-agent framework for end-to-end machine learning algorithm discovery. By extending tree search to Progressive MCGS, MLEvolve enables cross-branch information flow through graph-based reference edges and gradually shifts the search from broad exploration to focused exploitation with an entropy-inspired progressive schedule. To allow the agent to evolve with accumulated experience, we introduce Retrospective Memory, which combines a cold-start domain knowledge base with a dynamic global memory for task-specific experience retrieval and reuse. For stable long-horizon iteration, we further decouple strategic planning from code generation with adaptive coding modes. Evaluation on MLE-Bench shows that MLEvolve achieves state-of-the-art performance across multiple dimensions including average medal rate and valid submission rate under a 12-hour budget (half the standard runtime). Moreover, MLEvolve also outperforms specialized algorithm discovery methods including AlphaEvolve on mathematical algorithm optimization tasks, demonstrating strong cross-domain generalization. Our code is available at https://github.com/InternScience/MLEvolve.
 
 ### [ANCHOR: An External LLM-Driven Supervisory Module Facilitating Healthy Evolution in Self-Evolving Systems](https://arxiv.org/abs/2606.06114v3)
 
@@ -230,18 +242,6 @@ Large Language Models (LLMs) have recently emerged as powerful controllers for i
 - **Links:** [Paper](https://arxiv.org/abs/2606.06114v3) · [PDF](https://arxiv.org/pdf/2606.06114v3)
 
 Self-evolving agents improve through continual self-play and self-generated learning signals, but their internally generated tasks and verifier signals provide limited coverage of phase-level errors, allowing capability degradation and safety drift to accumulate. We introduce ANCHOR, an LLM-based supervisory framework that delivers evaluative feedback at multiple phases of self-evolution and aggregates reviewed signals into context for subsequent steps. We retrofit two representative open-source self-evolving agent frameworks with ANCHOR, and evaluate them across coding, mathematical reasoning, and safety. Our results show that ANCHOR substantially improves safety performance while maintaining stable performance on the core capabilities of the underlying self-evolving agents. Further analyses provide practical insights for future research, showing that execution-result-based supervision is particularly effective and that increasing supervision frequency yields diminishing returns. Together, these results support external LLM-based supervision as a practical approach to developing safer, more stable, and controllable self-evolving agent systems.
-
-### [Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference](https://arxiv.org/abs/2606.05922v3)
-
-- **Authors:** Wenbo Pan, Shujie Liu, Chin-Yew Lin, Jingying Zeng, Xianfeng Tang, Xiangyang Zhou, Yan Lu, Xiaohua Jia
-- **Published:** 2026-06-04
-- **Priority:** 📈 Highly cited
-- **Venue:** arXiv.org
-- **Affiliations:** City University of Hong Kong
-- **Categories:** cs.AI, cs.CL, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2606.05922v3) · [PDF](https://arxiv.org/pdf/2606.05922v3)
-
-AI agents rely on a harness of skills, tools, and workflows to solve complex problems. Continually improving this harness is essential for adapting to new tasks. However, existing optimization methods typically require ground-truth validation sets, yet such labeled data is difficult to acquire in practical deployment settings. To address this problem, we introduce Retrospective Harness Optimization (RHO), a self-supervised method that optimizes the agent harness using only past trajectories. Specifically, RHO selects a diverse coreset of challenging tasks from past trajectories and re-solves them in parallel. The agent analyzes these rollouts using self-validation and self-consistency, then generates candidate harness updates and selects the most effective one by its own pairwise self-preference. We evaluate RHO across three diverse domains, spanning software engineering, technical work, and knowledge work. Notably, a single optimization round improves the pass rate on SWE-Bench Pro from 59% to 78% without any external grading. Furthermore, our analysis demonstrates that RHO effectively targets prior failure modes. As a result, the optimized harness alters the agent's behavior patterns and sustains higher accuracy during long-horizon sessions.
 
 ## Agent Memory
 
@@ -257,15 +257,15 @@ AI agents rely on a harness of skills, tools, and workflows to solve complex pro
 
 AI research systems can report improved results without establishing that the tested implementation matches the method described in their conclusions. We introduce Xcientist, a research harness that connects literature review, component-based idea generation, experiment validation and reporting. An evidence graph retains source passages, methods, baselines and evaluation conditions; component records track design revisions; and validation contracts specify the implementation, comparisons and artifacts required at each stage. We define claim drift as an unresolved mismatch between an accepted claim and its attributed sources, code or experiments. A retrospective audit across agent memory, traffic forecasting and physics-informed learning found audit claim drift rates of 3.6--16.7\% for Xcientist, lower than those of each of three comparison systems in all nine task-by-relation comparisons. This measure includes both confirmed mismatches and unverifiable claims; most of the difference arose from fewer unverifiable records. The case studies also document performance gains, unsuccessful revisions and limits on component attribution. This technical report describes the system, its implementation and the records needed to check how a proposed idea became a tested method and a final claim.
 
-### [GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents](https://arxiv.org/abs/2606.18829)
+### [GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents](https://arxiv.org/abs/2606.18829v1)
 
-- **Authors:** Ren, Zhe, Yang, Yibo, Chen, Yimeng, Zhao, Zijun, Fu, Benshuo, Shu, Zhihao, Zhang, Bingjie, Xu, Yangyang, Guo, Dandan, Yan, Shuicheng
+- **Authors:** Zhe Ren, Yibo Yang, Yimeng Chen, Zijun Zhao, Benshuo Fu, Zhihao Shu, Bingjie Zhang, Yangyang Xu, Dandan Guo, Shuicheng Yan
 - **Published:** 2026-06-17
 - **Priority:** ⭐ Popular code<br>📈 Highly cited
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
-- **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2606.18829) · [PDF](https://arxiv.org/pdf/2606.18829) · [Code](https://github.com/rzhub/GateMem)
+- **Categories:** cs.LG, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2606.18829v1) · [PDF](https://arxiv.org/pdf/2606.18829v1) · [Code](https://github.com/rzhub/GateMem)
 
 Memory benchmarks for LLM agents largely assume single-user settings, leaving shared assistants for hospitals, workplaces, campuses, and households understudied. In these deployments, multiple principals write to a common memory pool and query it under different roles, scopes, and relationships, so memory quality requires governance as well as recall. We introduce GateMem, a benchmark for multi-principal shared-memory agents. GateMem jointly evaluates utility for legitimate long-horizon requests with state updates, access control across contextual authorization boundaries, and agent-facing active forgetting after explicit deletion requests. It spans medical, office, education, and household domains, with long-form multi-party episodes, incremental memory injection, hidden checkpoints, structured judging, and leak-target annotations. Across diverse baselines and backbone models, no method simultaneously achieves strong utility, robust access control, and reliable forgetting. Long-context prompting often yields the best governance score at high token cost, while retrieval-based and external-memory methods reduce cost yet still leak unauthorized or deleted information. These results show current memory agents remain far from reliable shared institutional deployment.
 
@@ -425,6 +425,18 @@ Large language model (LLM) agents are increasingly expected to operate over long
 
 AI coding agents often lose project-specific rationale across sessions and may repeat approaches that previously failed. The bottleneck is often not model capability but missing coding agent memory: a durable record of what was decided, tried, and ruled out. We present projectmem, an open-source, local-first memory and judgment layer for AI coding agents, which records development as an append-only, plain-text log of typed events (issues, attempts, fixes, decisions, and notes) and deterministically projects it into compact summaries served through the Model Context Protocol (MCP). When invoked before an edit, a file-scoped advisory precheck returns recorded failures, open issues, and churn for the target file, a design point we call Memory-as-Governance. We evaluate feasibility through an author-run, six-month self-study on two machines, a controlled latency benchmark, and client-compatibility tests. The study contains 3,228 unique events from 27 projects; 56% are issue-lifecycle events, and 86 of 427 distinct issues closed by a recorded fix had at least one failed attempt before the first fix in event-log order. These histories are candidates for later warnings, not evidence that warnings prevented failures. On a synthetic repository, the median analysis time for a 1,500-event log decreased from 42.0 seconds to 79.3 milliseconds, while git subprocesses per check decreased from 1,500 to two and the tested warning output was preserved. The results establish the feasibility of persistent project memory for AI coding agents and motivate a controlled repeat-failure benchmark for measuring whether coding-agent memory prevents repeated failures. Source code is available at https://github.com/riponcm/projectmem.
 
+### [Organize then Retrieve: Hierarchical Memory Navigation for Efficient Agents](https://arxiv.org/abs/2606.11680v1)
+
+- **Authors:** Hao-Lun Hsu, Nikki Lijing Kuang, Boyi Liu, Zhewei Yao, Yuxiong He
+- **Published:** 2026-06-10
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2606.11680v1) · [PDF](https://arxiv.org/pdf/2606.11680v1)
+
+Large language model (LLM) agents struggle with long-horizon tasks due to their inherent statelessness, requiring all task-relevant information to be encoded in growing input contexts. The resulting degraded reasoning quality, increased inference cost, and higher latency necessitate efficient working memory mechanisms. However, existing approaches either rely on lossy compression or similarity-based retrieval, which often fail to capture temporal structure and causal dependencies required for multi-step agentic tasks. In this work, we present HORMA, a Hierarchical Organize-and-Retrieve Memory Agent that organizes experience into a file-system-like hierarchical structure, where summarized entities are linked to the corresponding raw trajectories, enabling efficient access without losing detailed information. HORMA decomposes working memory into two stages: structured memory construction and navigation-based retrieval. The construction module iteratively refines how experiences are structured by distinguishing between failures caused by missing information and those caused by misleading or overloaded context. The navigation module retrieves task-relevant context by traversing the hierarchy using a lightweight agent trained with reinforcement learning to select minimal yet sufficient context, thereby reducing latency along the critical execution path. Across ALFWorld, LoCoMo, and LongMemEval, HORMA improves task performance under constrained context budgets while requiring at most 22.17% of the baseline token usage in long conversation tasks. Compared to existing methods, it consistently achieves better efficiency-performance trade-offs and generalizes effectively to unseen tasks.
+
 ### [SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM Agent Systems](https://arxiv.org/abs/2606.12703)
 
 - **Authors:** Sharma, Tarun
@@ -437,27 +449,15 @@ AI coding agents often lose project-specific rationale across sessions and may r
 
 Retrieval-augmented generation (RAG) agents increasingly run with persistent memory that accumulates across user sessions. This creates a new attack surface: an adversary interacting only through normal channels can inject crafted memories that, once retrieved, steer the agent's responses for future users, without touching model weights or code. We call this Multi-Session Memory Poisoning (MSMP) and show that no existing defence certifies against it; static-corpus defences (RobustRAG, ReliabilityRAG) assume a fixed knowledge base, and heuristic filters are bypassed by fluent enterprise-style text. We present Signed Memory with Smoothed Retrieval (SMSR), the first defence with a certified robustness bound for this setting. Component 1 adds HMAC-SHA256 provenance at write time, blocking unsigned injection. Component 2 applies randomised memory ablation with verdict-based majority voting at query time, bounding the influence of authenticated adversaries. We prove that no provenance-free retrieval-time filter can certify against adaptive injection, derive a hypergeometric certificate for Component 2, and formalise the Consistent Minority Effect, whereby a consistent adversarial answer wins string-based voting as a numerical minority while verdict-based voting removes it. Across 15 enterprise scenarios (3,150 repeated trials), Component 1 cuts attack success from 93-100% to 0% for all unsigned variants. For an authenticated adversary with a single injection, Component 2 holds success to 8.0% (95% CI [5.8, 10.9], n=450), below the certified worst case. In an end-to-end query-only attack where the agent itself writes the poison rather than it being pre-seeded, SMSR reduces success from 65.3% to 5.3% (n=150, non-overlapping CIs) on a live agent stack. Clean-query utility is 90% (Component 1) and 85% (combined).
 
-### [Organize then Retrieve: Hierarchical Memory Navigation for Efficient Agents](https://arxiv.org/abs/2606.11680)
+### [MemVenom: Triggered Poisoning of Multimodal Memories in Web Agents](https://arxiv.org/abs/2606.10742v1)
 
-- **Authors:** Hsu, Hao-Lun, Kuang, Nikki Lijing, Liu, Boyi, Yao, Zhewei, He, Yuxiong
-- **Published:** 2026-06-10
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2606.11680) · [PDF](https://arxiv.org/pdf/2606.11680)
-
-Large language model (LLM) agents struggle with long-horizon tasks due to their inherent statelessness, requiring all task-relevant information to be encoded in growing input contexts. The resulting degraded reasoning quality, increased inference cost, and higher latency necessitate efficient working memory mechanisms. However, existing approaches either rely on lossy compression or similarity-based retrieval, which often fail to capture temporal structure and causal dependencies required for multi-step agentic tasks. In this work, we present HORMA, a Hierarchical Organize-and-Retrieve Memory Agent that organizes experience into a file-system-like hierarchical structure, where summarized entities are linked to the corresponding raw trajectories, enabling efficient access without losing detailed information. HORMA decomposes working memory into two stages: structured memory construction and navigation-based retrieval. The construction module iteratively refines how experiences are structured by distinguishing between failures caused by missing information and those caused by misleading or overloaded context. The navigation module retrieves task-relevant context by traversing the hierarchy using a lightweight agent trained with reinforcement learning to select minimal yet sufficient context, thereby reducing latency along the critical execution path. Across ALFWorld, LoCoMo, and LongMemEval, HORMA improves task performance under constrained context budgets while requiring at most 22.17% of the baseline token usage in long conversation tasks. Compared to existing methods, it consistently achieves better efficiency-performance trade-offs and generalizes effectively to unseen tasks.
-
-### [MemVenom: Triggered Poisoning of Multimodal Memories in Web Agents](https://arxiv.org/abs/2606.10742)
-
-- **Authors:** Zhang, Yv, Sun, Hao, Fang, Hao, Gao, Kuofeng, Mo, Fan, Chen, Bin, Xia, Shu-Tao, Wang, Yaowei
+- **Authors:** Yv Zhang, Hao Sun, Hao Fang, Kuofeng Gao, Fan Mo, Bin Chen, Shu-Tao Xia, Yaowei Wang
 - **Published:** 2026-06-09
 - **Priority:** —
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
-- **Categories:** cs.CR
-- **Links:** [Paper](https://arxiv.org/abs/2606.10742) · [PDF](https://arxiv.org/pdf/2606.10742)
+- **Categories:** cs.CR, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2606.10742v1) · [PDF](https://arxiv.org/pdf/2606.10742v1)
 
 External memory has become a core component of modern web agents, enabling long-horizon reasoning through the retrieval of past experiences. However, this paradigm introduces a critical vulnerability: malicious content injected into memory can be persistently recalled and repeatedly influence agent behavior. In this work, we identify and systematically study multimodal memory poisoning, an overlooked yet practical attack surface in web-agent systems. We propose MemVenom, a unified black-box attack framework that poisons graph-structured external memory with coordinated text-image evidence. Our method consists of a two-stage design: (1) a trigger-conditioned retrieval attack that ensures high-probability recall of malicious memory, and (2) a post-retrieval attack induction that leverages adversarial perturbations and stealthy OCR injection to override the original user objective. Unlike prior attacks that operate on prompts or text-only memory, our approach enables persistent, reusable, and goal-agnostic attacks without modifying model parameters or re-optimizing malicious tasks. Experiments across multiple web-agent frameworks and vision-language models demonstrate that MemVenom achieves strong end-to-end attack success with minimal impact on benign performance, reaching up to 99.15% on GPT-5-family web agents, while transferring effectively across architectures and model scales.
 
@@ -557,6 +557,18 @@ Modern large language model (LLM) agents do not simply need longer contexts; the
 
 Modern large language model (LLM) agents can use external tools to help users solve complex tasks. However, for problems that require learning from long-term historical events or from previous agent-environment interactions, LLM agents are required to use memory mechanisms to store and retrieve experiences. While sophisticated memory systems exist for dialogue agents, few studies have empirically examined how to improve agents' tool-using capabilities through past user-agent conversations. We propose MemToolAgent, a framework that improves tool use through memory management. Our approach contains a memory extraction module that processes past experiences into structured memory entries, and a retrieval module that dynamically selects a subset of the stored memory entries. This enables more personalized and accurate responses aligned with user preferences and feedback without requiring LLM fine-tuning. In summary, this work has three main contributions: (1) a unified memory entry format that improves both general-purpose and personalized tool use without LLM fine-tuning, (2) a reflection-based memory extraction that uses environment and user feedback to distill wrong executions into critiques to store, and (3) a retrieval module that chooses how many past experiences to use based on the memory similarity distribution. MemToolAgent achieves 29%, 80%, and 17% relative improvements compared to strong baselines on the WorkBench, NESTFUL, and PEToolBench benchmarks, respectively.
 
+### [AdMem: Advanced Memory for Task-solving Agents](https://arxiv.org/abs/2606.06787v1)
+
+- **Authors:** Runzhe Wang, Huilin Lu, Shengjie Liu, Li Dong, Jason Zhu
+- **Published:** 2026-06-05
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2606.06787v1) · [PDF](https://arxiv.org/pdf/2606.06787v1)
+
+Large Language Models (LLMs) show promise as tool-using agents but remain limited in long-horizon tasks that require remembering, organizing, and reusing knowledge. Prior memory approaches aim to resolve the situation, but mainly focus on storing factual information. Recent work on procedural memory improves task reuse, yet often reduces to replaying past successes without addressing failure cases or online scalability. We introduce a unified and automatic memory framework that integrates semantic, episodic, and procedural memory in a bi-level design combining short-term and long-term stores. A multi-agent architecture with actor, memory, and critic agents enables automatic memory generation, reward annotation, and adaptive retrieval. Long-term memory is managed through reward-based evaluation, merging, and pruning, ensuring scalability and continual improvement. Experiments across various environments show that our approach improves robustness and success on long multi-turn tasks compared to existing baselines. This work highlights the importance of comprehensive, adaptive memory for advancing LLM-based agents.
+
 ### [Less Context, More Accuracy: A Bi-Temporal Memory Engine for LLM Agents Where a Lean Retrieved Context Beats the Full History](https://arxiv.org/abs/2606.09900)
 
 - **Authors:** Wang, Liuyin
@@ -568,18 +580,6 @@ Modern large language model (LLM) agents can use external tools to help users so
 - **Links:** [Paper](https://arxiv.org/abs/2606.09900) · [PDF](https://arxiv.org/pdf/2606.09900) · [Code](https://github.com/ly-wang19/engram)
 
 Long-term memory is the missing layer for LLM agents: across sessions they forget, and the common workaround -- replaying the whole history into the prompt -- is expensive, slow, and, as distractors accumulate, less accurate. Most memory systems win on cost or latency but still lose to the full-context baseline on accuracy, and benchmark numbers are reported on inconsistent, non-reproducible harnesses, so one system appears at wildly different scores across sources. We present Engram, an open-source, dual-process memory engine on a bi-temporal data model. A fast write path appends lossless episodes with no LLM on the critical path; an asynchronous path extracts atomic (subject, predicate, object) facts, builds a bi-temporal knowledge graph, and resolves contradictions without an LLM call per fact -- invalidating, never deleting, so every fact keeps provenance and a supersession chain. A hybrid read path fuses dense, lexical, graph, and recency/salience signals, applies a point-in-time ("as-of") filter, and assembles a compact, provenance-tagged context. On the full 500-question LongMemEval_S, graded by the official category-specific judge, Engram's lean configuration -- answering from a ~9.6k-token retrieved slice, never the full history -- scores 83.6% vs. 73.2% for full-context (+10.4 points, McNemar p < 10^-6) at ~8x fewer tokens (9.6k vs. 79k), with 0/500 errored. The gain needs a hybrid read path: facts alone lose recall, while facts plus retrieved chunks recover detail. We also contribute a neutral, in-repo evaluation harness with the official judge baked in and the full-context baseline in every table, publish the raw per-question logs, and document the measurement-integrity pitfalls (truncation, home-grown judges, full-history leaks) that silently distort memory benchmarks. Every number ships with a command to reproduce it.
-
-### [AdMem: Advanced Memory for Task-solving Agents](https://arxiv.org/abs/2606.06787)
-
-- **Authors:** Wang, Runzhe, Lu, Huilin, Liu, Shengjie, Dong, Li, Zhu, Jason
-- **Published:** 2026-06-05
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2606.06787) · [PDF](https://arxiv.org/pdf/2606.06787)
-
-Large Language Models (LLMs) show promise as tool-using agents but remain limited in long-horizon tasks that require remembering, organizing, and reusing knowledge. Prior memory approaches aim to resolve the situation, but mainly focus on storing factual information. Recent work on procedural memory improves task reuse, yet often reduces to replaying past successes without addressing failure cases or online scalability. We introduce a unified and automatic memory framework that integrates semantic, episodic, and procedural memory in a bi-level design combining short-term and long-term stores. A multi-agent architecture with actor, memory, and critic agents enables automatic memory generation, reward annotation, and adaptive retrieval. Long-term memory is managed through reward-based evaluation, merging, and pruning, ensuring scalability and continual improvement. Experiments across various environments show that our approach improves robustness and success on long multi-turn tasks compared to existing baselines. This work highlights the importance of comprehensive, adaptive memory for advancing LLM-based agents.
 
 ### [Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads](https://arxiv.org/abs/2606.06448v2)
 
@@ -753,14 +753,100 @@ Large language model (LLM) agents are increasingly deployed in long-running sett
 
 Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a leading paradigm for enhancing visual reasoning in Multimodal Large Language Models (MLLMs). However, existing RLVR methods optimize primarily for the reasoning outcome and overlook how that outcome is produced: as a chain-of-thought unfolds, some tokens must extract evidence from the image while others must anchor to the preceding textual context, yet a single sequence-level reward provides no signal about whether each token draws on the modality its role demands. Token-level analyses and controlled interventions reveal that tokens frequently under-attend to their designated modality, and that this coordination breakdown may contribute to reasoning failures. Motivated by these findings, we propose DyCo-RL, which integrates dynamic cross-modal coordination into RLVR optimization. Specifically, DyCo-RL uses the Fisher-Rao geodesic distance to measure within-modality attention shifts, assigning tokens to either visually-oriented or text-oriented functional roles. It then evaluates the alignment between a token's actual attention allocation and its assigned role, leveraging this score for alignment-guided advantage reweighting during policy optimization. Extensive experiments using 11K examples for RL training demonstrate that the algorithm-agnostic DyCo-RL, when applied to Qwen2.5-VL-3B/7B and Qwen3.5-27B, improves the average performance of all four evaluated RLVR algorithms across seven benchmarks spanning visual-centric and mathematical reasoning.
 
-### [Self-evolving LLM agents with in-distribution Optimization](https://arxiv.org/abs/2606.07367)
+### [Self-evolving LLM agents with in-distribution Optimization](https://arxiv.org/abs/2606.07367v1)
 
-- **Authors:** Zhang, Yudi, Fang, Meng, Chen, Zhenfang, Pechenizkiy, Mykola
+- **Authors:** Yudi Zhang, Meng Fang, Zhenfang Chen, Mykola Pechenizkiy
 - **Published:** 2026-06-05
 - **Priority:** 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
 - **Venue:** ICML 2026
 - **Affiliations:** TU Eindhoven
 - **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2606.07367) · [PDF](https://arxiv.org/pdf/2606.07367)
+- **Links:** [Paper](https://arxiv.org/abs/2606.07367v1) · [PDF](https://arxiv.org/pdf/2606.07367v1)
 
 Large Language Models (LLMs) have recently emerged as powerful controllers for interactive agents in complex environments, yet training them to perform reliable long-horizon decision making remains a fundamental challenge. A key difficulty lies in credit assignment: agents often receive delayed rewards only at the end of episodes. In this paper, we propose Q-Evolve, a self-evolving framework for LLM agents that unifies automatic process-reward labeling and policy learning within a principled in-distribution reinforcement learning paradigm. In each evolving iteration, our method learns an in-distribution critic from a hybrid off-policy dataset that combines expert demonstrations with agent-generated trajectories, stabilizing Bellman backups in sparse-reward settings via a weighted Implicit Q-Learning objective. The learned value function is then used to derive step-wise process rewards through advantage estimation, enabling dense and reliable supervision without environment backtracking or human annotation. Leveraging these signals, we perform behavior-proximal policy optimization that evolves the agent over the data used for process reward labeling, allowing iterative self-improvement without exacerbating distribution shift. We evaluate our method on AlfWorld, WebShop, and ScienceWorld, showing Q-Evolve outperforms strong baselines in sample efficiency, robustness, and overall task performance. Our results demonstrate that stable agent self-evolution is achievable through the co-evolution of process-level supervision and policy, both grounded within a shared in-distribution learning loop.
+
+## Long-Horizon Task Agents
+
+### [GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents](https://arxiv.org/abs/2606.18829v1)
+
+- **Authors:** Zhe Ren, Yibo Yang, Yimeng Chen, Zijun Zhao, Benshuo Fu, Zhihao Shu, Bingjie Zhang, Yangyang Xu, Dandan Guo, Shuicheng Yan
+- **Published:** 2026-06-17
+- **Priority:** ⭐ Popular code<br>📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2606.18829v1) · [PDF](https://arxiv.org/pdf/2606.18829v1) · [Code](https://github.com/rzhub/GateMem)
+
+Memory benchmarks for LLM agents largely assume single-user settings, leaving shared assistants for hospitals, workplaces, campuses, and households understudied. In these deployments, multiple principals write to a common memory pool and query it under different roles, scopes, and relationships, so memory quality requires governance as well as recall. We introduce GateMem, a benchmark for multi-principal shared-memory agents. GateMem jointly evaluates utility for legitimate long-horizon requests with state updates, access control across contextual authorization boundaries, and agent-facing active forgetting after explicit deletion requests. It spans medical, office, education, and household domains, with long-form multi-party episodes, incremental memory injection, hidden checkpoints, structured judging, and leak-target annotations. Across diverse baselines and backbone models, no method simultaneously achieves strong utility, robust access control, and reliable forgetting. Long-context prompting often yields the best governance score at high token cost, while retrieval-based and external-memory methods reduce cost yet still leak unauthorized or deleted information. These results show current memory agents remain far from reliable shared institutional deployment.
+
+### [Organize then Retrieve: Hierarchical Memory Navigation for Efficient Agents](https://arxiv.org/abs/2606.11680v1)
+
+- **Authors:** Hao-Lun Hsu, Nikki Lijing Kuang, Boyi Liu, Zhewei Yao, Yuxiong He
+- **Published:** 2026-06-10
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2606.11680v1) · [PDF](https://arxiv.org/pdf/2606.11680v1)
+
+Large language model (LLM) agents struggle with long-horizon tasks due to their inherent statelessness, requiring all task-relevant information to be encoded in growing input contexts. The resulting degraded reasoning quality, increased inference cost, and higher latency necessitate efficient working memory mechanisms. However, existing approaches either rely on lossy compression or similarity-based retrieval, which often fail to capture temporal structure and causal dependencies required for multi-step agentic tasks. In this work, we present HORMA, a Hierarchical Organize-and-Retrieve Memory Agent that organizes experience into a file-system-like hierarchical structure, where summarized entities are linked to the corresponding raw trajectories, enabling efficient access without losing detailed information. HORMA decomposes working memory into two stages: structured memory construction and navigation-based retrieval. The construction module iteratively refines how experiences are structured by distinguishing between failures caused by missing information and those caused by misleading or overloaded context. The navigation module retrieves task-relevant context by traversing the hierarchy using a lightweight agent trained with reinforcement learning to select minimal yet sufficient context, thereby reducing latency along the critical execution path. Across ALFWorld, LoCoMo, and LongMemEval, HORMA improves task performance under constrained context budgets while requiring at most 22.17% of the baseline token usage in long conversation tasks. Compared to existing methods, it consistently achieves better efficiency-performance trade-offs and generalizes effectively to unseen tasks.
+
+### [MemVenom: Triggered Poisoning of Multimodal Memories in Web Agents](https://arxiv.org/abs/2606.10742v1)
+
+- **Authors:** Yv Zhang, Hao Sun, Hao Fang, Kuofeng Gao, Fan Mo, Bin Chen, Shu-Tao Xia, Yaowei Wang
+- **Published:** 2026-06-09
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CR, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2606.10742v1) · [PDF](https://arxiv.org/pdf/2606.10742v1)
+
+External memory has become a core component of modern web agents, enabling long-horizon reasoning through the retrieval of past experiences. However, this paradigm introduces a critical vulnerability: malicious content injected into memory can be persistently recalled and repeatedly influence agent behavior. In this work, we identify and systematically study multimodal memory poisoning, an overlooked yet practical attack surface in web-agent systems. We propose MemVenom, a unified black-box attack framework that poisons graph-structured external memory with coordinated text-image evidence. Our method consists of a two-stage design: (1) a trigger-conditioned retrieval attack that ensures high-probability recall of malicious memory, and (2) a post-retrieval attack induction that leverages adversarial perturbations and stealthy OCR injection to override the original user objective. Unlike prior attacks that operate on prompts or text-only memory, our approach enables persistent, reusable, and goal-agnostic attacks without modifying model parameters or re-optimizing malicious tasks. Experiments across multiple web-agent frameworks and vision-language models demonstrate that MemVenom achieves strong end-to-end attack success with minimal impact on benign performance, reaching up to 99.15% on GPT-5-family web agents, while transferring effectively across architectures and model scales.
+
+### [Self-evolving LLM agents with in-distribution Optimization](https://arxiv.org/abs/2606.07367v1)
+
+- **Authors:** Yudi Zhang, Meng Fang, Zhenfang Chen, Mykola Pechenizkiy
+- **Published:** 2026-06-05
+- **Priority:** 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified)
+- **Venue:** ICML 2026
+- **Affiliations:** TU Eindhoven
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2606.07367v1) · [PDF](https://arxiv.org/pdf/2606.07367v1)
+
+Large Language Models (LLMs) have recently emerged as powerful controllers for interactive agents in complex environments, yet training them to perform reliable long-horizon decision making remains a fundamental challenge. A key difficulty lies in credit assignment: agents often receive delayed rewards only at the end of episodes. In this paper, we propose Q-Evolve, a self-evolving framework for LLM agents that unifies automatic process-reward labeling and policy learning within a principled in-distribution reinforcement learning paradigm. In each evolving iteration, our method learns an in-distribution critic from a hybrid off-policy dataset that combines expert demonstrations with agent-generated trajectories, stabilizing Bellman backups in sparse-reward settings via a weighted Implicit Q-Learning objective. The learned value function is then used to derive step-wise process rewards through advantage estimation, enabling dense and reliable supervision without environment backtracking or human annotation. Leveraging these signals, we perform behavior-proximal policy optimization that evolves the agent over the data used for process reward labeling, allowing iterative self-improvement without exacerbating distribution shift. We evaluate our method on AlfWorld, WebShop, and ScienceWorld, showing Q-Evolve outperforms strong baselines in sample efficiency, robustness, and overall task performance. Our results demonstrate that stable agent self-evolution is achievable through the co-evolution of process-level supervision and policy, both grounded within a shared in-distribution learning loop.
+
+### [AdMem: Advanced Memory for Task-solving Agents](https://arxiv.org/abs/2606.06787v1)
+
+- **Authors:** Runzhe Wang, Huilin Lu, Shengjie Liu, Li Dong, Jason Zhu
+- **Published:** 2026-06-05
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2606.06787v1) · [PDF](https://arxiv.org/pdf/2606.06787v1)
+
+Large Language Models (LLMs) show promise as tool-using agents but remain limited in long-horizon tasks that require remembering, organizing, and reusing knowledge. Prior memory approaches aim to resolve the situation, but mainly focus on storing factual information. Recent work on procedural memory improves task reuse, yet often reduces to replaying past successes without addressing failure cases or online scalability. We introduce a unified and automatic memory framework that integrates semantic, episodic, and procedural memory in a bi-level design combining short-term and long-term stores. A multi-agent architecture with actor, memory, and critic agents enables automatic memory generation, reward annotation, and adaptive retrieval. Long-term memory is managed through reward-based evaluation, merging, and pruning, ensuring scalability and continual improvement. Experiments across various environments show that our approach improves robustness and success on long multi-turn tasks compared to existing baselines. This work highlights the importance of comprehensive, adaptive memory for advancing LLM-based agents.
+
+### [MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery](https://arxiv.org/abs/2606.06473v1)
+
+- **Authors:** Shangheng Du, Xiangchao Yan, Jinxin Shi, Zongsheng Cao, Shiyang Feng, Zichen Liang, Boyuan Sun, Tianshuo Peng, Yifan Zhou, Xin Li, Jie Zhou, Liang He, Bo Zhang, Lei Bai
+- **Published:** 2026-06-04
+- **Priority:** ⭐ Popular code<br>📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2606.06473v1) · [PDF](https://arxiv.org/pdf/2606.06473v1) · [Code](https://github.com/InternScience/MLEvolve)
+
+Large language model (LLM) agents are increasingly applied to long-horizon tasks such as scientific discovery and machine learning engineering (MLE), where sustained self-evolution becomes a key capability. However, existing MLE agents suffer from inter-branch information isolation, memoryless search, and lack of hierarchical control, which together hinder long-horizon optimization. We present MLEvolve, an LLM-based self-evolving multi-agent framework for end-to-end machine learning algorithm discovery. By extending tree search to Progressive MCGS, MLEvolve enables cross-branch information flow through graph-based reference edges and gradually shifts the search from broad exploration to focused exploitation with an entropy-inspired progressive schedule. To allow the agent to evolve with accumulated experience, we introduce Retrospective Memory, which combines a cold-start domain knowledge base with a dynamic global memory for task-specific experience retrieval and reuse. For stable long-horizon iteration, we further decouple strategic planning from code generation with adaptive coding modes. Evaluation on MLE-Bench shows that MLEvolve achieves state-of-the-art performance across multiple dimensions including average medal rate and valid submission rate under a 12-hour budget (half the standard runtime). Moreover, MLEvolve also outperforms specialized algorithm discovery methods including AlphaEvolve on mathematical algorithm optimization tasks, demonstrating strong cross-domain generalization. Our code is available at https://github.com/InternScience/MLEvolve.
+
+### [Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads](https://arxiv.org/abs/2606.06448v2)
+
+- **Authors:** Yasmine Omri, Ziyu Gan, Zachary Broveak, Robin Geens, Zexue He, Alex Pentland, Marian Verhelst, Tsachy Weissman, Thierry Tambe
+- **Published:** 2026-06-04
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2606.06448v2) · [PDF](https://arxiv.org/pdf/2606.06448v2)
+
+LLM agents are increasingly deployed on long-horizon tasks requiring sustained reasoning over extended interaction histories. Realizing this at scale requires agents to persistently store, retrieve, and update their own memory across sessions. A rich ecosystem of agent memory systems has emerged spanning flat retrieval, LLM-mediated extraction, consolidating fact stores, and agentic control flows. Yet, their system-level behavior remains uncharacterized. We present the first systems characterization of agent memory. First, we introduce a system-oriented taxonomy classifying agent memory systems along four axes. Second, we build a phase-aware profiling harness attributing cost to construction, retrieval, and generation. Third, we characterize ten representative systems across two benchmark suites, uncovering how design choices shift cost across the write and read paths. Finally, we derive 10 system recommendations covering construction scheduling, capability floors, amortization via query volume, freshness-latency tradeoffs, and fleet-scale management.

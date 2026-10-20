@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -13,8 +13,8 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
+| 2026-05-16 | Agent Memory, Long-Horizon Task Agents | [State Contamination in Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.16746v1) | — |
 | 2026-05-16 | Agent/LLM Self-Improvement, Agent Memory | [SE-GA: Memory-Augmented Self-Evolution for GUI Agents](https://arxiv.org/abs/2605.16883) | — |
-| 2026-05-16 | Agent Memory | [State Contamination in Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.16746) | — |
 | 2026-05-15 | Reinforcement Learning | [ReAlign: Generalizable Image Forgery Detection via Reasoning-Aligned Representation](https://arxiv.org/abs/2605.16080v3) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-05-15 | Agent Memory | [DimMem: Dimensional Structuring for Efficient Long-Term Agent Memory](https://arxiv.org/abs/2605.15759) | — |
 | 2026-05-15 | Agent Memory | [Accurate and Efficient Long-Term Memory for LLM Agents](https://arxiv.org/abs/2607.16211) | — |
@@ -34,22 +34,22 @@
 | 2026-05-13 | Reinforcement Learning | [Revisiting Reinforcement Learning with Verifiable Rewards from a Contrastive Perspective](https://arxiv.org/abs/2605.12969v5) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-05-13 | Agent/LLM Self-Improvement, Agent Memory | [EvolveMem:Self-Evolving Memory Architecture via AutoResearch for LLM Agents](https://arxiv.org/abs/2605.13941) | 🔥 Very popular code<br>📈 Highly cited |
 | 2026-05-12 | Agent/LLM Self-Improvement | [Optimized but Unowned: How AI-Authored Goals Undermine the Motivation They Are Meant to Drive](https://arxiv.org/abs/2605.12344v3) | — |
+| 2026-05-12 | Agent Memory, Long-Horizon Task Agents | [Executable Agentic Memory for GUI Agent](https://arxiv.org/abs/2605.12294v1) | — |
+| 2026-05-12 | Agent Memory | [Goal-Oriented Reasoning for RAG-based Memory in Conversational Agentic LLM Systems](https://arxiv.org/abs/2605.12213v2) | — |
 | 2026-05-12 | Reinforcement Learning | [Missing Old Logits in Asynchronous Agentic RL: Semantic Mismatch and Repair Methods for Off-Policy Correction](https://arxiv.org/abs/2605.12070v3) | — |
-| 2026-05-12 | Agent/LLM Self-Improvement, Agent Memory | [SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory](https://arxiv.org/abs/2605.12061v2) | — |
+| 2026-05-12 | Agent/LLM Self-Improvement, Agent Memory, Long-Horizon Task Agents | [SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory](https://arxiv.org/abs/2605.12061v2) | — |
 | 2026-05-12 | Agent/LLM Self-Improvement | [Proteus: A Self-Evolving Red Team for Agent Skill Ecosystems](https://arxiv.org/abs/2605.11891v2) | — |
 | 2026-05-12 | LLM Continual Training | [PRISM: A Geometric Risk Bound for Decomposing Drift into Scale, Shape, and Head](https://arxiv.org/abs/2605.11608v2) | — |
-| 2026-05-12 | Agent Memory | [Goal-Oriented Reasoning for RAG-based Memory in Conversational Agentic LLM Systems](https://arxiv.org/abs/2605.12213) | — |
 | 2026-05-12 | LLM Continual Training | [Learning, Fast and Slow: Towards LLMs That Adapt Continually](https://arxiv.org/abs/2605.12484) | — |
 | 2026-05-12 | Agent Memory | [The Misattribution Gap: When Memory Poisoning Looks Like Model Failure in Agentic AI Systems](https://arxiv.org/abs/2605.22842) | — |
 | 2026-05-12 | Agent Memory | [LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues](https://arxiv.org/abs/2605.12493) | 📈 Highly cited |
-| 2026-05-12 | Agent Memory | [Executable Agentic Memory for GUI Agent](https://arxiv.org/abs/2605.12294) | — |
 | 2026-05-11 | Agent/LLM Self-Improvement | [GRAFT-ATHENA: Self-Improving Agentic Teams for Autonomous Discovery and Evolutionary Numerical Algorithms](https://arxiv.org/abs/2605.11117v2) | — |
 | 2026-05-11 | Agent Memory | [MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading](https://arxiv.org/abs/2605.10268v2) | — |
 | 2026-05-11 | Agent/LLM Self-Improvement | [MAGE: Multi-Agent Self-Evolution with Co-Evolutionary Knowledge Graphs](https://arxiv.org/abs/2605.10064v3) | — |
+| 2026-05-11 | Agent Memory, Long-Horizon Task Agents | [HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution](https://arxiv.org/abs/2605.09942v1) | — |
 | 2026-05-11 | Agent/LLM Self-Improvement | [NanoResearch: Co-Evolving Skills, Memory, and Policy for Personalized Research Automation](https://arxiv.org/abs/2605.10813) | — |
 | 2026-05-11 | Agent/LLM Self-Improvement | [Swarm Skills: A Portable, Self-Evolving Multi-Agent System Specification for Coordination Engineering](https://arxiv.org/abs/2605.10052) | — |
 | 2026-05-11 | Agent Memory | [PREPING: Building Agent Memory without Tasks](https://arxiv.org/abs/2605.13880) | — |
-| 2026-05-11 | Agent Memory | [HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution](https://arxiv.org/abs/2605.09942) | — |
 | 2026-05-10 | Agent/LLM Self-Improvement | [Empowering VLMs for Few-Shot Multimodal Time Series Classification via Tailored Agentic Reasoning](https://arxiv.org/abs/2605.09395v3) | — |
 | 2026-05-10 | Reinforcement Learning | [dFlowGRPO: Rate-Aware Policy Optimization for Discrete Flow Models](https://arxiv.org/abs/2605.09291v2) | — |
 | 2026-05-10 | Agent Memory | [MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents](https://arxiv.org/abs/2605.09530) | — |
@@ -275,6 +275,18 @@ Recent works have advanced feedback-based learning systems, whereby a foundation
 
 ## Agent Memory
 
+### [State Contamination in Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.16746v1)
+
+- **Authors:** Yian Wang, Agam Goyal, Yuen Chen, Hari Sundaram
+- **Published:** 2026-05-16
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** University of Wisconsin-Madison
+- **Categories:** cs.AI, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2605.16746v1) · [PDF](https://arxiv.org/pdf/2605.16746v1)
+
+LLM agents increasingly rely on persistent state, including transcripts, summaries, retrieved context, and memory buffers, to support long-horizon interaction. This makes safety depend not only on individual model outputs, but also on what an agent stores and later reuses. We study a failure mode we call memory laundering: toxic or adversarial context can be compressed into memory summaries that no longer appear toxic under standard detectors, while still preserving hostile framing or conflict structure that influences future generations. Using paired counterfactual multi-agent rollouts, we show that toxic-origin memory summaries can remain below common toxicity thresholds while nevertheless increasing downstream toxicity relative to matched neutral baselines. To measure this hidden influence, we introduce the sub-threshold propagation gap (SPG), which quantifies downstream behavioral differences conditioned on memory states that a deployed monitor would classify as safe. Our experiments show that toxicity propagates through distinct state channels: raw transcript reuse drives overt downstream toxicity, while compressed memory carries hidden sub-threshold influence. We further find that mitigation depends critically on intervention placement. Sanitizing toxic state before summarization substantially reduces the hidden propagation gap, whereas cleaning only the completed summary can leave laundered influence intact. These results suggest that safety in memory-augmented agents should be treated as a state-control problem over evolving context, with sanitization applied before unsafe information is compressed into persistent memory.
+
 ### [SE-GA: Memory-Augmented Self-Evolution for GUI Agents](https://arxiv.org/abs/2605.16883)
 
 - **Authors:** Jin, Shilong, Wang, Lanjun, Zhang, Zhuosheng
@@ -286,18 +298,6 @@ Recent works have advanced feedback-based learning systems, whereby a foundation
 - **Links:** [Paper](https://arxiv.org/abs/2605.16883) · [PDF](https://arxiv.org/pdf/2605.16883) · [Code](https://github.com/jinshilong-dev/SE-GA)
 
 Autonomous Graphical User Interface (GUI) agents often struggle with multi-step tasks due to constrained context windows and static policies that fail to adapt to dynamic environments. To address these limitations, this work proposes the Self-Evolving GUI Agent (SE-GA), a novel framework that integrates hierarchical memory structures with an iterative self-improvement mechanism. At the core of our approach is Test-Time Memory Extension (TTME), which facilitates long-term planning by dynamically retrieving episodic, semantic, and experiential memories to provide salient contexts during inference. To ensure continuous learning, we introduce Memory-Augmented Self-Evolution (MASE), which is a training pipeline that adopts the data collected by TTME to stabilize and enhance the agent's foundational policy. Extensive evaluations across both offline and online benchmarks demonstrate SE-GA achieves state-of-the-art performance, reaching success rates of 89.0\% on ScreenSpot and 75.8\% on the challenging AndroidControl-High dataset. Furthermore, significant improvements on the AndroidWorld benchmark highlight the superior generalization to dynamic environments. Open source code: https://github.com/jinshilong-dev/SE-GA
-
-### [State Contamination in Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.16746)
-
-- **Authors:** Wang, Yian, Goyal, Agam, Chen, Yuen, Sundaram, Hari
-- **Published:** 2026-05-16
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** University of Wisconsin-Madison
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2605.16746) · [PDF](https://arxiv.org/pdf/2605.16746)
-
-LLM agents increasingly rely on persistent state, including transcripts, summaries, retrieved context, and memory buffers, to support long-horizon interaction. This makes safety depend not only on individual model outputs, but also on what an agent stores and later reuses. We study a failure mode we call memory laundering: toxic or adversarial context can be compressed into memory summaries that no longer appear toxic under standard detectors, while still preserving hostile framing or conflict structure that influences future generations. Using paired counterfactual multi-agent rollouts, we show that toxic-origin memory summaries can remain below common toxicity thresholds while nevertheless increasing downstream toxicity relative to matched neutral baselines. To measure this hidden influence, we introduce the sub-threshold propagation gap (SPG), which quantifies downstream behavioral differences conditioned on memory states that a deployed monitor would classify as safe. Our experiments show that toxicity propagates through distinct state channels: raw transcript reuse drives overt downstream toxicity, while compressed memory carries hidden sub-threshold influence. We further find that mitigation depends critically on intervention placement. Sanitizing toxic state before summarization substantially reduces the hidden propagation gap, whereas cleaning only the completed summary can leave laundered influence intact. These results suggest that safety in memory-augmented agents should be treated as a state-control problem over evolving context, with sanitization applied before unsafe information is compressed into persistent memory.
 
 ### [DimMem: Dimensional Structuring for Efficient Long-Term Agent Memory](https://arxiv.org/abs/2605.15759)
 
@@ -455,6 +455,30 @@ Existing agent memory remains predominantly reactive and retrieval-based, lackin
 
 Long-term memory is essential for LLM agents that operate across multiple sessions, yet existing memory systems treat retrieval infrastructure as fixed: stored content evolves while scoring functions, fusion strategies, and answer-generation policies remain frozen at deployment. We argue that truly adaptive memory requires co-evolution at two levels: the stored knowledge and the retrieval mechanism that queries it. We present EvolveMem, a self-evolving memory architecture that exposes its full retrieval configuration as a structured action space optimized by an LLM-powered diagnosis module. In each evolution round, the module reads per-question failure logs, identifies root causes, and proposes targeted configuration adjustments; a guarded meta-analyzer applies them with automatic revert-on-regression and explore-on-stagnation safeguards. This closed-loop self-evolution realizes an AutoResearch process: the system autonomously conducts iterative research cycles on its own architecture, replacing manual configuration tuning. Starting from a minimal baseline, the process converges autonomously, discovering effective retrieval strategies including entirely new configuration dimensions not present in the original action space. On LoCoMo, EvolveMem outperforms the strongest baseline by 25.7% relative and achieves a 78.0% relative improvement over the minimal baseline. On MemBench, EvolveMem exceeds the strongest baseline by 18.9% relative. Evolved configurations transfer across benchmarks with positive rather than catastrophic transfer, indicating that the self-evolution process captures universal retrieval principles rather than benchmark-specific heuristics. Code is available at https://github.com/aiming-lab/SimpleMem.
 
+### [Executable Agentic Memory for GUI Agent](https://arxiv.org/abs/2605.12294v1)
+
+- **Authors:** Zerui Qin, Sheng Yue, Xingyuan Hua, Yongjian Fu, Ju Ren
+- **Published:** 2026-05-12
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2605.12294v1) · [PDF](https://arxiv.org/pdf/2605.12294v1)
+
+Modern GUI agents typically rely on a model-centric and step-wise interaction paradigm, where LLMs must re-interpret the UI and re-decide actions at every screen, which is fragile in long-horizon tasks. In this paper, we propose Executable Agentic Memory (EAM), a structured Knowledge Graph (KG) that shifts GUI planning from free-form generation to a robust retrieval-and-execution process. Our approach includes a sample-efficient memory construction pipeline using state-aware DFS and action-group mining to compress multi-step routines. To ensure efficient planning, we introduce a value-guided graph search where a lightweight Q-function model steers Monte Carlo Tree Search (MCTS) over the KG. We theoretically establish bias-consistency for the Q-model and derive sample complexity bounds for path recovery. Empirically, EAM outperforms state-of-the-art baselines like UI-TARS-7B by up to $19.6\%$ on AndroidWorld, while reducing token costs $6\times$ relative to GPT-4o. With a $2.8$s average latency, EAM enables reliable, quick, and long-horizon GUI automation.
+
+### [Goal-Oriented Reasoning for RAG-based Memory in Conversational Agentic LLM Systems](https://arxiv.org/abs/2605.12213v2)
+
+- **Authors:** Jiazhou Liang, Armin Toroghi, Yifan Simon Liu, Faeze Moradi Kalarde, Liam Gallagher, Scott Sanner
+- **Published:** 2026-05-12
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** University of Toronto
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2605.12213v2) · [PDF](https://arxiv.org/pdf/2605.12213v2)
+
+LLM-based conversational AI agents struggle to maintain coherent behavior over long horizons due to limited context. While RAG-based approaches are increasingly adopted to overcome this limitation by storing interactions in external memory modules and performing retrieval from them, their effectiveness in answering challenging questions (e.g., multi-hop, commonsense) ultimately depends on the agent's ability to reason over the retrieved information. However, existing methods typically retrieve memory based on semantic similarity to the raw user utterance, which lacks explicit reasoning about missing intermediate facts and often returns evidence that is irrelevant or insufficient for grounded reasoning. In this work, we introduce Goal-Mem, a goal-oriented reasoning framework for RAG-based agentic memory that performs explicit backward chaining from the user's utterance as a goal. Rather than progressively expanding from retrieved context, Goal-Mem decomposes each goal into atomic subgoals, performs targeted memory retrieval to satisfy each subgoal, and iteratively identifies what information from memory should be retrieved when intermediate goals cannot be resolved. We formalize this process in Natural Language Logic, a logical system that combines the verifiability of reasoning provided by FOL with the expressivity of natural language. Through extensive experiments on two datasets and comparing to nine strong memory baselines, we show that Goal-Mem consistently improves performance, particularly on tasks requiring multi-hop reasoning and implicit inference.
+
 ### [SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory](https://arxiv.org/abs/2605.12061v2)
 
 - **Authors:** Juntong Wang, Haoyue Zhao, guanghui Pan, Xiyuan Wang, Yanbo Wang, Qiyan Deng, Muhan Zhang
@@ -466,18 +490,6 @@ Long-term memory is essential for LLM agents that operate across multiple sessio
 - **Links:** [Paper](https://arxiv.org/abs/2605.12061v2) · [PDF](https://arxiv.org/pdf/2605.12061v2)
 
 Long-term memory is becoming a central bottleneck for language agents. Exsting RAG and GraphRAG systems largely treat memory graphs as static retrieval middleware, which limits their ability to recover complete evidence chains from partial cues, exploit reusable graph-structrual roles, and improve the memory itself through downstream feedback. We introduce SAGE, a Self-evolving Agentic Graph-memory Engine that models graph memory as a dynamic long-term memory substrate. SAGE couples two roles: a memory writer that incrementally constucts structured graph memory from interaction histories, and a Graph Foundation Model-based memory reader to perform retrieval and provide feedback to the memory writer. We provide rigorooous theoretical annalyses supporting the framework. Across multi-hop QA, open-domain retireval, domain-specific review QA, and long-term agent-memory benchmarks, SAGE improves evidence recovery, answer grounding, and retrieval efficiency: after two self-evolution rounds, it achieves the best average rank on multi-hop QA; in zero-shot open-domain transfer, it reaches 82.5/91.6 Recall@2/5 on NQ. Further results on LongMemEval and HaluMem show that traning and reader-writer feedback improve multiple long-term memory and hallucination-diagnostic metrics, suggesting that self-evolving, structure-aware graph memory is a promising foundation for robust long-horizon language agents.
-
-### [Goal-Oriented Reasoning for RAG-based Memory in Conversational Agentic LLM Systems](https://arxiv.org/abs/2605.12213)
-
-- **Authors:** Liang, Jiazhou, Toroghi, Armin, Liu, Yifan Simon, Kalarde, Faeze Moradi, Gallagher, Liam, Sanner, Scott
-- **Published:** 2026-05-12
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** University of Toronto
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2605.12213) · [PDF](https://arxiv.org/pdf/2605.12213)
-
-LLM-based conversational AI agents struggle to maintain coherent behavior over long horizons due to limited context. While RAG-based approaches are increasingly adopted to overcome this limitation by storing interactions in external memory modules and performing retrieval from them, their effectiveness in answering challenging questions (e.g., multi-hop, commonsense) ultimately depends on the agent's ability to reason over the retrieved information. However, existing methods typically retrieve memory based on semantic similarity to the raw user utterance, which lacks explicit reasoning about missing intermediate facts and often returns evidence that is irrelevant or insufficient for grounded reasoning. In this work, we introduce Goal-Mem, a goal-oriented reasoning framework for RAG-based agentic memory that performs explicit backward chaining from the user's utterance as a goal. Rather than progressively expanding from retrieved context, Goal-Mem decomposes each goal into atomic subgoals, performs targeted memory retrieval to satisfy each subgoal, and iteratively identifies what information from memory should be retrieved when intermediate goals cannot be resolved. We formalize this process in Natural Language Logic, a logical system that combines the verifiability of reasoning provided by FOL with the expressivity of natural language. Through extensive experiments on two datasets and comparing to nine strong memory baselines, we show that Goal-Mem consistently improves performance, particularly on tasks requiring multi-hop reasoning and implicit inference.
 
 ### [The Misattribution Gap: When Memory Poisoning Looks Like Model Failure in Agentic AI Systems](https://arxiv.org/abs/2605.22842)
 
@@ -503,18 +515,6 @@ Multi-agent AI pipelines typically assume that agent misconduct originates from 
 
 Long-term memory is crucial for agents in specialized web environments, where success depends on recalling interface affordances, state dynamics, workflows, and recurring failure modes. However, existing memory benchmarks for agents mostly focus on user histories, short traces, or downstream task success, leaving open how to directly evaluate whether memory systems effectively internalize environment-specific experience. To address this gap, we introduce LongMemEval-V2 (LME-V2), a benchmark for evaluating whether memory systems can help agents acquire the experience needed to become knowledgeable colleagues in customized environments. LME-V2 contains 451 manually curated questions covering five core memory abilities for web agents: static state recall, dynamic state tracking, workflow knowledge, environment gotchas, and premise awareness. Questions are paired with history trajectories containing up to 500 trajectories and 115M tokens. We use a context gathering formulation: memory systems consume history trajectories and return compact evidence for downstream question answering. We propose a suite of two memory methods: AgentRunbook-R, an efficient RAG-based memory with knowledge pools for raw state observations, events, and strategy notes, and AgentRunbook-C, which stores trajectories as files and invokes a coding agent to gather evidence in an augmented sandbox. Experiments show that AgentRunbook-C achieves the best performance with 72.5% average accuracy, outperforming the strongest RAG baseline (48.5%) and the off-the-shelf coding agent baseline (69.3%). Despite the strong performance gains, coding agent based methods have high latency costs. While AgentRunbook-C advances the accuracy-latency Pareto frontier, substantial room for improvement remains. Together, these results establish LME-V2 as a challenging testbed for developing long-term memory systems for environment experience.
 
-### [Executable Agentic Memory for GUI Agent](https://arxiv.org/abs/2605.12294)
-
-- **Authors:** Qin, Zerui, Yue, Sheng, Hua, Xingyuan, Fu, Yongjian, Ren, Ju
-- **Published:** 2026-05-12
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2605.12294) · [PDF](https://arxiv.org/pdf/2605.12294)
-
-Modern GUI agents typically rely on a model-centric and step-wise interaction paradigm, where LLMs must re-interpret the UI and re-decide actions at every screen, which is fragile in long-horizon tasks. In this paper, we propose Executable Agentic Memory (EAM), a structured Knowledge Graph (KG) that shifts GUI planning from free-form generation to a robust retrieval-and-execution process. Our approach includes a sample-efficient memory construction pipeline using state-aware DFS and action-group mining to compress multi-step routines. To ensure efficient planning, we introduce a value-guided graph search where a lightweight Q-function model steers Monte Carlo Tree Search (MCTS) over the KG. We theoretically establish bias-consistency for the Q-model and derive sample complexity bounds for path recovery. Empirically, EAM outperforms state-of-the-art baselines like UI-TARS-7B by up to $19.6\%$ on AndroidWorld, while reducing token costs $6\times$ relative to GPT-4o. With a $2.8$s average latency, EAM enables reliable, quick, and long-horizon GUI automation.
-
 ### [MemReread: Enhancing Agentic Long-Context Reasoning via Memory-Guided Rereading](https://arxiv.org/abs/2605.10268v2)
 
 - **Authors:** Baibei Ji, Xiaoyang Weng, Juntao Li, Zecheng Tang, Yihang Lou, Min Zhang
@@ -527,6 +527,18 @@ Modern GUI agents typically rely on a model-centric and step-wise interaction pa
 
 Long-context reasoning tasks have motivated agent-memory approaches that process document chunks sequentially while maintaining a dynamically updated memory, avoiding the quadratic complexity of standard attention. Existing methods often rely on retrieval to recover information discarded during memory overwriting, but remain vulnerable to evidence loss during memory formation and interference from invalid queries. To overcome these limitations, we propose MemReread. Built upon streaming reading, it circumvents intermediate retrieval, triggering question decomposition and targeted rereading when the final memory is insufficient. By recovering indirect evidence that may have been prematurely discarded, MemReread enables non-linear reasoning while preserving the logical flow of document comprehension. We further introduce a reinforcement learning framework that improves length extrapolation and adaptively determines the number of rereading passes according to task complexity, enabling flexible control of computational overhead. Our MemReread-4B outperforms strong baselines on long-context reasoning tasks (e.g., +1.6pp v.s. DeepSeek-V4-Pro on 2WikiMultiHopQA) while maintaining linear time complexity with respect to context length.
 
+### [HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution](https://arxiv.org/abs/2605.09942v1)
+
+- **Authors:** Dongming Jiang, Yi Li, Guanpeng Li, Qiannan Li, Bingzhe Li
+- **Published:** 2026-05-11
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2605.09942v1) · [PDF](https://arxiv.org/pdf/2605.09942v1) · [Code](https://github.com/FredJiang0324/HAGE_MVPReview)
+
+Memory retrieval in agentic large language model (LLM) systems is often treated as a static lookup problem, relying on flat vector search or fixed binary relational graphs. However, fixed graph structures cannot capture the varying strength, confidence, and query-dependent relevance of relationships between events. In this paper, we propose HAGE, a weighted multi-relational memory framework that reconceptualizes retrieval as sequential, query-conditioned traversal over a unified relational memory graph. Memory is organized as relation-specific graph views over shared memory nodes, where each edge is associated with a trainable relation feature vector encoding multiple relational signals. Given a query, an LLM-based classifier identifies the relational intent, and a routing network dynamically modulates the corresponding dimensions of the edge embedding. Traversal scores are computed via a learned combination of semantic similarity and these query-conditioned edge representations. This allows memory traversal to prioritize high-utility relational paths while softly suppressing noisy or weakly relevant connections. Beyond adaptive traversal, HAGE further introduces a reinforcement learning-based training framework that jointly optimizes routing behavior and edge representations using downstream tasks. Finally, empirical results demonstrate improved long-horizon reasoning accuracy and a favorable accuracy-efficiency trade-off compared to state-of-the-art agentic memory systems. Our code is available at https://github.com/FredJiang0324/HAGE_MVPReview.
+
 ### [PREPING: Building Agent Memory without Tasks](https://arxiv.org/abs/2605.13880)
 
 - **Authors:** Choi, Yumin, Park, Sangwoo, Kang, Minki, Baek, Jinheon, Hwang, Sung Ju
@@ -538,18 +550,6 @@ Long-context reasoning tasks have motivated agent-memory approaches that process
 - **Links:** [Paper](https://arxiv.org/abs/2605.13880) · [PDF](https://arxiv.org/pdf/2605.13880)
 
 Agent memory is typically constructed either offline from curated demonstrations or online from post-deployment interactions. However, regardless of how it is built, an agent faces a cold-start gap when first introduced to a new environment without any task-specific experience available. In this paper, we study pre-task memory construction: whether an agent can build procedural memory before observing any target-environment tasks, using only self-generated synthetic practice. Yet, synthetic interaction alone is insufficient, as without controlling what to practice and what to store, synthetic tasks become redundant, infeasible, and ultimately uninformative, and memory further degrades quickly due to unfiltered trajectories. To overcome this, we present Preping, a proposer-guided memory construction framework. At its core is proposer memory, a structured control state that shapes future practice. A Proposer generates synthetic tasks conditioned on this state, a Solver executes them, and a Validator determines which trajectories are eligible for memory insertion while also providing feedback to guide future proposals. Experiments on AppWorld, BFCL v3, and MCP-Universe show that Preping substantially improves over a no-memory baseline and achieves performance competitive with strong playbook-based methods built from offline or online experience, with deployment cost $2.99\times$ lower on AppWorld and $2.23\times$ lower on BFCL v3 than online memory construction. Further analyses reveal that the main benefit does not come from synthetic volume alone, but from proposer-side control over feasibility, redundancy, and coverage, combined with selective memory updates.
-
-### [HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution](https://arxiv.org/abs/2605.09942)
-
-- **Authors:** Jiang, Dongming, Li, Yi, Li, Guanpeng, Li, Qiannan, Li, Bingzhe
-- **Published:** 2026-05-11
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2605.09942) · [PDF](https://arxiv.org/pdf/2605.09942) · [Code](https://github.com/FredJiang0324/HAGE_MVPReview)
-
-Memory retrieval in agentic large language model (LLM) systems is often treated as a static lookup problem, relying on flat vector search or fixed binary relational graphs. However, fixed graph structures cannot capture the varying strength, confidence, and query-dependent relevance of relationships between events. In this paper, we propose HAGE, a weighted multi-relational memory framework that reconceptualizes retrieval as sequential, query-conditioned traversal over a unified relational memory graph. Memory is organized as relation-specific graph views over shared memory nodes, where each edge is associated with a trainable relation feature vector encoding multiple relational signals. Given a query, an LLM-based classifier identifies the relational intent, and a routing network dynamically modulates the corresponding dimensions of the edge embedding. Traversal scores are computed via a learned combination of semantic similarity and these query-conditioned edge representations. This allows memory traversal to prioritize high-utility relational paths while softly suppressing noisy or weakly relevant connections. Beyond adaptive traversal, HAGE further introduces a reinforcement learning-based training framework that jointly optimizes routing behavior and edge representations using downstream tasks. Finally, empirical results demonstrate improved long-horizon reasoning accuracy and a favorable accuracy-efficiency trade-off compared to state-of-the-art agentic memory systems. Our code is available at https://github.com/FredJiang0324/HAGE_MVPReview.
 
 ### [MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents](https://arxiv.org/abs/2605.09530)
 
@@ -746,3 +746,53 @@ Skills provide an effective mechanism for improving LLM agents on complex tasks,
 - **Links:** [Paper](https://arxiv.org/abs/2605.08401v3) · [PDF](https://arxiv.org/pdf/2605.08401v3)
 
 Recent advances in LLMs have demonstrated strong reasoning capabilities, largely stimulated by RLVR. However, the exploration of existing RLVR algorithms remains largely constrained by the knowledge and reasoning strategies already accessible to the policy model. Although recent methods introduce external expert demonstrations to broaden exploration, they typically rely on complete trajectory-level guidance, which can be sample-inefficient, information-sparse, and insufficiently adaptive to intermediate reasoning bottlenecks. Inspired by collaborative multi-agent systems, we propose AIPO, an enhanced reinforcement learning framework that improves LLM reasoning through active multi-agent interaction during exploration. Specifically, when encountering reasoning bottlenecks, AIPO enables the policy model to proactively consult three functional collaborative agents, namely the verify agent, knowledge agent, and reasoning agent, thereby obtaining fine-grained and state-dependent guidance during rollout. The resulting mixed-policy trajectories expose the policy to reasoning directions that may be difficult to discover through isolated on-policy exploration. To learn effectively from collaborator-provided tokens, we further introduce a corrected importance sampling coefficient together with a lower-bound clipping strategy to mitigate off-policy discrepancy and vanishing gradients. After training, the policy model reasons independently without relying on collaborative agents. Extensive experiments across mathematical, scientific, coding, and puzzle reasoning benchmarks show that AIPO consistently improves reasoning performance and generalizes across different policy models, collaborator backbones, and RLVR algorithms.
+
+## Long-Horizon Task Agents
+
+### [State Contamination in Memory-Augmented LLM Agents](https://arxiv.org/abs/2605.16746v1)
+
+- **Authors:** Yian Wang, Agam Goyal, Yuen Chen, Hari Sundaram
+- **Published:** 2026-05-16
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** University of Wisconsin-Madison
+- **Categories:** cs.AI, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2605.16746v1) · [PDF](https://arxiv.org/pdf/2605.16746v1)
+
+LLM agents increasingly rely on persistent state, including transcripts, summaries, retrieved context, and memory buffers, to support long-horizon interaction. This makes safety depend not only on individual model outputs, but also on what an agent stores and later reuses. We study a failure mode we call memory laundering: toxic or adversarial context can be compressed into memory summaries that no longer appear toxic under standard detectors, while still preserving hostile framing or conflict structure that influences future generations. Using paired counterfactual multi-agent rollouts, we show that toxic-origin memory summaries can remain below common toxicity thresholds while nevertheless increasing downstream toxicity relative to matched neutral baselines. To measure this hidden influence, we introduce the sub-threshold propagation gap (SPG), which quantifies downstream behavioral differences conditioned on memory states that a deployed monitor would classify as safe. Our experiments show that toxicity propagates through distinct state channels: raw transcript reuse drives overt downstream toxicity, while compressed memory carries hidden sub-threshold influence. We further find that mitigation depends critically on intervention placement. Sanitizing toxic state before summarization substantially reduces the hidden propagation gap, whereas cleaning only the completed summary can leave laundered influence intact. These results suggest that safety in memory-augmented agents should be treated as a state-control problem over evolving context, with sanitization applied before unsafe information is compressed into persistent memory.
+
+### [Executable Agentic Memory for GUI Agent](https://arxiv.org/abs/2605.12294v1)
+
+- **Authors:** Zerui Qin, Sheng Yue, Xingyuan Hua, Yongjian Fu, Ju Ren
+- **Published:** 2026-05-12
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2605.12294v1) · [PDF](https://arxiv.org/pdf/2605.12294v1)
+
+Modern GUI agents typically rely on a model-centric and step-wise interaction paradigm, where LLMs must re-interpret the UI and re-decide actions at every screen, which is fragile in long-horizon tasks. In this paper, we propose Executable Agentic Memory (EAM), a structured Knowledge Graph (KG) that shifts GUI planning from free-form generation to a robust retrieval-and-execution process. Our approach includes a sample-efficient memory construction pipeline using state-aware DFS and action-group mining to compress multi-step routines. To ensure efficient planning, we introduce a value-guided graph search where a lightweight Q-function model steers Monte Carlo Tree Search (MCTS) over the KG. We theoretically establish bias-consistency for the Q-model and derive sample complexity bounds for path recovery. Empirically, EAM outperforms state-of-the-art baselines like UI-TARS-7B by up to $19.6\%$ on AndroidWorld, while reducing token costs $6\times$ relative to GPT-4o. With a $2.8$s average latency, EAM enables reliable, quick, and long-horizon GUI automation.
+
+### [SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory](https://arxiv.org/abs/2605.12061v2)
+
+- **Authors:** Juntong Wang, Haoyue Zhao, guanghui Pan, Xiyuan Wang, Yanbo Wang, Qiyan Deng, Muhan Zhang
+- **Published:** 2026-05-12
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2605.12061v2) · [PDF](https://arxiv.org/pdf/2605.12061v2)
+
+Long-term memory is becoming a central bottleneck for language agents. Exsting RAG and GraphRAG systems largely treat memory graphs as static retrieval middleware, which limits their ability to recover complete evidence chains from partial cues, exploit reusable graph-structrual roles, and improve the memory itself through downstream feedback. We introduce SAGE, a Self-evolving Agentic Graph-memory Engine that models graph memory as a dynamic long-term memory substrate. SAGE couples two roles: a memory writer that incrementally constucts structured graph memory from interaction histories, and a Graph Foundation Model-based memory reader to perform retrieval and provide feedback to the memory writer. We provide rigorooous theoretical annalyses supporting the framework. Across multi-hop QA, open-domain retireval, domain-specific review QA, and long-term agent-memory benchmarks, SAGE improves evidence recovery, answer grounding, and retrieval efficiency: after two self-evolution rounds, it achieves the best average rank on multi-hop QA; in zero-shot open-domain transfer, it reaches 82.5/91.6 Recall@2/5 on NQ. Further results on LongMemEval and HaluMem show that traning and reader-writer feedback improve multiple long-term memory and hallucination-diagnostic metrics, suggesting that self-evolving, structure-aware graph memory is a promising foundation for robust long-horizon language agents.
+
+### [HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution](https://arxiv.org/abs/2605.09942v1)
+
+- **Authors:** Dongming Jiang, Yi Li, Guanpeng Li, Qiannan Li, Bingzhe Li
+- **Published:** 2026-05-11
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2605.09942v1) · [PDF](https://arxiv.org/pdf/2605.09942v1) · [Code](https://github.com/FredJiang0324/HAGE_MVPReview)
+
+Memory retrieval in agentic large language model (LLM) systems is often treated as a static lookup problem, relying on flat vector search or fixed binary relational graphs. However, fixed graph structures cannot capture the varying strength, confidence, and query-dependent relevance of relationships between events. In this paper, we propose HAGE, a weighted multi-relational memory framework that reconceptualizes retrieval as sequential, query-conditioned traversal over a unified relational memory graph. Memory is organized as relation-specific graph views over shared memory nodes, where each edge is associated with a trainable relation feature vector encoding multiple relational signals. Given a query, an LLM-based classifier identifies the relational intent, and a routing network dynamically modulates the corresponding dimensions of the edge embedding. Traversal scores are computed via a learned combination of semantic similarity and these query-conditioned edge representations. This allows memory traversal to prioritize high-utility relational paths while softly suppressing noisy or weakly relevant connections. Beyond adaptive traversal, HAGE further introduces a reinforcement learning-based training framework that jointly optimizes routing behavior and edge representations using downstream tasks. Finally, empirical results demonstrate improved long-horizon reasoning accuracy and a favorable accuracy-efficiency trade-off compared to state-of-the-art agentic memory systems. Our code is available at https://github.com/FredJiang0324/HAGE_MVPReview.

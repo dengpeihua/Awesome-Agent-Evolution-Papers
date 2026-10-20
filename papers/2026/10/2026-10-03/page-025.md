@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -13,18 +13,18 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
-| 2026-04-08 | Agent Memory, LLM Continual Training | [Joint Optimization of Reasoning and Dual-Memory for Self-Learning Diagnostic Agent](https://arxiv.org/abs/2604.07269v2) | — |
+| 2026-04-08 | Agent Memory, LLM Continual Training, Long-Horizon Task Agents | [Joint Optimization of Reasoning and Dual-Memory for Self-Learning Diagnostic Agent](https://arxiv.org/abs/2604.07269v2) | — |
 | 2026-04-08 | Agent/LLM Self-Improvement, Agent Memory | [Prism: An Evolutionary Memory Substrate for Multi-Agent Open-Ended Discovery](https://arxiv.org/abs/2604.19795) | — |
 | 2026-04-08 | Agent Memory | [PRIME: Training Free Proactive Reasoning via Iterative Memory Evolution for User-Centric Agent](https://arxiv.org/abs/2604.07645) | — |
 | 2026-04-07 | LLM Continual Training | [Continual Visual Anomaly Detection on the Edge: Benchmark and Efficient Solutions](https://arxiv.org/abs/2604.06435v2) | — |
+| 2026-04-06 | Agent Memory, Long-Horizon Task Agents | [MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents](https://arxiv.org/abs/2604.04853v1) | 📈 Highly cited |
 | 2026-04-06 | Agent/LLM Self-Improvement, Agent Memory | [Memory Intelligence Agent](https://arxiv.org/abs/2604.04503) | — |
-| 2026-04-06 | Agent Memory | [MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents](https://arxiv.org/abs/2604.04853) | 📈 Highly cited |
 | 2026-04-06 | Agent Memory | [Springdrift: An Auditable Persistent Runtime for LLM Agents with Case-Based Memory, Normative Safety, and Ambient Self-Perception](https://arxiv.org/abs/2604.04660) | — |
 | 2026-04-06 | Agent Memory | [SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems](https://arxiv.org/abs/2604.04514) | ⭐ Popular code |
 | 2026-04-05 | Agent/LLM Self-Improvement | [Combee: Scaling Prompt Learning for Self-Improving Language Model Agents](https://arxiv.org/abs/2604.04247v2) | — |
 | 2026-04-04 | Agent Memory | [Rashomon Memory: Towards Argumentation-Driven Retrieval for Multi-Perspective Agent Memory](https://arxiv.org/abs/2604.03588) | — |
+| 2026-04-03 | Agent Memory, Long-Horizon Task Agents | [Aligning Progress and Feasibility: A Neuro-Symbolic Dual Memory Framework for Long-Horizon LLM Agents](https://arxiv.org/abs/2604.02734v1) | — |
 | 2026-04-03 | Agent Memory | [Poison Once, Exploit Forever: Environment-Injected Memory Poisoning Attacks on Web Agents](https://arxiv.org/abs/2604.02623) | 📈 Highly cited |
-| 2026-04-03 | Agent Memory | [Aligning Progress and Feasibility: A Neuro-Symbolic Dual Memory Framework for Long-Horizon LLM Agents](https://arxiv.org/abs/2604.02734) | — |
 | 2026-04-02 | Reinforcement Learning | [High Volatility and Action Bias Distinguish LLMs from Humans in Group Coordination](https://arxiv.org/abs/2604.02578v2) | — |
 | 2026-04-02 | LLM Continual Training, Reinforcement Learning | [Matching Accuracy, Different Geometry: Evolution Strategies vs GRPO in LLM Post-Training](https://arxiv.org/abs/2604.01499v3) | — |
 | 2026-04-02 | Agent Memory | [Novel Memory Forgetting Techniques for Autonomous AI Agents: Balancing Relevance and Efficiency](https://arxiv.org/abs/2604.02280) | — |
@@ -33,15 +33,15 @@
 | 2026-04-02 | Agent Memory | [DeltaMem: Towards Agentic Memory Management via Reinforcement Learning](https://arxiv.org/abs/2604.01560) | — |
 | 2026-04-01 | Agent/LLM Self-Improvement | [Meta-TTL: Meta-Learning Self-Improvement Policies for Language Agents](https://arxiv.org/abs/2604.00830v4) | — |
 | 2026-04-01 | Agent/LLM Self-Improvement | [RefineRL: Advancing Competitive Programming with Self-Refinement Reinforcement Learning](https://arxiv.org/abs/2604.00790v2) | — |
-| 2026-03-31 | Agent Memory | [Oblivion: Self-Adaptive Agentic Memory Control through Decay-Driven Activation](https://arxiv.org/abs/2604.00131v3) | — |
+| 2026-03-31 | Agent Memory, Long-Horizon Task Agents | [Oblivion: Self-Adaptive Agentic Memory Control through Decay-Driven Activation](https://arxiv.org/abs/2604.00131v3) | — |
 | 2026-03-31 | Reinforcement Learning | [Learning Diagnostic Reasoning for Decision Support in Toxicology](https://arxiv.org/abs/2603.29608v2) | — |
+| 2026-03-31 | Agent Memory, Long-Horizon Task Agents | [Multi-Layered Memory Architectures for LLM Agents: An Experimental Evaluation of Long-Term Context Retention](https://arxiv.org/abs/2603.29194v1) | — |
 | 2026-03-31 | Agent Memory | [MemFactory: Unified Inference & Training Framework for Agent Memory](https://arxiv.org/abs/2603.29493) | — |
-| 2026-03-31 | Agent Memory | [Multi-Layered Memory Architectures for LLM Agents: An Experimental Evaluation of Long-Term Context Retention](https://arxiv.org/abs/2603.29194) | — |
 | 2026-03-30 | Agent Memory | [GEMS: Agent-Native Multimodal Generation with Memory and Skills](https://arxiv.org/abs/2603.28088) | 📈 Highly cited |
 | 2026-03-29 | Agent Memory | [GAAMA: Graph Augmented Associative Memory for Agents](https://arxiv.org/abs/2603.27910) | — |
+| 2026-03-27 | Agent Memory, LLM Continual Training, Long-Horizon Task Agents | [Scaling Teams or Scaling Time? Memory Enabled Lifelong Learning in LLM Multi-Agent Systems](https://arxiv.org/abs/2604.03295v1) | — |
 | 2026-03-27 | Agent Memory | [ClinicalAgents: Multi-Agent Orchestration for Clinical Decision Making with Dual-Memory](https://arxiv.org/abs/2603.26182) | — |
 | 2026-03-27 | Agent Memory | [Cognis: Context-Aware Memory for Conversational AI Agents](https://arxiv.org/abs/2604.19771) | — |
-| 2026-03-27 | Agent Memory, LLM Continual Training | [Scaling Teams or Scaling Time? Memory Enabled Lifelong Learning in LLM Multi-Agent Systems](https://arxiv.org/abs/2604.03295) | — |
 | 2026-03-27 | Agent/LLM Self-Improvement | [SkinGPT-X: A Self-Evolving Collaborative Multi-Agent System for Transparent and Trustworthy Dermatological Diagnosis](https://arxiv.org/abs/2603.26122) | — |
 | 2026-03-26 | Agent Memory, LLM Continual Training | [MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization](https://arxiv.org/abs/2603.25973) | 📈 Highly cited |
 | 2026-03-25 | Agent Memory | [Memory-Augmented Vision-Language Agents for Persistent and Semantically Consistent Object Captioning](https://arxiv.org/abs/2603.24257) | — |
@@ -62,13 +62,13 @@
 | 2026-03-20 | Agent Memory | [Memory poisoning and secure multi-agent systems](https://arxiv.org/abs/2603.20357) | — |
 | 2026-03-20 | Agent Memory | [Memori: A Persistent Memory Layer for Efficient, Context-Aware LLM Agents](https://arxiv.org/abs/2603.19935) | 📈 Highly cited |
 | 2026-03-19 | Reinforcement Learning | [HumorGen: Cognitive Synergy for Humor Generation in Large Language Models via Persona-Based Distillation](https://arxiv.org/abs/2604.09629v3) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
-| 2026-03-19 | Agent/LLM Self-Improvement, Agent Memory | [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718) | 📈 Highly cited |
+| 2026-03-19 | Agent/LLM Self-Improvement, Agent Memory, Long-Horizon Task Agents | [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718v2) | 📈 Highly cited<br>🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
-| [MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents](https://arxiv.org/abs/2604.04853) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents](https://arxiv.org/abs/2604.04853v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Poison Once, Exploit Forever: Environment-Injected Memory Poisoning Attacks on Web Agents](https://arxiv.org/abs/2604.02623) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [GEMS: Agent-Native Multimodal Generation with Memory and Skills](https://arxiv.org/abs/2603.28088) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization](https://arxiv.org/abs/2603.25973) | 📈 Highly cited | University of Illinois Chicago |
@@ -77,7 +77,7 @@
 | [All-Mem: Agentic Lifelong Memory via Dynamic Topology Evolution](https://arxiv.org/abs/2603.19595) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Memori: A Persistent Memory Layer for Efficient, Context-Aware LLM Agents](https://arxiv.org/abs/2603.19935) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [HumorGen: Cognitive Synergy for Humor Generation in Large Language Models via Persona-Based Distillation](https://arxiv.org/abs/2604.09629v3) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted at EMNLP 2026 Main Conference |
-| [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718) | 📈 Highly cited | First author: The Pennsylvania State University (Semantic Scholar author profiles) |
+| [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718v2) | 📈 Highly cited<br>🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted by EMNLP 2026 (Main)<br>First author: The Pennsylvania State University (Semantic Scholar author profiles) |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -189,15 +189,15 @@ Clinical decision-making agents can benefit from reusing prior decision experien
 
 Automatic prompt optimization is a promising approach for adapting large language models (LLMs) to downstream tasks, yet existing methods typically search for a specific prompt specialized to a fixed task. This paradigm limits generalization across heterogeneous queries and prevents models from accumulating reusable prompting knowledge over time. In this paper, we propose MemAPO, a memory-driven framework that reconceptualizes prompt optimization as generalizable and self-evolving experience accumulation. MemAPO maintains a dual-memory mechanism that distills successful reasoning trajectories into reusable strategy templates while organizing incorrect generations into structured error patterns that capture recurrent failure modes. Given a new prompt, the framework retrieves both relevant strategies and failure patterns to compose prompts that promote effective reasoning while discouraging known mistakes. Through iterative self-reflection and memory editing, MemAPO continuously updates its memory, enabling prompt optimization to improve over time rather than restarting from scratch for each task. Experiments on diverse benchmarks show that MemAPO consistently outperforms representative prompt optimization baselines while substantially reducing optimization cost.
 
-### [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718)
+### [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718v2)
 
-- **Authors:** Lin, Minhua, Zhang, Zhiwei, Lu, Hanqing, Liu, Hui, Tang, Xianfeng, He, Qi, Zhang, Xiang, Wang, Suhang
+- **Authors:** Minhua Lin, Zhiwei Zhang, Hanqing Lu, Hui Liu, Xianfeng Tang, Qi He, Xiang Zhang, Suhang Wang
 - **Published:** 2026-03-19
-- **Priority:** 📈 Highly cited
-- **Venue:** arXiv.org
+- **Priority:** 📈 Highly cited<br>🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
+- **Venue:** EMNLP 2026
 - **Affiliations:** The Pennsylvania State University
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.18718) · [PDF](https://arxiv.org/pdf/2603.18718) · [Code](https://github.com/ventr1c/memma)
+- **Links:** [Paper](https://arxiv.org/abs/2603.18718v2) · [PDF](https://arxiv.org/pdf/2603.18718v2) · [Code](https://github.com/ventr1c/memma)
 
 Memory-augmented LLM agents maintain external memory banks to support long-horizon interaction, yet most existing systems treat construction, retrieval, and utilization as isolated subroutines. This creates two coupled challenges: strategic blindness on the forward path of the memory cycle, where construction and retrieval are driven by local heuristics rather than explicit strategic reasoning, and sparse, delayed supervision on the backward path, where downstream failures rarely translate into direct repairs of the memory bank. To address these challenges, we propose MemMA, a plug-and-play multi-agent framework that coordinates the memory cycle along both the forward and backward paths. On the forward path, a Meta-Thinker produces structured guidance that steers a Memory Manager during construction and directs a Query Reasoner during iterative retrieval. On the backward path, MemMA introduces in-situ self-evolving memory construction, which synthesizes probe QA pairs, verifies the current memory, and converts failures into repair actions before the memory is finalized. Extensive experiments on LoCoMo show that MemMA consistently outperforms existing baselines across multiple LLM backbones and improves three different storage backends in a plug-and-play manner. Our code is publicly available at https://github.com/ventr1c/memma.
 
@@ -239,6 +239,18 @@ We introduce \prism{} (\textbf{P}robabilistic \textbf{R}etrieval with \textbf{I}
 
 The development of autonomous tool-use agents for complex, long-horizon tasks in collaboration with human users has become the frontier of agentic research. During multi-turn Human-AI interactions, the dynamic and uncertain nature of user demands poses a significant challenge; agents must not only invoke tools but also iteratively refine their understanding of user intent through effective communication. While recent advances in reinforcement learning offer a path to more capable tool-use agents, existing approaches require expensive training costs and struggle with turn-level credit assignment across extended interaction horizons. To this end, we introduce PRIME (Proactive Reasoning via Iterative Memory Evolution), a gradient-free learning framework that enables continuous agent evolvement through explicit experience accumulation rather than expensive parameter optimization. PRIME distills multi-turn interaction trajectories into structured, human-readable experiences organized across three semantic zones: successful strategies, failure patterns, and user preferences. These experiences evolve through meta-level operations and guide future agent behavior via retrieval-augmented generation. Our experiments across several diverse user-centric environments demonstrate that PRIME achieves competitive performance with gradient-based methods while offering cost-efficiency and interpretability. Together, PRIME presents a practical paradigm for building proactive, collaborative agents that learn from Human-AI interaction without the computational burden of gradient-based training.
 
+### [MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents](https://arxiv.org/abs/2604.04853v1)
+
+- **Authors:** Shu Wang, Edwin Yu, Oscar Love, Tom Zhang, Tom Wong, Steve Scargall, Charles Fan
+- **Published:** 2026-04-06
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2604.04853v1) · [PDF](https://arxiv.org/pdf/2604.04853v1)
+
+Large Language Model (LLM) agents require persistent memory to maintain personalization, factual continuity, and long-horizon reasoning, yet standard context-window and retrieval-augmented generation (RAG) pipelines degrade over multi-session interactions. We present MemMachine, an open-source memory system that integrates short-term, long-term episodic, and profile memory within a ground-truth-preserving architecture that stores entire conversational episodes and reduces lossy LLM-based extraction. MemMachine uses contextualized retrieval that expands nucleus matches with surrounding context, improving recall when relevant evidence spans multiple dialogue turns. Across benchmarks, MemMachine achieves strong accuracy-efficiency tradeoffs: on LoCoMo it reaches 0.9169 using gpt4.1-mini; on LongMemEvalS (ICLR 2025), a six-dimension ablation yields 93.0 percent accuracy, with retrieval-stage optimizations -- retrieval depth tuning (+4.2 percent), context formatting (+2.0 percent), search prompt design (+1.8 percent), and query bias correction (+1.4 percent) -- outperforming ingestion-stage gains such as sentence chunking (+0.8 percent). GPT-5-mini exceeds GPT-5 by 2.6 percent when paired with optimized prompts, making it the most cost-efficient setup. Compared to Mem0, MemMachine uses roughly 80 percent fewer input tokens under matched conditions. A companion Retrieval Agent adaptively routes queries among direct retrieval, parallel decomposition, or iterative chain-of-query strategies, achieving 93.2 percent on HotpotQA-hard and 92.6 percent on WikiMultiHop under randomized-noise conditions. These results show that preserving episodic ground truth while layering adaptive retrieval yields robust, efficient long-term memory for personalized LLM agents.
+
 ### [Memory Intelligence Agent](https://arxiv.org/abs/2604.04503)
 
 - **Authors:** Qiao, Jingyang, Meng, Weicheng, Cheng, Yu, Lin, Zhihang, Zhang, Zhizhong, Tan, Xin, Gong, Jingyu, Shao, Kun, Xie, Yuan
@@ -250,18 +262,6 @@ The development of autonomous tool-use agents for complex, long-horizon tasks in
 - **Links:** [Paper](https://arxiv.org/abs/2604.04503) · [PDF](https://arxiv.org/pdf/2604.04503)
 
 Deep research agents (DRAs) integrate LLM reasoning with external tools. Memory systems enable DRAs to leverage historical experiences, which are essential for efficient reasoning and autonomous evolution. Existing methods rely on retrieving similar trajectories from memory to aid reasoning, while suffering from key limitations of ineffective memory evolution and increasing storage and retrieval costs. To address these problems, we propose a novel Memory Intelligence Agent (MIA) framework, consisting of a Manager-Planner-Executor architecture. Memory Manager is a non-parametric memory system that can store compressed historical search trajectories. Planner is a parametric memory agent that can produce search plans for questions. Executor is another agent that can search and analyze information guided by the search plan. To build the MIA framework, we first adopt an alternating reinforcement learning paradigm to enhance cooperation between the Planner and the Executor. Furthermore, we enable the Planner to continuously evolve during test-time learning, with updates performed on-the-fly alongside inference without interrupting the reasoning process. Additionally, we establish a bidirectional conversion loop between parametric and non-parametric memories to achieve efficient memory evolution. Finally, we incorporate a reflection and an unsupervised judgment mechanisms to boost reasoning and self-evolution in the open world. Extensive experiments across eleven benchmarks demonstrate the superiority of MIA.
-
-### [MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents](https://arxiv.org/abs/2604.04853)
-
-- **Authors:** Wang, Shu, Yu, Edwin, Love, Oscar, Zhang, Tom, Wong, Tom, Scargall, Steve, Fan, Charles
-- **Published:** 2026-04-06
-- **Priority:** 📈 Highly cited
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2604.04853) · [PDF](https://arxiv.org/pdf/2604.04853)
-
-Large Language Model (LLM) agents require persistent memory to maintain personalization, factual continuity, and long-horizon reasoning, yet standard context-window and retrieval-augmented generation (RAG) pipelines degrade over multi-session interactions. We present MemMachine, an open-source memory system that integrates short-term, long-term episodic, and profile memory within a ground-truth-preserving architecture that stores entire conversational episodes and reduces lossy LLM-based extraction. MemMachine uses contextualized retrieval that expands nucleus matches with surrounding context, improving recall when relevant evidence spans multiple dialogue turns. Across benchmarks, MemMachine achieves strong accuracy-efficiency tradeoffs: on LoCoMo it reaches 0.9169 using gpt4.1-mini; on LongMemEvalS (ICLR 2025), a six-dimension ablation yields 93.0 percent accuracy, with retrieval-stage optimizations -- retrieval depth tuning (+4.2 percent), context formatting (+2.0 percent), search prompt design (+1.8 percent), and query bias correction (+1.4 percent) -- outperforming ingestion-stage gains such as sentence chunking (+0.8 percent). GPT-5-mini exceeds GPT-5 by 2.6 percent when paired with optimized prompts, making it the most cost-efficient setup. Compared to Mem0, MemMachine uses roughly 80 percent fewer input tokens under matched conditions. A companion Retrieval Agent adaptively routes queries among direct retrieval, parallel decomposition, or iterative chain-of-query strategies, achieving 93.2 percent on HotpotQA-hard and 92.6 percent on WikiMultiHop under randomized-noise conditions. These results show that preserving episodic ground truth while layering adaptive retrieval yields robust, efficient long-term memory for personalized LLM agents.
 
 ### [Springdrift: An Auditable Persistent Runtime for LLM Agents with Case-Based Memory, Normative Safety, and Ambient Self-Perception](https://arxiv.org/abs/2604.04660)
 
@@ -299,6 +299,18 @@ AI coding agents operate in a paradox: they possess vast parametric knowledge ye
 
 AI agents operating over extended time horizons accumulate experiences that serve multiple concurrent goals, and must often maintain conflicting interpretations of the same events. A concession during a client negotiation encodes as a ``trust-building investment'' for one strategic goal and a ``contractual liability'' for another. Current memory architectures assume a single correct encoding, or at best support multiple views over unified storage. We propose Rashomon Memory: an architecture where parallel goal-conditioned agents encode experiences according to their priorities and negotiate at query time through argumentation. Each perspective maintains its own ontology and knowledge graph. At retrieval, perspectives propose interpretations, critique each other's proposals using asymmetric domain knowledge, and Dung's argumentation semantics determines which proposals survive. The resulting attack graph is itself an explanation: it records which interpretation was selected, which alternatives were considered, and on what grounds they were rejected. We present a proof-of-concept showing that retrieval modes (selection, composition, conflict surfacing) emerge from attack graph topology, and that the conflict surfacing mode, where the system reports genuine disagreement rather than forcing resolution, lets decision-makers see the underlying interpretive conflict directly.
 
+### [Aligning Progress and Feasibility: A Neuro-Symbolic Dual Memory Framework for Long-Horizon LLM Agents](https://arxiv.org/abs/2604.02734v1)
+
+- **Authors:** Bin Wen, Ruoxuan Zhang, Yang Chen, Hongxia Xie, Lan-Zhe Guo
+- **Published:** 2026-04-03
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2604.02734v1) · [PDF](https://arxiv.org/pdf/2604.02734v1)
+
+Large language models (LLMs) have demonstrated strong potential in long-horizon decision-making tasks, such as embodied manipulation and web interaction. However, agents frequently struggle with endless trial-and-error loops or deviate from the main objective in complex environments. We attribute these failures to two fundamental errors: global Progress Drift and local Feasibility Violation. Existing methods typically attempt to address both issues simultaneously using a single paradigm. However, these two challenges are fundamentally distinct: the former relies on fuzzy semantic planning, while the latter demands strict logical constraints and state validation. The inherent limitations of such a single-paradigm approach pose a fundamental challenge for existing models in handling long-horizon tasks. Motivated by this insight, we propose a Neuro-Symbolic Dual Memory Framework that explicitly decouples semantic progress guidance from logical feasibility verification. Specifically, during the inference phase, the framework invokes both memory mechanisms synchronously: on one hand, a neural-network-based Progress Memory extracts semantic blueprints from successful trajectories to guide global task advancement; on the other hand, a symbolic-logic-based Feasibility Memory utilizes executable Python verification functions synthesized from failed transitions to perform strict logical validation. Experiments demonstrate that this method significantly outperforms existing competitive baselines on ALFWorld, WebShop, and TextCraft, while drastically reducing the invalid action rate and average trajectory length.
+
 ### [Poison Once, Exploit Forever: Environment-Injected Memory Poisoning Attacks on Web Agents](https://arxiv.org/abs/2604.02623)
 
 - **Authors:** Zou, Wei, Dong, Mingwen, Calvo, Miguel Romero, Chang, Shuaichen, Guo, Jiang, Lee, Dongkyu, Niu, Xing, Ma, Xiaofei, Qi, Yanjun, Jiang, Jiarong
@@ -310,18 +322,6 @@ AI agents operating over extended time horizons accumulate experiences that serv
 - **Links:** [Paper](https://arxiv.org/abs/2604.02623) · [PDF](https://arxiv.org/pdf/2604.02623)
 
 Memory makes LLM-based web agents personalized, powerful, yet exploitable. By storing past interactions to personalize future tasks, agents inadvertently create a persistent attack surface that spans websites and sessions. While existing security research on memory assumes attackers can directly inject into memory storage or exploit shared memory across users, we present a more realistic threat model: contamination through environmental observation alone. We introduce Environment-injected Trajectory-based Agent Memory Poisoning (eTAMP), the first attack to achieve cross-session, cross-site compromise without requiring direct memory access. A single contaminated observation (e.g., viewing a manipulated product page) silently poisons an agent's memory and activates during future tasks on different websites, bypassing permission-based defenses. Our experiments on (Visual)WebArena reveal two key findings. First, eTAMP achieves substantial attack success rates: up to 32.5% on GPT-5-mini, 23.4% on GPT-5.2, and 19.5% on GPT-OSS-120B. Second, we discover Frustration Exploitation: agents under environmental stress become dramatically more susceptible, with ASR increasing up to 8 times when agents struggle with dropped clicks or garbled text. Notably, more capable models are not more secure. GPT-5.2 shows substantial vulnerability despite superior task performance. With the rise of AI browsers like OpenClaw, ChatGPT Atlas, and Perplexity Comet, our findings underscore the urgent need for defenses against environment-injected memory poisoning.
-
-### [Aligning Progress and Feasibility: A Neuro-Symbolic Dual Memory Framework for Long-Horizon LLM Agents](https://arxiv.org/abs/2604.02734)
-
-- **Authors:** Wen, Bin, Zhang, Ruoxuan, Chen, Yang, Xie, Hongxia, Guo, Lan-Zhe
-- **Published:** 2026-04-03
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2604.02734) · [PDF](https://arxiv.org/pdf/2604.02734)
-
-Large language models (LLMs) have demonstrated strong potential in long-horizon decision-making tasks, such as embodied manipulation and web interaction. However, agents frequently struggle with endless trial-and-error loops or deviate from the main objective in complex environments. We attribute these failures to two fundamental errors: global Progress Drift and local Feasibility Violation. Existing methods typically attempt to address both issues simultaneously using a single paradigm. However, these two challenges are fundamentally distinct: the former relies on fuzzy semantic planning, while the latter demands strict logical constraints and state validation. The inherent limitations of such a single-paradigm approach pose a fundamental challenge for existing models in handling long-horizon tasks. Motivated by this insight, we propose a Neuro-Symbolic Dual Memory Framework that explicitly decouples semantic progress guidance from logical feasibility verification. Specifically, during the inference phase, the framework invokes both memory mechanisms synchronously: on one hand, a neural-network-based Progress Memory extracts semantic blueprints from successful trajectories to guide global task advancement; on the other hand, a symbolic-logic-based Feasibility Memory utilizes executable Python verification functions synthesized from failed transitions to perform strict logical validation. Experiments demonstrate that this method significantly outperforms existing competitive baselines on ALFWorld, WebShop, and TextCraft, while drastically reducing the invalid action rate and average trajectory length.
 
 ### [Novel Memory Forgetting Techniques for Autonomous AI Agents: Balancing Relevance and Efficiency](https://arxiv.org/abs/2604.02280)
 
@@ -383,6 +383,18 @@ Recent advances in persona-centric memory have revealed the powerful capability 
 
 Human memory adapts through selective forgetting: experiences become less accessible over time but can be reactivated by reinforcement or contextual cues. In contrast, memory-augmented LLM agents rely on "always-on" retrieval and "flat" memory storage, causing high interference and latency as histories grow. We introduce Oblivion, a memory control framework that casts forgetting as decay-driven reductions in accessibility -- not explicit deletion. Oblivion decouples memory control into read and write paths. The read path decides when to consult memory, based on agent uncertainty and memory buffer utility, avoiding redundant always-on access. The write path decides what to strengthen, by reinforcing memories contributing to forming the response. Together, this enables hierarchical memory organization that maintains persistent high-level strategies while dynamically loading details as needed. We evaluate on both static and dynamic long-horizon interaction benchmarks. Oblivion outperforms both direct and memory-augmented baselines, while reducing token cost by up to 73% at 120K interaction spans. These results show that treating memory as a control problem -- deciding when to retrieve and what to reinforce -- is essential for sustaining long-horizon agent performance.
 
+### [Multi-Layered Memory Architectures for LLM Agents: An Experimental Evaluation of Long-Term Context Retention](https://arxiv.org/abs/2603.29194v1)
+
+- **Authors:** Sunil Tiwari, Payal Fofadiya
+- **Published:** 2026-03-31
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CV, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.29194v1) · [PDF](https://arxiv.org/pdf/2603.29194v1)
+
+Long-horizon dialogue systems suffer from semanticdrift and unstable memory retention across extended sessions. This paper presents a Multi-Layer Memory Framework that decomposes dialogue history into working, episodic, and semantic layers with adaptive retrieval gating and retention regularization. The architecture controls cross-session drift while maintaining bounded context growth and computational efficiency. Experiments on LOCOMO, LOCCO, and LoCoMo show improved performance, achieving 46.85 Success Rate, 0.618 overall F1 with 0.594 multi-hop F1, and 56.90% six-period retention while reducing false memory rate to 5.1% and context usage to 58.40%. Results confirm enhanced long-term retention and reasoning stability under constrained context budgets.
+
 ### [MemFactory: Unified Inference & Training Framework for Agent Memory](https://arxiv.org/abs/2603.29493)
 
 - **Authors:** Guo, Ziliang, Li, Ziheng, Tang, Bo, Xiong, Feiyu, Li, Zhiyu
@@ -394,18 +406,6 @@ Human memory adapts through selective forgetting: experiences become less access
 - **Links:** [Paper](https://arxiv.org/abs/2603.29493) · [PDF](https://arxiv.org/pdf/2603.29493) · [Code](https://github.com/MemTensor/MemFactory)
 
 Memory-augmented Large Language Models (LLMs) are essential for developing capable, long-term AI agents. Recently, applying Reinforcement Learning (RL) to optimize memory operations, such as extraction, updating, and retrieval, has emerged as a highly promising research direction. However, existing implementations remain highly fragmented and task-specific, lacking a unified infrastructure to streamline the integration, training, and evaluation of these complex pipelines. To address this gap, we present MemFactory, the first unified, highly modular training and inference framework specifically designed for memory-augmented agents. Inspired by the success of unified fine-tuning frameworks like LLaMA-Factory, MemFactory abstracts the memory lifecycle into atomic, plug-and-play components, enabling researchers to seamlessly construct custom memory agents via a "Lego-like" architecture. Furthermore, the framework natively integrates Group Relative Policy Optimization (GRPO) to fine-tune internal memory management policies driven by multi-dimensional environmental rewards. MemFactory provides out-of-the-box support for recent cutting-edge paradigms, including Memory-R1, RMM, and MemAgent. We empirically validate MemFactory on the open-source MemAgent architecture using its publicly available training and evaluation data. Across the evaluation sets, MemFactory improves performance over the corresponding base models on average, with relative gains of up to 14.8%. By providing a standardized, extensible, and easy-to-use infrastructure, MemFactory significantly lowers the barrier to entry, paving the way for future innovations in memory-driven AI agents.
-
-### [Multi-Layered Memory Architectures for LLM Agents: An Experimental Evaluation of Long-Term Context Retention](https://arxiv.org/abs/2603.29194)
-
-- **Authors:** Tiwari, Sunil, Fofadiya, Payal
-- **Published:** 2026-03-31
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2603.29194) · [PDF](https://arxiv.org/pdf/2603.29194)
-
-Long-horizon dialogue systems suffer from semanticdrift and unstable memory retention across extended sessions. This paper presents a Multi-Layer Memory Framework that decomposes dialogue history into working, episodic, and semantic layers with adaptive retrieval gating and retention regularization. The architecture controls cross-session drift while maintaining bounded context growth and computational efficiency. Experiments on LOCOMO, LOCCO, and LoCoMo show improved performance, achieving 46.85 Success Rate, 0.618 overall F1 with 0.594 multi-hop F1, and 56.90% six-period retention while reducing false memory rate to 5.1% and context usage to 58.40%. Results confirm enhanced long-term retention and reasoning stability under constrained context budgets.
 
 ### [GEMS: Agent-Native Multimodal Generation with Memory and Skills](https://arxiv.org/abs/2603.28088)
 
@@ -431,6 +431,18 @@ Recent multimodal generation models have achieved remarkable progress on general
 
 AI agents that interact with users across multiple sessions require persistent long-term memory to maintain coherent, personalized behavior. Current approaches either rely on flat retrieval-augmented generation (RAG), which loses structural relationships among memories, or use entity-centric knowledge graphs that suffer from mega-hub effects in conversational data, diluting graph-based relevance propagation. We propose GAAMA, a graph-augmented associative memory for agents that constructs a concept-mediated knowledge graph through a three-step pipeline: (1)verbatim episode preservation, (2)LLM-based extraction of atomic facts and topic-level concept nodes, and (3)synthesis of higher-order reflections. The resulting graph uses four node types (episode, fact, reflection, concept) connected by five structural edge types, with concept nodes providing cross-cutting traversal paths that avoid the mega-hub problem of entity-centric designs. Retrieval combines cosine-similarity-based k-nearest neighbor search with edge-type-aware Personalized PageRank (PPR) through an additive scoring function. We further introduce GRAFT (Graph Repair by Augmenting Facts & Topology), a post-retrieval corrective layer that diagnoses retrieval failures and surgically repairs the knowledge graph. On LoCoMo-10 (1,540 questions, 10 multi-session conversations), GAAMA achieves 79.1% mean reward, a +4.2~pp improvement over a tuned RAG baseline, the strongest comparator. On MemoryArena, GAAMA outperforms full-context baselines across three tasks - Group Travel (+0.4~pp), Web Shopping (+3.4~pp), and Progressive Search (+0.7~pp) - with advantages growing monotonically with dialogue length. Notably, GAAMA delivers consistent performance across all categories, matching the best competing method in each, whereas every competitor degrades in at least one category.
 
+### [Scaling Teams or Scaling Time? Memory Enabled Lifelong Learning in LLM Multi-Agent Systems](https://arxiv.org/abs/2604.03295v1)
+
+- **Authors:** Shanglin Wu, Yuyang Luo, Yueqing Liang, Kaiwen Shi, Yanfang Ye, Ali Payani, Kai Shu
+- **Published:** 2026-03-27
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.MA, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2604.03295v1) · [PDF](https://arxiv.org/pdf/2604.03295v1)
+
+Large language model (LLM) multi-agent systems can scale along two distinct dimensions: by increasing the number of agents and by improving through accumulated experience over time. Although prior work has studied these dimensions separately, their interaction under realistic cost constraints remains unclear. In this paper, we introduce a conceptual scaling view of multi-agent systems that jointly considers team size and lifelong learning ability, and we study how memory design shares this landscape. To this end, we propose \textbf{LLMA-Mem}, a lifelong memory framework for LLM multi-agent systems under flexible memory topologies. We evaluate LLMA-Mem on \textsc{MultiAgentBench} across coding, research, and database environments. Empirically, LLMA-Mem consistently improves long-horizon performance over baselines while reducing cost. Our analysis further reveals a non-monotonic scaling landscape: larger teams do not always produce better long-term performance, and smaller teams can outperform larger ones when memory better supports the reuse of experience. These findings position memory design as a practical path for scaling multi-agent systems more effectively and more efficiently over time.
+
 ### [ClinicalAgents: Multi-Agent Orchestration for Clinical Decision Making with Dual-Memory](https://arxiv.org/abs/2603.26182)
 
 - **Authors:** Ge, Zhuohan, Li, Haoyang, Wang, Yubo, Hu, Nicole, Zhang, Chen Jason, Li, Qing
@@ -454,18 +466,6 @@ While Large Language Models (LLMs) have demonstrated potential in healthcare, th
 - **Links:** [Paper](https://arxiv.org/abs/2604.19771) · [PDF](https://arxiv.org/pdf/2604.19771)
 
 LLM agents lack persistent memory, causing conversations to reset each session and preventing personalization over time. We present Lyzr Cognis, a unified memory architecture for conversational AI agents that addresses this limitation through a multi-stage retrieval pipeline. Cognis combines a dual-store backend pairing OpenSearch BM25 keyword matching with Matryoshka vector similarity search, fused via Reciprocal Rank Fusion. Its context-aware ingestion pipeline retrieves existing memories before extraction, enabling intelligent version tracking that preserves full memory history while keeping the store consistent. Temporal boosting enhances time-sensitive queries, and a BGE-2 cross-encoder reranker refines final result quality. We evaluate Cognis on two independent benchmarks -- LoCoMo and LongMemEval -- across eight answer generation models, demonstrating state-of-the-art performance on both. The system is open-source and deployed in production serving conversational AI applications.
-
-### [Scaling Teams or Scaling Time? Memory Enabled Lifelong Learning in LLM Multi-Agent Systems](https://arxiv.org/abs/2604.03295)
-
-- **Authors:** Wu, Shanglin, Luo, Yuyang, Liang, Yueqing, Shi, Kaiwen, Ye, Yanfang, Payani, Ali, Shu, Kai
-- **Published:** 2026-03-27
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.MA
-- **Links:** [Paper](https://arxiv.org/abs/2604.03295) · [PDF](https://arxiv.org/pdf/2604.03295)
-
-Large language model (LLM) multi-agent systems can scale along two distinct dimensions: by increasing the number of agents and by improving through accumulated experience over time. Although prior work has studied these dimensions separately, their interaction under realistic cost constraints remains unclear. In this paper, we introduce a conceptual scaling view of multi-agent systems that jointly considers team size and lifelong learning ability, and we study how memory design shares this landscape. To this end, we propose \textbf{LLMA-Mem}, a lifelong memory framework for LLM multi-agent systems under flexible memory topologies. We evaluate LLMA-Mem on \textsc{MultiAgentBench} across coding, research, and database environments. Empirically, LLMA-Mem consistently improves long-horizon performance over baselines while reducing cost. Our analysis further reveals a non-monotonic scaling landscape: larger teams do not always produce better long-term performance, and smaller teams can outperform larger ones when memory better supports the reuse of experience. These findings position memory design as a practical path for scaling multi-agent systems more effectively and more efficiently over time.
 
 ### [MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization](https://arxiv.org/abs/2603.25973)
 
@@ -599,15 +599,15 @@ Memory poisoning attacks for Agentic AI and multi-agent systems (MAS) have recen
 
 As large language models (LLMs) evolve into autonomous agents, persistent memory at the API layer is essential for enabling context-aware behavior across LLMs and multi-session interactions. Existing approaches force vendor lock-in and rely on injecting large volumes of raw conversation into prompts, leading to high token costs and degraded performance. We introduce Memori, an LLM-agnostic persistent memory layer that treats memory as a data structuring problem. Its Advanced Augmentation pipeline converts unstructured dialogue into compact semantic triples and conversation summaries, enabling precise retrieval and coherent reasoning. Evaluated on the LoCoMo benchmark, Memori achieves 81.95% accuracy, outperforming existing memory systems while using only 1,294 tokens per query (~5% of full context). This results in substantial cost reductions, including 67% fewer tokens than competing approaches and over 20x savings compared to full-context methods. These results show that effective memory in LLM agents depends on structured representations instead of larger context windows, enabling scalable and cost-efficient deployment.
 
-### [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718)
+### [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718v2)
 
-- **Authors:** Lin, Minhua, Zhang, Zhiwei, Lu, Hanqing, Liu, Hui, Tang, Xianfeng, He, Qi, Zhang, Xiang, Wang, Suhang
+- **Authors:** Minhua Lin, Zhiwei Zhang, Hanqing Lu, Hui Liu, Xianfeng Tang, Qi He, Xiang Zhang, Suhang Wang
 - **Published:** 2026-03-19
-- **Priority:** 📈 Highly cited
-- **Venue:** arXiv.org
+- **Priority:** 📈 Highly cited<br>🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
+- **Venue:** EMNLP 2026
 - **Affiliations:** The Pennsylvania State University
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.18718) · [PDF](https://arxiv.org/pdf/2603.18718) · [Code](https://github.com/ventr1c/memma)
+- **Links:** [Paper](https://arxiv.org/abs/2603.18718v2) · [PDF](https://arxiv.org/pdf/2603.18718v2) · [Code](https://github.com/ventr1c/memma)
 
 Memory-augmented LLM agents maintain external memory banks to support long-horizon interaction, yet most existing systems treat construction, retrieval, and utilization as isolated subroutines. This creates two coupled challenges: strategic blindness on the forward path of the memory cycle, where construction and retrieval are driven by local heuristics rather than explicit strategic reasoning, and sparse, delayed supervision on the backward path, where downstream failures rarely translate into direct repairs of the memory bank. To address these challenges, we propose MemMA, a plug-and-play multi-agent framework that coordinates the memory cycle along both the forward and backward paths. On the forward path, a Meta-Thinker produces structured guidance that steers a Memory Manager during construction and directs a Query Reasoner during iterative retrieval. On the backward path, MemMA introduces in-situ self-evolving memory construction, which synthesizes probe QA pairs, verifies the current memory, and converts failures into repair actions before the memory is finalized. Extensive experiments on LoCoMo show that MemMA consistently outperforms existing baselines across multiple LLM backbones and improves three different storage backends in a plug-and-play manner. Our code is publicly available at https://github.com/ventr1c/memma.
 
@@ -649,15 +649,15 @@ Visual Anomaly Detection (VAD) is a critical task for many applications includin
 
 Evolution Strategies (ES) have emerged as a scalable gradient-free alternative to reinforcement learning based LLM fine-tuning, but it remains unclear whether comparable task performance implies comparable solutions in parameter space. We compare ES and Group Relative Policy Optimization (GRPO) across four tasks in both single-task and sequential continual-learning settings. ES matches or exceeds GRPO in single-task accuracy and remains competitive sequentially when its iteration budget is controlled. Despite this similarity in task performance, the two methods produce markedly different model updates: ES makes much larger changes and induces broader off-task KL drift, whereas GRPO makes smaller, more localized updates. Strikingly, the ES and GRPO solutions are linearly connected with no loss barrier, even though their update directions are nearly orthogonal. We develop an analytical theory of ES that explains all these phenomena within a unified framework, showing how ES can accumulate large off-task movement on weakly informative directions while still making enough progress on the task to match gradient-based RL in downstream accuracy. These results show that gradient-free and gradient-based fine-tuning can reach similarly accurate yet geometrically distinct solutions, with important consequences for forgetting and knowledge preservation. The source code is publicly available: https://github.com/Bhoy1/ESvsGRPO.
 
-### [Scaling Teams or Scaling Time? Memory Enabled Lifelong Learning in LLM Multi-Agent Systems](https://arxiv.org/abs/2604.03295)
+### [Scaling Teams or Scaling Time? Memory Enabled Lifelong Learning in LLM Multi-Agent Systems](https://arxiv.org/abs/2604.03295v1)
 
-- **Authors:** Wu, Shanglin, Luo, Yuyang, Liang, Yueqing, Shi, Kaiwen, Ye, Yanfang, Payani, Ali, Shu, Kai
+- **Authors:** Shanglin Wu, Yuyang Luo, Yueqing Liang, Kaiwen Shi, Yanfang Ye, Ali Payani, Kai Shu
 - **Published:** 2026-03-27
 - **Priority:** —
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
-- **Categories:** cs.MA
-- **Links:** [Paper](https://arxiv.org/abs/2604.03295) · [PDF](https://arxiv.org/pdf/2604.03295)
+- **Categories:** cs.MA, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2604.03295v1) · [PDF](https://arxiv.org/pdf/2604.03295v1)
 
 Large language model (LLM) multi-agent systems can scale along two distinct dimensions: by increasing the number of agents and by improving through accumulated experience over time. Although prior work has studied these dimensions separately, their interaction under realistic cost constraints remains unclear. In this paper, we introduce a conceptual scaling view of multi-agent systems that jointly considers team size and lifelong learning ability, and we study how memory design shares this landscape. To this end, we propose \textbf{LLMA-Mem}, a lifelong memory framework for LLM multi-agent systems under flexible memory topologies. We evaluate LLMA-Mem on \textsc{MultiAgentBench} across coding, research, and database environments. Empirically, LLMA-Mem consistently improves long-horizon performance over baselines while reducing cost. Our analysis further reveals a non-monotonic scaling landscape: larger teams do not always produce better long-term performance, and smaller teams can outperform larger ones when memory better supports the reuse of experience. These findings position memory design as a practical path for scaling multi-agent systems more effectively and more efficiently over time.
 
@@ -794,3 +794,89 @@ Large language models (LLMs) frequently exhibit performance biases against regio
 - **Links:** [Paper](https://arxiv.org/abs/2604.09629v3) · [PDF](https://arxiv.org/pdf/2604.09629v3)
 
 Humor generation poses a significant challenge for Large Language Models (LLMs), because their standard training objective (next-token prediction) inherently conflicts with the surprise and incongruity required for comedy. To bridge this gap, we introduce the Cognitive Synergy Framework, a methodology for generating highquality humor data inspired by psychological theories of humor. Utilizing a Mixtureof-Thought (MoT) approach, we deploy six cognitive personas (e.g., The Absurdist, The Cynic) to synthesize diverse comedic perspectives for a given prompt. This framework produces a theory-grounded dataset, which we use to fine-tune a 7B-parameter student model. We further evaluate two alignment strategies, Direct Preference Optimization (DPO) and an offline group-relative variant O-GRPO, finding that neither improves over SFT. However, our 7B HumorGen model variants significantly outperform larger instruction-tuned baselines and achieve top-tier open-weight performance while remaining competitive with frontier proprietary systems. These results suggest that cognitively driven data curation is more critical than alignment algorithms or model scale for humor generation.
+
+## Long-Horizon Task Agents
+
+### [Joint Optimization of Reasoning and Dual-Memory for Self-Learning Diagnostic Agent](https://arxiv.org/abs/2604.07269v2)
+
+- **Authors:** Bingxuan Li, Simo Du, Yue Guo
+- **Published:** 2026-04-08
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** Carnegie Mellon University
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2604.07269v2) · [PDF](https://arxiv.org/pdf/2604.07269v2)
+
+Clinical expertise improves not only by acquiring medical knowledge, but by accumulating experience that yields reusable diagnostic patterns. Recent LLMs-based diagnostic agents have shown promising progress in clinical reasoning for decision support. However, most approaches treat cases independently, limiting experience reuse and continual adaptation. We propose SEA, a self-learning diagnostic agent with cognitively inspired dual-memory module. We design a reinforcement training framework tailored to our designed agent for joint optimization of reasoning and memory management. We evaluate SEA in two complementary settings. On standard evaluation with MedCaseReasoning dataset, SEA achieves 92.46% accuracy, outperforming the strongest baseline by +19.6%, demonstrating the benefit of jointly optimizing reasoning and memory. On the long-horizon with ER-Reason dataset, SEA attains the best final accuracy (0.7214) and the largest improvement (+0.35 Acc@100), while baseline methods show limited or unstable gains. Expert evaluation further indicates that rules consolidated from SEA show strong clinical correctness, usefulness and trust, suggesting that the induced rules in dual-memory module are reliable and practically meaningful. Overall, SEA improves both diagnostic reasoning ability and continual learning by effectively transforming experience into reusable knowledge.
+
+### [MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents](https://arxiv.org/abs/2604.04853v1)
+
+- **Authors:** Shu Wang, Edwin Yu, Oscar Love, Tom Zhang, Tom Wong, Steve Scargall, Charles Fan
+- **Published:** 2026-04-06
+- **Priority:** 📈 Highly cited
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2604.04853v1) · [PDF](https://arxiv.org/pdf/2604.04853v1)
+
+Large Language Model (LLM) agents require persistent memory to maintain personalization, factual continuity, and long-horizon reasoning, yet standard context-window and retrieval-augmented generation (RAG) pipelines degrade over multi-session interactions. We present MemMachine, an open-source memory system that integrates short-term, long-term episodic, and profile memory within a ground-truth-preserving architecture that stores entire conversational episodes and reduces lossy LLM-based extraction. MemMachine uses contextualized retrieval that expands nucleus matches with surrounding context, improving recall when relevant evidence spans multiple dialogue turns. Across benchmarks, MemMachine achieves strong accuracy-efficiency tradeoffs: on LoCoMo it reaches 0.9169 using gpt4.1-mini; on LongMemEvalS (ICLR 2025), a six-dimension ablation yields 93.0 percent accuracy, with retrieval-stage optimizations -- retrieval depth tuning (+4.2 percent), context formatting (+2.0 percent), search prompt design (+1.8 percent), and query bias correction (+1.4 percent) -- outperforming ingestion-stage gains such as sentence chunking (+0.8 percent). GPT-5-mini exceeds GPT-5 by 2.6 percent when paired with optimized prompts, making it the most cost-efficient setup. Compared to Mem0, MemMachine uses roughly 80 percent fewer input tokens under matched conditions. A companion Retrieval Agent adaptively routes queries among direct retrieval, parallel decomposition, or iterative chain-of-query strategies, achieving 93.2 percent on HotpotQA-hard and 92.6 percent on WikiMultiHop under randomized-noise conditions. These results show that preserving episodic ground truth while layering adaptive retrieval yields robust, efficient long-term memory for personalized LLM agents.
+
+### [Aligning Progress and Feasibility: A Neuro-Symbolic Dual Memory Framework for Long-Horizon LLM Agents](https://arxiv.org/abs/2604.02734v1)
+
+- **Authors:** Bin Wen, Ruoxuan Zhang, Yang Chen, Hongxia Xie, Lan-Zhe Guo
+- **Published:** 2026-04-03
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2604.02734v1) · [PDF](https://arxiv.org/pdf/2604.02734v1)
+
+Large language models (LLMs) have demonstrated strong potential in long-horizon decision-making tasks, such as embodied manipulation and web interaction. However, agents frequently struggle with endless trial-and-error loops or deviate from the main objective in complex environments. We attribute these failures to two fundamental errors: global Progress Drift and local Feasibility Violation. Existing methods typically attempt to address both issues simultaneously using a single paradigm. However, these two challenges are fundamentally distinct: the former relies on fuzzy semantic planning, while the latter demands strict logical constraints and state validation. The inherent limitations of such a single-paradigm approach pose a fundamental challenge for existing models in handling long-horizon tasks. Motivated by this insight, we propose a Neuro-Symbolic Dual Memory Framework that explicitly decouples semantic progress guidance from logical feasibility verification. Specifically, during the inference phase, the framework invokes both memory mechanisms synchronously: on one hand, a neural-network-based Progress Memory extracts semantic blueprints from successful trajectories to guide global task advancement; on the other hand, a symbolic-logic-based Feasibility Memory utilizes executable Python verification functions synthesized from failed transitions to perform strict logical validation. Experiments demonstrate that this method significantly outperforms existing competitive baselines on ALFWorld, WebShop, and TextCraft, while drastically reducing the invalid action rate and average trajectory length.
+
+### [Oblivion: Self-Adaptive Agentic Memory Control through Decay-Driven Activation](https://arxiv.org/abs/2604.00131v3)
+
+- **Authors:** Ashish Rana, Chia-Chien Hung, Qumeng Sun, Julian Martin Kunkel, Carolin Lawrence
+- **Published:** 2026-03-31
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CL, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2604.00131v3) · [PDF](https://arxiv.org/pdf/2604.00131v3) · [Code](https://github.com/nec-research/oblivion)
+
+Human memory adapts through selective forgetting: experiences become less accessible over time but can be reactivated by reinforcement or contextual cues. In contrast, memory-augmented LLM agents rely on "always-on" retrieval and "flat" memory storage, causing high interference and latency as histories grow. We introduce Oblivion, a memory control framework that casts forgetting as decay-driven reductions in accessibility -- not explicit deletion. Oblivion decouples memory control into read and write paths. The read path decides when to consult memory, based on agent uncertainty and memory buffer utility, avoiding redundant always-on access. The write path decides what to strengthen, by reinforcing memories contributing to forming the response. Together, this enables hierarchical memory organization that maintains persistent high-level strategies while dynamically loading details as needed. We evaluate on both static and dynamic long-horizon interaction benchmarks. Oblivion outperforms both direct and memory-augmented baselines, while reducing token cost by up to 73% at 120K interaction spans. These results show that treating memory as a control problem -- deciding when to retrieve and what to reinforce -- is essential for sustaining long-horizon agent performance.
+
+### [Multi-Layered Memory Architectures for LLM Agents: An Experimental Evaluation of Long-Term Context Retention](https://arxiv.org/abs/2603.29194v1)
+
+- **Authors:** Sunil Tiwari, Payal Fofadiya
+- **Published:** 2026-03-31
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.CV, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.29194v1) · [PDF](https://arxiv.org/pdf/2603.29194v1)
+
+Long-horizon dialogue systems suffer from semanticdrift and unstable memory retention across extended sessions. This paper presents a Multi-Layer Memory Framework that decomposes dialogue history into working, episodic, and semantic layers with adaptive retrieval gating and retention regularization. The architecture controls cross-session drift while maintaining bounded context growth and computational efficiency. Experiments on LOCOMO, LOCCO, and LoCoMo show improved performance, achieving 46.85 Success Rate, 0.618 overall F1 with 0.594 multi-hop F1, and 56.90% six-period retention while reducing false memory rate to 5.1% and context usage to 58.40%. Results confirm enhanced long-term retention and reasoning stability under constrained context budgets.
+
+### [Scaling Teams or Scaling Time? Memory Enabled Lifelong Learning in LLM Multi-Agent Systems](https://arxiv.org/abs/2604.03295v1)
+
+- **Authors:** Shanglin Wu, Yuyang Luo, Yueqing Liang, Kaiwen Shi, Yanfang Ye, Ali Payani, Kai Shu
+- **Published:** 2026-03-27
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.MA, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2604.03295v1) · [PDF](https://arxiv.org/pdf/2604.03295v1)
+
+Large language model (LLM) multi-agent systems can scale along two distinct dimensions: by increasing the number of agents and by improving through accumulated experience over time. Although prior work has studied these dimensions separately, their interaction under realistic cost constraints remains unclear. In this paper, we introduce a conceptual scaling view of multi-agent systems that jointly considers team size and lifelong learning ability, and we study how memory design shares this landscape. To this end, we propose \textbf{LLMA-Mem}, a lifelong memory framework for LLM multi-agent systems under flexible memory topologies. We evaluate LLMA-Mem on \textsc{MultiAgentBench} across coding, research, and database environments. Empirically, LLMA-Mem consistently improves long-horizon performance over baselines while reducing cost. Our analysis further reveals a non-monotonic scaling landscape: larger teams do not always produce better long-term performance, and smaller teams can outperform larger ones when memory better supports the reuse of experience. These findings position memory design as a practical path for scaling multi-agent systems more effectively and more efficiently over time.
+
+### [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718v2)
+
+- **Authors:** Minhua Lin, Zhiwei Zhang, Hanqing Lu, Hui Liu, Xianfeng Tang, Qi He, Xiang Zhang, Suhang Wang
+- **Published:** 2026-03-19
+- **Priority:** 📈 Highly cited<br>🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
+- **Venue:** EMNLP 2026
+- **Affiliations:** The Pennsylvania State University
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.18718v2) · [PDF](https://arxiv.org/pdf/2603.18718v2) · [Code](https://github.com/ventr1c/memma)
+
+Memory-augmented LLM agents maintain external memory banks to support long-horizon interaction, yet most existing systems treat construction, retrieval, and utilization as isolated subroutines. This creates two coupled challenges: strategic blindness on the forward path of the memory cycle, where construction and retrieval are driven by local heuristics rather than explicit strategic reasoning, and sparse, delayed supervision on the backward path, where downstream failures rarely translate into direct repairs of the memory bank. To address these challenges, we propose MemMA, a plug-and-play multi-agent framework that coordinates the memory cycle along both the forward and backward paths. On the forward path, a Meta-Thinker produces structured guidance that steers a Memory Manager during construction and directs a Query Reasoner during iterative retrieval. On the backward path, MemMA introduces in-situ self-evolving memory construction, which synthesizes probe QA pairs, verifies the current memory, and converts failures into repair actions before the memory is finalized. Extensive experiments on LoCoMo show that MemMA consistently outperforms existing baselines across multiple LLM backbones and improves three different storage backends in a plug-and-play manner. Our code is publicly available at https://github.com/ventr1c/memma.

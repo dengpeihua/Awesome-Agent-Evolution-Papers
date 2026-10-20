@@ -4,7 +4,7 @@
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across four research tracks. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -16,8 +16,8 @@
 | 2026-08-13 | Agent/LLM Self-Improvement, Agent Memory | [AQuA: Recursively Self-Improving Quantitative Trading Research Agents](https://arxiv.org/abs/2608.12841v3) | — |
 | 2026-08-13 | Agent/LLM Self-Improvement | [Spatial Memory Agent: Experience-Grounded Procedural Memory for Spatial Intelligence](https://arxiv.org/abs/2608.12743v3) | — |
 | 2026-08-13 | Agent/LLM Self-Improvement, Agent Memory | [ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval](https://arxiv.org/abs/2608.12720v2) | — |
-| 2026-08-12 | Agent Memory | [EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory](https://arxiv.org/abs/2608.12627v3) | — |
-| 2026-08-12 | Agent Memory | [Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents](https://arxiv.org/abs/2608.12476v2) | — |
+| 2026-08-12 | Agent Memory, Long-Horizon Task Agents | [EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory](https://arxiv.org/abs/2608.12627v3) | — |
+| 2026-08-12 | Agent Memory, Long-Horizon Task Agents | [Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents](https://arxiv.org/abs/2608.12476v2) | — |
 | 2026-08-12 | Agent/LLM Self-Improvement | [AVA-Encoder: Towards Agent-Native Video Representation Learning](https://arxiv.org/abs/2608.12313v2) | — |
 | 2026-08-12 | Agent/LLM Self-Improvement | [Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence](https://arxiv.org/abs/2608.12290v1) | — |
 | 2026-08-12 | Agent/LLM Self-Improvement | [MindMemOS: A Portable and Self-Evolving Memory Operating Layer for AI Agents](https://arxiv.org/abs/2608.12428v1) | — |
@@ -42,7 +42,7 @@
 | 2026-08-10 | Agent/LLM Self-Improvement | [Rethinking Self-Evolving Agents: Do We Still Need Prescribed Optimization Pipelines?](https://arxiv.org/abs/2608.09629v1) | — |
 | 2026-08-10 | Agent/LLM Self-Improvement | [ActBench: Self-Evolving Benchmark of Behavioral Safety in Cowork Agents](https://arxiv.org/abs/2608.09476v1) | — |
 | 2026-08-10 | Agent/LLM Self-Improvement | [Beyond the Capability Boundary: Zeroth-Order Optimization for Self-Evolving LLM Agents](https://arxiv.org/abs/2608.09292v1) | — |
-| 2026-08-10 | Agent/LLM Self-Improvement | [Entropy-based Code Adversarial Translation for Real-world Repository Migration](https://arxiv.org/abs/2608.09273v2) | — |
+| 2026-08-10 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Entropy-based Code Adversarial Translation for Real-world Repository Migration](https://arxiv.org/abs/2608.09273v2) | — |
 | 2026-08-10 | LLM Continual Training, Reinforcement Learning | [Beyond Solvability: Task Learnability as a Static Prior for LLM RL Post-Training](https://arxiv.org/abs/2608.09217v1) | — |
 | 2026-08-10 | LLM Continual Training | [SiriusDeliver: Automating Data Warehouse Delivery at Tencent](https://arxiv.org/abs/2608.09185v1) | — |
 | 2026-08-10 | LLM Continual Training | [Agentic Router: An Execution-Grounded Continual Learning Approach With Memory](https://arxiv.org/abs/2608.09184v1) | — |
@@ -51,9 +51,9 @@
 | 2026-08-10 | Agent Memory | [Muscle Memory for Agents: Compile not Merely Retrieve](https://arxiv.org/abs/2608.08995v2) | — |
 | 2026-08-09 | Agent/LLM Self-Improvement | [Yesterday's Shield, Today's Spear: A Self-Evolving Safety Guardrail in Production](https://arxiv.org/abs/2608.08471v1) | — |
 | 2026-08-09 | Agent/LLM Self-Improvement | [Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses](https://arxiv.org/abs/2608.08466v1) | — |
-| 2026-08-08 | Agent/LLM Self-Improvement | [Query-Only Backdoor Attacks on Self-Evolving Skills via Trajectory Poisoning](https://arxiv.org/abs/2608.08303v1) | — |
+| 2026-08-08 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Query-Only Backdoor Attacks on Self-Evolving Skills via Trajectory Poisoning](https://arxiv.org/abs/2608.08303v1) | — |
 | 2026-08-08 | Agent Memory | [SuperLocalMemory 4.0: The Governed Memory Operating System for AI Agents](https://arxiv.org/abs/2608.08253v1) | — |
-| 2026-08-08 | Agent/LLM Self-Improvement | [SkillSmith: Enhancing Locally Deployed Agents via Automatic Skill Construction and Evolution](https://arxiv.org/abs/2608.08037v1) | — |
+| 2026-08-08 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [SkillSmith: Enhancing Locally Deployed Agents via Automatic Skill Construction and Evolution](https://arxiv.org/abs/2608.08037v1) | — |
 | 2026-08-08 | Reinforcement Learning | [Evidence-RL: Towards Evidence-intensive Visual Reasoning](https://arxiv.org/abs/2608.08021v2) | — |
 | 2026-08-08 | Agent/LLM Self-Improvement | [Self-Evolving Neuro-Symbolic Skills for Tool-Augmented Spatial Reasoning](https://arxiv.org/abs/2608.07955v1) | — |
 | 2026-08-08 | Agent Memory | [CommitKV: Lifecycle-Aware KV Cache Compression via Commit Transitions for Multi-Turn Agents](https://arxiv.org/abs/2608.07855v1) | — |
@@ -713,3 +713,65 @@ Reinforcement learning (RL) has become a central post-training paradigm for elic
 - **Links:** [Paper](https://arxiv.org/abs/2608.08021v2) · [PDF](https://arxiv.org/pdf/2608.08021v2)
 
 Vision-Language Models (VLMs) should answer from concrete image evidence rather than language priors, dataset shortcuts, or irrelevant visual context. Existing perception-aware post-training methods encourage image use through global perturbations or attention proxies, but they do not test whether a sampled answer causally depends on the local evidence that supports it. We propose Counterfactual Evidence Disentanglement (CED), a training-time evidence audit for VLM grounding. For each response, CED neutralizes an object-centric Evidence Region and compares the resulting support drop against matched non-evidence Regions. We combine this signal with answer correctness inside GRPO, rewarding correct answers that rely on the evidence path rather than shortcut or nuisance paths. CED uses weak object-level proposals, requires no question-specific evidence annotations, and adds no inference-time overhead. Across nine public benchmarks and four backbones, CED outperforms prior RL-based post-training methods, with targeted analyses verifying its object-centric signal.
+
+## Long-Horizon Task Agents
+
+### [EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory](https://arxiv.org/abs/2608.12627v3)
+
+- **Authors:** Le Zhang, Hao Chen, Vlad Roznyatovskiy, Jianzhong Zhang, Ke Sun
+- **Published:** 2026-08-12
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** Mila-Quebec AI Institute
+- **Categories:** cs.CV, cs.AI, cs.CL, cs.HC
+- **Links:** [Paper](https://arxiv.org/abs/2608.12627v3) · [PDF](https://arxiv.org/pdf/2608.12627v3)
+
+Long-horizon egocentric memory transforms continuous first-person video and audio into a searchable record of past experiences. We demonstrate two bottlenecks in existing systems: indices built from context-poor captions are unreliable for agentic search, while retrieval ignores a question's temporal intent. To address both bottlenecks, we introduce EgoCITE (Egocentric Context-augmented Indexing and Time-aware Evidence retrieval), a long-horizon agentic memory framework for egocentric QA. EgoCITE comprises three components. EgoScheme uses local multimodal context to turn fragmentary video captions and speech transcripts into self-contained atomic memory indices. EgoIndex organizes complementary action, activity, utterance, and conversation representations into searchable multi-view memory indices at multiple granularities. EgoRetrv combines semantic search with question-conditioned temporal relevance scoring and curation of retrieved evidence. We evaluate EgoCITE on EgoLifeQA, EgoMem, and EgoR1-Bench in terms of answer accuracy and target-event retrieval alignment. EgoCITE improves accuracy over agentic memory baselines by at least 4.4--14.2% while achieving 36$\times$ lower cost than long-context LLM agents.
+
+### [Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents](https://arxiv.org/abs/2608.12476v2)
+
+- **Authors:** Guodong Xu
+- **Published:** 2026-08-12
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2608.12476v2) · [PDF](https://arxiv.org/pdf/2608.12476v2)
+
+Long-term agent memory is usually treated as select--store--retrieve, but retrieval does not decide whether contradictory, superseded, retracted, deleted, or stale records may support an outgoing claim. We introduce Governed Persistent Memory (GPM), an auditable bitemporal state-transition model with source-bound admission, derived lifecycle state, current public barriers, and fail-closed structured release. Five executable clauses cover ledger integrity, source binding, conflict isolation, non-revival after retraction or deletion, and exact claim closure over a fresh view at one verified head. On a prespecified hash-frozen 3,600-case GPM-ReleaseBench, GPM matches all complete outcomes; the strongest of three intentionally simple complete policies matches 1,800/3,600 and makes unmatched releases on 50% of violation cases. A separate sealed end-to-end service evaluation exercises real ingestion and release across eight query families. In its publicly disclosed V3 arm, the governed lane is correct on 2,400/2,400 clusters versus 600/2,400 for ungoverned local Qwen2.5-7B; it repairs all 1,800 baseline failures with no regression (one-sided 95% lower bounds 99.875% and 99.834%). A later V5 reseal over Chinese- and English-command arms, with generation-date pinning and no post-freeze reducer amendment, again obtains 2,400/2,400 per arm. A production-code-independent finite model explores 331,776 semantic and 1,990,656 query states without a full-contract counterexample, and a 100,000-trace three-engine differential yields zero mismatches. These are bounded contract and implementation results, not open-world model accuracy or evidence of world truth. Governed answers in the sealed service evaluation are deterministic service outputs; the 7B result is the ungoverned comparison, not a claim that a language model itself became perfectly accurate.
+
+### [Entropy-based Code Adversarial Translation for Real-world Repository Migration](https://arxiv.org/abs/2608.09273v2)
+
+- **Authors:** Yushun Tang, Yisen Cao, Zhicheng Chen, Lin Peng, Junkang Mao, Fengyi Song, Yantao Jia
+- **Published:** 2026-08-10
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.SE
+- **Links:** [Paper](https://arxiv.org/abs/2608.09273v2) · [PDF](https://arxiv.org/pdf/2608.09273v2)
+
+LLMs have demonstrated strong capabilities in code generation and automated program repair, but migrating an entire repository rarely produces a runnable application because long-horizon translation challenges LLM-based agents' ability to maintain repository-level migration objectives. In this work, we propose Entropy-based Code Adversarial Translation (ECAT), a multi-agent framework for automated Android-to-HarmonyOS repository migration. ECAT formulates repository migration as adversarial entropy minimization through a generator-discriminator architecture. The discriminator measures migration quality using a unified metric called Code Entropy and produces text gradients that specify both file-level generation directives and the skills needed to execute them. Guided by these optimization signals, the generator iteratively updates the repository, and each update is accepted only if it reduces Code Entropy. Repeated generator--discriminator interactions progressively drive the migration from an initial template toward a functionally complete HarmonyOS repository. Successful low-entropy trajectories are further distilled into a self-evolving memory tree, enabling transferable migration knowledge across repositories. We also introduce A2H-RepoBench, the first real-world benchmark for Android-to-HarmonyOS repository migration, covering applications from tens of thousands to hundreds of thousands of lines of code. Evaluated by node alignment and an agent-based functional judge, ECAT achieves 74.7% overall migration quality and consistently outperforms existing agent-based methods across repositories of different scales.
+
+### [Query-Only Backdoor Attacks on Self-Evolving Skills via Trajectory Poisoning](https://arxiv.org/abs/2608.08303v1)
+
+- **Authors:** Yuyang Luo, Haoran Wang, Kai Shu
+- **Published:** 2026-08-08
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** Emory University
+- **Categories:** cs.AI, cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2608.08303v1) · [PDF](https://arxiv.org/pdf/2608.08303v1)
+
+Agentic skills improve large language model (LLM) agents by encoding reusable procedures for complex tasks. However, manually authored skills often adapt poorly to long-horizon tasks and changing environments. To address the limitation, self-evolving skill systems have been developed to automatically construct and update skills from execution trajectories, shifting skill acquisition from external marketplaces to a trusted evolution pipeline. By replacing external skill acquisition with trusted internal construction, self-evolving skill systems reduce exposure to skill injection attacks that rely on direct skill manipulation. However, this skill evolution pipeline may introduce a new attack surface in which an attacker can indirectly steer skill evolution by inducing compromised trajectories through agent interactions. To demonstrate the threat, we propose Trajectory Backdoor Attack (TBA), a query-only attack that steers a trusted skill-evolution pipeline toward producing a backdoored skill. Specifically, we craft attacker-submitted queries to lead the agent to perform the target action and explicitly state the corresponding activation condition in the trajectory. We repeat the same condition-action pattern across diverse triggered tasks, while leaving clean queries unchanged, encouraging the evolver to consolidate the pattern as a reusable trigger-dependent rule into the evolved skill. Experiments on three benchmarks across two skill-evolution systems using four open- and closed-source backbone models demonstrate that TBA reliably implants conditional backdoors while preserving clean-task utility, matching or even surpassing direct skill injection. The results reveal a critical vulnerability in trajectory-driven skill evolution.
+
+### [SkillSmith: Enhancing Locally Deployed Agents via Automatic Skill Construction and Evolution](https://arxiv.org/abs/2608.08037v1)
+
+- **Authors:** Xinle Jiang, Remy Xie, Ming Tang
+- **Published:** 2026-08-08
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2608.08037v1) · [PDF](https://arxiv.org/pdf/2608.08037v1)
+
+LLM-based agent frameworks now act as personal assistants for multi-step tasks. Existing agent frameworks such as OpenClaw commonly follow the Cloud Agent depolyment mode using closed-source cloud LLMs as backbone model, which may expose private user information and incur repeated LLM-calling costs. Local Agents address these deployment concerns by depolying frontier open-source SLMs on user-controlled devices, but their task effectiveness still lags far behind Cloud Agents. Through diagnostic analysis, we reveal that the limited effectiveness of Local Agents with frontier SLM backbones mainly comes from missing environment knowledge caused by limited backbone model scale including environment rules and operation procedures. To supply such knowledge non-parametrically, context-efficiently, and without expert authoring, we present SkillSmith, a Cloud--Local Agent collaboration framework that uses Skill as a context-efficient knowledge carrier, automatic constructs Skill from Cloud Agent task exploration and evolves Skill using Local Agent execution feedback to enhance a frozen Local Agent. Experiments on daily agent task datasets AppWorld and WorkBench show that the automatically generated Skill enables the Local Agent with Qwen3.6-27B(SLM) to achieve task effectiveness comparable to Cloud Agents with frontier LLMs, outperform the strongest non-parametric baselines, reduce average actions per task from 36.1 to 9.9 on AppWorld-Normal, and generalize to other SLM backbone models without rerunning Skill construction.
