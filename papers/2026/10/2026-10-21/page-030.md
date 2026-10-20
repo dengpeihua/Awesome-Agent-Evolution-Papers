@@ -5,7 +5,7 @@
 # Daily Papers · 2026-10-21
 
 > Prepared **28** new, promoted, or retried paper(s) across four research tracks plus explicitly requested papers. Lists are newest publication first.
-> Catch-up window: **2025-01-01T00:00:00+00:00** → **2026-10-21T02:05:20.960661+08:00**.
+> Catch-up window: **2025-01-01T00:00:00+00:00** → **2026-10-21T02:29:20.628748+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -61,7 +61,7 @@
 | [Web-Shepherd: Advancing PRMs for Reinforcing Web Agents](https://arxiv.org/abs/2505.15277v2) | 📈 Highly cited<br>🏆 CCF-A: NeurIPS 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: NeurIPS 2025 Spotlight |
 | [Guided Search Strategies in Non-Serializable Environments with Applications to Software Engineering Agents](https://arxiv.org/abs/2505.13652v1) | 📈 Highly cited<br>🏆 CCF-A: International Conference on Machine Learning<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Semantic Scholar publication metadata: International Conference on Machine Learning |
 | [Reinforcing Multi-Turn Reasoning in LLM Agents via Fine-Grained Reward Structure and Credit Assignment](https://arxiv.org/abs/2505.11821v3) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [Group-in-Group Policy Optimization for LLM Agent Training](https://arxiv.org/abs/2505.10978v3) | 📈 Highly cited<br>🏆 CCF-A: NeurIPS 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: Published at NeurIPS 2025: https://papers.nips.cc/paper_files/paper/2025/file/420c9f777c0b4f78d515e53cf74d58b2-Paper-Conference.pdf<br>First author: Nanyang Technological University (https://openreview.net/pdf?id=QXEhBMNrCW) |
+| [Group-in-Group Policy Optimization for LLM Agent Training](https://arxiv.org/abs/2505.10978v3) | 📈 Highly cited<br>🏆 CCF-A: NeurIPS 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: Published at NeurIPS 2025: https://papers.nips.cc/paper_files/paper/2025/file/420c9f777c0b4f78d515e53cf74d58b2-Paper-Conference.pdf<br>First author: Nanyang Technological University (https://openreview.net/pdf?id=QXEhBMNrCW) |
 | [AutoPentest: Enhancing Vulnerability Management With Autonomous LLM Agents](https://arxiv.org/abs/2505.10321v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering](https://arxiv.org/abs/2505.07782v1) | 📈 Highly cited | Georgia Institute of Technology |
 

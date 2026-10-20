@@ -5,7 +5,7 @@
 # Daily Papers · 2026-10-21
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks plus explicitly requested papers. Lists are newest publication first.
-> Catch-up window: **2025-01-01T00:00:00+00:00** → **2026-10-21T02:05:20.960661+08:00**.
+> Catch-up window: **2025-01-01T00:00:00+00:00** → **2026-10-21T02:29:20.628748+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -695,7 +695,7 @@ LLM deployment is shifting from single-turn completion to agentic trajectories i
 - **Published:** 2026-10-05
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Nanyang Technological University
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2610.06100v1) · [PDF](https://arxiv.org/pdf/2610.06100v1)
 

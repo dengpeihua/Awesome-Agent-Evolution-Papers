@@ -5,7 +5,7 @@
 # Daily Papers · 2026-10-21
 
 > Prepared **50** new, promoted, or retried paper(s) across four research tracks plus explicitly requested papers. Lists are newest publication first.
-> Catch-up window: **2025-01-01T00:00:00+00:00** → **2026-10-21T02:05:20.960661+08:00**.
+> Catch-up window: **2025-01-01T00:00:00+00:00** → **2026-10-21T02:29:20.628748+08:00**.
 
 [← Back to index](../../../../README.md)
 
@@ -528,7 +528,7 @@ Physics time-series data are central to fundamental discoveries involving dark m
 - **Published:** 2026-09-29
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** University of Science and Technology of China
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2609.37853v1) · [PDF](https://arxiv.org/pdf/2609.37853v1)
 
@@ -564,7 +564,7 @@ LLM agents are increasingly expected to support enterprise workflows, where task
 - **Published:** 2026-09-29
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** MBZUAI
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2609.37539v1) · [PDF](https://arxiv.org/pdf/2609.37539v1)
 
@@ -672,7 +672,7 @@ Artificial intelligence (AI) agents, language models connected to tools and run 
 - **Published:** 2026-09-28
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Tsinghua University
 - **Categories:** cs.AI, cs.LG, cs.SC
 - **Links:** [Paper](https://arxiv.org/abs/2609.35501v1) · [PDF](https://arxiv.org/pdf/2609.35501v1)
 
@@ -696,7 +696,7 @@ Group-based reinforcement learning (RL) has advanced large language models (LLMs
 - **Published:** 2026-09-28
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Beihang University, Renmin University of China, School of Information, Renmin University of China
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2609.34930v1) · [PDF](https://arxiv.org/pdf/2609.34930v1)
 

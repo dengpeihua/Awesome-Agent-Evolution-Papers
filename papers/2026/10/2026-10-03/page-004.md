@@ -460,7 +460,7 @@ Reinforcement learning has become an effective approach to training language mod
 - **Published:** 2026-09-28
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Harvard University, Tsinghua University
 - **Categories:** cs.CY
 - **Links:** [Paper](https://arxiv.org/abs/2609.34714v1) · [PDF](https://arxiv.org/pdf/2609.34714v1)
 

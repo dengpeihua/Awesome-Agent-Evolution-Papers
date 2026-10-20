@@ -670,7 +670,7 @@ Large language models (LLMs) excel at structured, verifiable tasks, but their lo
 - **Published:** 2026-09-28
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Purdue University
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2609.35677v1) · [PDF](https://arxiv.org/pdf/2609.35677v1)
 
