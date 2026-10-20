@@ -3,6 +3,56 @@
   "evidence_level": "Automated title/abstract screening, not full-paper verification",
   "papers": [
     {
+      "id": "2610.26496",
+      "published": "2026-10-19T14:34:50+00:00",
+      "evidence": "Reinforcement learning for language models has moved from preference reward models to verifiable rewards, which sustain much longer optimization."
+    },
+    {
+      "id": "2610.26487",
+      "published": "2026-10-19T14:28:51+00:00",
+      "evidence": "We present SPAR (Structural Pruning and Action Recovery), which simultaneously prunes the hidden and feed-forward intermediate dimensions of the large language model (LLM) backbone through pruning-aware tuning, then applies reinforcement learning (RL) to recover policy performance."
+    },
+    {
+      "id": "2610.26275",
+      "published": "2026-10-19T12:30:32+00:00",
+      "evidence": "To address this, we fine-tune VLMs with GRPO using a composite reward that combines a format reward, SODA-Embedding, and Causal-QA accuracy, demonstrating substantial improvements over strong baselines."
+    },
+    {
+      "id": "2610.26059",
+      "published": "2026-10-19T09:19:38+00:00",
+      "evidence": "Our CPR-GRPO loop (Compress-Probe-Replenish) uses this estimate to weight gold supervision, reaching 67.0 on public multiple-choice tasks and 74.5 under the training-matched hidden protocol."
+    },
+    {
+      "id": "2610.26022",
+      "published": "2026-10-19T08:45:21+00:00",
+      "evidence": "Reinforcement learning with verifiable rewards, particularly Group Relative Policy Optimization (GRPO), has improved video reasoning in multimodal large language models."
+    },
+    {
+      "id": "2610.25942",
+      "published": "2026-10-19T07:36:52+00:00",
+      "evidence": "We enhance the ability of speech interaction models to generate contextually appropriate NVV events through multi-stage fine-tuning and NVV-aware GRPO (Group Relative Policy Optimization)."
+    },
+    {
+      "id": "2610.25725",
+      "published": "2026-10-19T03:27:25+00:00",
+      "evidence": "Reinforcement learning has become a central tool for large language model (LLM) post-training, where policy gradient methods are routinely deployed off-policy, even though vanilla policy gradient assumes on-policy sampling."
+    },
+    {
+      "id": "2610.25651",
+      "published": "2026-10-19T01:51:24+00:00",
+      "evidence": "We present OPDArena, a framework comparing supervised fine-tuning (SFT), reinforcement learning with verifiable rewards (RLVR), and OPD across five pretrained models and diverse teacher sources."
+    },
+    {
+      "id": "2610.25418",
+      "published": "2026-10-18T17:17:59+00:00",
+      "evidence": "Then, we treat a frozen MLLM as a task environment and use its answer likelihood as dense task evidence to refine the policy via Bayesian Group Relative Policy Optimization (GRPO)."
+    },
+    {
+      "id": "2610.25399",
+      "published": "2026-10-18T16:54:12+00:00",
+      "evidence": "We introduce code-switched task synthesis for cross-lingual RLVR, a data-centric approach that derives target-language and code-switched RLVR task variants from otherwise unverifiable English domain text."
+    },
+    {
       "id": "2610.25269",
       "published": "2026-10-18T13:39:45+00:00",
       "evidence": "LLM-based search agents demonstrate strong capabilities in long-horizon information seeking and reasoning, typically trained via reinforcement learning."
@@ -13,9 +63,49 @@
       "evidence": "Specifically, within each GRPO group, we turn grouped sampling into online randomized controlled experiments."
     },
     {
+      "id": "2610.24676",
+      "published": "2026-10-17T13:03:34+00:00",
+      "evidence": "V2W can be integrated with existing VLMs in a training-free manner and can be further enhanced by optimizing the exploration policy via reinforcement learning."
+    },
+    {
+      "id": "2610.24515",
+      "published": "2026-10-17T07:19:05+00:00",
+      "evidence": "ProbePO: Sparse Probes, Redistributed Credit for Critic-Free LLM Reinforcement Learning"
+    },
+    {
+      "id": "2610.23587",
+      "published": "2026-10-16T15:07:02+00:00",
+      "evidence": "We find that when gender is stated, post-training increases semantic diversity for male-coded profiles, whereas for female-coded profiles the increase is smaller after SFT and not significant after DPO and RLVR."
+    },
+    {
+      "id": "2610.24032",
+      "published": "2026-10-16T09:27:19+00:00",
+      "evidence": "The second targets a partially observed, language-based setting: an LLM agent trained with Leave-One-Out PPO (LOOP) in AppWorld, where causal discovery is intractable and a structural heuristic (state-mutating tool calls) substitutes for it, with credit distributed via retrieval over episodic memory and blended with LOOP's advantage."
+    },
+    {
       "id": "2610.23181",
       "published": "2026-10-16T09:17:26+00:00",
       "evidence": "Reinforcement learning with verifiable rewards has become a scalable post-training paradigm for large language models."
+    },
+    {
+      "id": "2610.22848",
+      "published": "2026-10-16T02:48:09+00:00",
+      "evidence": "As the two stages share aligned agent roles and action space, we develop a unified Semantic-Aware Guidance-Enhanced Multi-Agent Proximal Policy Optimization framework, in which the LLM acts as a training-time semantic planner that provides high-level traffic splitting and power allocation guidance to reduce inefficient exploration, while the MARL agents execute feasible low-level actions."
+    },
+    {
+      "id": "2610.22684",
+      "published": "2026-10-15T21:54:31+00:00",
+      "evidence": "AlphaBet: Reinforcement Learning for LLM Event Forecasting Agents"
+    },
+    {
+      "id": "2610.22665",
+      "published": "2026-10-15T21:31:42+00:00",
+      "evidence": "In this paper, we investigate a key hypothesis: the diversity of reasoning steps in chain-of-thought (CoT) during SFT is a critical enabler of RLVR performance."
+    },
+    {
+      "id": "2610.22608",
+      "published": "2026-10-15T20:14:11+00:00",
+      "evidence": "Specifically, we train a vision-language model as a questioning policy with reinforcement learning: observing the initial prompt and a video draft, it learns to ask the questions most valuable to downstream generation, rewarded by the alignment between the final generated video and a target reference."
     },
     {
       "id": "2610.22316",
@@ -23,14 +113,109 @@
       "evidence": "To unlock its steering intelligence, the ability to assess goal drift and generate effective interventions, we jointly train the two paths with reinforcement learning, combining a pairwise ranking objective with group-relative policy optimization (GRPO)."
     },
     {
+      "id": "2610.22290",
+      "published": "2026-10-15T17:43:31+00:00",
+      "evidence": "Reinforcement learning has become a common post-training technique to improve the accuracy of LLMs on verifiable tasks."
+    },
+    {
+      "id": "2610.22269",
+      "published": "2026-10-15T17:34:17+00:00",
+      "evidence": "X-RIC combines reactive Reinforcement Learning (RL) with strategic agentic reasoning through: (i) automated Behavioral Cloning (BC) using domain heuristics for sample-efficient training, (ii) a Telecom Language Model (TLM), a transformer-based reasoning module providing contextual abstraction and interpretability, and (iii) closed-loop co-adaptation within the Near-RT RIC control loop enabling continuous policy refinement."
+    },
+    {
+      "id": "2610.22264",
+      "published": "2026-10-15T17:30:28+00:00",
+      "evidence": "We propose SCOPE, an objective based on Group Relative Policy Optimization (GRPO) that aligns update weighting with this structure."
+    },
+    {
+      "id": "2610.22263",
+      "published": "2026-10-15T17:28:50+00:00",
+      "evidence": "Reinforcement learning has become a widely used approach to post-training large language models."
+    },
+    {
+      "id": "2610.22217",
+      "published": "2026-10-15T17:01:41+00:00",
+      "evidence": "Reinforcement learning (RL) can elicit specialized visual capabilities in vision-language models (VLMs), yet jointly optimizing heterogeneous objectives often introduces cross-capability gradient conflicts."
+    },
+    {
+      "id": "2610.22186",
+      "published": "2026-10-15T16:42:11+00:00",
+      "evidence": "We train EVA-Cap via Supervised Fine-Tuning (SFT) and Group Relative Policy Optimization (GRPO) on a self-curated dataset, EVA-Data, which is built with event-centric quality control."
+    },
+    {
+      "id": "2610.22124",
+      "published": "2026-10-15T16:01:38+00:00",
+      "evidence": "To study training objectives and reward design, we compare GRPO, DPO, and GFlowNet-based optimization in a controlled setting."
+    },
+    {
+      "id": "2610.22056",
+      "published": "2026-10-15T15:21:25+00:00",
+      "evidence": "Progress Reward Model for Reinforcement Learning via Large Language Models"
+    },
+    {
+      "id": "2610.21881",
+      "published": "2026-10-15T13:46:41+00:00",
+      "evidence": "Finally, we combine our evaluator with Lean verdicts to obtain a hybrid reward system that shortens GRPO training steps by approximately 31%."
+    },
+    {
+      "id": "2610.21404",
+      "published": "2026-10-15T07:21:58+00:00",
+      "evidence": "We prove that, under symmetric aggregation, deterministic conditional-mean GRPO converges to auxiliary-favoring behavior when auxiliary rewards are more reliably obtained, regardless of initialization."
+    },
+    {
+      "id": "2610.21336",
+      "published": "2026-10-15T06:21:56+00:00",
+      "evidence": "We study sparse and continual reinforcement learning fine-tuning of language models through attention-head ranking and partitioning."
+    },
+    {
+      "id": "2610.21179",
+      "published": "2026-10-15T03:35:00+00:00",
+      "evidence": "Building on this, we propose RaRE (Rubrics as Rewards with Ensembles), a novel judge ensemble strategy for RaR with two mechanisms: a soft-Likert reward that uses judge logprobs to weight more confident judges more heavily, and a drop-on-disagreement mask that excludes high-disagreement rollouts from the GRPO update."
+    },
+    {
+      "id": "2610.21060",
+      "published": "2026-10-15T01:05:17+00:00",
+      "evidence": "Evaluated on the Countdown task, our method alleviates optimization bottlenecks and stabilizes gradient variance significantly better than GRPO."
+    },
+    {
+      "id": "2610.20814",
+      "published": "2026-10-14T18:59:29+00:00",
+      "evidence": "Reinforcement learning with verifiable rewards often trains language models on responses generated by a different, possibly stale behavior policy."
+    },
+    {
       "id": "2610.20597",
       "published": "2026-10-14T17:59:28+00:00",
       "evidence": "Training language agents is bottlenecked by the high cost of long-horizon rollouts, yet standard agentic reinforcement learning (RL) learns only from a terminal scalar reward, leaving the supervision in intermediate steps largely unused."
     },
     {
+      "id": "2610.20497",
+      "published": "2026-10-14T17:06:59+00:00",
+      "evidence": "Reinforcement learning with verifiable rewards (RLVR) trains language models from checked task outcomes, but assigning a terminal reward to individual reasoning tokens or actions remains difficult."
+    },
+    {
+      "id": "2610.20413",
+      "published": "2026-10-14T16:11:14+00:00",
+      "evidence": "We study this question through a bandit formulation of RLVR with bias-corrected exponential moving average (EMA) momentum, where the EMA coefficient $β$ controls how quickly the weights on past gradients decay."
+    },
+    {
+      "id": "2610.20352",
+      "published": "2026-10-14T15:29:03+00:00",
+      "evidence": "We further apply Grounding-Aware GRPO to promote consistent grounding across steps and learn adaptive trajectory generation from complex REC queries."
+    },
+    {
+      "id": "2610.20334",
+      "published": "2026-10-14T15:16:50+00:00",
+      "evidence": "We train navigation, task actions, checkpointing, and proposal review jointly with a tree-aware adaptation of GRPO, using task-level outcome rewards augmented by process rewards."
+    },
+    {
       "id": "2610.19868",
       "published": "2026-10-14T09:29:31+00:00",
       "evidence": "Training LLM agents on long-horizon interactive tasks with reinforcement learning typically relies on human-annotated tasks and reliable verification, both expensive to construct for stateful environments."
+    },
+    {
+      "id": "2610.19705",
+      "published": "2026-10-14T07:33:05+00:00",
+      "evidence": "To jointly optimize mode selection and within-mode execution, we develop COMET-GRPO (COordinated Mode-Execution Training), which decouples the trajectory-level advantage into separate signals for mode selection and within-mode execution, enabling more targeted credit assignment to each decision level."
     },
     {
       "id": "2610.19349",
@@ -111,6 +296,11 @@
       "id": "2610.16352",
       "published": "2026-10-12T08:08:16+00:00",
       "evidence": "Reinforcement learning (RL) has emerged as a critical phase in the post-training pipeline of large language models (LLMs)."
+    },
+    {
+      "id": "2610.14959",
+      "published": "2026-10-10T14:32:10+00:00",
+      "evidence": "To address this, we introduce AlphaRLM, a reinforcement-learning framework that trains LLMs to construct executable symbolic factors from financial literature without input factor expressions."
     },
     {
       "id": "2610.13184",
@@ -268,11 +458,6 @@
       "evidence": "Every recurrence of a looped language model adds cost in training, decoding, prefill, and reinforcement learning (RL)."
     },
     {
-      "id": "2610.06830",
-      "published": "2026-10-05T17:58:06+00:00",
-      "evidence": "Specifically, we optimize a multi-step LLM policy via reinforcement learning to iteratively choose between retrieving from query-agnostic memory and delegating query-specific curation of raw multimodal history to heterogeneous LLMs and VLMs."
-    },
-    {
       "id": "2610.06647",
       "published": "2026-10-05T16:28:11+00:00",
       "evidence": "LoGRA: Scaling LLM Reinforcement Learning with Low-Rank Gradient Sketches"
@@ -321,6 +506,11 @@
       "id": "2610.05425",
       "published": "2026-10-04T18:06:43+00:00",
       "evidence": "We used reinforcement learning to train a vision-language model to fill in a 12-finding checklist from a chest radiograph without seeing the sentence under test; a separate checking model judged the sentence from the checklist."
+    },
+    {
+      "id": "2610.02828",
+      "published": "2026-10-02T05:19:54+00:00",
+      "evidence": "Adaptive LLM reinforcement-learning post-training changes multiple training actuators online, including rollout temperature, group size, clipping, KL regularization, verifier allocation, and update budget."
     },
     {
       "id": "2610.02039",
@@ -548,11 +738,6 @@
       "evidence": "RESCUE: Repairing Language Model Errors to Sparse Circuits via Reinforcement Learning"
     },
     {
-      "id": "2609.36804",
-      "published": "2026-09-29T06:15:52+00:00",
-      "evidence": "We further introduce Group-Level Relative Policy Optimization (GLPO), which reallocates GRPO advantages according to the margin between individual rollout rewards and the vote-aggregated group reward, aligning the RL training objective with the self-consistency objective used at inference time."
-    },
-    {
       "id": "2609.36802",
       "published": "2026-09-29T06:15:00+00:00",
       "evidence": "However, we find that the critic is also a major source of instability in reinforcement learning for large language models (LLMs)."
@@ -728,11 +913,6 @@
       "evidence": "Learning to Sell: Reinforcement Learning for Strategic Large Language Model Agents in Multi-Product Markets"
     },
     {
-      "id": "2609.33221",
-      "published": "2026-09-27T05:03:12+00:00",
-      "evidence": "To address this, we propose Reward Model Boosting (RMB), a novel approach that enhances the robustness and reliability of the reward signal for RLHF."
-    },
-    {
       "id": "2609.32993",
       "published": "2026-09-26T22:41:20+00:00",
       "evidence": "We integrate X-Tree into three training settings: offline RL, with each node as a training instance; online RLVR, with an adaptive skill bonus; and on-policy self-distillation, with X-Tree as the self-teacher's privileged context."
@@ -813,11 +993,6 @@
       "evidence": "Group Relative Policy Optimization (GRPO) and related policy-gradient methods for training language model agents collapse an entire multi-turn rollout into a single scalar trajectory reward before it enters the policy update."
     },
     {
-      "id": "2609.26780",
-      "published": "2026-09-22T17:56:12+00:00",
-      "evidence": "To reduce attribution and update errors during structured memory construction while enabling local deployment, we train Writer-R1 with SpeakerLevenshtein and speaker-conditioned GRPO."
-    },
-    {
       "id": "2609.26536",
       "published": "2026-09-22T14:57:51+00:00",
       "evidence": "To address this, we propose joint recognition and translation fine-tuning via group relative policy optimization (GRPO)."
@@ -861,6 +1036,11 @@
       "id": "2609.24290",
       "published": "2026-09-21T08:47:39+00:00",
       "evidence": "We propose CIGAsk, an RL recipe that teaches both skills through two complementary reward signals within a multi-turn GRPO loop."
+    },
+    {
+      "id": "2609.24243",
+      "published": "2026-09-21T08:08:56+00:00",
+      "evidence": "Experiments on the VIRL-39k and SPA-VL benchmarks across two model families show that TAME improves CoT monitorability (by up to +30.9 points on VIRL and +16.7 points on SPA-VL over GRPO), while largely preserving task accuracy and general-capability performance across four standard VLM benchmarks, with task-specific trade-offs."
     },
     {
       "id": "2609.23992",
@@ -1183,6 +1363,16 @@
       "evidence": "We train language models with GRPO on multiple-choice math problems where the correct answer is always option A, then evaluate on an unseen test set with unbiased answer positions."
     },
     {
+      "id": "2608.11669",
+      "published": "2026-08-12T05:29:21+00:00",
+      "evidence": "Rubric-based reinforcement learning, in which an LLM judge scores responses against prompt-specific criteria, has become a standard way to post-train language models on tasks without verifiable answers."
+    },
+    {
+      "id": "2608.10149",
+      "published": "2026-08-10T19:04:46+00:00",
+      "evidence": "To enable effective LLM-based ensembling, we study its key design choices and propose: (i) a structured input pipeline that transforms raw time series into hybrid textual--numerical representations with fixed token cost, enabling rule-based chain-of-thought construction without API dependency, augmented with retrieved similar-sample priors; (ii) a diverse multi-row weight supervision scheme coupled with a token-efficient percentage-table format that reduces numerical complexity and mitigates LLM hallucinations; and (iii) a two-stage fine-tuning framework combining SFT with GRPO, where a reciprocal reward mapping transforms the continuous unbounded MSE gap into bounded signals with amplified near-oracle sensitivity, addressing the uniform sensitivity and outlier-dominated advantage compression inherent in naive reward designs for regression-based GRPO."
+    },
+    {
       "id": "2608.09217",
       "published": "2026-08-10T07:43:05+00:00",
       "evidence": "Reinforcement learning (RL) has become a central post-training paradigm for eliciting reasoning capabilities in large language models, yet uniform task sampling allocates compute without regard to differences in how tasks respond to optimization."
@@ -1248,6 +1438,11 @@
       "evidence": "Recent advances in post-training Large Language Models (LLMs) increasingly rely on Reinforcement Learning with Verifiable Rewards (RLVR) or On-Policy Self-Distillation (OPSD)."
     },
     {
+      "id": "2607.26710",
+      "published": "2026-07-29T09:53:50+00:00",
+      "evidence": "We propose PowerAtlas, which trains an LLM with supervised initialization and Feasibility-Aware GRPO on deterministic scorer feedback, and generates the joint schedule in a single response without solver calls or retrieval."
+    },
+    {
       "id": "2607.26358",
       "published": "2026-07-29T00:19:09+00:00",
       "evidence": "Reinforcement learning (RL) fine-tuning is widely used in language model training to improve performance on a target task while limiting drift from a reference policy."
@@ -1298,6 +1493,16 @@
       "evidence": "The Dark Room in the Reward Channel: Dense Prediction Rewards Collapse GRPO-Trained LLM Agents -- and The Channel, Not the Content, Decides What Works"
     },
     {
+      "id": "2607.19331",
+      "published": "2026-07-21T17:51:36+00:00",
+      "evidence": "Reinforcement learning with verifiable rewards (RLVR) advances the reasoning capabilities of language models, yet the optimization layer that converts reward feedback into weight-space updates remains poorly understood."
+    },
+    {
+      "id": "2607.18915",
+      "published": "2026-07-21T09:56:58+00:00",
+      "evidence": "Reasoning Error from Known Fact: Step-Level Self-Consistency Group Relative Policy Optimization for LLMs"
+    },
+    {
       "id": "2607.17247",
       "published": "2026-07-19T13:32:54+00:00",
       "evidence": "Distilled Reinforcement Learning for LLM Post-training"
@@ -1328,6 +1533,11 @@
       "evidence": "We address this gap through a systematic evaluation of representative task-adaptation methods, including supervised fine-tuning (SFT), KL-regularized SFT, and reinforcement learning with verifiable rewards (RLVR) across 15 alignment aspects spanning six key domains: safety, factuality, stance stability, social harm, controllability, and instructability."
     },
     {
+      "id": "2607.07976",
+      "published": "2026-07-08T23:00:54+00:00",
+      "evidence": "Experiments across four LLMs and eight reasoning benchmarks show that TACO consistently improves over GRPO-style baselines."
+    },
+    {
       "id": "2607.07508",
       "published": "2026-07-08T15:02:19+00:00",
       "evidence": "Reinforcement learning (RL) is becoming increasingly important for post-training large language models (LLMs)."
@@ -1346,6 +1556,11 @@
       "id": "2607.04713",
       "published": "2026-07-06T06:32:39+00:00",
       "evidence": "Reinforcement learning holds significant potential for training large language models (LLMs) to handle multi-turn interactive tasks."
+    },
+    {
+      "id": "2607.05458",
+      "published": "2026-07-05T22:11:18+00:00",
+      "evidence": "HarnessMDP: Learning to Control LLM Agent Harnesses with Offline Reinforcement Learning"
     },
     {
       "id": "2607.04332",
@@ -1373,6 +1588,11 @@
       "evidence": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs"
     },
     {
+      "id": "2606.31031",
+      "published": "2026-06-30T02:00:05+00:00",
+      "evidence": "We adapt the LLM training recipe: pretraining on production pages, followed by post-training via weighted binary classification (WBC) or reinforcement learning (RL)."
+    },
+    {
       "id": "2606.30406",
       "published": "2026-06-29T14:51:28+00:00",
       "evidence": "Modern large language models (LLMs) rely on reinforcement learning during post-training to push specific capabilities, yet integrating multiple capabilities into one model remains hard."
@@ -1383,9 +1603,14 @@
       "evidence": "Using a human-calibrated LLM judge framework, we show that prior diversity measures are unreliable proxies for approach-level diversity, and this mismatch carries over to diversity-aware RLVR, where target metrics are preserved while approach-level diversity declines."
     },
     {
-      "id": "2606.27472",
-      "published": "2026-06-25T00:00:00+00:00",
-      "evidence": "Finally, we close the loop and show the gap is trainable: GRPO fine-tuning a small open model (Qwen2.5-3B) on this environment nearly doubles its held-out supersession accuracy on real, unseen conversations (9.0% to 16.7%, a single run), along a monotonic checkpoint curve indicating the learned policy, not the harness, carries the gain."
+      "id": "2608.28600",
+      "published": "2026-06-28T11:15:59+00:00",
+      "evidence": "Second, we characterize mode-seeking in RLVR through mathematical heuristic profiles."
+    },
+    {
+      "id": "2606.27210",
+      "published": "2026-06-25T16:03:57+00:00",
+      "evidence": "Most notably, directly rewarding intent faithfulness with GRPO yields the strongest average performance across five external safety benchmarks, while our intent-aware models form the inference latency-F1 Pareto frontier."
     },
     {
       "id": "2606.25852",
@@ -1408,6 +1633,11 @@
       "evidence": "To better understand this phenomenon, we conduct a theoretical analysis of RLVR updates."
     },
     {
+      "id": "2606.22305",
+      "published": "2026-06-21T02:19:17+00:00",
+      "evidence": "Learning at the Right Pace: Adaptive Data Scheduling Improves LLM Reinforcement Learning"
+    },
+    {
       "id": "2606.20002",
       "published": "2026-06-18T09:38:45+00:00",
       "evidence": "Connect the Dots: Training LLMs for Long-Lifecycle Agents with Cross-Domain Generalization Via Reinforcement Learning"
@@ -1426,6 +1656,11 @@
       "id": "2606.18810",
       "published": "2026-06-17T08:26:02+00:00",
       "evidence": "Reinforcement learning with verifiable rewards (RLVR) has driven substantial progress in training LLMs for reasoning tasks, but representative methods such as GRPO assign uniform credit across all tokens, wasting gradient on routine tokens while under-crediting pivotal reasoning steps."
+    },
+    {
+      "id": "2606.18624",
+      "published": "2026-06-17T02:41:25+00:00",
+      "evidence": "To improve LLM pragmatic reasoning, we introduce PragReST, a self-supervised framework that constructs pragmatic QA data, generates counterfactual reasoning traces, and trains models to internalize them through supervised fine-tuning and reinforcement learning, without human-labeled training data or distillation from a stronger teacher."
     },
     {
       "id": "2606.18216",
@@ -1473,11 +1708,6 @@
       "evidence": "To address this issue, we propose \\textbf{T}urn-\\textbf{T}rajectory \\textbf{G}roup \\textbf{R}elative \\textbf{P}olicy \\textbf{O}ptimization (\\textbf{T$^{2}$-GRPO}), a framework that decouples caregiver RL into two normalized reward horizons and enforces safety through a binary hard veto."
     },
     {
-      "id": "2606.08656",
-      "published": "2026-06-07T00:00:00+00:00",
-      "evidence": "From Player to Master: Enhancing Test-Time Learning of LLM Agents via Reinforcement Learning over Memory"
-    },
-    {
       "id": "2606.08035",
       "published": "2026-06-06T07:56:25+00:00",
       "evidence": "Motivated by these findings, we propose DyCo-RL, which integrates dynamic cross-modal coordination into RLVR optimization."
@@ -1486,6 +1716,11 @@
       "id": "2606.07995",
       "published": "2026-06-06T06:22:07+00:00",
       "evidence": "Leveraging a Reinforcement Learning with Verifiable Rewards (RLVR) agentic training paradigm, our approach stores trajectories as external local files and trains the agent to autonomously retrieve and parse them through code-interpreter interactions (e.g., SQL queries), effectively bypassing the fixed in-context window constraints of LLMs."
+    },
+    {
+      "id": "2606.07845",
+      "published": "2026-06-05T21:13:14+00:00",
+      "evidence": "To assess a policy trained with this reward, we compare the final checkpoint from a single Qwen3-14B group relative policy optimization (GRPO) training run with its base model."
     },
     {
       "id": "2606.07367",
@@ -1528,9 +1763,19 @@
       "evidence": "Reinforcement learning (RL) has emerged as a standard post-training paradigm for shaping large language models (LLMs) into capable agents."
     },
     {
+      "id": "2606.02398",
+      "published": "2026-06-01T15:44:56+00:00",
+      "evidence": "Reinforcement learning (RL) post-training improves large language models on individual domains but can degrade previously acquired capabilities."
+    },
+    {
       "id": "2606.02355",
       "published": "2026-06-01T15:02:59+00:00",
       "evidence": "SIRI: Self-Internalizing Reinforcement Learning with Intrinsic Skills for LLM Agent Training"
+    },
+    {
+      "id": "2605.30861",
+      "published": "2026-05-29T05:35:00+00:00",
+      "evidence": "Evaluating our method for Lean4 theorem-proving, we find that Feedback Distillation maintains greater diversity in generated trajectories than GRPO, yielding higher policy entropy and better pass@k scaling."
     },
     {
       "id": "2605.30785",
@@ -1568,19 +1813,9 @@
       "evidence": "Learning Spatiotemporal Sensitivity in Video LLMs via Counterfactual Reinforcement Learning"
     },
     {
-      "id": "2605.23067",
-      "published": "2026-05-21T00:00:00+00:00",
-      "evidence": "Reinforcement learning (RL) has emerged as a viable recipe for training LLM agents to reason over external memory banks in multi-session dialogue."
-    },
-    {
       "id": "2605.20740",
       "published": "2026-05-20T05:43:40+00:00",
       "evidence": "Reinforcement Learning over Predictive Distributions for LLM Regression"
-    },
-    {
-      "id": "2605.20616",
-      "published": "2026-05-20T00:00:00+00:00",
-      "evidence": "We train Auto-Dreamer via GRPO, using end-to-end agent performance as the reward signal to learn how to consolidate memories acquired through fast online experience."
     },
     {
       "id": "2605.19447",
@@ -1698,6 +1933,11 @@
       "evidence": "We study video-grounded role-playing dialogue and introduce EBM-RL (Eye--Brain--Mouth Reinforcement Learning), a decoupled GRPO-based framework that separates observation (<perception>), reasoning (<think>), and utterance generation (<answer>)."
     },
     {
+      "id": "2605.04542",
+      "published": "2026-05-06T06:42:47+00:00",
+      "evidence": "Recent analyses question whether reinforcement learning (RL) is responsible for strong reasoning in large language models (LLMs)."
+    },
+    {
       "id": "2605.02320",
       "published": "2026-05-04T08:15:52+00:00",
       "evidence": "Proximal Policy Optimization (PPO) dominates reinforcement learning and LLM alignment, yet its hard-clipping mechanism and unconstrained alternatives (e.g., SPO) sit at two extremes of a stability-efficiency dilemma."
@@ -1773,6 +2013,11 @@
       "evidence": "Modern LLM reinforcement learning (RL) workloads require a high-performance weight transfer system to scale training across heterogeneous compute resources."
     },
     {
+      "id": "2604.08322",
+      "published": "2026-04-09T14:55:22+00:00",
+      "evidence": "An emerging approach to addressing the task is to post-train a generic multimodal large language model (MLLM), either by supervised finetuning (SFT) or by reinforcement learning with verifiable rewards (RLVR), on a considerable amount of in-house samples paired with high-quality clinical reports."
+    },
+    {
       "id": "2604.07960",
       "published": "2026-04-09T08:22:46+00:00",
       "evidence": "TOOLCAD: Exploring Tool-Using Large Language Models in Text-to-CAD Generation with Reinforcement Learning"
@@ -1816,6 +2061,11 @@
       "id": "2603.29608",
       "published": "2026-03-31T11:26:45+00:00",
       "evidence": "We design a robust data-fusion engine for multi-label prediction across 14 substance classes based on an LLM finetuned with Group Relative Policy Optimization (GRPO)."
+    },
+    {
+      "id": "2603.25111",
+      "published": "2026-03-26T07:32:20+00:00",
+      "evidence": "Building on FGGM, we present SEVerA (Self-Evolving Verified Agents), a three-stage framework: Search synthesizes candidate parametric programs containing FGGM calls; Verification proves correctness with respect to hard constraints for all parameter values, reducing the problem to unconstrained learning; and Learning applies scalable gradient-based optimization, including GRPO-style fine-tuning, to improve the soft objective while preserving correctness."
     },
     {
       "id": "2603.23184",
@@ -1868,14 +2118,9 @@
       "evidence": "We design a progressive training strategy from SFT to GRPO, equipped with an adaptive dual-granularity reward mechanism to mitigate reward sparsity."
     },
     {
-      "id": "2603.01455",
-      "published": "2026-03-02T05:12:45+00:00",
-      "evidence": "Furthermore, to govern the dynamic construction of memory, we derive a Semantic Information Bottleneck objective and introduce SIB-GRPO to optimize the trade-off between memory compression and task-relevant information retention."
-    },
-    {
-      "id": "2602.17930",
-      "published": "2026-02-20T00:00:00+00:00",
-      "evidence": "MIRA: Memory-Integrated Reinforcement Learning Agent with Limited LLM Guidance"
+      "id": "2602.20759",
+      "published": "2026-02-24T10:39:27+00:00",
+      "evidence": "Overton Pluralistic Reinforcement Learning for Large Language Models"
     },
     {
       "id": "2602.16165",
@@ -1883,9 +2128,19 @@
       "evidence": "HiPER: Hierarchical Reinforcement Learning with Explicit Credit Assignment for Large Language Model Agents"
     },
     {
+      "id": "2602.13802",
+      "published": "2026-02-14T14:27:08+00:00",
+      "evidence": "Second, we apply group relative policy optimization (GRPO) across multi-turn forecasting episodes, with structured memory preserving diagnostic evidence and intermediate forecasts for state construction."
+    },
+    {
       "id": "2602.12244",
       "published": "2026-02-12T18:28:28+00:00",
       "evidence": "To enhance the model's ability to decompose complex and ambiguous intentions, we introduce TGPO, a novel reinforcement learning algorithm that integrates external correction of intermediate reasoning traces into Group Relative Policy Optimization (GRPO)."
+    },
+    {
+      "id": "2602.12036",
+      "published": "2026-02-12T15:03:37+00:00",
+      "evidence": "Composition-RL: Compose Your Verifiable Prompts for Reinforcement Learning of Large Language Models"
     },
     {
       "id": "2602.11767",
@@ -1923,6 +2178,11 @@
       "evidence": "Second, to further refine decision accuracy, we propose the Monte-Carlo Critic (MC-Critic), a plug-and-play auxiliary value estimator designed to enhance policy-gradient algorithms like PPO and GRPO."
     },
     {
+      "id": "2602.17686",
+      "published": "2026-02-05T05:27:11+00:00",
+      "evidence": "To address this, we propose BRIDGE, a curriculum framework that first establishes structural understanding via masked reconstruction, then uses GRPO-based reinforcement learning to guide students in self-discovering the optimal balance between accuracy and brevity, and finally internalizes complex reasoning through teacher-guided rewriting on failure cases."
+    },
+    {
       "id": "2602.04942",
       "published": "2026-02-04T18:46:17+00:00",
       "evidence": "Training-time privileged information (PI) can enable language models to succeed on tasks they would otherwise fail, making it a powerful tool for reinforcement learning in hard, long-horizon settings."
@@ -1931,11 +2191,6 @@
       "id": "2602.04620",
       "published": "2026-02-04T14:51:04+00:00",
       "evidence": "GRPO-style reinforcement learning (RL)-based LLM fine-tuning algorithms have recently gained popularity."
-    },
-    {
-      "id": "2602.03806",
-      "published": "2026-02-03T18:08:41+00:00",
-      "evidence": "Training large language models (LLMs) for multi-turn code generation typically relies on online reinforcement learning (RL), in which models learn from repeatedly generated online rollouts."
     },
     {
       "id": "2602.03719",
@@ -1951,11 +2206,6 @@
       "id": "2602.02192",
       "published": "2026-02-02T14:57:53+00:00",
       "evidence": "Reinforcement learning (RL) is a critical stage in post-training large language models (LLMs), involving repeated interaction between rollout generation, reward evaluation, and centralized learning."
-    },
-    {
-      "id": "2602.01869",
-      "published": "2026-02-02T00:00:00+00:00",
-      "evidence": "Skill-Pro: Learning Reusable Skills from Experience via Non-Parametric PPO for LLM Agents"
     },
     {
       "id": "2602.00785",
@@ -1981,6 +2231,11 @@
       "id": "2601.21558",
       "published": "2026-01-29T11:22:23+00:00",
       "evidence": "To address these challenges, we introduce ASTRA, a fully automated end-to-end framework for training tool-augmented language model agents via scalable data synthesis and verifiable reinforcement learning."
+    },
+    {
+      "id": "2601.21476",
+      "published": "2026-01-29T09:56:15+00:00",
+      "evidence": "On-policy reinforcement learning (RL) for language models trains on the reasoning states visited by the current policy."
     },
     {
       "id": "2601.20209",
@@ -2026,11 +2281,6 @@
       "id": "2601.03164",
       "published": "2026-01-06T16:36:40+00:00",
       "evidence": "Large Language Model(LLM)-based agents have shown strong capabilities in web information seeking, with reinforcement learning (RL) becoming a key optimization paradigm."
-    },
-    {
-      "id": "2601.01885",
-      "published": "2026-01-05T08:24:16+00:00",
-      "evidence": "To train such unified behaviors, we propose a three-stage progressive reinforcement learning strategy and design a step-wise GRPO to address sparse and discontinuous rewards induced by memory operations."
     },
     {
       "id": "2512.22716",
@@ -2108,6 +2358,11 @@
       "evidence": "We find that reinforcement learning fine-tuning (e.g., GRPO) provides consistent gains over other approaches under the same base model and practical latency."
     },
     {
+      "id": "2510.07167",
+      "published": "2025-10-08T16:06:04+00:00",
+      "evidence": "RHC trains large language models (LLMs) in two stages: a cold-start stage that aligns outputs with chain-of-thought (CoT) reasoning format and a reinforcement learning (RL) stage to enhance multi-step reasoning ability."
+    },
+    {
       "id": "2510.06727",
       "published": "2025-10-08T07:29:22+00:00",
       "evidence": "We study reinforcement learning (RL) fine-tuning of large language model (LLM) agents for long-horizon multi-turn tool use, where context length quickly becomes a fundamental bottleneck."
@@ -2131,11 +2386,6 @@
       "id": "2509.22008",
       "published": "2025-09-26T07:45:41+00:00",
       "evidence": "Goal-Guided Efficient Exploration via Large Language Model in Reinforcement Learning"
-    },
-    {
-      "id": "2509.20616",
-      "published": "2025-09-24T23:47:36+00:00",
-      "evidence": "Training Task Reasoning LLM Agents for Multi-turn Task Planning via Single-turn Reinforcement Learning"
     },
     {
       "id": "2509.14952",
@@ -2256,36 +2506,6 @@
       "id": "2505.07782",
       "published": "2025-05-12T17:35:43+00:00",
       "evidence": "We introduce MLE-Dojo, a Gym-style framework for systematically reinforcement learning, evaluating, and improving autonomous large language model (LLM) agents in iterative machine learning engineering (MLE) workflows."
-    },
-    {
-      "id": "2504.20073",
-      "published": "2025-04-24T17:57:08+00:00",
-      "evidence": "RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning"
-    },
-    {
-      "id": "2502.18770",
-      "published": "2025-02-26T02:57:59+00:00",
-      "evidence": "We further show that PAR possesses two variance-reduction properties that stabilize RLHF training and substantially widen the practical window for early stopping."
-    },
-    {
-      "id": "2502.15214",
-      "published": "2025-02-21T05:01:30+00:00",
-      "evidence": "The Evolving Landscape of LLM- and VLM-Integrated Reinforcement Learning"
-    },
-    {
-      "id": "2502.07949",
-      "published": "2025-02-11T20:57:46+00:00",
-      "evidence": "Advancing Autonomous VLM Agents via Variational Subgoal-Conditioned Reinforcement Learning"
-    },
-    {
-      "id": "2502.04492",
-      "published": "2025-02-06T20:44:26+00:00",
-      "evidence": "Dynamic Optimizations of LLM Ensembles with Two-Stage Reinforcement Learning Agents"
-    },
-    {
-      "id": "2502.01600",
-      "published": "2025-02-03T18:35:42+00:00",
-      "evidence": "Reinforcement Learning for Long-Horizon Interactive LLM Agents"
     }
   ]
 }

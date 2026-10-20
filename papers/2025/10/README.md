@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 79 unique papers · Agent/LLM Self-Improvement 6 · Memory 1 · Continual Training 7 · Reinforcement Learning 11 · Long-Horizon 69
+> 74 unique papers · Agent/LLM Self-Improvement 5 · Continual Training 7 · Reinforcement Learning 11 · Long-Horizon 65
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -17,9 +17,7 @@
 | 2025-10-28 | LLM Continual Training<br>Long-Horizon Task Agents | [AgentFold: Long-Horizon Web Agents with Proactive Context Management](https://arxiv.org/abs/2510.24699v1)<br>[PDF](https://arxiv.org/pdf/2510.24699v1) | arXiv.org | 📈 Highly cited | Citations: 97 (Semantic Scholar) |
 | 2025-10-28 | Long-Horizon Task Agents | [MGA: Memory-Driven GUI Agent for Observation-Centric Interaction](https://arxiv.org/abs/2510.24168v3)<br>[PDF](https://arxiv.org/pdf/2510.24168v3) | arXiv | — | — |
 | 2025-10-28 | Long-Horizon Task Agents | [Reinforcement Learning for Long-Horizon Multi-Turn Search Agents](https://arxiv.org/abs/2510.24126v1)<br>[PDF](https://arxiv.org/pdf/2510.24126v1) | arXiv.org | — | Citations: 3 (Semantic Scholar) |
-| 2025-10-27 | Long-Horizon Task Agents | [ReCAP: Recursive Context-Aware Reasoning and Planning for Large Language Model Agents](https://arxiv.org/abs/2510.23822v1)<br>[PDF](https://arxiv.org/pdf/2510.23822v1) | NeurIPS 2025 | 📈 Highly cited<br>🏆 CCF-A: NeurIPS 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Citations: 13 (Semantic Scholar) |
 | 2025-10-26 | LLM Continual Training | [E2Rank: Unifying Text Embedding and Listwise Reranking for Effective and Efficient Search](https://arxiv.org/abs/2510.22733v3)<br>[PDF](https://arxiv.org/pdf/2510.22733v3) | EMNLP 2026 | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Citations: 3 (Semantic Scholar) |
-| 2025-10-26 | Agent Memory<br>Long-Horizon Task Agents | [WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation](https://arxiv.org/abs/2510.22732v2)<br>[PDF](https://arxiv.org/pdf/2510.22732v2) | arXiv | — | Citations: 6 (Semantic Scholar) |
 | 2025-10-24 | Reinforcement Learning<br>Long-Horizon Task Agents | [DeepAgent: A General Reasoning Agent with Scalable Toolsets](https://arxiv.org/abs/2510.21618v3)<br>[PDF](https://arxiv.org/pdf/2510.21618v3) | arXiv | — | — |
 | 2025-10-24 | Long-Horizon Task Agents | [Co-Sight: Enhancing LLM-Based Agents via Conflict-Aware Meta-Verification and Trustworthy Reasoning with Structured Facts](https://arxiv.org/abs/2510.21557v1)<br>[PDF](https://arxiv.org/pdf/2510.21557v1) | arXiv.org | 📈 Highly cited | Citations: 17 (Semantic Scholar) |
 | 2025-10-24 | LLM Continual Training | [Memory-Free Continual Learning with Null Space Adaptation for Zero-Shot Vision-Language Models](https://arxiv.org/abs/2510.21175v2)<br>[PDF](https://arxiv.org/pdf/2510.21175v2) | ICLR 2026 | 🏅 Selected top venue: ICLR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Citations: 2 (Semantic Scholar) |
@@ -50,7 +48,6 @@
 | 2025-10-13 | Long-Horizon Task Agents | [Automating Structural Engineering Workflows with Large Language Model Agents](https://arxiv.org/abs/2510.11004v1)<br>[PDF](https://arxiv.org/pdf/2510.11004v1) | arXiv.org | — | Citations: 9 (Semantic Scholar) |
 | 2025-10-13 | Long-Horizon Task Agents | [A Survey on Agentic Multimodal Large Language Models](https://arxiv.org/abs/2510.10991v1)<br>[PDF](https://arxiv.org/pdf/2510.10991v1) | arXiv.org | 📈 Highly cited | Citations: 24 (Semantic Scholar) |
 | 2025-10-12 | Long-Horizon Task Agents | [Simpliflow: A Lightweight Open-Source Framework for Rapid Creation and Deployment of Generative Agentic AI Workflows](https://arxiv.org/abs/2510.10675v2)<br>[PDF](https://arxiv.org/pdf/2510.10675v2) | arXiv.org | — | Citations: 1 (Semantic Scholar) |
-| 2025-10-12 | Long-Horizon Task Agents | [BrowserAgent: Building Web Agents with Human-Inspired Web Browsing Actions](https://arxiv.org/abs/2510.10666v2)<br>[PDF](https://arxiv.org/pdf/2510.10666v2) | Trans. Mach. Learn. Res. | 📈 Highly cited | Citations: 15 (Semantic Scholar) |
 | 2025-10-11 | Long-Horizon Task Agents | [SwarmSys: Decentralized Swarm-Inspired Agents for Scalable and Adaptive Reasoning](https://arxiv.org/abs/2510.10047v1)<br>[PDF](https://arxiv.org/pdf/2510.10047v1) | arXiv.org | — | Citations: 4 (Semantic Scholar) |
 | 2025-10-10 | Long-Horizon Task Agents | [Building a Foundational Guardrail for General Agentic Systems via Synthetic Data](https://arxiv.org/abs/2510.09781v1)<br>[PDF](https://arxiv.org/pdf/2510.09781v1) | arXiv.org | 📈 Highly cited | Citations: 34 (Semantic Scholar) |
 | 2025-10-10 | Reinforcement Learning | [TripScore: Aligning LLMs for Real-World Travel Planning via Expert-Calibrated Reward](https://arxiv.org/abs/2510.09011v4)<br>[PDF](https://arxiv.org/pdf/2510.09011v4) | arXiv | — | Citations: 0 (Semantic Scholar) |
@@ -73,7 +70,6 @@
 | 2025-10-07 | Reinforcement Learning<br>Long-Horizon Task Agents | [In-the-Flow Agentic System Optimization for Effective Planning and Tool Use](https://arxiv.org/abs/2510.05592v2)<br>[PDF](https://arxiv.org/pdf/2510.05592v2) | ICLR 2026 | 🏅 Selected top venue: ICLR 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | — |
 | 2025-10-07 | Reinforcement Learning<br>Long-Horizon Task Agents | [BuilderBench: The Building Blocks of Intelligent Agents](https://arxiv.org/abs/2510.06288v4)<br>[PDF](https://arxiv.org/pdf/2510.06288v4) | arXiv | — | — |
 | 2025-10-06 | Agent/LLM Self-Improvement<br>LLM Continual Training | [MCCE: A Framework for Multi-LLM Collaborative Search in Discrete Spaces with Similarity-Filtered Preference Learning](https://arxiv.org/abs/2510.06270v2)<br>[PDF](https://arxiv.org/pdf/2510.06270v2) | ICML 2026 | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Citations: 1 (Semantic Scholar) |
-| 2025-10-05 | Agent/LLM Self-Improvement | [On The Statistical Limits of Self-Improving Agents](https://arxiv.org/abs/2510.04399v3)<br>[PDF](https://arxiv.org/pdf/2510.04399v3) | TMLR 2026 | — | Citations: 3 (Semantic Scholar) |
 | 2025-10-05 | LLM Continual Training<br>Long-Horizon Task Agents | [JEF-Hinter: Leveraging Offline Knowledge for Improving Web Agents Adaptation](https://arxiv.org/abs/2510.04373v2)<br>[PDF](https://arxiv.org/pdf/2510.04373v2) | arXiv | — | — |
 | 2025-10-05 | Long-Horizon Task Agents | [LH-Deception: Simulating and Understanding LLM Deceptive Behaviors in Long-Horizon Interactions](https://arxiv.org/abs/2510.03999v3)<br>[PDF](https://arxiv.org/pdf/2510.03999v3) | arXiv | — | — |
 | 2025-10-04 | Long-Horizon Task Agents | [Small Language Models for Agentic Systems: A Survey of Architectures, Capabilities, and Deployment Trade offs](https://arxiv.org/abs/2510.03847v1)<br>[PDF](https://arxiv.org/pdf/2510.03847v1) | arXiv.org | 📈 Highly cited | Citations: 18 (Semantic Scholar) |
@@ -83,7 +79,6 @@
 | 2025-10-01 | Long-Horizon Task Agents | [Improving Code Localization with Repository Memory](https://arxiv.org/abs/2510.01003v2)<br>[PDF](https://arxiv.org/pdf/2510.01003v2) | arXiv | — | — |
 | 2025-10-01 | Reinforcement Learning | [Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers](https://arxiv.org/abs/2510.00915v5)<br>[PDF](https://arxiv.org/pdf/2510.00915v5) | arXiv.org | 📈 Highly cited | Citations: 42 (Semantic Scholar) |
 | 2025-10-01 | Long-Horizon Task Agents | [ACON: Optimizing Context Compression for Long-horizon LLM Agents](https://arxiv.org/abs/2510.00615v3)<br>[PDF](https://arxiv.org/pdf/2510.00615v3) | arXiv | — | — |
-| 2025-10-01 | Long-Horizon Task Agents | [GUI-KV: Efficient GUI Agents via KV Cache with Spatio-Temporal Awareness](https://arxiv.org/abs/2510.00536v2)<br>[PDF](https://arxiv.org/pdf/2510.00536v2) | arXiv | — | — |
 | 2025-10-01 | Long-Horizon Task Agents | [PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents](https://arxiv.org/abs/2510.00413v2)<br>[PDF](https://arxiv.org/pdf/2510.00413v2) | arXiv.org | 📈 Highly cited | Citations: 11 (Semantic Scholar) |
 
 ## Notes

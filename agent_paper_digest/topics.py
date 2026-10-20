@@ -12,11 +12,10 @@ CONTINUAL_TRAINING_TOPIC: Final = "llm-continual-training"
 REINFORCEMENT_LEARNING_TOPIC: Final = "reinforcement-learning"
 LONG_HORIZON_TOPIC: Final = "long-horizon-agent"
 REQUESTED_TOPIC: Final = "user-requested"
-MIN_PUBLICATION_DATE: Final = datetime(2025, 1, 1, tzinfo=UTC)
+MIN_PUBLICATION_DATE: Final = datetime(2025, 5, 1, tzinfo=UTC)
 
 TOPIC_ORDER: Final = (
     SELF_EVOLUTION_TOPIC,
-    AGENT_MEMORY_TOPIC,
     CONTINUAL_TRAINING_TOPIC,
     REINFORCEMENT_LEARNING_TOPIC,
     LONG_HORIZON_TOPIC,
@@ -26,7 +25,6 @@ TOPIC_TITLES: Final = {
     SELF_EVOLUTION_TOPIC: (
         "Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement"
     ),
-    AGENT_MEMORY_TOPIC: "Agent Memory",
     CONTINUAL_TRAINING_TOPIC: "LLM Continual Training & Continual Learning",
     REINFORCEMENT_LEARNING_TOPIC: "Reinforcement Learning",
     LONG_HORIZON_TOPIC: "Long-Horizon Task Agents",
@@ -34,7 +32,6 @@ TOPIC_TITLES: Final = {
 }
 TOPIC_SHORT: Final = {
     SELF_EVOLUTION_TOPIC: "Agent/LLM Self-Improvement",
-    AGENT_MEMORY_TOPIC: "Agent Memory",
     CONTINUAL_TRAINING_TOPIC: "LLM Continual Training",
     REINFORCEMENT_LEARNING_TOPIC: "Reinforcement Learning",
     LONG_HORIZON_TOPIC: "Long-Horizon Task Agents",
@@ -183,8 +180,6 @@ def infer_topics_from_text(
         topics.add(LONG_HORIZON_TOPIC)
     if AGENT_LLM_PATTERN.search(text) and SELF_EVOLUTION_PATTERN.search(text):
         topics.add(SELF_EVOLUTION_TOPIC)
-    if AGENT_LLM_PATTERN.search(text) and AGENT_MEMORY_PATTERN.search(text):
-        topics.add(AGENT_MEMORY_TOPIC)
     if LLM_PATTERN.search(text) and CONTINUAL_TRAINING_PATTERN.search(text):
         topics.add(CONTINUAL_TRAINING_TOPIC)
     if rl_relevance_evidence(title, abstract):
@@ -198,4 +193,12 @@ def infer_topics(paper: Paper) -> tuple[str, ...]:
         paper.title,
         paper.abstract,
         existing=paper.topics,
+    )
+
+
+def is_agent_memory(paper: Paper) -> bool:
+    """Reject both legacy memory tags and text-evidenced agent-memory papers."""
+    text = f"{paper.title}\n{paper.abstract}"
+    return AGENT_MEMORY_TOPIC in paper.topics or bool(
+        AGENT_LLM_PATTERN.search(text) and AGENT_MEMORY_PATTERN.search(text)
     )

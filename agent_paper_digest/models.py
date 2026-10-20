@@ -20,6 +20,9 @@ class Paper:
     primary_category: str
     categories: tuple[str, ...]
     topics: tuple[str, ...]
+    excluded: bool = False
+    publication_types: tuple[str, ...] = ()
+    venue_type: str = ""
     doi: str = ""
     comment: str = ""
     journal_ref: str = ""
@@ -59,6 +62,11 @@ class Paper:
         return replace(
             newest,
             topics=tuple(sorted(set(self.topics) | set(other.topics))),
+            excluded=self.excluded or other.excluded,
+            publication_types=tuple(
+                sorted(set(self.publication_types) | set(other.publication_types))
+            ),
+            venue_type=newest.venue_type or older.venue_type,
             doi=newest.doi or older.doi,
             comment=newest.comment or older.comment,
             journal_ref=newest.journal_ref or older.journal_ref,
@@ -109,6 +117,9 @@ class Paper:
             "primary_category": self.primary_category,
             "categories": list(self.categories),
             "topics": list(self.topics),
+            "excluded": self.excluded,
+            "publication_types": list(self.publication_types),
+            "venue_type": self.venue_type,
             "doi": self.doi,
             "comment": self.comment,
             "journal_ref": self.journal_ref,
@@ -152,6 +163,9 @@ class Paper:
             primary_category=str(value.get("primary_category", "")),
             categories=tuple(value.get("categories", [])),
             topics=tuple(value.get("topics", [])),
+            excluded=bool(value.get("excluded", False)),
+            publication_types=tuple(value.get("publication_types", [])),
+            venue_type=str(value.get("venue_type", "")),
             doi=str(value.get("doi", "")),
             comment=str(value.get("comment", "")),
             journal_ref=str(value.get("journal_ref", "")),

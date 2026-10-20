@@ -3,11 +3,11 @@
 ## Four research tracks
 
 - Agent / LLM Self-Evolution and Self-Improvement.
-- Agent Memory.
+- Long-Horizon Task Agents.
 - LLM Continual Training and Continual Learning.
 - Reinforcement Learning directly related to LLMs / language agents, including RLHF, RLAIF, RLVR, and GRPO.
 
-First publication must be on or after **2025-01-01**. Older papers remain excluded
+First publication must be on or after **2025-05-01**. Older papers remain excluded
 even when revised or accepted recently. RL requires language-model context plus
 a substantive training/research statement. Broad application-only RL, baseline
 comparisons and incidental survey mentions do not qualify. Historical RL labels
@@ -25,9 +25,7 @@ papers and are not a guarantee of substantive relevance.
 - Major-company first author: first-author affiliation, or an explicitly labeled
   Semantic Scholar profile fallback. Profiles may reflect current employment,
   not employment at publication time.
-- Selected venues: AAAI, NeurIPS, ACL, CVPR, ICCV, ICML, IJCAI, Artificial
-  Intelligence, TPAMI, IJCV, JMLR, ECCV, EMNLP, ICLR, Nature, Science, and Nature
-  Machine Intelligence. This is a maintained watchlist, not every venue worldwide.
+- Selected conferences: AAAI, NeurIPS, ACL, CVPR, ICCV, ICML, IJCAI, ECCV, EMNLP, ICLR.
 - Acceptance requires explicit acceptance comments, journal references, or
   publication metadata. Submitted, under-review, workshop, Findings, demo and
   short-paper records do not receive main-track acceptance labels.
@@ -70,11 +68,11 @@ notification and does not advance the delivery cursor.
 
 ## Long-horizon task agents (2026-10-21)
 
-The fifth automatic track requires language-model context, agent context, and
+The long-horizon track requires language-model context, agent context, and
 long-horizon / long-trajectory / extended-task evidence in title or abstract.
 A source query tag alone does not establish relevance. Long context alone and
-classical control without language agents are insufficient. All tracks enforce
-first publication between 2025-01-01 and the current execution time.
+classical control without language agents are insufficient. All active tracks enforce
+first publication between 2025-05-01 and the current execution time.
 
 Explicitly requested papers have a separate supplemental label. In particular,
 MOPD and MOPD-Router are not automatically treated as continual learning or
@@ -86,3 +84,21 @@ source coverage and indexing delays preclude a guarantee of exhaustive same-day 
 Run `python scripts/update_long_horizon.py` to reproduce the full new-track
 backfill and the four requested additions. It stages pending notifications but
 never advances the successful delivery cursor or sends messages itself.
+
+
+## Exclusions (2026-10-21)
+
+First publication before 2025-05-01 is excluded. Agent Memory papers are excluded
+entirely, including papers also tagged as RL or long-horizon agents. Memory is
+not an active discovery topic. Journal articles are excluded using publication
+types, venue types, and journal-name evidence; a DOI or conference proceedings
+reference alone does not imply journal publication. Unknown publication types
+remain subject to later metadata refresh. Explicit requests do not bypass exclusions.
+
+Deleted identifiers remain in `data/excluded_paper_ids.json` to prevent historical
+cache entries or alternative queries from restoring removed papers. Curation
+rebuilds purge excluded cached candidates and public indexes. The Git history
+retains earlier versions; the current published lists use the new policy.
+
+Venue-name checks include TMLR abbreviations and journal series with proceedings-style names.
+For example, [ACM identifies PACMMOD as a journal](https://www.acm.org/binaries/content/assets/press-releases/2023/july/acm-pacmmod.pdf).

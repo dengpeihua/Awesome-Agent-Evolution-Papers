@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 26 unique papers · Agent/LLM Self-Improvement 4 · Memory 2 · Continual Training 2 · Reinforcement Learning 3 · Long-Horizon 23
+> 22 unique papers · Agent/LLM Self-Improvement 4 · Continual Training 2 · Reinforcement Learning 3 · Long-Horizon 21
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -25,13 +25,9 @@
 | 2025-06-10 | Long-Horizon Task Agents | [Fact-Augmented Lookahead Planning for LLM Agents](https://arxiv.org/abs/2506.09171v2)<br>[PDF](https://arxiv.org/pdf/2506.09171v2) | arXiv | — | — |
 | 2025-06-10 | Long-Horizon Task Agents | [ALE-Bench: A Benchmark for Long-Horizon Objective-Driven Algorithm Engineering](https://arxiv.org/abs/2506.09050v2)<br>[PDF](https://arxiv.org/pdf/2506.09050v2) | NeurIPS 2025 | 📈 Highly cited<br>🏆 CCF-A: NeurIPS 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Citations: 44 (Semantic Scholar) |
 | 2025-06-10 | Long-Horizon Task Agents | [Atomic-to-Compositional Generalization for Mobile Agents with A New Benchmark and Scheduling System](https://arxiv.org/abs/2506.08972v1)<br>[PDF](https://arxiv.org/pdf/2506.08972v1) | arXiv.org | 📈 Highly cited | Citations: 13 (Semantic Scholar) |
-| 2025-06-09 | Agent Memory | [HiBerNAC: Hierarchical Brain-inspired Robotic Neural Agent Collective for Disentangling Complex Manipulation](https://arxiv.org/abs/2506.08296v3)<br>[PDF](https://arxiv.org/pdf/2506.08296v3) | Biomimetic Intelligence and Robotics | — | Citations: 2 (Semantic Scholar) |
 | 2025-06-09 | LLM Continual Training<br>Long-Horizon Task Agents | [Cognitive Weave: Synthesizing Abstracted Knowledge with a Spatio-Temporal Resonance Graph](https://arxiv.org/abs/2506.08098v1)<br>[PDF](https://arxiv.org/pdf/2506.08098v1) | arXiv.org | — | Citations: 5 (Semantic Scholar) |
-| 2025-06-05 | Long-Horizon Task Agents | [Hierarchical Language Models for Semantic Navigation and Manipulation in an Aerial-Ground Robotic System](https://arxiv.org/abs/2506.05020v3)<br>[PDF](https://arxiv.org/pdf/2506.05020v3) | Advanced Intelligent Systems | — | Citations: 7 (Semantic Scholar) |
 | 2025-06-05 | Agent/LLM Self-Improvement<br>LLM Continual Training<br>Long-Horizon Task Agents | [Agents of Change: Self-Evolving LLM Agents for Strategic Planning](https://arxiv.org/abs/2506.04651v2)<br>[PDF](https://arxiv.org/pdf/2506.04651v2) | arXiv.org | 📈 Highly cited | Citations: 21 (Semantic Scholar) |
 | 2025-06-04 | Long-Horizon Task Agents | [TextAtari: 100K Frames Game Playing with Language Agents](https://arxiv.org/abs/2506.04098v2)<br>[PDF](https://arxiv.org/pdf/2506.04098v2) | arXiv.org | — | Citations: 4 (Semantic Scholar) |
-| 2025-06-02 | Agent Memory | [WebChoreArena: Evaluating Web Browsing Agents on Realistic Tedious Web Tasks](https://arxiv.org/abs/2506.01952v2)<br>[PDF](https://arxiv.org/pdf/2506.01952v2) | arXiv.org | 📈 Highly cited | Citations: 28 (Semantic Scholar) |
-| 2025-06-02 | Long-Horizon Task Agents | [MLA-Trust: Benchmarking Trustworthiness of Multimodal LLM Agents in GUI Environments](https://arxiv.org/abs/2506.01616v1)<br>[PDF](https://arxiv.org/pdf/2506.01616v1) | International Journal of Computer Vision | 📈 Highly cited<br>🏆 CCF-A: International Journal of Computer Vision<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Citations: 31 (Semantic Scholar) |
 
 ## Notes
 

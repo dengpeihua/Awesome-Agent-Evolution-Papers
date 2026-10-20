@@ -1,10 +1,10 @@
-> **1479 papers** · Page 2/30 · Newest first across all pages
+> **844 papers** · Page 2/17 · Newest first across all pages
 
-[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md)
+[1](../2026-10-03.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md)
 
 # Daily Papers · 2026-10-03
 
-> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across four research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2026-09-12T21:09:55.100354+08:00** → **2026-10-03T17:47:32.324962+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -13,12 +13,6 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
-| 2026-09-30 | Reinforcement Learning | [From Imitation to Reward Discovery: On-Policy Warmup for Agentic RL](https://arxiv.org/abs/2609.39436v1) | — |
-| 2026-09-30 | Agent/LLM Self-Improvement, LLM Continual Training | [From Search to Signal: Online Post-Training in Automatic Heuristic Design](https://arxiv.org/abs/2609.39383v1) | — |
-| 2026-09-30 | Reinforcement Learning | [GRPO Training Dynamics for Small Language Models](https://arxiv.org/abs/2609.39321v1) | — |
-| 2026-09-30 | Agent/LLM Self-Improvement | [ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation](https://arxiv.org/abs/2609.39306v1) | — |
-| 2026-09-30 | Agent/LLM Self-Improvement | [ASENA: Self-evolving Agents for Embodied Navigation](https://arxiv.org/abs/2609.39207v1) | — |
-| 2026-09-30 | Agent/LLM Self-Improvement | [Rep2Skill: Representation-Guided Skill Self-Evolution for LLM Agents](https://arxiv.org/abs/2609.39149v2) | — |
 | 2026-09-30 | Agent/LLM Self-Improvement | [Do Self-Evolving Skills Generalize to Held-Out Tasks?](https://arxiv.org/abs/2609.39148v1) | — |
 | 2026-09-30 | Agent/LLM Self-Improvement | [RefCon: Iterative Refinement and Contrastive Memory Extraction for Context-Evolving Agent](https://arxiv.org/abs/2609.39143v1) | — |
 | 2026-09-30 | Agent/LLM Self-Improvement | [False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents](https://arxiv.org/abs/2609.39102v1) | — |
@@ -28,15 +22,11 @@
 | 2026-09-30 | Agent/LLM Self-Improvement | [EmbodiRSI: Recursive Self-Improvement for Data-Efficient Robot Adaptation](https://arxiv.org/abs/2609.38905v2) | — |
 | 2026-09-30 | Reinforcement Learning | [Scoring Higher, Answering Worse: Mitigating Reward Hacking in Rubric-Based RL via Protocol-Level Rubrics](https://arxiv.org/abs/2609.38847v1) | — |
 | 2026-09-30 | Agent/LLM Self-Improvement | [GraphCert: Bootstrap Agentic Graph Reasoning with Certified Evidence Rubrics](https://arxiv.org/abs/2609.38798v1) | — |
-| 2026-09-30 | Agent Memory | [Action Conditioned Bisimulation For GUI Agent Memory](https://arxiv.org/abs/2609.38778v1) | — |
 | 2026-09-30 | Agent/LLM Self-Improvement | [Self-Evolving Algorithm-Design Agents: Escaping In-Context Evolutionary Stagnation via Population-Curated Policy Optimization](https://arxiv.org/abs/2609.38757v1) | — |
-| 2026-09-30 | Agent Memory | [Where the Evidence Lives: Auditing AI Companions' Self-Descriptions](https://arxiv.org/abs/2609.38753v1) | — |
 | 2026-09-30 | Reinforcement Learning | [Code to Control: Synthesizing Parameterized Reactive Controllers](https://arxiv.org/abs/2609.38733v1) | — |
-| 2026-09-30 | Agent Memory | [Towards Efficient HPC Systems for Agents: Challenges and Opportunities](https://arxiv.org/abs/2609.38723v1) | — |
 | 2026-09-29 | Agent/LLM Self-Improvement | [CollabFlow: Recursive Self-Improvement of Agent Collaboration](https://arxiv.org/abs/2609.38662v2) | — |
 | 2026-09-29 | Agent/LLM Self-Improvement | [EvoSteer: Online Self-Evolving Graph Orchestration via Reference-Anchored Credit Assignment](https://arxiv.org/abs/2609.38661v1) | — |
 | 2026-09-29 | Agent/LLM Self-Improvement | [Breaking Babel: A Self-Evolving Multi-Agent System for Long-Form Subtitle Translation](https://arxiv.org/abs/2609.38660v2) | — |
-| 2026-09-29 | Agent Memory | [Vision-Language-Action Autonomous Driving Agent with Language-based Memory](https://arxiv.org/abs/2609.38641v1) | — |
 | 2026-09-29 | Agent/LLM Self-Improvement | [Component-Aware Feedback for Self-Evolving Programs](https://arxiv.org/abs/2609.38639v1) | — |
 | 2026-09-29 | Agent/LLM Self-Improvement | [From Solo to Social Learning: Characterizing Recursive Social Improvement in LLMs](https://arxiv.org/abs/2609.38516v1) | — |
 | 2026-09-29 | Agent/LLM Self-Improvement | [PrivMeSA: Privacy-Aware Self-Evolving Multi-Agent System for Medicine via Local-Remote LLM Collaboration](https://arxiv.org/abs/2609.38458v1) | — |
@@ -63,56 +53,18 @@
 | 2026-09-29 | Agent/LLM Self-Improvement | [RLTLDR: Self-improvement by Internalizing Self-generated Feedback](https://arxiv.org/abs/2609.37633v2) | — |
 | 2026-09-29 | Reinforcement Learning | [The Weakest Link: Distilling LLM Reasoning with Worst-Case Constrained Reinforcement Learning](https://arxiv.org/abs/2610.00332v1) | — |
 | 2026-09-29 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [RoboHarn-Evo: Evolving Hierarchical Physical Knowledge for Self-Improving Robotic Manipulation](https://arxiv.org/abs/2609.37583v2) | — |
+| 2026-09-29 | Reinforcement Learning | [Teaching LLMs to Generate Challenging MILP Instances via Solver Feedback](https://arxiv.org/abs/2609.37356v1) | — |
+| 2026-09-29 | Reinforcement Learning | [VLM Fine-Tuning for End-to-End Combinatorial Optimization](https://arxiv.org/abs/2609.37175v1) | — |
+| 2026-09-29 | Agent/LLM Self-Improvement | [Train Ahead, Distill Back: Bootstrapping On-Policy Self-Distillation for Large Language Models](https://arxiv.org/abs/2609.37132v1) | — |
+| 2026-09-29 | Reinforcement Learning | [Unlocking the Critic: Reward-Free Policy Optimization for LLM Post-Training](https://arxiv.org/abs/2609.37119v1) | — |
+| 2026-09-29 | Agent/LLM Self-Improvement | [VACE: Validation-Gated Alternating Co-Evolution of Agent Models and Harnesses](https://arxiv.org/abs/2609.37105v1) | — |
+| 2026-09-29 | Reinforcement Learning | [Beyond Compression: Diagnosing How Post-Training Changes Mathematical Reasoning](https://arxiv.org/abs/2609.37066v1) | — |
+| 2026-09-29 | LLM Continual Training | [Beam Search as Test-Time Self-Distillation via Counterfactual Contexts](https://arxiv.org/abs/2609.37041v1) | — |
+| 2026-09-29 | Agent/LLM Self-Improvement | [AnyAct: Universal Action for Self-Evolving Agents](https://arxiv.org/abs/2609.37025v1) | — |
+| 2026-09-29 | Reinforcement Learning | [Cool the Sampler, Not the Learner: Sampling Temperature Moves the Staleness Cliff of Importance-Corrected GRPO](https://arxiv.org/abs/2609.36953v1) | — |
+| 2026-09-29 | Agent/LLM Self-Improvement, Reinforcement Learning | [Fine-Tuning on Self-Generated and Reward-Weighted Data: Learning Dynamics, Convergence Rates, and Benefits of Off-Policyness](https://arxiv.org/abs/2609.36945v1) | — |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
-
-### [From Search to Signal: Online Post-Training in Automatic Heuristic Design](https://arxiv.org/abs/2609.39383v1)
-
-- **Authors:** Yilun Yuan, Tianyu Zhou, Zhenzhou Tang
-- **Published:** 2026-09-30
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.39383v1) · [PDF](https://arxiv.org/pdf/2609.39383v1)
-
-Large language model (LLM)-based automatic heuristic design (AHD) iteratively proposes and refines heuristics, pairing design rationales with executable code. Task-specific evaluators assess programs; execution outcomes and performance scores guide search. Many AHD systems keep the generator frozen; EvoTune and Co-Evolution of Algorithms and Language Model (CALM) instead update it from evaluated candidates. When such outcomes drive reinforcement learning with verifiable rewards (RLVR), they create a search-coupled loop: the evaluated candidate stream supplies both search-state updates and training signals for the model that generates future candidates. Yet validity and performance do not uniquely determine useful model updates; converting them into learning signals must account for the prompt and evolving search state that produced each candidate. We formulate online post-training of small open-weight LLMs in AHD as context-dependent signal construction and develop alternative mappings from program validity, task performance, and generation context to update signals. Using shared evaluated rollouts and matched update budgets, controlled experiments across AHD tasks and model families compare these mappings with online post-training baselines, testing their effects on validity, performance among valid proposals, and the yield of valid proposals that improve under contextual comparisons. Complementary checkpoint, frozen-search, and live-system evaluations assess whether proposal-level gains appear in updated checkpoint behavior and subsequent search, rather than arising solely from accumulated search state. A resource-matched comparison under pre-specified cost accounting tests whether online updating adds value beyond additional search with a frozen generator. Together, this design avoids treating end-to-end search gains alone as evidence of stronger heuristic-design capabilities.
-
-### [ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation](https://arxiv.org/abs/2609.39306v1)
-
-- **Authors:** Shengjie Jin, Hengbo Xu, Zelong Sun, YuJie Guo, Zhiwu Lu
-- **Published:** 2026-09-30
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.39306v1) · [PDF](https://arxiv.org/pdf/2609.39306v1)
-
-Iterative self-distillation enables LLM agents to learn from successive deployments, offering a path toward recursive self-improvement (RSI). Yet our experiments with existing methods reveal a collapse in deployment performance across cycles, while task performance with privileged information (PI) also declines. We address this collapse by prioritizing informative interaction steps for distillation and preserving PI-conditioned behavior as the student becomes the next teacher. We introduce Retentive and Selective Augmentation for Iterative Self-Distillation (ReSAIL), a plug-in augmentation for iterative PI-based self-distillation. ReSAIL selects interaction steps where PI most strongly changes the teacher's predictions and balances the resulting distillation losses across trajectories. It also regularizes the student's PI-conditioned output distributions toward those of the frozen teacher at selected and unselected steps to preserve PI-conditioned behavior for supervision in the next cycle. On ALFWorld and TextCraft, ReSAIL sustains substantial gains across model scales over three cycles, with an average absolute gain of 22.5% in final-cycle success rates when added to self-distillation baselines. Sensitivity-guided selection of offline data also improves action prediction accuracy for multimodal GUI agents on AITZ. These findings provide the first evidence that a more robust learning mechanism can effectively mitigate performance collapse in iterative agent self-distillation over deployment trajectories.
-
-### [ASENA: Self-evolving Agents for Embodied Navigation](https://arxiv.org/abs/2609.39207v1)
-
-- **Authors:** An-Chieh Cheng, Isabella Liu, Edmund Bu, Johan Bjorck, Hongxu Yin, Zhengyi Luo, Jan Kautz, Linxi "Jim" Fan, Yuke Zhu, Sifei Liu
-- **Published:** 2026-09-30
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2609.39207v1) · [PDF](https://arxiv.org/pdf/2609.39207v1)
-
-We present ASENA, an embodied agent system that connects general-purpose coding agents to robot sensing, computation, supervised execution, and persistent experience. Agents can write and execute programs, inspect recorded outcomes, repair failures, and reuse notes and executable skills while keeping their model weights fixed. We further introduce ASENA-VLN, a 4B monocular navigation policy that serves as an optional tool within this programmable system. ASENA-VLN predicts body-frame trajectories for both extended routes and short-horizon behaviors using a shared vision-language decoder trained on route instructions, visual question answering, and a newly curated dataset of geometry-derived atomic navigation tasks. As a standalone policy, ASENA-VLN achieves state-of-the-art success rates of 68.7% on R2R and 70.2% on RxR. When integrated with a coding agent, learned navigation improves ASENA's success rate by 11 percentage points on both agentic benchmarks while reducing execution time. Through persistent workspace evolution and simulator feedback, ten passes over recurring 100-task subsets further improve success from 72% to 98% on R2R and from 65% to 89% on RxR. On embodied question answering, ASENA achieves state-of-the-art accuracy with fewer interaction steps. Finally, real-world demonstrations on a Unitree G1 combine search, visual inspection, spatial reasoning, and synthesized gestures without a pre-built map, illustrating how online programming extends robot behavior beyond route following and predefined skills.
-
-### [Rep2Skill: Representation-Guided Skill Self-Evolution for LLM Agents](https://arxiv.org/abs/2609.39149v2)
-
-- **Authors:** Kaixing Zhang, Changming Li, Yingdong Shi, Zheng Zhang, Kaitao Song, Wenjie Shi, Jingang Wang, Kan Ren
-- **Published:** 2026-09-30
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.39149v2) · [PDF](https://arxiv.org/pdf/2609.39149v2)
-
-Textual skills enable large language model (LLM) based agents to accumulate reusable procedural knowledge without updating model parameters. Yet existing skill evolution remains largely confined to the text space: an optimizer must diagnose success and failure patterns, and revise skills solely from long execution trajectories and sparse task outcomes. This text-only paradigm leaves the agent's internal representations, which contain rich records of its evolving execution state, outside the skill optimization loop. We ask whether an agent can improve its external textual skills by reflecting on its own internal representations. We introduce Rep2Skill, a representation-guided framework for self-evolution on agent skills. Specifically, upon the collected agent rollouts, Rep2Skill models their internal model representation trajectories to localize turns that deviate from successful execution dynamics, and it further interprets these signals alongside the execution contexts as actionable textual feedback for targeted skill revision. Experiments on two agent environments with two open-source LLMs show that Rep2Skill consistently outperforms text-only approaches in the self-evolution setting, where the same LLM serves as both executor and optimizer without a stronger external model. This establishes a promising direction moving agent self-improvement beyond text-only reflection.
 
 ### [Do Self-Evolving Skills Generalize to Held-Out Tasks?](https://arxiv.org/abs/2609.39148v1)
 
@@ -426,69 +378,55 @@ The common paradigm of reinforcement learning with verifiable rewards (RLVR) is 
 
 Vision-language models can coordinate long-horizon robot manipulation, yet successful task reasoning still depends on whether local physical interactions produce the intended effects. We study how repeated interaction can improve this capability without updating the base model. We introduce RoboHarn-Evo, a dual-loop harness that evolves Hierarchical Physical Knowledge (HPK) from physical experience. HPK couples two levels of reusable knowledge: Task Knowledge captures which subtask should be executed and when it is complete, while Action Knowledge captures object-relative geometric strategies and their physical effects. During execution, the agent retrieves knowledge at the corresponding decision level and grounds it in the current scene under the task goal. Across episodes, physical feedback is used to revise historical knowledge, update its applicability, and organize reusable entries for subsequent retrieval. Experiments on RMBench show that HPK improves average success by up to 24.2 percentage points across different agent models. With 80 interaction rollouts, held-out success rises from 48.3% to 75.0% for GPT-5.5 and from 70.0% to 88.3% for GPT-6. RoboHarn-Evo also resolves over 83% of historical knowledge errors while retaining 95.8% of valid knowledge, and transfers zero-shot from RMBench to RoboDojo with gains of 35.0 and 25.0 percentage points. These results demonstrate that physical interaction can be accumulated into reusable knowledge for improving subsequent manipulation.
 
-## Agent Memory
+### [Train Ahead, Distill Back: Bootstrapping On-Policy Self-Distillation for Large Language Models](https://arxiv.org/abs/2609.37132v1)
 
-### [Action Conditioned Bisimulation For GUI Agent Memory](https://arxiv.org/abs/2609.38778v1)
-
-- **Authors:** Hongbo Zhang, Liuyang Song, Quanquan Li, Daqian Yang, Yan Wen, Zhengtao Yao
-- **Published:** 2026-09-30
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.38778v1) · [PDF](https://arxiv.org/pdf/2609.38778v1)
-
-An agent that remembers what it did on a web page must decide when two pages count as the same. Memories built on observation similarity merge pages that look alike but behave differently, and GUIs are full of such pages: two tabs of one widget or two rows of one menu answer the same click differently. We define the merge rule as an action-conditioned bisimulation over the empirical predictive state graph a frozen agent fills as it acts. Two states merge only when their shared actions lead to agreeing outcomes and successor blocks under an affordance label. Observation similarity never enters the rule, and nothing is trained. It replaces the merge rule of an existing outcome-value memory, so a closed-loop comparison isolates it. On MiniWoB++ it raises success rate over a memoryless agent, while a control taking identical exploratory detours, the prior successor-representation merge, and the same criterion without action conditioning change nothing.
-
-### [Where the Evidence Lives: Auditing AI Companions' Self-Descriptions](https://arxiv.org/abs/2609.38753v1)
-
-- **Authors:** Seiya Ikeda, Shin-nosuke Ishikawa
-- **Published:** 2026-09-30
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.HC, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.38753v1) · [PDF](https://arxiv.org/pdf/2609.38753v1)
-
-Companion agents describe themselves: they remember, they understand their users, the relationship has changed them. We argue that such accounts, and the experience ratings that seem to confirm them, are checkable by users only where the evidence is theirs: in the agent's behavior, or in themselves. Where the evidence lives in the machinery, fluent self-description and moderately positive ratings do not establish that the mechanisms behind them ran. We demonstrate an audit procedure that sets an agent's self-description against its users' judgements and its implementation records, reporting each claim as supported, contradicted, or unresolved, and apply it to Lita, a proactive companion we built and deployed for a month with nine colleagues. Participants endorsed stylistic claims, withheld endorsement from relational ones, and rated memory at or above midpoint, while two of three memory layers had never executed their accumulation step. Memory-bearing agents should report what their self-descriptions cannot establish.
-
-### [Towards Efficient HPC Systems for Agents: Challenges and Opportunities](https://arxiv.org/abs/2609.38723v1)
-
-- **Authors:** Yunjia Zheng, Bintang Dwi Marthen, Zachary Pan, Minghao Li, Raminder Singh, Manasvita Joshi, Minlan Yu, Juncheng Yang
-- **Published:** 2026-09-30
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.DC
-- **Links:** [Paper](https://arxiv.org/abs/2609.38723v1) · [PDF](https://arxiv.org/pdf/2609.38723v1)
-
-Coding agents have become real users of high-performance computing (HPC) systems, yet today's HPC abstractions, interfaces, and policies remain designed for human-driven workflows. In our measurement, users running coding agents are only 19.5% of the observed population, but account for 55.8% of job submissions, 29.1% of CPU core-hours, and 42.7% of GPU-hours. Agents are not simply faster humans. They issue commands at 20.8x the human rate, decompose work into fine-grained explore-modify-execute loops, and pursue open-ended goals through trial-and-error campaigns that continue through nights and weekends. These behaviors strain abstractions built for human timescales, surfacing as control-plane pressure on the scheduler, metadata-intensive I/O on bandwidth-provisioned filesystems, repeated rediscovery of what earlier sessions already learned, and new prompt-injection and policy-enforcement surfaces. Neither banning agents nor treating them as ordinary users is sustainable. We instead argue for co-design, that facilities should treat agents as first-class principals where agents become facility-aware tenants. We outline the resulting challenges and opportunities in compute, storage, agent memory, and safety.
-
-### [Vision-Language-Action Autonomous Driving Agent with Language-based Memory](https://arxiv.org/abs/2609.38641v1)
-
-- **Authors:** Kai Yan, Xiangyu Chen, Yulong Cao, Alex Naumann, Peter Karkus, Yan Wang, Jef Packer, Alex Schwing, Yuxiong Wang, Boris Ivanovic, Wenjie Luo, Marco Pavone
+- **Authors:** Zheng Zhang, Xinyue Tan, Lufei Li, Xinyi Zhang, Yexin Li, Kan Ren
 - **Published:** 2026-09-29
 - **Priority:** —
 - **Venue:** arXiv
 - **Affiliations:** n/a
-- **Categories:** cs.CV, cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2609.38641v1) · [PDF](https://arxiv.org/pdf/2609.38641v1)
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2609.37132v1) · [PDF](https://arxiv.org/pdf/2609.37132v1)
 
-Vision-Language-Action (VLA) foundation models have recently emerged as one of the prevailing solutions for autonomous driving, as they can utilize knowledge acquired during vision-language pretraining for accurate and interpretable driving. However, VLAs can take only a limited number of frames as visual input due to the high token cost of an image, which is problematic for memory-dependent tasks such as determining the arrival order at all-way stops and long-horizon driving scene understanding. Existing solutions use latent vector memories accessed through cross-attention, which are neither interpretable nor portable. In this paper, we propose AD-Memo, a general-purpose VLA driving agent with language-based memory. The agent outputs memory as an extension of its Chain-of-Thought (CoT) to record surrounding objects critical to driving; this memory becomes part of the agent's future input. We curate memory-based datasets and train VLAs with a two-stage recipe: Supervised Fine-Tuning (SFT) and \textit{Da Capo}, a novel semi-closed-loop Reinforcement Learning (RL) algorithm which uses trajectory-level advantage for memory and step-level advantage for driving, leading to better credit assignment. Across scenarios such as all-way stops and general driving, AD-Memo improves driving quality, enables better question answering on driving scenes, and produces plug-and-play memory for other models.
+On-policy self-distillation (OPSD) improves large language models by letting a self-teacher with privileged information provide dense token-level supervision on the model's own trajectories. Yet existing methods typically construct the self-teacher from the current, initial, or slowly averaged policy state, leaving the quality of supervision constrained by the teacher's ability to exploit privileged information. We ask whether the model's own optimization progress can instead be recycled into a stronger self-teacher. In this paper, we introduce Bootstrapped On-Policy Self-Distillation (B-OPSD), which temporarily trains the policy ahead to obtain a future teacher, restores the student to the original policy state, and then uses the future teacher to supervise the restarted student. The future teacher improves supervision in two complementary ways, it can generate more reliable privileged trajectories and, conditioned on them, provide more informative token-level targets along the restarted student's on-policy trajectories. Experiments on mathematical reasoning with Qwen3-4B and Qwen3-8B show consistent improvements over standard OPSD in both settings, including gains from 27.50 to 41.30 and from 48.80 to 64.44 in the rollout-privileged setting. Our findings point to a broader principle for self-improving models that future learning progress can be distilled backward, preserving acquired knowledge while bootstrapping beyond the optimization state that produced it.
 
-## LLM Continual Training & Continual Learning
+### [VACE: Validation-Gated Alternating Co-Evolution of Agent Models and Harnesses](https://arxiv.org/abs/2609.37105v1)
 
-### [From Search to Signal: Online Post-Training in Automatic Heuristic Design](https://arxiv.org/abs/2609.39383v1)
-
-- **Authors:** Yilun Yuan, Tianyu Zhou, Zhenzhou Tang
-- **Published:** 2026-09-30
+- **Authors:** Jiexing Qi, Yu He, Jun Liu, Qichen Huang, Shaohua Hu, Zhan Dang, Guohua Chen, Rui Yang, Wen Jiang, Yang Liu, Tao Lyu, Fangming Li
+- **Published:** 2026-09-29
 - **Priority:** —
 - **Venue:** arXiv
 - **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.39383v1) · [PDF](https://arxiv.org/pdf/2609.39383v1)
+- **Categories:** cs.LG, cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2609.37105v1) · [PDF](https://arxiv.org/pdf/2609.37105v1)
 
-Large language model (LLM)-based automatic heuristic design (AHD) iteratively proposes and refines heuristics, pairing design rationales with executable code. Task-specific evaluators assess programs; execution outcomes and performance scores guide search. Many AHD systems keep the generator frozen; EvoTune and Co-Evolution of Algorithms and Language Model (CALM) instead update it from evaluated candidates. When such outcomes drive reinforcement learning with verifiable rewards (RLVR), they create a search-coupled loop: the evaluated candidate stream supplies both search-state updates and training signals for the model that generates future candidates. Yet validity and performance do not uniquely determine useful model updates; converting them into learning signals must account for the prompt and evolving search state that produced each candidate. We formulate online post-training of small open-weight LLMs in AHD as context-dependent signal construction and develop alternative mappings from program validity, task performance, and generation context to update signals. Using shared evaluated rollouts and matched update budgets, controlled experiments across AHD tasks and model families compare these mappings with online post-training baselines, testing their effects on validity, performance among valid proposals, and the yield of valid proposals that improve under contextual comparisons. Complementary checkpoint, frozen-search, and live-system evaluations assess whether proposal-level gains appear in updated checkpoint behavior and subsequent search, rather than arising solely from accumulated search state. A resource-matched comparison under pre-specified cost accounting tests whether online updating adds value beyond additional search with a frozen generator. Together, this design avoids treating end-to-end search gains alone as evidence of stronger heuristic-design capabilities.
+Language model agents can be improved by updating their model weights or refining the harness that guides task execution. These components are coupled: weight updates change how the model uses the harness, while harness updates change the trajectories used for training. We propose VACE, Validation-Gated Alternating CoEvolution, which alternates agentic reinforcement learning with trajectory-driven harness refinement. After each RL stage, VACE reuses the collected trajectories to propose a harness revision and evaluates the incumbent and candidate with the updated model held fixed. The candidate guides subsequent training only if it improves validation performance. With Qwen3.5-9B, VACE achieves 45.26% test accuracy on OfficeQA and a mean partial-credit score of 75.19% on AutomationBench, exceeding weight-only RL by 6.43 and 9.09 percentage points and ungated alternation by 4.59 and 6.95 points, respectively. Across 44 harness proposals, 17 reduce validation performance at the updated checkpoint and are rejected before subsequent RL training, highlighting the importance of validation gating.
+
+### [AnyAct: Universal Action for Self-Evolving Agents](https://arxiv.org/abs/2609.37025v1)
+
+- **Authors:** Lingrui Xu, Yangqin Jiang, Jiachang Zhang, Xubin Ren, Chao Huang
+- **Published:** 2026-09-29
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** University of Hong Kong
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2609.37025v1) · [PDF](https://arxiv.org/pdf/2609.37025v1)
+
+As large language models (LLMs) advance, AI agents are increasingly deployed in open-world environments to tackle complex sequential tasks (e.g., document processing, cross-application collaboration), relying heavily on actions ranging from GUI operations to semantic APIs. However, three core challenges persist: the "scale dilemma" of massive tool ecosystems exceeding LLM context windows, the "non-stationarity" of tool quality due to updates or outages, and the "heterogeneity" of feedback formats (pixels, text, structured data) creating information silos. To address these, we propose AnyAct, a universal action layer that unifies available capabilities into a self-evolving action space, enabling agents to operate efficiently and reliably in large-scale, dynamic tool ecosystems. AnyAct's core design focuses on two objectives: constructing this action space via hierarchical progressive retrieval (filtering task-relevant actions) and test-time reliability evolution (pruning unreliable actions), and enabling reliability-aware action orchestration through a heterogeneous observation grounding module that unifies multi-modal feedback. Additionally, it defines a hybrid action space (primitive + semantic actions) and optimizes for a balance between task success rate and execution cost. Evaluations on LiveMCPBench and OSMCP (a new benchmark we developed for multi-granularity action collaboration) demonstrate state-of-the-art performance. AnyAct delivers substantial performance gains over baseline methods across various LLM base models on LiveMCPBench and improvements are particularly notable for models with constrained native capabilities. On OSMCP, it achieves 77.27% overall success with only 50 steps, which is half the steps required by most competitors.
+
+### [Fine-Tuning on Self-Generated and Reward-Weighted Data: Learning Dynamics, Convergence Rates, and Benefits of Off-Policyness](https://arxiv.org/abs/2609.36945v1)
+
+- **Authors:** Zhiwei Wang, Yanxi Chen, Yaliang Li, Bolin Ding
+- **Published:** 2026-09-29
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, math.OC
+- **Links:** [Paper](https://arxiv.org/abs/2609.36945v1) · [PDF](https://arxiv.org/pdf/2609.36945v1)
+
+We study the learning dynamics of fine-tuning a policy model on self-generated and reward-weighted data, with particular focus on a generalized version of REINFORCE -- referred to as RE(S) -- that updates the rollout distribution once every $S \ge 1$ gradient steps. Prior work in bandits and reinforcement learning has developed rich theory for policy gradient methods, and on-policy sampling (i.e., a small $S$, ideally $1$) is often viewed as crucial to their success; yet in prominent application like post-training large language models, reward-guided self-training has proved to be effective even when the rollout distribution is updated infrequently, but theoretical understanding remains limited for the convergence properties of these off-policy methods. To bridge these gaps, we develop a unified theory for RE(S) that covers the full spectrum of $S \ge 1$: it can be interpreted as a stage-wise optimization process, where each stage takes $S$ gradient steps for minimizing the Kullback-Leibler distance to a fixed reward-weighted rollout distribution. For multi-arm bandits with softmax policies, our in-depth analysis and numerical experiments reveal three key findings: (1) for any fixed $S$, RE(S) enjoys global convergence to the optimal policy as the number of rollout distribution updates $B = \lfloor T / S \rfloor \rightarrow \infty$, where $T$ denotes the number of gradient steps; (2) we prove tight two-sided bounds showing that the suboptimality gap of RE(S) achieves an asymptotic $Θ(1 / T)$ convergence rate, while $S$ only affects the length of a burn-in phase; (3) when initialized at a weak policy with a small optimal-action probability, RE(1) gets trapped around suboptimal policies for a long period, whereas RE(S) with a suitable $S$ avoids the detour and achieves significantly faster convergence to the global optimum, highlighting the benefits of off-policyness in this case.
+
+## LLM Continual Training & Continual Learning
 
 ### [An Uncertainty-Guided Digital Twin Framework for Online Adaptive Proton Therapy in Head and Neck Cancer: A Feasibility Study](https://arxiv.org/abs/2609.39010v1)
 
@@ -562,31 +500,19 @@ Multimodal continual instruction tuning (MCIT) aims to enable multimodal large l
 
 Assigning credit to intermediate steps remains a central challenge in training Large Language Models (LLMs) on multi-step reasoning tasks with sparse terminal rewards, and actor-critic methods such as PPO address this by learning value functions to construct token-level advantages. Their effectiveness, however, hinges on reliable value estimation, a difficult task requiring the critic to both assess progress toward a correct solution and anticipate an evolving policy's future behavior; errors in either can compromise credit assignment and destabilize online training. In this paper, we revisit the standard state-only formulation of value estimation and propose $π$PPO, a self-privileged actor-critic framework. By reusing verified same-prompt rollouts as contrastive evidence, $π$PPO helps the critic assess intermediate reasoning against successful and failed attempts, while preserving standard policy optimization and the deployment interface. Experiments show that $π$PPO consistently improves value-estimation quality by a substantial margin and outperforms representative actor-critic and critic-free RLVR baselines on challenging mathematical reasoning benchmarks, while remaining effective even when paired with substantially smaller asymmetric critics.
 
+### [Beam Search as Test-Time Self-Distillation via Counterfactual Contexts](https://arxiv.org/abs/2609.37041v1)
+
+- **Authors:** Su Ee Tan, Xiaotong Ji, Rasul Tutunov, Haitham Bou-Ammar, Matthieu Zimmer
+- **Published:** 2026-09-29
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2609.37041v1) · [PDF](https://arxiv.org/pdf/2609.37041v1)
+
+Self-Distillation Fine-Tuning (SDFT) enables a language model to act as its own teacher: by conditioning on a demonstration, the model produces an implicit reward via pointwise mutual information, which guides on-policy learning without external supervision. However, SDFT operates at training time: it requires gradient updates and access to expert demonstrations, making it inapplicable at inference. We propose test-time self-distillation, a decoding-time method that extracts a steering signal from the self-distillation framework without any parameter updates, reward models, or training data. Our key insight is that counterfactual contexts, i.e. fixed textual templates that hypothetically prime the model for excellent versus poor reasoning, can substitute for the demonstration. The log-odds ratio of a candidate answer under these two counterfactual conditions defines a new reward signal. We derive the optimal KL-regularized policy under this reward, which takes the form of a Gibbs reweighting of the base distribution. Crucially, this reweighting is global: it cannot be decomposed into independent per-token operations without ignoring future trajectory quality. We therefore approximate the target distribution via beam search. Experiments on mathematical reasoning (MATH500), code generation (HumanEval), and graduate-level science QA (GPQA) across multiple model scales show that test-time self-distillation improves over standard sampling, low temperature, beam search and power sampling baselines on average, demonstrating that the self-distillation principle can be operationalized at inference time.
+
 ## Reinforcement Learning
-
-### [From Imitation to Reward Discovery: On-Policy Warmup for Agentic RL](https://arxiv.org/abs/2609.39436v1)
-
-- **Authors:** Yitong Qiao, Tiantian He, Lei Liu, Yue Shen, Jian Wang, Jinjie Gu, Zhixuan Chu
-- **Published:** 2026-09-30
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.39436v1) · [PDF](https://arxiv.org/pdf/2609.39436v1)
-
-Reinforcement learning with a verifiable reward (RLVR) offers a scalable approach to training language-model agents, yet sparse outcome rewards can leave early training with little signal for policy improvement. We identify an On-Policy Acceleration Phenomenon: in our main comparisons, RLVR initialized with on-policy distillation reaches high performance earlier in training and achieves both higher average performance during subsequent RLVR and higher final performance than the alternative baselines. Motivated by this observation, we study On-Policy Warmup (OPW), a teacher-guided stage in which the student trains with teacher supervision on its own interaction trajectories before transitioning to RLVR. Unlike imitation on fixed teacher-generated trajectories, OPW targets states induced by the student's own decisions, including imperfect actions and recovery situations. We provide a theoretical explanation by connecting on-policy reverse-KL distillation to trajectory-level distribution matching. Under a competent teacher and sufficiently small population distillation loss, this connection yields a lower bound on initial verifier success and a corresponding bound on reward-discovery complexity. For group-relative RLVR, we further characterize when increased success probability produces more reward-informative groups. Together, our findings support on-policy distillation as an effective warmup for agentic RLVR and identify initial reward discovery as a mechanism that can contribute to the observed acceleration.
-
-### [GRPO Training Dynamics for Small Language Models](https://arxiv.org/abs/2609.39321v1)
-
-- **Authors:** Rajat Ghosh, Vaishnavi Bhargava, Henry Wong, Aryan Singhal, Debojyoti Dutta
-- **Published:** 2026-09-30
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.39321v1) · [PDF](https://arxiv.org/pdf/2609.39321v1)
-
-Group Relative Policy Optimization (GRPO) has emerged as a memory-efficient reinforcement fine-tuning (RFT) technique for reasoning-intensive tasks. How- ever, GRPO training dynamics on small language models (SLMs) remain poorly understood, limiting its reliable adoption and reproducibility in open and resource- constrained environments. In this work, we present a systematic study of GRPO fine-tuning for SLMs ranging from 1.5B to 7B parameters under a practical single- node 8xA100 compute budget. Our study spans multiple model families and reasoning domains, including mathematics, coding, and multiple-choice question answering (MCQ) in science. Across these settings, we analyze how group size affects policy convergence, training stability, and downstream benchmark per- formance. We further characterize tensor-level update dynamics during GRPO training and investigate whether the choice of LoRA target modules and layers can improve the performance of GRPO-tuned models. While our initial GRPO-tuned models outperform their base counterparts on approximately 80% of mathematical benchmark evaluations, they demonstrate limited capability on MCQ and code reasoning tasks. Guided by our mechanistic evaluations, we refined our LoRA and reward-shaping configurations to improve performance in latter domains. These findings provide practical guidance for GRPO training for SLMs.
 
 ### [From Image Interpretation to Clinical Reasoning: Upstream Physician-Context-Aware Multimodal Learning with Causal Reinforcement Learning](https://arxiv.org/abs/2609.38924v1)
 
@@ -707,6 +633,78 @@ Assigning credit to intermediate steps remains a central challenge in training L
 - **Links:** [Paper](https://arxiv.org/abs/2610.00332v1) · [PDF](https://arxiv.org/pdf/2610.00332v1)
 
 Distilling the reasoning capabilities of large language models (LLMs) into smaller students is a central challenge for efficient deployment. Current approaches face a fundamental tension: optimizing purely for verifiable task rewards (e.g., via GRPO) leads to reward hacking, where students arrive at correct final answers through flawed intermediate logic, while regularizing with soft divergence penalties against a teacher (e.g., KL-based distillation) dilutes task performance and, critically, allows the student to compensate for severe logical violations at one step with high teacher agreement at others. We argue that this averaging is fundamentally misaligned with the nature of reasoning: a chain-of-thought is only as valid as its weakest link. Motivated by this observation, we formulate reasoning distillation as a constrained reinforcement learning problem in which the task reward is maximized subject to a worst-case constraint on the teacher log-likelihood along every prefix of the trajectory. To avoid the prohibitive cost of dual Lagrangian solvers and the test-time teacher dependence of state-augmented methods such as Saute, we derive an unaugmented constrained MDP whose reward transformation preserves the hard-constraint semantics, admits a low-variance policy gradient decomposition into single-step and long-term terms, and provably satisfies the worst-case constraint almost surely in the penalty limit. Through extensive experiments on mathematical reasoning and code generation tasks, we demonstrate that our method significantly expands the accuracy-fidelity Pareto front. By matching the high Final Answer Correctness of pure RL and drastically reducing teacher constraint violations, we ultimately achieve the highest rigorous Reasoning Success Rate across all evaluated settings.
+
+### [Teaching LLMs to Generate Challenging MILP Instances via Solver Feedback](https://arxiv.org/abs/2609.37356v1)
+
+- **Authors:** Jitin Singla, Parikshit Pareek, Pratik Jawanpuria, Parag Singla
+- **Published:** 2026-09-29
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** IIT Delhi
+- **Categories:** cs.AI, math.OC
+- **Links:** [Paper](https://arxiv.org/abs/2609.37356v1) · [PDF](https://arxiv.org/pdf/2609.37356v1)
+
+Generating optimization instances that are both feasible and computationally challenging is crucial for benchmarking solvers and training learning-based optimization algorithms. Existing non-LLM generators rely on seed instances or parameter tuning, resulting in high test-time computational cost, while existing LLM generators lack explicit hardness measures. Recent reinforcement learning methods with verifier feedback evaluate only binary correctness, which is misaligned with generating challenging problems. We note that an optimization solver reports the cost of solving at several stages of its pipeline, and leverage this to design a reward that scores both the solvability and the hardness of generated problems, measured by branch-and-bound nodes and post-cut relaxation gaps. Our key idea is a challenger-solver asymmetric self-play approach, where an LLM challenger generates progressively harder instances and the solver verifies feasibility and hardness, so no seed or training MILP instances are required. We fine-tune Gemma-4-12B and Qwen3.5-4B with GRPO and a size curriculum into OptiScribe-12B and OptiScribe-4B, which generate feasible yet challenging MILP problems from natural language instructions. On capacitated facility location and max-cut, OptiScribe-12B raises median SCIP search nodes by 1.7-5x and post-cut gaps by 1.1-1.7x over its base model and improves the feasibility rate on facility location by 9-19 points, while OptiScribe-4B raises median nodes by up to 15.6x. The problems cover a wider difficulty range than public benchmarks of the same size, follow instructions on density and difficulty, and can tune solver settings for families that public libraries lack. These results indicate that optimization-specific rewards, used in self-play mode, can teach LLMs to generate high-difficulty optimization benchmarks. We will release our code and models publicly on acceptance.
+
+### [VLM Fine-Tuning for End-to-End Combinatorial Optimization](https://arxiv.org/abs/2609.37175v1)
+
+- **Authors:** Qingsong Yan, Xia Jiang, Yaoxin Wu, Wen Song, Lu Zhang, Yingjie Zhou
+- **Published:** 2026-09-29
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2609.37175v1) · [PDF](https://arxiv.org/pdf/2609.37175v1)
+
+Large language models (LLMs) have provided a unified interface for end-to-end combinatorial optimization (CO), but textual serialization alone may obscure spatial and relational structures that are important for generating effective CO solutions. This paper presents a general-purpose vision-language solver that augments textual instance descriptions with input-derived visual representations. A single vision-language model (VLM) is applied across different CO tasks and trained using supervised fine-tuning followed by verifier-guided reinforcement learning. While the visual inputs contain no gold solutions or solution-derived information, our experiments show that the VLM generally improves solution quality over its text-only counterpart, with particularly clear gains on more complex CO problems such as CVRP and JSSP. The advantage of visual information is more pronounced at large problem scales.
+
+### [Unlocking the Critic: Reward-Free Policy Optimization for LLM Post-Training](https://arxiv.org/abs/2609.37119v1)
+
+- **Authors:** Hongyang Li, Xiao Li, Caesar Wu, Said Mammar, Grégoire Danoy, Pascal Bouvry
+- **Published:** 2026-09-29
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2609.37119v1) · [PDF](https://arxiv.org/pdf/2609.37119v1)
+
+Recent approaches to reinforcement learning (RL) post-training for large language models increasingly remove the critic to reduce training instability and memory overhead. Even where a critic is trained, it is discarded once training ends, although it has learned to predict outcomes. We revisit this trend and show that a pretrained critic's ability to predict future outcomes can make it a valuable asset for efficient long-horizon reasoning. First, we find that instability in critic-based RL for long chain-of-thought reasoning is largely an optimization artifact: keeping policy updates small and low in variance restores stable convergence. Second, a well-pretrained critic estimates the posterior probability of eventual success from later trajectory states and unfinished prefixes. Its predictions provide outcome-derived, dense, per-prefix learning signals that, during policy optimization, require neither completed rollouts, step-level annotations, nor external reward labels. Building on this insight, we introduce Reward-Free Policy Optimization (RFPO), which repurposes a single calibrated, frozen critic as a rollout-level reward, a value baseline for generalized advantage estimation, and a success forecaster for unfinished prefixes. We further show that binarizing the debiased score stops the policy from exploiting the critic's length bias. Binarized, RFPO matches supervised PPO without a single label in the training loop, while cutting compute and memory overhead. This makes RFPO well suited to long-horizon reasoning tasks, where outcomes arrive late and generation dominates cost: because rollouts can be rewarded before they finish, training no longer has to pay for waiting on every trajectory to complete. Our findings challenge the prevailing critic-free paradigm and establish critic-based, reward-free optimization as a scalable and computationally efficient path for LLM post-training.
+
+### [Beyond Compression: Diagnosing How Post-Training Changes Mathematical Reasoning](https://arxiv.org/abs/2609.37066v1)
+
+- **Authors:** Hongyang Li, Yiming Zhu, Xiao Li, Caesar Wu, Said Mammar, Pascal Bouvry
+- **Published:** 2026-09-29
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2609.37066v1) · [PDF](https://arxiv.org/pdf/2609.37066v1)
+
+Post-training is central to mathematical reasoning in modern large language models (LLMs), but endpoint pass@1 alone underidentifies what has changed. Gains may reflect newly reachable solutions, cheaper sampling of latent solutions, surface robustness, or memorisation. We compare three post-training paths under a common diagnostic readout: our sufficiently trained off-policy distillation trajectories, released Qwen3 off-policy-plus-on-policy distillation endpoints, and a released DeepSeek-Math endpoint trained with Group Relative Policy Optimisation (GRPO). Our probe uses cross-surface pass@K over verbatim prompts, paraphrases, numerical isomorphisms, and translations, plus consistency, distribution-shape, and verified supervised-fine-tuning (SFT) membership analyses. We find two regimes. On easier AMC problems, large-K ceilings are near saturation, so post-training mainly compresses sample cost. On harder AIME problems, post-training expands the large-K ceiling over the base model: sufficient off-policy distillation already raises this ceiling, Qwen3 released endpoints raise it further, and DeepSeek-Math GRPO does not dominate sufficient off-policy distillation at large K. English-dominant distillation improves non-English reasoning but preserves language-tier gaps. A controlled-overfit audit finds limited sensitivity in current SFT-membership probes. Compression is one regime of post-training, not a universal explanation.
+
+### [Cool the Sampler, Not the Learner: Sampling Temperature Moves the Staleness Cliff of Importance-Corrected GRPO](https://arxiv.org/abs/2609.36953v1)
+
+- **Authors:** Taiheng Pan
+- **Published:** 2026-09-29
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2609.36953v1) · [PDF](https://arxiv.org/pdf/2609.36953v1)
+
+Production RL for language models lets the sampler fall behind the learner and repairs the resulting mismatch with a truncated importance weight. We ask how long the sampler can go without a refresh under that correction, and find a cliff: on Qwen2.5-Math-1.5B and GSM8K, importance-corrected GRPO refreshed every 192 updates learns well for 180 steps and then degrades severely in all three data seeds before the refresh arrives. Published remedies for staleness act on the update; we act on the sampler instead. Decoupled cooling draws samples at temperature 0.8 while the learner, the reference model and the importance weights stay at temperature 1, with the behaviour probability recorded from the tempered distribution, so the learner's objective is unchanged. All corresponding cooled runs are stable, and the longer interval keeps what the short one delivered: at the same update budget, a cooled sampler refreshed every 192 steps matches an uncooled sampler refreshed every 96 at the end of training (0.857 for both) and averaged over it (0.79), whereas lowering the learning rate to a safe value ends 3-7 points lower. On Qwen2.5-Math-7B the degradation points at interval 192 predict that an interval of 144 is fatal without cooling and survivable with it; on two data seeds the uncooled runs degrade before their first refresh and the cooled runs pass it and end at 92-93% against 68-81%, with one cooled run degrading transiently late in the second cycle. The benefit has a window: at three times the safe interval and in a high-mismatch MATH setting cooling delays degradation without preventing it, stronger cooling is not better, and cooling without the correction collapses. Sampling temperature is a control on staleness tolerance, and temperature and refresh interval should be chosen together.
+
+### [Fine-Tuning on Self-Generated and Reward-Weighted Data: Learning Dynamics, Convergence Rates, and Benefits of Off-Policyness](https://arxiv.org/abs/2609.36945v1)
+
+- **Authors:** Zhiwei Wang, Yanxi Chen, Yaliang Li, Bolin Ding
+- **Published:** 2026-09-29
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, math.OC
+- **Links:** [Paper](https://arxiv.org/abs/2609.36945v1) · [PDF](https://arxiv.org/pdf/2609.36945v1)
+
+We study the learning dynamics of fine-tuning a policy model on self-generated and reward-weighted data, with particular focus on a generalized version of REINFORCE -- referred to as RE(S) -- that updates the rollout distribution once every $S \ge 1$ gradient steps. Prior work in bandits and reinforcement learning has developed rich theory for policy gradient methods, and on-policy sampling (i.e., a small $S$, ideally $1$) is often viewed as crucial to their success; yet in prominent application like post-training large language models, reward-guided self-training has proved to be effective even when the rollout distribution is updated infrequently, but theoretical understanding remains limited for the convergence properties of these off-policy methods. To bridge these gaps, we develop a unified theory for RE(S) that covers the full spectrum of $S \ge 1$: it can be interpreted as a stage-wise optimization process, where each stage takes $S$ gradient steps for minimizing the Kullback-Leibler distance to a fixed reward-weighted rollout distribution. For multi-arm bandits with softmax policies, our in-depth analysis and numerical experiments reveal three key findings: (1) for any fixed $S$, RE(S) enjoys global convergence to the optimal policy as the number of rollout distribution updates $B = \lfloor T / S \rfloor \rightarrow \infty$, where $T$ denotes the number of gradient steps; (2) we prove tight two-sided bounds showing that the suboptimality gap of RE(S) achieves an asymptotic $Θ(1 / T)$ convergence rate, while $S$ only affects the length of a burn-in phase; (3) when initialized at a weak policy with a small optimal-action probability, RE(1) gets trapped around suboptimal policies for a long period, whereas RE(S) with a suitable $S$ avoids the detour and achieves significantly faster convergence to the global optimum, highlighting the benefits of off-policyness in this case.
 
 ## Long-Horizon Task Agents
 

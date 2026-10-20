@@ -44,7 +44,7 @@ async def test_semantic_scholar_batches_venue_and_author_profile_affiliations() 
 
     async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as client:
         papers = await SemanticScholarEnricher(client=client).enrich(
-            [make_paper("2608.00001", topics=("agent-memory",))]
+            [make_paper("2608.00001", topics=("agent-llm-self-evolution",))]
         )
 
     paper = classify_highlights(papers[0])
@@ -77,7 +77,7 @@ async def test_semantic_scholar_does_not_mix_profiles_into_paper_affiliations() 
         )
 
     source = replace(
-        make_paper("2608.00002", topics=("agent-memory",)),
+        make_paper("2608.00002", topics=("agent-llm-self-evolution",)),
         affiliations=("Tsinghua University",),
         affiliation_source="arXiv author metadata",
     )
@@ -102,8 +102,13 @@ async def test_semantic_scholar_continues_after_one_rate_limited_chunk() -> None
         assert body == {"ids": ["DOI:10.1000/example"]}
         return httpx.Response(200, json=[{"authors": [], "citationCount": 12}])
 
-    papers = [make_paper(f"2608.{index:05d}", topics=("agent-memory",)) for index in range(500)]
-    papers.append(replace(make_paper("external", topics=("agent-memory",)), doi="10.1000/example"))
+    papers = [
+        make_paper(f"2608.{index:05d}", topics=("agent-llm-self-evolution",))
+        for index in range(500)
+    ]
+    papers.append(
+        replace(make_paper("external", topics=("agent-llm-self-evolution",)), doi="10.1000/example")
+    )
     async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as client:
         enriched = await SemanticScholarEnricher(client=client).enrich(papers)
 

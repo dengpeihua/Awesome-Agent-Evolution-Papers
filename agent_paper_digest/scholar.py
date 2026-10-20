@@ -79,7 +79,12 @@ class SemanticScholarEnricher:
                         or ""
                     )
                     citation_count = record.get("citationCount")
-                    updates: dict[str, object] = {}
+                    updates: dict[str, object] = {
+                        "publication_types": tuple(
+                            record.get("publicationTypes") or paper.publication_types
+                        ),
+                        "venue_type": str(publication_venue.get("type") or paper.venue_type),
+                    }
                     if venue:
                         replace_venue = not paper.venue or bool(PREPRINT_PATTERN.match(paper.venue))
                         updates.update(

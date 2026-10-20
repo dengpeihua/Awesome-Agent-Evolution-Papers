@@ -1,12 +1,19 @@
 from __future__ import annotations
 
+import json
 import re
 from dataclasses import replace
 from datetime import UTC, datetime
+from pathlib import Path
 from typing import Final
 
 from .models import Paper
-from .topics import MIN_PUBLICATION_DATE, REQUIRED_TOPICS, infer_topics
+from .topics import MIN_PUBLICATION_DATE, REQUIRED_TOPICS, infer_topics, is_agent_memory
+
+_EXCLUSIONS = Path(__file__).resolve().parents[1] / "data" / "excluded_paper_ids.json"
+EXCLUDED_PAPER_IDS = (
+    frozenset(json.loads(_EXCLUSIONS.read_text("utf-8"))) if _EXCLUSIONS.exists() else frozenset()
+)
 
 HIGH_CITATION_COUNT: Final = 10
 
@@ -221,7 +228,11 @@ def qualification_reasons(paper: Paper) -> tuple[str, ...]:
 def is_eligible(paper: Paper) -> bool:
     """Include topical papers; priority evidence is a label, not an entry barrier."""
     return bool(
-        MIN_PUBLICATION_DATE <= paper.published <= datetime.now(UTC)
+        paper.arxiv_id not in EXCLUDED_PAPER_IDS
+        and not paper.excluded
+        and not is_agent_memory(paper)
+        and not is_journal_article(paper)
+        and MIN_PUBLICATION_DATE <= paper.published <= datetime.now(UTC)
         and REQUIRED_TOPICS.intersection(infer_topics(paper))
     )
 
@@ -233,6 +244,7 @@ def classify_highlights(paper: Paper) -> Paper:
     venue = _venue_evidence(paper)
     updates: dict[str, object] = {
         "topics": infer_topics(paper),
+        "excluded": paper.excluded or is_agent_memory(paper) or is_journal_article(paper),
         "industry_affiliations": tuple(sorted(set(paper.industry_affiliations) | set(industry))),
         "industry_first_author_affiliations": tuple(
             sorted(set(paper.industry_first_author_affiliations) | set(first_author_industry))
@@ -272,4 +284,30 @@ def promotion_signature(paper: Paper) -> tuple[object, ...]:
         paper.industry_first_author_affiliations,
         paper.industry_affiliations if has_industry_qualification(paper) else (),
         is_highly_cited(paper),
+    )
+
+
+def is_journal_article(paper: Paper) -> bool:
+    """Detect journal publications without treating conference journal_ref as a journal."""
+    if paper.venue_type.lower() == "journal" or "JournalArticle" in paper.publication_types:
+        return True
+    text = " | ".join((paper.venue, paper.journal_ref, paper.comment, paper.acceptance_evidence))
+    if re.search(
+        r"\b(?:journal|transactions|TMLR|TACL|JMLR|TPAMI|PAMI|IJCV|PNAS|PLOS|"
+        r"Scientific Reports|Nature(?: Communications| Machine Intelligence)?|Science Advances|"
+        r"Neurocomputing|Expert Systems with Applications|"
+        r"Knowledge-Based Systems|Information Sciences|ACM Computing Surveys|TKDE|TIST|TOIS|"
+        r"Trans\.\s*Mach\.\s*Learn\.\s*Res|Advanced Intelligent Systems|JACS Au|"
+        r"IEEE Control Systems Letters|Magazine|Proceedings of the ACM on Management of Data)\b",
+        text,
+        re.I,
+    ):
+        return True
+    return bool(
+        re.fullmatch(
+            r"\s*(?:Science|Artificial Intelligence|Neural Networks|Pattern Recognition|Computer)"
+            r"(?: Journal)?(?: 20\d{2})?\s*",
+            paper.venue,
+            re.I,
+        )
     )

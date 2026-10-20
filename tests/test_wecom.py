@@ -8,7 +8,7 @@ from tests.test_archive import make_paper
 
 def test_digest_markdown_groups_topics_and_limits_papers() -> None:
     papers: list[Paper] = [
-        make_paper(f"2607.{index:05d}", topics=("agent-memory",)) for index in range(12)
+        make_paper(f"2607.{index:05d}", topics=("agent-llm-self-evolution",)) for index in range(12)
     ]
 
     markdown = build_digest_markdown(
@@ -18,15 +18,15 @@ def test_digest_markdown_groups_topics_and_limits_papers() -> None:
     )
 
     assert markdown.count("https://arxiv.org/abs/") == 5
-    assert "Agent Memory" in markdown
+    assert "Self-Evolution" in markdown
     assert "7 more paper(s)" in markdown
     assert "查看完整归档" in markdown
 
 
 def test_digest_puts_priority_papers_first_and_includes_evidence() -> None:
-    ordinary = make_paper("2607.00001", topics=("agent-memory",))
+    ordinary = make_paper("2607.00001", topics=("agent-llm-self-evolution",))
     priority = replace(
-        make_paper("2607.00002", topics=("agent-memory",)),
+        make_paper("2607.00002", topics=("agent-llm-self-evolution",)),
         venue="ACL 2026",
         venue_tier="ccf-a",
         acceptance_evidence="arXiv comment: Accepted to ACL 2026",
@@ -58,7 +58,8 @@ def test_digest_order_is_chronological_even_across_topics_and_priorities():
     from agent_paper_digest.wecom import build_digest_messages
 
     old = replace(
-        make_paper("old", topics=("agent-memory",)), industry_first_author_affiliations=("Google",)
+        make_paper("old", topics=("agent-llm-self-evolution",)),
+        industry_first_author_affiliations=("Google",),
     )
     new = replace(
         make_paper("new", topics=("reinforcement-learning",)),

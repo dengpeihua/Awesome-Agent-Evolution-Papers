@@ -78,7 +78,7 @@ class DailyDigestPipeline:
             papers = await self.enricher.enrich(papers)
         papers = [classify_highlights(paper) for paper in papers]
         papers.sort(key=lambda p: (p.published, p.updated, p.arxiv_id), reverse=True)
-        candidate_repository.save(papers)
+        candidate_repository.save([p for p in papers if is_eligible(p)])
         known = {p.arxiv_id: classify_highlights(p) for p in self.archive._load()}
         # Persist intent before writing the dataset so a crash during rendering
         # cannot turn an undelivered paper into an apparently completed one.

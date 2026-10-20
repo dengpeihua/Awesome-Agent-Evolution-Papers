@@ -32,8 +32,8 @@ else:
 @register(
     "agent_paper_digest",
     "Agent Paper Digest",
-    "Daily Agent evolution, memory, LLM continual training, and reinforcement learning papers",
-    "0.6.0",
+    "Daily Agent evolution, LLM continual training, and reinforcement learning papers",
+    "0.7.0",
 )
 class AgentPaperDigestPlugin(Star):
     """AstrBot lifecycle adapter for the daily research pipeline."""

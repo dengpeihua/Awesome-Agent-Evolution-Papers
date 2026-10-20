@@ -2,12 +2,11 @@
 
 [← Back to main index](../../../README.md)
 
-> 24 unique papers · Agent/LLM Self-Improvement 1 · Memory 1 · Continual Training 0 · Reinforcement Learning 2 · Long-Horizon 22
+> 22 unique papers · Agent/LLM Self-Improvement 1 · Continual Training 0 · Reinforcement Learning 2 · Long-Horizon 20
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
 | 2025-07-31 | Long-Horizon Task Agents | [SeqAffordSplat: Scene-level Sequential Affordance Reasoning on 3D Gaussian Splatting](https://arxiv.org/abs/2507.23772v1)<br>[PDF](https://arxiv.org/pdf/2507.23772v1) | arXiv.org | — | Citations: 3 (Semantic Scholar) |
-| 2025-07-30 | Agent Memory<br>Long-Horizon Task Agents | [Git Context Controller: Manage the Context of LLM-based Agents like Git](https://arxiv.org/abs/2508.00031v3)<br>[PDF](https://arxiv.org/pdf/2508.00031v3) | arXiv | — | — |
 | 2025-07-30 | Long-Horizon Task Agents | [Magentic-UI: Towards Human-in-the-loop Agentic Systems](https://arxiv.org/abs/2507.22358v1)<br>[PDF](https://arxiv.org/pdf/2507.22358v1) | arXiv.org | 📈 Highly cited<br>🚨 First-author industry profile: Microsoft | Citations: 60 (Semantic Scholar) |
 | 2025-07-29 | Long-Horizon Task Agents | [Cyber-Zero: Training Cybersecurity Agents without Runtime](https://arxiv.org/abs/2508.00910v2)<br>[PDF](https://arxiv.org/pdf/2508.00910v2) | arXiv.org | 📈 Highly cited | Citations: 23 (Semantic Scholar) |
 | 2025-07-29 | Reinforcement Learning | [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v2)<br>[PDF](https://arxiv.org/pdf/2507.21931v2) | arXiv.org | 📈 Highly cited | Citations: 13 (Semantic Scholar) |
@@ -24,7 +23,6 @@
 | 2025-07-15 | Long-Horizon Task Agents | [General Modular Harness for LLM Agents in Multi-Turn Gaming Environments](https://arxiv.org/abs/2507.11633v1)<br>[PDF](https://arxiv.org/pdf/2507.11633v1) | arXiv.org | 📈 Highly cited | Citations: 10 (Semantic Scholar) |
 | 2025-07-14 | Long-Horizon Task Agents | [EmbRACE-3K: Embodied Reasoning and Action in Complex Environments](https://arxiv.org/abs/2507.10548v1)<br>[PDF](https://arxiv.org/pdf/2507.10548v1) | arXiv.org | — | Citations: 5 (Semantic Scholar) |
 | 2025-07-11 | Long-Horizon Task Agents | [Optimizing Sequential Multi-Step Tasks with Parallel LLM Agents](https://arxiv.org/abs/2507.08944v1)<br>[PDF](https://arxiv.org/pdf/2507.08944v1) | arXiv.org | 📈 Highly cited | Citations: 14 (Semantic Scholar) |
-| 2025-07-07 | Long-Horizon Task Agents | [CREW-WILDFIRE: Benchmarking Agentic Multi-Agent Collaborations at Scale](https://arxiv.org/abs/2507.05178v2)<br>[PDF](https://arxiv.org/pdf/2507.05178v2) | Trans. Mach. Learn. Res. | 📈 Highly cited | Citations: 14 (Semantic Scholar) |
 | 2025-07-07 | Long-Horizon Task Agents | [Training-free Generation of Temporally Consistent Rewards from VLMs](https://arxiv.org/abs/2507.04789v1)<br>[PDF](https://arxiv.org/pdf/2507.04789v1) | IEEE International Conference on Computer Vision | 🏆 CCF-A: IEEE International Conference on Computer Vision<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Citations: 4 (Semantic Scholar) |
 | 2025-07-04 | Long-Horizon Task Agents | [LogicGuard: Improving Embodied LLM agents through Temporal Logic based Critics](https://arxiv.org/abs/2507.03293v2)<br>[PDF](https://arxiv.org/pdf/2507.03293v2) | arXiv | — | Citations: 7 (Semantic Scholar) |
 | 2025-07-03 | Long-Horizon Task Agents | [Knowledge Protocol Engineering: A New Paradigm for AI in Domain-Specific Knowledge Work](https://arxiv.org/abs/2507.02760v1)<br>[PDF](https://arxiv.org/pdf/2507.02760v1) | arXiv.org | — | Citations: 1 (Semantic Scholar) |

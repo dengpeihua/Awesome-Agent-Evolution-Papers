@@ -16,7 +16,7 @@ class FakeSource:
         assert max_results_per_topic == 20
         return [
             replace(
-                make_paper("2607.00001", topics=("agent-memory",)),
+                make_paper("2607.00001", topics=("agent-llm-self-evolution",)),
                 first_author_affiliations=("Google DeepMind",),
                 affiliation_source="arXiv author metadata",
             )
@@ -296,7 +296,7 @@ async def test_failed_delivery_does_not_accept_new_discovery_revision(tmp_path) 
         discovery_revision = "query-v2"
 
         async def fetch(self, *, since: datetime, max_results_per_topic: int):
-            return [make_paper("2609.10001", topics=("agent-memory",))]
+            return [make_paper("2609.10001", topics=("agent-llm-self-evolution",))]
 
     class FailingNotifier:
         async def send(self, _markdown: str) -> None:
@@ -325,7 +325,7 @@ async def test_failed_delivery_does_not_accept_new_discovery_revision(tmp_path) 
 async def test_pipeline_keeps_unqualified_candidate_for_later_promotion(tmp_path) -> None:
     class CandidateSource:
         async def fetch(self, *, since: datetime, max_results_per_topic: int):
-            return [make_paper("2607.00009", topics=("agent-memory",))]
+            return [make_paper("2607.00009", topics=("agent-llm-self-evolution",))]
 
     class CitationEnricher:
         async def enrich(self, papers):

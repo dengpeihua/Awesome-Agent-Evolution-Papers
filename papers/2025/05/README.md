@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 29 unique papers · Agent/LLM Self-Improvement 1 · Memory 0 · Continual Training 3 · Reinforcement Learning 6 · Long-Horizon 25
+> 28 unique papers · Agent/LLM Self-Improvement 1 · Continual Training 3 · Reinforcement Learning 6 · Long-Horizon 24
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -33,7 +33,6 @@
 | 2025-05-15 | Long-Horizon Task Agents | [Learning Hierarchical Domain Models Through Environment-Grounded Interaction](https://arxiv.org/abs/2505.13497v3)<br>[PDF](https://arxiv.org/pdf/2505.13497v3) | arXiv | — | Citations: 3 (Semantic Scholar) |
 | 2025-05-15 | Long-Horizon Task Agents | [AutoPentest: Enhancing Vulnerability Management With Autonomous LLM Agents](https://arxiv.org/abs/2505.10321v1)<br>[PDF](https://arxiv.org/pdf/2505.10321v1) | arXiv.org | 📈 Highly cited | Citations: 18 (Semantic Scholar) |
 | 2025-05-12 | Reinforcement Learning<br>Long-Horizon Task Agents | [MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering](https://arxiv.org/abs/2505.07782v1)<br>[PDF](https://arxiv.org/pdf/2505.07782v1) | Neural Information Processing Systems | 📈 Highly cited | Citations: 37 (Semantic Scholar) |
-| 2025-05-08 | Long-Horizon Task Agents | [CityNavAgent: Aerial Vision-and-Language Navigation with Hierarchical Semantic Planning and Global Memory](https://arxiv.org/abs/2505.05622v1)<br>[PDF](https://arxiv.org/pdf/2505.05622v1) | ACL 2025 | 📈 Highly cited<br>🏆 CCF-A: ACL 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Citations: 63 (Semantic Scholar) |
 | 2025-05-06 | Long-Horizon Task Agents | [DyGEnc: Encoding a Sequence of Textual Scene Graphs to Reason and Answer Questions in Dynamic Scenes](https://arxiv.org/abs/2505.03581v1)<br>[PDF](https://arxiv.org/pdf/2505.03581v1) | arXiv.org | — | Citations: 5 (Semantic Scholar) |
 
 ## Notes

@@ -10,7 +10,7 @@ from agent_paper_digest.arxiv import ArxivSource, parse_arxiv_feed
 def test_parse_arxiv_feed_normalizes_fields_and_versioned_id() -> None:
     xml = (Path(__file__).parent / "fixtures" / "arxiv_feed.xml").read_text(encoding="utf-8")
 
-    papers = parse_arxiv_feed(xml, topic="agent-memory")
+    papers = parse_arxiv_feed(xml, topic="agent-llm-self-evolution")
 
     assert len(papers) == 1
     paper = papers[0]
@@ -21,7 +21,7 @@ def test_parse_arxiv_feed_normalizes_fields_and_versioned_id() -> None:
     assert paper.published == datetime(2026, 7, 14, 8, tzinfo=UTC)
     assert paper.primary_category == "cs.AI"
     assert paper.categories == ("cs.AI", "cs.CL")
-    assert paper.topics == ("agent-memory",)
+    assert paper.topics == ("agent-llm-self-evolution",)
     assert paper.doi == "10.0000/example"
     assert paper.comment == "Accepted to ACL 2026"
     assert paper.journal_ref == "Proceedings of ACL 2026"
@@ -34,7 +34,6 @@ def test_build_query_contains_precise_topic_terms() -> None:
 
     assert set(queries) == {
         "agent-llm-self-evolution",
-        "agent-memory",
         "llm-continual-training",
         "reinforcement-learning",
         "long-horizon-agent",
@@ -43,8 +42,6 @@ def test_build_query_contains_precise_topic_terms() -> None:
     assert '"recursive self-improvement"' in queries["agent-llm-self-evolution"]
     assert '"self-improving language model"' in queries["agent-llm-self-evolution"]
     assert '"self-generated feedback"' in queries["agent-llm-self-evolution"]
-    assert '"agent memory"' in queries["agent-memory"]
-    assert '"agentic memory"' in queries["agent-memory"]
     assert '"large language model"' in queries["llm-continual-training"]
     assert '"continual pre-training"' in queries["llm-continual-training"]
     assert '"continual post-training"' in queries["llm-continual-training"]
@@ -84,7 +81,7 @@ async def test_fetch_pages_until_the_complete_catch_up_window(monkeypatch) -> No
 
         async def get(self, _url, *, params):
             self.starts.append(params["start"])
-            assert "submittedDate:[202501010000" in params["search_query"]
+            assert "submittedDate:[202505010000" in params["search_query"]
             request = httpx.Request("GET", "https://export.arxiv.org/api/query")
             return httpx.Response(200, text=responses.pop(0), request=request)
 
@@ -92,7 +89,7 @@ async def test_fetch_pages_until_the_complete_catch_up_window(monkeypatch) -> No
     monkeypatch.setattr(
         ArxivSource,
         "topic_queries",
-        staticmethod(lambda: {"agent-memory": 'all:"agent memory"'}),
+        staticmethod(lambda: {"agent-llm-self-evolution": 'all:"agent memory"'}),
     )
 
     papers = await ArxivSource(client=client, request_delay_seconds=0).fetch(
@@ -123,7 +120,7 @@ async def test_fetch_retries_arxiv_rate_limits(monkeypatch) -> None:
     monkeypatch.setattr(
         ArxivSource,
         "topic_queries",
-        staticmethod(lambda: {"agent-memory": 'all:"agent memory"'}),
+        staticmethod(lambda: {"agent-llm-self-evolution": 'all:"agent memory"'}),
     )
 
     papers = await ArxivSource(
@@ -158,7 +155,7 @@ async def test_fetch_retries_transient_network_errors(monkeypatch) -> None:
     monkeypatch.setattr(
         ArxivSource,
         "topic_queries",
-        staticmethod(lambda: {"agent-memory": 'all:"agent memory"'}),
+        staticmethod(lambda: {"agent-llm-self-evolution": 'all:"agent memory"'}),
     )
 
     papers = await ArxivSource(

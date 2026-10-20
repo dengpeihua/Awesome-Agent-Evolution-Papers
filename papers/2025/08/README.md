@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 31 unique papers · Agent/LLM Self-Improvement 4 · Memory 0 · Continual Training 3 · Reinforcement Learning 4 · Long-Horizon 24
+> 31 unique papers · Agent/LLM Self-Improvement 4 · Continual Training 3 · Reinforcement Learning 4 · Long-Horizon 24
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |

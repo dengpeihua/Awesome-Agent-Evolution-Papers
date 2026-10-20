@@ -39,13 +39,13 @@ def test_update_creates_daily_archive_dataset_and_awesome_index(tmp_path) -> Non
 
     result = archive.update(
         date(2026, 7, 16),
-        [make_eligible_paper("2607.00001", topics=("agent-memory",))],
+        [make_eligible_paper("2607.00001", topics=("agent-llm-self-evolution",))],
     )
 
     daily = tmp_path / "papers" / "2026" / "07" / "2026-07-16.md"
     assert result.daily_path == daily
     assert daily.exists()
-    assert "## Agent Memory" in daily.read_text(encoding="utf-8")
+    assert "## Agent & LLM Self-Evolution" in daily.read_text(encoding="utf-8")
     monthly = tmp_path / "papers" / "2026" / "07" / "README.md"
     assert monthly.exists()
     assert "# 2026-07 Agent Evolution Papers" in monthly.read_text(encoding="utf-8")
@@ -61,7 +61,7 @@ def test_update_creates_daily_archive_dataset_and_awesome_index(tmp_path) -> Non
 
 def test_update_deduplicates_across_days_and_merges_topics(tmp_path) -> None:
     archive = ArchiveRepository(tmp_path)
-    first = make_eligible_paper("2607.00001", topics=("agent-memory",))
+    first = make_eligible_paper("2607.00001", topics=("agent-llm-self-evolution",))
     second = make_eligible_paper("2607.00001", topics=("agent-llm-self-evolution",))
 
     archive.update(date(2026, 7, 15), [first])
@@ -70,7 +70,7 @@ def test_update_deduplicates_across_days_and_merges_topics(tmp_path) -> None:
     assert result.new_papers == ()
     dataset = json.loads((tmp_path / "data" / "papers.json").read_text(encoding="utf-8"))
     assert len(dataset) == 1
-    assert dataset[0]["topics"] == ["agent-llm-self-evolution", "agent-memory"]
+    assert dataset[0]["topics"] == ["agent-llm-self-evolution"]
 
 
 def test_update_records_an_empty_day(tmp_path) -> None:
@@ -83,7 +83,7 @@ def test_update_records_an_empty_day(tmp_path) -> None:
 
 def test_same_day_rerun_preserves_papers_already_discovered_that_day(tmp_path) -> None:
     archive = ArchiveRepository(tmp_path)
-    paper = make_eligible_paper("2607.00001", topics=("agent-memory",))
+    paper = make_eligible_paper("2607.00001", topics=("agent-llm-self-evolution",))
     first = archive.update(date(2026, 7, 16), [paper])
 
     second = archive.update(date(2026, 7, 16), [])
@@ -125,7 +125,7 @@ def test_enrichment_round_trip_and_highlight_rendering(tmp_path) -> None:
 def test_existing_paper_is_promoted_when_a_priority_signal_appears(tmp_path) -> None:
     archive = ArchiveRepository(tmp_path)
     paper = replace(
-        make_paper("2607.00003", topics=("agent-memory",)),
+        make_paper("2607.00003", topics=("agent-llm-self-evolution",)),
         citation_count=10,
         citation_source="Semantic Scholar",
     )
@@ -150,7 +150,7 @@ def test_existing_paper_is_promoted_when_a_priority_signal_appears(tmp_path) -> 
 
 
 def test_public_dataset_includes_topical_new_preprints_without_priority(tmp_path) -> None:
-    plain = make_paper("2607.00004", topics=("agent-memory",))
+    plain = make_paper("2607.00004", topics=("agent-llm-self-evolution",))
     popular = replace(plain, arxiv_id="2607.00005", github_stars=50_000)
 
     result = ArchiveRepository(tmp_path).replace_dataset([plain, popular])
@@ -161,7 +161,7 @@ def test_public_dataset_includes_topical_new_preprints_without_priority(tmp_path
 
 def test_rebuild_prunes_old_daily_pages_when_paper_no_longer_qualifies(tmp_path) -> None:
     archive = ArchiveRepository(tmp_path)
-    eligible = make_eligible_paper("2607.00006", topics=("agent-memory",))
+    eligible = make_eligible_paper("2607.00006", topics=("agent-llm-self-evolution",))
     archive.update(date(2026, 7, 15), [eligible])
 
     archive.replace_dataset([make_paper("2607.00006", topics=("unrelated",))])
@@ -173,14 +173,14 @@ def test_rebuild_prunes_old_daily_pages_when_paper_no_longer_qualifies(tmp_path)
 def test_public_paper_lists_are_ordered_by_published_time_descending(tmp_path) -> None:
     archive = ArchiveRepository(tmp_path)
     older_priority_paper = replace(
-        make_paper("2606.00001", topics=("agent-memory",)),
+        make_paper("2606.00001", topics=("agent-llm-self-evolution",)),
         published=datetime(2026, 6, 1, tzinfo=UTC),
         updated=datetime(2026, 6, 1, tzinfo=UTC),
         first_author_affiliations=("ByteDance Seed",),
         affiliation_source="Official project page",
     )
     newer_cited_paper = replace(
-        make_eligible_paper("2608.00001", topics=("agent-memory",)),
+        make_eligible_paper("2608.00001", topics=("agent-llm-self-evolution",)),
         published=datetime(2026, 8, 1, tzinfo=UTC),
         updated=datetime(2026, 8, 1, tzinfo=UTC),
     )
@@ -218,7 +218,8 @@ def test_acceptance_discovery_and_coverage_survive_rebuild(tmp_path):
     assert not archive.update(date(2026, 10, 4), [accepted]).promoted_papers
 
 
-def test_large_daily_archive_paginates_without_losing_or_reordering_papers(tmp_path):
+def test_large_daily_archive_paginates_without_losing_or_reordering_papers(tmp_path, monkeypatch):
+    monkeypatch.setattr("agent_paper_digest.highlight.EXCLUDED_PAPER_IDS", frozenset())
     papers = [make_paper(f"2610.{i:05d}", topics=("reinforcement-learning",)) for i in range(125)]
     archive = ArchiveRepository(tmp_path)
     result = archive.update(date(2026, 10, 3), papers)
@@ -240,23 +241,23 @@ def test_large_daily_archive_paginates_without_losing_or_reordering_papers(tmp_p
 
 def test_first_publication_cutoff_rejects_old_papers_even_if_recently_updated(tmp_path):
     old = replace(
-        make_eligible_paper("2412.00001", topics=("agent-memory",)),
+        make_eligible_paper("2412.00001", topics=("agent-llm-self-evolution",)),
         published=datetime(2024, 12, 31, 23, 59, tzinfo=UTC),
         updated=datetime(2026, 10, 3, tzinfo=UTC),
     )
-    boundary = replace(old, arxiv_id="2501.00001", published=datetime(2025, 1, 1, tzinfo=UTC))
+    boundary = replace(old, arxiv_id="2505.00001", published=datetime(2025, 5, 1, tzinfo=UTC))
     stale = tmp_path / "papers/2024/12/README.md"
     stale.parent.mkdir(parents=True)
     stale.write_text("Old paper list", encoding="utf-8")
     result = ArchiveRepository(tmp_path).replace_dataset([old, boundary])
-    assert [p.arxiv_id for p in result] == ["2501.00001"]
+    assert [p.arxiv_id for p in result] == ["2505.00001"]
     assert not stale.exists()
 
 
 def test_recuration_removes_cached_rl_tags_without_losing_other_valid_topics(tmp_path):
     paper = replace(
-        make_paper("2609.001", topics=("agent-memory",)),
-        topics=("agent-memory", "reinforcement-learning"),
+        make_paper("2609.001", topics=("agent-llm-self-evolution",)),
+        topics=("agent-llm-self-evolution", "reinforcement-learning"),
     )
     result = ArchiveRepository(tmp_path).replace_dataset([paper])
-    assert result[0].topics == ("agent-memory",)
+    assert result[0].topics == ("agent-llm-self-evolution",)

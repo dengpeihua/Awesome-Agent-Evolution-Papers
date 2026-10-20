@@ -14,6 +14,7 @@ from agent_paper_digest.candidates import CandidateRepository  # noqa: E402
 from agent_paper_digest.highlight import (  # noqa: E402
     HIGH_CITATION_COUNT,
     classify_highlights,
+    is_eligible,
     qualification_reasons,
 )
 from agent_paper_digest.models import Paper  # noqa: E402
@@ -40,6 +41,8 @@ def _write_audit(root: Path, candidates: list[Paper], papers: tuple[Paper, ...])
                 f"at least {HIGH_CITATION_COUNT} citations",
             ],
             "code_stars_are_qualifying": False,
+            "exclude_agent_memory": True,
+            "exclude_journals": True,
         },
         "candidate_count": len(candidates),
         "candidate_topic_counts": {
@@ -91,12 +94,12 @@ def _write_report(root: Path, candidates: list[Paper], papers: tuple[Paper, ...]
         "",
         "## Scope",
         "",
-        "The public corpus covers five directions plus explicit requests: "
+        "The public corpus covers four directions plus explicit requests: "
         "papers address Agent/LLM "
-        "self-evolution, self-improving systems, recursive self-improvement, Agent Memory, "
+        "self-evolution, self-improving systems, recursive self-improvement, "
         "LLM continual training, language-model/agent Reinforcement Learning, "
         "or long-horizon agents. "
-        "First publication must be on or after 2025-01-01. Priority evidence is optional.",
+        "First publication must be on or after 2025-05-01. Priority evidence is optional.",
         "",
         "## Current result",
         "",
@@ -130,7 +133,7 @@ def run(root: Path) -> tuple[Paper, ...]:
     candidates = CandidateRepository(root)
     pool = candidates.merge(archive._load())
     classified = [classify_highlights(paper) for paper in pool]
-    candidates.save(classified)
+    candidates.save([p for p in classified if is_eligible(p)])
     public = archive.replace_dataset(classified)
     _write_audit(root, classified, public)
     _write_report(root, classified, public)

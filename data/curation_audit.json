@@ -1,15 +1,14 @@
 {
-  "generated_at": "2026-10-20T18:04:05.234492+00:00",
+  "generated_at": "2026-10-20T18:28:06.756811+00:00",
   "policy": {
     "required_topics": [
       "agent-llm-self-evolution",
-      "agent-memory",
       "llm-continual-training",
       "reinforcement-learning",
       "long-horizon-agent",
       "user-requested"
     ],
-    "first_publication_on_or_after": "2025-01-01",
+    "first_publication_on_or_after": "2025-05-01",
     "rl_scope": "Substantive RL directly related to language models or language agents",
     "highlight_signals": [
       "CCF-A Artificial Intelligence Full/Regular paper",
@@ -17,31 +16,31 @@
       "verified big-tech paper or first-author affiliation",
       "at least 10 citations"
     ],
-    "code_stars_are_qualifying": false
+    "code_stars_are_qualifying": false,
+    "exclude_agent_memory": true,
+    "exclude_journals": true
   },
-  "candidate_count": 4505,
+  "candidate_count": 2559,
   "candidate_topic_counts": {
-    "agent-llm-self-evolution": 776,
-    "agent-memory": 699,
-    "llm-continual-training": 307,
-    "reinforcement-learning": 458,
-    "long-horizon-agent": 1600,
+    "agent-llm-self-evolution": 738,
+    "llm-continual-training": 299,
+    "reinforcement-learning": 502,
+    "long-horizon-agent": 1395,
     "user-requested": 4
   },
-  "public_paper_count": 3176,
+  "public_paper_count": 2550,
   "topic_counts": {
-    "agent-llm-self-evolution": 776,
-    "agent-memory": 699,
-    "llm-continual-training": 307,
-    "reinforcement-learning": 457,
-    "long-horizon-agent": 1600,
+    "agent-llm-self-evolution": 736,
+    "llm-continual-training": 297,
+    "reinforcement-learning": 501,
+    "long-horizon-agent": 1390,
     "user-requested": 4
   },
   "qualification_counts": {
-    "CCF-A": 135,
-    "Highly cited": 197,
+    "CCF-A": 94,
+    "Highly cited": 173,
     "Industry": 12,
-    "Selected venue": 54
+    "Selected venue": 42
   },
   "notes": [
     "Qualification counts overlap when one paper meets multiple criteria.",

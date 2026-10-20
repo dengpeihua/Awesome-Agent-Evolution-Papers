@@ -1,10 +1,10 @@
-> **1588 papers** · Page 21/32 · Newest first across all pages
+> **1478 papers** · Page 21/30 · Newest first across all pages
 
-[1](../2026-10-21.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md) · [31](page-031.md) · [32](page-032.md)
+[1](../2026-10-21.md) · [2](page-002.md) · [3](page-003.md) · [4](page-004.md) · [5](page-005.md) · [6](page-006.md) · [7](page-007.md) · [8](page-008.md) · [9](page-009.md) · [10](page-010.md) · [11](page-011.md) · [12](page-012.md) · [13](page-013.md) · [14](page-014.md) · [15](page-015.md) · [16](page-016.md) · [17](page-017.md) · [18](page-018.md) · [19](page-019.md) · [20](page-020.md) · [21](page-021.md) · [22](page-022.md) · [23](page-023.md) · [24](page-024.md) · [25](page-025.md) · [26](page-026.md) · [27](page-027.md) · [28](page-028.md) · [29](page-029.md) · [30](page-030.md)
 
 # Daily Papers · 2026-10-21
 
-> Prepared **50** new, promoted, or retried paper(s) across five research tracks plus explicitly requested papers. Lists are newest publication first.
+> Prepared **50** new, promoted, or retried paper(s) across four research tracks plus explicitly requested papers. Lists are newest publication first.
 > Catch-up window: **2025-01-01T00:00:00+00:00** → **2026-10-21T02:05:20.960661+08:00**.
 
 [← Back to index](../../../../README.md)
@@ -13,789 +13,726 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
-| 2026-04-01 | Long-Horizon Task Agents | [$\texttt{YC-Bench}$: Benchmarking AI Agents for Long-Term Planning and Consistent Execution](https://arxiv.org/abs/2604.01212v1) | — |
-| 2026-04-01 | Long-Horizon Task Agents | [When Users Change Their Mind: Evaluating Interruptible Agents in Long-Horizon Web Navigation](https://arxiv.org/abs/2604.00892v1) | — |
-| 2026-03-31 | Long-Horizon Task Agents | [Beyond pass@1: A Reliability Science Framework for Long-Horizon LLM Agents](https://arxiv.org/abs/2603.29231v1) | — |
-| 2026-03-30 | Long-Horizon Task Agents | [AMIGO: Agentic Multi-Image Grounding Oracle Benchmark](https://arxiv.org/abs/2603.28662v2) | — |
-| 2026-03-30 | Long-Horizon Task Agents | [CirrusBench: Evaluating LLM-based Agents Beyond Correctness in Real-World Cloud Service Environments](https://arxiv.org/abs/2603.28569v1) | — |
-| 2026-03-30 | Long-Horizon Task Agents | [Kernel-Smith: A Unified Recipe for Evolutionary Kernel Optimization](https://arxiv.org/abs/2603.28342v2) | — |
-| 2026-03-30 | Long-Horizon Task Agents | [InconLens: Interactive Visual Diagnosis of Behavioral Inconsistencies in LLM-based Agentic Systems](https://arxiv.org/abs/2603.28106v1) | — |
-| 2026-03-29 | Long-Horizon Task Agents | [AgentSwing: Adaptive Parallel Context Management Routing for Long-Horizon Web Agents](https://arxiv.org/abs/2603.27490v1) | — |
-| 2026-03-28 | Long-Horizon Task Agents | [Red-MIRROR: Agentic LLM-based Autonomous Penetration Testing with Reflective Verification and Knowledge-augmented Interaction](https://arxiv.org/abs/2603.27127v1) | — |
-| 2026-03-27 | Long-Horizon Task Agents | [ASTER -- Agentic Science Toolkit for Exoplanet Research](https://arxiv.org/abs/2603.26953v1) | — |
-| 2026-03-27 | Long-Horizon Task Agents | [Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification](https://arxiv.org/abs/2603.26648v3) | — |
-| 2026-03-27 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [GISclaw: A Comprehensive Open-Source LLM Agent System for Realistic Multi-Step Geospatial Analysis](https://arxiv.org/abs/2603.26845v2) | — |
-| 2026-03-27 | Long-Horizon Task Agents | [Hierarchical Control Framework Integrating LLMs with RL for Decarbonized HVAC Operation](https://arxiv.org/abs/2603.26050v1) | — |
-| 2026-03-27 | Long-Horizon Task Agents | [AgentCollab: A Self-Evaluation-Driven Collaboration Paradigm for Efficient LLM Agents](https://arxiv.org/abs/2603.26034v1) | — |
-| 2026-03-26 | Long-Horizon Task Agents | [WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing](https://arxiv.org/abs/2603.25226v1) | — |
-| 2026-03-26 | Agent/LLM Self-Improvement, Reinforcement Learning | [SEVerA: Verified Synthesis of Self-Evolving Agents](https://arxiv.org/abs/2603.25111v3) | — |
-| 2026-03-25 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/abs/2603.24533v1) | — |
-| 2026-03-25 | Long-Horizon Task Agents | [CarePilot: A Multi-Agent Framework for Long-Horizon Computer Task Automation in Healthcare](https://arxiv.org/abs/2603.24157v1) | — |
-| 2026-03-25 | Long-Horizon Task Agents | [DUPLEX: Agentic Dual-System Planning via LLM-Driven Information Extraction](https://arxiv.org/abs/2603.23909v1) | — |
-| 2026-03-24 | Long-Horizon Task Agents | [Can LLM Agents Be CFOs? Benchmarking Long-Horizon Resource Allocation in an Uncertain Enterprise Environment](https://arxiv.org/abs/2603.23638v2) | — |
-| 2026-03-24 | Long-Horizon Task Agents | [Environment Maps: Structured Environmental Representations for Long-Horizon Agents](https://arxiv.org/abs/2603.23610v3) | — |
-| 2026-03-24 | Long-Horizon Task Agents | [The Evolution of Tool Use in LLM Agents: From Single-Tool Call to Multi-Tool Orchestration](https://arxiv.org/abs/2603.22862v2) | — |
-| 2026-03-24 | Long-Horizon Task Agents | [LH-Bench: Skill-Grounded Evaluation of Long-Horizon Agents on Subjective Enterprise Tasks](https://arxiv.org/abs/2603.22744v2) | — |
-| 2026-03-23 | Reinforcement Learning, Long-Horizon Task Agents | [Demystifying Reinforcement Learning for Long-Horizon Tool-Using Agents: A Comprehensive Recipe](https://arxiv.org/abs/2603.21972v1) | — |
-| 2026-03-22 | Long-Horizon Task Agents | [Improving Coherence and Persistence in Agentic AI for System Optimization](https://arxiv.org/abs/2603.21321v1) | — |
-| 2026-03-21 | Long-Horizon Task Agents | [Subjective-Graph LLM Agents for Simulating Uncertainty in Classroom Social Perception](https://arxiv.org/abs/2603.20750v2) | — |
-| 2026-03-20 | Long-Horizon Task Agents | [Can LLM Agents Simulate Dynamic Networks? A Case Study on Email Networks with Phishing Synthesis](https://arxiv.org/abs/2605.12507v1) | — |
-| 2026-03-20 | Long-Horizon Task Agents | [Why Cognitive Robotics Matters: Lessons from OntoAgent and LLM Deployment in HARMONIC for Safety-Critical Robot Teaming](https://arxiv.org/abs/2603.26730v1) | — |
-| 2026-03-20 | Long-Horizon Task Agents | [A Subgoal-driven Framework for Improving Long-Horizon LLM Agents](https://arxiv.org/abs/2603.19685v1) | — |
-| 2026-03-19 | Long-Horizon Task Agents | [The Autonomy Tax: Defense Training Breaks LLM Agents](https://arxiv.org/abs/2603.19423v3) | 📈 Highly cited |
-| 2026-03-19 | Long-Horizon Task Agents | [ProRL Agent: Rollout-as-a-Service for RL Training of Multi-Turn LLM Agents](https://arxiv.org/abs/2603.18815v1) | — |
-| 2026-03-19 | Agent/LLM Self-Improvement, Agent Memory, Long-Horizon Task Agents | [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718v2) | 📈 Highly cited<br>🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
-| 2026-03-18 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Insight-V++: Towards Advanced Long-Chain Visual Reasoning with Multimodal Large Language Models](https://arxiv.org/abs/2603.18118v1) | — |
-| 2026-03-18 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [AgentVLN: Towards Agentic Vision-and-Language Navigation](https://arxiv.org/abs/2603.17670v1) | — |
-| 2026-03-18 | Long-Horizon Task Agents | [A Trace-Based Assurance Framework for Agentic AI Orchestration: Contracts, Testing, and Governance](https://arxiv.org/abs/2603.18096v1) | — |
-| 2026-03-18 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [SLEA-RL: Step-Level Experience Augmented Reinforcement Learning for Multi-Turn Agentic Training](https://arxiv.org/abs/2603.18079v1) | — |
-| 2026-03-18 | Long-Horizon Task Agents | [PowerDAG: Supervisory Agentic AI System for Automating Distribution Grid Analysis](https://arxiv.org/abs/2603.17418v4) | — |
-| 2026-03-18 | Long-Horizon Task Agents | [Recurrent Reasoning with Vision-Language Models for Estimating Long-Horizon Embodied Task Progress](https://arxiv.org/abs/2603.17312v1) | — |
-| 2026-03-17 | Long-Horizon Task Agents | [Internalizing Agency from Reflective Experience](https://arxiv.org/abs/2603.16843v1) | — |
-| 2026-03-17 | Long-Horizon Task Agents | [RetailBench: Evaluating Long-Horizon Autonomous Decision-Making and Strategy Stability of LLM Agents in Realistic Retail Environments](https://arxiv.org/abs/2603.16453v3) | — |
-| 2026-03-16 | Long-Horizon Task Agents | [The PokeAgent Challenge: Competitive and Long-Context Learning at Scale](https://arxiv.org/abs/2603.15563v2) | — |
-| 2026-03-16 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [SAGE: Multi-Agent Self-Evolution for LLM Reasoning](https://arxiv.org/abs/2603.15255v2) | — |
-| 2026-03-16 | Long-Horizon Task Agents | [VTC-Bench: Evaluating Agentic Multimodal Models via Compositional Visual Tool Chaining](https://arxiv.org/abs/2603.15030v2) | — |
-| 2026-03-16 | Long-Horizon Task Agents | [Shopping Companion: Benchmarking and Training LLM Agents for Long-Horizon Preference-Grounded E-Commerce Tasks](https://arxiv.org/abs/2603.14864v3) | — |
-| 2026-03-15 | Long-Horizon Task Agents | [AgentProcessBench: Diagnosing Step-Level Process Quality in Tool-Using Agents](https://arxiv.org/abs/2603.14465v2) | — |
-| 2026-03-15 | Long-Horizon Task Agents | [Why Do LLM-based Web Agents Fail? A Hierarchical Planning Perspective](https://arxiv.org/abs/2603.14248v2) | 🏆 CCF-A: ACL 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
-| 2026-03-14 | Long-Horizon Task Agents | [DeceptGuard :A Constitutional Oversight Framework For Detecting Deception in LLM Agents](https://arxiv.org/abs/2603.13791v1) | — |
-| 2026-03-14 | Long-Horizon Task Agents | [Retrieve, Schedule, Reflect: LLM Agents for Chip QoR Optimization](https://arxiv.org/abs/2603.13767v2) | — |
-| 2026-03-13 | Long-Horizon Task Agents | [EnterpriseOps-Gym: Environments and Evaluations for Stateful Agentic Planning and Tool Use in Enterprise Settings](https://arxiv.org/abs/2603.13594v1) | — |
-| 2026-03-13 | Long-Horizon Task Agents | [ToolTree: Efficient LLM Agent Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning](https://arxiv.org/abs/2603.12740v1) | — |
+| 2026-03-13 | Long-Horizon Task Agents | [ChainFuzzer: Greybox Fuzzing for Workflow-Level Multi-Tool Vulnerabilities in LLM Agents](https://arxiv.org/abs/2603.12614v1) | — |
+| 2026-03-12 | Long-Horizon Task Agents | [From Control to Foresight: Simulation as a New Paradigm for Human-Agent Collaboration](https://arxiv.org/abs/2603.11677v1) | — |
+| 2026-03-12 | Long-Horizon Task Agents | [Taming OpenClaw: Security Analysis and Mitigation of Autonomous LLM Agent Threats](https://arxiv.org/abs/2603.11619v1) | — |
+| 2026-03-12 | Long-Horizon Task Agents | [ProMAS: Proactive Error Forecasting for Multi-Agent Systems Using Markov Transition Dynamics](https://arxiv.org/abs/2603.20260v1) | — |
+| 2026-03-11 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [LLM-Augmented Digital Twin for Policy Evaluation in Short-Video Platforms](https://arxiv.org/abs/2603.11333v2) | — |
+| 2026-03-11 | Long-Horizon Task Agents | [OnFly: Onboard Zero-Shot Aerial Vision-Language Navigation toward Safety and Efficiency](https://arxiv.org/abs/2603.10682v1) | — |
+| 2026-03-11 | LLM Continual Training, Long-Horizon Task Agents | [Understanding by Reconstruction: Reversing the Software Development Process for LLM Pretraining](https://arxiv.org/abs/2603.11103v2) | — |
+| 2026-03-11 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Reflection-Driven Self-Improving Language Model Agents for Adaptive RAN Slicing](https://arxiv.org/abs/2603.10564v2) | — |
+| 2026-03-10 | Long-Horizon Task Agents | [Let's Reward Step-by-Step: Step-Aware Contrastive Alignment for Vision-Language Navigation in Continuous Environments](https://arxiv.org/abs/2603.09740v1) | — |
+| 2026-03-10 | Long-Horizon Task Agents | [EXPLORE-Bench: Egocentric Scene Prediction with Long-Horizon Reasoning](https://arxiv.org/abs/2603.09731v3) | — |
+| 2026-03-10 | Long-Horizon Task Agents | [Beyond Scaling: Assessing Strategic Reasoning and Rapid Decision-Making Capability of LLMs in Zero-sum Environments](https://arxiv.org/abs/2603.09337v1) | — |
+| 2026-03-10 | Long-Horizon Task Agents | [Deep Tabular Research via Continual Experience-Driven Execution](https://arxiv.org/abs/2603.09151v2) | — |
+| 2026-03-09 | Long-Horizon Task Agents | [Scale-Plan: Scalable Language-Enabled Task Planning for Heterogeneous Multi-Robot Teams](https://arxiv.org/abs/2603.08814v2) | — |
+| 2026-03-09 | Long-Horizon Task Agents | [A Hierarchical Error-Corrective Graph Framework for Autonomous Agents with LLM-Based Action Generation](https://arxiv.org/abs/2603.08388v4) | — |
+| 2026-03-09 | Long-Horizon Task Agents | [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013v1) | — |
+| 2026-03-09 | Long-Horizon Task Agents | [CMMR-VLN: Vision-and-Language Navigation via Continual Multimodal Memory Retrieval](https://arxiv.org/abs/2603.07997v1) | — |
+| 2026-03-09 | Long-Horizon Task Agents | [\$OneMillion-Bench: How Far are Language Agents from Human Experts?](https://arxiv.org/abs/2603.07980v2) | — |
+| 2026-03-08 | Long-Horizon Task Agents | [DualSpec: Accelerating Deep Research Agents via Dual-Process Action Speculation](https://arxiv.org/abs/2603.07416v1) | — |
+| 2026-03-07 | Long-Horizon Task Agents | [Hindsight Credit Assignment for Long-Horizon LLM Agents](https://arxiv.org/abs/2603.08754v1) | — |
+| 2026-03-06 | Long-Horizon Task Agents | [Evaluating Generalization Mechanisms in Autonomous Cyber Attack Agents](https://arxiv.org/abs/2603.10041v1) | — |
+| 2026-03-05 | Long-Horizon Task Agents | [Scaling Agentic Capabilities, Not Context: Efficient Reinforcement Finetuning for Large Toolspaces](https://arxiv.org/abs/2603.06713v1) | — |
+| 2026-03-05 | Long-Horizon Task Agents | [STRUCTUREDAGENT: Planning with AND/OR Trees for Long-Horizon Web Tasks](https://arxiv.org/abs/2603.05294v3) | — |
+| 2026-03-05 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [EvoTool: Self-Evolving Tool-Use Policy Optimization in LLM Agents via Blame-Aware Mutation and Diversity-Aware Selection](https://arxiv.org/abs/2603.04900v1) | — |
+| 2026-03-05 | Long-Horizon Task Agents | [HiMAP-Travel: Hierarchical Multi-Agent Planning for Long-Horizon Constrained Travel](https://arxiv.org/abs/2603.04750v1) | — |
+| 2026-03-04 | Long-Horizon Task Agents | [FocusGraph: Graph-Structured Frame Selection for Embodied Long Video Question Answering](https://arxiv.org/abs/2603.04349v2) | — |
+| 2026-03-04 | Long-Horizon Task Agents | [Specification-Driven Generation and Evaluation of Discrete-Event World Models via the DEVS Formalism](https://arxiv.org/abs/2603.03784v2) | — |
+| 2026-03-04 | Long-Horizon Task Agents | [PROSPECT: Unified Streaming Vision-Language Navigation via Semantic--Spatial Fusion and Latent Predictive Representation](https://arxiv.org/abs/2603.03739v1) | — |
+| 2026-03-04 | Long-Horizon Task Agents | [AI4S-SDS: A Neuro-Symbolic Solvent Design System via Sparse MCTS and Differentiable Physics Alignment](https://arxiv.org/abs/2603.03686v3) | — |
+| 2026-03-04 | Long-Horizon Task Agents | [Mozi: Governed Autonomy for Drug Discovery LLM Agents](https://arxiv.org/abs/2603.03655v1) | — |
+| 2026-03-03 | Long-Horizon Task Agents | [Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use](https://arxiv.org/abs/2603.03205v2) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
+| 2026-03-03 | Long-Horizon Task Agents | [OrchMAS: Orchestrated Reasoning with Multi Collaborative Heterogeneous Scientific Expert Structured Agents](https://arxiv.org/abs/2603.03005v1) | — |
+| 2026-03-03 | Long-Horizon Task Agents | [VSearcher: Long-Horizon Multimodal Search Agent via Reinforcement Learning](https://arxiv.org/abs/2603.02795v2) | — |
+| 2026-03-02 | Long-Horizon Task Agents | [Recursive Models for Long-Horizon Reasoning](https://arxiv.org/abs/2603.02112v2) | — |
+| 2026-03-02 | Long-Horizon Task Agents | [FT-Dojo: Towards Autonomous LLM Fine-Tuning with Language Agents](https://arxiv.org/abs/2603.01712v2) | — |
+| 2026-03-01 | Long-Horizon Task Agents | [From Dialogue to Execution: Mixture-of-Agents Assisted Interactive Planning for Behavior Tree-Based Long-Horizon Robot Execution](https://arxiv.org/abs/2603.01113v3) | — |
+| 2026-03-01 | Long-Horizon Task Agents | [Egocentric Co-Pilot: Web-Native Smart-Glasses Agents for Assistive Egocentric AI](https://arxiv.org/abs/2603.01104v1) | — |
+| 2026-03-01 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [HiMAC: Hierarchical Macro-Micro Learning for Long-Horizon LLM Agents](https://arxiv.org/abs/2603.00977v2) | — |
+| 2026-02-28 | Long-Horizon Task Agents | [SkillCraft: Can LLM Agents Learn to Use Tools Skillfully?](https://arxiv.org/abs/2603.00718v2) | — |
+| 2026-02-28 | Long-Horizon Task Agents | [RAVEL: Reasoning Agents for Validating and Evaluating LLM Text Synthesis](https://arxiv.org/abs/2603.00686v1) | — |
+| 2026-02-28 | Long-Horizon Task Agents | [EMPA: Evaluating Persona-Aligned Empathy as a Process](https://arxiv.org/abs/2603.00552v2) | — |
+| 2026-02-28 | Long-Horizon Task Agents | [LOGIGEN: Logic-Driven Generation of Verifiable Agentic Tasks](https://arxiv.org/abs/2603.00540v1) | — |
+| 2026-02-28 | Long-Horizon Task Agents | [DenoiseFlow: Uncertainty-Aware Denoising for Reliable LLM Agentic Workflows](https://arxiv.org/abs/2603.00532v1) | — |
+| 2026-02-27 | Long-Horizon Task Agents | [Enhancing Vision-Language Navigation with Multimodal Event Knowledge from Real-World Indoor Tour Videos](https://arxiv.org/abs/2602.23937v1) | — |
+| 2026-02-27 | Long-Horizon Task Agents | [ProductResearch: Training E-Commerce Deep Research Agents via Multi-Agent Synthetic Trajectory Distillation](https://arxiv.org/abs/2602.23716v1) | — |
+| 2026-02-27 | Long-Horizon Task Agents | [PseudoAct: Leveraging Pseudocode Synthesis for Flexible Planning and Action Control in Large Language Model Agents](https://arxiv.org/abs/2602.23668v1) | — |
+| 2026-02-26 | Long-Horizon Task Agents | [Hierarchy-of-Groups Policy Optimization for Long-Horizon Agentic Tasks](https://arxiv.org/abs/2602.22817v1) | 🏅 Selected top venue: ICLR 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
+| 2026-02-26 | Long-Horizon Task Agents | [SideQuest: Model-Driven KV Cache Management for Long-Horizon Agentic Reasoning](https://arxiv.org/abs/2602.22603v2) | — |
+| 2026-02-25 | Long-Horizon Task Agents | [SWE-Protégé: Learning to Selectively Collaborate With an Expert Unlocks Small Language Models as Software Engineering Agents](https://arxiv.org/abs/2602.22124v1) | — |
+| 2026-02-25 | Long-Horizon Task Agents | [Hierarchical LLM-Based Multi-Agent Framework with Prompt Optimization for Multi-Robot Task Planning](https://arxiv.org/abs/2602.21670v2) | — |
+| 2026-02-24 | Long-Horizon Task Agents | [Training-Free Agentic AI: Probabilistic Control and Coordination in Multi-Agent LLM Systems](https://arxiv.org/abs/2603.13256v1) | — |
 
 ## 🚨 Priority Watch
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
-| [The Autonomy Tax: Defense Training Breaks LLM Agents](https://arxiv.org/abs/2603.19423v3) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718v2) | 📈 Highly cited<br>🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted by EMNLP 2026 (Main)<br>First author: The Pennsylvania State University (Semantic Scholar author profiles) |
-| [Why Do LLM-based Web Agents Fail? A Hierarchical Planning Perspective](https://arxiv.org/abs/2603.14248v2) | 🏆 CCF-A: ACL 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted to The 64th Annual Meeting of the Association for Computational Linguistics (ACL) 2026 |
+| [Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use](https://arxiv.org/abs/2603.03205v2) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted to the 43rd International Conference on Machine Learning (ICML 2026) |
+| [Hierarchy-of-Groups Policy Optimization for Long-Horizon Agentic Tasks](https://arxiv.org/abs/2602.22817v1) | 🏅 Selected top venue: ICLR 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted at ICLR 2026 |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
-### [GISclaw: A Comprehensive Open-Source LLM Agent System for Realistic Multi-Step Geospatial Analysis](https://arxiv.org/abs/2603.26845v2)
+### [LLM-Augmented Digital Twin for Policy Evaluation in Short-Video Platforms](https://arxiv.org/abs/2603.11333v2)
 
-- **Authors:** Jinzhen Han, JinByeong Lee, Yuri Shim, Jisung Kim, Jae-Joon Lee
-- **Published:** 2026-03-27
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.SE, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.26845v2) · [PDF](https://arxiv.org/pdf/2603.26845v2)
-
-Most LLM-driven GIS assistants solve narrow single-step tasks tightly coupled to proprietary platforms such as ArcGIS or QGIS, limiting their use for the multi-step, cross-format pipelines that define professional geospatial analysis. We present GISclaw, a comprehensive open-source agent system that performs realistic GIS analysis end to end - spatial joins, raster algebra, kriging interpolation, machine-learning classification, network analysis, choropleth cartography - directly through Python with no commercial GIS dependency. GISclaw couples an LLM reasoning core with a persistent Python sandbox pre-loaded with the open-source geospatial stack, three engineered prompt rules (Schema Analysis, Package Constraint, Domain Knowledge Injection), and an Error-Memory module for self-correction. A single backend-agnostic architecture supports both cloud-API and locally deployed open-weight LLM backends, enabling air-gapped deployment without loss of capability. On GeoAnalystBench - 50 expert-curated multi-step tasks averaging 5.8 analytical steps across vector, raster, and tabular data - GISclaw reaches up to 100% task success and 97% mean success over three independent runs. We further conduct 1,800 controlled experiments (50 tasks x 6 backends x 2 architectures x 3 repeats) with bootstrap 95% CIs, paired Wilcoxon tests, and a composite-score sensitivity analysis (Kendall's tau median = 0.94), and introduce a three-layer evaluation protocol combining code structure, reasoning process, and type-specific output verification. The Single-Agent ReAct loop reliably outperforms the Dual-Agent Plan-Execute-Replan pipeline on every cloud backend (Cliff's delta = 0.15-0.41); only the locally deployed 14B model gains from multi-agent orchestration, suggesting architectural complexity should match model capability rather than be added by default.
-
-### [SEVerA: Verified Synthesis of Self-Evolving Agents](https://arxiv.org/abs/2603.25111v3)
-
-- **Authors:** Debangshu Banerjee, Changming Xu, Eugene Ie, Ming Zhang, Daiyi Peng, Chu-Cheng Lin, Tarun Suresh, Gagandeep Singh
-- **Published:** 2026-03-26
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.PL, cs.SE
-- **Links:** [Paper](https://arxiv.org/abs/2603.25111v3) · [PDF](https://arxiv.org/pdf/2603.25111v3)
-
-Recent advances have shown the effectiveness of self-evolving LLM agents on tasks such as program repair and scientific discovery. In this paradigm, a planner LLM synthesizes an agent program that invokes parametric models, including LLMs, which are then tuned per task to improve performance. However, existing self-evolving agent frameworks provide no formal guarantees of safety or correctness. Because such programs are often executed autonomously on unseen inputs, this lack of guarantees raises reliability and security concerns. We formulate agentic code generation as a constrained learning problem, combining hard formal specifications with soft objectives capturing task utility. We introduce Formally Guarded Generative Models (FGGM), which allow the planner LLM to specify a formal output contract for each generative model call using first-order logic. Each FGGM call wraps the underlying model in a rejection sampler with a verified fallback, ensuring every returned output satisfies the contract for any input and parameter setting. Building on FGGM, we present SEVerA (Self-Evolving Verified Agents), a three-stage framework: Search synthesizes candidate parametric programs containing FGGM calls; Verification proves correctness with respect to hard constraints for all parameter values, reducing the problem to unconstrained learning; and Learning applies scalable gradient-based optimization, including GRPO-style fine-tuning, to improve the soft objective while preserving correctness. We evaluate SEVerA on Dafny program verification, symbolic math synthesis, and policy-compliant agentic tool use ($τ^2$-bench). Across tasks, SEVerA achieves zero constraint violations while improving performance over unconstrained and SOTA baselines, showing that formal behavioral constraints not only guarantee correctness but also steer synthesis toward higher-quality agents.
-
-### [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/abs/2603.24533v1)
-
-- **Authors:** Zichuan Lin, Feiyu Liu, Yijun Yang, Jiafei Lyu, Yiming Gao, Yicheng Liu, Zhicong Lu, Yangbin Yu, Mingyu Yang, Junyou Li, Deheng Ye, Jie Jiang
-- **Published:** 2026-03-25
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI, cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2603.24533v1) · [PDF](https://arxiv.org/pdf/2603.24533v1)
-
-Autonomous mobile GUI agents have attracted increasing attention along with the advancement of Multimodal Large Language Models (MLLMs). However, existing methods still suffer from inefficient learning from failed trajectories and ambiguous credit assignment under sparse rewards for long-horizon GUI tasks. To that end, we propose UI-Voyager, a novel two-stage self-evolving mobile GUI agent. In the first stage, we employ Rejection Fine-Tuning (RFT), which enables the continuous co-evolution of data and models in a fully autonomous loop. The second stage introduces Group Relative Self-Distillation (GRSD), which identifies critical fork points in group rollouts and constructs dense step-level supervision from successful trajectories to correct failed ones. Extensive experiments on AndroidWorld show that our 4B model achieves an 81.0% Pass@1 success rate, outperforming numerous recent baselines and exceeding human-level performance. Ablation and case studies further verify the effectiveness of GRSD. Our method represents a significant leap toward efficient, self-evolving, and high-performance mobile GUI automation without expensive manual data annotation.
-
-### [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718v2)
-
-- **Authors:** Minhua Lin, Zhiwei Zhang, Hanqing Lu, Hui Liu, Xianfeng Tang, Qi He, Xiang Zhang, Suhang Wang
-- **Published:** 2026-03-19
-- **Priority:** 📈 Highly cited<br>🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
-- **Venue:** EMNLP 2026
-- **Affiliations:** The Pennsylvania State University
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.18718v2) · [PDF](https://arxiv.org/pdf/2603.18718v2) · [Code](https://github.com/ventr1c/memma)
-
-Memory-augmented LLM agents maintain external memory banks to support long-horizon interaction, yet most existing systems treat construction, retrieval, and utilization as isolated subroutines. This creates two coupled challenges: strategic blindness on the forward path of the memory cycle, where construction and retrieval are driven by local heuristics rather than explicit strategic reasoning, and sparse, delayed supervision on the backward path, where downstream failures rarely translate into direct repairs of the memory bank. To address these challenges, we propose MemMA, a plug-and-play multi-agent framework that coordinates the memory cycle along both the forward and backward paths. On the forward path, a Meta-Thinker produces structured guidance that steers a Memory Manager during construction and directs a Query Reasoner during iterative retrieval. On the backward path, MemMA introduces in-situ self-evolving memory construction, which synthesizes probe QA pairs, verifies the current memory, and converts failures into repair actions before the memory is finalized. Extensive experiments on LoCoMo show that MemMA consistently outperforms existing baselines across multiple LLM backbones and improves three different storage backends in a plug-and-play manner. Our code is publicly available at https://github.com/ventr1c/memma.
-
-### [Insight-V++: Towards Advanced Long-Chain Visual Reasoning with Multimodal Large Language Models](https://arxiv.org/abs/2603.18118v1)
-
-- **Authors:** Yuhao Dong, Zuyan Liu, Shulin Tian, Yongming Rao, Ziwei Liu
-- **Published:** 2026-03-18
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CV, cs.AI, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2603.18118v1) · [PDF](https://arxiv.org/pdf/2603.18118v1)
-
-Large Language Models (LLMs) have achieved remarkable reliability and advanced capabilities through extended test-time reasoning. However, extending these capabilities to Multi-modal Large Language Models (MLLMs) remains a significant challenge due to a critical scarcity of high-quality, long-chain reasoning data and optimized training pipelines. To bridge this gap, we present a unified multi-agent visual reasoning framework that systematically evolves from our foundational image-centric model, Insight-V, into a generalized spatial-temporal architecture, Insight-V++. We first propose a scalable data generation pipeline equipped with multi-granularity assessment that autonomously synthesizes structured, complex reasoning trajectories across image and video domains without human intervention. Recognizing that directly supervising MLLMs with such intricate data yields sub-optimal results, we design a dual-agent architecture comprising a reasoning agent to execute extensive analytical chains, and a summary agent to critically evaluate and distill final outcomes. While our initial framework utilized Direct Preference Optimization (DPO), its off-policy nature fundamentally constrained reinforcement learning potential. To overcome these limitations, particularly for long-horizon video understanding, Insight-V++ introduces two novel algorithms, ST-GRPO and J-GRPO, which enhance spatial-temporal reasoning and improve evaluative robustness. Crucially, by leveraging reliable feedback from the summary agent, we guide an iterative reasoning path generation process, retraining the entire multi-agent system in a continuous, self-improving loop. Extensive experiments on base models like LLaVA-NeXT and Qwen2.5-VL demonstrate significant performance gains across challenging image and video reasoning benchmarks while preserving strong capabilities on traditional perception-focused tasks.
-
-### [AgentVLN: Towards Agentic Vision-and-Language Navigation](https://arxiv.org/abs/2603.17670v1)
-
-- **Authors:** Zihao Xin, Wentong Li, Yixuan Jiang, Ziyuan Huang, Bin Wang, Piji Li, Jianke Zhu, Jie Qin, Shengjun Huang
-- **Published:** 2026-03-18
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2603.17670v1) · [PDF](https://arxiv.org/pdf/2603.17670v1)
-
-Vision-and-Language Navigation (VLN) requires an embodied agent to ground complex natural-language instructions into long-horizon navigation in unseen environments. While Vision-Language Models (VLMs) offer strong 2D semantic understanding, current VLN systems remain constrained by limited spatial perception, 2D-3D representation mismatch, and monocular scale ambiguity. In this paper, we propose AgentVLN, a novel and efficient embodied navigation framework that can be deployed on edge computing platforms. We formulate VLN as a Partially Observable Semi-Markov Decision Process (POSMDP) and introduce a VLM-as-Brain paradigm that decouples high-level semantic reasoning from perception and planning via a plug-and-play skill library. To resolve multi-level representation inconsistency, we design a cross-space representation mapping that projects perception-layer 3D topological waypoints into the image plane, yielding pixel-aligned visual prompts for the VLM. Building on this bridge, we integrate a context-aware self-correction and active exploration strategy to recover from occlusions and suppress error accumulation over long trajectories. To further address the spatial ambiguity of instructions in unstructured environments, we propose a Query-Driven Perceptual Chain-of-Thought (QD-PCoT) scheme, enabling the agent with the metacognitive ability to actively seek geometric depth information. Finally, we construct AgentVLN-Instruct, a large-scale instruction-tuning dataset with dynamic stage routing conditioned on target visibility. Extensive experiments show that AgentVLN consistently outperforms prior state-of-the-art methods (SOTA) on long-horizon VLN benchmarks, offering a practical paradigm for lightweight deployment of next-generation embodied navigation models. Code: https://github.com/Allenxinn/AgentVLN.
-
-### [SLEA-RL: Step-Level Experience Augmented Reinforcement Learning for Multi-Turn Agentic Training](https://arxiv.org/abs/2603.18079v1)
-
-- **Authors:** Prince Zizhuang Wang, Shuli Jiang
-- **Published:** 2026-03-18
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.18079v1) · [PDF](https://arxiv.org/pdf/2603.18079v1)
-
-Large Language Model (LLM) agents have shown strong results on multi-turn tool-use tasks, yet they operate in isolation during training, failing to leverage experiences accumulated across episodes. Existing experience-augmented methods address this by organizing trajectories into retrievable libraries, but they retrieve experiences only once based on the initial task description and hold them constant throughout the episode. In multi-turn settings where observations change at every step, this static retrieval becomes increasingly mismatched as episodes progress. We propose SLEA-RL (Step-Level Experience-Augmented Reinforcement Learning), a framework that retrieves relevant experiences at each decision step conditioned on the current observation. SLEA-RL operates through three components: (i) step-level observation clustering that groups structurally equivalent environmental states for efficient cluster-indexed retrieval; (ii) a self-evolving experience library that distills successful strategies and failure patterns through score-based admission and rate-limited extraction; and (iii) policy optimization with step-level credit assignment for fine-grained advantage estimation across multi-turn episodes. The experience library evolves alongside the policy through semantic analysis rather than gradient updates. Experiments on long-horizon multi-turn agent benchmarks demonstrate that SLEA-RL achieves superior performance compared to various reinforcement learning baselines.
-
-### [SAGE: Multi-Agent Self-Evolution for LLM Reasoning](https://arxiv.org/abs/2603.15255v2)
-
-- **Authors:** Yulin Peng, Xinxin Zhu, Chenxing Wei, Nianbo Zeng, Leilei Wang, Ying Tiffany He, F. Richard Yu
-- **Published:** 2026-03-16
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI, cs.MA
-- **Links:** [Paper](https://arxiv.org/abs/2603.15255v2) · [PDF](https://arxiv.org/pdf/2603.15255v2)
-
-Reinforcement learning with verifiable rewards improves reasoning in large language models (LLMs), but many methods still rely on large human-labeled datasets. While self-play reduces this dependency, it often lacks explicit planning and strong quality control, limiting stability in long-horizon multi-step reasoning. We present SAGE (Self-evolving Agents for Generalized reasoning Evolution), a closed-loop framework where four agents: Challenger, Planner, Solver, and Critic, co-evolve from a shared LLM backbone using only a small seed set. The Challenger continuously generates increasingly difficult tasks; the Planner converts each task into a structured multi-step plan; and the Solver follows the plan to produce an answer, whose correctness is determined by external verifiers. The Critic scores and filters both generated questions and plans to prevent curriculum drift and maintain training signal quality, enabling stable self-training. Across mathematics and code-generation benchmarks, SAGE delivers consistent gains across model scales, improving the Qwen-2.5-7B model by 8.9% on LiveCodeBench and 10.7% on OlympiadBench.
-
-## Agent Memory
-
-### [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718v2)
-
-- **Authors:** Minhua Lin, Zhiwei Zhang, Hanqing Lu, Hui Liu, Xianfeng Tang, Qi He, Xiang Zhang, Suhang Wang
-- **Published:** 2026-03-19
-- **Priority:** 📈 Highly cited<br>🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
-- **Venue:** EMNLP 2026
-- **Affiliations:** The Pennsylvania State University
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.18718v2) · [PDF](https://arxiv.org/pdf/2603.18718v2) · [Code](https://github.com/ventr1c/memma)
-
-Memory-augmented LLM agents maintain external memory banks to support long-horizon interaction, yet most existing systems treat construction, retrieval, and utilization as isolated subroutines. This creates two coupled challenges: strategic blindness on the forward path of the memory cycle, where construction and retrieval are driven by local heuristics rather than explicit strategic reasoning, and sparse, delayed supervision on the backward path, where downstream failures rarely translate into direct repairs of the memory bank. To address these challenges, we propose MemMA, a plug-and-play multi-agent framework that coordinates the memory cycle along both the forward and backward paths. On the forward path, a Meta-Thinker produces structured guidance that steers a Memory Manager during construction and directs a Query Reasoner during iterative retrieval. On the backward path, MemMA introduces in-situ self-evolving memory construction, which synthesizes probe QA pairs, verifies the current memory, and converts failures into repair actions before the memory is finalized. Extensive experiments on LoCoMo show that MemMA consistently outperforms existing baselines across multiple LLM backbones and improves three different storage backends in a plug-and-play manner. Our code is publicly available at https://github.com/ventr1c/memma.
-
-## Reinforcement Learning
-
-### [SEVerA: Verified Synthesis of Self-Evolving Agents](https://arxiv.org/abs/2603.25111v3)
-
-- **Authors:** Debangshu Banerjee, Changming Xu, Eugene Ie, Ming Zhang, Daiyi Peng, Chu-Cheng Lin, Tarun Suresh, Gagandeep Singh
-- **Published:** 2026-03-26
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.PL, cs.SE
-- **Links:** [Paper](https://arxiv.org/abs/2603.25111v3) · [PDF](https://arxiv.org/pdf/2603.25111v3)
-
-Recent advances have shown the effectiveness of self-evolving LLM agents on tasks such as program repair and scientific discovery. In this paradigm, a planner LLM synthesizes an agent program that invokes parametric models, including LLMs, which are then tuned per task to improve performance. However, existing self-evolving agent frameworks provide no formal guarantees of safety or correctness. Because such programs are often executed autonomously on unseen inputs, this lack of guarantees raises reliability and security concerns. We formulate agentic code generation as a constrained learning problem, combining hard formal specifications with soft objectives capturing task utility. We introduce Formally Guarded Generative Models (FGGM), which allow the planner LLM to specify a formal output contract for each generative model call using first-order logic. Each FGGM call wraps the underlying model in a rejection sampler with a verified fallback, ensuring every returned output satisfies the contract for any input and parameter setting. Building on FGGM, we present SEVerA (Self-Evolving Verified Agents), a three-stage framework: Search synthesizes candidate parametric programs containing FGGM calls; Verification proves correctness with respect to hard constraints for all parameter values, reducing the problem to unconstrained learning; and Learning applies scalable gradient-based optimization, including GRPO-style fine-tuning, to improve the soft objective while preserving correctness. We evaluate SEVerA on Dafny program verification, symbolic math synthesis, and policy-compliant agentic tool use ($τ^2$-bench). Across tasks, SEVerA achieves zero constraint violations while improving performance over unconstrained and SOTA baselines, showing that formal behavioral constraints not only guarantee correctness but also steer synthesis toward higher-quality agents.
-
-### [Demystifying Reinforcement Learning for Long-Horizon Tool-Using Agents: A Comprehensive Recipe](https://arxiv.org/abs/2603.21972v1)
-
-- **Authors:** Xixi Wu, Qianguo Sun, Ruiyang Zhang, Chao Song, Junlong Wu, Yiyan Qi, Hong Cheng
-- **Published:** 2026-03-23
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2603.21972v1) · [PDF](https://arxiv.org/pdf/2603.21972v1)
-
-Reinforcement Learning (RL) is essential for evolving Large Language Models (LLMs) into autonomous agents capable of long-horizon planning, yet a practical recipe for scaling RL in complex, multi-turn environments remains elusive. This paper presents a systematic empirical study using TravelPlanner, a challenging testbed requiring tool orchestration to satisfy multifaceted constraints. We decompose the agentic RL design space along 5 axes: reward shaping, model scaling, data composition, algorithm selection, and environmental stability. Our controlled experiments yield 7 key takeaways, e.g., (1) reward and algorithm choices are scale-dependent as smaller models benefit from staged rewards and enhanced exploration, whereas larger models converge efficiently with simpler dense rewards, (2) ~ 1K training samples with a balanced difficulty mixture mark a sweet spot for both in-domain and out-of-domain performance, and (3) environmental stability is critical to prevent policy degradation. Based on our distilled recipe, our RL-trained models achieve state-of-the-art performance on TravelPlanner, significantly outperforming leading LLMs.
-
-## Long-Horizon Task Agents
-
-### [$\texttt{YC-Bench}$: Benchmarking AI Agents for Long-Term Planning and Consistent Execution](https://arxiv.org/abs/2604.01212v1)
-
-- **Authors:** Muyu He, Adit Jain, Anand Kumar, Vincent Tu, Soumyadeep Bakshi, Sachin Patro, Nazneen Rajani
-- **Published:** 2026-04-01
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CL, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2604.01212v1) · [PDF](https://arxiv.org/pdf/2604.01212v1)
-
-As LLM agents tackle increasingly complex tasks, a critical question is whether they can maintain strategic coherence over long horizons: planning under uncertainty, learning from delayed feedback, and adapting when early mistakes compound. We introduce $\texttt{YC-Bench}$, a benchmark that evaluates these capabilities by tasking an agent with running a simulated startup over a one-year horizon spanning hundreds of turns. The agent must manage employees, select task contracts, and maintain profitability in a partially observable environment where adversarial clients and growing payroll create compounding consequences for poor decisions. We evaluate 12 models, both proprietary and open source, across 3 seeds each. Only three models consistently surpass the starting capital of \$200K, with Claude Opus 4.6 achieving the highest average final funds at \$1.27 M, followed by GLM-5 at \$1.21 M at 11$\times$ lower inference cost. Scratchpad usage, the sole mechanism for persisting information across context truncation, is the strongest predictor of success, and adversarial client detection is the primary failure mode, accounting for $47\%$ of bankruptcies. Our analysis reveals that frontier models still fail through distinct failure modes such as over-parallelization, demonstrating the capability gaps for long-horizon performance. $\texttt{YC-Bench}$ is open-source, reproducible, and configurable.
-
-### [When Users Change Their Mind: Evaluating Interruptible Agents in Long-Horizon Web Navigation](https://arxiv.org/abs/2604.00892v1)
-
-- **Authors:** Henry Peng Zou, Chunyu Miao, Wei-Chieh Huang, Yankai Chen, Yue Zhou, Hanrong Zhang, Yaozu Wu, Liancheng Fang, Zhengyao Gu, Zhen Zhang, Kening Zheng, Fangxin Wang, Yi Nian, Shanghao Li, Wenzhe Fan, Langzhou He, Weizhi Zhang, Xue Liu, Philip S. Yu
-- **Published:** 2026-04-01
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2604.00892v1) · [PDF](https://arxiv.org/pdf/2604.00892v1)
-
-As LLM agents transition from short, static problem solving to executing complex, long-horizon tasks in dynamic environments, the ability to handle user interruptions, such as adding requirement or revising goals, during mid-task execution is becoming a core requirement for realistic deployment. However, existing benchmarks largely assume uninterrupted agent behavior or study interruptions only in short, unconstrained language tasks. In this paper, we present the first systematic study of interruptible agents in long-horizon, environmentally grounded web navigation tasks, where actions induce persistent state changes. We formalize three realistic interruption types, including addition, revision, and retraction, and introduce InterruptBench, a benchmark derived from WebArena-Lite that synthesizes high-quality interruption scenarios under strict semantic constraints. Using a unified interruption simulation framework, we evaluate six strong LLM backbones across single- and multi-turn interruption settings, analyzing both their effectiveness in adapting to updated intents and their efficiency in recovering from mid-task changes. Our results show that handling user interruptions effectively and efficiently during long-horizon agentic tasks remains challenging for powerful large-scale LLMs. Code and dataset are available at https://github.com/HenryPengZou/InterruptBench.
-
-### [Beyond pass@1: A Reliability Science Framework for Long-Horizon LLM Agents](https://arxiv.org/abs/2603.29231v1)
-
-- **Authors:** Aaditya Khanal, Yangyang Tao, Junxiu Zhou
-- **Published:** 2026-03-31
+- **Authors:** Haoting Zhang, Yunduan Lin, Jinghai He, Denglin Jiang, Zuo-Jun Shen, Zeyu Zheng
+- **Published:** 2026-03-11
 - **Priority:** —
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.29231v1) · [PDF](https://arxiv.org/pdf/2603.29231v1)
+- **Links:** [Paper](https://arxiv.org/abs/2603.11333v2) · [PDF](https://arxiv.org/pdf/2603.11333v2)
 
-Existing benchmarks measure capability -- whether a model succeeds on a single attempt -- but production deployments require reliability -- consistent success across repeated attempts on tasks of varying duration. We show these properties diverge systematically as task duration grows, and that pass@1 on short tasks is structurally blind to this divergence. We introduce a reliability science framework for long-horizon LLM agents with four metrics: Reliability Decay Curve (RDC), Variance Amplification Factor (VAF), Graceful Degradation Score (GDS), and Meltdown Onset Point (MOP). We evaluate 10 models across 23,392 episodes on a 396-task benchmark spanning four duration buckets and three domains. Key findings: (1) reliability decay is domain-stratified -- SE GDS drops from 0.90 to 0.44 while document processing is nearly flat (0.74 to 0.71); (2) VAF bifurcates by capability tier -- high VAF is a capability signature, not an instability signal; (3) capability and reliability rankings diverge substantially, with multi-rank inversions at long horizons; (4) frontier models have the highest meltdown rates (up to 19%) because they attempt ambitious multi-step strategies that sometimes spiral; and (5) memory scaffolds universally hurt long-horizon performance across all 10 models. These results motivate reliability as a first-class evaluation dimension alongside capability.
+Short-video platforms are closed-loop, human-in-the-loop ecosystems where platform policy, creator incentives, and user behavior co-evolve. This feedback structure makes counterfactual policy evaluation difficult in production, especially for long-horizon and distributional outcomes. The challenge is amplified as platforms deploy AI tools that change what content enters the system, how agents adapt, and how the platform operates. We propose a large language model (LLM)-augmented digital twin for short-video platforms, with a modular four-twin architecture (User, Content, Interaction, Platform) and an event-driven execution layer that supports reproducible experimentation. Platform policies are implemented as pluggable components within the Platform Twin, and LLMs are integrated as optional, schema-constrained decision services (e.g., persona generation, content captioning, campaign planning, trend prediction) that are routed through a unified optimizer. This design enables scalable simulations that preserve closed-loop dynamics while allowing selective LLM adoption, enabling the study of platform policies, including AI-enabled policies, under realistic feedback and constraints.
 
-### [AMIGO: Agentic Multi-Image Grounding Oracle Benchmark](https://arxiv.org/abs/2603.28662v2)
+### [Reflection-Driven Self-Improving Language Model Agents for Adaptive RAN Slicing](https://arxiv.org/abs/2603.10564v2)
 
-- **Authors:** Min Wang, Ata Mahjoubfar
-- **Published:** 2026-03-30
-- **Priority:** —
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.28662v2) · [PDF](https://arxiv.org/pdf/2603.28662v2)
-
-Agentic vision-language models increasingly act through extended interactions, but most evaluations still focus on single-image, single-turn correctness. We introduce \textbf{AMIGO} (\textbf{A}gentic \textbf{M}ulti-\textbf{I}mage \textbf{G}rounding \textbf{O}racle Benchmark), a long-horizon benchmark for \emph{hidden-target} identification over galleries of visually similar images. In AMIGO, the oracle privately selects a target image, and the model must recover it by asking a sequence of attribute-focused Yes/No questions under a strict protocol that returns Yes/No/Unsure feedback and penalizes invalid actions with \emph{Skip}. This setting stresses (i) question selection under uncertainty, (ii) consistent constraint tracking across turns, and (iii) fine-grained discrimination as evidence accumulates. We instantiate AMIGO with the \textit{Guess My Preferred Dress} task and evaluate open-source VLMs with metrics covering identification success, evidence verification, efficiency, protocol compliance, robustness to controlled feedback perturbations, and trajectory-level diagnostics. The benchmarking results show that final-answer accuracy alone overstates evidence-grounded performance: models can guess correctly without verification-passing evidence, waste turns through invalid questions, or fail to preserve the upload protocol. Strong AMIGO performance depends on the combination of visual discrimination, informative question selection, constraint tracking, efficient stopping, sustained protocol following, and recovery from controlled feedback noise; model scale alone does not guarantee reliable long-horizon interactive grounding.
-
-### [CirrusBench: Evaluating LLM-based Agents Beyond Correctness in Real-World Cloud Service Environments](https://arxiv.org/abs/2603.28569v1)
-
-- **Authors:** Yi Yu, Guangquan Hu, Chenghuang Shen, Xingyan Liu, Jing Gu, Hangyi Sun, Junzhuo Ma, Weiting Liu, Jianfeng Liu, Mingyue Pu, Yu Wang, Zhengdong Xiao, Rui Xie, Longjiu Luo, Qianrong Wang, Gurong Cui, Honglin Qiao, Wenlian Lu
-- **Published:** 2026-03-30
+- **Authors:** Yuanhao Li, Haozhe Wang, Geyong Min, Nektarios Georgalas, Wang Miao
+- **Published:** 2026-03-11
 - **Priority:** —
 - **Venue:** arXiv
 - **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI, cs.IR, cs.PF
-- **Links:** [Paper](https://arxiv.org/abs/2603.28569v1) · [PDF](https://arxiv.org/pdf/2603.28569v1)
+- **Categories:** cs.AI, cs.NI
+- **Links:** [Paper](https://arxiv.org/abs/2603.10564v2) · [PDF](https://arxiv.org/pdf/2603.10564v2)
 
-The increasing agentic capabilities of Large Language Models (LLMs) have enabled their deployment in real-world applications, such as cloud services, where customer-assistant interactions exhibit high technical complexity and long-horizon dependencies, making robustness and resolution efficiency critical for customer satisfaction. However, existing benchmarks for LLM-based agents largely rely on synthetic environments that fail to capture the diversity and unpredictability of authentic customer inputs, often ignoring the resolution efficiency essential for real-world deployment. To bridge this gap, we introduce CirrusBench, a novel evaluation framework distinguished by its foundation in real-world data from authentic cloud service tickets. CirrusBench preserves the intricate multi-turn logical chains and realistic tool dependencies inherent to technical service environments. Moving beyond execution correctness, we introduce novel Customer-Centric metrics to define agent success, quantifying service quality through metrics such as the Normalized Efficiency Index and Multi-Turn Latency to explicitly measure resolution efficiency. Experiments utilizing our framework reveal that while state-of-the-art models demonstrate strong reasoning capabilities, they frequently struggle in complex, realistic multi-turn tasks and fail to meet the high-efficiency standards required for customer service, highlighting critical directions for the future development of LLM-based agents in practical technical service applications. CirrusBench evaluation framework is released at: https://github.com/CirrusAI
+Adaptive control in AI-native networks remains challenging because tasks such as dynamic Radio Access Network (RAN) slicing require persistent trade-off decisions among spectrum efficiency, service quality, and reconfiguration stability. Conventional Reinforcement Learning (RL) compresses these competing objectives into handcrafted scalar rewards, requiring exhaustive tuning for a balanced trade-off. Language model (LM) agents provide a new path toward adaptive control because they can semantically represent complex preference relations, but prompt-based adaptation struggles to retain long-horizon interaction history due to finite context limits. We propose a Reflection-Driven Self-Improvement (ReDSI) framework that replaces scalar rewards with semantic feedback for continuous policy adaptation. This framework is built upon a Small Language Model (SLM) agent for fast decision-making, coupled with a bi-perspective reflection to transform interaction history into preference data, subsequently distilling long-horizon decision experience into the SLM parameters through preference-based fine-tuning. Evaluated on a dynamic RAN slicing task, our method achieves an optimal trade-off across multiple competing objectives, outperforming standard RL baselines and existing LM-based agents by demonstrating substantially greater sample efficiency. These results highlight a viable paradigm of self-improving LM agents for reward-free multi-objective continuous control in AI-native networks.
 
-### [Kernel-Smith: A Unified Recipe for Evolutionary Kernel Optimization](https://arxiv.org/abs/2603.28342v2)
+### [EvoTool: Self-Evolving Tool-Use Policy Optimization in LLM Agents via Blame-Aware Mutation and Diversity-Aware Selection](https://arxiv.org/abs/2603.04900v1)
 
-- **Authors:** He Du, Qiming Ge, Jiakai Hu, Aijun Yang, Zheng Cai, Zixian Huang, Sheng Yuan, Qinxiu Cheng, Xinchen Xie, Yicheng Chen, Yining Li, Jiaxing Xie, Huanan Dong, Yaguang Wu, Xiangjun Huang, Jian Yang, Hui Wang, Bowen Zhou, Bowen Li, Qipeng Guo, Kai Chen
-- **Published:** 2026-03-30
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CL, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2603.28342v2) · [PDF](https://arxiv.org/pdf/2603.28342v2)
-
-We present Kernel-Smith, a framework for high-performance GPU kernel and operator generation that combines a stable evaluation-driven evolutionary agent with an evolution-oriented post-training recipe. On the agent side, Kernel-Smith maintains a population of executable candidates and iteratively improves them using an archive of top-performing and diverse programs together with structured execution feedback on compilation, correctness, and speedup. To make this search reliable, we build backend-specific evaluation services for Triton on NVIDIA GPUs and Maca on MetaX GPUs. On the training side, we convert long-horizon evolution trajectories into step-centric supervision and reinforcement learning signals by retaining correctness-preserving, high-gain revisions, so that the model is optimized as a strong local improver inside the evolutionary loop rather than as a one-shot generator. Under a unified evolutionary protocol, Kernel-Smith-235B-RL achieves state-of-the-art overall performance on KernelBench with Nvidia Triton backend, attaining the best average speedup ratio and outperforming frontier proprietary models including Gemini-3.0-pro and Claude-4.6-opus. We further validate the framework on the MetaX MACA backend, where our Kernel-Smith-MACA-30B surpasses large-scale counterparts such as DeepSeek-V3.2-think and Qwen3-235B-2507-think, highlighting potential for seamless adaptation across heterogeneous platforms. Beyond benchmark results, the same workflow produces upstream contributions to production systems including SGLang and LMDeploy, demonstrating that LLM-driven kernel optimization can transfer from controlled evaluation to practical deployment.
-
-### [InconLens: Interactive Visual Diagnosis of Behavioral Inconsistencies in LLM-based Agentic Systems](https://arxiv.org/abs/2603.28106v1)
-
-- **Authors:** Shuo Yan, Xiaolin Wen, Shaolun Ruan, Yanjie Zhang, Jiaming Mi, Yushi Sun, Huamin Qu, Rui Sheng
-- **Published:** 2026-03-30
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.HC
-- **Links:** [Paper](https://arxiv.org/abs/2603.28106v1) · [PDF](https://arxiv.org/pdf/2603.28106v1)
-
-Large Language Model (LLM)-based agentic systems have shown growing promise in tackling complex, multi-step tasks through autonomous planning, reasoning, and interaction with external environments. However, the stochastic nature of LLM generation introduces intrinsic behavioral inconsistency: the same agent may succeed in one execution but fail in another under identical inputs. Diagnosing such inconsistencies remains a major challenge for developers, as agent execution logs are often lengthy, unstructured, and difficult to compare across runs. Existing debugging and evaluation tools primarily focus on inspecting single executions, offering limited support for understanding how and why agent behaviors diverge across repeated runs. To address this challenge, we introduce InconLens, a visual analytics system designed to support interactive diagnosis of LLM-based agentic systems with a particular focus on cross-run behavioral analysis. InconLens introduces information nodes as an intermediate abstraction that captures canonical informational milestones shared across executions, enabling semantic alignment and inspection of agent reasoning trajectories across multiple runs. We demonstrate the effectiveness of InconLens through a detailed case study and further validate its usability and analytical value via expert interviews. Our results show that InconLens enables developers to more efficiently identify divergence points, uncover latent failure modes, and gain actionable insights into improving the reliability and stability of agentic systems.
-
-### [AgentSwing: Adaptive Parallel Context Management Routing for Long-Horizon Web Agents](https://arxiv.org/abs/2603.27490v1)
-
-- **Authors:** Zhaopeng Feng, Liangcai Su, Zhen Zhang, Xinyu Wang, Xiaotian Zhang, Xiaobin Wang, Runnan Fang, Qi Zhang, Baixuan Li, Shihao Cai, Rui Ye, Hui Chen, Jiang Yong, Joey Tianyi Zhou, Chenxiong Qian, Pengjun Xie, Bryan Hooi, Zuozhu Liu, Jingren Zhou
-- **Published:** 2026-03-29
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CL, cs.AI, cs.MA
-- **Links:** [Paper](https://arxiv.org/abs/2603.27490v1) · [PDF](https://arxiv.org/pdf/2603.27490v1)
-
-As large language models (LLMs) evolve into autonomous agents for long-horizon information-seeking, managing finite context capacity has become a critical bottleneck. Existing context management methods typically commit to a single fixed strategy throughout the entire trajectory. Such static designs may work well in some states, but they cannot adapt as the usefulness and reliability of the accumulated context evolve during long-horizon search. To formalize this challenge, we introduce a probabilistic framework that characterizes long-horizon success through two complementary dimensions: search efficiency and terminal precision. Building on this perspective, we propose AgentSwing, a state-aware adaptive parallel context management routing framework. At each trigger point, AgentSwing expands multiple context-managed branches in parallel and uses lookahead routing to select the most promising continuation. Experiments across diverse benchmarks and agent backbones show that AgentSwing consistently outperforms strong static context management methods, often matching or exceeding their performance with up to $3\times$ fewer interaction turns while also improving the ultimate performance ceiling of long-horizon web agents. Beyond the empirical gains, the proposed probabilistic framework provides a principled lens for analyzing and designing future context management strategies for long-horizon agents.
-
-### [Red-MIRROR: Agentic LLM-based Autonomous Penetration Testing with Reflective Verification and Knowledge-augmented Interaction](https://arxiv.org/abs/2603.27127v1)
-
-- **Authors:** Tran Vy Khang, Nguyen Dang Nguyen Khang, Nghi Hoang Khoa, Do Thi Thu Hien, Van-Hau Pham, Phan The Duy
-- **Published:** 2026-03-28
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CR
-- **Links:** [Paper](https://arxiv.org/abs/2603.27127v1) · [PDF](https://arxiv.org/pdf/2603.27127v1)
-
-Web applications remain the dominant attack surface in cybersecurity, where vulnerabilities such as SQL injection, XSS, and business logic flaws continue to cause significant data breaches. While penetration testing is effective for identifying these weaknesses, traditional manual approaches are time-consuming and heavily dependent on scarce expert knowledge. Recent Large Language Models (LLM)-based multi-agent systems have shown promise in automating penetration testing, yet they still suffer from critical limitations: over-reliance on parametric knowledge, fragmented session memory, and insufficient validation of attack payloads and responses. This paper proposes Red-MIRROR, a novel multi-agent automated penetration testing system that introduces a tightly coupled memory-reflection backbone to explicitly govern inter-agent reasoning. By synthesizing Retrieval-Augmented Generation (RAG) for external knowledge augmentation, a Shared Recurrent Memory Mechanism (SRMM) for persistent state management, and a Dual-Phase Reflection mechanism for adaptive validation, Red-MIRROR provides a robust solution for complex web exploitation. Empirical evaluation on the XBOW benchmark and Vulhub CVEs shows that Red-MIRROR achieves performance comparable to state-of-the-art agents on Vulhub scenarios, while demonstrating a clear advantage on the XBOW benchmark. On the XBOW benchmark, Red-MIRROR attains an overall success rate of 86.0 percent, outperforming PentestAgent (50.0 percent), AutoPT (46.0 percent), and the VulnBot baseline (6.0 percent). Furthermore, the system achieves a 93.99 percent subtask completion rate, indicating strong long-horizon reasoning and payload refinement capability. Finally, we discuss ethical implications and propose safeguards to mitigate misuse risks.
-
-### [ASTER -- Agentic Science Toolkit for Exoplanet Research](https://arxiv.org/abs/2603.26953v1)
-
-- **Authors:** Emilie Panek, Alexander Roman, Gaurav Shukla, Leonardo Pagliaro, Katia Matcheva, Konstantin Matchev
-- **Published:** 2026-03-27
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** astro-ph.EP, astro-ph.IM, cs.AI, cs.ET, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2603.26953v1) · [PDF](https://arxiv.org/pdf/2603.26953v1)
-
-The expansion of exoplanet observations has created a need for flexible, accessible, and user-friendly workflows. Transmission spectroscopy has become a key technique for probing atmospheric composition of transiting exoplanets. The analyses of these data require the combination of archival queries, literature search, the use of radiative transfer models, and Bayesian retrieval frameworks, each demanding specialized expertise. Modern large language models enable the coordinated execution of complex, multi-step tasks by AI agents with tool integration, structured prompts, and iterative reasoning. In this study we present ASTER, an Agentic Science Toolkit for Exoplanet Research. ASTER is an orchestration framework that brings LLM capability to the exoplanetary community by enabling LLM-driven interaction with integrated domain-specific tools, workflow planning and management, and support for common data analysis tasks. Currently ASTER incorporates tools for downloading planetary parameters and observational datasets from the NASA Exoplanet Archive, as well as the generation of transit spectra from the TauREx radiative transfer model, and the completion of Bayesian retrieval of planetary parameters with TauREx. Beyond tool integration, the agent assists users by proposing alternative modeling approaches, reporting potential issues and suggesting solutions, and interpretations. We demonstrate ASTER's workflow through a complete case study of WASP-39b, performing multiple retrievals using observational data available on the archive. The agent efficiently transitions between datasets, generates appropriate forward model spectra and performs retrievals. ASTER provides a unified platform for the characterization of exoplanet atmospheres. Ongoing development and community contributions will continue expanding ASTER's capabilities toward broader applications in exoplanet research.
-
-### [Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification](https://arxiv.org/abs/2603.26648v3)
-
-- **Authors:** Zehai He, Wenyi Hong, Zhen Yang, Ziyang Pan, Mingdao Liu, Xiaotao Gu, Jie Tang
-- **Published:** 2026-03-27
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.SE, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.26648v3) · [PDF](https://arxiv.org/pdf/2603.26648v3)
-
-Recent advances in large language models have improved the capabilities of coding agents, yet systematic evaluation of complex, end-to-end website development remains limited. To address this gap, we introduce Vision2Web, a hierarchical benchmark for visual website development, spanning from static UI-to-code generation, interactive multi-page frontend reproduction, to long-horizon full-stack website development. The benchmark is constructed from real-world websites and comprises a total of 193 tasks across 16 categories, with 918 prototype images and 1,255 test cases. To support flexible, thorough and reliable evaluation, we propose workflow-based agent verification paradigm based on two complementary components: a GUI agent verifier and a VLM-based judge. We evaluate multiple visual language models instantiated under different coding-agent frameworks, revealing substantial performance gaps at all task levels, with state-of-the-art models still struggling on full-stack development.
-
-### [GISclaw: A Comprehensive Open-Source LLM Agent System for Realistic Multi-Step Geospatial Analysis](https://arxiv.org/abs/2603.26845v2)
-
-- **Authors:** Jinzhen Han, JinByeong Lee, Yuri Shim, Jisung Kim, Jae-Joon Lee
-- **Published:** 2026-03-27
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.SE, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.26845v2) · [PDF](https://arxiv.org/pdf/2603.26845v2)
-
-Most LLM-driven GIS assistants solve narrow single-step tasks tightly coupled to proprietary platforms such as ArcGIS or QGIS, limiting their use for the multi-step, cross-format pipelines that define professional geospatial analysis. We present GISclaw, a comprehensive open-source agent system that performs realistic GIS analysis end to end - spatial joins, raster algebra, kriging interpolation, machine-learning classification, network analysis, choropleth cartography - directly through Python with no commercial GIS dependency. GISclaw couples an LLM reasoning core with a persistent Python sandbox pre-loaded with the open-source geospatial stack, three engineered prompt rules (Schema Analysis, Package Constraint, Domain Knowledge Injection), and an Error-Memory module for self-correction. A single backend-agnostic architecture supports both cloud-API and locally deployed open-weight LLM backends, enabling air-gapped deployment without loss of capability. On GeoAnalystBench - 50 expert-curated multi-step tasks averaging 5.8 analytical steps across vector, raster, and tabular data - GISclaw reaches up to 100% task success and 97% mean success over three independent runs. We further conduct 1,800 controlled experiments (50 tasks x 6 backends x 2 architectures x 3 repeats) with bootstrap 95% CIs, paired Wilcoxon tests, and a composite-score sensitivity analysis (Kendall's tau median = 0.94), and introduce a three-layer evaluation protocol combining code structure, reasoning process, and type-specific output verification. The Single-Agent ReAct loop reliably outperforms the Dual-Agent Plan-Execute-Replan pipeline on every cloud backend (Cliff's delta = 0.15-0.41); only the locally deployed 14B model gains from multi-agent orchestration, suggesting architectural complexity should match model capability rather than be added by default.
-
-### [Hierarchical Control Framework Integrating LLMs with RL for Decarbonized HVAC Operation](https://arxiv.org/abs/2603.26050v1)
-
-- **Authors:** Dianyu Zhong, Tian Xing, Kailai Sun, Xu Yang, Heye Huang, Irfan Qaisar, Tinggang Jia, Shaobo Wang, Qianchuan Zhao
-- **Published:** 2026-03-27
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** eess.SY
-- **Links:** [Paper](https://arxiv.org/abs/2603.26050v1) · [PDF](https://arxiv.org/pdf/2603.26050v1)
-
-Heating, ventilation, and air conditioning (HVAC) systems account for a substantial share of building energy consumption. Environmental uncertainty and dynamic occupancy behavior bring challenges in decarbonized HVAC control. Reinforcement learning (RL) can optimize long-horizon comfort-energy trade-offs but suffers from exponential action-space growth and inefficient exploration in multi-zone buildings. Large language models (LLMs) can encode semantic context and operational knowledge, yet when used alone they lack reliable closed-loop numerical optimization and may result in less reliable comfort-energy trade-offs. To address these limitations, we propose a hierarchical control framework in which a fine-tuned LLM, trained on historical building operation data, generates state-dependent feasible action masks that prune the combinatorial joint action space into operationally plausible subsets. A masked value-based RL agent then performs constrained optimization within this reduced space, improving exploration efficiency and training stability. Evaluated in a high-fidelity simulator calibrated with real-world sensor and occupancy data from a 7-zone office building, the proposed method achieves a mean PPD of 7.30%, corresponding to reductions of 39.1% relative to DQN, the best vanilla RL baseline in comfort, and 53.1% relative to the best vanilla LLM baseline, while reducing daily HVAC energy use to 140.90~kWh, lower than all vanilla RL baselines. The results suggest that LLM-guided action masking is a promising pathway toward efficient multi-zone HVAC control.
-
-### [AgentCollab: A Self-Evaluation-Driven Collaboration Paradigm for Efficient LLM Agents](https://arxiv.org/abs/2603.26034v1)
-
-- **Authors:** Wenbo Gao, Renxi Liu, Xian Wang, Fang Guo, Shuai Yang, Xi Chen, Hui-Ling Zhen, Hanting Chen, Weizhe Lin, Xiaosong Li, Yaoyuan Wang
-- **Published:** 2026-03-27
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2603.26034v1) · [PDF](https://arxiv.org/pdf/2603.26034v1)
-
-Autonomous agents powered by large language models (LLMs) perform complex tasks through long-horizon reasoning and tool interaction, where a fundamental trade-off arises between execution efficiency and reasoning robustness. Models at different capability-cost levels offer complementary advantages: lower-cost models enable fast execution but may struggle on difficult reasoning segments, while stronger models provide more robust reasoning at higher computational cost. We present AgentCollab, a self-driven collaborative inference framework that dynamically coordinates models with different reasoning capacities during agent execution. Instead of relying on external routing modules, the framework uses the agent's own self-reflection signal to determine whether the current reasoning trajectory is making meaningful progress, and escalates control to a stronger reasoning tier only when necessary. To further stabilize long-horizon execution, we introduce a difficulty-aware cumulative escalation strategy that allocates additional reasoning budget based on recent failure signals. In our experiments, we instantiate this framework using a two-level small-large model setting. Experiments on diverse multi-step agent benchmarks show that AgentCollab consistently improves the accuracy-efficiency Pareto frontier of LLM agents.
-
-### [WebTestBench: Evaluating Computer-Use Agents towards End-to-End Automated Web Testing](https://arxiv.org/abs/2603.25226v1)
-
-- **Authors:** Fanheng Kong, Jingyuan Zhang, Yang Yue, Chenxi Sun, Yang Tian, Shi Feng, Xiaocui Yang, Daling Wang, Yu Tian, Jun Du, Wenchong Zeng, Han Li, Kun Gai
-- **Published:** 2026-03-26
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.SE, cs.AI, cs.CL, cs.MA
-- **Links:** [Paper](https://arxiv.org/abs/2603.25226v1) · [PDF](https://arxiv.org/pdf/2603.25226v1)
-
-The emergence of Large Language Models (LLMs) has catalyzed a paradigm shift in programming, giving rise to "vibe coding", where users can build complete projects and even control computers using natural language instructions. This paradigm has driven automated webpage development, but it introduces a new requirement about how to automatically verify whether the web functionalities are reliably implemented. Existing works struggle to adapt, relying on static visual similarity or predefined checklists that constrain their utility in open-ended environments. Furthermore, they overlook a vital aspect of software quality, namely latent logical constraints. To address these gaps, we introduce WebTestBench, a benchmark for evaluating end-to-end automated web testing. WebTestBench encompasses comprehensive dimensions across diverse web application categories. We decompose the testing process into two cascaded sub-tasks, checklist generation and defect detection, and propose WebTester, a baseline framework for this task. Evaluating popular LLMs with WebTester reveals severe challenges, including insufficient test completeness, detection bottlenecks, and long-horizon interaction unreliability. These findings expose a substantial gap between current computer-use agent capabilities and industrial-grade deployment demands. We hope that WebTestBench provides valuable insights and guidance for advancing end-to-end automated web testing. Our dataset and code are available at https://github.com/friedrichor/WebTestBench.
-
-### [UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience](https://arxiv.org/abs/2603.24533v1)
-
-- **Authors:** Zichuan Lin, Feiyu Liu, Yijun Yang, Jiafei Lyu, Yiming Gao, Yicheng Liu, Zhicong Lu, Yangbin Yu, Mingyu Yang, Junyou Li, Deheng Ye, Jie Jiang
-- **Published:** 2026-03-25
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI, cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2603.24533v1) · [PDF](https://arxiv.org/pdf/2603.24533v1)
-
-Autonomous mobile GUI agents have attracted increasing attention along with the advancement of Multimodal Large Language Models (MLLMs). However, existing methods still suffer from inefficient learning from failed trajectories and ambiguous credit assignment under sparse rewards for long-horizon GUI tasks. To that end, we propose UI-Voyager, a novel two-stage self-evolving mobile GUI agent. In the first stage, we employ Rejection Fine-Tuning (RFT), which enables the continuous co-evolution of data and models in a fully autonomous loop. The second stage introduces Group Relative Self-Distillation (GRSD), which identifies critical fork points in group rollouts and constructs dense step-level supervision from successful trajectories to correct failed ones. Extensive experiments on AndroidWorld show that our 4B model achieves an 81.0% Pass@1 success rate, outperforming numerous recent baselines and exceeding human-level performance. Ablation and case studies further verify the effectiveness of GRSD. Our method represents a significant leap toward efficient, self-evolving, and high-performance mobile GUI automation without expensive manual data annotation.
-
-### [CarePilot: A Multi-Agent Framework for Long-Horizon Computer Task Automation in Healthcare](https://arxiv.org/abs/2603.24157v1)
-
-- **Authors:** Akash Ghosh, Tajamul Ashraf, Rishu Kumar Singh, Numan Saeed, Sriparna Saha, Xiuying Chen, Salman Khan
-- **Published:** 2026-03-25
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2603.24157v1) · [PDF](https://arxiv.org/pdf/2603.24157v1)
-
-Multimodal agentic pipelines are transforming human-computer interaction by enabling efficient and accessible automation of complex, real-world tasks. However, recent efforts have focused on short-horizon or general-purpose applications (e.g., mobile or desktop interfaces), leaving long-horizon automation for domain-specific systems, particularly in healthcare, largely unexplored. To address this, we introduce CareFlow, a high-quality human-annotated benchmark comprising complex, long-horizon software workflows across medical annotation tools, DICOM viewers, EHR systems, and laboratory information systems. On this benchmark, existing vision-language models (VLMs) perform poorly, struggling with long-horizon reasoning and multi-step interactions in medical contexts. To overcome this, we propose CarePilot, a multi-agent framework based on the actor-critic paradigm. The Actor integrates tool grounding with dual-memory mechanisms (long-term and short-term experience) to predict the next semantic action from the visual interface and system state. The Critic evaluates each action, updates memory based on observed effects, and either executes or provides corrective feedback to refine the workflow. Through iterative agentic simulation, the Actor learns to perform more robust and reasoning-aware predictions during inference. Our experiments show that CarePilot achieves state-of-the-art performance, outperforming strong closed-source and open-source multimodal baselines by approximately 15.26% and 3.38%, respectively, on our benchmark and out-of-distribution dataset.
-
-### [DUPLEX: Agentic Dual-System Planning via LLM-Driven Information Extraction](https://arxiv.org/abs/2603.23909v1)
-
-- **Authors:** Keru Hua, Ding Wang, Yaoying Gu, Xiaoguang Ma
-- **Published:** 2026-03-25
+- **Authors:** Shuo Yang, Soyeon Caren Han, Xueqi Ma, Yan Li, Mohammad Reza Ghasemi Madani, Eduard Hovy
+- **Published:** 2026-03-05
 - **Priority:** —
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.23909v1) · [PDF](https://arxiv.org/pdf/2603.23909v1)
+- **Links:** [Paper](https://arxiv.org/abs/2603.04900v1) · [PDF](https://arxiv.org/pdf/2603.04900v1)
 
-While Large Language Models (LLMs) provide semantic flexibility for robotic task planning, their susceptibility to hallucination and logical inconsistency limits their reliability in long-horizon domains. To bridge the gap between unstructured environments and rigorous plan synthesis, we propose DUPLEX, an agentic dual-system neuro-symbolic architecture that strictly confines the LLM to schema-guided information extraction rather than end-to-end planning or code generation. In our framework, a feed-forward Fast System utilizes a lightweight LLM to extract entities, relations etc. from natural language, deterministically mapping them into a Planning Domain Definition Language (PDDL) problem file for a classical symbolic planner. To resolve complex or underspecified scenarios, a Slow System is activated exclusively upon planning failure, leveraging solver diagnostics to drive a high-capacity LLM in iterative reflection and repair. Extensive evaluations across 12 classical and household planning domains demonstrate that DUPLEX significantly outperforms existing end-to-end and hybrid LLM baselines in both success rate and reliability. These results confirm that The key is not to make the LLM plan better, but to restrict the LLM to the part it is good at - structured semantic grounding - and leave logical plan synthesis to a symbolic planner.
+LLM-based agents depend on effective tool-use policies to solve complex tasks, yet optimizing these policies remains challenging due to delayed supervision and the difficulty of credit assignment in long-horizon trajectories. Existing optimization approaches tend to be either monolithic, which are prone to entangling behaviors, or single-aspect, which ignore cross-module error propagation. To address these limitations, we propose EvoTool, a self-evolving framework that optimizes a modular tool-use policy via a gradient-free evolutionary paradigm. EvoTool decomposes agent's tool-use policy into four modules, including Planner, Selector, Caller, and Synthesizer, and iteratively improves them in a self-improving loop through three novel mechanisms. Trajectory-Grounded Blame Attribution uses diagnostic traces to localize failures to a specific module. Feedback-Guided Targeted Mutation then edits only that module via natural-language critique. Diversity-Aware Population Selection preserves complementary candidates to ensure solution diversity. Across four benchmarks, EvoTool outperforms strong baselines by over 5 points on both GPT-4.1 and Qwen3-8B, while achieving superior efficiency and transferability. The code will be released once paper is accepted.
 
-### [Can LLM Agents Be CFOs? Benchmarking Long-Horizon Resource Allocation in an Uncertain Enterprise Environment](https://arxiv.org/abs/2603.23638v2)
+### [HiMAC: Hierarchical Macro-Micro Learning for Long-Horizon LLM Agents](https://arxiv.org/abs/2603.00977v2)
 
-- **Authors:** Yi Han, Yan Wang, Lingfei Qian, Haohang Li, Yupeng Cao, Yueru He, Xueqing Peng, Nanhan Shen, Yitao Xu, Yankai Chen, Dongji Feng, Jimin Huang, Xue Liu, Jian-Yun Nie, Sophia Ananiadou
-- **Published:** 2026-03-24
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.23638v2) · [PDF](https://arxiv.org/pdf/2603.23638v2)
-
-Large language model (LLM) agents are increasingly tested on complex tasks, but their ability to allocate scarce resources over long horizons remains unclear. Unlike reactive tasks with immediate feedback, this setting requires agents to make binding commitments under partial observability, delayed consequences, hard resource budgets, and shifting dynamics. We introduce EnterpriseArena, a 132-month CFO simulator that evaluates long-horizon resource allocation under uncertainty in a FinTech lending firm. Agents must manage liquidity, close books, gather costly signals, and request equity or debt financing across changing macroeconomic regimes. The simulator is built from transformed firm-level financial data, anonymized business documents, decade-scale macroeconomic and industry signals, and expert-validated operating rules. Experiments across 23 LLMs and four agent frameworks show that current agents remain far from robust: only 15.4% of trials survive the full horizon, larger models do not reliably outperform smaller ones, and failures cascade across observation, action timing, and capital sizing. These findings establish long-horizon resource allocation under uncertainty as a distinct capability gap for LLM agents.
-
-### [Environment Maps: Structured Environmental Representations for Long-Horizon Agents](https://arxiv.org/abs/2603.23610v3)
-
-- **Authors:** Yenchia Feng, Chirag Sharma, Karime Maamari
-- **Published:** 2026-03-24
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.23610v3) · [PDF](https://arxiv.org/pdf/2603.23610v3)
-
-Although large language models (LLMs) have advanced rapidly, robust automation of complex software workflows remains an open problem. In long-horizon settings, agents frequently suffer from cascading errors and environmental stochasticity; a single misstep in a dynamic interface can lead to task failure, resulting in hallucinations or trial-and-error. This paper introduces $\textit{Environment Maps}$: a persistent, agent-agnostic representation that mitigates these failures by consolidating heterogeneous evidence, such as screen recordings and execution traces, into a structured graph. The representation consists of four core components: (1) Contexts (abstracted locations), (2) Actions (parameterized affordances), (3) Workflows (observed trajectories), and (4) Tacit Knowledge (domain definitions and reusable procedures). We evaluate this framework on the WebArena benchmark across five domains. Agents equipped with environment maps achieve a 28.2% success rate, nearly doubling the performance of baselines limited to session-bound context (14.2%) and outperforming agents that have access to the raw trajectory data used to generate the environment maps (23.3%). By providing a structured interface between the model and the environment, Environment Maps establish a persistent foundation for long-horizon planning that is human-interpretable, editable, and incrementally refinable.
-
-### [The Evolution of Tool Use in LLM Agents: From Single-Tool Call to Multi-Tool Orchestration](https://arxiv.org/abs/2603.22862v2)
-
-- **Authors:** Haoyuan Xu, Chang Li, Xinyan Ma, Xianhao Ou, Zihan Zhang, Tao He, Xiangyu Liu, Zixiang Wang, Jiafeng Liang, Zheng Chu, Runxuan Liu, Rongchuan Mu, Dandan Tu, Ming Liu, Bing Qin
-- **Published:** 2026-03-24
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.SE, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2603.22862v2) · [PDF](https://arxiv.org/pdf/2603.22862v2)
-
-Tool use enables large language models (LLMs) to access external information, invoke software systems, and act in digital environments beyond what can be solved from model parameters alone. Early research mainly studied whether a model could select and execute a correct single tool call. As agent systems evolve, however, the central problem has shifted from isolated invocation to multi-tool orchestration over long trajectories with intermediate state, execution feedback, changing environments, and practical constraints such as safety, cost, and verifiability. We comprehensively review recent progress in multi-tool LLM agents and analyzes the state of the art in this rapidly developing area. First, we unify task formulations and distinguish single-call tool use from long-horizon orchestration. Then, we organize the literature around six core dimensions: inference-time planning and execution, training and trajectory construction, safety and control, efficiency under resource constraints, capability completeness in open environments, and benchmark design and evaluation. We further summarize representative applications in software engineering, enterprise workflows, graphical user interfaces, and mobile systems. Finally, we discuss major challenges and outline future directions for building reliable, scalable, and verifiable multi-tool agents.
-
-### [LH-Bench: Skill-Grounded Evaluation of Long-Horizon Agents on Subjective Enterprise Tasks](https://arxiv.org/abs/2603.22744v2)
-
-- **Authors:** Abhishek Chandwani, Ishan Gupta
-- **Published:** 2026-03-24
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.22744v2) · [PDF](https://arxiv.org/pdf/2603.22744v2)
-
-Large language models excel on objectively verifiable tasks such as math and programming, where evaluation reduces to unit tests or a single correct answer. In contrast, real-world enterprise work is often subjective and context-dependent: success hinges on organizational goals, user intent, and the quality of intermediate artifacts produced across long, multi-tool workflows. We introduce LH-Bench, a three-pillar evaluation design that moves beyond binary correctness to score autonomous, long-horizon execution on subjective enterprise tasks. The pillars are: (i) expert-grounded rubrics that give LLM judges the domain context needed to score subjective work, (ii) curated ground-truth artifacts that enable stepwise reward signals (e.g., chapter-level annotation for content tasks), and (iii) pairwise human preference evaluation for convergent validation. We show that domain-authored rubrics provide substantially more reliable evaluation signals than LLM-authored rubrics (kappa = 0.60 vs. 0.46), and that human preference judgments confirm the same top-tier separation (p < 0.05), evidence that expert-grounded evaluation can scale without sacrificing reliability. We release public datasets and report results on two environments: Figma-to-code (33 real .fig tasks against the Figma API via MCP) and Programmatic content (41 courses comprising 183 individually-evaluated chapters on a course platform serving 30+ daily users).
-
-### [Demystifying Reinforcement Learning for Long-Horizon Tool-Using Agents: A Comprehensive Recipe](https://arxiv.org/abs/2603.21972v1)
-
-- **Authors:** Xixi Wu, Qianguo Sun, Ruiyang Zhang, Chao Song, Junlong Wu, Yiyan Qi, Hong Cheng
-- **Published:** 2026-03-23
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2603.21972v1) · [PDF](https://arxiv.org/pdf/2603.21972v1)
-
-Reinforcement Learning (RL) is essential for evolving Large Language Models (LLMs) into autonomous agents capable of long-horizon planning, yet a practical recipe for scaling RL in complex, multi-turn environments remains elusive. This paper presents a systematic empirical study using TravelPlanner, a challenging testbed requiring tool orchestration to satisfy multifaceted constraints. We decompose the agentic RL design space along 5 axes: reward shaping, model scaling, data composition, algorithm selection, and environmental stability. Our controlled experiments yield 7 key takeaways, e.g., (1) reward and algorithm choices are scale-dependent as smaller models benefit from staged rewards and enhanced exploration, whereas larger models converge efficiently with simpler dense rewards, (2) ~ 1K training samples with a balanced difficulty mixture mark a sweet spot for both in-domain and out-of-domain performance, and (3) environmental stability is critical to prevent policy degradation. Based on our distilled recipe, our RL-trained models achieve state-of-the-art performance on TravelPlanner, significantly outperforming leading LLMs.
-
-### [Improving Coherence and Persistence in Agentic AI for System Optimization](https://arxiv.org/abs/2603.21321v1)
-
-- **Authors:** Pantea Karimi, Kimia Noorbakhsh, Mohammad Alizadeh, Hari Balakrishnan
-- **Published:** 2026-03-22
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2603.21321v1) · [PDF](https://arxiv.org/pdf/2603.21321v1)
-
-Designing high-performance system heuristics is a creative, iterative process requiring experts to form hypotheses and execute multi-step conceptual shifts. While Large Language Models (LLMs) show promise in automating this loop, they struggle with complex system problems due to two critical failure modes: evolutionary neighborhood bias and the coherence ceiling. Evolutionary methods often remain trapped in local optima by relying on scalar benchmark scores, failing when coordinated multi-step changes are required. Conversely, existing agentic frameworks suffer from context degradation over long horizons or fail to accumulate knowledge across independent runs. We present Engram, an agentic researcher architecture that addresses these limitations by decoupling long-horizon exploration from the constraints of a single context window. Engram organizes exploration into a sequence of agents that iteratively design, test, and analyze mechanisms. At the conclusion of each run, an agent stores code snapshots, logs, and results in a persistent Archive and distills high-level modeling insights into a compact, persistent Research Digest. Subsequent agents then begin with a fresh context window, reading the Research Digest to build on prior discoveries. We find that Engram exhibits superior performance across diverse domains including multi-cloud multicast, LLM inference request routing, and optimizing KV cache reuse in databases with natural language queries.
-
-### [Subjective-Graph LLM Agents for Simulating Uncertainty in Classroom Social Perception](https://arxiv.org/abs/2603.20750v2)
-
-- **Authors:** Jinming Yang, Xinyu Jiang, Xinshan Jiao, Xinping Zhang
-- **Published:** 2026-03-21
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.20750v2) · [PDF](https://arxiv.org/pdf/2603.20750v2)
-
-Social actors do not observe a common social world: each individual forms judgments from a partial and potentially distorted view of the surrounding network. We study whether graph-local evidence and credibility-weighted communication can generate persistent distortions in perceived academic standing, even when agents repeatedly receive objective performance signals. We introduce a data-constrained multi-agent framework in which LLM agents operate through individualized subjective graphs that determine peer visibility, evidence access, and interaction opportunities. Agents exchange uncertainty-annotated assessments, evaluate message credibility, and maintain explicit Gaussian belief states updated through Bayesian fusion. We evaluate the framework on 12 middle-school classrooms comprising 482 students, using questionnaire-derived social information and six consecutive examinations. On the Social-Observed subset (n=419), collective ranking error increases from 0.066 \pm 0.008 to 0.124 \pm 0.009 across six epochs despite repeated exam-based anchoring. Ablations associate individualized visibility and LLM-based trust gating with more stable long-horizon behavior, while constrained retrieval primarily safeguards against global-information leakage. Compared with evaluated DeGroot configurations, the proposed framework achieves lower final ranking error; those DeGroot configurations exhibit near-zero terminal opinion diversity. These findings establish subjective-graph LLM agents as a mechanism-oriented framework for data-constrained simulated social perception. Code is available at https://anonymous.4open.science/r/Rashomonomon-0126.
-
-### [Can LLM Agents Simulate Dynamic Networks? A Case Study on Email Networks with Phishing Synthesis](https://arxiv.org/abs/2605.12507v1)
-
-- **Authors:** Siqi Miao, Ziyang Chen, Yuhong Luo, Hans Hao-Hsun Hsu, Mufei Li, Kaiqing Zhang, Pan Li
-- **Published:** 2026-03-20
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.SI, cs.AI, cs.MA
-- **Links:** [Paper](https://arxiv.org/abs/2605.12507v1) · [PDF](https://arxiv.org/pdf/2605.12507v1)
-
-While Large Language Model (LLM) multi-agent systems (MAS) offer a transformative approach to simulating human behavior in complex systems, it remains largely unexplored whether these simulations can replicate realistic structural and temporal dynamics from a dynamic network perspective. Our evaluation indicates that existing frameworks excel at generating plausible micro-level interactions but fail to capture the emergent, macroscopic topologies necessary for domains that rely on realistic network dynamics, such as modeling information propagation and cybersecurity threats. To bridge this gap, we introduce two easily integrable extensions to simulation frameworks to ensure they preserve macroscopic network fidelity: 1) augmenting LLM agents with data-driven event triggers to organically sustain long-horizon interactions, and 2) integrating Hawkes processes to accurately model temporal activation dynamics. Our approach allows LLM MAS to capture both plausible micro-level patterns and macroscopic topologies. We further demonstrate the utility of this framework in synthesizing realistic phishing campaigns within evolving communication networks. The study reveals how threats exploit structural vulnerabilities, highlighting the potential of our framework for developing next-generation defenses. Our code is available at https://github.com/Graph-COM/NSL.
-
-### [Why Cognitive Robotics Matters: Lessons from OntoAgent and LLM Deployment in HARMONIC for Safety-Critical Robot Teaming](https://arxiv.org/abs/2603.26730v1)
-
-- **Authors:** Sanjay Oruganti, Sergei Nirenburg, Marjorie McShane, Jesse English, Michael Roberts, Christian Arndt, Ramviyas Parasuraman, Luis Sentis
-- **Published:** 2026-03-20
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2603.26730v1) · [PDF](https://arxiv.org/pdf/2603.26730v1)
-
-Deploying embodied AI agents in the physical world demands cognitive capabilities for long-horizon planning that execute reliably, deterministically, and transparently. We present HARMONIC, a cognitive-robotic architecture that pairs OntoAgent, a content-centric cognitive architecture providing metacognitive self-monitoring, domain-grounded diagnosis, and consequence-based action selection over ontologically structured knowledge, with a modular reactive tactical layer. HARMONIC's modular design enables a functional evaluation of whether LLMs can replicate OntoAgent's cognitive capabilities, evaluated within the same robotic system under identical conditions. Six LLMs spanning frontier and efficient tiers replace OntoAgent in a collaborative maintenance scenario under native and knowledge-equalized conditions. Results reveal that LLMs do not consistently assess their own knowledge state before acting, causing downstream failures in diagnostic reasoning and action selection. These deficits persist even with equivalent procedural knowledge, indicating the issues are architectural rather than knowledge-based. These findings support the design of physically embodied systems in which cognitive architectures retain primary authority for reasoning, owing to their deterministic and transparent characteristics.
-
-### [A Subgoal-driven Framework for Improving Long-Horizon LLM Agents](https://arxiv.org/abs/2603.19685v1)
-
-- **Authors:** Taiyi Wang, Sian Gooding, Florian Hartmann, Oriana Riva, Edward Grefenstette
-- **Published:** 2026-03-20
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI, cs.LG, cs.MA
-- **Links:** [Paper](https://arxiv.org/abs/2603.19685v1) · [PDF](https://arxiv.org/pdf/2603.19685v1)
-
-Large language model (LLM)-based agents have emerged as powerful autonomous controllers for digital environments, including mobile interfaces, operating systems, and web browsers. Web navigation, for example, requires handling dynamic content and long sequences of actions, making it particularly challenging. Existing LLM-based agents struggle with long-horizon planning in two main ways. During online execution, they often lose track as new information arrives, lacking a clear and adaptive path toward the final goal. This issue is further exacerbated during reinforcement learning (RL) fine-tuning, where sparse and delayed rewards make it difficult for agents to identify which actions lead to success, preventing them from maintaining coherent reasoning over extended tasks. To address these challenges, we propose two contributions. First, we introduce an agent framework that leverages proprietary models for online planning through subgoal decomposition. Second, we present MiRA (Milestoning your Reinforcement Learning Enhanced Agent), an RL training framework that uses dense, milestone-based reward signals. The real-time planning mechanism improves proprietary models such as Gemini by approximately a 10% absolute increase in success rate (SR) on the WebArena-Lite benchmark. Meanwhile, applying MiRA to the open Gemma3-12B model increases its success rate from 6.4% to 43.0%. This performance surpasses proprietary systems such as GPT-4-Turbo (17.6%) and GPT-4o (13.9%), as well as the previous open-model state of the art, WebRL (38.4%). Overall, our findings demonstrate that combining explicit inference-time planning with milestone-based rewards significantly improves an agent's long-horizon capabilities, paving the way for more robust and general-purpose autonomous systems.
-
-### [The Autonomy Tax: Defense Training Breaks LLM Agents](https://arxiv.org/abs/2603.19423v3)
-
-- **Authors:** Shawn Li, Yue Zhao
-- **Published:** 2026-03-19
-- **Priority:** 📈 Highly cited
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.CR, cs.AI, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2603.19423v3) · [PDF](https://arxiv.org/pdf/2603.19423v3)
-
-Large language model (LLM) agents increasingly rely on external tools (file operations, API calls, database transactions) to autonomously complete complex multi-step tasks. Practitioners deploy defense-trained models to protect against prompt injection attacks that manipulate agent behavior through malicious observations or retrieved content. We reveal a fundamental \textbf{capability-alignment paradox}: defense training designed to improve safety systematically destroys agent competence while failing to prevent sophisticated attacks. Evaluating defended models against undefended baselines across 97 agent tasks and 1,000 adversarial prompts, we uncover three systematic biases unique to multi-step agents. \textbf{Agent incompetence bias} manifests as immediate tool execution breakdown, with models refusing or generating invalid actions on benign tasks before observing any external content. \textbf{Cascade amplification bias} causes early failures to propagate through retry loops, pushing defended models to timeout on 99\% of tasks compared to 13\% for baselines. \textbf{Trigger bias} leads to paradoxical security degradation where defended models perform worse than undefended baselines while straightforward attacks bypass defenses at high rates. Root cause analysis reveals these biases stem from shortcut learning: models overfit to surface attack patterns rather than semantic threat understanding, evidenced by extreme variance in defense effectiveness across attack categories. Our findings demonstrate that current defense paradigms optimize for single-turn refusal benchmarks while rendering multi-step agents fundamentally unreliable, necessitating new approaches that preserve tool execution competence under adversarial conditions.
-
-### [ProRL Agent: Rollout-as-a-Service for RL Training of Multi-Turn LLM Agents](https://arxiv.org/abs/2603.18815v1)
-
-- **Authors:** Hao Zhang, Mingjie Liu, Shaokun Zhang, Songyang Han, Jian Hu, Zhenghui Jin, Yuchi Zhang, Shizhe Diao, Ximing Lu, Binfeng Xu, Zhiding Yu, Jan Kautz, Yi Dong
-- **Published:** 2026-03-19
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.18815v1) · [PDF](https://arxiv.org/pdf/2603.18815v1)
-
-Multi-turn LLM agents are increasingly important for solving complex, interactive tasks, and reinforcement learning (RL) is a key ingredient for improving their long-horizon behavior. However, RL training requires generating large numbers of sandboxed rollout trajectories, and existing infrastructures often couple rollout orchestration with the training loop, making systems hard to migrate and maintain. Under the rollout-as-a-service philosophy, we present ProRL Agent , a scalable infrastructure that serves the full agentic rollout lifecycle through an API service. ProRL Agent also provides standardized and extensible sandbox environments that support diverse agentic tasks in rootless HPC settings. We validate ProRL Agent through RL training on software engineering, math, STEM, and coding tasks. ProRL Agent is open-sourced and integrated as part of NVIDIA NeMo Gym.
-
-### [MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution](https://arxiv.org/abs/2603.18718v2)
-
-- **Authors:** Minhua Lin, Zhiwei Zhang, Hanqing Lu, Hui Liu, Xianfeng Tang, Qi He, Xiang Zhang, Suhang Wang
-- **Published:** 2026-03-19
-- **Priority:** 📈 Highly cited<br>🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
-- **Venue:** EMNLP 2026
-- **Affiliations:** The Pennsylvania State University
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.18718v2) · [PDF](https://arxiv.org/pdf/2603.18718v2) · [Code](https://github.com/ventr1c/memma)
-
-Memory-augmented LLM agents maintain external memory banks to support long-horizon interaction, yet most existing systems treat construction, retrieval, and utilization as isolated subroutines. This creates two coupled challenges: strategic blindness on the forward path of the memory cycle, where construction and retrieval are driven by local heuristics rather than explicit strategic reasoning, and sparse, delayed supervision on the backward path, where downstream failures rarely translate into direct repairs of the memory bank. To address these challenges, we propose MemMA, a plug-and-play multi-agent framework that coordinates the memory cycle along both the forward and backward paths. On the forward path, a Meta-Thinker produces structured guidance that steers a Memory Manager during construction and directs a Query Reasoner during iterative retrieval. On the backward path, MemMA introduces in-situ self-evolving memory construction, which synthesizes probe QA pairs, verifies the current memory, and converts failures into repair actions before the memory is finalized. Extensive experiments on LoCoMo show that MemMA consistently outperforms existing baselines across multiple LLM backbones and improves three different storage backends in a plug-and-play manner. Our code is publicly available at https://github.com/ventr1c/memma.
-
-### [Insight-V++: Towards Advanced Long-Chain Visual Reasoning with Multimodal Large Language Models](https://arxiv.org/abs/2603.18118v1)
-
-- **Authors:** Yuhao Dong, Zuyan Liu, Shulin Tian, Yongming Rao, Ziwei Liu
-- **Published:** 2026-03-18
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CV, cs.AI, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2603.18118v1) · [PDF](https://arxiv.org/pdf/2603.18118v1)
-
-Large Language Models (LLMs) have achieved remarkable reliability and advanced capabilities through extended test-time reasoning. However, extending these capabilities to Multi-modal Large Language Models (MLLMs) remains a significant challenge due to a critical scarcity of high-quality, long-chain reasoning data and optimized training pipelines. To bridge this gap, we present a unified multi-agent visual reasoning framework that systematically evolves from our foundational image-centric model, Insight-V, into a generalized spatial-temporal architecture, Insight-V++. We first propose a scalable data generation pipeline equipped with multi-granularity assessment that autonomously synthesizes structured, complex reasoning trajectories across image and video domains without human intervention. Recognizing that directly supervising MLLMs with such intricate data yields sub-optimal results, we design a dual-agent architecture comprising a reasoning agent to execute extensive analytical chains, and a summary agent to critically evaluate and distill final outcomes. While our initial framework utilized Direct Preference Optimization (DPO), its off-policy nature fundamentally constrained reinforcement learning potential. To overcome these limitations, particularly for long-horizon video understanding, Insight-V++ introduces two novel algorithms, ST-GRPO and J-GRPO, which enhance spatial-temporal reasoning and improve evaluative robustness. Crucially, by leveraging reliable feedback from the summary agent, we guide an iterative reasoning path generation process, retraining the entire multi-agent system in a continuous, self-improving loop. Extensive experiments on base models like LLaVA-NeXT and Qwen2.5-VL demonstrate significant performance gains across challenging image and video reasoning benchmarks while preserving strong capabilities on traditional perception-focused tasks.
-
-### [AgentVLN: Towards Agentic Vision-and-Language Navigation](https://arxiv.org/abs/2603.17670v1)
-
-- **Authors:** Zihao Xin, Wentong Li, Yixuan Jiang, Ziyuan Huang, Bin Wang, Piji Li, Jianke Zhu, Jie Qin, Shengjun Huang
-- **Published:** 2026-03-18
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2603.17670v1) · [PDF](https://arxiv.org/pdf/2603.17670v1)
-
-Vision-and-Language Navigation (VLN) requires an embodied agent to ground complex natural-language instructions into long-horizon navigation in unseen environments. While Vision-Language Models (VLMs) offer strong 2D semantic understanding, current VLN systems remain constrained by limited spatial perception, 2D-3D representation mismatch, and monocular scale ambiguity. In this paper, we propose AgentVLN, a novel and efficient embodied navigation framework that can be deployed on edge computing platforms. We formulate VLN as a Partially Observable Semi-Markov Decision Process (POSMDP) and introduce a VLM-as-Brain paradigm that decouples high-level semantic reasoning from perception and planning via a plug-and-play skill library. To resolve multi-level representation inconsistency, we design a cross-space representation mapping that projects perception-layer 3D topological waypoints into the image plane, yielding pixel-aligned visual prompts for the VLM. Building on this bridge, we integrate a context-aware self-correction and active exploration strategy to recover from occlusions and suppress error accumulation over long trajectories. To further address the spatial ambiguity of instructions in unstructured environments, we propose a Query-Driven Perceptual Chain-of-Thought (QD-PCoT) scheme, enabling the agent with the metacognitive ability to actively seek geometric depth information. Finally, we construct AgentVLN-Instruct, a large-scale instruction-tuning dataset with dynamic stage routing conditioned on target visibility. Extensive experiments show that AgentVLN consistently outperforms prior state-of-the-art methods (SOTA) on long-horizon VLN benchmarks, offering a practical paradigm for lightweight deployment of next-generation embodied navigation models. Code: https://github.com/Allenxinn/AgentVLN.
-
-### [A Trace-Based Assurance Framework for Agentic AI Orchestration: Contracts, Testing, and Governance](https://arxiv.org/abs/2603.18096v1)
-
-- **Authors:** Ciprian Paduraru, Petru-Liviu Bouruc, Alin Stefanescu
-- **Published:** 2026-03-18
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.MA, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.18096v1) · [PDF](https://arxiv.org/pdf/2603.18096v1)
-
-In Agentic AI, Large Language Models (LLMs) are increasingly used in the orchestration layer to coordinate multiple agents and to interact with external services, retrieval components, and shared memory. In this setting, failures are not limited to incorrect final outputs. They also arise from long-horizon interaction, stochastic decisions, and external side effects (such as API calls, database writes, and message sends). Common failures include non-termination, role drift, propagation of unsupported claims, and attacks via untrusted context or external channels. This paper presents an assurance framework for such Agentic AI systems. Executions are instrumented as Message-Action Traces (MAT) with explicit step and trace contracts. Contracts provide machine-checkable verdicts, localize the first violating step, and support deterministic replay. The framework includes stress testing, formulated as a budgeted counterexample search over bounded perturbations. It also supports structured fault injection at service, retrieval, and memory boundaries to assess containment under realistic operational faults and degraded conditions. Finally, governance is treated as a runtime component, enforcing per-agent capability limits and action mediation (allow, rewrite, block) at the language-to-action boundary. To support comparative evaluations across stochastic seeds, models, and orchestration configurations, the paper defines trace-based metrics for task success, termination reliability, contract compliance, factuality indicators, containment rate, and governance outcome distributions. More broadly, the framework is intended as a common abstraction to support testing and evaluation of multi-agent LLM systems, and to facilitate reproducible comparison across orchestration designs and configurations.
-
-### [SLEA-RL: Step-Level Experience Augmented Reinforcement Learning for Multi-Turn Agentic Training](https://arxiv.org/abs/2603.18079v1)
-
-- **Authors:** Prince Zizhuang Wang, Shuli Jiang
-- **Published:** 2026-03-18
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.18079v1) · [PDF](https://arxiv.org/pdf/2603.18079v1)
-
-Large Language Model (LLM) agents have shown strong results on multi-turn tool-use tasks, yet they operate in isolation during training, failing to leverage experiences accumulated across episodes. Existing experience-augmented methods address this by organizing trajectories into retrievable libraries, but they retrieve experiences only once based on the initial task description and hold them constant throughout the episode. In multi-turn settings where observations change at every step, this static retrieval becomes increasingly mismatched as episodes progress. We propose SLEA-RL (Step-Level Experience-Augmented Reinforcement Learning), a framework that retrieves relevant experiences at each decision step conditioned on the current observation. SLEA-RL operates through three components: (i) step-level observation clustering that groups structurally equivalent environmental states for efficient cluster-indexed retrieval; (ii) a self-evolving experience library that distills successful strategies and failure patterns through score-based admission and rate-limited extraction; and (iii) policy optimization with step-level credit assignment for fine-grained advantage estimation across multi-turn episodes. The experience library evolves alongside the policy through semantic analysis rather than gradient updates. Experiments on long-horizon multi-turn agent benchmarks demonstrate that SLEA-RL achieves superior performance compared to various reinforcement learning baselines.
-
-### [PowerDAG: Supervisory Agentic AI System for Automating Distribution Grid Analysis](https://arxiv.org/abs/2603.17418v4)
-
-- **Authors:** Emmanuel O. Badmus, Amritanshu Pandey
-- **Published:** 2026-03-18
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** eess.SY
-- **Links:** [Paper](https://arxiv.org/abs/2603.17418v4) · [PDF](https://arxiv.org/pdf/2603.17418v4)
-
-Distribution grid analyses include tasks such as network information retrieval, power-flow analysis, hosting-capacity assessment, DER planning, and state estimation. Completing these tasks often requires long-horizon, stateful workflows in which an engineer retrieves data, loads a feeder, runs simulations, evaluates results, and exports outputs. The growing volume of these analyses is outpacing the limited engineering workforce, causing suboptimal outcomes and delays. Large Language Model (LLM)-orchestrated agents can help, but they often struggle for two reasons: (i) they lack algorithms to determine the right context for an unseen grid task, and (ii) they cannot verify proposed actions against the environment state beforehand and instead rely on feedback after execution. We propose PowerDAG, an agentic artificial intelligence (AI) system that formalizes workflows as directed acyclic graphs (DAGs) and addresses current gaps in this formalism through two mechanisms, adaptive retrieval and Just-in-Time supervision. To dynamically retrieve relevant context, it curates and ranks expert exemplars using an adaptive score-decay cutoff that matches the query complexity. For supervision, it evaluates prerequisites before every tool call. If an agent proposes an invalid action, the supervisor blocks execution, preserves the environment, and returns a corrective advisory. We evaluate PowerDAG on 150 held-out queries from a 200-record expert-verified benchmark that covers 10 of the most commonly performed distribution-grid analyses, comparing 6 agentic systems across 10 LLMs for a total of 9,000 runs. PowerDAG reaches a success rate of 98.0% with GPT-5.5, 97.3% with Gemini 3.1 Pro, and 92.7% with Qwen3.6-27B, improving success rates by 6 to 50 percentage points over baselines.
-
-### [Recurrent Reasoning with Vision-Language Models for Estimating Long-Horizon Embodied Task Progress](https://arxiv.org/abs/2603.17312v1)
-
-- **Authors:** Yuelin Zhang, Sijie Cheng, Chen Li, Zongzhao Li, Yuxin Huang, Yang Liu, Wenbing Huang
-- **Published:** 2026-03-18
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CV, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.17312v1) · [PDF](https://arxiv.org/pdf/2603.17312v1)
-
-Accurately estimating task progress is critical for embodied agents to plan and execute long-horizon, multi-step tasks. Despite promising advances, existing Vision-Language Models (VLMs) based methods primarily leverage their video understanding capabilities, while neglecting their complex reasoning potential. Furthermore, processing long video trajectories with VLMs is computationally prohibitive for real-world deployment. To address these challenges, we propose the Recurrent Reasoning Vision-Language Model ($\text{R}^2$VLM). Our model features a recurrent reasoning framework that processes local video snippets iteratively, maintaining a global context through an evolving Chain of Thought (CoT). This CoT explicitly records task decomposition, key steps, and their completion status, enabling the model to reason about complex temporal dependencies. This design avoids the high cost of processing long videos while preserving essential reasoning capabilities. We train $\text{R}^2$VLM on large-scale, automatically generated datasets from ALFRED and Ego4D. Extensive experiments on progress estimation and downstream applications, including progress-enhanced policy learning, reward modeling for reinforcement learning, and proactive assistance, demonstrate that $\text{R}^2$VLM achieves strong performance and generalization, achieving a new state-of-the-art in long-horizon task progress estimation. The models and benchmarks are publicly available at \href{https://huggingface.co/collections/zhangyuelin/r2vlm}{huggingface}.
-
-### [Internalizing Agency from Reflective Experience](https://arxiv.org/abs/2603.16843v1)
-
-- **Authors:** Rui Ge, Yichao Fu, Yuyang Qian, Junda Su, Yiming Zhao, Peng Zhao, Hao Zhang
-- **Published:** 2026-03-17
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.16843v1) · [PDF](https://arxiv.org/pdf/2603.16843v1)
-
-Large language models are increasingly deployed as autonomous agents that must plan, act, and recover from mistakes through long-horizon interaction with environments that provide rich feedback. However, prevailing outcome-driven post-training methods (e.g., RL with verifiable rewards) primarily optimize final success signals, leaving rich environment feedback underutilized. Consequently, they often lead to distribution sharpening: the policy becomes better at reproducing a narrow set of already-successful behaviors, while failing to improve the feedback-grounded agency needed to expand problem-solving capacity (e.g., Pass@k) in long-horizon settings. To address this, we propose LEAFE (Learning Feedback-Grounded Agency from Reflective Experience), a framework that internalizes recovery agency from reflective experience. Specifically, during exploration, the agent summarizes environment feedback into actionable experience, backtracks to earlier decision points, and explores alternative branches with revised actions. We then distill these experience-guided corrections into the model through supervised fine-tuning, enabling the policy to recover more effectively in future interactions. Across a diverse set of interactive coding and agentic tasks under fixed interaction budgets, LEAFE consistently improves Pass@1 over the base model and achieves higher Pass@k than outcome-driven baselines (GRPO) and experience-based methods such as Early Experience, with gains of up to 14% on Pass@128.
-
-### [RetailBench: Evaluating Long-Horizon Autonomous Decision-Making and Strategy Stability of LLM Agents in Realistic Retail Environments](https://arxiv.org/abs/2603.16453v3)
-
-- **Authors:** Linghua Zhang, Jun Wang, Jingtong Wu, Zhisong Zhang
-- **Published:** 2026-03-17
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.16453v3) · [PDF](https://arxiv.org/pdf/2603.16453v3)
-
-Large language model (LLM) agents have made rapid progress on short-horizon, well-scoped tasks, yet their ability to sustain coherent decisions in dynamic long-horizon environments remains uncertain. We introduce RetailBench, a data-grounded simulation benchmark for evaluating tool-using LLM agents in single-store supermarket operation. RetailBench models retail management as a partially observable decision process and is designed to support thousand-day-scale simulations. In this environment, agents must manage pricing, replenishment, supplier selection, shelf assortment, inventory aging, customer feedback, external events, and cash-flow constraints. We evaluate seven contemporary LLMs under representative agent frameworks over a 180-day evaluation horizon and compare them with a privileged oracle policy. Results show substantial variation across models: only a small subset survives the full evaluation horizon, and even the strongest LLM runs remain substantially behind the oracle policy in final net worth and sales outcomes. Behavioral analysis attributes these gaps to incomplete evidence acquisition, surface-level decision making, and the lack of a consistent long-horizon policy. RetailBench provides a controlled testbed for studying reliable autonomy in economically grounded long-horizon decision-making.
-
-### [The PokeAgent Challenge: Competitive and Long-Context Learning at Scale](https://arxiv.org/abs/2603.15563v2)
-
-- **Authors:** Seth Karten, Jake Grigsby, Tersoo Upaa, Junik Bae, Seonghun Hong, Hyunyoung Jeong, Jaeyoon Jung, Kun Kerdthaisong, Gyungbo Kim, Hyeokgi Kim, Yujin Kim, Eunju Kwon, Dongyu Liu, Patrick Mariglia, Sangyeon Park, Benedikt Schink, Xianwei Shi, Anthony Sistilli, Joseph Twin, Arian Urdu, Matin Urdu, Qiao Wang, Ling Wu, Wenli Zhang, Kunsheng Zhou, Stephanie Milani, Kiran Vodrahalli, Amy Zhang, Fei Fang, Yuke Zhu, Chi Jin
-- **Published:** 2026-03-16
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.15563v2) · [PDF](https://arxiv.org/pdf/2603.15563v2)
-
-We present the PokeAgent Challenge, a large-scale benchmark for decision-making research built on Pokemon's multi-agent battle system and expansive role-playing game (RPG) environment. Partial observability, game-theoretic reasoning, and long-horizon planning remain open problems for frontier AI, yet few benchmarks stress all three simultaneously under realistic conditions. PokeAgent targets these limitations at scale through two complementary tracks: our Battling Track, which calls for strategic reasoning and generalization under partial observability in competitive Pokemon battles, and our Speedrunning Track, which requires long-horizon planning and sequential decision-making in the Pokemon RPG. Our Battling Track supplies a dataset of 20M+ battle trajectories alongside a suite of heuristic, RL, and LLM-based baselines capable of high-level competitive play. Our Speedrunning Track provides the first standardized evaluation framework for RPG speedrunning, including an open-source multi-agent orchestration system for modular, reproducible comparisons of harness-based LLM approaches. Our NeurIPS 2025 competition validates both the quality of our resources and the research community's interest in Pokemon, with over 100 teams competing across both tracks and winning solutions detailed in our paper. Participant submissions and our baselines reveal considerable gaps between generalist (LLM), specialist (RL), and elite human performance. Analysis against the BenchPress evaluation matrix shows that Pokemon battling is nearly orthogonal to standard LLM benchmarks, measuring capabilities not captured by existing suites and positioning Pokemon as an unsolved benchmark that can drive RL and LLM research forward. We transition to a living benchmark with a live leaderboard for Battling and self-contained evaluation for Speedrunning at https://pokeagentchallenge.com.
-
-### [SAGE: Multi-Agent Self-Evolution for LLM Reasoning](https://arxiv.org/abs/2603.15255v2)
-
-- **Authors:** Yulin Peng, Xinxin Zhu, Chenxing Wei, Nianbo Zeng, Leilei Wang, Ying Tiffany He, F. Richard Yu
-- **Published:** 2026-03-16
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI, cs.MA
-- **Links:** [Paper](https://arxiv.org/abs/2603.15255v2) · [PDF](https://arxiv.org/pdf/2603.15255v2)
-
-Reinforcement learning with verifiable rewards improves reasoning in large language models (LLMs), but many methods still rely on large human-labeled datasets. While self-play reduces this dependency, it often lacks explicit planning and strong quality control, limiting stability in long-horizon multi-step reasoning. We present SAGE (Self-evolving Agents for Generalized reasoning Evolution), a closed-loop framework where four agents: Challenger, Planner, Solver, and Critic, co-evolve from a shared LLM backbone using only a small seed set. The Challenger continuously generates increasingly difficult tasks; the Planner converts each task into a structured multi-step plan; and the Solver follows the plan to produce an answer, whose correctness is determined by external verifiers. The Critic scores and filters both generated questions and plans to prevent curriculum drift and maintain training signal quality, enabling stable self-training. Across mathematics and code-generation benchmarks, SAGE delivers consistent gains across model scales, improving the Qwen-2.5-7B model by 8.9% on LiveCodeBench and 10.7% on OlympiadBench.
-
-### [VTC-Bench: Evaluating Agentic Multimodal Models via Compositional Visual Tool Chaining](https://arxiv.org/abs/2603.15030v2)
-
-- **Authors:** Xuanyu Zhu, Yuhao Dong, Rundong Wang, Yang Shi, Zhipeng Wu, Yinlun Peng, YiFan Zhang, Yihang Lou, Yuanxing Zhang, Ziwei Liu, Yan Bai, Yuan Zhou
-- **Published:** 2026-03-16
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.15030v2) · [PDF](https://arxiv.org/pdf/2603.15030v2)
-
-Recent advancements extend Multimodal Large Language Models (MLLMs) beyond standard visual question answering to utilizing external tools for advanced visual tasks. Despite this progress, precisely executing and effectively composing diverse tools for complex tasks remain persistent bottleneck. Constrained by sparse tool-sets and simple tool-use trajectories, existing benchmarks fail to capture complex and diverse tool interactions, falling short in evaluating model performance under practical, real-world conditions. To bridge this gap, we introduce VisualToolChain-Bench(VTC-Bench), a comprehensive benchmark designed to evaluate tool-use proficiency in MLLMs. To align with realistic computer vision pipelines, our framework features 32 diverse OpenCV-based visual operations. This rich tool-set enables extensive combinations, allowing VTC-Bench to rigorously assess multi-tool composition and long-horizon, multi-step plan execution. For precise evaluation, we provide 680 curated problems structured across a nine-category cognitive hierarchy, each with ground-truth execution trajectories. Extensive experiments on 19 leading MLLMs reveal critical limitations in current models' visual agentic capabilities. Specifically, models struggle to adapt to diverse tool-sets and generalize to unseen operations, with the leading model Gemini-3.0-Pro only achieving 51% on our benchmark. Furthermore, multi-tool composition remains a persistent challenge. When facing complex tasks, models struggle to formulate efficient execution plans, relying heavily on a narrow, suboptimal subset of familiar functions rather than selecting the optimal tools. By identifying these fundamental challenges, VTC-Bench establishes a rigorous baseline to guide the development of more generalized visual agentic models.
-
-### [Shopping Companion: Benchmarking and Training LLM Agents for Long-Horizon Preference-Grounded E-Commerce Tasks](https://arxiv.org/abs/2603.14864v3)
-
-- **Authors:** Zijian Yu, Kejun Xiao, Huaipeng Zhao, Tao Luo, Xiaoyi Zeng
-- **Published:** 2026-03-16
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2603.14864v3) · [PDF](https://arxiv.org/pdf/2603.14864v3)
-
-In e-commerce, LLM agents show promise for shopping tasks such as recommendations, budget management, and bundle deals, where accurately capturing user preferences from long-horizon conversations is critical. However, progress is limited by two key challenges: (1) the absence of benchmarks for evaluating long-term preference-aware shopping tasks, and (2) the lack of fine-grained supervision for shopping agent training. To fill the benchmark gap, we introduce Shopping Companion Bench, a novel benchmark comprising two shopping tasks that require cross-session preference memory, grounded in a product pool of over 1.2 million real-world items. Our analysis further identifies two major sources of failure on this benchmark: cascading errors caused by preference hallucination, and insufficient verification of product attributes against user requirements. To address these failure modes, we design annotation-free, tool-wise rewards that provide process supervision for each tool call, alleviating reward sparsity in long-horizon tasks. Experimental results demonstrate that even state-of-the-art models such as GPT-5 achieve success rates below 70%, highlighting the difficulty of our benchmark. Notably, our fine-tuned lightweight 4B model consistently outperforms strong baselines in both preference capture and task performance, suggesting the effectiveness of our reward design.
-
-### [AgentProcessBench: Diagnosing Step-Level Process Quality in Tool-Using Agents](https://arxiv.org/abs/2603.14465v2)
-
-- **Authors:** Shengda Fan, Xuyan Ye, Yupeng Huo, Zhi-Yuan Chen, Yiju Guo, Shenzhi Yang, Wenkai Yang, Shuqi Ye, Jingwen Chen, Haotian Chen, Xin Cong, Yankai Lin
-- **Published:** 2026-03-15
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.14465v2) · [PDF](https://arxiv.org/pdf/2603.14465v2)
-
-While Large Language Models (LLMs) have evolved into tool-using agents, they remain brittle in long-horizon interactions. Unlike mathematical reasoning where errors are often rectifiable via backtracking, tool-use failures frequently induce irreversible side effects, making accurate step-level verification critical. However, existing process-level benchmarks are predominantly confined to closed-world mathematical domains, failing to capture the dynamic and open-ended nature of tool execution. To bridge this gap, we introduce AgentProcessBench, the first benchmark dedicated to evaluating step-level effectiveness in realistic, tool-augmented trajectories. The benchmark comprises 1,000 diverse trajectories and 8,509 human-labeled step annotations with 89.1% inter-annotator agreement. It features a ternary labeling scheme to capture exploration and an error propagation rule to reduce labeling ambiguity. Extensive experiments reveal key insights: (1) weaker policy models exhibit inflated ratios of correct steps due to early termination; (2) distinguishing neutral and erroneous actions remains a significant challenge for current models; and (3) process-derived signals provide complementary value to outcome supervision, significantly enhancing test-time scaling. We hope AgentProcessBench can foster future research in reward models and pave the way toward general agents. The code and data are available at https://github.com/RUCBM/AgentProcessBench.
-
-### [Why Do LLM-based Web Agents Fail? A Hierarchical Planning Perspective](https://arxiv.org/abs/2603.14248v2)
-
-- **Authors:** Mohamed Aghzal, Gregory J. Stein, Ziyu Yao
-- **Published:** 2026-03-15
-- **Priority:** 🏆 CCF-A: ACL 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
-- **Venue:** ACL 2026
-- **Affiliations:** n/a
-- **Categories:** cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2603.14248v2) · [PDF](https://arxiv.org/pdf/2603.14248v2)
-
-Large language model (LLM) web agents are increasingly used for web navigation but remain far from human reliability on realistic, long-horizon tasks. Existing evaluations focus primarily on end-to-end success, offering limited insight into where failures arise. We propose a hierarchical planning framework to analyze web agents across three layers (i.e., high-level planning, low-level execution, and replanning), enabling process-based evaluation of reasoning, grounding, and recovery. Our experiments show that structured Planning Domain Definition Language (PDDL) plans produce more concise and goal-directed strategies than natural language (NL) plans, but low-level execution remains the dominant bottleneck. These results indicate that improving perceptual grounding and adaptive control, not only high-level reasoning, is critical for achieving human-level reliability. This hierarchical perspective provides a principled foundation for diagnosing and advancing LLM web agents.
-
-### [DeceptGuard :A Constitutional Oversight Framework For Detecting Deception in LLM Agents](https://arxiv.org/abs/2603.13791v1)
-
-- **Authors:** Snehasis Mukhopadhyay
-- **Published:** 2026-03-14
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2603.13791v1) · [PDF](https://arxiv.org/pdf/2603.13791v1)
-
-Reliable detection of deceptive behavior in Large Language Model (LLM) agents is an essential prerequisite for safe deployment in high-stakes agentic contexts. Prior work on scheming detection has focused exclusively on black-box monitors that observe only externally visible tool calls and outputs, discarding potentially rich internal reasoning signals. We introduce DECEPTGUARD, a unified framework that systematically compares three monitoring regimes: black-box monitors (actions and outputs only), CoT-aware monitors (additionally observing the agent's chain-of-thought reasoning trace), and activation-probe monitors (additionally reading hidden-state representations from a frozen open-weights encoder). We introduce DECEPTSYNTH, a scalable synthetic pipeline for generating deception-positive and deception-negative agent trajectories across a novel 12-category taxonomy spanning verbal, behavioral, and structural deception. Our monitors are optimized on 4,800 synthetic trajectories and evaluated on 9,200 held-out samples from DeceptArena, a benchmark of realistic sandboxed agent environments with execution-verified labels. Across all evaluation settings, CoT-aware and activation-probe monitors substantially outperform their black-box counterparts (mean pAUROC improvement of +0.097), with the largest gains on subtle, long-horizon deception that leaves minimal behavioral footprints. We empirically characterize a transparency-detectability trade-off: as agents learn to suppress overt behavioral signals, chain-of-thought becomes the primary detection surface but is itself increasingly unreliable due to post-training faithfulness degradation. We propose HYBRID-CONSTITUTIONAL ensembles as a robust defense-in-depth approach, achieving a pAUROC of 0.934 on the held-out test set, representing a substantial advance over the prior state of the art.
-
-### [Retrieve, Schedule, Reflect: LLM Agents for Chip QoR Optimization](https://arxiv.org/abs/2603.13767v2)
-
-- **Authors:** Yikang Ouyang, Yang Luo, Dongsheng Zuo, Yuzhe Ma
-- **Published:** 2026-03-14
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
-- **Categories:** cs.AR
-- **Links:** [Paper](https://arxiv.org/abs/2603.13767v2) · [PDF](https://arxiv.org/pdf/2603.13767v2)
-
-Modern chip design requires multi-objective optimization of timing, power, and area under stringent time-to-market constraints. Although powerful optimization algorithms are integrated into EDA tools, achieving high QoR hinges on effective long-horizon scheduling, which relies heavily on manual expert intervention. To address this issue and automate chip design, we propose an agentic LLM framework that schedules chip optimizations through direct interaction with EDA tools. The agent is grounded in natural language expertise expressed as a search tree through retrieval-augmented generation (RAG). We further improve scheduling quality with Pareto-driven QoR feedback through language reflection. Experimental results show that, compared with black-box search methods such as reinforcement learning, our framework achieves 10% greater timing improvement while consuming less power and area, with more than 4x speedup. The post-optimization QoR is also comparable to that achieved by human experts. Finally, the agent supports customized tasks expressed in natural language, enabling preferential QoR trade-offs. The code and chip design data will be publicly available at https://github.com/YiKangOY/Open-LLM-ECO.
-
-### [EnterpriseOps-Gym: Environments and Evaluations for Stateful Agentic Planning and Tool Use in Enterprise Settings](https://arxiv.org/abs/2603.13594v1)
-
-- **Authors:** Shiva Krishna Reddy Malay, Shravan Nayak, Jishnu Sethumadhavan Nair, Sagar Davasam, Aman Tiwari, Sathwik Tejaswi Madhusudhan, Sridhar Krishna Nemala, Srinivas Sunkara, Sai Rajeswar
-- **Published:** 2026-03-13
+- **Authors:** Hongbo Jin, Rongpeng Zhu, Jiayu Ding, Guibo Luo, Ge Li
+- **Published:** 2026-03-01
 - **Priority:** —
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2603.13594v1) · [PDF](https://arxiv.org/pdf/2603.13594v1)
+- **Links:** [Paper](https://arxiv.org/abs/2603.00977v2) · [PDF](https://arxiv.org/pdf/2603.00977v2)
 
-Large language models are shifting from passive information providers to active agents intended for complex workflows. However, their deployment as reliable AI workers in enterprise is stalled by benchmarks that fail to capture the intricacies of professional environments, specifically, the need for long-horizon planning amidst persistent state changes and strict access protocols. In this work, we introduce EnterpriseOps-Gym, a benchmark designed to evaluate agentic planning in realistic enterprise settings. Specifically, EnterpriseOps-Gym features a containerized sandbox with 164 database tables and 512 functional tools to mimic real-world search friction. Within this environment, agents are evaluated on 1,150 expert-curated tasks across eight mission-critical verticals (including Customer Service, HR, and IT). Our evaluation of 14 frontier models reveals critical limitations in state-of-the-art models: the top-performing Claude Opus 4.5 achieves only 37.4% success. Further analysis shows that providing oracle human plans improves performance by 14-35 percentage points, pinpointing strategic reasoning as the primary bottleneck. Additionally, agents frequently fail to refuse infeasible tasks (best model achieves 53.9%), leading to unintended and potentially harmful side effects. Our findings underscore that current agents are not yet ready for autonomous enterprise deployment. More broadly, EnterpriseOps-Gym provides a concrete testbed to advance the robustness of agentic planning in professional workflows.
+Large language model (LLM) agents have recently demonstrated strong capabilities in interactive decision-making, yet they remain fundamentally limited in long-horizon tasks that require structured planning and reliable execution. Existing approaches predominantly rely on flat autoregressive policies, where high-level reasoning and low-level actions are generated within a single token sequence, leading to inefficient exploration and severe error propagation over extended trajectories. In this work, we propose HiMAC, a hierarchical agentic RL framework that explicitly decomposes long-horizon decision-making into macro-level planning and micro-level execution. HiMAC models reasoning as a structured blueprint generation process followed by goal-conditioned action execution, enabling robust long-horizon planning within LLM-based agents. To train this hierarchy efficiently, we introduce a critic-free hierarchical policy optimization paradigm that extends group-based reinforcement learning to bi-level structures through hierarchical relative advantage estimation. Furthermore, we propose an iterative co-evolution training strategy that alternates between planner exploration and executor adaptation, mitigating the non-stationarity inherent in hierarchical learning. Extensive experiments on ALFWorld, WebShop, and Sokoban demonstrate that HiMAC consistently outperforms strong prompting and reinforcement learning baselines, achieving state-of-the-art performance and substantially improved sample efficiency across both text-based and visually grounded environments. Our results show that introducing structured hierarchy, rather than increasing model scale alone, is a key factor for enabling robust long-horizon agentic intelligence.
 
-### [ToolTree: Efficient LLM Agent Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning](https://arxiv.org/abs/2603.12740v1)
+## LLM Continual Training & Continual Learning
 
-- **Authors:** Shuo Yang, Soyeon Caren Han, Yihao Ding, Shuhe Wang, Eduard Hoy
+### [Understanding by Reconstruction: Reversing the Software Development Process for LLM Pretraining](https://arxiv.org/abs/2603.11103v2)
+
+- **Authors:** Zhiyuan Zeng, Yichi Zhang, Yong Shan, Kai Hua, Siyuan Fang, Zhaiyu Liu, Jiaheng Liu, Haozhe Wang, Yining Zheng, Ming Ding, Ke Shen, Ge Zhang, Wenhao Huang, Xipeng Qiu
+- **Published:** 2026-03-11
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.SE
+- **Links:** [Paper](https://arxiv.org/abs/2603.11103v2) · [PDF](https://arxiv.org/pdf/2603.11103v2)
+
+While Large Language Models (LLMs) have achieved remarkable success in code generation, they often struggle with the deep, long-horizon reasoning required for complex software engineering. We attribute this limitation to the nature of standard pre-training data: static software repositories represent only the terminal state of an intricate intellectual process, abstracting away the intermediate planning, debugging, and iterative refinement. To bridge this gap, we propose a novel paradigm: understanding via reconstruction. We hypothesize that reverse-engineering the latent agentic trajectories -- the planning, reasoning, and debugging steps -- behind static repositories provides a far richer supervision signal than raw code alone. To operationalize this, we introduce a framework that synthesizes these trajectories using a multi-agent simulation. This process is grounded in the structural realities of the source repositories (e.g., dependency graphs and file hierarchies) to ensure fidelity. Furthermore, to guarantee the logical rigor of the synthetic data, we employ a search-based optimization technique that iteratively refines the Chain-of-Thought (CoT) reasoning to maximize the likelihood of the ground-truth code. Empirical results demonstrate that continuous pre-training on these reconstructed trajectories significantly enhances Llama-3-8B's performance across diverse benchmarks, including long-context understanding, coding proficiency, and agentic capabilities.
+
+## Long-Horizon Task Agents
+
+### [ChainFuzzer: Greybox Fuzzing for Workflow-Level Multi-Tool Vulnerabilities in LLM Agents](https://arxiv.org/abs/2603.12614v1)
+
+- **Authors:** Jiangrong Wu, Zitong Yao, Yuhong Nan, Zibin Zheng
 - **Published:** 2026-03-13
 - **Priority:** —
 - **Venue:** arXiv
 - **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2603.12740v1) · [PDF](https://arxiv.org/pdf/2603.12740v1)
+- **Categories:** cs.SE, cs.CR
+- **Links:** [Paper](https://arxiv.org/abs/2603.12614v1) · [PDF](https://arxiv.org/pdf/2603.12614v1)
 
-Large Language Model (LLM) agents are increasingly applied to complex, multi-step tasks that require interaction with diverse external tools across various domains. However, current LLM agent tool planning methods typically rely on greedy, reactive tool selection strategies that lack foresight and fail to account for inter-tool dependencies. In this paper, we present ToolTree, a novel Monte Carlo tree search-inspired planning paradigm for tool planning. ToolTree explores possible tool usage trajectories using a dual-stage LLM evaluation and bidirectional pruning mechanism that enables the agent to make informed, adaptive decisions over extended tool-use sequences while pruning less promising branches before and after the tool execution. Empirical evaluations across both open-set and closed-set tool planning tasks on 4 benchmarks demonstrate that ToolTree consistently improves performance while keeping the highest efficiency, achieving an average gain of around 10\% compared to the state-of-the-art planning paradigm.
+Tool-augmented LLM agents increasingly rely on multi-step, multi-tool workflows to complete real tasks. This design expands the attack surface, because data produced by one tool can be persisted and later reused as input to another tool, enabling exploitable source-to-sink dataflows that only emerge through tool composition. We study this risk as multi-tool vulnerabilities in LLM agents, and show that existing discovery efforts focused on single-tool or single-hop testing miss these long-horizon behaviors and provide limited debugging value. We present ChainFuzzer, a greybox framework for discovering and reproducing multi-tool vulnerabilities with auditable evidence. ChainFuzzer (i) identifies high-impact operations with strict source-to-sink dataflow evidence and extracts plausible upstream candidate tool chains based on cross-tool dependencies, (ii) uses Trace-guided Prompt Solving (TPS) to synthesize stable prompts that reliably drive the agent to execute target chains, and (iii) performs guardrail-aware fuzzing to reproduce vulnerabilities under LLM guardrails via payload mutation and sink-specific oracles. We evaluate ChainFuzzer on 20 popular open-source LLM agent apps (998 tools). ChainFuzzer extracts 2,388 candidate tool chains and synthesizes 2,213 stable prompts, confirming 365 unique, reproducible vulnerabilities across 19/20 apps (302 require multi-tool execution). Component evaluation shows tool-chain extraction achieves 96.49% edge precision and 91.50% strict chain precision; TPS increases chain reachability from 27.05% to 95.45%; guardrail-aware fuzzing boosts payload-level trigger rate from 18.20% to 88.60%. Overall, ChainFuzzer achieves 3.02 vulnerabilities per 1M tokens, providing a practical foundation for testing and hardening real-world multi-tool agent systems.
+
+### [From Control to Foresight: Simulation as a New Paradigm for Human-Agent Collaboration](https://arxiv.org/abs/2603.11677v1)
+
+- **Authors:** Gaole He, Brian Y. Lim
+- **Published:** 2026-03-12
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.HC, cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.11677v1) · [PDF](https://arxiv.org/pdf/2603.11677v1)
+
+Large Language Models (LLMs) are increasingly used to power autonomous agents for complex, multi-step tasks. However, human-agent interaction remains pointwise and reactive: users approve or correct individual actions to mitigate immediate risks, without visibility into subsequent consequences. This forces users to mentally simulate long-term effects, a cognitively demanding and often inaccurate process. Users have control over individual steps but lack the foresight to make informed decisions. We argue that effective collaboration requires foresight, not just control. We propose simulation-in-the-loop, an interaction paradigm that enables users and agents to explore simulated future trajectories before committing to decisions. Simulation transforms intervention from reactive guesswork into informed exploration, while helping users discover latent constraints and preferences along the way. This perspective paper characterizes the limitations of current paradigms, introduces a conceptual framework for simulation-based collaboration, and illustrates its potential through concrete human-agent collaboration scenarios.
+
+### [Taming OpenClaw: Security Analysis and Mitigation of Autonomous LLM Agent Threats](https://arxiv.org/abs/2603.11619v1)
+
+- **Authors:** Xinhao Deng, Yixiang Zhang, Jiaqing Wu, Jiaqi Bai, Sibo Yi, Zhuoheng Zou, Yue Xiao, Rennai Qiu, Jianan Ma, Jialuo Chen, Xiaohu Du, Xiaofang Yang, Shiwen Cui, Changhua Meng, Weiqiang Wang, Jiaxing Song, Ke Xu, Qi Li
+- **Published:** 2026-03-12
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CR, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.11619v1) · [PDF](https://arxiv.org/pdf/2603.11619v1)
+
+Autonomous Large Language Model (LLM) agents, exemplified by OpenClaw, demonstrate remarkable capabilities in executing complex, long-horizon tasks. However, their tightly coupled instant-messaging interaction paradigm and high-privilege execution capabilities substantially expand the system attack surface. In this paper, we present a comprehensive security threat analysis of OpenClaw. To structure our analysis, we introduce a five-layer lifecycle-oriented security framework that captures key stages of agent operation, i.e., initialization, input, inference, decision, and execution, and systematically examine compound threats across the agent's operational lifecycle, including indirect prompt injection, skill supply chain contamination, memory poisoning, and intent drift. Through detailed case studies on OpenClaw, we demonstrate the prevalence and severity of these threats and analyze the limitations of existing defenses. Our findings reveal critical weaknesses in current point-based defense mechanisms when addressing cross-temporal and multi-stage systemic risks, highlighting the need for holistic security architectures for autonomous LLM agents. Within this framework, we further examine representative defense strategies at each lifecycle stage, including plugin vetting frameworks, context-aware instruction filtering, memory integrity validation protocols, intent verification mechanisms, and capability enforcement architectures.
+
+### [ProMAS: Proactive Error Forecasting for Multi-Agent Systems Using Markov Transition Dynamics](https://arxiv.org/abs/2603.20260v1)
+
+- **Authors:** Xinkui Zhao, Sai Liu, Yifan Zhang, Qingyu Ma, Guanjie Cheng, Naibo Wang, Chang Liu
+- **Published:** 2026-03-12
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.20260v1) · [PDF](https://arxiv.org/pdf/2603.20260v1)
+
+The integration of Large Language Models into Multi-Agent Systems (MAS) has enabled the so-lution of complex, long-horizon tasks through collaborative reasoning. However, this collec-tive intelligence is inherently fragile, as a single logical fallacy can rapidly propagate and lead to system-wide failure. Most current research re-lies on post-hoc failure analysis, thereby hinder-ing real-time intervention. To address this, we propose PROMAS, a proactive framework utiliz-ing Markov transitions for predictive error anal-ysis. PROMAS extracts Causal Delta Features to capture semantic displacement, mapping them to a quantized Vector Markov Space to model reasoning as probabilistic transitions. By inte-grating a Proactive Prediction Head with Jump Detection, the method localizes errors via risk acceleration rather than static thresholds. On the Who&When benchmark, PROMAS achieves 22.97% step-level accuracy while processing only 27% of reasoning logs. This performance rivals reactive monitors like MASC while reducing data overhead by 73%. Although this strategy entails an accuracy trade-off compared to post-hoc meth-ods, it significantly improves intervention latency, balancing diagnostic precision with the real-time demands of autonomous reasoning.
+
+### [LLM-Augmented Digital Twin for Policy Evaluation in Short-Video Platforms](https://arxiv.org/abs/2603.11333v2)
+
+- **Authors:** Haoting Zhang, Yunduan Lin, Jinghai He, Denglin Jiang, Zuo-Jun Shen, Zeyu Zheng
+- **Published:** 2026-03-11
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.11333v2) · [PDF](https://arxiv.org/pdf/2603.11333v2)
+
+Short-video platforms are closed-loop, human-in-the-loop ecosystems where platform policy, creator incentives, and user behavior co-evolve. This feedback structure makes counterfactual policy evaluation difficult in production, especially for long-horizon and distributional outcomes. The challenge is amplified as platforms deploy AI tools that change what content enters the system, how agents adapt, and how the platform operates. We propose a large language model (LLM)-augmented digital twin for short-video platforms, with a modular four-twin architecture (User, Content, Interaction, Platform) and an event-driven execution layer that supports reproducible experimentation. Platform policies are implemented as pluggable components within the Platform Twin, and LLMs are integrated as optional, schema-constrained decision services (e.g., persona generation, content captioning, campaign planning, trend prediction) that are routed through a unified optimizer. This design enables scalable simulations that preserve closed-loop dynamics while allowing selective LLM adoption, enabling the study of platform policies, including AI-enabled policies, under realistic feedback and constraints.
+
+### [OnFly: Onboard Zero-Shot Aerial Vision-Language Navigation toward Safety and Efficiency](https://arxiv.org/abs/2603.10682v1)
+
+- **Authors:** Guiyong Zheng, Yueting Ban, Mingjie Zhang, Juepeng Zheng, Boyu Zhou
+- **Published:** 2026-03-11
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.RO
+- **Links:** [Paper](https://arxiv.org/abs/2603.10682v1) · [PDF](https://arxiv.org/pdf/2603.10682v1)
+
+Aerial vision-language navigation (AVLN) enables UAVs to follow natural-language instructions in complex 3D environments. However, existing zero-shot AVLN methods often suffer from unstable single-stream Vision-Language Model decision-making, unreliable long-horizon progress monitoring, and a trade-off between safety and efficiency. We propose OnFly, a fully onboard, real-time framework for zero-shot AVLN. OnFly adopts a shared-perception dual-agent architecture that decouples high-frequency target generation from low-frequency progress monitoring, thereby stabilizing decision-making. It further employs a hybrid keyframe-recent-frame memory to preserve global trajectory context while maintaining KV-cache prefix stability, enabling reliable long-horizon monitoring with termination and recovery signals. In addition, a semantic-geometric verifier refines VLM-predicted targets for instruction consistency and geometric safety using VLM features and depth cues, while a receding-horizon planner generates optimized collision-free trajectories under geometric safety constraints, improving both safety and efficiency. In simulation, OnFly improves task success from 26.4% to 67.8%, compared with the strongest state-of-the-art baseline, while fully onboard real-world flights validate its feasibility for real-time deployment. The code will be released at https://github.com/Robotics-STAR-Lab/OnFly
+
+### [Understanding by Reconstruction: Reversing the Software Development Process for LLM Pretraining](https://arxiv.org/abs/2603.11103v2)
+
+- **Authors:** Zhiyuan Zeng, Yichi Zhang, Yong Shan, Kai Hua, Siyuan Fang, Zhaiyu Liu, Jiaheng Liu, Haozhe Wang, Yining Zheng, Ming Ding, Ke Shen, Ge Zhang, Wenhao Huang, Xipeng Qiu
+- **Published:** 2026-03-11
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.SE
+- **Links:** [Paper](https://arxiv.org/abs/2603.11103v2) · [PDF](https://arxiv.org/pdf/2603.11103v2)
+
+While Large Language Models (LLMs) have achieved remarkable success in code generation, they often struggle with the deep, long-horizon reasoning required for complex software engineering. We attribute this limitation to the nature of standard pre-training data: static software repositories represent only the terminal state of an intricate intellectual process, abstracting away the intermediate planning, debugging, and iterative refinement. To bridge this gap, we propose a novel paradigm: understanding via reconstruction. We hypothesize that reverse-engineering the latent agentic trajectories -- the planning, reasoning, and debugging steps -- behind static repositories provides a far richer supervision signal than raw code alone. To operationalize this, we introduce a framework that synthesizes these trajectories using a multi-agent simulation. This process is grounded in the structural realities of the source repositories (e.g., dependency graphs and file hierarchies) to ensure fidelity. Furthermore, to guarantee the logical rigor of the synthetic data, we employ a search-based optimization technique that iteratively refines the Chain-of-Thought (CoT) reasoning to maximize the likelihood of the ground-truth code. Empirical results demonstrate that continuous pre-training on these reconstructed trajectories significantly enhances Llama-3-8B's performance across diverse benchmarks, including long-context understanding, coding proficiency, and agentic capabilities.
+
+### [Reflection-Driven Self-Improving Language Model Agents for Adaptive RAN Slicing](https://arxiv.org/abs/2603.10564v2)
+
+- **Authors:** Yuanhao Li, Haozhe Wang, Geyong Min, Nektarios Georgalas, Wang Miao
+- **Published:** 2026-03-11
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.NI
+- **Links:** [Paper](https://arxiv.org/abs/2603.10564v2) · [PDF](https://arxiv.org/pdf/2603.10564v2)
+
+Adaptive control in AI-native networks remains challenging because tasks such as dynamic Radio Access Network (RAN) slicing require persistent trade-off decisions among spectrum efficiency, service quality, and reconfiguration stability. Conventional Reinforcement Learning (RL) compresses these competing objectives into handcrafted scalar rewards, requiring exhaustive tuning for a balanced trade-off. Language model (LM) agents provide a new path toward adaptive control because they can semantically represent complex preference relations, but prompt-based adaptation struggles to retain long-horizon interaction history due to finite context limits. We propose a Reflection-Driven Self-Improvement (ReDSI) framework that replaces scalar rewards with semantic feedback for continuous policy adaptation. This framework is built upon a Small Language Model (SLM) agent for fast decision-making, coupled with a bi-perspective reflection to transform interaction history into preference data, subsequently distilling long-horizon decision experience into the SLM parameters through preference-based fine-tuning. Evaluated on a dynamic RAN slicing task, our method achieves an optimal trade-off across multiple competing objectives, outperforming standard RL baselines and existing LM-based agents by demonstrating substantially greater sample efficiency. These results highlight a viable paradigm of self-improving LM agents for reward-free multi-objective continuous control in AI-native networks.
+
+### [Let's Reward Step-by-Step: Step-Aware Contrastive Alignment for Vision-Language Navigation in Continuous Environments](https://arxiv.org/abs/2603.09740v1)
+
+- **Authors:** Haoyuan Li, Rui Liu, Hehe Fan, Yi Yang
+- **Published:** 2026-03-10
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.RO, cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2603.09740v1) · [PDF](https://arxiv.org/pdf/2603.09740v1)
+
+Vision-Language Navigation in Continuous Environments (VLN-CE) requires agents to learn complex reasoning from long-horizon human interactions. While Multi-modal Large Language Models (MLLMs) have driven recent progress, current training paradigms struggle to balance generalization capability, error recovery and training stability. Specifically, (i) policies derived from SFT suffer from compounding errors, struggling to recover from out-of-distribution states, and (ii) Reinforcement Fine-Tuning (RFT) methods e.g. GRPO are bottlenecked by sparse outcome rewards. Their binary feedback fails to assign credit to individual steps, leading to gradient signal collapse in failure dominant batches. To address these challenges, we introduce Step-Aware Contrastive Alignment (SACA), a framework designed to extract dense supervision from imperfect trajectories. At its core, the Perception-Grounded Step-Aware auditor evaluates progress step-by-step, disentangling failed trajectories into valid prefixes and exact divergence points. Leveraging these signals, Scenario-Conditioned Group Construction mechanism dynamically routes batches to specialized resampling and optimization strategies. Extensive experiments on VLN-CE benchmarks demonstrate that SACA achieves state-of-the-art performance.
+
+### [EXPLORE-Bench: Egocentric Scene Prediction with Long-Horizon Reasoning](https://arxiv.org/abs/2603.09731v3)
+
+- **Authors:** Chengjun Yu, Xuhan Zhu, Chaoqun Du, Pengfei Yu, Wei Zhai, Yang Cao, Zheng-Jun Zha
+- **Published:** 2026-03-10
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CV, cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.09731v3) · [PDF](https://arxiv.org/pdf/2603.09731v3)
+
+Multimodal large language models (MLLMs) are increasingly considered as a foundation for embodied agents, yet it remains unclear whether they can reliably reason about the long-term physical consequences of actions from an egocentric viewpoint. We study this gap through a new task, Egocentric Scene Prediction with LOng-horizon REasoning: given an initial-scene image and a sequence of atomic action descriptions, a model is asked to predict the final scene after all actions are executed. To enable systematic evaluation, we introduce EXPLORE-Bench, a benchmark curated from real first-person videos spanning diverse scenarios. Each instance pairs long action sequences with structured final-scene annotations, including object categories, visual attributes, and inter-object relations, which supports fine-grained, quantitative assessment. Experiments on a range of proprietary and open-source MLLMs reveal a significant performance gap to humans, indicating that long-horizon egocentric reasoning remains a major challenge. We further analyze test-time scaling via stepwise reasoning and show that decomposing long action sequences can improve performance to some extent, while incurring non-trivial computational overhead. Overall, EXPLORE-Bench provides a principled testbed for measuring and advancing long-horizon reasoning for egocentric embodied perception.
+
+### [Beyond Scaling: Assessing Strategic Reasoning and Rapid Decision-Making Capability of LLMs in Zero-sum Environments](https://arxiv.org/abs/2603.09337v1)
+
+- **Authors:** Yang Li, Xing Chen, Yutao Liu, Gege Qi, Yanxian BI, Zizhe Wang, Yunjian Zhang, Yao Zhu
+- **Published:** 2026-03-10
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CV, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.09337v1) · [PDF](https://arxiv.org/pdf/2603.09337v1)
+
+Large Language Models (LLMs) have achieved strong performance on static reasoning benchmarks, yet their effectiveness as interactive agents operating in adversarial, time-sensitive environments remains poorly understood. Existing evaluations largely treat reasoning as a single-shot capability, overlooking the challenges of opponent-aware decision-making, temporal constraints, and execution under pressure. This paper introduces Strategic Tactical Agent Reasoning (STAR) Benchmark, a multi-agent evaluation framework that assesses LLMs through 1v1 zero-sum competitive interactions, framing reasoning as an iterative, adaptive decision-making process. STAR supports both turn-based and real-time settings, enabling controlled analysis of long-horizon strategic planning and fast-paced tactical execution within a unified environment. Built on a modular architecture with a standardized API and fully implemented execution engine, STAR facilitates reproducible evaluation and flexible task customization. To move beyond binary win-loss outcomes, we introduce a Strategic Evaluation Suite that assesses not only competitive success but also the quality of strategic behavior, such as execution efficiency and outcome stability. Extensive pairwise evaluations reveal a pronounced strategy-execution gap: while reasoning-intensive models dominate turn-based settings, their inference latency often leads to inferior performance in real-time scenarios, where faster instruction-tuned models prevail. These results show that strategic intelligence in interactive environments depends not only on reasoning depth, but also on the ability to translate plans into timely actions, positioning STAR as a principled benchmark for studying this trade-off in competitive, dynamic settings.
+
+### [Deep Tabular Research via Continual Experience-Driven Execution](https://arxiv.org/abs/2603.09151v2)
+
+- **Authors:** Junnan Dong, Chuang Zhou, Zheng Yuan, Yifei Yu, Qiufeng Wang, Yinghui Li, Siyu An, Di Yin, Xing Sun, Feiyue Huang
+- **Published:** 2026-03-10
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.09151v2) · [PDF](https://arxiv.org/pdf/2603.09151v2)
+
+Large language models often struggle with complex long-horizon analytical tasks over unstructured tables, which typically feature hierarchical and bidirectional headers and non-canonical layouts. We formalize this challenge as Deep Tabular Research (DTR), requiring multi-step reasoning over interdependent table regions. To address DTR, we propose a novel agentic framework that treats tabular reasoning as a closed-loop decision-making process. We carefully design a coupled query and table comprehension for path decision making and operational execution. Specifically, (i) DTR first constructs a hierarchical meta graph to capture bidirectional semantics, mapping natural language queries into an operation-level search space; (ii) To navigate this space, we introduce an expectation-aware selection policy that prioritizes high-utility execution paths; (iii) Crucially, historical execution outcomes are synthesized into a siamese structured memory, i.e., parameterized updates and abstracted texts, enabling continual refinement. Extensive experiments on challenging unstructured tabular benchmarks verify the effectiveness and highlight the necessity of separating strategic planning from low-level execution for long-horizon tabular reasoning.
+
+### [Scale-Plan: Scalable Language-Enabled Task Planning for Heterogeneous Multi-Robot Teams](https://arxiv.org/abs/2603.08814v2)
+
+- **Authors:** Piyush Gupta, Sangjae Bae, Jiachen Li, David Isele
+- **Published:** 2026-03-09
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.RO, cs.AI, cs.ET, cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2603.08814v2) · [PDF](https://arxiv.org/pdf/2603.08814v2)
+
+Long-horizon task planning for heterogeneous multi-robot systems is essential for deploying collaborative teams in real-world environments; yet, it remains challenging due to the large volume of perceptual information, much of which is irrelevant to task objectives and burdens planning. Traditional symbolic planners rely on manually constructed problem specifications, limiting scalability and adaptability, while recent large language model (LLM)-based approaches often suffer from hallucinations and weak grounding-i.e., poor alignment between generated plans and actual environmental objects and constraints-in object-rich settings. We present Scale-Plan, a scalable LLM-assisted framework that generates compact, task-relevant problem representations from natural language instructions. Given a PDDL domain specification, Scale-Plan constructs an action graph capturing domain structure and uses shallow LLM reasoning to guide a structured graph search that identifies a minimal subset of relevant actions and objects. By filtering irrelevant information prior to planning, Scale-Plan enables efficient decomposition, allocation, and long-horizon plan generation. We evaluate our approach on complex multi-agent tasks and introduce MAT2-THOR, a cleaned benchmark built on AI2-THOR for reliable evaluation of multi-robot planning systems. Scale-Plan outperforms pure LLM and hybrid LLM-PDDL baselines across all metrics, improving scalability and reliability. Project website: https://github.com/honda-research-institute/Scale_Plan
+
+### [A Hierarchical Error-Corrective Graph Framework for Autonomous Agents with LLM-Based Action Generation](https://arxiv.org/abs/2603.08388v4)
+
+- **Authors:** Cong Cao, Jingyao Zhang, Kun Tong
+- **Published:** 2026-03-09
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.08388v4) · [PDF](https://arxiv.org/pdf/2603.08388v4)
+
+We propose a Hierarchical Error-Corrective Graph FrameworkforAutonomousAgentswithLLM-BasedActionGeneration(HECG),whichincorporates three core innovations: (1) Multi-Dimensional Transferable Strategy (MDTS): by integrating task quality metrics (Q), confidence/cost metrics (C), reward metrics (R), and LLM-based semantic reasoning scores (LLM-Score), MDTS achieves multi-dimensional alignment between quantitative performance and semantic context, enabling more precise selection of high-quality candidate strate gies and effectively reducing the risk of negative transfer. (2) Error Matrix Classification (EMC): unlike simple confusion matrices or overall performance metrics, EMC provides structured attribution of task failures by categorizing errors into ten types, such as Strategy Errors (Strategy Whe) and Script Parsing Errors (Script-Parsing-Error), and decomposing them according to severity, typical actions, error descriptions, and recoverability. This allows precise analysis of the root causes of task failures, offering clear guidance for subsequent error correction and strategy optimization rather than relying solely on overall success rates or single performance metrics. (3) Causal-Context Graph Retrieval (CCGR): to enhance agent retrieval capabilities in dynamic task environments, we construct graphs from historical states, actions, and event sequences, where nodes store executed actions, next-step actions, execution states, transferable strategies, and other relevant information, and edges represent causal dependencies such as preconditions for transitions between nodes. CCGR identifies subgraphs most relevant to the current task context, effectively capturing structural relationships beyond vector similarity, allowing agents to fully leverage contextual information, accelerate strategy adaptation, and improve execution reliability in complex, multi-step tasks.
+
+### [PIRA-Bench: A Transition from Reactive GUI Agents to GUI-based Proactive Intent Recommendation Agents](https://arxiv.org/abs/2603.08013v1)
+
+- **Authors:** Yuxiang Chai, Shunye Tang, Han Xiao, Rui Liu, Hongsheng Li
+- **Published:** 2026-03-09
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.08013v1) · [PDF](https://arxiv.org/pdf/2603.08013v1)
+
+Current Graphical User Interface (GUI) agents operate primarily under a reactive paradigm: a user must provide an explicit instruction for the agent to execute a task. However, an intelligent AI assistant should be proactive, which is capable of anticipating user intentions directly from continuous visual inputs, such as mobile or desktop screenshots, and offering timely recommendations without explicit user prompting. Transitioning to this proactive paradigm presents significant challenges. Real-world screen activity is rarely linear; it consists of long-horizon trajectories fraught with noisy browsing, meaningless actions, and multithreaded task-switching. To address this gap, we introduce PIRA-Bench (Proactive Intent Recommendation Agent Benchmark), a novel benchmark for evaluating multimodal large language models (MLLMs) on continuous, weakly-supervised visual inputs. Unlike reactive datasets, PIRA-Bench features complex trajectories with multiple interleaved intents and noisy segments with various user profile contexts, challenging agents to detect actionable events while fitting to user preferences. Furthermore, we propose the PIRF baseline, a memory-aware, state-tracking framework that empowers general MLLMs to manage multiple task threads and handle misleading visual inputs. PIRA-Bench serves as an initial step toward robust and proactive GUI-based personal assistants.
+
+### [CMMR-VLN: Vision-and-Language Navigation via Continual Multimodal Memory Retrieval](https://arxiv.org/abs/2603.07997v1)
+
+- **Authors:** Haozhou Li, Xiangyu Dong, Huiyan Jiang, Yaoming Zhou, Xiaoguang Ma
+- **Published:** 2026-03-09
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.07997v1) · [PDF](https://arxiv.org/pdf/2603.07997v1)
+
+Although large language models (LLMs) are introduced into vision-and-language navigation (VLN) to improve instruction comprehension and generalization, existing LLM- based VLN lacks the ability to selectively recall and use relevant priori experiences to help navigation tasks, limiting their performance in long-horizon and unfamiliar scenarios. In this work, we propose CMMR-VLN (Continual Multimodal Memory Retrieval based VLN), a VLN framework that endows LLM agents with structured memory and reflection capabilities. Specifically, the CMMR-VLN constructs a multimodal experi- ence memory indexed by panoramic visual images and salient landmarks to retrieve relevant experiences during navigation, introduces a retrieved-augmented generation pipeline to mimick how experienced human navigators leverage priori knowledge, and incorporates a reflection-based memory update strategy that selectively stores complete successful paths and the key initial mistake in failure cases. Comprehensive tests illustrate average success rate improvements of 52.9%, 20.9% and 20.9%, and 200%, 50% and 50% over the NavGPT, the MapGPT, and the DiscussNav in simulation and real tests, respectively eluci- dating the great potential of the CMMR-VLN as a backbone VLN framework.
+
+### [\$OneMillion-Bench: How Far are Language Agents from Human Experts?](https://arxiv.org/abs/2603.07980v2)
+
+- **Authors:** Yang Liu, Jiaqi Li, Jun Bai, Qianyu Yang, Xiaobo Hu, Tao Peng, Zaiyuan Wang, Ran Tian, Jiayun Dong, Chun Zhang, Zixia Jia, Kaiyuan Chen, Yixin Ren, Yang Liu, Yanglihong Xiao, Lingyue Yin, Tiliang Duan, Ge Zhang, Gang Yao, Hao Chen, Yuan Gong, Jianpeng Jiao, Zilong Zheng
+- **Published:** 2026-03-09
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.07980v2) · [PDF](https://arxiv.org/pdf/2603.07980v2)
+
+As language models (LMs) evolve from chat assistants to long-horizon agents capable of multi-step reasoning and tool use, existing benchmarks remain largely confined to structured or exam-style tasks that fall short of real-world professional demands. To this end, we introduce \$OneMillion-Bench (\$OMB), a benchmark of 400 expert-curated tasks spanning Law, Finance, Industry, Healthcare, and Natural Science, built to evaluate agents across economically consequential scenarios. Unlike prior work, the benchmark requires retrieving authoritative sources, resolving conflicting evidence, applying domain-specific rules, and making constraint decisions, where correctness depends as much on the reasoning process as the final answer. We adopt a rubric-based evaluation protocol scoring factual accuracy, logical coherence, practical feasibility, and professional compliance, focusing on expert-level problems to ensure meaningful differentiation across agents. Together, \$OMB provides a unified testbed for assessing agentic reliability, professional depth, and an indicator of practical readiness in domain-intensive scenarios.
+
+### [DualSpec: Accelerating Deep Research Agents via Dual-Process Action Speculation](https://arxiv.org/abs/2603.07416v1)
+
+- **Authors:** Shuzhang Zhong, Baotong Lu, Qi Chen, Chuanjie Liu, Fan Yang, Meng Li
+- **Published:** 2026-03-08
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2603.07416v1) · [PDF](https://arxiv.org/pdf/2603.07416v1)
+
+Large language model-based deep research agents have been increasingly popular for addressing long-horizon information-seeking tasks, but they often incur high end-to-end latency due to extensive reasoning and frequent tool use. Speculation frameworks aim to reduce latency by overlapping action execution with reasoning; however, existing approaches typically rely on uniform speculation strategies and strict action matching, which limits inference speedups and robustness. In this work, we revisit the speculate-verify paradigm for deep research agents through the lens of action heterogeneity. We show that \textit{Search} and \textit{Visit} actions exhibit fundamentally different reasoning and model capacity requirements: entropy-based analysis reveals that Search decisions have higher uncertainty and benefit significantly from explicit reasoning, whereas Visit decisions have lower entropy and depend primarily on model capacity. Motivated by this dual-process characteristic, we propose DualSpec, a heterogeneous speculation framework equipped with a lightweight, confidence-based semantic verifier. Experiments across multiple models and benchmarks demonstrate that DualSpec achieves up to 3.28$\times$ end-to-end speedup while maintaining accuracy comparable to fully reasoning agents.
+
+### [Hindsight Credit Assignment for Long-Horizon LLM Agents](https://arxiv.org/abs/2603.08754v1)
+
+- **Authors:** Hui-Ze Tan, Xiao-Wen Yang, Hao Chen, Jie-Jing Shao, Yi Wen, Yuteng Shen, Weihong Luo, Xiku Du, Lan-Zhe Guo, Yu-Feng Li
+- **Published:** 2026-03-07
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.08754v1) · [PDF](https://arxiv.org/pdf/2603.08754v1)
+
+Large Language Model (LLM) agents often face significant credit assignment challenges in long-horizon, multi-step tasks due to sparse rewards. Existing value-free methods, such as Group Relative Policy Optimization (GRPO), encounter two fundamental bottlenecks: inaccurate step-level Q-value estimation and misaligned value baselines for intermediate states. To address these limitations, we introduce HCAPO, the first framework to integrate hindsight credit assignment into LLM agents. HCAPO leverages the LLM itself as a post-hoc critic to refine step-level Q-values through hindsight reasoning. Furthermore, HCAPO's multi-scale advantage mechanism effectively supplements the inaccurate value baselines at critical decision states. Evaluations across three challenging benchmarks, including WebShop and ALFWorld, demonstrate that HCAPO consistently outperforms state-of-the-art RL methods. Notably, HCAPO achieves a 7.7% improvement in success rate on WebShop and a 13.8% on ALFWorld over GRPO using the Qwen2.5-7B-Instruct model. These results indicate that HCAPO significantly enhances exploration efficiency, promotes concise decision-making, and ensures scalability in complex, long-horizon tasks.
+
+### [Evaluating Generalization Mechanisms in Autonomous Cyber Attack Agents](https://arxiv.org/abs/2603.10041v1)
+
+- **Authors:** Ondřej Lukáš, Jihoon Shin, Emilia Rivas, Diego Forni, Maria Rigaki, Carlos Catania, Aritran Piplai, Christopher Kiekintveld, Sebastian Garcia
+- **Published:** 2026-03-06
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CR, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2603.10041v1) · [PDF](https://arxiv.org/pdf/2603.10041v1)
+
+Autonomous offensive agents often fail to transfer beyond the networks on which they are trained. We isolate a minimal but fundamental shift -- unseen host/subnet IP reassignment in an otherwise fixed enterprise scenario -- and evaluate attacker generalization in the NetSecGame environment. Agents are trained on five IP-range variants and tested on a sixth unseen variant; only the meta-learning agent may adapt at test time. We compare three agent families (traditional RL, adaptation agents, and LLM-based agents) and use action-distribution-based behavioral/XAI analyses to localize failure modes. Some adaptation methods show partial transfer but significant degradation under unseen reassignment, indicating that even address-space changes can break long-horizon attack policies. Under our evaluation protocol and agent-specific assumptions, prompt-driven pretrained LLM agents achieve the highest success on the held-out reassignment, but at the cost of increased inference-time compute, reduced transparency, and practical failure modes such as repetition/invalid-action loops.
+
+### [Scaling Agentic Capabilities, Not Context: Efficient Reinforcement Finetuning for Large Toolspaces](https://arxiv.org/abs/2603.06713v1)
+
+- **Authors:** Karan Gupta, Pranav Vajreshwari, Yash Pandya, Raghav Magazine, Akshay Nambi, Ahmed Awadallah
+- **Published:** 2026-03-05
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.06713v1) · [PDF](https://arxiv.org/pdf/2603.06713v1)
+
+Agentic systems operating over large tool ecosystems must plan and execute long-horizon workflows under weak or non-verifiable supervision. While frontier models mitigate these challenges through scale and large context budgets, small language models (SLMs) remain brittle: eager tool loading saturates context, execution errors compound over time, and sparse rewards limit learning. We introduce ATLAS, a reinforcement finetuning framework that enables SLMs to operate effectively in large-scale toolspace environments by learning how to acquire context and how to execute actions. Our approach makes two key contributions. First, we treat context control and execution structure as learnable decisions, combining iterative tool loading with programmatic tool orchestration to bound context growth and stabilize long-horizon trajectories. Second, we propose rubric-based reinforcement finetuning, which decomposes task success into structured, task-aligned criteria and enables scalable training using small judge models. Across MCP benchmarks, these design choices yield large and consistent gains over generic RL baselines, allowing a 4B SLM to approach frontier-agent performance under far tighter parameter and context budgets.
+
+### [STRUCTUREDAGENT: Planning with AND/OR Trees for Long-Horizon Web Tasks](https://arxiv.org/abs/2603.05294v3)
+
+- **Authors:** ELita Lobo, Xu Chen, Jingjing Meng, Nan Xi, Yang Jiao, Chirag Agarwal, Yair Zick, Yan Gao
+- **Published:** 2026-03-05
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.05294v3) · [PDF](https://arxiv.org/pdf/2603.05294v3)
+
+Existing LLM-based web agents struggle on complex, long-horizon tasks due to limited in-context memory, weak planning abilities, and greedy behaviors that lead to premature termination. To address these challenges, we propose \SA{}, a hierarchical planning framework that interleaves planning and execution via dynamic $\ANDOR$ trees. The framework separates structural planning from LLM-based reasoning, enabling principled error recovery through node repair, systematic exploration of alternatives via OR nodes, and modular plans that can facilitate human intervention. On WebArena (630 tasks), \SA{} achieves a $\sim$53\% success rate vs.\ $\sim$46\% for AgentOccam, and on complex multi-constraint Amazon shopping tasks, gains reach 10\% over the strongest baseline.
+
+### [EvoTool: Self-Evolving Tool-Use Policy Optimization in LLM Agents via Blame-Aware Mutation and Diversity-Aware Selection](https://arxiv.org/abs/2603.04900v1)
+
+- **Authors:** Shuo Yang, Soyeon Caren Han, Xueqi Ma, Yan Li, Mohammad Reza Ghasemi Madani, Eduard Hovy
+- **Published:** 2026-03-05
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.04900v1) · [PDF](https://arxiv.org/pdf/2603.04900v1)
+
+LLM-based agents depend on effective tool-use policies to solve complex tasks, yet optimizing these policies remains challenging due to delayed supervision and the difficulty of credit assignment in long-horizon trajectories. Existing optimization approaches tend to be either monolithic, which are prone to entangling behaviors, or single-aspect, which ignore cross-module error propagation. To address these limitations, we propose EvoTool, a self-evolving framework that optimizes a modular tool-use policy via a gradient-free evolutionary paradigm. EvoTool decomposes agent's tool-use policy into four modules, including Planner, Selector, Caller, and Synthesizer, and iteratively improves them in a self-improving loop through three novel mechanisms. Trajectory-Grounded Blame Attribution uses diagnostic traces to localize failures to a specific module. Feedback-Guided Targeted Mutation then edits only that module via natural-language critique. Diversity-Aware Population Selection preserves complementary candidates to ensure solution diversity. Across four benchmarks, EvoTool outperforms strong baselines by over 5 points on both GPT-4.1 and Qwen3-8B, while achieving superior efficiency and transferability. The code will be released once paper is accepted.
+
+### [HiMAP-Travel: Hierarchical Multi-Agent Planning for Long-Horizon Constrained Travel](https://arxiv.org/abs/2603.04750v1)
+
+- **Authors:** The Viet Bui, Wenjun Li, Yong Liu
+- **Published:** 2026-03-05
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.04750v1) · [PDF](https://arxiv.org/pdf/2603.04750v1)
+
+Sequential LLM agents fail on long-horizon planning with hard constraints like budgets and diversity requirements. As planning progresses and context grows, these agents drift from global constraints. We propose HiMAP-Travel, a hierarchical multi-agent framework that splits planning into strategic coordination and parallel day-level execution. A Coordinator allocates resources across days, while Day Executors plan independently in parallel. Three key mechanisms enable this: a transactional monitor enforcing budget and uniqueness constraints across parallel agents, a bargaining protocol allowing agents to reject infeasible sub-goals and trigger re-planning, and a single policy trained with GRPO that powers all agents through role conditioning. On TravelPlanner, HiMAP-Travel with Qwen3-8B achieves 52.78% validation and 52.65% test Final Pass Rate (FPR). In a controlled comparison with identical model, training, and tools, it outperforms the sequential DeepTravel baseline by +8.67~pp. It also surpasses ATLAS by +17.65~pp and MTP by +10.0~pp. On FlexTravelBench multi-turn scenarios, it achieves 44.34% (2-turn) and 37.42% (3-turn) FPR while reducing latency 2.5x through parallelization.
+
+### [FocusGraph: Graph-Structured Frame Selection for Embodied Long Video Question Answering](https://arxiv.org/abs/2603.04349v2)
+
+- **Authors:** Tatiana Zemskova, Solomon Andryushenko, Ilya Obrubov, Viktoriia Khoruzhaia, Ekaterina Eroshenko, Ekaterina Derevyanka, Dmitry Yudin
+- **Published:** 2026-03-04
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2603.04349v2) · [PDF](https://arxiv.org/pdf/2603.04349v2)
+
+Understanding long videos is crucial for embodied intelligent agents, as their performance depends on effectively accumulating and using long-horizon perceptual memories. Multimodal large language models (MLLMs) are increasingly used for long-video understanding, but their performance degrades and inference time increases as more frames are provided. Therefore, selecting informative keyframes is essential for efficient question answering over long videos. In this work, we develop FocusGraph, a framework for keyframe selection in egocentric long-video question answering. It includes a lightweight Scene-Graph LLM Selector that identifies query-relevant clips from compact graph-based captions, avoiding the need to process raw frame sequences at question time. From these clips, we extract keyframes using Patch-wise Sparse-Flow Retention (PSFR), an offline program-evolved method with no learned parameters at inference time, before passing them to an MLLM for answer generation. FocusGraph achieves state-of-the-art performance on FindingDory and HourVideo while reducing question-time inference cost compared with existing approaches.
+
+### [Specification-Driven Generation and Evaluation of Discrete-Event World Models via the DEVS Formalism](https://arxiv.org/abs/2603.03784v2)
+
+- **Authors:** Zheyu Chen, Huiteng Zhuang, Zhuohuan Li, Chuanhao Li
+- **Published:** 2026-03-04
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.03784v2) · [PDF](https://arxiv.org/pdf/2603.03784v2)
+
+World models are central to LLM agents that must evaluate actions over long horizons. Yet much existing work focuses on environments governed by physical dynamics or spatial structure, whereas many high-impact domains, including supply chains, procurement networks, and business processes, evolve through discrete events, timing constraints, and causal dependencies. These settings call for discrete-event world models. Existing approaches to constructing world models often fall near two extremes: hand-engineered simulators provide consistency and reproducibility, but are costly to build and adapt; neural models are flexible, but can suffer from compounding inconsistency over long-horizon rollouts. We seek a principled middle ground by synthesizing discrete-event world models online from natural-language specifications, retaining the reliability of explicit simulators while gaining the adaptability of neural models. We adopt the DEVS formalism and introduce a staged LLM-based generation pipeline that separates structural inference over component interactions from component-level event and timing logic. For evaluation, we develop benchmark suites in which simulators emit structured event traces, which are then validated against specification-derived temporal, causal, and semantic constraints. This enables reproducible verification and localized diagnostics. Together, these contributions produce world models that remain consistent over long-horizon rollouts, can be verified from observable behavior, and can be synthesized efficiently on demand during online execution.
+
+### [PROSPECT: Unified Streaming Vision-Language Navigation via Semantic--Spatial Fusion and Latent Predictive Representation](https://arxiv.org/abs/2603.03739v1)
+
+- **Authors:** Zehua Fan, Wenqi Lyu, Wenxuan Song, Linge Zhao, Yifei Yang, Xi Wang, Junjie He, Lida Huang, Haiyan Liu, Bingchuan Sun, Guangjun Bao, Xuanyao Mao, Liang Xu, Yan Wang, Feng Gao
+- **Published:** 2026-03-04
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CV, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.03739v1) · [PDF](https://arxiv.org/pdf/2603.03739v1)
+
+Multimodal large language models (MLLMs) have advanced zero-shot end-to-end Vision-Language Navigation (VLN), yet robust navigation requires not only semantic understanding but also predictive modeling of environment dynamics and spatial structure. We propose PROSPECT, a unified streaming navigation agent that couples a streaming Vision-Language-Action (VLA) policy with latent predictive representation learning. PROSPECT uses CUT3R as a streaming 3D foundation spatial encoder to produce long-context, absolute-scale spatial features, and fuses them with SigLIP semantic features via cross-attention. During training, we introduce learnable stream query tokens that query the streaming context and predict next-step 2D and 3D latent features (rather than pixels or explicit modalities), supervised in the latent spaces of frozen SigLIP and CUT3R teachers. The predictive branch shapes internal representations without inference overhead. Experiments on VLN-CE benchmarks and real-robot deployment demonstrate state-of-the-art performance and improved long-horizon robustness under diverse lighting. We will release code for the community soon.
+
+### [AI4S-SDS: A Neuro-Symbolic Solvent Design System via Sparse MCTS and Differentiable Physics Alignment](https://arxiv.org/abs/2603.03686v3)
+
+- **Authors:** Jiangyu Chen
+- **Published:** 2026-03-04
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.03686v3) · [PDF](https://arxiv.org/pdf/2603.03686v3)
+
+Automated design of chemical formulations is a cornerstone of materials science, yet it requires navigating a high-dimensional combinatorial space involving discrete compositional choices and continuous geometric constraints. Existing Large Language Model (LLM) agents face significant challenges in this setting, including context window limitations during long-horizon reasoning and path-dependent exploration that may lead to mode collapse. To address these issues, we introduce AI4S-SDS, a closed-loop neuro-symbolic framework that integrates multi-agent collaboration with a tailored Monte Carlo Tree Search (MCTS) engine. We propose a Sparse State Storage mechanism with Dynamic Path Reconstruction, which decouples reasoning history from context length and enables arbitrarily deep exploration under fixed token budgets. To reduce local convergence and improve coverage, we implement a Global--Local Search Strategy: a memory-driven planning module adaptively reconfigures the search root based on historical feedback, while a Sibling-Aware Expansion mechanism promotes orthogonal exploration at the node level. Furthermore, we bridge symbolic reasoning and physical feasibility through a Differentiable Physics Engine, employing a hybrid normalized loss with sparsity-inducing regularization to optimize continuous mixing ratios under thermodynamic constraints. Empirical results show that AI4S-SDS achieves full validity under the adopted HSP-based physical constraints and substantially improves exploration diversity compared to baseline agents. In preliminary lithography experiments, the framework identifies a novel photoresist developer formulation that demonstrates competitive or superior performance relative to a commercial benchmark, highlighting the potential of diversity-driven neuro-symbolic search for scientific discovery.
+
+### [Mozi: Governed Autonomy for Drug Discovery LLM Agents](https://arxiv.org/abs/2603.03655v1)
+
+- **Authors:** He Cao, Siyu Liu, Fan Zhang, Zijing Liu, Hao Li, Bin Feng, Shengyuan Bai, Leqing Chen, Kai Xie, Yu Li
+- **Published:** 2026-03-04
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.03655v1) · [PDF](https://arxiv.org/pdf/2603.03655v1)
+
+Tool-augmented large language model (LLM) agents promise to unify scientific reasoning with computation, yet their deployment in high-stakes domains like drug discovery is bottlenecked by two critical barriers: unconstrained tool-use governance and poor long-horizon reliability. In dependency-heavy pharmaceutical pipelines, autonomous agents often drift into irreproducible trajectories, where early-stage hallucinations multiplicatively compound into downstream failures. To overcome this, we present Mozi, a dual-layer architecture that bridges the flexibility of generative AI with the deterministic rigor of computational biology. Layer A (Control Plane) establishes a governed supervisor--worker hierarchy that enforces role-based tool isolation, limits execution to constrained action spaces, and drives reflection-based replanning. Layer B (Workflow Plane) operationalizes canonical drug discovery stages -- from Target Identification to Lead Optimization -- as stateful, composable skill graphs. This layer integrates strict data contracts and strategic human-in-the-loop (HITL) checkpoints to safeguard scientific validity at high-uncertainty decision boundaries. Operating on the design principle of ``free-form reasoning for safe tasks, structured execution for long-horizon pipelines,'' Mozi provides built-in robustness mechanisms and trace-level audibility to completely mitigate error accumulation. We evaluate Mozi on PharmaBench, a curated benchmark for biomedical agents, demonstrating superior orchestration accuracy over existing baselines. Furthermore, through end-to-end therapeutic case studies, we demonstrate Mozi's ability to navigate massive chemical spaces, enforce stringent toxicity filters, and generate highly competitive in silico candidates, effectively transforming the LLM from a fragile conversationalist into a reliable, governed co-scientist.
+
+### [Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use](https://arxiv.org/abs/2603.03205v2)
+
+- **Authors:** Aradhye Agarwal, Gurdit Siyan, Yash Pandya, Joykirat Singh, Akshay Nambi, Ahmed Awadallah
+- **Published:** 2026-03-03
+- **Priority:** 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
+- **Venue:** ICML 2026
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.03205v2) · [PDF](https://arxiv.org/pdf/2603.03205v2)
+
+Agentic language models operate in a fundamentally different safety regime than chat models: they must plan, call tools, and execute long-horizon actions where a single misstep, such as accessing files or entering credentials, can cause irreversible harm. Existing alignment methods, largely optimized for static generation and task completion, break down in these settings due to sequential decision-making, adversarial tool feedback, and overconfident intermediate reasoning. We introduce MOSAIC, a post-training framework that aligns agents for safe multi-step tool use by making safety decisions explicit and learnable. MOSAIC structures inference as a plan, check, then act or refuse loop, with explicit safety reasoning and refusal as first-class actions. To train without trajectory-level labels, we use preference-based reinforcement learning with pairwise trajectory comparisons, which captures safety distinctions often missed by scalar rewards. We evaluate MOSAIC zero-shot across three model families, Qwen2.5-7B, Qwen3-4B-Thinking, and Phi-4, and across out-of-distribution benchmarks spanning harmful tasks, prompt injection, benign tool use, and cross-domain privacy leakage. MOSAIC reduces harmful behavior by up to 50%, increases harmful-task refusal by over 20% on injection attacks, cuts privacy leakage, and preserves or improves benign task performance, demonstrating robust generalization across models, domains, and agentic settings.
+
+### [OrchMAS: Orchestrated Reasoning with Multi Collaborative Heterogeneous Scientific Expert Structured Agents](https://arxiv.org/abs/2603.03005v1)
+
+- **Authors:** Yichao Feng, Haoran Luo, Zhenghong Lin, Yiqun Sun, Pengfei Wei, Lawrence B. Hsieh, Anh Tuan Luu
+- **Published:** 2026-03-03
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.03005v1) · [PDF](https://arxiv.org/pdf/2603.03005v1)
+
+Multi-agent large language model frameworks are promising for complex multi step reasoning, yet existing systems remain weak for scientific and knowledge intensive domains due to static prompts and agent roles, rigid workflows, and homogeneous model reliance, leading to poor domain adaptation, limited reasoning flexibility, and high latency on heterogeneous or long-horizon scientific tasks. They also struggle to revise earlier decisions when intermediate reasoning diverges, reducing reliability in structured and calculation heavy settings. To address these limitations, we propose a scientific domain oriented interactive two tier multi model orchestration framework. A dedicated orchestration model analyzes each task, dynamically constructs a domain aware reasoning pipeline, and instantiates specialized expert agents with tailored prompts, while an execution model performs each step under generated role and instruction specifications. The orchestrator iteratively updates the pipeline based on intermediate feedback, enabling dynamic replanning, role reallocation, and prompt refinement across multi turn interactions, strengthening robustness and specialization for scientific reasoning through structured heterogeneous model collaboration. The framework is model agnostic and supports heterogeneous LLM integration with different capacities or costs, enabling flexible performance efficiency trade offs in practical scientific deployments. Experiments show consistent improvements over existing multi agent systems and strong baselines across diverse reasoning and scientific style benchmarks.
+
+### [VSearcher: Long-Horizon Multimodal Search Agent via Reinforcement Learning](https://arxiv.org/abs/2603.02795v2)
+
+- **Authors:** Ruiyang Zhang, Qianguo Sun, Chao Song, Yiyan Qi, Zhedong Zheng
+- **Published:** 2026-03-03
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2603.02795v2) · [PDF](https://arxiv.org/pdf/2603.02795v2)
+
+Large models are increasingly becoming autonomous agents that interact with real-world environments and use external tools to augment their static capabilities. However, most recent progress has focused on text-only large language models, which are limited to a single modality and therefore have narrower application scenarios. On the other hand, multimodal large models, while offering stronger perceptual capabilities, remain limited to static knowledge and lack the ability to access and leverage up-to-date web information. In this paper, we propose VSearcher, turning static multimodal model into multimodal search agent capable of long-horizon, multi-turn tool use in real-world web environments, including text search, image search, and web browsing, via reinforcement learning. Specifically, we introduce Iterative Injection Data Synthesis pipeline to generate large-scale, complex multimodal QA questions, which are further filtered with comprehensive metrics to ensure high quality and sufficient difficulty. We then adopt an SFT-then-RL training pipeline to turn base multimodal models to agent capable of multi-turn tool calling in real-world web environments. Besides, we propose a multimodal search benchmark MM-SearchExam dedicated to evaluating search capabilities of multimodal search agents, which proves highly challenging for recent proprietary models. Extensive evaluations across multiple multimodal search benchmarks reveal effectiveness of our method. VSearcher achieves superior performance compared to recent multimodal search agents and even surpasses several proprietary models on multimodal web search tasks.
+
+### [Recursive Models for Long-Horizon Reasoning](https://arxiv.org/abs/2603.02112v2)
+
+- **Authors:** Chenxiao Yang, Nathan Srebro, Zhiyuan Li
+- **Published:** 2026-03-02
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.02112v2) · [PDF](https://arxiv.org/pdf/2603.02112v2)
+
+Modern language models reason within bounded context, an inherent constraint that poses a fundamental barrier to long-horizon reasoning. We identify recursion as a core principle for overcoming this barrier, and propose recursive models as a minimal realization, where the model can recursively invoke itself to solve subtasks in isolated contexts. We prove that any computable problem admits a recursive decomposition of reasoning in which each subtask requires only exponentially smaller active context than standard autoregressive models; this strictly surpasses any context management approach confined to a single sequence, such as summarization. We further generalize our framework to modern agentic systems with arbitrary context processing and control flows, and prove that recursive models can achieve optimal power within this broader class. Experimentally, we test two settings: fine-tuning a pretrained base model for recursive SAT solving, and training a small model from scratch on Go traces generated by exact game-tree search. Both show improved long-horizon accuracy with small active contexts.
+
+### [FT-Dojo: Towards Autonomous LLM Fine-Tuning with Language Agents](https://arxiv.org/abs/2603.01712v2)
+
+- **Authors:** Qizheng Li, Yifei Zhang, Xiao Yang, Xu Yang, Zhuo Wang, Weiqing Liu, Jiang Bian
+- **Published:** 2026-03-02
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2603.01712v2) · [PDF](https://arxiv.org/pdf/2603.01712v2)
+
+Fine-tuning large language models for vertical domains remains labor-intensive, requiring practitioners to curate data, configure training, and iteratively diagnose model behavior. Despite growing interest in autonomous machine learning and language agents, end-to-end LLM fine-tuning has not been systematically studied as an interactive agent task. We introduce FT-Dojo, an interactive benchmark environment for autonomous LLM fine-tuning, comprising 13 tasks across 5 domains. Rather than a new collection of static datasets, FT-Dojo standardizes a task interface, shared raw-data repository, sandboxed execution environment, structured feedback protocol, and held-out evaluation procedure. We further develop FT-Agent, a fine-tuning-oriented autonomous framework that uses structured iteration planning, fail-fast validation, and multi-level feedback analysis to refine data and training strategies. Experiments show that FT-Agent provides a strong initial baseline, achieving the best performance on 10 out of 13 tasks, with additional controlled comparisons against frontier agents, open-source planning backbones, and multi-run statistics supporting the main findings. Case studies show that agents can recover from failures through cumulative learning, while still exposing limitations in causal diagnosis and long-horizon planning. The implementation is available at https://github.com/microsoft/rd-agent.
+
+### [From Dialogue to Execution: Mixture-of-Agents Assisted Interactive Planning for Behavior Tree-Based Long-Horizon Robot Execution](https://arxiv.org/abs/2603.01113v3)
+
+- **Authors:** Kanata Suzuki, Kazuki Hori, Haruka Miyoshi, Shuhei Kurita, Tetsuya Ogata
+- **Published:** 2026-03-01
+- **Priority:** —
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.RO
+- **Links:** [Paper](https://arxiv.org/abs/2603.01113v3) · [PDF](https://arxiv.org/pdf/2603.01113v3)
+
+Interactive task planning with large language models (LLMs) lets robots generate high-level action plans from natural language, but over long horizons it asks many questions, and tabular plan representations become hard to manage. We propose a framework that integrates Mixture-of-Agents (MoA)-based proxy answering into interactive planning and generates Behavior Trees (BTs) for structured long-term execution. We formulate the MoA as an abstention-based delegation cascade: each expert agent answers only the questions entailed by its own prerequisite description, forwards the rest unchanged, and the human user acts as the terminal fallback. The question set is thus partitioned disjointly, so no answer fusion or arbitration is required while every question is still resolved. The BT represents task logic hierarchically and enables retry and dynamic switching among robot policies. Experiments on a cocktail-making task show that the method removes approximately 27% of the human responses while keeping the generated BTs within the baseline generator's own variance. Real-robot experiments on a smoothie-making task further demonstrate successful long-horizon execution with adaptive policy switching and recovery from action failures. We further analyze the failure modes of the framework and show that its applicability boundary is set by the reliability of the weakest action node rather than by the planner. These results indicate that MoA-assisted interactive planning improves dialogue efficiency while preserving execution quality in real-world robotic tasks.
+
+### [Egocentric Co-Pilot: Web-Native Smart-Glasses Agents for Assistive Egocentric AI](https://arxiv.org/abs/2603.01104v1)
+
+- **Authors:** Sicheng Yang, Yukai Huang, Weitong Cai, Shitong Sun, Fengyi Fang, You He, Yiqiao Xie, Jiankang Deng, Hang Zhang, Jifei Song, Zhensong Zhang
+- **Published:** 2026-03-01
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.HC, cs.AI, cs.CV, cs.CY
+- **Links:** [Paper](https://arxiv.org/abs/2603.01104v1) · [PDF](https://arxiv.org/pdf/2603.01104v1)
+
+What if accessing the web did not require a screen, a stable desk, or even free hands? For people navigating crowded cities, living with low vision, or experiencing cognitive overload, smart glasses coupled with AI agents could turn the web into an always-on assistive layer over daily life. We present Egocentric Co-Pilot, a web-native neuro-symbolic framework that runs on smart glasses and uses a Large Language Model (LLM) to orchestrate a toolbox of perception, reasoning, and web tools. An egocentric reasoning core combines Temporal Chain-of-Thought with Hierarchical Context Compression to support long-horizon question answering and decision support over continuous first-person video, far beyond a single model's context window. Additionally, a lightweight multimodal intent layer maps noisy speech and gaze into structured commands. We further implement and evaluate a cloud-native WebRTC pipeline integrating streaming speech, video, and control messages into a unified channel for smart glasses and browsers. In parallel, we deploy an on-premise WebSocket baseline, exposing concrete trade-offs between local inference and cloud offloading in terms of latency, mobility, and resource use. Experiments on Egolife and HD-EPIC demonstrate competitive or state-of-the-art egocentric QA performance, and a human-in-the-loop study on smart glasses shows higher task completion and user satisfaction than leading commercial baselines. Taken together, these results indicate that web-connected egocentric co-pilots can be a practical path toward more accessible, context-aware assistance in everyday life. By grounding operation in web-native communication primitives and modular, auditable tool use, Egocentric Co-Pilot offers a concrete blueprint for assistive, always-on web agents that support education, accessibility, and social inclusion for people who may benefit most from contextual, egocentric AI.
+
+### [HiMAC: Hierarchical Macro-Micro Learning for Long-Horizon LLM Agents](https://arxiv.org/abs/2603.00977v2)
+
+- **Authors:** Hongbo Jin, Rongpeng Zhu, Jiayu Ding, Guibo Luo, Ge Li
+- **Published:** 2026-03-01
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2603.00977v2) · [PDF](https://arxiv.org/pdf/2603.00977v2)
+
+Large language model (LLM) agents have recently demonstrated strong capabilities in interactive decision-making, yet they remain fundamentally limited in long-horizon tasks that require structured planning and reliable execution. Existing approaches predominantly rely on flat autoregressive policies, where high-level reasoning and low-level actions are generated within a single token sequence, leading to inefficient exploration and severe error propagation over extended trajectories. In this work, we propose HiMAC, a hierarchical agentic RL framework that explicitly decomposes long-horizon decision-making into macro-level planning and micro-level execution. HiMAC models reasoning as a structured blueprint generation process followed by goal-conditioned action execution, enabling robust long-horizon planning within LLM-based agents. To train this hierarchy efficiently, we introduce a critic-free hierarchical policy optimization paradigm that extends group-based reinforcement learning to bi-level structures through hierarchical relative advantage estimation. Furthermore, we propose an iterative co-evolution training strategy that alternates between planner exploration and executor adaptation, mitigating the non-stationarity inherent in hierarchical learning. Extensive experiments on ALFWorld, WebShop, and Sokoban demonstrate that HiMAC consistently outperforms strong prompting and reinforcement learning baselines, achieving state-of-the-art performance and substantially improved sample efficiency across both text-based and visually grounded environments. Our results show that introducing structured hierarchy, rather than increasing model scale alone, is a key factor for enabling robust long-horizon agentic intelligence.
+
+### [SkillCraft: Can LLM Agents Learn to Use Tools Skillfully?](https://arxiv.org/abs/2603.00718v2)
+
+- **Authors:** Shiqi Chen, Jingze Gai, Ruochen Zhou, Jinghan Zhang, Tongyao Zhu, Junlong Li, Kangrui Wang, Zihan Wang, Zhengyu Chen, Klara Kaleb, Ning Miao, Siyang Gao, Cong Lu, Manling Li, Junxian He, Yee Whye Teh
+- **Published:** 2026-02-28
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CL, cs.SE
+- **Links:** [Paper](https://arxiv.org/abs/2603.00718v2) · [PDF](https://arxiv.org/pdf/2603.00718v2)
+
+Real-world tool-using agents operate over long-horizon workflows with recurring structure and diverse demands, where effective behavior requires not only invoking atomic tools but also abstracting, and reusing higher-level tool compositions. However, existing benchmarks mainly measure instance-level success under static tool sets, offering limited insight into agents' ability to acquire such reusable skills. We address this gap by introducing SkillCraft, a benchmark explicitly stress-test agent ability to form and reuse higher-level tool compositions, where we call Skills. SkillCraft features realistic, highly compositional tool-use scenarios with difficulty scaled along both quantitative and structural dimensions, designed to elicit skill abstraction and cross-task reuse. We further propose a lightweight evaluation protocol that enables agents to auto-compose atomic tools into executable Skills, cache and reuse them inside and across tasks, thereby improving efficiency while accumulating a persistent library of reusable skills. Evaluating state-of-the-art agents on SkillCraft, we observe substantial efficiency gains, with token usage reduced by up to 80% by skill saving and reuse. Moreover, success rate strongly correlates with tool composition ability at test time, underscoring compositional skill acquisition as a core capability.
+
+### [RAVEL: Reasoning Agents for Validating and Evaluating LLM Text Synthesis](https://arxiv.org/abs/2603.00686v1)
+
+- **Authors:** Andrew Zhuoer Feng, Cunxiang Wang, Yu Luo, Bosi Wen, Yidong Wang, Lin Fan, Yilin Zhou, Zikang Wang, Wenbo Yu, Lindong Wu, Hongning Wang, Minlie Huang
+- **Published:** 2026-02-28
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CL
+- **Links:** [Paper](https://arxiv.org/abs/2603.00686v1) · [PDF](https://arxiv.org/pdf/2603.00686v1)
+
+Large Language Models have evolved from single-round generators into long-horizon agents, capable of complex text synthesis scenarios. However, current evaluation frameworks lack the ability to assess the actual synthesis operations, such as outlining, drafting, and editing. Consequently, they fail to evaluate the actual and detailed capabilities of LLMs. To bridge this gap, we introduce RAVEL, an agentic framework that enables the LLM testers to autonomously plan and execute typical synthesis operations, including outlining, drafting, reviewing, and refining. Complementing this framework, we present C3EBench, a comprehensive benchmark comprising 1,258 samples derived from professional human writings. We utilize a "reverse-engineering" pipeline to isolate specific capabilities across four tasks: Cloze, Edit, Expand, and End-to-End. Through our analysis of 14 LLMs, we uncover that most LLMs struggle with tasks that demand contextual understanding under limited or under-specified instructions. By augmenting RAVEL with SOTA LLMs as operators, we find that such agentic text synthesis is dominated by the LLM's reasoning capability rather than raw generative capacity. Furthermore, we find that a strong reasoner can guide a weaker generator to yield higher-quality results, whereas the inverse does not hold. Our code and data are available at this link: https://github.com/ZhuoerFeng/RAVEL-Reasoning-Agents-Text-Eval.
+
+### [EMPA: Evaluating Persona-Aligned Empathy as a Process](https://arxiv.org/abs/2603.00552v2)
+
+- **Authors:** Shiya Zhang, Yuhan Zhan, Ruixi Su, Ruihan Sun, Ziyi Song, Zhaohan Chen, Xiaofan Zhang
+- **Published:** 2026-02-28
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.00552v2) · [PDF](https://arxiv.org/pdf/2603.00552v2)
+
+Evaluating persona-aligned empathy in LLM-based dialogue agents remains challenging. User states are latent, feedback is sparse and difficult to verify in situ, and seemingly supportive turns can still accumulate into trajectories that drift from persona-specific needs. We introduce EMPA, a process-oriented framework that evaluates persona-aligned support as sustained intervention rather than isolated replies. EMPA distills real interactions into controllable, psychologically grounded scenarios, couples them with an open-ended multi-agent sandbox that exposes strategic adaptation and failure modes, and scores trajectories in a latent psychological space by directional alignment, cumulative impact, and stability. The resulting signals and metrics support reproducible comparison and optimization of long-horizon empathic behavior, and they extend to other agent settings shaped by latent dynamics and weak, hard-to-verify feedback.
+
+### [LOGIGEN: Logic-Driven Generation of Verifiable Agentic Tasks](https://arxiv.org/abs/2603.00540v1)
+
+- **Authors:** Yucheng Zeng, Weipeng Lu, Linyun Liu, Shupeng Li, Zitian Qu, Chenghao Zhu, Shaofei Li, Zhengdong Tan, Mengyue Liu, Haotian Zhao, Zhe Zhou, Jianmin Wu
+- **Published:** 2026-02-28
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.00540v1) · [PDF](https://arxiv.org/pdf/2603.00540v1)
+
+The evolution of Large Language Models (LLMs) from static instruction-followers to autonomous agents necessitates operating within complex, stateful environments to achieve precise state-transition objectives. However, this paradigm is bottlenecked by data scarcity, as existing tool-centric reverse-synthesis pipelines fail to capture the rigorous logic of real-world applications. We introduce \textbf{LOGIGEN}, a logic-driven framework that synthesizes verifiable training data based on three core pillars: \textbf{Hard-Compiled Policy Grounding}, \textbf{Logic-Driven Forward Synthesis}, and \textbf{Deterministic State Verification}. Specifically, a Triple-Agent Orchestration is employed: the \textbf{Architect} compiles natural-language policy into database constraints to enforce hard rules; the \textbf{Set Designer} initializes boundary-adjacent states to trigger critical policy conflicts; and the \textbf{Explorer} searches this environment to discover causal solution paths. This framework yields a dataset of 20,000 complex tasks across 8 domains, where validity is strictly guaranteed by checking exact state equivalence. Furthermore, we propose a verification-based training protocol where Supervised Fine-Tuning (SFT) on verifiable trajectories establishes compliance with hard-compiled policy, while Reinforcement Learning (RL) guided by dense state-rewards refines long-horizon goal achievement. On $τ^2$-Bench, LOGIGEN-32B(RL) achieves a \textbf{79.5\% success rate}, substantially outperforming the base model (40.7\%). These results demonstrate that logic-driven synthesis combined with verification-based training effectively constructs the causally valid trajectories needed for next-generation agents.
+
+### [DenoiseFlow: Uncertainty-Aware Denoising for Reliable LLM Agentic Workflows](https://arxiv.org/abs/2603.00532v1)
+
+- **Authors:** Yandong Yan, Junwei Peng, Shijie Li, Chenxi Li, Yifei Shang, Can Deng, Ruiting Dai, Yongqiang Zhao, Jiaqi Zhu, Yu Huang
+- **Published:** 2026-02-28
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2603.00532v1) · [PDF](https://arxiv.org/pdf/2603.00532v1)
+
+Autonomous agents are increasingly entrusted with complex, long-horizon tasks, ranging from mathematical reasoning to software generation. While agentic workflows facilitate these tasks by decomposing them into multi-step reasoning chains, reliability degrades significantly as the sequence lengthens. Specifically, minor interpretation errors in natural-language instructions tend to compound silently across steps. We term this failure mode accumulated semantic ambiguity. Existing approaches to mitigate this often lack runtime adaptivity, relying instead on static exploration budgets, reactive error recovery, or single-path execution that ignores uncertainty entirely. We formalize the multi-step reasoning process as a Noisy MDP and propose DenoiseFlow, a closed-loop framework that performs progressive denoising through three coordinated stages: (1)Sensing estimates per-step semantic uncertainty; (2)Regulating adaptively allocates computation by routing between fast single-path execution and parallel exploration based on estimated risk; and (3)Correcting performs targeted recovery via influence-based root-cause localization. Online self-calibration continuously aligns decision boundaries with verifier feedback, requiring no ground-truth labels. Experiments on six benchmarks spanning mathematical reasoning, code generation, and multi-hop QA show that DenoiseFlow achieves the highest accuracy on every benchmark (83.3% average, +1.3% over the strongest baseline) while reducing cost by 40--56% through adaptive branching. Detailed ablation studies further confirm framework-level's robustness and generality. Code is available at https://anonymous.4open.science/r/DenoiseFlow-21D3/.
+
+### [Enhancing Vision-Language Navigation with Multimodal Event Knowledge from Real-World Indoor Tour Videos](https://arxiv.org/abs/2602.23937v1)
+
+- **Authors:** Haoxuan Xu, Tianfu Li, Wenbo Chen, Yi Liu, Xingxing Zuo, Yaoxian Song, Haoang Li
+- **Published:** 2026-02-27
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.RO, cs.CV
+- **Links:** [Paper](https://arxiv.org/abs/2602.23937v1) · [PDF](https://arxiv.org/pdf/2602.23937v1)
+
+Vision-Language Navigation (VLN) agents often struggle with long-horizon reasoning in unseen environments, particularly when facing ambiguous, coarse-grained instructions. While recent advances use knowledge graph to enhance reasoning, the potential of multimodal event knowledge inspired by human episodic memory remains underexplored. In this work, we propose an event-centric knowledge enhancement strategy for automated process knowledge mining and feature fusion to solve coarse-grained instruction and long-horizon reasoning in VLN task. First, we construct YE-KG, the first large-scale multimodal spatiotemporal knowledge graph, with over 86k nodes and 83k edges, derived from real-world indoor videos. By leveraging multimodal large language models (i.e., LLaVa, GPT4), we extract unstructured video streams into structured semantic-action-effect events to serve as explicit episodic memory. Second, we introduce STE-VLN, which integrates the above graph into VLN models via a Coarse-to-Fine Hierarchical Retrieval mechanism. This allows agents to retrieve causal event sequences and dynamically fuse them with egocentric visual observations. Experiments on REVERIE, R2R, and R2R-CE benchmarks demonstrate the efficiency of our event-centric strategy, outperforming state-of-the-art approaches across diverse action spaces. Our data and code are available on the project website https://sites.google.com/view/y-event-kg/.
+
+### [ProductResearch: Training E-Commerce Deep Research Agents via Multi-Agent Synthetic Trajectory Distillation](https://arxiv.org/abs/2602.23716v1)
+
+- **Authors:** Jiangyuan Wang, Kejun Xiao, Huaipeng Zhao, Tao Luo, Xiaoyi Zeng
+- **Published:** 2026-02-27
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2602.23716v1) · [PDF](https://arxiv.org/pdf/2602.23716v1)
+
+Large Language Model (LLM)-based agents show promise for e-commerce conversational shopping, yet existing implementations lack the interaction depth and contextual breadth required for complex product research. Meanwhile, the Deep Research paradigm, despite advancing information synthesis in web search, suffers from domain gaps when transferred to e-commerce. We propose ProductResearch, a multi-agent framework that synthesizes high-fidelity, long-horizon tool-use trajectories for training robust e-commerce shopping agents. The framework employs a User Agent to infer nuanced shopping intents from behavioral histories, and a Supervisor Agent that orchestrates iterative collaboration with a Research Agent to generate synthetic trajectories culminating in comprehensive, insightful product research reports. These trajectories are rigorously filtered and distilled through a reflective internalization process that consolidates multi-agent supervisory interactions into coherent single-role training examples, enabling effective fine-tuning of LLM agents for complex shopping inquiries. Extensive experiments show that a compact MoE model fine-tuned on our synthetic data achieves substantial improvements over its base model in response comprehensiveness, research depth, and user-perceived utility, approaching the performance of frontier proprietary deep research systems and establishing multi-agent synthetic trajectory training as an effective and scalable paradigm for enhancing LLM-based shopping assistance.
+
+### [PseudoAct: Leveraging Pseudocode Synthesis for Flexible Planning and Action Control in Large Language Model Agents](https://arxiv.org/abs/2602.23668v1)
+
+- **Authors:** Yihan, Wen, Xin Chen
+- **Published:** 2026-02-27
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** Logon
+- **Categories:** cs.AI, eess.SY
+- **Links:** [Paper](https://arxiv.org/abs/2602.23668v1) · [PDF](https://arxiv.org/pdf/2602.23668v1)
+
+Large language model (LLM) agents typically rely on reactive decision-making paradigms such as ReAct, selecting actions conditioned on growing execution histories. While effective for short tasks, these approaches often lead to redundant tool usage, unstable reasoning, and high token consumption in complex long-horizon tasks involving branching, iteration, or multi-tool coordination. To address these limitations, this paper introduces PseudoAct, a novel framework for flexible planning and action control in LLM agents through pseudocode synthesis. Leveraging the ability of LLMs to express task-solving strategies as code, PseudoAct synthesizes a structured pseudocode plan that decomposes a task into subtasks and explicitly encodes control flow, including sequencing, conditionals, loops, parallel composition, and combinations of these logic primitives. Actions are then executed by following this global plan, making the decision logic explicit and temporally coherent. This design reduces redundant actions, prevents infinite loops, and avoids uninformative alternative exploration, enabling consistent and efficient long-horizon decision-making. Experiments on benchmark datasets show that our method significantly outperforms existing reactive agent approaches, achieving a 20.93% absolute gain in success rate on FEVER and setting a new state-of-the-art on HotpotQA.
+
+### [Hierarchy-of-Groups Policy Optimization for Long-Horizon Agentic Tasks](https://arxiv.org/abs/2602.22817v1)
+
+- **Authors:** Shuo He, Lang Feng, Qi Wei, Xin Cheng, Lei Feng, Bo An
+- **Published:** 2026-02-26
+- **Priority:** 🏅 Selected top venue: ICLR 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
+- **Venue:** ICLR 2026
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2602.22817v1) · [PDF](https://arxiv.org/pdf/2602.22817v1)
+
+Group-based reinforcement learning (RL), such as GRPO, has advanced the capabilities of large language models on long-horizon agentic tasks. To enable more fine-grained policy updates, recent research has increasingly shifted toward stepwise group-based policy optimization, which treats each step in a rollout trajectory independently while using a memory module to retain historical context. However, we find a key issue in estimating stepwise relative advantages, namely context inconsistency, where steps within the same group may differ in their historical contexts. Empirically, we reveal that this issue can lead to severely biased advantage estimation, thereby degrading policy optimization significantly. To address the issue, in this paper, we propose Hierarchy-of-Groups Policy Optimization (HGPO) for long-horizon agentic tasks. Specifically, within a group of rollout trajectories, HGPO assigns each step to multiple hierarchical groups according to the consistency of historical contexts. Then, for each step, HGPO computes distinct advantages within each group and aggregates them with an adaptive weighting scheme. In this way, HGPO can achieve a favorable bias-variance trade-off in stepwise advantage estimation, without extra models or rollouts. Evaluations on two challenging agentic tasks, ALFWorld and WebShop with Qwen2.5-1.5B-Instruct and Qwen2.5-7B-Instruct, show that HGPO significantly outperforms existing agentic RL methods under the same computational constraints. Code is available at https://github.com/langfengQ/verl-agent/tree/master/recipe/hgpo.
+
+### [SideQuest: Model-Driven KV Cache Management for Long-Horizon Agentic Reasoning](https://arxiv.org/abs/2602.22603v2)
+
+- **Authors:** Sanjay Kariyappa, G. Edward Suh
+- **Published:** 2026-02-26
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.AI, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2602.22603v2) · [PDF](https://arxiv.org/pdf/2602.22603v2)
+
+Long-running agentic tasks, such as deep research, require multi-hop reasoning over information distributed across multiple webpages and documents. In such tasks, the LLM context is dominated by tokens from external retrieval, causing memory usage to grow rapidly and limiting decode performance. While several KV cache compression techniques exist for long-context inputs, we find that existing heuristics fail to support multi-step reasoning models effectively. We address this challenge with SideQuest -- a novel approach that leverages the Large Reasoning Model (LRM) itself to perform KV cache compression by reasoning about the usefulness of tokens in its context. To prevent the tokens associated with this management process from polluting the model's memory, we frame KV cache compression as an auxiliary task executed in parallel to the main reasoning task. Our evaluations, using a model trained with just 215 samples, show that SideQuest reduces peak token usage by up to 65% on agentic tasks with minimal degradation in accuracy, outperforming heuristic-based KV cache compression techniques.
+
+### [SWE-Protégé: Learning to Selectively Collaborate With an Expert Unlocks Small Language Models as Software Engineering Agents](https://arxiv.org/abs/2602.22124v1)
+
+- **Authors:** Patrick Tser Jern Kon, Archana Pradeep, Ang Chen, Alexander P. Ellis, Warren Hunt, Zijian Wang, John Yang, Samuel Thompson
+- **Published:** 2026-02-25
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.SE, cs.AI, cs.CL, cs.LG
+- **Links:** [Paper](https://arxiv.org/abs/2602.22124v1) · [PDF](https://arxiv.org/pdf/2602.22124v1)
+
+Small language models (SLMs) offer compelling advantages in cost, latency, and adaptability, but have so far lagged behind larger models on long-horizon software engineering tasks such as SWE-bench, where they suffer from pervasive action looping and low resolution rates. We introduce SWE-Protégé, a post-training framework that reframes software repair as an expert-protégé collaboration problem. In SWE-Protégé, an SLM remains the sole decision-maker while learning to selectively seek guidance from a strong expert model, recognize stalled states, and follow through on expert feedback. Our approach combines supervised fine-tuning on expert-augmented trajectories with agentic reinforcement learning that explicitly discourages degenerative looping and unproductive expert collaboration. We lightly post-train Qwen2.5-Coder-7B-Instruct to achieve 42.4% Pass@1 on SWE-bench Verified, a +25.4% improvement over the prior SLM state of the art, while using expert assistance sparsely (~4 calls per task and 11% of total tokens).
+
+### [Hierarchical LLM-Based Multi-Agent Framework with Prompt Optimization for Multi-Robot Task Planning](https://arxiv.org/abs/2602.21670v2)
+
+- **Authors:** Tomoya Kawabe, Rin Takano
+- **Published:** 2026-02-25
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.RO, cs.AI, cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2602.21670v2) · [PDF](https://arxiv.org/pdf/2602.21670v2)
+
+Multi-robot task planning requires decomposing natural-language instructions into executable actions for heterogeneous robot teams. Conventional Planning Domain Definition Language (PDDL) planners provide rigorous guarantees but struggle to handle ambiguous or long-horizon missions, while large language models (LLMs) can interpret instructions and propose plans but may hallucinate or produce infeasible actions. We present a hierarchical multi-agent LLM-based planner with prompt optimization: an upper layer decomposes tasks and assigns them to lower-layer agents, which generate PDDL problems solved by a classical planner. When plans fail, the system applies TextGrad-inspired textual-gradient updates to optimize each agent's prompt and thereby improve planning accuracy. In addition, meta-prompts are learned and shared across agents within the same layer, enabling efficient prompt optimization in multi-agent settings. On the MAT-THOR benchmark, our planner achieves success rates of 0.95 on compound tasks, 0.84 on complex tasks, and 0.60 on vague tasks, improving over the previous state-of-the-art LaMMA-P by 2, 7, and 15 percentage points respectively. An ablation study shows that the hierarchical structure, prompt optimization, and meta-prompt sharing contribute roughly +59, +37, and +4 percentage points to the overall success rate.
+
+### [Training-Free Agentic AI: Probabilistic Control and Coordination in Multi-Agent LLM Systems](https://arxiv.org/abs/2603.13256v1)
+
+- **Authors:** Mohammad Parsa Hosseini, Ankit Shah, Saiyra Qureshi, Alex Huang, Connie Miao, Wei Wei
+- **Published:** 2026-02-24
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.CL, cs.AI, cs.ET, cs.MA
+- **Links:** [Paper](https://arxiv.org/abs/2603.13256v1) · [PDF](https://arxiv.org/pdf/2603.13256v1)
+
+Multi-agent large language model (LLM) systems enable complex, long-horizon reasoning by composing specialized agents, but practical deployment remains hindered by inefficient routing, noisy feedback, and high interaction cost. We introduce REDEREF, a lightweight and training-free controller for multi-agent LLM collaboration that improves routing efficiency during recursive delegation. REDEREF integrates (i) belief-guided delegation via Thompson sampling to prioritize agents with historically positive marginal contributions, (ii) reflection-driven re-routing using a calibrated LLM or programmatic judge, (iii) evidence-based selection rather than output averaging, and (iv) memory-aware priors to reduce cold-start inefficiency. Across multi-agent split-knowledge tasks, we show that while recursive retry alone saturates task success, belief-guided routing reduces token usage by 28%, agent calls by 17%, and time-to-success by 19% compared to random recursive delegation, and adapts gracefully under agent or judge degradation. These results demonstrate that simple, interpretable probabilistic control can meaningfully improve the efficiency and robustness of multi-agent LLM systems without training or fine-tuning.

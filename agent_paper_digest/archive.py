@@ -18,7 +18,6 @@ from .highlight import (
 )
 from .models import Paper
 from .topics import (
-    AGENT_MEMORY_TOPIC,
     CONTINUAL_TRAINING_TOPIC,
     LONG_HORIZON_TOPIC,
     MIN_PUBLICATION_DATE,
@@ -327,7 +326,7 @@ class ArchiveRepository:
             f"# Daily Papers · {discovery_date.isoformat()}",
             "",
             f"> Prepared **{len(papers)}** new, promoted, or retried paper(s) "
-            "across five research tracks plus explicitly requested papers. "
+            "across four research tracks plus explicitly requested papers. "
             "Lists are newest publication first.",
         ]
         if coverage_start and coverage_end:
@@ -467,7 +466,10 @@ class ArchiveRepository:
     def _write_monthly_archives(self, papers: list[Paper]) -> None:
         for old_index in (self.root / "papers").glob("*/*/README.md"):
             year_name = old_index.parent.parent.name
-            if year_name.isdigit() and int(year_name) < MIN_PUBLICATION_DATE.year:
+            if year_name.isdigit() and (int(year_name), int(old_index.parent.name)) < (
+                MIN_PUBLICATION_DATE.year,
+                MIN_PUBLICATION_DATE.month,
+            ):
                 old_index.unlink()
         grouped: dict[tuple[int, int], list[Paper]] = defaultdict(list)
         for paper in papers:
@@ -481,6 +483,8 @@ class ArchiveRepository:
             if year == datetime.now(ZoneInfo("Asia/Shanghai")).date().year:
                 months = range(1, datetime.now(ZoneInfo("Asia/Shanghai")).date().month + 1)
             for month in months:
+                if (year, month) < (MIN_PUBLICATION_DATE.year, MIN_PUBLICATION_DATE.month):
+                    continue
                 month_papers = sorted(
                     grouped.get((year, month), []),
                     key=lambda item: (item.published, item.arxiv_id),
@@ -504,7 +508,6 @@ class ArchiveRepository:
             "",
             f"> {len(papers)} unique papers · "
             f"Agent/LLM Self-Improvement {topic_counts[SELF_EVOLUTION_TOPIC]} · "
-            f"Memory {topic_counts[AGENT_MEMORY_TOPIC]} · "
             f"Continual Training {topic_counts[CONTINUAL_TRAINING_TOPIC]} · "
             f"Reinforcement Learning {topic_counts[REINFORCEMENT_LEARNING_TOPIC]} · "
             f"Long-Horizon {topic_counts[LONG_HORIZON_TOPIC]}",
@@ -556,13 +559,13 @@ class ArchiveRepository:
             '<div align="center">',
             "",
             "A daily collection of papers on **Agent/LLM self-evolution, self-improving "
-            "systems, and recursive self-improvement**, **agent memory**, and **LLM "
+            "systems, and recursive self-improvement**, **LLM "
             "continual training**, **Reinforcement Learning**, and **Long-Horizon Task Agents**,",
             "powered by AstrBot.",
             "",
             "The bot resumes from its last successful delivery after downtime, prioritizes",
             "verified industry-affiliated work (especially first authors), and marks explicit",
-            "top-conference or top-journal publications without promoting under-review claims.",
+            "top-conference publications without promoting under-review claims.",
             "",
             "![Python](https://img.shields.io/badge/Python-3.12+-3776AB?logo=python&logoColor=white)",
             "![AstrBot](https://img.shields.io/badge/AstrBot-4.26+-76bad9)",
@@ -582,7 +585,6 @@ class ArchiveRepository:
             f"| Total papers | {len(papers)} |",
             f"| Agent/LLM self-evolution & self-improvement | "
             f"{topic_counts[SELF_EVOLUTION_TOPIC]} |",
-            f"| Agent memory | {topic_counts[AGENT_MEMORY_TOPIC]} |",
             f"| LLM continual training | {topic_counts[CONTINUAL_TRAINING_TOPIC]} |",
             f"| Reinforcement Learning | {topic_counts[REINFORCEMENT_LEARNING_TOPIC]} |",
             f"| Long-Horizon Task Agents | {topic_counts[LONG_HORIZON_TOPIC]} |",
@@ -621,9 +623,8 @@ class ArchiveRepository:
                 "",
                 "## 🗓️ Monthly Index",
                 "",
-                "| Month | Papers | Agent/LLM Self-Improvement | Memory | "
-                "Continual Training | RL |",
-                "| --- | ---: | ---: | ---: | ---: | ---: |",
+                "| Month | Papers | Agent/LLM Self-Improvement | Continual Training | RL |",
+                "| --- | ---: | ---: | ---: | ---: |",
             ]
         )
         month_keys = sorted(
@@ -646,7 +647,6 @@ class ArchiveRepository:
                 f"| [{year}-{month:02d}](papers/{year}/{month:02d}/README.md) | "
                 f"{len(month_papers)} | "
                 f"{sum(SELF_EVOLUTION_TOPIC in p.topics for p in month_papers)} | "
-                f"{sum(AGENT_MEMORY_TOPIC in p.topics for p in month_papers)} | "
                 f"{sum(CONTINUAL_TRAINING_TOPIC in p.topics for p in month_papers)} | "
                 f"{sum(REINFORCEMENT_LEARNING_TOPIC in p.topics for p in month_papers)} |"
             )
@@ -683,17 +683,18 @@ class ArchiveRepository:
                 "- **Agent & LLM Self-Evolution:** self-evolving, self-improving, recursive "
                 "self-improvement, self-refinement, self-feedback reinforcement, and "
                 "co-evolving agents or language models",
-                "- **Agent Memory:** long-term, memory-augmented, and persistent agent memory",
                 "- **LLM Continual Training:** continual pre/post-training, lifelong and "
                 "online adaptation, retention, and catastrophic-forgetting mitigation",
                 "- **Long-Horizon Task Agents:** language agents executing extended, "
                 "multi-step tasks",
-                "- **Date boundary:** first publication on or after 2025-01-01; "
+                "- **Excluded:** Agent Memory papers (including cross-topic papers) "
+                "and journal articles",
+                "- **Date boundary:** first publication on or after 2025-05-01; "
                 "a recent revision does not make an older paper eligible",
                 "- **Reinforcement Learning:** substantive RL training or research directly "
                 "related to language models / language agents, including RLHF, RLAIF, RLVR "
                 "and GRPO; generic control/robotics RL and incidental mentions are excluded",
-                "- **Public inclusion:** any of the five topics or an explicit user request; "
+                "- **Public inclusion:** any of the four topics or an explicit user request; "
                 "industry, venue, and citation "
                 "signals highlight papers without excluding new preprints",
                 "- **Acceptance dates:** first observed means newly detected by this bot; "

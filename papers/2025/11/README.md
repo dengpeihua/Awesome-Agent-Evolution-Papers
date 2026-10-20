@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 34 unique papers · Agent/LLM Self-Improvement 5 · Memory 1 · Continual Training 1 · Reinforcement Learning 4 · Long-Horizon 28
+> 33 unique papers · Agent/LLM Self-Improvement 5 · Continual Training 1 · Reinforcement Learning 4 · Long-Horizon 27
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -13,7 +13,6 @@
 | 2025-11-27 | Agent/LLM Self-Improvement | [Co-Evolving Agents: Learning from Failures as Hard Negatives](https://arxiv.org/abs/2511.22254v5)<br>[PDF](https://arxiv.org/pdf/2511.22254v5) | arXiv.org | — | Citations: 8 (Semantic Scholar) |
 | 2025-11-27 | Long-Horizon Task Agents | [Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation](https://arxiv.org/abs/2511.22235v2)<br>[PDF](https://arxiv.org/pdf/2511.22235v2) | CVPR 2026 | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | — |
 | 2025-11-26 | Long-Horizon Task Agents | [SABER: Small Actions, Big Errors -- Safeguarding Mutating Steps in LLM Agents](https://arxiv.org/abs/2512.07850v1)<br>[PDF](https://arxiv.org/pdf/2512.07850v1) | arXiv.org | 📈 Highly cited | Citations: 25 (Semantic Scholar) |
-| 2025-11-25 | Agent Memory<br>Long-Horizon Task Agents | [Improving Language Agents through BREW: Bootstrapping expeRientially-learned Environmental knoWledge](https://arxiv.org/abs/2511.20297v2)<br>[PDF](https://arxiv.org/pdf/2511.20297v2) | arXiv | — | — |
 | 2025-11-25 | Reinforcement Learning<br>Long-Horizon Task Agents | [Stabilizing Off-Policy Training for Long-Horizon LLM Agent via Turn-Level Importance Sampling and Clipping-Triggered Normalization](https://arxiv.org/abs/2511.20718v3)<br>[PDF](https://arxiv.org/pdf/2511.20718v3) | arXiv | — | Citations: 7 (Semantic Scholar) |
 | 2025-11-24 | Agent/LLM Self-Improvement | [VDC-Agent: When Video Detailed Captioners Evolve Themselves via Agentic Self-Reflection](https://arxiv.org/abs/2511.19436v2)<br>[PDF](https://arxiv.org/pdf/2511.19436v2) | ECCV 2026 | 🏅 Selected top venue: ECCV 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Citations: 4 (Semantic Scholar) |
 | 2025-11-24 | Reinforcement Learning | [SLMFix: Leveraging Small Language Models for Domain Specific Language Error Fixing with Reinforcement Learning](https://arxiv.org/abs/2511.19422v2)<br>[PDF](https://arxiv.org/pdf/2511.19422v2) | arXiv | — | Citations: 3 (Semantic Scholar) |

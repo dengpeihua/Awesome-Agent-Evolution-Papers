@@ -37,13 +37,7 @@ DISCOVERY_SOURCES = {
         "https://raw.githubusercontent.com/selfimproving-agent/"
         "Awesome-Self-Improving-Agents/main/README.md"
     ),
-    "agent-memory": (
-        "https://raw.githubusercontent.com/AgentMemoryWorld/"
-        "Awesome-Agent-Memory/main/papers/2026.md"
-    ),
-    "agent-memory-taxonomy": (
-        "https://raw.githubusercontent.com/TeleAI-UAGI/Awesome-Agent-Memory/main/README.md"
-    ),
+
 }
 
 EXTRA_ARXIV_TOPICS = {
@@ -74,6 +68,10 @@ EXTRA_ARXIV_TOPICS = {
     "2608.03392": (SELF_EVOLUTION_TOPIC,),
     "2608.03463": ("agent-memory",),
 }
+EXTRA_ARXIV_TOPICS = {
+    key: topics for key, topics in EXTRA_ARXIV_TOPICS.items() if "agent-memory" not in topics
+}
+
 
 
 @dataclass(frozen=True, slots=True)

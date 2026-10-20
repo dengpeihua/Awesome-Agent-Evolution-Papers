@@ -14,7 +14,6 @@ from tests.test_archive import make_paper
 def test_migrates_legacy_agent_self_evolving_topic() -> None:
     assert normalize_topics(("agent-self-evolving", "agent-memory")) == (
         "agent-llm-self-evolution",
-        "agent-memory",
     )
 
 
@@ -96,7 +95,7 @@ def test_preserves_agent_memory_as_a_separate_direction() -> None:
         title="Long-Term Episodic Memory for LLM Agents",
     )
 
-    assert infer_topics(paper) == ("agent-memory",)
+    assert infer_topics(paper) == ()
 
 
 @pytest.mark.parametrize(

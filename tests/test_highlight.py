@@ -30,11 +30,11 @@ def test_highlighter_marks_first_author_industry_and_explicit_top_venue() -> Non
 
 def test_highlighter_does_not_promote_workshops_or_under_review_claims() -> None:
     workshop = replace(
-        make_paper("2608.00002", topics=("agent-memory",)),
+        make_paper("2608.00002", topics=("agent-llm-self-evolution",)),
         comment="Accepted to the ACL 2026 Workshop on Agent Memory",
     )
     submitted = replace(
-        make_paper("2608.00003", topics=("agent-memory",)),
+        make_paper("2608.00003", topics=("agent-llm-self-evolution",)),
         comment="Submitted to ICML 2027; under review",
     )
 
@@ -44,12 +44,12 @@ def test_highlighter_does_not_promote_workshops_or_under_review_claims() -> None
 
 def test_emnlp_preprint_is_normalized_but_colm_is_not_selected() -> None:
     emnlp = replace(
-        make_paper("2608.00004", topics=("agent-memory",)),
+        make_paper("2608.00004", topics=("agent-llm-self-evolution",)),
         venue="arXiv.org",
         comment="Accepted to EMNLP 2026 as a full paper",
     )
     colm = replace(
-        make_paper("2608.00005", topics=("agent-memory",)),
+        make_paper("2608.00005", topics=("agent-llm-self-evolution",)),
         venue="COLM 2026",
         venue_source="Semantic Scholar publication metadata",
     )
@@ -79,7 +79,7 @@ def test_first_author_big_tech_and_high_citations_qualify_independently() -> Non
 
 def test_coauthor_profile_and_code_stars_do_not_qualify() -> None:
     paper = replace(
-        make_paper("2608.00008", topics=("agent-memory",)),
+        make_paper("2608.00008", topics=("agent-llm-self-evolution",)),
         affiliations=("Google DeepMind",),
         affiliation_source="Semantic Scholar author profiles",
         github_stars=100_000,
@@ -124,4 +124,79 @@ def test_future_first_publication_is_not_eligible():
         make_paper("future", topics=("user-requested",)),
         published=datetime.now(UTC) + timedelta(days=2),
     )
+    assert not is_eligible(paper)
+
+
+@pytest.mark.parametrize(
+    "venue",
+    [
+        "TMLR",
+        "Trans. Mach. Learn. Res.",
+        "Advanced Intelligent Systems",
+        "IEEE Control Systems Letters",
+        "IEEE Computational Intelligence Magazine",
+        "Computer",
+        "JACS Au",
+        "Proceedings of the ACM on Management of Data",
+        "Nature Communications",
+        "Pattern Recognition",
+        "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "Journal of AI Research",
+    ],
+)
+def test_journals_are_excluded_even_when_requested(venue):
+    paper = replace(make_paper("2607.12345", topics=("user-requested",)), venue=venue)
+    assert not is_eligible(paper)
+    assert not is_eligible(classify_highlights(paper))
+
+
+def test_conference_reference_and_doi_are_not_journal_evidence():
+    paper = replace(
+        make_paper("2607.12345", topics=("user-requested",)),
+        venue="Conference on Computer Vision and Pattern Recognition",
+        journal_ref="Proceedings of CVPR 2026",
+        doi="10.1109/CVPR.2026.12345",
+    )
+    assert is_eligible(paper)
+
+
+def test_journal_publication_type_survives_serialization_and_merge():
+    from agent_paper_digest.models import Paper
+
+    paper = replace(
+        make_paper("2607.12345", topics=("user-requested",)), publication_types=("JournalArticle",)
+    )
+    restored = Paper.from_dict(paper.to_dict())
+    assert not is_eligible(restored.merge(replace(paper, publication_types=())))
+
+
+def test_memory_cross_topic_is_permanently_excluded_after_classification():
+    paper = make_paper("2607.12345", topics=("agent-memory", "user-requested"))
+    classified = classify_highlights(paper)
+    assert not is_eligible(classified)
+    assert not is_eligible(classify_highlights(classified))
+
+
+def test_new_memory_paper_from_other_query_is_excluded():
+    paper = replace(
+        make_paper("2607.12345", topics=("user-requested",)),
+        title="Agent Memory for Long-Horizon LLM Agents",
+    )
+    assert not is_eligible(paper)
+
+
+@pytest.mark.parametrize("month,expected", [(1, False), (4, False), (5, True)])
+def test_may_2025_date_boundary(month, expected):
+    from datetime import UTC, datetime
+
+    paper = replace(
+        make_paper("2505.12345", topics=("user-requested",)),
+        published=datetime(2025, month, 1, tzinfo=UTC),
+    )
+    assert is_eligible(paper) is expected
+
+
+def test_removed_identifier_cannot_return_through_another_topic(monkeypatch):
+    monkeypatch.setattr("agent_paper_digest.highlight.EXCLUDED_PAPER_IDS", frozenset({"removed"}))
+    paper = make_paper("removed", topics=("user-requested",))
     assert not is_eligible(paper)

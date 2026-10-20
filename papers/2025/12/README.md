@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 57 unique papers · Agent/LLM Self-Improvement 6 · Memory 3 · Continual Training 6 · Reinforcement Learning 5 · Long-Horizon 52
+> 52 unique papers · Agent/LLM Self-Improvement 5 · Continual Training 6 · Reinforcement Learning 5 · Long-Horizon 47
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -23,10 +23,8 @@
 | 2025-12-23 | Long-Horizon Task Agents | [Laser: Governing Long-Horizon Agentic Search via Structured Protocol and Context Register](https://arxiv.org/abs/2512.20458v2)<br>[PDF](https://arxiv.org/pdf/2512.20458v2) | arXiv.org | — | Citations: 0 (Semantic Scholar) |
 | 2025-12-23 | Long-Horizon Task Agents | [Offline Safe Policy Optimization From Heterogeneous Feedback](https://arxiv.org/abs/2512.20173v1)<br>[PDF](https://arxiv.org/pdf/2512.20173v1) | Proceedings of the 25th International Conference on Autonomous Agents and Multiagent Systems | — | Citations: 1 (Semantic Scholar) |
 | 2025-12-22 | Long-Horizon Task Agents | [PhysMaster: Building an Autonomous AI Physicist for Theoretical and Computational Physics Research](https://arxiv.org/abs/2512.19799v2)<br>[PDF](https://arxiv.org/pdf/2512.19799v2) | arXiv | — | — |
-| 2025-12-22 | Agent Memory<br>Long-Horizon Task Agents | [Event Extraction in Large Language Model](https://arxiv.org/abs/2512.19537v1)<br>[PDF](https://arxiv.org/pdf/2512.19537v1) | arXiv.org | — | Citations: 5 (Semantic Scholar) |
 | 2025-12-22 | Long-Horizon Task Agents | [DeliveryBench: Can Agents Earn Profit in Real World?](https://arxiv.org/abs/2512.19234v1)<br>[PDF](https://arxiv.org/pdf/2512.19234v1) | arXiv.org | — | Citations: 7 (Semantic Scholar) |
 | 2025-12-21 | Reinforcement Learning<br>Long-Horizon Task Agents | [Vox Deorum: A Hybrid LLM Architecture for 4X / Grand Strategy Game AI -- Lessons from Civilization V](https://arxiv.org/abs/2512.18564v2)<br>[PDF](https://arxiv.org/pdf/2512.18564v2) | arXiv.org | — | Citations: 5 (Semantic Scholar) |
-| 2025-12-20 | Agent/LLM Self-Improvement<br>Agent Memory<br>Long-Horizon Task Agents | [Towards Efficient Agents: A Co-Design of Inference Architecture and System](https://arxiv.org/abs/2512.18337v2)<br>[PDF](https://arxiv.org/pdf/2512.18337v2) | arXiv | — | — |
 | 2025-12-20 | Agent/LLM Self-Improvement<br>Long-Horizon Task Agents | [Sophia: A Persistent Agent Framework of Artificial Life](https://arxiv.org/abs/2512.18202v1)<br>[PDF](https://arxiv.org/pdf/2512.18202v1) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
 | 2025-12-19 | Long-Horizon Task Agents | [AnyTask: an Automated Task and Data Generation Framework for Advancing Sim-to-Real Policy Learning](https://arxiv.org/abs/2512.17853v2)<br>[PDF](https://arxiv.org/pdf/2512.17853v2) | arXiv | — | — |
 | 2025-12-18 | Reinforcement Learning<br>Long-Horizon Task Agents | [Turn-PPO: Turn-Level Advantage Estimation with PPO for Improved Multi-Turn RL in Agentic LLMs](https://arxiv.org/abs/2512.17008v2)<br>[PDF](https://arxiv.org/pdf/2512.17008v2) | arXiv | — | — |
@@ -37,9 +35,7 @@
 | 2025-12-15 | Long-Horizon Task Agents | [AgentIAD: Agentic Industrial Anomaly Detection via Adaptive Memory Augmentation](https://arxiv.org/abs/2512.13671v2)<br>[PDF](https://arxiv.org/pdf/2512.13671v2) | arXiv | — | — |
 | 2025-12-15 | Long-Horizon Task Agents | [Finch: Benchmarking Finance & Accounting across Spreadsheet-Centric Enterprise Workflows](https://arxiv.org/abs/2512.13168v5)<br>[PDF](https://arxiv.org/pdf/2512.13168v5) | arXiv | — | — |
 | 2025-12-15 | Long-Horizon Task Agents | [GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training](https://arxiv.org/abs/2512.13043v2)<br>[PDF](https://arxiv.org/pdf/2512.13043v2) | CVPR 2026 | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | — |
-| 2025-12-14 | Agent Memory<br>Long-Horizon Task Agents | [Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects](https://arxiv.org/abs/2512.12818v1)<br>[PDF](https://arxiv.org/pdf/2512.12818v1) | arXiv.org | 📈 Highly cited | Citations: 39 (Semantic Scholar) |
 | 2025-12-14 | Reinforcement Learning<br>Long-Horizon Task Agents | [CoDA: A Context-Decoupled Hierarchical Agent with Reinforcement Learning](https://arxiv.org/abs/2512.12716v1)<br>[PDF](https://arxiv.org/pdf/2512.12716v1) | Web Search and Data Mining | — | Citations: 4 (Semantic Scholar) |
-| 2025-12-13 | Long-Horizon Task Agents | [Agentic AI for 6G: A New Paradigm for Autonomous RAN Security Compliance](https://arxiv.org/abs/2512.12400v2)<br>[PDF](https://arxiv.org/pdf/2512.12400v2) | arXiv | — | — |
 | 2025-12-12 | Long-Horizon Task Agents | [Evaluating Cooperative Resilience in Multiagent Systems: A Comparison Between Humans and LLMs](https://arxiv.org/abs/2512.11689v1)<br>[PDF](https://arxiv.org/pdf/2512.11689v1) | arXiv.org | — | Citations: 1 (Semantic Scholar) |
 | 2025-12-12 | Long-Horizon Task Agents | [FutureWeaver: Planning Test-Time Compute for Multi-Agent Systems with Modularized Collaboration](https://arxiv.org/abs/2512.11213v2)<br>[PDF](https://arxiv.org/pdf/2512.11213v2) | arXiv | — | — |
 | 2025-12-11 | Long-Horizon Task Agents | [Automated Penetration Testing with LLM Agents and Classical Planning](https://arxiv.org/abs/2512.11143v1)<br>[PDF](https://arxiv.org/pdf/2512.11143v1) | arXiv.org | — | Citations: 8 (Semantic Scholar) |
@@ -53,7 +49,6 @@
 | 2025-12-05 | LLM Continual Training | [K2-V2: A 360-Open, Reasoning-Enhanced LLM](https://arxiv.org/abs/2512.06201v3)<br>[PDF](https://arxiv.org/pdf/2512.06201v3) | arXiv | — | Citations: 0 (Semantic Scholar) |
 | 2025-12-05 | Long-Horizon Task Agents | [ARCANE: A Multi-Agent Framework for Interpretable and Configurable Alignment](https://arxiv.org/abs/2512.06196v1)<br>[PDF](https://arxiv.org/pdf/2512.06196v1) | arXiv.org | — | Citations: 4 (Semantic Scholar) |
 | 2025-12-04 | Long-Horizon Task Agents | [When AI Agents Compete for Jobs: Strategic Capabilities and Economic Dynamics of AI Labour Markets](https://arxiv.org/abs/2512.04988v2)<br>[PDF](https://arxiv.org/pdf/2512.04988v2) | ICML 2026 | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | — |
-| 2025-12-04 | Long-Horizon Task Agents | [Chameleon: Adaptive Adversarial Agents for Scaling-Based Visual Prompt Injection in Multimodal AI Systems](https://arxiv.org/abs/2512.04895v1)<br>[PDF](https://arxiv.org/pdf/2512.04895v1) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
 | 2025-12-04 | Long-Horizon Task Agents | [Natural Language Actor-Critic: Scalable Off-Policy Learning in Language Space](https://arxiv.org/abs/2512.04601v2)<br>[PDF](https://arxiv.org/pdf/2512.04601v2) | arXiv | — | — |
 | 2025-12-04 | Long-Horizon Task Agents | [Automating Complex Document Workflows via Stepwise and Rollback-Enabled Operation Orchestration](https://arxiv.org/abs/2512.04445v1)<br>[PDF](https://arxiv.org/pdf/2512.04445v1) | AAAI 2026 | 🏆 CCF-A: AAAI 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Citations: 0 (Semantic Scholar) |
 | 2025-12-04 | Long-Horizon Task Agents | [AgentBay: A Hybrid Interaction Sandbox for Seamless Human-AI Intervention in Agentic Systems](https://arxiv.org/abs/2512.04367v1)<br>[PDF](https://arxiv.org/pdf/2512.04367v1) | arXiv.org | — | Citations: 7 (Semantic Scholar) |
