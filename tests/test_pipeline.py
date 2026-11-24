@@ -118,7 +118,8 @@ async def test_full_downtime_window_and_all_batches_are_delivered(tmp_path):
         async def fetch(self, *, since, max_results_per_topic):
             assert since == previous
             return [
-                make_paper(f"2609.{i:05d}", topics=("agent-llm-self-evolution",)) for i in range(25)
+                make_paper(f"fixture-batch-{i:05d}", topics=("agent-llm-self-evolution",))
+                for i in range(25)
             ]
 
     notifier = FakeNotifier()
@@ -139,7 +140,8 @@ async def test_later_batch_failure_retains_every_pending_paper(tmp_path):
     class ManySource:
         async def fetch(self, **kwargs):
             return [
-                make_paper(f"2609.{i:05d}", topics=("agent-llm-self-evolution",)) for i in range(12)
+                make_paper(f"fixture-batch-{i:05d}", topics=("agent-llm-self-evolution",))
+                for i in range(12)
             ]
 
     class FailingSecondBatch(FakeNotifier):
