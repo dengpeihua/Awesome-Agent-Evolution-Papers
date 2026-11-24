@@ -24,9 +24,9 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 
 | Metric | Count |
 | --- | ---: |
-| Total papers | 62 |
+| Total papers | 61 |
 | Recursive Self-Improvement | 22 |
-| Long-Horizon Agents | 39 |
+| Long-Horizon Agents | 38 |
 | Daily archives | 15 |
 
 ## 📚 Table of Contents
@@ -36,6 +36,7 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 - [Latest Papers](#latest-papers)
 - [Daily Archive](#daily-archive)
 - [Dataset](data/papers.json)
+- [收录理由与依据（全部论文）](data/inclusion_reasons.md)
 - [Curation Policy](docs/curation.md)
 - [Literature Audit](allinone.md)
 - [Deployment Guide](docs/deployment.md)
@@ -46,14 +47,20 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 
 | Paper | Published | Venue | Why it matters | Metrics |
 | --- | --- | --- | --- | --- |
-| [MOPD-Router: Rethinking Teacher Routing in Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2609.30837v2) | 2026-09-25 | arXiv | 🏢 Industry: Alibaba | [GitHub ★ n/a](https://github.com/TURLEing/MOPD-Router)<br>Citations: 0 (Semantic Scholar) |
-| [TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training](https://arxiv.org/abs/2607.05804v2) | 2026-07-07 | arXiv.org | 📈 Highly cited | Citations: 20 (Semantic Scholar) |
-| [$\boldsymbol{f}$-OPD: Stabilizing Long-Horizon On-Policy Distillation with Freshness-Aware Control](https://arxiv.org/abs/2605.17862v2) | 2026-05-18 | NeurIPS 2026 | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | — |
-| [Context as a Tool: Context Management for Long-Horizon SWE-Agents](https://arxiv.org/abs/2512.22087v1) | 2025-12-26 | arXiv.org | 📈 Highly cited | Citations: 48 (Semantic Scholar) |
+| [MOPD-Router: Rethinking Teacher Routing in Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2609.30837v2) | 2026-09-25 | arXiv.org | 🏢 Industry: Alibaba | [GitHub ★ n/a](https://github.com/TURLEing/MOPD-Router)<br>Citations: 2 (Semantic Scholar) |
+| [From Final Artifacts to Trajectories: Retrospective Process Supervision for Evidence-Grounded Long-Form Generation](https://arxiv.org/abs/2608.30461v1) | 2026-08-31 | Conference on Empirical Methods in Natural Language Processing | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | Citations: 0 (Semantic Scholar) |
+| [TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training](https://arxiv.org/abs/2607.05804v2) | 2026-07-07 | arXiv.org | 📈 Highly cited | Citations: 32 (Semantic Scholar) |
+| [Open-SWE-Traces: Advancing Dual-Mode Multilingual Distillation for Software Engineering Agents](https://arxiv.org/abs/2606.16038v1) | 2026-06-14 | Conference on Empirical Methods in Natural Language Processing | 📈 Highly cited<br>🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | Citations: 13 (Semantic Scholar) |
+| [$\boldsymbol{f}$-OPD: Stabilizing Long-Horizon On-Policy Distillation with Freshness-Aware Control](https://arxiv.org/abs/2605.17862v2) | 2026-05-18 | NeurIPS 2026 | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Citations: 9 (Semantic Scholar) |
+| [Recursive Models for Long-Horizon Reasoning](https://arxiv.org/abs/2603.02112v2) | 2026-03-02 | arXiv.org | 📈 Highly cited | Citations: 10 (Semantic Scholar) |
+| [FT-Dojo: Towards Autonomous LLM Fine-Tuning with Language Agents](https://arxiv.org/abs/2603.01712v2) | 2026-03-02 | arXiv.org | 📈 Highly cited | Citations: 14 (Semantic Scholar) |
+| [ProductResearch: Training E-Commerce Deep Research Agents via Multi-Agent Synthetic Trajectory Distillation](https://arxiv.org/abs/2602.23716v1) | 2026-02-27 | Annual Meeting of the Association for Computational Linguistics | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | Citations: 3 (Semantic Scholar) |
+| [Context as a Tool: Context Management for Long-Horizon SWE-Agents](https://arxiv.org/abs/2512.22087v1) | 2025-12-26 | Annual Meeting of the Association for Computational Linguistics | 📈 Highly cited<br>🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | Citations: 61 (Semantic Scholar) |
 | [GUI-ReWalk: Massive Data Generation for GUI Agent via Stochastic Exploration and Intent-Aware Reasoning](https://arxiv.org/abs/2509.15738v1) | 2025-09-19 | Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence | 📈 Highly cited<br>🏆 CCF-A: Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Citations: 13 (Semantic Scholar) |
 | [MSNav: Zero-Shot Vision-and-Language Navigation with Dynamic Memory and LLM Spatial Reasoning](https://arxiv.org/abs/2508.16654v3) | 2025-08-20 | arXiv.org | 📈 Highly cited | Citations: 10 (Semantic Scholar) |
-| [Cyber-Zero: Training Cybersecurity Agents without Runtime](https://arxiv.org/abs/2508.00910v2) | 2025-07-29 | arXiv.org | 📈 Highly cited | Citations: 23 (Semantic Scholar) |
-| [Dyna-Think: Synergizing Reasoning, Acting, and World Model Simulation in AI Agents](https://arxiv.org/abs/2506.00320v3) | 2025-05-31 | arXiv.org | 📈 Highly cited | Citations: 13 (Semantic Scholar) |
+| [EvoCurr: Self-evolving Curriculum with Behavior Code Generation for Complex Decision-making](https://arxiv.org/abs/2508.09586v3) | 2025-08-13 | Conference on Empirical Methods in Natural Language Processing | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | Citations: 3 (Semantic Scholar) |
+| [Cyber-Zero: Training Cybersecurity Agents without Runtime](https://arxiv.org/abs/2508.00910v3) | 2025-07-29 | arXiv.org | 📈 Highly cited | Citations: 23 (Semantic Scholar) |
+| [Dyna-Think: Synergizing Reasoning, Acting, and World Model Simulation in AI Agents](https://arxiv.org/abs/2506.00320v3) | 2025-05-31 | arXiv.org | 📈 Highly cited | Citations: 17 (Semantic Scholar) |
 
 ## 🗓️ Monthly Index
 
@@ -64,7 +71,7 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 | [2026-09](papers/2026/09/README.md) | 9 | 2 | 6 |
 | [2026-08](papers/2026/08/README.md) | 4 | 2 | 2 |
 | [2026-07](papers/2026/07/README.md) | 7 | 0 | 7 |
-| [2026-06](papers/2026/06/README.md) | 4 | 0 | 4 |
+| [2026-06](papers/2026/06/README.md) | 3 | 0 | 3 |
 | [2026-05](papers/2026/05/README.md) | 2 | 1 | 1 |
 | [2026-03](papers/2026/03/README.md) | 2 | 0 | 2 |
 | [2026-02](papers/2026/02/README.md) | 2 | 0 | 2 |
@@ -78,38 +85,38 @@ configure an enterprise WeChat group webhook, and enable GitHub sync.
 
 ## 📝 Latest Papers
 
-| Published | Track | Paper | Links |
-| --- | --- | --- | --- |
-| 2026-11-23 | Recursive Self-Improvement | [Beyond Self-Consistency: Recursive Self-Improvement at Test Time](https://arxiv.org/abs/2611.30965v1) | [Paper](https://arxiv.org/abs/2611.30965v1) / [PDF](https://arxiv.org/pdf/2611.30965v1) |
-| 2026-11-19 | Long-Horizon Agents | [ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents](https://arxiv.org/abs/2611.26519v1) | [Paper](https://arxiv.org/abs/2611.26519v1) / [PDF](https://arxiv.org/pdf/2611.26519v1) |
-| 2026-11-17 | Recursive Self-Improvement | [RSI-Prime: Training Models to Train Models](https://arxiv.org/abs/2611.23138v1) | [Paper](https://arxiv.org/abs/2611.23138v1) / [PDF](https://arxiv.org/pdf/2611.23138v1) |
-| 2026-11-12 | Long-Horizon Agents | [daVinci-Prover: Agent-Native Mid-Training for Formal Theorem Proving](https://arxiv.org/abs/2611.16433v1) | [Paper](https://arxiv.org/abs/2611.16433v1) / [PDF](https://arxiv.org/pdf/2611.16433v1) |
-| 2026-11-09 | Recursive Self-Improvement | [SkillDuet: Co-Evolving Models and Skills through Response Feedback](https://arxiv.org/abs/2611.12109v2) | [Paper](https://arxiv.org/abs/2611.12109v2) / [PDF](https://arxiv.org/pdf/2611.12109v2) |
-| 2026-11-04 | Long-Horizon Agents | [Visual Token Routing: Learning to keep tokens that matter](https://arxiv.org/abs/2611.06854v1) | [Paper](https://arxiv.org/abs/2611.06854v1) / [PDF](https://arxiv.org/pdf/2611.06854v1) |
-| 2026-11-01 | Long-Horizon Agents | [Is Your Long-Horizon Benchmark Really Deep? Measuring and Synthesizing Depth in Terminal Tasks](https://arxiv.org/abs/2611.01927v1) | [Paper](https://arxiv.org/abs/2611.01927v1) / [PDF](https://arxiv.org/pdf/2611.01927v1) |
-| 2026-10-30 | Recursive Self-Improvement | [TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents](https://arxiv.org/abs/2610.41216v2) | [Paper](https://arxiv.org/abs/2610.41216v2) / [PDF](https://arxiv.org/pdf/2610.41216v2) |
-| 2026-10-29 | Recursive Self-Improvement | [Training LLM Agents to Automate LLM Post-Training with RSI-Dojo](https://arxiv.org/abs/2611.03698v2) | [Paper](https://arxiv.org/abs/2611.03698v2) / [PDF](https://arxiv.org/pdf/2611.03698v2) |
-| 2026-10-29 | Recursive Self-Improvement | [Try Before You Evolve: Ranking-Scored Trials for Recursive Self-Improvement of Recommender Systems](https://arxiv.org/abs/2610.39352v1) | [Paper](https://arxiv.org/abs/2610.39352v1) / [PDF](https://arxiv.org/pdf/2610.39352v1) |
-| 2026-10-29 | Recursive Self-Improvement | [Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities](https://arxiv.org/abs/2610.39301v1) | [Paper](https://arxiv.org/abs/2610.39301v1) / [PDF](https://arxiv.org/pdf/2610.39301v1) |
-| 2026-10-28 | Recursive Self-Improvement | [Co-Evolving Policy and Rubric via Capability Awareness for Open-Ended Generation](https://arxiv.org/abs/2610.38566v1) | [Paper](https://arxiv.org/abs/2610.38566v1) / [PDF](https://arxiv.org/pdf/2610.38566v1) |
-| 2026-10-25 | Recursive Self-Improvement | [ParetoRSI-Gym: Can AI Agents Improve Language Models Across Multiple Domains?](https://arxiv.org/abs/2610.34386v1) | [Paper](https://arxiv.org/abs/2610.34386v1) / [PDF](https://arxiv.org/pdf/2610.34386v1) |
-| 2026-10-24 | Recursive Self-Improvement | [StateWise: Teaching Language Models to Track and Obey Evolving Constraints in Multi-Turn Dialogue](https://arxiv.org/abs/2610.33766v1) | [Paper](https://arxiv.org/abs/2610.33766v1) / [PDF](https://arxiv.org/pdf/2610.33766v1) |
-| 2026-10-23 | Recursive Self-Improvement | [On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models](https://arxiv.org/abs/2610.32770v1) | [Paper](https://arxiv.org/abs/2610.32770v1) / [PDF](https://arxiv.org/pdf/2610.32770v1) |
-| 2026-10-22 | Long-Horizon Agents | [SCOPE: Scene-graph Construction Optimized by Plan Error-correction for Robot Long-term Planning Datasets](https://arxiv.org/abs/2610.31518v1) | [Paper](https://arxiv.org/abs/2610.31518v1) / [PDF](https://arxiv.org/pdf/2610.31518v1) |
-| 2026-10-15 | Recursive Self-Improvement | [MetaExp: Learning to Self-Improve through Experience via Verifiable Cross-Task Environment Scaling](https://arxiv.org/abs/2610.21492v1) | [Paper](https://arxiv.org/abs/2610.21492v1) / [PDF](https://arxiv.org/pdf/2610.21492v1) |
-| 2026-10-14 | Long-Horizon Agents | [Interlock: From Local Correctness to Task Completion in Long-Horizon Agents](https://arxiv.org/abs/2610.19686v1) | [Paper](https://arxiv.org/abs/2610.19686v1) / [PDF](https://arxiv.org/pdf/2610.19686v1) |
-| 2026-10-13 | Recursive Self-Improvement | [SEAR: Self-Evolving Agentic Robotics](https://arxiv.org/abs/2610.18792v1) | [Paper](https://arxiv.org/abs/2610.18792v1) / [PDF](https://arxiv.org/pdf/2610.18792v1) |
-| 2026-10-08 | Recursive Self-Improvement | [DataSense-Bench: The First Step Toward an AI Scientist](https://arxiv.org/abs/2610.12190v1) | [Paper](https://arxiv.org/abs/2610.12190v1) / [PDF](https://arxiv.org/pdf/2610.12190v1) |
-| 2026-10-08 | Recursive Self-Improvement | [Agentic-TTT: Training test-time policy for test-time training](https://arxiv.org/abs/2610.12002v1) | [Paper](https://arxiv.org/abs/2610.12002v1) / [PDF](https://arxiv.org/pdf/2610.12002v1) |
-| 2026-10-07 | Long-Horizon Agents | [Stochastic Teacher Intervention for Agentic On-Policy Distillation](https://arxiv.org/abs/2610.10878v1) | [Paper](https://arxiv.org/abs/2610.10878v1) / [PDF](https://arxiv.org/pdf/2610.10878v1) |
-| 2026-10-01 | Long-Horizon Agents | [Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents](https://arxiv.org/abs/2610.02330v1) | [Paper](https://arxiv.org/abs/2610.02330v1) / [PDF](https://arxiv.org/pdf/2610.02330v1) |
-| 2026-10-01 | Long-Horizon Agents | [DeskForge: Dense Supervision from Desktop Environments for Computer-Use Agents](https://arxiv.org/abs/2610.02320v1) | [Paper](https://arxiv.org/abs/2610.02320v1) / [PDF](https://arxiv.org/pdf/2610.02320v1) |
-| 2026-09-30 | Long-Horizon Agents | [EgoVine: Post-Training with Branching Experience Compiled from Real-World Videos](https://arxiv.org/abs/2610.23907v1) | [Paper](https://arxiv.org/abs/2610.23907v1) / [PDF](https://arxiv.org/pdf/2610.23907v1) |
-| 2026-09-29 | Recursive Self-Improvement | [CollabFlow: Recursive Self-Improvement of Agent Collaboration](https://arxiv.org/abs/2609.38662v3) | [Paper](https://arxiv.org/abs/2609.38662v3) / [PDF](https://arxiv.org/pdf/2609.38662v3) |
-| 2026-09-29 | Long-Horizon Agents | [SkillGym: Training Skill-Use Agents with Automatic Verifiable Environment Generation](https://arxiv.org/abs/2609.37539v1) | [Paper](https://arxiv.org/abs/2609.37539v1) / [PDF](https://arxiv.org/pdf/2609.37539v1) |
-| 2026-09-29 | Recursive Self-Improvement | [Train Ahead, Distill Back: Bootstrapping On-Policy Self-Distillation for Large Language Models](https://arxiv.org/abs/2609.37132v1) | [Paper](https://arxiv.org/abs/2609.37132v1) / [PDF](https://arxiv.org/pdf/2609.37132v1) |
-| 2026-09-27 | Long-Horizon Agents | [Dense Is Not Enough: Hierarchical Supervision Allocation for Long-Horizon On-Policy Distillation](https://arxiv.org/abs/2609.33409v1) | [Paper](https://arxiv.org/abs/2609.33409v1) / [PDF](https://arxiv.org/pdf/2609.33409v1) |
-| 2026-09-25 | Explicitly Requested Papers | [MOPD-Router: Rethinking Teacher Routing in Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2609.30837v2) | [Paper](https://arxiv.org/abs/2609.30837v2) / [PDF](https://arxiv.org/pdf/2609.30837v2) |
+| Published | Track | Paper | 收录理由 | Links |
+| --- | --- | --- | --- | --- |
+| 2026-11-23 | Recursive Self-Improvement | [Beyond Self-Consistency: Recursive Self-Improvement at Test Time](https://arxiv.org/abs/2611.30965v1) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2611-30965) | [Paper](https://arxiv.org/abs/2611.30965v1) / [PDF](https://arxiv.org/pdf/2611.30965v1) |
+| 2026-11-19 | Long-Horizon Agents | [ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents](https://arxiv.org/abs/2611.26519v1) | 涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2611-26519) | [Paper](https://arxiv.org/abs/2611.26519v1) / [PDF](https://arxiv.org/pdf/2611.26519v1) |
+| 2026-11-17 | Recursive Self-Improvement | [RSI-Prime: Training Models to Train Models](https://arxiv.org/abs/2611.23138v1) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2611-23138) | [Paper](https://arxiv.org/abs/2611.23138v1) / [PDF](https://arxiv.org/pdf/2611.23138v1) |
+| 2026-11-12 | Long-Horizon Agents | [daVinci-Prover: Agent-Native Mid-Training for Formal Theorem Proving](https://arxiv.org/abs/2611.16433v1) | 涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2611-16433) | [Paper](https://arxiv.org/abs/2611.16433v1) / [PDF](https://arxiv.org/pdf/2611.16433v1) |
+| 2026-11-09 | Recursive Self-Improvement | [SkillDuet: Co-Evolving Models and Skills through Response Feedback](https://arxiv.org/abs/2611.12109v2) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2611-12109) | [Paper](https://arxiv.org/abs/2611.12109v2) / [PDF](https://arxiv.org/pdf/2611.12109v2) |
+| 2026-11-04 | Long-Horizon Agents | [Visual Token Routing: Learning to keep tokens that matter](https://arxiv.org/abs/2611.06854v1) | 涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2611-06854) | [Paper](https://arxiv.org/abs/2611.06854v1) / [PDF](https://arxiv.org/pdf/2611.06854v1) |
+| 2026-11-01 | Long-Horizon Agents | [Is Your Long-Horizon Benchmark Really Deep? Measuring and Synthesizing Depth in Terminal Tasks](https://arxiv.org/abs/2611.01927v1) | 涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2611-01927) | [Paper](https://arxiv.org/abs/2611.01927v1) / [PDF](https://arxiv.org/pdf/2611.01927v1) |
+| 2026-10-30 | Recursive Self-Improvement | [TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents](https://arxiv.org/abs/2610.41216v2) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-41216) | [Paper](https://arxiv.org/abs/2610.41216v2) / [PDF](https://arxiv.org/pdf/2610.41216v2) |
+| 2026-10-29 | Recursive Self-Improvement | [Training LLM Agents to Automate LLM Post-Training with RSI-Dojo](https://arxiv.org/abs/2611.03698v2) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2611-03698) | [Paper](https://arxiv.org/abs/2611.03698v2) / [PDF](https://arxiv.org/pdf/2611.03698v2) |
+| 2026-10-29 | Recursive Self-Improvement | [Try Before You Evolve: Ranking-Scored Trials for Recursive Self-Improvement of Recommender Systems](https://arxiv.org/abs/2610.39352v1) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-39352) | [Paper](https://arxiv.org/abs/2610.39352v1) / [PDF](https://arxiv.org/pdf/2610.39352v1) |
+| 2026-10-29 | Recursive Self-Improvement | [Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities](https://arxiv.org/abs/2610.39301v1) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-39301) | [Paper](https://arxiv.org/abs/2610.39301v1) / [PDF](https://arxiv.org/pdf/2610.39301v1) |
+| 2026-10-28 | Recursive Self-Improvement | [Co-Evolving Policy and Rubric via Capability Awareness for Open-Ended Generation](https://arxiv.org/abs/2610.38566v1) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-38566) | [Paper](https://arxiv.org/abs/2610.38566v1) / [PDF](https://arxiv.org/pdf/2610.38566v1) |
+| 2026-10-25 | Recursive Self-Improvement | [ParetoRSI-Gym: Can AI Agents Improve Language Models Across Multiple Domains?](https://arxiv.org/abs/2610.34386v1) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-34386) | [Paper](https://arxiv.org/abs/2610.34386v1) / [PDF](https://arxiv.org/pdf/2610.34386v1) |
+| 2026-10-24 | Recursive Self-Improvement | [StateWise: Teaching Language Models to Track and Obey Evolving Constraints in Multi-Turn Dialogue](https://arxiv.org/abs/2610.33766v1) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-33766) | [Paper](https://arxiv.org/abs/2610.33766v1) / [PDF](https://arxiv.org/pdf/2610.33766v1) |
+| 2026-10-23 | Recursive Self-Improvement | [On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models](https://arxiv.org/abs/2610.32770v1) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-32770) | [Paper](https://arxiv.org/abs/2610.32770v1) / [PDF](https://arxiv.org/pdf/2610.32770v1) |
+| 2026-10-22 | Long-Horizon Agents | [SCOPE: Scene-graph Construction Optimized by Plan Error-correction for Robot Long-term Planning Datasets](https://arxiv.org/abs/2610.31518v1) | 涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-31518) | [Paper](https://arxiv.org/abs/2610.31518v1) / [PDF](https://arxiv.org/pdf/2610.31518v1) |
+| 2026-10-15 | Recursive Self-Improvement | [MetaExp: Learning to Self-Improve through Experience via Verifiable Cross-Task Environment Scaling](https://arxiv.org/abs/2610.21492v1) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-21492) | [Paper](https://arxiv.org/abs/2610.21492v1) / [PDF](https://arxiv.org/pdf/2610.21492v1) |
+| 2026-10-14 | Long-Horizon Agents | [Interlock: From Local Correctness to Task Completion in Long-Horizon Agents](https://arxiv.org/abs/2610.19686v1) | 涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-19686) | [Paper](https://arxiv.org/abs/2610.19686v1) / [PDF](https://arxiv.org/pdf/2610.19686v1) |
+| 2026-10-13 | Recursive Self-Improvement | [SEAR: Self-Evolving Agentic Robotics](https://arxiv.org/abs/2610.18792v1) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-18792) | [Paper](https://arxiv.org/abs/2610.18792v1) / [PDF](https://arxiv.org/pdf/2610.18792v1) |
+| 2026-10-08 | Recursive Self-Improvement | [DataSense-Bench: The First Step Toward an AI Scientist](https://arxiv.org/abs/2610.12190v1) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-12190) | [Paper](https://arxiv.org/abs/2610.12190v1) / [PDF](https://arxiv.org/pdf/2610.12190v1) |
+| 2026-10-08 | Recursive Self-Improvement | [Agentic-TTT: Training test-time policy for test-time training](https://arxiv.org/abs/2610.12002v1) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-12002) | [Paper](https://arxiv.org/abs/2610.12002v1) / [PDF](https://arxiv.org/pdf/2610.12002v1) |
+| 2026-10-07 | Long-Horizon Agents | [Stochastic Teacher Intervention for Agentic On-Policy Distillation](https://arxiv.org/abs/2610.10878v1) | 涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-10878) | [Paper](https://arxiv.org/abs/2610.10878v1) / [PDF](https://arxiv.org/pdf/2610.10878v1) |
+| 2026-10-01 | Long-Horizon Agents | [Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents](https://arxiv.org/abs/2610.02330v1) | 涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-02330) | [Paper](https://arxiv.org/abs/2610.02330v1) / [PDF](https://arxiv.org/pdf/2610.02330v1) |
+| 2026-10-01 | Long-Horizon Agents | [DeskForge: Dense Supervision from Desktop Environments for Computer-Use Agents](https://arxiv.org/abs/2610.02320v1) | 涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-02320) | [Paper](https://arxiv.org/abs/2610.02320v1) / [PDF](https://arxiv.org/pdf/2610.02320v1) |
+| 2026-09-30 | Long-Horizon Agents | [EgoVine: Post-Training with Branching Experience Compiled from Real-World Videos](https://arxiv.org/abs/2610.23907v1) | 涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2610-23907) | [Paper](https://arxiv.org/abs/2610.23907v1) / [PDF](https://arxiv.org/pdf/2610.23907v1) |
+| 2026-09-29 | Recursive Self-Improvement | [CollabFlow: Recursive Self-Improvement of Agent Collaboration](https://arxiv.org/abs/2609.38662v3) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2609-38662) | [Paper](https://arxiv.org/abs/2609.38662v3) / [PDF](https://arxiv.org/pdf/2609.38662v3) |
+| 2026-09-29 | Long-Horizon Agents | [SkillGym: Training Skill-Use Agents with Automatic Verifiable Environment Generation](https://arxiv.org/abs/2609.37539v1) | 涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2609-37539) | [Paper](https://arxiv.org/abs/2609.37539v1) / [PDF](https://arxiv.org/pdf/2609.37539v1) |
+| 2026-09-29 | Recursive Self-Improvement | [Train Ahead, Distill Back: Bootstrapping On-Policy Self-Distillation for Large Language Models](https://arxiv.org/abs/2609.37132v1) | 涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2609-37132) | [Paper](https://arxiv.org/abs/2609.37132v1) / [PDF](https://arxiv.org/pdf/2609.37132v1) |
+| 2026-09-27 | Long-Horizon Agents | [Dense Is Not Enough: Hierarchical Supervision Allocation for Long-Horizon On-Policy Distillation](https://arxiv.org/abs/2609.33409v1) | 涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。 [具体依据](data/inclusion_reasons.md#paper-2609-33409) | [Paper](https://arxiv.org/abs/2609.33409v1) / [PDF](https://arxiv.org/pdf/2609.33409v1) |
+| 2026-09-25 | Explicitly Requested Papers | [MOPD-Router: Rethinking Teacher Routing in Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2609.30837v2) | 用户指定补充论文，且通过当前排除规则。 [具体依据](data/inclusion_reasons.md#paper-2609-30837) | [Paper](https://arxiv.org/abs/2609.30837v2) / [PDF](https://arxiv.org/pdf/2609.30837v2) |
 
 ## 🗓️ Daily Archive
 

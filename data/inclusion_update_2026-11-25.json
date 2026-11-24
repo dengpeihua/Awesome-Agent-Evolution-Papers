@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-25T03:43:43.808761+08:00",
+  "coverage_start": "2026-10-21T02:29:20.628748+08:00",
+  "fetched_candidates": 621,
+  "previous_count": 62,
+  "added_ids": [],
+  "promoted_ids": [
+    "2608.30461",
+    "2606.16038",
+    "2603.02112",
+    "2603.01712",
+    "2602.23716",
+    "2512.22087",
+    "2508.09586"
+  ],
+  "removed": [
+    {
+      "id": "2606.14882",
+      "reason": "Journal publication: IEEE Transactions on Robotics",
+      "source": "https://doi.org/10.1109/TRO.2026.3740789"
+    }
+  ],
+  "public_count": 61,
+  "reasons_count": 61,
+  "metadata_note": "Refreshed Semantic Scholar publication/citation metadata. Generic JournalArticle labels do not override identified preprints or conferences.",
+  "delivery_note": "Repository-only refresh; successful notification cursor preserved. New/promoted papers remain pending.",
+  "evidence_level": "Title/abstract screening, not full-paper review."
+}

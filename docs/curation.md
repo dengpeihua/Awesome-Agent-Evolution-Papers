@@ -6,16 +6,29 @@
 - Long-Horizon Agents.
 
 First publication must be on or after **2025-05-01**. Older papers remain excluded
-even when revised or accepted recently. RL requires language-model context plus
-a substantive training/research statement. Broad application-only RL, baseline
-comparisons and incidental survey mentions do not qualify. Historical RL labels
-are recomputed rather than trusted. See `data/rl_screening.json` for title/abstract
-evidence; these automated checks are not full-paper verification.
+even when revised or accepted recently. Both active tracks require model-training
+evidence; RL, continual training, Agent Memory and journals remain excluded,
+including cross-topic records. These automated checks are not full-paper verification.
 
 Papers meeting the scope and training-evidence rules are eligible, including fresh
 preprints without citations or known affiliations. Priority labels do not change publication-date ordering.
 The broad arXiv queries support recall; keyword matches can include peripheral
 papers and are not a guarantee of substantive relevance.
+
+## Per-paper inclusion explanations
+
+Every public record includes regenerated `inclusion_reasons` with the active
+topic, a Chinese explanation, the matching title/abstract sentence, the training
+evidence sentence, and its source URL. See
+[all inclusion explanations](../data/inclusion_reasons.md). README, monthly lists,
+daily details, and future bot messages also display the reasons.
+
+These explanations describe the current title/abstract screening decision, not
+a full-paper review. An explicit user request is labeled separately and does not
+claim a research-track match. It cannot override exclusions. Venue, industry and
+citation labels remain separate from the reason for admission. Explanations are
+regenerated from current metadata on every archive update and rebuild, so cached
+explanations cannot preserve an obsolete admission decision.
 
 ## Priority labels and evidence
 
@@ -92,6 +105,10 @@ not an active discovery topic. Journal articles are excluded using publication
 types, venue types, and journal-name evidence; a DOI or conference proceedings
 reference alone does not imply journal publication. Unknown publication types
 remain subject to later metadata refresh. Explicit requests do not bypass exclusions.
+
+Semantic Scholar sometimes labels arXiv and conference records `JournalArticle`.
+That generic label does not override an identified preprint or conference venue;
+an explicit journal venue type or journal-name evidence still triggers exclusion.
 
 Deleted identifiers remain in `data/excluded_paper_ids.json` to prevent historical
 cache entries or alternative queries from restoring removed papers. Curation

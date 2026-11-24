@@ -4,9 +4,9 @@
 
 > 1 unique papers · Recursive Self-Improvement 0 · Long-Horizon 1
 
-| Date | Track | Paper | Venue | Signals | Metrics |
-| --- | --- | --- | --- | --- | --- |
-| 2025-11-09 | Long-Horizon Agents | [CoFineLLM: Conformal Finetuning of LLMs for Language-Instructed Robot Planning](https://arxiv.org/abs/2511.06575v1)<br>[PDF](https://arxiv.org/pdf/2511.06575v1) | arXiv.org | — | Citations: 1 (Semantic Scholar) |
+| Date | Track | Paper | 收录理由 | Venue | Signals | Metrics |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2025-11-09 | Long-Horizon Agents | [CoFineLLM: Conformal Finetuning of LLMs for Language-Instructed Robot Planning](https://arxiv.org/abs/2511.06575v1)<br>[PDF](https://arxiv.org/pdf/2511.06575v1) | 涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。 [具体依据](../../../data/inclusion_reasons.md#paper-2511-06575) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
 
 ## Notes
 

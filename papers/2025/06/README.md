@@ -4,9 +4,9 @@
 
 > 0 unique papers · Recursive Self-Improvement 0 · Long-Horizon 0
 
-| Date | Track | Paper | Venue | Signals | Metrics |
-| --- | --- | --- | --- | --- | --- |
-| — | — | No in-scope papers found in the verified corpus | — | — | — |
+| Date | Track | Paper | 收录理由 | Venue | Signals | Metrics |
+| --- | --- | --- | --- | --- | --- | --- |
+| — | — | No in-scope papers found in the verified corpus | — | — | — | — |
 
 ## Notes
 

@@ -160,7 +160,7 @@ def test_public_dataset_includes_topical_new_preprints_without_priority(tmp_path
     result = ArchiveRepository(tmp_path).replace_dataset([plain, popular])
 
     assert len(result) == 2
-    assert len(json.loads((tmp_path / "data" / "papers.json").read_text())) == 2
+    assert len(json.loads((tmp_path / "data" / "papers.json").read_text("utf-8"))) == 2
 
 
 def test_rebuild_prunes_old_daily_pages_when_paper_no_longer_qualifies(tmp_path) -> None:

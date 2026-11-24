@@ -49,7 +49,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "Beyond Self-Consistency: Recursive Self-Improvement at Test Time",
+        "training_evidence": "(2) In-Weight RSI distills successive refinements into the model's weights, enabling progress beyond an initially wrong majority and theoretically bringing the first attempt toward the model's infinite-step refinement limit.",
+        "source": "https://arxiv.org/abs/2611.30965v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2611.26519",
@@ -103,7 +113,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Reliable reasoning for long-horizon embodied tasks requires predictions grounded in the observed execution state.",
+        "training_evidence": "To train the model, we curate 3.7 million question--answer pairs, drawing execution supervision from egocentric human videos, robot episodes, and simulation.",
+        "source": "https://arxiv.org/abs/2611.26519v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2611.23138",
@@ -149,7 +169,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "Enabling large language models (LLMs) to autonomously conduct training and improve target models is an important foundation for recursive self-improvement (RSI).",
+        "training_evidence": "To help LLMs learn to make high-quality experimental decisions from training practice, we perform fine-grained decision identification and quality annotation, then apply decision-level loss masking to exclude supervision on low-quality behavior.",
+        "source": "https://arxiv.org/abs/2611.23138v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2611.16433",
@@ -196,7 +226,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "In this work, we argue that effective agentic provers require strong mathematical skill priors to ground theorem proving and agentic trajectories to enable long-horizon, interactive proof construction.",
+        "training_evidence": "We further introduce the daVinci-Prover harness, which enables models to construct proofs and interact with a Lean verifier in an isolated workspace, and use it to collect approximately 36K high-quality agent trajectories for supervised fine-tuning.",
+        "source": "https://arxiv.org/abs/2611.16433v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2611.12109",
@@ -244,7 +284,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "SkillDuet: Co-Evolving Models and Skills through Response Feedback",
+        "training_evidence": "We present SkillDuet, a framework that coordinates parameter updates and skill evolution through model response feedback.",
+        "source": "https://arxiv.org/abs/2611.12109v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2611.06854",
@@ -278,8 +328,8 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 2,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -287,7 +337,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Computer-use agents (CUAs) have recently achieved superhuman performance on several long-horizon benchmarks.",
+        "training_evidence": "In VTR, we train the vision-language model together with a lightweight spatio-temporal router that examines each image region in the current and previous screenshots and decides whether its visual token enters the language model.",
+        "source": "https://arxiv.org/abs/2611.06854v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2611.01927",
@@ -327,16 +387,28 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
-    "affiliations": [],
+    "citation_count": 2,
+    "citation_source": "Semantic Scholar",
+    "affiliations": [
+      "University of Southern California"
+    ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
     "industry_first_author_affiliations": [],
-    "affiliation_source": "",
+    "affiliation_source": "Semantic Scholar author profiles",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Is Your Long-Horizon Benchmark Really Deep?",
+        "training_evidence": "Fine-tuning Qwen3-8B on runs from these tasks improves it on two terminal benchmarks.",
+        "source": "https://arxiv.org/abs/2611.01927v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.41216",
@@ -388,7 +460,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents",
+        "training_evidence": "We then freeze the final harness, collect teacher trajectories with reasoning and failure recovery, and distill a small student that replaces the teacher in the same harness.",
+        "source": "https://arxiv.org/abs/2610.41216v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2611.03698",
@@ -426,8 +508,8 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 1,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -435,7 +517,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "Recursive Self-Improvement (RSI) aims to enable AI systems to autonomously build and improve AI systems themselves, including models, harnesses, and underlying infrastructure.",
+        "training_evidence": "We fine-tune Qwen3.5-9B and Qwen3.6-35B-A3B on these trajectories.",
+        "source": "https://arxiv.org/abs/2611.03698v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.39352",
@@ -469,8 +561,8 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 0,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -478,7 +570,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "Try Before You Evolve: Ranking-Scored Trials for Recursive Self-Improvement of Recommender Systems",
+        "training_evidence": "We propose RecRSI, which generates diverse candidate edits from a diagnosis of the current model and selects one for full retraining using early ranking feedback: each candidate receives a short trial, the first steps of its full training run, scored by full-ranking NDCG@10 on held-out probe users.",
+        "source": "https://arxiv.org/abs/2610.39352v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.39301",
@@ -539,16 +641,30 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
-    "affiliations": [],
+    "citation_count": 0,
+    "citation_source": "Semantic Scholar",
+    "affiliations": [
+      "Tencent Youtu Lab"
+    ],
     "first_author_affiliations": [],
-    "industry_affiliations": [],
+    "industry_affiliations": [
+      "Tencent"
+    ],
     "industry_first_author_affiliations": [],
-    "affiliation_source": "",
+    "affiliation_source": "Semantic Scholar author profiles",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "OmniSchema unifies the outputs of all ten parsing tasks, allowing a single self-evolving post-training procedure, OmniSchema-Aware On-Policy Distillation (OSAD), to provide a shared token-role-based objective across tasks.",
+        "training_evidence": "OmniSchema unifies the outputs of all ten parsing tasks, allowing a single self-evolving post-training procedure, OmniSchema-Aware On-Policy Distillation (OSAD), to provide a shared token-role-based objective across tasks.",
+        "source": "https://arxiv.org/abs/2610.39301v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.38566",
@@ -588,8 +704,8 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 0,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -597,7 +713,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "Co-Evolving Policy and Rubric via Capability Awareness for Open-Ended Generation",
+        "training_evidence": "Based on this insight, CoCA either expands rubric-conditioned frontiers through guided optimization or transfers qualified gains through on-policy self-distillation.",
+        "source": "https://arxiv.org/abs/2610.38566v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.34386",
@@ -638,16 +764,30 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
-    "affiliations": [],
-    "first_author_affiliations": [],
+    "citation_count": 0,
+    "citation_source": "Semantic Scholar",
+    "affiliations": [
+      "University of Illinois Urbana Champaign"
+    ],
+    "first_author_affiliations": [
+      "University of Illinois Urbana Champaign"
+    ],
     "industry_affiliations": [],
     "industry_first_author_affiliations": [],
-    "affiliation_source": "",
+    "affiliation_source": "Semantic Scholar author profiles",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "Recursive self-improvement (RSI) requires an agentic system to design, train, and evaluate its own successor.",
+        "training_evidence": "We propose ParetoRSI-Gym, in which an agent searches for data, curates it, trains, reads back per-domain results, and repeats, with everything but the data held fixed: the initial LLM, the five domains (math, code, finance, medicine, science), the toolset, and the SFT pipeline.",
+        "source": "https://arxiv.org/abs/2610.34386v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.33766",
@@ -682,8 +822,8 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 0,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -691,7 +831,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "We propose StateWise, a self-improving approach that teaches a single LLM to maintain its own revisable constraint state, a typed state with tombstones for revoked constraints, so persistence and relapse are measured by executable checkers and ground-truth states are compiled for free.",
+        "training_evidence": "StateWise fine-tunes the LLM on two complementary skills, summarizing a dialogue into its constraint state and responding conditioned on that state, then self-trains on its own trajectories, keeping only turns that pass an exact round-trip check against the compiled state.",
+        "source": "https://arxiv.org/abs/2610.33766v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.32770",
@@ -730,8 +880,8 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 0,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -739,7 +889,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
+        "training_evidence": "In this work, we reformulate on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reasoning demonstrations.",
+        "source": "https://arxiv.org/abs/2610.32770v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.31518",
@@ -774,8 +934,8 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 0,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -783,7 +943,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Task and Motion Planning (TAMP) stands as a fundamental challenge in robotics, essential for enabling autonomous agents to execute complex, long-horizon tasks in diverse environments.",
+        "training_evidence": "When utilized for LLM fine-tuning, SCOPE-generated data yield a downstream TAMP model that achieves an absolute 12.33% gain in success rate over its counterpart fine-tuned with data generated by DELTA, a state-of-the-art PDDL-based planner.",
+        "source": "https://arxiv.org/abs/2610.31518v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.21492",
@@ -821,8 +991,8 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 0,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -830,7 +1000,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "MetaExp: Learning to Self-Improve through Experience via Verifiable Cross-Task Environment Scaling",
+        "training_evidence": "We scale environments under both designs, collect and filter sequential interaction trajectories, and fine-tune Qwen3.5-122B-A10B on 4,956 trajectories from 1,000 task families.",
+        "source": "https://arxiv.org/abs/2610.21492v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.19686",
@@ -860,7 +1040,9 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "Review"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
@@ -871,8 +1053,8 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 0,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -880,7 +1062,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Interlock: From Local Correctness to Task Completion in Long-Horizon Agents",
+        "training_evidence": "To evaluate training utility, we fine-tune two Qwen3.6 backbones on their own accepted trajectories.",
+        "source": "https://arxiv.org/abs/2610.19686v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.18792",
@@ -921,8 +1113,8 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 7,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -930,7 +1122,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "SEAR: Self-Evolving Agentic Robotics",
+        "training_evidence": "The framework runs an agent in three modes: it writes code that becomes the policy (code-as-policy), acts live in the control loop (agent-as-policy), or works as a researcher that fine-tunes a vision-language-action model (auto-research).",
+        "source": "https://arxiv.org/abs/2610.18792v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.12190",
@@ -966,7 +1168,7 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": 0,
+    "citation_count": 1,
     "citation_source": "Semantic Scholar",
     "affiliations": [
       "TU Eindhoven"
@@ -977,7 +1179,17 @@
     "affiliation_source": "Semantic Scholar author profiles",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "As claims about recursive self-improvement (RSI) and artificial general intelligence (AGI) proliferate, we ask a simple question: do frontier AI models have a sense of data, i.e., can they reliably select the right data for training?",
+        "training_evidence": "We ask AI agents to select and rank candidate training subsets that can be used to fine-tune a small LLM model.",
+        "source": "https://arxiv.org/abs/2610.12190v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.12002",
@@ -1012,7 +1224,7 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": 0,
+    "citation_count": 1,
     "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
@@ -1021,7 +1233,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "By turning deployment experience into parameter updates, TTT provides a direct mechanism for model-level self-improvement.",
+        "training_evidence": "Agentic-TTT turns TTT procedures into callable tools, treats accumulated skills as an evolving deployment environment, and trains its policy using the observed utility gains from its decisions.",
+        "source": "https://arxiv.org/abs/2610.12002v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.10878",
@@ -1059,16 +1281,28 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
-    "affiliations": [],
+    "citation_count": 0,
+    "citation_source": "Semantic Scholar",
+    "affiliations": [
+      "Beihang University"
+    ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
     "industry_first_author_affiliations": [],
-    "affiliation_source": "",
+    "affiliation_source": "Semantic Scholar author profiles",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Across tool-integrated reasoning and long-horizon interaction, STI-OPD outperforms the strongest prior OPD baseline on every evaluated benchmark and student size.",
+        "training_evidence": "To address this issue, we introduce STI-OPD, a stochastic teacher intervention framework for multi-turn agentic OPD.",
+        "source": "https://arxiv.org/abs/2610.10878v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.02330",
@@ -1114,7 +1348,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+        "training_evidence": "CITA trains a Comparative Inference Model (CIM) from paired signals that combine observed tool behavior, scalable supervision from a Bayesian tool-graph simulator, and semantic judgments from LLM-based comparison.",
+        "source": "https://arxiv.org/abs/2610.02330v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.02320",
@@ -1161,7 +1405,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "The gains also translate to long-horizon task completion: under a fixed planner, the fine-tuned action models solve more WebArena-Infinity and OpenApps tasks, with Qwen3.5-4B increasing from 31 to 50 of 119 tasks and from 3 to 15 of 100 tasks, respectively.",
+        "training_evidence": "We fine-tune four vision-language models on 200K grounding examples drawn from DeskForge-1M.",
+        "source": "https://arxiv.org/abs/2610.02320v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2610.23907",
@@ -1209,7 +1463,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "We introduce EgoVine, a post-training framework that turns a fixed demonstration set into interactive experience for long-horizon planning.",
+        "training_evidence": "Union jointly trains action generation and consequence prediction in one model, using the same executions to supervise candidate comparison and recovery.",
+        "source": "https://arxiv.org/abs/2610.23907v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2609.38662",
@@ -1238,14 +1502,16 @@
       "agent-llm-self-evolution"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
@@ -1258,7 +1524,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "CollabFlow: Recursive Self-Improvement of Agent Collaboration",
+        "training_evidence": "To address these challenges, we propose CollabFlow, an RSI system of Learned Agent Collaboration: a trainable Collab-Director constructs teams of complete Agents, a frozen executor runs them, and each round's outcomes retrain the director.",
+        "source": "https://arxiv.org/abs/2609.38662v3",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2609.37539",
@@ -1284,19 +1560,20 @@
     ],
     "excluded": false,
     "publication_types": [
+      "JournalArticle",
       "Review"
     ],
     "venue_type": "",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": 0,
+    "citation_count": 1,
     "citation_source": "Semantic Scholar",
     "affiliations": [
       "MBZUAI"
@@ -1309,7 +1586,17 @@
     "affiliation_source": "Semantic Scholar author profiles",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Skills equip LLM agents with professional knowledge and guidance to complete long-horizon and complex tasks.",
+        "training_evidence": "With this pipeline, we build 6.8k environments and collect 19k verified successful trajectories for supervised finetuning.",
+        "source": "https://arxiv.org/abs/2609.37539v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2609.37132",
@@ -1335,14 +1622,16 @@
       "agent-llm-self-evolution"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
@@ -1355,7 +1644,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "Our findings point to a broader principle for self-improving models that future learning progress can be distilled backward, preserving acquired knowledge while bootstrapping beyond the optimization state that produced it.",
+        "training_evidence": "In this paper, we introduce Bootstrapped On-Policy Self-Distillation (B-OPSD), which temporarily trains the policy ahead to obtain a future teacher, restores the student to the original policy state, and then uses the future teacher to supervise the restarted student.",
+        "source": "https://arxiv.org/abs/2609.37132v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2609.33409",
@@ -1383,14 +1682,16 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
@@ -1403,7 +1704,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Dense Is Not Enough: Hierarchical Supervision Allocation for Long-Horizon On-Policy Distillation",
+        "training_evidence": "Based on this principle, we propose LENS-OPD, a coarse-to-fine framework that organizes supervision through Locate, Validate, and Refine.",
+        "source": "https://arxiv.org/abs/2609.33409v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2609.30837",
@@ -1437,18 +1748,20 @@
       "user-requested"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "19 pages, 5 figures",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "https://github.com/TURLEing/MOPD-Router",
     "github_stars": null,
-    "citation_count": 0,
+    "citation_count": 2,
     "citation_source": "Semantic Scholar",
     "affiliations": [
       "Alibaba Group",
@@ -1465,7 +1778,17 @@
     "affiliation_source": "Official paper: https://arxiv.org/html/2609.30837",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "user-requested",
+        "reason": "用户指定补充论文，且通过当前排除规则。",
+        "topic_evidence": "用户明确指定收录；不等同于匹配两个研究主题。",
+        "training_evidence": "",
+        "source": "https://arxiv.org/abs/2609.30837v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2609.28416",
@@ -1496,27 +1819,41 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": 0,
+    "citation_count": 1,
     "citation_source": "Semantic Scholar",
-    "affiliations": [],
+    "affiliations": [
+      "Renmin University of China"
+    ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
     "industry_first_author_affiliations": [],
-    "affiliation_source": "",
+    "affiliation_source": "Semantic Scholar author profiles",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments.",
+        "training_evidence": "We train AEWM across Search, Terminal, and Software Engineering through mid-training and supervised fine-tuning.",
+        "source": "https://arxiv.org/abs/2609.28416v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2609.25804",
@@ -1545,18 +1882,20 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "33 pages, 8 figures. Code: https://github.com/wbopan/tastebench. Dataset: https://huggingface.co/datasets/wenbopan/taste-bench",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": 1,
+    "citation_count": 3,
     "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
@@ -1565,7 +1904,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+        "training_evidence": "We distill the judgment of a teacher that has seen the outcome into a student model, and the student makes better decisions on unseen tasks and improves end-to-end success on held-out SWE-bench Pro tasks.",
+        "source": "https://arxiv.org/abs/2609.25804v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2609.16096",
@@ -1587,14 +1936,16 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
@@ -1607,7 +1958,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "This gap is especially visible in long-horizon settings, where an agent must repeatedly inspect prior outcomes, diagnose failure, and choose the next code edit under interaction constraints.",
+        "training_evidence": "To address this, we propose ReAct SFT, which rewrites teacher trajectories into explicit [obs][thought][act] chains, and trajectoryquality weighted SFT, which reweights samples to encourage post-edit checking.",
+        "source": "https://arxiv.org/abs/2609.16096v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2608.30461",
@@ -1634,15 +1995,18 @@
       "agent-llm-self-evolution"
     ],
     "excluded": false,
-    "publication_types": [],
-    "venue_type": "",
+    "publication_types": [
+      "JournalArticle",
+      "Review"
+    ],
+    "venue_type": "conference",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
-    "venue_tier": "",
-    "venue_source": "",
-    "acceptance_evidence": "",
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_tier": "selected-extra",
+    "venue_source": "Semantic Scholar publication metadata",
+    "acceptance_evidence": "Semantic Scholar publication metadata: Conference on Empirical Methods in Natural Language Processing",
     "github_url": "",
     "github_stars": null,
     "citation_count": 0,
@@ -1654,7 +2018,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "2026-11-25",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "In this paper, we propose RetroGen, a self-improving framework of retrospective process supervision.",
+        "training_evidence": "RetroGen reconstructs candidate latent trajectories from expert artifacts, verifies them against both the artifact and supporting evidence, and trains models on their own successful reconstruction data, without requiring trajectory data from stronger models.",
+        "source": "https://arxiv.org/abs/2608.30461v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2608.22963",
@@ -1679,14 +2053,16 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "17 pages, 3 figures, 5 tables",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
@@ -1699,7 +2075,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Over long trajectories, this text can dominate the context and suppress visual evidence, creating textual debt.",
+        "training_evidence": "We further fine-tune the summarizer with supervised fine-tuning (SFT), enabling more compact summaries, broader coverage, and more aggressive pruning.",
+        "source": "https://arxiv.org/abs/2608.22963v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2608.09292",
@@ -1727,14 +2113,16 @@
       "agent-llm-self-evolution"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
@@ -1747,7 +2135,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "Beyond the Capability Boundary: Zeroth-Order Optimization for Self-Evolving LLM Agents",
+        "training_evidence": "We sample trajectories using the updated LLMs for supervised fine-tuning to break through the capability boundary of the agents, forming a closed self-evolution loop.",
+        "source": "https://arxiv.org/abs/2608.09292v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2608.01827",
@@ -1783,19 +2181,21 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 5,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -1803,7 +2203,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "DeepVoyager-VL: Incentivizing Vision-in-the-Loop Search for Long-Horizon Multimodal Agents",
+        "training_evidence": "Finally, we fine-tune models on the synthesized data without reinforcement learning.",
+        "source": "https://arxiv.org/abs/2608.01827v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2607.29078",
@@ -1829,7 +2239,9 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
@@ -1840,7 +2252,7 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": 4,
+    "citation_count": 5,
     "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
@@ -1849,7 +2261,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "While on-policy distillation (OPD) reduces exposure bias by training student language models on their own rollouts, early student errors in long-horizon agentic scenarios can lead to contexts unfamiliar to the teacher.",
+        "training_evidence": "To address this limitation, we propose DASH-OPD (Discrepancy-Aware Switching with Hysteresis for OPD), the first agentic OPD method to perform adaptive, bidirectional executor switching.",
+        "source": "https://arxiv.org/abs/2607.29078v4",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2607.27146",
@@ -1878,19 +2300,21 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 3,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -1898,7 +2322,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Moreover, the fine-tuned model consistently improves over the base model across all seven unseen software engineering benchmarks, spanning long-horizon repository generation and translation, bug fixing, feature implementation, and cross-language issue resolution, with absolute gains of 31.00 points on RepoZero-C2Rust, 14.16 on DeepSWE, 10.70/4.56 on NL2Repo-Bench (with/without tests), 5.04 on SWE-bench Verified, 5.93 on SWE-bench Pro, 5.22 on SWE-bench Multilingual, and 4.94 on FeatBench.",
+        "training_evidence": "Fine-tuning Qwen3.6-27B on these trajectories increases its ProgramBench average test pass rate from 37.98% to 49.51%, achieving performance comparable to substantially larger frontier models.",
+        "source": "https://arxiv.org/abs/2607.27146v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2607.26998",
@@ -1938,8 +2372,8 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 3,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -1947,7 +2381,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Conditioned on exploration, it generates decoy artifacts that the kernel materializes and handles consistently across interactions, sustaining long-horizon exploration.",
+        "training_evidence": "Because deploying a powerful LLM for decoy construction is costly and slow, we train a small LLM using an offline adversarial interaction-simulation framework.",
+        "source": "https://arxiv.org/abs/2607.26998v5",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2607.20062",
@@ -2020,27 +2464,43 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
-    "affiliations": [],
+    "citation_count": 4,
+    "citation_source": "Semantic Scholar",
+    "affiliations": [
+      "Seoul National University",
+      "Stanford",
+      "University of Oxford"
+    ],
     "first_author_affiliations": [],
     "industry_affiliations": [],
     "industry_first_author_affiliations": [],
-    "affiliation_source": "",
+    "affiliation_source": "Semantic Scholar author profiles",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "We present Solar Open 2, a 250B-A15B Mixture-of-Experts language model built for long-horizon agentic tasks, scaled up from Solar Open 1 (Solar Open 100B).",
+        "training_evidence": "To build its agent skills, we train twelve domain specialists across purpose-built scenarios, then consolidate them into a single model by Multi-teacher On-Policy Distillation (MOPD).",
+        "source": "https://arxiv.org/abs/2607.20062v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2607.18046",
@@ -2067,19 +2527,23 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "Book",
+      "Conference",
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "Accepted (Oral) by ACM International Conference on Multimedia 2026 (ACM MM 2026)",
     "journal_ref": "",
-    "venue": "",
+    "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 1,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -2087,7 +2551,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "SEE: Structure-aware Exploring & Exploiting for Long-horizon GUI Agent Trajectory Synthesis",
+        "training_evidence": "Across multiple real-world apps, SEE produces trajectories with an average length of 14.8 steps while avoiding spurious loops, and agents fine-tuned on SEE achieve improved task success and generalization to unseen screens.",
+        "source": "https://arxiv.org/abs/2607.18046v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2607.14485",
@@ -2117,19 +2591,21 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "WAICA2026",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 2,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -2137,7 +2613,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Large language model (LLM)-based generative agents simulate human behavior through long-horizon decision-making processes that comprise intermediate steps such as planning, memory retrieval, reflection, and action selection.",
+        "training_evidence": "We conduct step-level preference learning on open-weight language models using supervised finetuning and direct preference optimization on this data, consistently improving simulation fidelity, coordination, and interaction quality, and inducing more socially effective agent behavior.",
+        "source": "https://arxiv.org/abs/2607.14485v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2607.05804",
@@ -2164,7 +2650,9 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
@@ -2175,16 +2663,30 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": 20,
+    "citation_count": 32,
     "citation_source": "Semantic Scholar",
-    "affiliations": [],
+    "affiliations": [
+      "Microsoft"
+    ],
     "first_author_affiliations": [],
-    "industry_affiliations": [],
+    "industry_affiliations": [
+      "Microsoft"
+    ],
     "industry_first_author_affiliations": [],
-    "affiliation_source": "",
+    "affiliation_source": "Semantic Scholar author profiles",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training",
+        "training_evidence": "To address these challenges, we propose TurnOPD, a turn-level budgeting strategy for efficient on-policy distillation of long-horizon agents.",
+        "source": "https://arxiv.org/abs/2607.05804v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2606.16038",
@@ -2209,19 +2711,21 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
-    "venue_type": "",
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "venue_type": "conference",
     "doi": "",
     "comment": "Work in progress",
     "journal_ref": "",
-    "venue": "",
-    "venue_tier": "",
-    "venue_source": "",
-    "acceptance_evidence": "",
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_tier": "selected-extra",
+    "venue_source": "Semantic Scholar publication metadata",
+    "acceptance_evidence": "Semantic Scholar publication metadata: Conference on Empirical Methods in Natural Language Processing",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 13,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -2229,55 +2733,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
-  },
-  {
-    "arxiv_id": "2606.14882",
-    "title": "DynaHMRC: Decentralized Heterogeneous Multi-Robot Collaboration for Dynamic Tasks with Large Language Models",
-    "abstract": "Large language models (LLMs) provide robots with richer task understanding and adaptability, making them promising for coordinating heterogeneous multi-robot systems in long-horizon tasks. Despite this potential, several challenges remain underexplored: (1) Centralized LLM schedulers scale poorly as team size and environmental complexity increase. A single model must process excessive contextual information, and long-context approximation may degrade reasoning quality; (2) Existing task formulations insufficiently consider dynamic settings, while robust adaptation to evolving task conditions is essential for real-world deployment; (3) Domain-specific data scarcity limits specialized robotic reasoning, making proprietary general-purpose models inefficient for expert tasks. To address these limitations, we propose DynaHMRC, a decentralized framework in which each robot acts as a role-aware LLM agent. This design mitigates the single-model context bottleneck and supports flexible collaboration across heterogeneous team configurations. DynaHMRC organizes collaboration as a four-stage closed-loop process: self-description, task allocation with leadership bidding, leader election, and reflective execution, supported by executable robot interfaces. We further develop a benchmark covering three task families, four dynamic variations, and six team configurations to systematically study dynamic task modeling. In addition, we conduct an empirical analysis to guide the construction of domain-specific expert datasets and fine-tune pretrained LLMs to improve specialized competence. Experiments show that DynaHMRC achieves higher success rates than strong baselines with fewer action and communication steps, while demonstrating promising scalability trends as team size grows within the evaluated settings.",
-    "authors": [
-      "Wenhao Yu",
-      "Yu'ang Xie",
-      "Yifan Duan",
-      "Jie Peng",
-      "Guanting Ye",
-      "Ka-Veng Yuen",
-      "Yanyong Zhang",
-      "Jianmin Ji"
-    ],
-    "published": "2026-06-12T18:41:30+00:00",
-    "updated": "2026-06-12T18:41:30+00:00",
-    "url": "https://arxiv.org/abs/2606.14882v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.14882v1",
-    "primary_category": "cs.RO",
-    "categories": [
-      "cs.RO"
-    ],
-    "topics": [
-      "long-horizon-agent"
-    ],
-    "excluded": false,
-    "publication_types": [],
-    "venue_type": "",
-    "doi": "",
-    "comment": "",
-    "journal_ref": "",
-    "venue": "",
-    "venue_tier": "",
-    "venue_source": "",
-    "acceptance_evidence": "",
-    "github_url": "",
-    "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
-    "affiliations": [],
-    "first_author_affiliations": [],
-    "industry_affiliations": [],
-    "industry_first_author_affiliations": [],
-    "affiliation_source": "",
-    "highlight_reasons": [],
-    "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "2026-11-25",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Filtered for permissive licenses (MIT, Apache, BSD) from SWE-rebench-V2, this data facilitates the training of models capable of long-horizon reasoning.",
+        "training_evidence": "We validate the dataset by fine-tuning the Qwen3-30B-A3B series (Thinking, Instruct, and Coder).",
+        "source": "https://arxiv.org/abs/2606.16038v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2606.10728",
@@ -2304,19 +2770,21 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 9,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -2324,7 +2792,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "DeNovoSWE: Scaling Long-Horizon Environments for Generating Entire Repositories from Scratch",
+        "training_evidence": "Fine-tuning Qwen3-30B-A3B on DeNovoSWE substantially improves long-horizon SWE performance, raising its score on the challenging BeyondSWE-Doc2Repo benchmark from 5.8% to 47.2%.",
+        "source": "https://arxiv.org/abs/2606.10728v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2606.09730",
@@ -2354,19 +2832,21 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 4,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -2374,7 +2854,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "SearchSwarm: Towards Delegation Intelligence in Agentic LLMs for Long-Horizon Deep Research",
+        "training_evidence": "The harness-guided trajectories naturally encode correct delegation decisions, which we use as supervised fine-tuning data to internalize delegation intelligence into model weights.",
+        "source": "https://arxiv.org/abs/2606.09730v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2605.17862",
@@ -2398,7 +2888,9 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "This work has been accepted at NeurIPS 2026. This is the final camera-ready version",
@@ -2409,8 +2901,8 @@
     "acceptance_evidence": "arXiv comment: This work has been accepted at NeurIPS 2026. This is the final camera-ready version",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 9,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -2418,7 +2910,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": "2026-10-21"
+    "acceptance_first_seen": "2026-10-21",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "$\\boldsymbol{f}$-OPD: Stabilizing Long-Horizon On-Policy Distillation with Freshness-Aware Control",
+        "training_evidence": "Guided by this signal, we further propose f-OPD, a novel framework that adaptively regulates stale-sample influence and constrains policy drift accumulated under asynchronous training.",
+        "source": "https://arxiv.org/abs/2605.17862v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2605.09038",
@@ -2442,7 +2944,9 @@
       "agent-llm-self-evolution"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
@@ -2453,7 +2957,7 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": 0,
+    "citation_count": 1,
     "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
@@ -2462,7 +2966,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "SearchSkill: Teaching LLMs to Use Search Tools with Evolving Skill Banks",
+        "training_evidence": "The resulting two-stage SFT recipe aligns training with the inference-time protocol of skill selection followed by skill-grounded execution.",
+        "source": "https://arxiv.org/abs/2605.09038v4",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2603.02112",
@@ -2486,19 +3000,21 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "in ICML 2026",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 10,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -2506,7 +3022,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Recursive Models for Long-Horizon Reasoning",
+        "training_evidence": "Experimentally, we test two settings: fine-tuning a pretrained base model for recursive SAT solving, and training a small model from scratch on Go traces generated by exact game-tree search.",
+        "source": "https://arxiv.org/abs/2603.02112v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2603.01712",
@@ -2534,19 +3060,21 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "26 pages, 6 figures, 11 tables",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 14,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -2554,7 +3082,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Case studies show that agents can recover from failures through cumulative learning, while still exposing limitations in causal diagnosis and long-horizon planning.",
+        "training_evidence": "We introduce FT-Dojo, an interactive benchmark environment for autonomous LLM fine-tuning, comprising 13 tasks across 5 domains.",
+        "source": "https://arxiv.org/abs/2603.01712v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2602.23716",
@@ -2579,19 +3117,22 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
-    "venue_type": "",
+    "publication_types": [
+      "Conference",
+      "JournalArticle"
+    ],
+    "venue_type": "conference",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
-    "venue_tier": "",
-    "venue_source": "",
-    "acceptance_evidence": "",
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "venue_tier": "ccf-a",
+    "venue_source": "Semantic Scholar publication metadata",
+    "acceptance_evidence": "Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 3,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -2599,7 +3140,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "2026-11-25",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "We propose ProductResearch, a multi-agent framework that synthesizes high-fidelity, long-horizon tool-use trajectories for training robust e-commerce shopping agents.",
+        "training_evidence": "These trajectories are rigorously filtered and distilled through a reflective internalization process that consolidates multi-agent supervisory interactions into coherent single-role training examples, enabling effective fine-tuning of LLM agents for complex shopping inquiries.",
+        "source": "https://arxiv.org/abs/2602.23716v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2602.02619",
@@ -2632,19 +3183,21 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "",
+    "venue": "arXiv.org",
     "venue_tier": "",
-    "venue_source": "",
+    "venue_source": "Semantic Scholar publication metadata",
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
+    "citation_count": 6,
+    "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
     "industry_affiliations": [],
@@ -2652,7 +3205,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "daVinci-Agency: Unlocking Long-Horizon Agency Data-Efficiently",
+        "training_evidence": "The resulting trajectories are substantial--averaging 85k tokens and 116 tool calls--yet remarkably data-efficient: fine-tuning GLM-4.6 on 239 daVinci-Agency samples yields broad improvements across benchmarks, notably achieving a 47% relative gain on Toolathlon.",
+        "source": "https://arxiv.org/abs/2602.02619v2",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2601.21343",
@@ -2699,16 +3262,30 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": null,
-    "citation_source": "",
-    "affiliations": [],
+    "citation_count": 7,
+    "citation_source": "Semantic Scholar",
+    "affiliations": [
+      "Meta AI"
+    ],
     "first_author_affiliations": [],
-    "industry_affiliations": [],
+    "industry_affiliations": [
+      "Meta"
+    ],
     "industry_first_author_affiliations": [],
-    "affiliation_source": "",
+    "affiliation_source": "Semantic Scholar author profiles",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "Self-Improving Training & Thinking",
+        "training_evidence": "To tackle this issue, we introduce a new way to pretrain and mid-train models that incorporates these behaviors earlier.",
+        "source": "https://arxiv.org/abs/2601.21343v5",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2512.22087",
@@ -2735,18 +3312,21 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
-    "venue_type": "",
+    "publication_types": [
+      "Conference",
+      "JournalArticle"
+    ],
+    "venue_type": "conference",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "arXiv.org",
-    "venue_tier": "",
+    "venue": "Annual Meeting of the Association for Computational Linguistics",
+    "venue_tier": "ccf-a",
     "venue_source": "Semantic Scholar publication metadata",
-    "acceptance_evidence": "",
+    "acceptance_evidence": "Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics",
     "github_url": "",
     "github_stars": null,
-    "citation_count": 48,
+    "citation_count": 61,
     "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
@@ -2755,7 +3335,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "2026-11-25",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Context as a Tool: Context Management for Long-Horizon SWE-Agents",
+        "training_evidence": "Using this framework, we train a context-aware model, SWE-Compressor.",
+        "source": "https://arxiv.org/abs/2512.22087v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2511.06575",
@@ -2780,7 +3370,9 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
@@ -2791,7 +3383,7 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": 1,
+    "citation_count": 2,
     "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
@@ -2800,7 +3392,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "However, their reliability remains a challenge, especially in long-horizon tasks, since they often produce overconfident yet wrong outputs.",
+        "training_evidence": "To address this, we introduce CoFineLLM (Conformal Finetuning for LLMs), the first CP-aware finetuning framework for LLM-based planners that explicitly reduces prediction-set size and, in turn, the need for user interventions.",
+        "source": "https://arxiv.org/abs/2511.06575v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2509.15738",
@@ -2829,7 +3431,9 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
@@ -2849,7 +3453,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": "2026-10-21"
+    "acceptance_first_seen": "2026-10-21",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Moreover, it supports multi-stride task generation, enabling the construction of long-horizon workflows across multiple applications.",
+        "training_evidence": "We further train Qwen2.5-VL-7B on the GUI-ReWalk dataset and evaluate it across multiple benchmarks, including Screenspot-Pro, OSWorld-G, UI-Vision, AndroidControl, and GUI-Odyssey.",
+        "source": "https://arxiv.org/abs/2509.15738v1",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2508.16654",
@@ -2875,7 +3489,9 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "9 pages, 4 figures",
@@ -2895,7 +3511,17 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "However, it is plagued by critical vulnerabilities, including poor spatial reasoning, weak cross-modal grounding, and memory overload in long-horizon tasks.",
+        "training_evidence": "Powering Spatial Module, we also introduce an Instruction-Object-Space (I-O-S) dataset and fine-tune the Qwen3-4B model into Qwen-Spatial (Qwen-Sp), which outperforms leading commercial LLMs in object list extraction, achieving higher F1 and NDCG scores on the I-O-S test set.",
+        "source": "https://arxiv.org/abs/2508.16654v3",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2508.09586",
@@ -2924,15 +3550,17 @@
       "agent-llm-self-evolution"
     ],
     "excluded": false,
-    "publication_types": [],
-    "venue_type": "",
+    "publication_types": [
+      "JournalArticle"
+    ],
+    "venue_type": "conference",
     "doi": "",
     "comment": "",
     "journal_ref": "",
-    "venue": "arXiv.org",
-    "venue_tier": "",
+    "venue": "Conference on Empirical Methods in Natural Language Processing",
+    "venue_tier": "selected-extra",
     "venue_source": "Semantic Scholar publication metadata",
-    "acceptance_evidence": "",
+    "acceptance_evidence": "Semantic Scholar publication metadata: Conference on Empirical Methods in Natural Language Processing",
     "github_url": "",
     "github_stars": null,
     "citation_count": 3,
@@ -2944,12 +3572,22 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "2026-11-25",
+    "inclusion_reasons": [
+      {
+        "topic": "agent-llm-self-evolution",
+        "reason": "涉及语言模型／Agent 的自我改进，摘要提供模型训练依据。",
+        "topic_evidence": "EvoCurr: Self-evolving Curriculum with Behavior Code Generation for Complex Decision-making",
+        "training_evidence": "A Designer proposes verifiable intermediate tasks from the latest accepted progress and recent failures, while a Solver generates or trains policies for these tasks.",
+        "source": "https://arxiv.org/abs/2508.09586v3",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2508.00910",
     "title": "Cyber-Zero: Training Cybersecurity Agents without Runtime",
-    "abstract": "Large Language Models (LLMs) have achieved remarkable success in software engineering tasks when trained with executable runtime environments, particularly in resolving GitHub issues. However, such runtime environments are often unavailable in other domains, especially cybersecurity, where challenge configurations and execution contexts are ephemeral or restricted. We present Cyber-Zero, the first runtime-free framework for synthesizing high-quality agent trajectories to train cybersecurity LLMs. Cyber-Zero leverages publicly available CTF writeups and employs persona-driven LLM simulation to reverse-engineer runtime behaviors and generate realistic, long-horizon interaction sequences without actual environments. Using trajectories synthesized by Cyber-Zero, we train LLM-based agents that achieve up to 13.1% absolute performance gains over baseline models on three prominent CTF benchmarks: InterCode-CTF, NYU CTF Bench, and Cybench. Our best model, Cyber-Zero-32B, establishes new state-of-the-art performance among open-weight models, matching the capabilities of proprietary systems like DeepSeek-V3-0324 and Claude-3.5-Sonnet while offering superior cost-effectiveness, and demonstrating that runtime-free trajectory synthesis can effectively democratize the development of state-of-the-art cybersecurity agents.",
+    "abstract": "Large Language Models (LLMs) have achieved remarkable success in software engineering tasks when trained with executable runtime environments, particularly in resolving GitHub issues. However, such runtime environments are often unavailable in other domains, especially cybersecurity, where challenge configurations and execution contexts are ephemeral or restricted. We present Cyber-Zero, the first runtime-free framework for synthesizing high-quality agent trajectories to train cybersecurity LLMs. Cyber-Zero leverages publicly available CTF writeups and employs persona-driven LLM simulation to reverse-engineer runtime behaviors and generate realistic, long-horizon interaction sequences without actual environments. Using trajectories synthesized by Cyber-Zero, we train LLM-based agents that achieve up to 11.4% absolute performance gains over baseline models on three prominent CTF benchmarks: InterCode-CTF, NYU CTF Bench, and Cybench. Our best model, Cyber-Zero-32B, establishes new state-of-the-art performance among open-weight models, matching the capabilities of proprietary systems like DeepSeek-V3-0324 and Claude-3.5-Sonnet while offering superior cost-effectiveness, and demonstrating that runtime-free trajectory synthesis can effectively democratize the development of state-of-the-art cybersecurity agents.",
     "authors": [
       "Terry Yue Zhuo",
       "Dingmin Wang",
@@ -2958,9 +3596,9 @@
       "Zijian Wang"
     ],
     "published": "2025-07-29T18:10:37+00:00",
-    "updated": "2025-08-25T18:12:25+00:00",
-    "url": "https://arxiv.org/abs/2508.00910v2",
-    "pdf_url": "https://arxiv.org/pdf/2508.00910v2",
+    "updated": "2026-11-13T11:42:17+00:00",
+    "url": "https://arxiv.org/abs/2508.00910v3",
+    "pdf_url": "https://arxiv.org/pdf/2508.00910v3",
     "primary_category": "cs.CR",
     "categories": [
       "cs.CR",
@@ -2971,7 +3609,9 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "Public Link: https://github.com/amazon-science/cyber-zero",
@@ -2995,7 +3635,17 @@
     "affiliation_source": "Semantic Scholar author profiles",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "Cyber-Zero leverages publicly available CTF writeups and employs persona-driven LLM simulation to reverse-engineer runtime behaviors and generate realistic, long-horizon interaction sequences without actual environments.",
+        "training_evidence": "We present Cyber-Zero, the first runtime-free framework for synthesizing high-quality agent trajectories to train cybersecurity LLMs.",
+        "source": "https://arxiv.org/abs/2508.00910v3",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   },
   {
     "arxiv_id": "2506.00320",
@@ -3025,7 +3675,9 @@
       "long-horizon-agent"
     ],
     "excluded": false,
-    "publication_types": [],
+    "publication_types": [
+      "JournalArticle"
+    ],
     "venue_type": "",
     "doi": "",
     "comment": "",
@@ -3036,7 +3688,7 @@
     "acceptance_evidence": "",
     "github_url": "",
     "github_stars": null,
-    "citation_count": 13,
+    "citation_count": 17,
     "citation_source": "Semantic Scholar",
     "affiliations": [],
     "first_author_affiliations": [],
@@ -3045,6 +3697,16 @@
     "affiliation_source": "",
     "highlight_reasons": [],
     "verified_at": "",
-    "acceptance_first_seen": ""
+    "acceptance_first_seen": "",
+    "inclusion_reasons": [
+      {
+        "topic": "long-horizon-agent",
+        "reason": "涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。",
+        "topic_evidence": "However, it is unclear what behavior is effective and what behavior is missing for long-horizon AI agents tasks.",
+        "training_evidence": "To initialize a policy with Dyna-Think, DIT reconstructs the thinking process of R1 to focus on performing world model simulation relevant to the proposed (and planned) action, and trains the policy using this reconstructed data.",
+        "source": "https://arxiv.org/abs/2506.00320v3",
+        "evidence_level": "标题／摘要自动筛选，非全文核验"
+      }
+    ]
   }
 ]

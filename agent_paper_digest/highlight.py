@@ -301,7 +301,7 @@ def promotion_signature(paper: Paper) -> tuple[object, ...]:
 
 def is_journal_article(paper: Paper) -> bool:
     """Detect journal publications without treating conference journal_ref as a journal."""
-    if paper.venue_type.lower() == "journal" or "JournalArticle" in paper.publication_types:
+    if paper.venue_type.lower() == "journal":
         return True
     text = " | ".join((paper.venue, paper.journal_ref, paper.comment, paper.acceptance_evidence))
     if re.search(
@@ -310,16 +310,43 @@ def is_journal_article(paper: Paper) -> bool:
         r"Neurocomputing|Expert Systems with Applications|"
         r"Knowledge-Based Systems|Information Sciences|ACM Computing Surveys|TKDE|TIST|TOIS|"
         r"Trans\.\s*Mach\.\s*Learn\.\s*Res|Advanced Intelligent Systems|JACS Au|"
-        r"IEEE Control Systems Letters|Magazine|Proceedings of the ACM on Management of Data)\b",
+        r"IEEE Control Systems Letters|Magazine|Proceedings of the ACM on Management of Data|"
+        r"Proceedings of the National Academy of Sciences)\b",
         text,
         re.I,
     ):
         return True
+    if re.fullmatch(
+        r"\s*(?:Science|AI|Artificial Intelligence|Neural Networks|Pattern Recognition|Computer)"
+        r"(?: Journal)?(?: 20\d{2})?\s*",
+        paper.venue,
+        re.I,
+    ):
+        return True
+    # Semantic Scholar also assigns JournalArticle to arXiv preprints and
+    # conference records. Specific venue evidence takes precedence over that
+    # generic label, while explicit journal names/types above still exclude.
+    venue_evidence = _venue_evidence(paper)
+    selected_conference = venue_evidence is not None and venue_evidence[0] in {
+        "AAAI",
+        "NeurIPS",
+        "ACL",
+        "CVPR",
+        "ICCV",
+        "ICML",
+        "IJCAI",
+        "EMNLP",
+        "ECCV",
+        "ICLR",
+    }
+    conference = (
+        paper.venue_type.lower() == "conference"
+        or "Conference" in paper.publication_types
+        or selected_conference
+        or re.search(r"\b(?:conference|symposium|workshop)\b", paper.venue, re.I)
+    )
     return bool(
-        re.fullmatch(
-            r"\s*(?:Science|Artificial Intelligence|Neural Networks|Pattern Recognition|Computer)"
-            r"(?: Journal)?(?: 20\d{2})?\s*",
-            paper.venue,
-            re.I,
-        )
+        "JournalArticle" in paper.publication_types
+        and not PREPRINT_PATTERN.match(paper.venue)
+        and not conference
     )

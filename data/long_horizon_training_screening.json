@@ -127,11 +127,6 @@
       "evidence": "We validate the dataset by fine-tuning the Qwen3-30B-A3B series (Thinking, Instruct, and Coder)."
     },
     {
-      "id": "2606.14882",
-      "source": "https://arxiv.org/abs/2606.14882v1",
-      "evidence": "In addition, we conduct an empirical analysis to guide the construction of domain-specific expert datasets and fine-tune pretrained LLMs to improve specialized competence."
-    },
-    {
       "id": "2606.10728",
       "source": "https://arxiv.org/abs/2606.10728v2",
       "evidence": "Fine-tuning Qwen3-30B-A3B on DeNovoSWE substantially improves long-horizon SWE performance, raising its score on the challenging BeyondSWE-Doc2Repo benchmark from 5.8% to 47.2%."
@@ -188,7 +183,7 @@
     },
     {
       "id": "2508.00910",
-      "source": "https://arxiv.org/abs/2508.00910v2",
+      "source": "https://arxiv.org/abs/2508.00910v3",
       "evidence": "We present Cyber-Zero, the first runtime-free framework for synthesizing high-quality agent trajectories to train cybersecurity LLMs."
     },
     {

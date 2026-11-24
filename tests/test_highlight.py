@@ -170,11 +170,59 @@ def test_journal_publication_type_survives_serialization_and_merge():
     assert not is_eligible(restored.merge(replace(paper, publication_types=())))
 
 
+@pytest.mark.parametrize(
+    "metadata",
+    [
+        {"venue": "arXiv.org"},
+        {
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "venue_type": "conference",
+        },
+        {
+            "venue": "Proceedings of the Thirty-Fifth International Joint Conference "
+            "on Artificial Intelligence"
+        },
+        {"venue": "NeurIPS 2026", "comment": "Accepted at NeurIPS 2026"},
+        {"publication_types": ("JournalArticle", "Conference")},
+    ],
+)
+def test_generic_journal_label_does_not_override_preprint_or_conference(metadata):
+    paper = replace(
+        make_paper("2607.12345", topics=("user-requested",)),
+        **{"publication_types": ("JournalArticle",), **metadata},
+    )
+    assert is_eligible(classify_highlights(paper))
+
+
+@pytest.mark.parametrize(
+    "metadata",
+    [
+        {"venue": "arXiv.org", "venue_type": "journal"},
+        {"venue": "arXiv.org", "journal_ref": "IEEE Transactions on Robotics, 2026"},
+        {"venue": "TMLR", "publication_types": ("JournalArticle", "Conference")},
+    ],
+)
+def test_specific_journal_evidence_still_excludes_conflicting_metadata(metadata):
+    paper = replace(make_paper("2607.12345", topics=("user-requested",)), **metadata)
+    assert not is_eligible(classify_highlights(paper))
+
+
 def test_memory_cross_topic_is_permanently_excluded_after_classification():
     paper = make_paper("2607.12345", topics=("agent-memory", "user-requested"))
     classified = classify_highlights(paper)
     assert not is_eligible(classified)
     assert not is_eligible(classify_highlights(classified))
+
+
+@pytest.mark.parametrize("venue", ["AI", "Proceedings of the National Academy of Sciences"])
+def test_journal_aliases_and_proceedings_titles_are_not_conference_overrides(venue):
+    paper = replace(
+        make_paper("2607.12345", topics=("user-requested",)),
+        venue=venue,
+        venue_source="Semantic Scholar publication metadata",
+        publication_types=("JournalArticle",),
+    )
+    assert not is_eligible(classify_highlights(paper))
 
 
 def test_new_memory_paper_from_other_query_is_excluded():

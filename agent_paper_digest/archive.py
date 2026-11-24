@@ -16,6 +16,7 @@ from .highlight import (
     promotion_signature,
     qualification_reasons,
 )
+from .inclusion import evidence_markdown, paper_record, reason_summary
 from .models import Paper
 from .topics import (
     LONG_HORIZON_TOPIC,
@@ -93,7 +94,7 @@ class ArchiveRepository:
         data_dir = self.root / "data"
         data_dir.mkdir(parents=True, exist_ok=True)
         (data_dir / "papers.json").write_text(
-            json.dumps([paper.to_dict() for paper in all_papers], ensure_ascii=False, indent=2)
+            json.dumps([paper_record(paper) for paper in all_papers], ensure_ascii=False, indent=2)
             + "\n",
             encoding="utf-8",
         )
@@ -101,6 +102,7 @@ class ArchiveRepository:
         self._write_discoveries(discoveries)
         self._write_daily_archives(discoveries, all_papers)
         self._write_monthly_archives(all_papers)
+        self._write_inclusion_report(all_papers)
         (self.root / "README.md").write_text(
             self._render_readme(all_papers),
             encoding="utf-8",
@@ -169,7 +171,7 @@ class ArchiveRepository:
         data_dir = self.root / "data"
         data_dir.mkdir(parents=True, exist_ok=True)
         (data_dir / "papers.json").write_text(
-            json.dumps([paper.to_dict() for paper in all_papers], ensure_ascii=False, indent=2)
+            json.dumps([paper_record(paper) for paper in all_papers], ensure_ascii=False, indent=2)
             + "\n",
             encoding="utf-8",
         )
@@ -212,6 +214,7 @@ class ArchiveRepository:
         )
         self._write_daily_archives(discoveries, all_papers)
         self._write_monthly_archives(all_papers)
+        self._write_inclusion_report(all_papers)
         (self.root / "README.md").write_text(
             self._render_readme(all_papers),
             encoding="utf-8",
@@ -345,8 +348,8 @@ class ArchiveRepository:
             [
                 "## All Updates · Newest First",
                 "",
-                "| Published | Track | Paper | Signals |",
-                "| --- | --- | --- | --- |",
+                "| Published | Track | Paper | 收录理由 | Signals |",
+                "| --- | --- | --- | --- | --- |",
             ]
         )
         for paper in ordered:
@@ -363,7 +366,7 @@ class ArchiveRepository:
             )
             lines.append(
                 f"| {paper.published.date()} | {tracks} | [{title}]({paper.url}) | "
-                f"{fresh}{self._flags(paper)} |"
+                f"{reason_summary(paper)} | {fresh}{self._flags(paper)} |"
             )
         lines.append("")
         highlighted = [paper for paper in ordered if qualification_reasons(paper)]
@@ -394,6 +397,7 @@ class ArchiveRepository:
                         "",
                         f"- **Authors:** {authors}",
                         f"- **Published:** {paper.published.date().isoformat()}",
+                        *evidence_markdown(paper),
                         f"- **Priority:** {self._flags(paper)}",
                         f"- **Venue:** {paper.venue or 'arXiv'}",
                         f"- **Affiliations:** {', '.join(paper.affiliations) or 'n/a'}",
@@ -406,6 +410,32 @@ class ArchiveRepository:
                     ]
                 )
         return "\n".join(lines)
+
+    def _write_inclusion_report(self, papers: list[Paper]) -> None:
+        lines = [
+            "# 论文收录理由与依据", "",
+            "[返回论文列表](../README.md)", "",
+            "按首次发表时间倒序。理由来自当前标题／摘要筛选规则，"
+            "不是全文核验结论。大厂、会议、引用量是独立的关注标记。", "",
+        ]
+        for paper in papers:
+            lines.extend([
+                f'<a id="paper-{paper.arxiv_id.replace(".", "-")}"></a>', "",
+                f"## {paper.title}", "",
+                f"- **首次发表：** {paper.published.date().isoformat()}",
+                *evidence_markdown(paper), "",
+            ])
+        (self.root / "data" / "inclusion_reasons.md").write_text(
+            "\n".join(lines), encoding="utf-8"
+        )
+
+    @staticmethod
+    def _reason_cell(paper: Paper, prefix: str = "") -> str:
+        anchor = paper.arxiv_id.replace(".", "-")
+        return (
+            f"{reason_summary(paper)} "
+            f"[具体依据]({prefix}data/inclusion_reasons.md#paper-{anchor})"
+        )
 
     @staticmethod
     def _evidence(paper: Paper) -> str:
@@ -513,8 +543,8 @@ class ArchiveRepository:
             f"Recursive Self-Improvement {topic_counts[SELF_EVOLUTION_TOPIC]} · "
             f"Long-Horizon {topic_counts[LONG_HORIZON_TOPIC]}",
             "",
-            "| Date | Track | Paper | Venue | Signals | Metrics |",
-            "| --- | --- | --- | --- | --- | --- |",
+            "| Date | Track | Paper | 收录理由 | Venue | Signals | Metrics |",
+            "| --- | --- | --- | --- | --- | --- | --- |",
         ]
         for paper in papers:
             topics = "<br>".join(TOPIC_SHORT.get(topic, topic) for topic in paper.topics)
@@ -522,11 +552,14 @@ class ArchiveRepository:
             venue = paper.venue or "arXiv"
             links = f"[{title}]({paper.url})<br>[PDF]({paper.pdf_url})"
             lines.append(
-                f"| {paper.published.date().isoformat()} | {topics} | {links} | {venue} | "
+                f"| {paper.published.date().isoformat()} | {topics} | {links} | "
+                f"{self._reason_cell(paper, '../../../')} | {venue} | "
                 f"{self._flags(paper)} | {self._metrics(paper)} |"
             )
         if not papers:
-            lines.append("| — | — | No in-scope papers found in the verified corpus | — | — | — |")
+            lines.append(
+                "| — | — | No in-scope papers found in the verified corpus | — | — | — | — |"
+            )
         lines.extend(
             [
                 "",
@@ -594,6 +627,7 @@ class ArchiveRepository:
             "- [Latest Papers](#latest-papers)",
             "- [Daily Archive](#daily-archive)",
             "- [Dataset](data/papers.json)",
+            "- [收录理由与依据（全部论文）](data/inclusion_reasons.md)",
             "- [Curation Policy](docs/curation.md)",
             "- [Literature Audit](allinone.md)",
             "- [Deployment Guide](docs/deployment.md)",
@@ -651,8 +685,8 @@ class ArchiveRepository:
                 "",
                 "## 📝 Latest Papers",
                 "",
-                "| Published | Track | Paper | Links |",
-                "| --- | --- | --- | --- |",
+                "| Published | Track | Paper | 收录理由 | Links |",
+                "| --- | --- | --- | --- | --- |",
             ]
         )
         for paper in chronological[:30]:
@@ -660,10 +694,10 @@ class ArchiveRepository:
             title = paper.title.replace("|", "\\|")
             lines.append(
                 f"| {paper.published.date().isoformat()} | {topics} | [{title}]({paper.url}) "
-                f"| [Paper]({paper.url}) / [PDF]({paper.pdf_url}) |"
+                f"| {self._reason_cell(paper)} | [Paper]({paper.url}) / [PDF]({paper.pdf_url}) |"
             )
         if not papers:
-            lines.append("| - | - | No papers archived yet | - |")
+            lines.append("| - | - | No papers archived yet | - | - |")
         lines.extend(["", "## 🗓️ Daily Archive", ""])
         if daily_paths:
             for path in daily_paths:

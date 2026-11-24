@@ -9,6 +9,7 @@ import httpx
 
 from .archive import TOPIC_TITLES, ArchiveRepository
 from .highlight import has_industry_qualification
+from .inclusion import reason_summary
 from .models import Paper
 
 
@@ -38,6 +39,8 @@ def build_digest_markdown(
             topics = ", ".join(TOPIC_TITLES.get(topic, topic) for topic in paper.topics)
             lines.append(f"- **{paper.published.date()}** [{paper.title}]({paper.url})")
             lines.append(f"  - {topics}")
+            if reason := reason_summary(paper):
+                lines.append(f"  - **收录理由（摘要筛选）：** {reason}")
             if (
                 coverage_end
                 and paper.published.astimezone(coverage_end.tzinfo).date() == coverage_end.date()

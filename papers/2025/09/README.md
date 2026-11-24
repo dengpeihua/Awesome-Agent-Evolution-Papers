@@ -4,9 +4,9 @@
 
 > 1 unique papers · Recursive Self-Improvement 0 · Long-Horizon 1
 
-| Date | Track | Paper | Venue | Signals | Metrics |
-| --- | --- | --- | --- | --- | --- |
-| 2025-09-19 | Long-Horizon Agents | [GUI-ReWalk: Massive Data Generation for GUI Agent via Stochastic Exploration and Intent-Aware Reasoning](https://arxiv.org/abs/2509.15738v1)<br>[PDF](https://arxiv.org/pdf/2509.15738v1) | Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence | 📈 Highly cited<br>🏆 CCF-A: Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Citations: 13 (Semantic Scholar) |
+| Date | Track | Paper | 收录理由 | Venue | Signals | Metrics |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2025-09-19 | Long-Horizon Agents | [GUI-ReWalk: Massive Data Generation for GUI Agent via Stochastic Exploration and Intent-Aware Reasoning](https://arxiv.org/abs/2509.15738v1)<br>[PDF](https://arxiv.org/pdf/2509.15738v1) | 涉及长程、多步语言 Agent 任务，摘要提供模型训练依据。 [具体依据](../../../data/inclusion_reasons.md#paper-2509-15738) | Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence | 📈 Highly cited<br>🏆 CCF-A: Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Citations: 13 (Semantic Scholar) |
 
 ## Notes
 
