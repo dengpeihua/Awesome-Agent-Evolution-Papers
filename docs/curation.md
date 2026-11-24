@@ -1,10 +1,9 @@
 # Curation and Verification Policy
 
-## Three research tracks
+## Two research tracks
 
 - Recursive Self-Improvement with explicit model-training evidence.
-- Long-Horizon Task Agents.
-- Reinforcement Learning directly related to LLMs / language agents, including RLHF, RLAIF, RLVR, and GRPO.
+- Long-Horizon Agents.
 
 First publication must be on or after **2025-05-01**. Older papers remain excluded
 even when revised or accepted recently. RL requires language-model context plus
@@ -116,7 +115,7 @@ reinforcement learning, or student-model distillation). API teachers are allowed
 when the method actually trains a student. API-only calls, frozen-model inference,
 prompt/harness/code-only evolution, and entries without sufficient training evidence
 are excluded from the entire repository, even if another category also matches.
-Independent RL or long-horizon evaluation papers are not subject to this RSI-only gate.
+Both remaining research tracks now require model-training evidence; RL is excluded.
 
 `data/rsi_training_screening.json` records the evidence sentence and paper URL for
 each retained RSI entry. This is conservative title/abstract screening, not a claim
@@ -124,3 +123,21 @@ of full-paper verification; missing evidence is distinguished from proof that a
 paper is API-only. Removed identifiers are persisted to prevent later cache/query
 reimports. Recuration rebuilds every daily/monthly index and prunes pending messages
 without advancing the last successful notification cursor.
+
+
+## RL retirement and trained long-horizon agents (2026-11-25)
+
+Reinforcement Learning is excluded entirely, including historical labels and
+cross-topic RL papers. The RL discovery query is removed. This takes precedence
+over both training requirements: training a model with RL does not bypass the
+RL exclusion. API-based teachers remain allowed when a student is actually trained
+using a non-RL method such as supervised fine-tuning or distillation.
+
+Long-Horizon Task Agents is renamed to **Long-Horizon Agents**. Both active tracks
+require explicit model-training evidence. API-only evaluation, frozen-model inference,
+prompt/workflow-only optimization, and insufficient training evidence are excluded
+across topics. Screening is based on titles and abstracts, not a full-paper review;
+insufficient evidence does not mean the paper is proven API-only.
+`data/long_horizon_training_screening.json` records retained training evidence.
+The internal long-horizon-agent key remains stable. Historical exclusions persist
+in the ID registry; archive rebuilds purge caches, all indexes, and pending deliveries.

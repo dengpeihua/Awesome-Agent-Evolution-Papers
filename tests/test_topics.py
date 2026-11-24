@@ -37,7 +37,7 @@ def test_detects_agent_self_improvement_and_self_reinforcement() -> None:
         ),
     )
 
-    assert infer_topics(paper) == ("agent-llm-self-evolution", "reinforcement-learning")
+    assert infer_topics(paper) == ("agent-llm-self-evolution",)
 
 
 def test_detects_llm_reinforcement_from_self_generated_feedback() -> None:
@@ -47,7 +47,7 @@ def test_detects_llm_reinforcement_from_self_generated_feedback() -> None:
         abstract="We train a language model with reinforcement learning from its own critiques.",
     )
 
-    assert infer_topics(paper) == ("agent-llm-self-evolution", "reinforcement-learning")
+    assert infer_topics(paper) == ("agent-llm-self-evolution",)
 
 
 def test_detects_llm_continual_post_training() -> None:
@@ -138,8 +138,16 @@ def test_rl_keeps_explicit_language_policy_training(title, abstract):
 @pytest.mark.parametrize(
     "title,abstract,expected",
     [
-        ("Long-Horizon LLM Agents", "We evaluate tool-use tasks.", True),
-        ("Shopping assistants", "LLM agents fail in long trajectories.", True),
+        (
+            "Long-Horizon LLM Agents",
+            "We fine-tune a language model on tool-use trajectories.",
+            True,
+        ),
+        (
+            "Shopping assistants",
+            "LLM agents fail in long trajectories. We train a language model on demonstrations.",
+            True,
+        ),
         ("Long horizon robot control", "A classical agent uses a control policy.", False),
         ("Long-context language models", "An LLM agent summarizes a document.", False),
     ],

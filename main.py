@@ -32,8 +32,8 @@ else:
 @register(
     "agent_paper_digest",
     "Agent Paper Digest",
-    "Daily trained Recursive Self-Improvement, RL, and long-horizon agent papers",
-    "0.8.0",
+    "Daily trained Recursive Self-Improvement and long-horizon agent papers",
+    "0.9.0",
 )
 class AgentPaperDigestPlugin(Star):
     """AstrBot lifecycle adapter for the daily research pipeline."""

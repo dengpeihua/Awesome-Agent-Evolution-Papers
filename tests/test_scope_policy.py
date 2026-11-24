@@ -11,6 +11,7 @@ from agent_paper_digest.models import Paper
 from agent_paper_digest.topics import (
     SELF_EVOLUTION_TOPIC,
     TOPIC_TITLES,
+    is_reinforcement_learning,
     model_training_evidence,
 )
 from tests.test_archive import make_paper
@@ -64,7 +65,7 @@ def test_rsi_keeps_actual_model_training_including_api_teachers(abstract):
         abstract=abstract,
     )
     assert model_training_evidence(paper.title, abstract)
-    assert is_eligible(classify_highlights(paper))
+    assert is_eligible(classify_highlights(paper)) is (not is_reinforcement_learning(paper))
 
 
 def test_continual_training_is_deleted_even_with_other_topics_and_training():
@@ -81,13 +82,13 @@ def test_continual_training_is_deleted_even_with_other_topics_and_training():
     assert "llm-continual-training" not in TOPIC_TITLES
 
 
-def test_no_training_requirement_for_unrelated_long_horizon_evaluation():
+def test_training_required_for_long_horizon_evaluation():
     paper = replace(
         make_paper("scope-test", topics=("long-horizon-agent",)),
         title="Evaluating Long-Horizon LLM Agents",
         abstract="We evaluate an API-based agent on multi-step tasks.",
     )
-    assert is_eligible(paper)
+    assert not is_eligible(paper)
 
 
 def test_refresh_removes_old_entry_when_new_metadata_disqualifies_it(tmp_path):

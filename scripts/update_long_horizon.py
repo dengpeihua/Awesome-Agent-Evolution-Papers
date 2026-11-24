@@ -17,7 +17,7 @@ sys.path.insert(0, str(ROOT))
 from agent_paper_digest.archive import ArchiveRepository
 from agent_paper_digest.arxiv import ArxivSource, parse_arxiv_feed
 from agent_paper_digest.candidates import CandidateRepository
-from agent_paper_digest.highlight import classify_highlights, is_eligible
+from agent_paper_digest.highlight import EXCLUDED_PAPER_IDS, classify_highlights, is_eligible
 from agent_paper_digest.state import DigestStateStore
 from agent_paper_digest.topics import LONG_HORIZON_TOPIC, MIN_PUBLICATION_DATE, REQUESTED_TOPIC
 from scripts.recurate_repository import _write_audit, _write_report
@@ -30,13 +30,19 @@ class LongHorizonSource(ArxivSource):
 
 
 async def main():
-    ids = ["2606.30406", "2609.30837", "2505.10978", "2601.18225"]
+    ids = [
+        pid
+        for pid in ("2606.30406", "2609.30837", "2505.10978", "2601.18225")
+        if pid not in EXCLUDED_PAPER_IDS
+    ]
     source = ArxivSource()
-    async with httpx.AsyncClient(timeout=45, follow_redirects=True) as client:
-        response = await source._request_page(
-            client, params={"id_list": ",".join(ids), "max_results": 10}
-        )
-    requested = parse_arxiv_feed(response.text, topic=REQUESTED_TOPIC)
+    requested = []
+    if ids:
+        async with httpx.AsyncClient(timeout=45, follow_redirects=True) as client:
+            response = await source._request_page(
+                client, params={"id_list": ",".join(ids), "max_results": 10}
+            )
+        requested = parse_arxiv_feed(response.text, topic=REQUESTED_TOPIC)
     if {p.arxiv_id for p in requested} != set(ids):
         raise RuntimeError("Incomplete requested-paper response; refusing partial import")
     enriched = []
@@ -102,7 +108,9 @@ async def main():
     public = archive.replace_dataset(list(result.all_papers))
     _write_audit(ROOT, pool, public)
     _write_report(ROOT, pool, public)
-    assert set(ids) <= {p.arxiv_id for p in public}
+    assert {p.arxiv_id for p in enriched if is_eligible(classify_highlights(p))} <= {
+        p.arxiv_id for p in public
+    }
     print(
         "Public:", len(public), "Long-horizon:", sum(LONG_HORIZON_TOPIC in p.topics for p in public)
     )

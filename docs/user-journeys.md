@@ -1,8 +1,7 @@
 # User journeys
 
 1. As a researcher, I want a daily, deduplicated digest of papers about agent
-   Recursive Self-Improvement with model training, LLM/Agent Reinforcement Learning,
-   and Long-Horizon Task Agents, so that I can keep
+   Recursive Self-Improvement with model training, Long-Horizon Agents with model training, so that I can keep
    up with the field without repeating searches.
 2. As an enterprise WeChat user, I want the digest pushed at a fixed local time,
    so that relevant papers arrive in the group every day.

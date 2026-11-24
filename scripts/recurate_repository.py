@@ -19,12 +19,11 @@ from agent_paper_digest.highlight import (  # noqa: E402
 )
 from agent_paper_digest.models import Paper  # noqa: E402
 from agent_paper_digest.topics import (  # noqa: E402
+    LONG_HORIZON_TOPIC,
     MIN_PUBLICATION_DATE,
-    REINFORCEMENT_LEARNING_TOPIC,
     SELF_EVOLUTION_TOPIC,
     TOPIC_TITLES,
     model_training_evidence,
-    rl_relevance_evidence,
     scope_exclusion_reasons,
 )
 
@@ -36,7 +35,7 @@ def _write_audit(root: Path, candidates: list[Paper], papers: tuple[Paper, ...])
         "policy": {
             "required_topics": list(TOPIC_TITLES),
             "first_publication_on_or_after": MIN_PUBLICATION_DATE.date().isoformat(),
-            "rl_scope": "Substantive RL directly related to language models or language agents",
+            "rl_scope": "Excluded entirely, including cross-topic records",
             "highlight_signals": [
                 "CCF-A Artificial Intelligence Full/Regular paper",
                 "Selected top venue, including ECCV, EMNLP and ICLR",
@@ -48,6 +47,8 @@ def _write_audit(root: Path, candidates: list[Paper], papers: tuple[Paper, ...])
             "exclude_journals": True,
             "exclude_continual_training": True,
             "self_improvement_requires_model_training": True,
+            "exclude_reinforcement_learning": True,
+            "long_horizon_requires_model_training": True,
         },
         "candidate_count": len(candidates),
         "candidate_topic_counts": {
@@ -68,28 +69,7 @@ def _write_audit(root: Path, candidates: list[Paper], papers: tuple[Paper, ...])
         json.dumps(audit, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    (root / "data" / "rl_screening.json").write_text(
-        json.dumps(
-            {
-                "policy": "Language-model context AND substantive RL evidence; "
-                "inherited tags ignored",
-                "evidence_level": "Automated title/abstract screening, not full-paper verification",
-                "papers": [
-                    {
-                        "id": p.arxiv_id,
-                        "published": p.published.isoformat(),
-                        "evidence": rl_relevance_evidence(p.title, p.abstract),
-                    }
-                    for p in papers
-                    if REINFORCEMENT_LEARNING_TOPIC in p.topics
-                ],
-            },
-            ensure_ascii=False,
-            indent=2,
-        )
-        + "\n",
-        encoding="utf-8",
-    )
+    (root / "data" / "rl_screening.json").unlink(missing_ok=True)
     (root / "data" / "rsi_training_screening.json").write_text(
         json.dumps(
             {
@@ -121,10 +101,9 @@ def _write_report(root: Path, candidates: list[Paper], papers: tuple[Paper, ...]
         "",
         "## Scope",
         "",
-        "The public corpus covers three directions plus explicit requests: "
+        "The public corpus covers two directions plus explicit requests: "
         "papers address Recursive Self-Improvement with model training, "
-        "language-model/agent Reinforcement Learning, "
-        "or long-horizon agents. "
+        "and Long-Horizon Agents with model training. "
         "First publication must be on or after 2025-05-01. Priority evidence is optional.",
         "",
         "## Current result",
@@ -191,6 +170,26 @@ def run(root: Path) -> tuple[Paper, ...]:
     )
     _write_audit(root, classified, public)
     _write_report(root, classified, public)
+    (root / "data/long_horizon_training_screening.json").write_text(
+        json.dumps(
+            {
+                "evidence_level": "Conservative title/abstract screening",
+                "papers": [
+                    {
+                        "id": p.arxiv_id,
+                        "source": p.url,
+                        "evidence": model_training_evidence(p.title, p.abstract),
+                    }
+                    for p in public
+                    if LONG_HORIZON_TOPIC in p.topics
+                ],
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
     return public
 
 

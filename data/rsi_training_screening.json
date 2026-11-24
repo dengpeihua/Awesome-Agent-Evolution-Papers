@@ -8,49 +8,14 @@
       "evidence": "(2) In-Weight RSI distills successive refinements into the model's weights, enabling progress beyond an initially wrong majority and theoretically bringing the first attempt toward the model's infinite-step refinement limit."
     },
     {
-      "id": "2611.25380",
-      "source": "https://arxiv.org/abs/2611.25380v1",
-      "evidence": "We also analyze a failure mode of SFT-based specialization---shortened reasoning chains and increased truncation---and argue that harness adapters avoid it by construction."
-    },
-    {
       "id": "2611.23138",
       "source": "https://arxiv.org/abs/2611.23138v1",
       "evidence": "To help LLMs learn to make high-quality experimental decisions from training practice, we perform fine-grained decision identification and quality annotation, then apply decision-level loss masking to exclude supervision on low-quality behavior."
     },
     {
-      "id": "2611.20016",
-      "source": "https://arxiv.org/abs/2611.20016v1",
-      "evidence": "It samples on-policy candidates, rewards high-entropy reasoning forks, penalizes uncertain final answers, and updates the model via group-normalized policy gradients."
-    },
-    {
-      "id": "2611.16409",
-      "source": "https://arxiv.org/abs/2611.16409v1",
-      "evidence": "As a concrete testbed, we fix the Agentic Context Engineering (\\ace{}) harness and train one model to act, reflect, and curate task-local playbooks."
-    },
-    {
-      "id": "2611.15268",
-      "source": "https://arxiv.org/abs/2611.15268v1",
-      "evidence": "Reinforcement learning (GRPO) then trains a LoRA adapter on complete multi-turn, tool-using conversations."
-    },
-    {
-      "id": "2611.12799",
-      "source": "https://arxiv.org/abs/2611.12799v2",
-      "evidence": "We propose Agentic-OPD, which treats the best-validation checkpoint as the student and all saved checkpoints as frozen teacher candidates, using the student's evolving capability gaps to guide both teacher selection and supervision filtering: the HCN policy (Highest Coverage Next) dynamically selects teachers by weighted coverage of the student's unsolved problems, while the LAD module (Locality-Aware Distillation) confines transfer to failed student rollouts on problems where the teacher performs better."
-    },
-    {
       "id": "2611.12109",
       "source": "https://arxiv.org/abs/2611.12109v2",
       "evidence": "We present SkillDuet, a framework that coordinates parameter updates and skill evolution through model response feedback."
-    },
-    {
-      "id": "2611.11499",
-      "source": "https://arxiv.org/abs/2611.11499v1",
-      "evidence": "To coordinate the evolution of models and harnesses, we introduce JoMoHa, to our knowledge the first framework to jointly train an executable harness generation policy and a task execution policy through reinforcement learning."
-    },
-    {
-      "id": "2610.42149",
-      "source": "https://arxiv.org/abs/2610.42149v1",
-      "evidence": "Specifically, the training framework consists of two stages: (i) curriculum supervised fine-tuning (SFT), and (ii) information-gain reinforcement learning (RL)."
     },
     {
       "id": "2610.41216",
@@ -78,24 +43,9 @@
       "evidence": "Based on this insight, CoCA either expands rubric-conditioned frontiers through guided optimization or transfers qualified gains through on-policy self-distillation."
     },
     {
-      "id": "2610.35690",
-      "source": "https://arxiv.org/abs/2610.35690v1",
-      "evidence": "We propose EvoRouter, a self-evolving multi-agent routing framework driven by insight-guided on-policy distillation."
-    },
-    {
-      "id": "2610.34921",
-      "source": "https://arxiv.org/abs/2610.34921v1",
-      "evidence": "We introduce \\physevolve{}, a verifier-grounded self-evolving framework that trains VLMs for causal physical reasoning from model-proposed executable worlds and simulation-authored tasks."
-    },
-    {
       "id": "2610.34386",
       "source": "https://arxiv.org/abs/2610.34386v1",
       "evidence": "We propose ParetoRSI-Gym, in which an agent searches for data, curates it, trains, reads back per-domain results, and repeats, with everything but the data held fixed: the initial LLM, the five domains (math, code, finance, medicine, science), the toolset, and the SFT pipeline."
-    },
-    {
-      "id": "2610.34137",
-      "source": "https://arxiv.org/abs/2610.34137v1",
-      "evidence": "By treating current policy conditioned on this in-distribution reasoning as a self-teacher, SEPO distills the newly discovered solution back into the policy."
     },
     {
       "id": "2610.33766",
@@ -108,44 +58,14 @@
       "evidence": "In this work, we reformulate on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reasoning demonstrations."
     },
     {
-      "id": "2610.30349",
-      "source": "https://arxiv.org/abs/2610.30349v1",
-      "evidence": "We train a reinforcement learning policy initialized from a state-of-the-art language model in a self-judged tournament with masked thinking: the generated arguments are judged pairwise on argument quality by the policy itself."
-    },
-    {
-      "id": "2610.24454",
-      "source": "https://arxiv.org/abs/2610.24454v1",
-      "evidence": "Both levels receive alternating GRPO-style parameter updates under a shared smooth best-of-budget objective, allowing team organization and individual research behavior to co-evolve in a recursive self-improvement loop."
-    },
-    {
-      "id": "2610.23344",
-      "source": "https://arxiv.org/abs/2610.23344v2",
-      "evidence": "To address these challenges, we propose LM2LM, which trains LLMs with RL to generate effective LM improvement proposals."
-    },
-    {
-      "id": "2610.22791",
-      "source": "https://arxiv.org/abs/2610.22791v1",
-      "evidence": "The policy is then updated through reinforcement learning (RL) under the selected harness (P-step), and hard tasks identified during training form the next harness search set, keeping harness optimization targeted to the policy's evolving failure modes."
-    },
-    {
       "id": "2610.21492",
       "source": "https://arxiv.org/abs/2610.21492v1",
       "evidence": "We scale environments under both designs, collect and filter sequential interaction trajectories, and fine-tune Qwen3.5-122B-A10B on 4,956 trajectories from 1,000 task families."
     },
     {
-      "id": "2610.20597",
-      "source": "https://arxiv.org/abs/2610.20597v2",
-      "evidence": "On successful on-policy trajectories, CoPE trains the policy backbone to generate the action sequences that follows each history."
-    },
-    {
       "id": "2610.18792",
       "source": "https://arxiv.org/abs/2610.18792v1",
       "evidence": "The framework runs an agent in three modes: it writes code that becomes the policy (code-as-policy), acts live in the control loop (agent-as-policy), or works as a researcher that fine-tunes a vision-language-action model (auto-research)."
-    },
-    {
-      "id": "2610.13025",
-      "source": "https://arxiv.org/abs/2610.13025v1",
-      "evidence": "We further develop EvoTIDE, a training pipeline that recovers usable trajectories through edit extraction and prefix continuation, then combines SFT with interleaved GRPO across the two roles."
     },
     {
       "id": "2610.12190",
@@ -158,21 +78,6 @@
       "evidence": "Agentic-TTT turns TTT procedures into callable tools, treats accumulated skills as an evolving deployment environment, and trains its policy using the observed utility gains from its decisions."
     },
     {
-      "id": "2610.09832",
-      "source": "https://arxiv.org/abs/2610.09832v2",
-      "evidence": "We introduce SkillFurnace, a dataset of 5k+ annotated records bundling retirement-filtered SFT trajectories, evolved skill libraries with fitness annotations, and retirement events with human-annotated failure categories to support research on skill quality and lifecycle management."
-    },
-    {
-      "id": "2610.05383",
-      "source": "https://arxiv.org/abs/2610.05383v1",
-      "evidence": "To address this, we propose Sibyl, an algorithm that trains SLM agents to selectively consult cloud models at the step level and internalize their guidance for subsequent decisions, achieving strong task performance with minimal cloud reliance."
-    },
-    {
-      "id": "2609.38798",
-      "source": "https://arxiv.org/abs/2609.38798v1",
-      "evidence": "The accepted evidence is then canonicalized into certified evidence rubrics that later reward Graph Solver evidence alignment alongside answer correctness during GRPO training."
-    },
-    {
       "id": "2609.38662",
       "source": "https://arxiv.org/abs/2609.38662v3",
       "evidence": "To address these challenges, we propose CollabFlow, an RSI system of Learned Agent Collaboration: a trainable Collab-Director constructs teams of complete Agents, a frozen executor runs them, and each round's outcomes retrain the director."
@@ -183,44 +88,9 @@
       "evidence": "In this paper, we introduce Bootstrapped On-Policy Self-Distillation (B-OPSD), which temporarily trains the policy ahead to obtain a future teacher, restores the student to the original policy state, and then uses the future teacher to supervise the restarted student."
     },
     {
-      "id": "2609.36945",
-      "source": "https://arxiv.org/abs/2609.36945v1",
-      "evidence": "We study the learning dynamics of fine-tuning a policy model on self-generated and reward-weighted data, with particular focus on a generalized version of REINFORCE -- referred to as RE(S) -- that updates the rollout distribution once every $S \\ge 1$ gradient steps."
-    },
-    {
-      "id": "2609.34320",
-      "source": "https://arxiv.org/abs/2609.34320v1",
-      "evidence": "Under this certificate, a 4B logprob judge trained with SFT and reject-weighted GRPO certifies 0.30-0.59 of evaluation on tool-use and web corpora at alpha=0.1, the only judge, among strongly elicited frontier models, certifying on both headline corpora."
-    },
-    {
-      "id": "2609.33074",
-      "source": "https://arxiv.org/abs/2609.33074v1",
-      "evidence": "It further introduces Correctness-Aware Group Relative Policy Optimization (CA-GRPO), which optimizes performance only after correctness becomes sufficiently reliable."
-    },
-    {
-      "id": "2609.20082",
-      "source": "https://arxiv.org/abs/2609.20082v1",
-      "evidence": "The same HTGR rewards drive both GRPO updates and MACL's difficulty refresh, closing the loop between policy optimization and sample scheduling."
-    },
-    {
-      "id": "2608.30910",
-      "source": "https://arxiv.org/abs/2608.30910v1",
-      "evidence": "Specifically, we contribute a self-evolving spectroscopy skill library, a thinking-augmented skill-code trajectory construction pipeline, and a two-stage training strategy that teaches Qwen3-4B through supervised fine-tuning (SFT) followed by our proposed step-level reinforcement learning (RL)."
-    },
-    {
       "id": "2608.30461",
       "source": "https://arxiv.org/abs/2608.30461v1",
       "evidence": "RetroGen reconstructs candidate latent trajectories from expert artifacts, verifies them against both the artifact and supporting evidence, and trains models on their own successful reconstruction data, without requiring trajectory data from stronger models."
-    },
-    {
-      "id": "2608.21946",
-      "source": "https://arxiv.org/abs/2608.21946v2",
-      "evidence": "Concretely, EDGE partitions each rollout group into experience-conditioned and experience-free trajectories to estimate and admit only positive marginal gains without extra sampling, then distills the induced behavior into the base policy via a reverse-KL objective on its own empirical support."
-    },
-    {
-      "id": "2608.17310",
-      "source": "https://arxiv.org/abs/2608.17310v2",
-      "evidence": "Based on this insight, we propose Agentic ESOpt, a full-parameter agentic fine-tuning framework tailored to flexible parameter--context co-evolution."
     },
     {
       "id": "2608.09292",
@@ -228,119 +98,9 @@
       "evidence": "We sample trajectories using the updated LLMs for supervised fine-tuning to break through the capability boundary of the agents, forming a closed self-evolution loop."
     },
     {
-      "id": "2608.06474",
-      "source": "https://arxiv.org/abs/2608.06474v1",
-      "evidence": "On WebGen-Bench, WebGrader trains an 8B policy to a 52.01% functional success rate, outperforming a matched appearance-plus-script reward by 7.88 points and surpassing o4-mini and DeepSeek-v4-flash."
-    },
-    {
-      "id": "2608.05446",
-      "source": "https://arxiv.org/abs/2608.05446v2",
-      "evidence": "We first instantiate BPE as an inference-time scaffold and then make harness coordination learnable through supervised initialization followed by cost-aware GRPO."
-    },
-    {
-      "id": "2608.01759",
-      "source": "https://arxiv.org/abs/2608.01759v1",
-      "evidence": "EvoBreak is optimized using rejection-sampling supervised fine-tuning and Hint-guided GRPO."
-    },
-    {
-      "id": "2608.02276",
-      "source": "https://arxiv.org/abs/2608.02276",
-      "evidence": "Cold-start supervised fine-tuning initializes this editing policy, which is then trained online with group-relative policy optimization."
-    },
-    {
-      "id": "2607.27360",
-      "source": "https://arxiv.org/abs/2607.27360v1",
-      "evidence": "We propose SkillMentor, which trains a Mentor policy via reinforcement learning to generate diagnostic tasks, identify recurrent failure modes, and curate them into reusable corrective skills."
-    },
-    {
-      "id": "2607.26115",
-      "source": "https://arxiv.org/abs/2607.26115v1",
-      "evidence": "We train the model on realistic red-teaming environments using compute on the same scale as some of our largest RL post-training runs, making it the single-largest LLM safety training run ever documented."
-    },
-    {
-      "id": "2607.23802",
-      "source": "https://arxiv.org/abs/2607.23802v2",
-      "evidence": "Drawing on the principle of self-supervised learning, which constructs pretext tasks to derive supervision from the data itself, we propose Reinforcement Learning with Self-Verifiable Rewards (RLSVR), a task-transformation-based training paradigm for extending RLVR to open-ended tasks."
-    },
-    {
-      "id": "2607.21971",
-      "source": "https://arxiv.org/abs/2607.21971v2",
-      "evidence": "Building on these signals, we synthesize evolution trajectories as training data, each containing a current program, its fitness score (combining correctness and efficiency), and a history of prior attempts, and train the model via RL with verifiable rewards derived from test case execution."
-    },
-    {
-      "id": "2607.17281",
-      "source": "https://arxiv.org/abs/2607.17281v2",
-      "evidence": "Furthermore, we propose Decoupled Group Relative Policy Optimization (D-GRPO) to achieve end-to-end optimization via advantage decoupling."
-    },
-    {
-      "id": "2607.14777",
-      "source": "https://arxiv.org/abs/2607.14777v1",
-      "evidence": "We propose SEED (SElf-Evolving On-Policy Distillation), a self-evolving framework that converts completed on-policy trajectories into training-time hindsight skills and distills their behavioral effect back into the policy model."
-    },
-    {
-      "id": "2606.26578",
-      "source": "https://arxiv.org/abs/2606.26578v3",
-      "evidence": "Training proceeds in two stages: supervised fine-tuning (SFT) on an initial dataset, followed by reinforcement learning with verifiable rewards (RLVR), where graph-derived weakness signals guide the generation of new instances targeting the model's failures."
-    },
-    {
-      "id": "2606.09052",
-      "source": "https://arxiv.org/abs/2606.09052v5",
-      "evidence": "Because this continuous, noisy influence score is poorly served by standard GRPO, we propose DuGRPO, a dual-normalized variant of GRPO, for generator training."
-    },
-    {
-      "id": "2605.25389",
-      "source": "https://arxiv.org/abs/2605.25389v1",
-      "evidence": "Furthermore, we introduce Attack-Flow GRPO to optimize intermediate reasoning steps via terminal outcomes, addressing the long-horizon credit assignment challenge."
-    },
-    {
-      "id": "2605.18162",
-      "source": "https://arxiv.org/abs/2605.18162v2",
-      "evidence": "SAGE incorporates duality consistency into GRPO training, encouraging models to produce coherent answers across original and transformed inputs."
-    },
-    {
       "id": "2605.09038",
       "source": "https://arxiv.org/abs/2605.09038v4",
       "evidence": "The resulting two-stage SFT recipe aligns training with the inference-time protocol of skill selection followed by skill-grounded execution."
-    },
-    {
-      "id": "2605.08693",
-      "source": "https://arxiv.org/abs/2605.08693v3",
-      "evidence": "Third, we introduce DualAdv-GRPO, which separately estimates advantages for task-solving actions and skill-editing decisions, stabilizing joint training across task solving and skill management."
-    },
-    {
-      "id": "2604.13491",
-      "source": "https://arxiv.org/abs/2604.13491v5",
-      "evidence": "In addition, to further strengthen the MLLM's multimodal reasoning ability, we introduce FiRe-GRPO, a reinforcement learning method tailored to FiRe."
-    },
-    {
-      "id": "2604.00790",
-      "source": "https://arxiv.org/abs/2604.00790v2",
-      "evidence": "(2) A reinforcement learning (RL) solution to incentivize LLMs to self-refine with only standard RLVR data (i.e., problems paired with their verifiable answers)."
-    },
-    {
-      "id": "2603.25111",
-      "source": "https://arxiv.org/abs/2603.25111v3",
-      "evidence": "Building on FGGM, we present SEVerA (Self-Evolving Verified Agents), a three-stage framework: Search synthesizes candidate parametric programs containing FGGM calls; Verification proves correctness with respect to hard constraints for all parameter values, reducing the problem to unconstrained learning; and Learning applies scalable gradient-based optimization, including GRPO-style fine-tuning, to improve the soft objective while preserving correctness."
-    },
-    {
-      "id": "2603.18118",
-      "source": "https://arxiv.org/abs/2603.18118v1",
-      "evidence": "To overcome these limitations, particularly for long-horizon video understanding, Insight-V++ introduces two novel algorithms, ST-GRPO and J-GRPO, which enhance spatial-temporal reasoning and improve evaluative robustness."
-    },
-    {
-      "id": "2602.14697",
-      "source": "https://arxiv.org/abs/2602.14697v5",
-      "evidence": "In each RL iteration, E-SPL samples trajectories under multiple system prompts in parallel, then uses them to jointly update the weights with RL and evolve the system prompts with self-reflection."
-    },
-    {
-      "id": "2602.13559",
-      "source": "https://arxiv.org/abs/2602.13559v2",
-      "evidence": "2) Online Agentic RL in the Wild: We develop an online interaction environment and fine-tune the VLM using a specialized RL pipeline."
-    },
-    {
-      "id": "2602.00513",
-      "source": "https://arxiv.org/abs/2602.00513v4",
-      "evidence": "To address reward sparsity during rollout, we propose MinervaRL, an auxiliary self-training mechanism that generates additional verified trajectories and distills them back into the model."
     },
     {
       "id": "2601.21343",
@@ -348,39 +108,9 @@
       "evidence": "To tackle this issue, we introduce a new way to pretrain and mid-train models that incorporates these behaviors earlier."
     },
     {
-      "id": "2601.06794",
-      "source": "https://arxiv.org/abs/2601.06794v2",
-      "evidence": "By employing dual-track GRPO updates, ECHO ensures the critic's feedback stays synchronized with the evolving policy."
-    },
-    {
-      "id": "2512.03284",
-      "source": "https://arxiv.org/abs/2512.03284v2",
-      "evidence": "Building on H$^2$U3D, we propose SpatialReasoner, an AHSR framework trained via supervised fine-tuning with self-correction, followed by reinforcement learning with a task-aware adaptive exploration reward."
-    },
-    {
-      "id": "2510.11184",
-      "source": "https://arxiv.org/abs/2510.11184v2",
-      "evidence": "To effectively train this complex interleaved policy, we introduce {Dr."
-    },
-    {
-      "id": "2508.19576",
-      "source": "https://arxiv.org/abs/2508.19576v4",
-      "evidence": "Then, we further introduce a decoding optimization method, VM-MCTS, which trains a Value Model (VM) from self-collected Monte-Carlo Tree Search (MCTS) targets and deploys it through an adapted MCTS algorithm to provide precise process signals and verification scores, further enhancing reasoning accuracy."
-    },
-    {
       "id": "2508.09586",
       "source": "https://arxiv.org/abs/2508.09586v3",
       "evidence": "A Designer proposes verifiable intermediate tasks from the latest accepted progress and recent failures, while a Solver generates or trains policies for these tasks."
-    },
-    {
-      "id": "2507.16815",
-      "source": "https://arxiv.org/abs/2507.16815v2",
-      "evidence": "ThinkAct trains a multimodal LLM to generate embodied reasoning plans guided by reinforcing action-aligned visual rewards based on goal completion and trajectory consistency."
-    },
-    {
-      "id": "2506.21669",
-      "source": "https://arxiv.org/abs/2506.21669v2",
-      "evidence": "Specifically, to convert sparse delayed rewards into denser intermediate signals that improve multi-step reasoning, we propose Tree-based group relative policy optimization (Tree-GRPO) integrates Monte Carlo Tree Search into GRPO."
     }
   ]
 }

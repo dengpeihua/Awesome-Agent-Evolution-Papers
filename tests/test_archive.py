@@ -207,7 +207,7 @@ def test_public_paper_lists_are_ordered_by_published_time_descending(tmp_path) -
 
 def test_acceptance_discovery_and_coverage_survive_rebuild(tmp_path):
     archive = ArchiveRepository(tmp_path)
-    original = make_paper("2607.12345", topics=("reinforcement-learning",))
+    original = make_paper("2607.12345", topics=("agent-llm-self-evolution",))
     archive.update(date(2026, 7, 16), [original])
     accepted = replace(original, comment="Accepted to ICLR 2027 as a full paper")
     start = datetime(2026, 9, 12, tzinfo=UTC)
@@ -224,7 +224,7 @@ def test_acceptance_discovery_and_coverage_survive_rebuild(tmp_path):
 
 def test_large_daily_archive_paginates_without_losing_or_reordering_papers(tmp_path, monkeypatch):
     monkeypatch.setattr("agent_paper_digest.highlight.EXCLUDED_PAPER_IDS", frozenset())
-    papers = [make_paper(f"2610.{i:05d}", topics=("reinforcement-learning",)) for i in range(125)]
+    papers = [make_paper(f"2610.{i:05d}", topics=("agent-llm-self-evolution",)) for i in range(125)]
     archive = ArchiveRepository(tmp_path)
     result = archive.update(date(2026, 10, 3), papers)
     first = result.daily_path.read_text("utf-8")
@@ -258,10 +258,10 @@ def test_first_publication_cutoff_rejects_old_papers_even_if_recently_updated(tm
     assert not stale.exists()
 
 
-def test_recuration_removes_cached_rl_tags_without_losing_other_valid_topics(tmp_path):
+def test_recuration_removes_rl_papers_including_cross_topic_entries(tmp_path):
     paper = replace(
         make_paper("2609.001", topics=("agent-llm-self-evolution",)),
         topics=("agent-llm-self-evolution", "reinforcement-learning"),
     )
     result = ArchiveRepository(tmp_path).replace_dataset([paper])
-    assert result[0].topics == ("agent-llm-self-evolution",)
+    assert result == ()

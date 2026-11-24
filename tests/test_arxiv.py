@@ -34,7 +34,6 @@ def test_build_query_contains_precise_topic_terms() -> None:
 
     assert set(queries) == {
         "agent-llm-self-evolution",
-        "reinforcement-learning",
         "long-horizon-agent",
     }
     assert '"self-evolving"' in queries["agent-llm-self-evolution"]

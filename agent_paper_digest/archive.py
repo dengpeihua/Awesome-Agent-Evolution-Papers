@@ -20,7 +20,6 @@ from .models import Paper
 from .topics import (
     LONG_HORIZON_TOPIC,
     MIN_PUBLICATION_DATE,
-    REINFORCEMENT_LEARNING_TOPIC,
     SELF_EVOLUTION_TOPIC,
     TOPIC_SHORT,
     TOPIC_TITLES,
@@ -330,7 +329,7 @@ class ArchiveRepository:
             f"# Daily Papers · {discovery_date.isoformat()}",
             "",
             f"> Prepared **{len(papers)}** new, promoted, or retried paper(s) "
-            "across three research tracks plus explicitly requested papers. "
+            "across two research tracks plus explicitly requested papers. "
             "Lists are newest publication first.",
         ]
         if coverage_start and coverage_end:
@@ -512,7 +511,6 @@ class ArchiveRepository:
             "",
             f"> {len(papers)} unique papers · "
             f"Recursive Self-Improvement {topic_counts[SELF_EVOLUTION_TOPIC]} · "
-            f"Reinforcement Learning {topic_counts[REINFORCEMENT_LEARNING_TOPIC]} · "
             f"Long-Horizon {topic_counts[LONG_HORIZON_TOPIC]}",
             "",
             "| Date | Track | Paper | Venue | Signals | Metrics |",
@@ -562,7 +560,7 @@ class ArchiveRepository:
             '<div align="center">',
             "",
             "A daily collection of papers on **Recursive Self-Improvement**, "
-            "**Reinforcement Learning**, and **Long-Horizon Task Agents**,",
+            "and **Long-Horizon Agents**,",
             "powered by AstrBot.",
             "",
             "The bot resumes from its last successful delivery after downtime, prioritizes",
@@ -586,8 +584,7 @@ class ArchiveRepository:
             "| --- | ---: |",
             f"| Total papers | {len(papers)} |",
             f"| Recursive Self-Improvement | {topic_counts[SELF_EVOLUTION_TOPIC]} |",
-            f"| Reinforcement Learning | {topic_counts[REINFORCEMENT_LEARNING_TOPIC]} |",
-            f"| Long-Horizon Task Agents | {topic_counts[LONG_HORIZON_TOPIC]} |",
+            f"| Long-Horizon Agents | {topic_counts[LONG_HORIZON_TOPIC]} |",
             f"| Daily archives | {len(daily_paths)} |",
             "",
             "## 📚 Table of Contents",
@@ -623,8 +620,8 @@ class ArchiveRepository:
                 "",
                 "## 🗓️ Monthly Index",
                 "",
-                "| Month | Papers | Recursive Self-Improvement | RL | Long-Horizon |",
-                "| --- | ---: | ---: | ---: | ---: |",
+                "| Month | Papers | Recursive Self-Improvement | Long-Horizon Agents |",
+                "| --- | ---: | ---: | ---: |",
             ]
         )
         month_keys = sorted(
@@ -647,7 +644,6 @@ class ArchiveRepository:
                 f"| [{year}-{month:02d}](papers/{year}/{month:02d}/README.md) | "
                 f"{len(month_papers)} | "
                 f"{sum(SELF_EVOLUTION_TOPIC in p.topics for p in month_papers)} | "
-                f"{sum(REINFORCEMENT_LEARNING_TOPIC in p.topics for p in month_papers)} | "
                 f"{sum(LONG_HORIZON_TOPIC in p.topics for p in month_papers)} |"
             )
         lines.extend(
@@ -683,17 +679,14 @@ class ArchiveRepository:
                 "- **Recursive Self-Improvement:** self-improvement with explicit evidence "
                 "of language-model or policy training; API-only, prompt/harness-only, and "
                 "training-unverified papers are excluded, including cross-topic entries",
-                "- **Long-Horizon Task Agents:** language agents executing extended, "
-                "multi-step tasks",
-                "- **Excluded:** LLM Continual Training, Agent Memory "
+                "- **Long-Horizon Agents:** language agents executing extended, "
+                "multi-step tasks with explicit model-training evidence",
+                "- **Excluded:** Reinforcement Learning, LLM Continual Training, Agent Memory "
                 "(including cross-topic papers), and journal articles",
                 "- **Date boundary:** first publication on or after 2025-05-01; "
                 "a recent revision does not make an older paper eligible",
-                "- **Reinforcement Learning:** substantive RL training or research directly "
-                "related to language models / language agents, including RLHF, RLAIF, RLVR "
-                "and GRPO; generic control/robotics RL and incidental mentions are excluded",
-                "- **Public inclusion:** any of the three topics or an explicit user request, "
-                "subject to all exclusions and the self-improvement training requirement; "
+                "- **Public inclusion:** any of the two topics or an explicit user request, "
+                "subject to all exclusions and the training requirements for both active tracks; "
                 "industry, venue, and citation "
                 "signals highlight papers without excluding new preprints",
                 "- **Acceptance dates:** first observed means newly detected by this bot; "

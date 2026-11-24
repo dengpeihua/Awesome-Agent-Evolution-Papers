@@ -170,21 +170,13 @@ class ArxivSource:
 
     @staticmethod
     def topic_queries() -> dict[str, str]:
-        """Return queries for the three active research tracks."""
+        """Return queries for the two active research tracks."""
         return {
             "long-horizon-agent": (
                 '(all:"long-horizon" OR all:"long horizon" OR all:"long trajectories" '
                 'OR all:"long-running tasks" OR all:"multi-step tasks") '
                 'AND (all:"agent" OR all:"agentic") '
                 'AND (all:"LLM" OR all:"language model" OR all:"language agents")'
-            ),
-            "reinforcement-learning": (
-                '(ti:"reinforcement learning" OR abs:"reinforcement learning" '
-                'OR ti:"RLHF" OR abs:"RLHF" OR ti:"GRPO" OR abs:"GRPO" '
-                'OR ti:"RLAIF" OR abs:"RLAIF" OR ti:"RLVR" OR abs:"RLVR") '
-                'AND (ti:"language model" OR abs:"language model" '
-                'OR ti:"LLM" OR abs:"LLM" OR ti:"LLMs" OR abs:"LLMs" '
-                'OR ti:"vision-language" OR abs:"vision-language")'
             ),
             "agent-llm-self-evolution": (
                 '((all:"self-evolving" OR all:"self-improving" '

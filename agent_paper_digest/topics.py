@@ -16,20 +16,17 @@ MIN_PUBLICATION_DATE: Final = datetime(2025, 5, 1, tzinfo=UTC)
 
 TOPIC_ORDER: Final = (
     SELF_EVOLUTION_TOPIC,
-    REINFORCEMENT_LEARNING_TOPIC,
     LONG_HORIZON_TOPIC,
     REQUESTED_TOPIC,
 )
 TOPIC_TITLES: Final = {
     SELF_EVOLUTION_TOPIC: "Recursive Self-Improvement",
-    REINFORCEMENT_LEARNING_TOPIC: "Reinforcement Learning",
-    LONG_HORIZON_TOPIC: "Long-Horizon Task Agents",
+    LONG_HORIZON_TOPIC: "Long-Horizon Agents",
     REQUESTED_TOPIC: "Explicitly Requested Papers",
 }
 TOPIC_SHORT: Final = {
     SELF_EVOLUTION_TOPIC: "Recursive Self-Improvement",
-    REINFORCEMENT_LEARNING_TOPIC: "Reinforcement Learning",
-    LONG_HORIZON_TOPIC: "Long-Horizon Task Agents",
+    LONG_HORIZON_TOPIC: "Long-Horizon Agents",
     REQUESTED_TOPIC: "Explicitly Requested Papers",
 }
 REQUIRED_TOPICS: Final = frozenset(TOPIC_ORDER)
@@ -164,18 +161,7 @@ def infer_topics_from_text(
         REINFORCEMENT_LEARNING_TOPIC,
         LONG_HORIZON_TOPIC,
     }
-    if (
-        LANGUAGE_CONTEXT.search(text)
-        and re.search(r"\bagent(?:s|ic)?\b", text, re.I)
-        and re.search(
-            (
-                r"\b(?:long[- ]?horizon|long[- ](?:trajectories|running tasks)|"
-                r"multi[- ]step tasks|extended[- ]horizon)\b"
-            ),
-            text,
-            re.I,
-        )
-    ):
+    if long_horizon_context(title, abstract) and model_training_evidence(title, abstract):
         topics.add(LONG_HORIZON_TOPIC)
     if (
         AGENT_LLM_PATTERN.search(text)
@@ -183,8 +169,6 @@ def infer_topics_from_text(
         and model_training_evidence(title, abstract)
     ):
         topics.add(SELF_EVOLUTION_TOPIC)
-    if rl_relevance_evidence(title, abstract):
-        topics.add(REINFORCEMENT_LEARNING_TOPIC)
     return tuple(topic for topic in TOPIC_ORDER if topic in topics)
 
 
@@ -247,6 +231,10 @@ def model_training_evidence(title: str, abstract: str) -> str:
         if re.search(
             r"\b(?:training[- ]free|tuning[- ]free|gradient[- ]free|inference[- ]only|"
             r"parameter[- ]update[- ]free|rather than|instead of|"
+            r"future research|diverges? from|already fine[- ]tuned|"
+            r"(?:keeping|keep)\b.{0,30}(?:weights|parameters) fixed|"
+            r"not\s+(?:retrain\w*|fine[- ]tun\w*|train\w*)|"
+            r"(?:a|an|the) fine[- ]tuned\b|"
             r"without\b.{0,70}(?:train\w*|tun\w*|gradient\w*|updat\w*)|"
             r"without\b.{0,70}chang\w*.{0,35}(?:parameter|weight)\w*|"
             r"(?:no|does not|do not|never)\b.{0,35}(?:train\w*|tun\w*|updat\w*)|"
@@ -324,8 +312,60 @@ def model_training_evidence(title: str, abstract: str) -> str:
 
 def scope_exclusion_reasons(paper: Paper) -> tuple[str, ...]:
     reasons = []
+    if is_reinforcement_learning(paper):
+        reasons.append("reinforcement_learning")
+    if (
+        LONG_HORIZON_TOPIC in paper.topics or long_horizon_context(paper.title, paper.abstract)
+    ) and not model_training_evidence(paper.title, paper.abstract):
+        reasons.append("long_horizon_without_model_training_evidence")
     if is_continual_training(paper):
         reasons.append("llm_continual_training")
     if is_self_improvement(paper) and not model_training_evidence(paper.title, paper.abstract):
         reasons.append("self_improvement_without_model_training_evidence")
     return tuple(reasons)
+
+
+def is_reinforcement_learning(paper: Paper) -> bool:
+    """Retired RL track, including cross-topic language/embodied agent training."""
+    if REINFORCEMENT_LEARNING_TOPIC in paper.topics:
+        return True
+    if not LANGUAGE_CONTEXT.search(f"{paper.title}\n{paper.abstract}"):
+        return False
+    method = re.compile(
+        RL_METHOD.pattern + r"|\b(?:RL|policy gradients?|policy optimi[sz]ation)\b"
+        r"|reinforc\w*.{0,40}rewards?|optimi[sz]\w*.{0,40}rewards?",
+        re.I,
+    )
+    if method.search(paper.title):
+        return True
+    return any(
+        method.search(sentence)
+        and not INCIDENTAL_RL.search(sentence)
+        and not re.search(
+            r"\b(?:baseline|future research|prior work|instead of|diverges? from)\b", sentence, re.I
+        )
+        and re.search(
+            r"\b(?:train\w*|fine[- ]?tun\w*|optimi[sz]\w*|reward\w*|"
+            r"polic\w*|updates?|propos\w*|introduc\w*|agents?|SFT)\b",
+            sentence,
+            re.I,
+        )
+        for sentence in re.split(r"(?<=[.!?])\s+|\n+", paper.abstract)
+    )
+
+
+def long_horizon_context(title: str, abstract: str) -> bool:
+    """Recognize long-horizon language agents independently of admission rules."""
+    text = f"{title}\n{abstract}"
+    return bool(
+        LANGUAGE_CONTEXT.search(text)
+        and re.search(r"\bagent(?:s|ic)?\b", text, re.I)
+        and re.search(
+            (
+                r"\b(?:long[- ]?horizon|long[- ](?:trajectories|running tasks)|"
+                r"multi[- ]step tasks|extended[- ]horizon)\b"
+            ),
+            text,
+            re.I,
+        )
+    )

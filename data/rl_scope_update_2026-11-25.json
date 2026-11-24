@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-25",
+  "before": 1992,
+  "after": 62,
+  "removed_unique": 1930,
+  "removed_original_rl_category": 716,
+  "reasons_overlapping": {
+    "reinforcement_learning": 973,
+    "long_horizon_without_model_training_evidence": 1184
+  },
+  "current_topics": {
+    "agent-llm-self-evolution": 22,
+    "long-horizon-agent": 39,
+    "user-requested": 1
+  },
+  "notes": [
+    "RL exclusions override model-training eligibility across all topics.",
+    "Training screening uses titles and abstracts. Missing evidence is not proof of API-only operation.",
+    "Publication and notification success cursor preserved."
+  ]
+}
