@@ -2,16 +2,16 @@
 
 ## Scope
 
-The public corpus covers four directions plus explicit requests: papers address Agent/LLM self-evolution, self-improving systems, recursive self-improvement, LLM continual training, language-model/agent Reinforcement Learning, or long-horizon agents. First publication must be on or after 2025-05-01. Priority evidence is optional.
+The public corpus covers three directions plus explicit requests: papers address Recursive Self-Improvement with model training, language-model/agent Reinforcement Learning, or long-horizon agents. First publication must be on or after 2025-05-01. Priority evidence is optional.
 
 ## Current result
 
-- Topic candidates evaluated: **3330**
-- Papers retained in the public repository: **3293**
-- CCF-A (Artificial Intelligence): **135**
-- Selected top venues: **57**
-- Big-tech affiliation: **13**
-- At least 10 citations: **194**
+- Topic candidates evaluated: **3293**
+- Papers retained in the public repository: **1992**
+- CCF-A (Artificial Intelligence): **96**
+- Selected top venues: **30**
+- Big-tech affiliation: **5**
+- At least 10 citations: **124**
 
 Counts overlap because one paper may satisfy multiple qualifiers. GitHub stars are displayed as context but do not qualify a paper for inclusion.
 

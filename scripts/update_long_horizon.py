@@ -85,7 +85,7 @@ async def main():
     pool = [
         classify_highlights(p) for p in candidates.merge([*archive._load(), *recent, *enriched])
     ]
-    candidates.save(pool)
+    candidates.save([p for p in pool if is_eligible(p)])
     known = {p.arxiv_id for p in archive._load()}
     now = datetime.now(ZoneInfo("Asia/Shanghai"))
     state = DigestStateStore(ROOT)

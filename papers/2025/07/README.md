@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 23 unique papers · Agent/LLM Self-Improvement 1 · Continual Training 0 · Reinforcement Learning 3 · Long-Horizon 20
+> 23 unique papers · Recursive Self-Improvement 1 · Reinforcement Learning 3 · Long-Horizon 20
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -16,7 +16,7 @@
 | 2025-07-26 | Long-Horizon Task Agents | [Agentic Reinforced Policy Optimization](https://arxiv.org/abs/2507.19849v1)<br>[PDF](https://arxiv.org/pdf/2507.19849v1) | arXiv.org | 📈 Highly cited | Citations: 158 (Semantic Scholar) |
 | 2025-07-24 | Long-Horizon Task Agents | [Efficient Agents: Building Effective Agents While Reducing Cost](https://arxiv.org/abs/2508.02694v1)<br>[PDF](https://arxiv.org/pdf/2508.02694v1) | arXiv.org | 📈 Highly cited | Citations: 39 (Semantic Scholar) |
 | 2025-07-24 | Long-Horizon Task Agents | [Neural Architecture Discovery via Autonomous Evolution](https://arxiv.org/abs/2507.18074v2)<br>[PDF](https://arxiv.org/pdf/2507.18074v2) | arXiv | — | — |
-| 2025-07-22 | Agent/LLM Self-Improvement<br>Long-Horizon Task Agents | [ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning](https://arxiv.org/abs/2507.16815v2)<br>[PDF](https://arxiv.org/pdf/2507.16815v2) | Neural Information Processing Systems | 📈 Highly cited | Citations: 185 (Semantic Scholar) |
+| 2025-07-22 | Recursive Self-Improvement<br>Long-Horizon Task Agents | [ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning](https://arxiv.org/abs/2507.16815v2)<br>[PDF](https://arxiv.org/pdf/2507.16815v2) | Neural Information Processing Systems | 📈 Highly cited | Citations: 185 (Semantic Scholar) |
 | 2025-07-21 | Reinforcement Learning | [Stabilizing Knowledge, Promoting Reasoning: Dual-Token Constraints for RLVR](https://arxiv.org/abs/2507.15778v3)<br>[PDF](https://arxiv.org/pdf/2507.15778v3) | NeurIPS 2026 | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | — |
 | 2025-07-21 | Long-Horizon Task Agents | [MobileUse: A GUI Agent with Hierarchical Reflection for Autonomous Mobile Operation](https://arxiv.org/abs/2507.16853v1)<br>[PDF](https://arxiv.org/pdf/2507.16853v1) | arXiv.org | — | Citations: 7 (Semantic Scholar) |
 | 2025-07-20 | Reinforcement Learning | [AgentFly: Scaling Agentic Reinforcement Learning with Unified Resource System](https://arxiv.org/abs/2507.14897v2)<br>[PDF](https://arxiv.org/pdf/2507.14897v2) | arXiv | — | Citations: 8 (Semantic Scholar) |

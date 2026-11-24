@@ -82,7 +82,7 @@ profile metadata. Most Semantic Scholar endpoints work without a key but may be
 throttled. An optional key can be placed in `semantic_scholar_api_key` in AstrBot's
 local plugin configuration; never add it to this repository.
 
-Four active tracks are included, even without citations or known affiliations.
+Three active tracks are included, even without citations or known affiliations.
 Industry teams, first-author companies, and selected top conferences receive evidence
 labels; newly observed acceptance is dated separately from publication.
 See [Curation Policy](curation.md) for the venue watchlist and source limitations.
@@ -118,4 +118,6 @@ AstrBot chat, or reload the plugin with `run_on_startup` enabled for one run.
 - Machine-readable dataset: `data/papers.json`
 - AstrBot logs: `$env:USERPROFILE\Projects\AstrBot\data\logs`
 
-First publication starts at 2025-05-01. Agent Memory and journal articles are excluded.
+First publication starts at 2025-05-01. Agent Memory, LLM Continual Training, and journal articles are excluded.
+Recursive Self-Improvement requires model-training evidence; API-only and
+unverified-training entries are excluded even across topics.

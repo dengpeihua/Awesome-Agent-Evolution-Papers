@@ -69,7 +69,7 @@ def test_first_author_big_tech_and_high_citations_qualify_independently() -> Non
         affiliation_source="Semantic Scholar author profiles",
     )
     cited = replace(
-        make_paper("2608.00007", topics=("llm-continual-training",)),
+        make_paper("2608.00007", topics=("agent-llm-self-evolution",)),
         citation_count=10,
     )
 

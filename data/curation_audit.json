@@ -1,9 +1,8 @@
 {
-  "generated_at": "2026-11-24T18:30:30.472079+00:00",
+  "generated_at": "2026-11-24T19:13:59.060027+00:00",
   "policy": {
     "required_topics": [
       "agent-llm-self-evolution",
-      "llm-continual-training",
       "reinforcement-learning",
       "long-horizon-agent",
       "user-requested"
@@ -18,33 +17,33 @@
     ],
     "code_stars_are_qualifying": false,
     "exclude_agent_memory": true,
-    "exclude_journals": true
+    "exclude_journals": true,
+    "exclude_continual_training": true,
+    "self_improvement_requires_model_training": true
   },
-  "candidate_count": 3330,
+  "candidate_count": 3293,
   "candidate_topic_counts": {
-    "agent-llm-self-evolution": 1046,
-    "llm-continual-training": 418,
-    "reinforcement-learning": 763,
-    "long-horizon-agent": 1535,
-    "user-requested": 4
-  },
-  "public_paper_count": 3293,
-  "topic_counts": {
-    "agent-llm-self-evolution": 1021,
-    "llm-continual-training": 409,
+    "agent-llm-self-evolution": 80,
     "reinforcement-learning": 763,
     "long-horizon-agent": 1524,
     "user-requested": 4
   },
+  "public_paper_count": 1992,
+  "topic_counts": {
+    "agent-llm-self-evolution": 76,
+    "reinforcement-learning": 716,
+    "long-horizon-agent": 1361,
+    "user-requested": 4
+  },
   "qualification_counts": {
-    "CCF-A": 135,
-    "Highly cited": 194,
-    "Industry": 13,
-    "Selected venue": 57
+    "CCF-A": 96,
+    "Highly cited": 124,
+    "Industry": 5,
+    "Selected venue": 30
   },
   "notes": [
     "Qualification counts overlap when one paper meets multiple criteria.",
-    "All topical papers are public; highlight signals do not gate inclusion.",
+    "Papers must pass scope and training checks; highlight signals do not gate inclusion.",
     "Citation counts are source-attributed snapshots and may change over time."
   ]
 }

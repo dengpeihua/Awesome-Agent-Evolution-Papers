@@ -8,7 +8,13 @@ from pathlib import Path
 from typing import Final
 
 from .models import Paper
-from .topics import MIN_PUBLICATION_DATE, REQUIRED_TOPICS, infer_topics, is_agent_memory
+from .topics import (
+    MIN_PUBLICATION_DATE,
+    REQUIRED_TOPICS,
+    infer_topics,
+    is_agent_memory,
+    scope_exclusion_reasons,
+)
 
 _EXCLUSIONS = Path(__file__).resolve().parents[1] / "data" / "excluded_paper_ids.json"
 EXCLUDED_PAPER_IDS = (
@@ -231,6 +237,7 @@ def is_eligible(paper: Paper) -> bool:
         paper.arxiv_id not in EXCLUDED_PAPER_IDS
         and not paper.excluded
         and not is_agent_memory(paper)
+        and not scope_exclusion_reasons(paper)
         and not is_journal_article(paper)
         and MIN_PUBLICATION_DATE <= paper.published <= datetime.now(UTC)
         and REQUIRED_TOPICS.intersection(infer_topics(paper))
@@ -244,7 +251,12 @@ def classify_highlights(paper: Paper) -> Paper:
     venue = _venue_evidence(paper)
     updates: dict[str, object] = {
         "topics": infer_topics(paper),
-        "excluded": paper.excluded or is_agent_memory(paper) or is_journal_article(paper),
+        "excluded": bool(
+            paper.excluded
+            or is_agent_memory(paper)
+            or is_journal_article(paper)
+            or scope_exclusion_reasons(paper)
+        ),
         "industry_affiliations": tuple(sorted(set(paper.industry_affiliations) | set(industry))),
         "industry_first_author_affiliations": tuple(
             sorted(set(paper.industry_first_author_affiliations) | set(first_author_industry))

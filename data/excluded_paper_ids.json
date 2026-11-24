@@ -2,11 +2,17 @@
   "2005.08844": [
     "first_publication_before_2025_05_01"
   ],
+  "2026.acl-long.247": [
+    "llm_continual_training"
+  ],
   "2026.findings-acl.1522": [
     "agent_memory"
   ],
   "2026.findings-acl.250": [
     "agent_memory"
+  ],
+  "2026.findings-acl.483": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2209.05333": [
     "first_publication_before_2025_05_01",
@@ -275,11 +281,27 @@
   "2505.05622": [
     "journal_article"
   ],
+  "2505.19761": [
+    "llm_continual_training"
+  ],
+  "2505.22635": [
+    "llm_continual_training"
+  ],
+  "2505.24241": [
+    "llm_continual_training"
+  ],
   "2506.01616": [
     "journal_article"
   ],
   "2506.01952": [
     "agent_memory"
+  ],
+  "2506.02015": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2506.04651": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
   ],
   "2506.05020": [
     "journal_article"
@@ -290,8 +312,17 @@
   "2506.07459": [
     "journal_article"
   ],
+  "2506.08098": [
+    "llm_continual_training"
+  ],
   "2506.08296": [
     "agent_memory"
+  ],
+  "2506.11442": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2506.12508": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2507.05178": [
     "journal_article"
@@ -302,8 +333,26 @@
   "2508.02312": [
     "journal_article"
   ],
+  "2508.04037": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2508.04227": [
+    "llm_continual_training"
+  ],
+  "2508.08011": [
+    "llm_continual_training"
+  ],
+  "2508.09115": [
+    "llm_continual_training"
+  ],
+  "2508.15757": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2508.16129": [
     "journal_article"
+  ],
+  "2508.19506": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2509.08269": [
     "journal_article"
@@ -317,32 +366,117 @@
   "2509.11575": [
     "journal_article"
   ],
+  "2509.13211": [
+    "llm_continual_training"
+  ],
+  "2509.15194": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2509.18597": [
+    "llm_continual_training"
+  ],
   "2509.18930": [
     "journal_article"
   ],
   "2509.20616": [
     "journal_article"
   ],
+  "2509.22170": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2509.22536": [
+    "llm_continual_training"
+  ],
+  "2509.25604": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2510.00536": [
     "journal_article"
+  ],
+  "2510.00810": [
+    "llm_continual_training"
+  ],
+  "2510.03075": [
+    "llm_continual_training"
+  ],
+  "2510.03081": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2510.04373": [
+    "llm_continual_training"
   ],
   "2510.04399": [
     "journal_article"
   ],
+  "2510.06270": [
+    "llm_continual_training"
+  ],
+  "2510.08002": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
   "2510.10666": [
     "journal_article"
+  ],
+  "2510.18814": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2510.19386": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2510.21175": [
+    "llm_continual_training"
   ],
   "2510.22732": [
     "agent_memory"
   ],
+  "2510.22733": [
+    "llm_continual_training"
+  ],
   "2510.23822": [
     "journal_article"
+  ],
+  "2510.24699": [
+    "llm_continual_training"
+  ],
+  "2511.13593": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2511.15375": [
+    "llm_continual_training"
+  ],
+  "2511.16043": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2511.19436": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2511.20297": [
     "agent_memory"
   ],
+  "2511.22254": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2512.00331": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2512.01174": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2512.04895": [
     "journal_article"
+  ],
+  "2512.06201": [
+    "llm_continual_training"
+  ],
+  "2512.09172": [
+    "llm_continual_training"
+  ],
+  "2512.10772": [
+    "llm_continual_training"
+  ],
+  "2512.11908": [
+    "llm_continual_training"
   ],
   "2512.12400": [
     "journal_article"
@@ -350,11 +484,30 @@
   "2512.12818": [
     "agent_memory"
   ],
+  "2512.14666": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2512.18202": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2512.18337": [
     "agent_memory"
   ],
   "2512.19537": [
     "agent_memory"
+  ],
+  "2512.22716": [
+    "llm_continual_training"
+  ],
+  "2512.23760": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2601.00290": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2601.00894": [
+    "llm_continual_training"
   ],
   "2601.01885": [
     "agent_memory"
@@ -371,6 +524,9 @@
   "2601.02845": [
     "agent_memory"
   ],
+  "2601.03079": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2601.03192": [
     "agent_memory"
   ],
@@ -379,6 +535,9 @@
   ],
   "2601.03515": [
     "agent_memory"
+  ],
+  "2601.03570": [
+    "llm_continual_training"
   ],
   "2601.03785": [
     "agent_memory"
@@ -392,14 +551,26 @@
   "2601.05107": [
     "agent_memory"
   ],
+  "2601.05109": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2601.05215": [
     "agent_memory"
+  ],
+  "2601.05280": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2601.05353": [
     "journal_article"
   ],
   "2601.05504": [
     "agent_memory"
+  ],
+  "2601.05569": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2601.05874": [
+    "llm_continual_training"
   ],
   "2601.05890": [
     "agent_memory"
@@ -409,6 +580,9 @@
   ],
   "2601.06282": [
     "agent_memory"
+  ],
+  "2601.06328": [
+    "llm_continual_training"
   ],
   "2601.06377": [
     "agent_memory"
@@ -425,6 +599,16 @@
   "2601.07190": [
     "agent_memory"
   ],
+  "2601.07248": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2601.07262": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2601.07348": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2601.07468": [
     "agent_memory"
   ],
@@ -433,6 +617,9 @@
   ],
   "2601.07582": [
     "agent_memory"
+  ],
+  "2601.07779": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2601.07978": [
     "agent_memory"
@@ -443,6 +630,9 @@
   "2601.08156": [
     "agent_memory"
   ],
+  "2601.08158": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2601.08160": [
     "agent_memory"
   ],
@@ -452,17 +642,36 @@
   "2601.08816": [
     "agent_memory"
   ],
+  "2601.09465": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2601.09913": [
     "agent_memory"
+  ],
+  "2601.09974": [
+    "llm_continual_training"
   ],
   "2601.10702": [
     "agent_memory"
   ],
+  "2601.11044": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2601.11100": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2601.11653": [
     "agent_memory"
   ],
+  "2601.11658": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
   "2601.11913": [
     "agent_memory"
+  ],
+  "2601.11957": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2601.12538": [
     "journal_article"
@@ -494,11 +703,20 @@
   "2601.16872": [
     "agent_memory"
   ],
+  "2601.17616": [
+    "llm_continual_training"
+  ],
   "2601.17622": [
     "agent_memory"
   ],
   "2601.18204": [
     "agent_memory"
+  ],
+  "2601.18226": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2601.18510": [
+    "llm_continual_training"
   ],
   "2601.18642": [
     "agent_memory"
@@ -508,6 +726,9 @@
   ],
   "2601.19249": [
     "agent_memory"
+  ],
+  "2601.19897": [
+    "llm_continual_training"
   ],
   "2601.19935": [
     "agent_memory"
@@ -520,6 +741,12 @@
   ],
   "2601.20831": [
     "agent_memory"
+  ],
+  "2601.21015": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2601.21233": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2601.21545": [
     "agent_memory"
@@ -536,14 +763,26 @@
   "2601.22361": [
     "agent_memory"
   ],
+  "2601.22436": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2601.22528": [
     "agent_memory"
+  ],
+  "2601.22628": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2601.22758": [
+    "llm_continual_training"
   ],
   "2601.22974": [
     "agent_memory"
   ],
   "2601.23014": [
     "agent_memory"
+  ],
+  "2602.00359": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2602.00408": [
     "journal_article"
@@ -560,14 +799,24 @@
   "2602.01002": [
     "journal_article"
   ],
+  "2602.01550": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
   "2602.01869": [
     "agent_memory"
   ],
   "2602.01885": [
     "agent_memory"
   ],
+  "2602.01966": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2602.02007": [
     "agent_memory"
+  ],
+  "2602.02051": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2602.02369": [
     "agent_memory"
@@ -575,8 +824,18 @@
   "2602.02474": [
     "agent_memory"
   ],
+  "2602.02559": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2602.02704": [
     "agent_memory"
+  ],
+  "2602.02709": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2602.02751": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2602.03036": [
     "agent_memory"
@@ -587,6 +846,21 @@
   "2602.03806": [
     "journal_article"
   ],
+  "2602.04248": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2602.04411": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2602.04731": [
+    "llm_continual_training"
+  ],
+  "2602.04837": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2602.05145": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2602.05524": [
     "agent_memory"
   ],
@@ -595,6 +869,9 @@
   ],
   "2602.05832": [
     "agent_memory"
+  ],
+  "2602.05943": [
+    "llm_continual_training"
   ],
   "2602.05965": [
     "agent_memory"
@@ -612,6 +889,18 @@
   "2602.06075": [
     "agent_memory"
   ],
+  "2602.06373": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2602.06485": [
+    "llm_continual_training"
+  ],
+  "2602.06932": [
+    "llm_continual_training"
+  ],
+  "2602.07092": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2602.07398": [
     "agent_memory"
   ],
@@ -620,6 +909,12 @@
   ],
   "2602.07755": [
     "agent_memory"
+  ],
+  "2602.07891": [
+    "llm_continual_training"
+  ],
+  "2602.08234": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2602.08369": [
     "agent_memory"
@@ -630,11 +925,32 @@
   "2602.09712": [
     "agent_memory"
   ],
+  "2602.10226": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2602.10356": [
+    "llm_continual_training"
+  ],
+  "2602.10411": [
+    "llm_continual_training"
+  ],
   "2602.10715": [
     "agent_memory"
   ],
+  "2602.11075": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2602.11220": [
+    "llm_continual_training"
+  ],
   "2602.11243": [
     "agent_memory"
+  ],
+  "2602.12065": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2602.12164": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2602.13258": [
     "agent_memory"
@@ -645,14 +961,23 @@
   "2602.13594": [
     "agent_memory"
   ],
+  "2602.13830": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2602.14038": [
     "agent_memory"
   ],
   "2602.14670": [
     "agent_memory"
   ],
+  "2602.14681": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2602.15329": [
     "agent_memory"
+  ],
+  "2602.15654": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2602.16313": [
     "agent_memory"
@@ -660,17 +985,29 @@
   "2602.16493": [
     "agent_memory"
   ],
+  "2602.17162": [
+    "llm_continual_training"
+  ],
   "2602.17913": [
     "agent_memory"
   ],
   "2602.17930": [
     "agent_memory"
   ],
+  "2602.18055": [
+    "llm_continual_training"
+  ],
   "2602.18493": [
     "agent_memory"
   ],
   "2602.19320": [
     "agent_memory"
+  ],
+  "2602.20457": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2602.20867": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2602.21220": [
     "agent_memory"
@@ -708,6 +1045,13 @@
   "2603.00680": [
     "agent_memory"
   ],
+  "2603.00977": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2603.01145": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
   "2603.01160": [
     "agent_memory"
   ],
@@ -726,6 +1070,10 @@
   "2603.02473": [
     "agent_memory"
   ],
+  "2603.02772": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
   "2603.03290": [
     "agent_memory"
   ],
@@ -734,6 +1082,9 @@
   ],
   "2603.03296": [
     "agent_memory"
+  ],
+  "2603.03297": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2603.04257": [
     "agent_memory"
@@ -753,11 +1104,20 @@
   "2603.04815": [
     "agent_memory"
   ],
+  "2603.04900": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2603.05872": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2603.05873": [
     "agent_memory"
   ],
   "2603.06366": [
     "journal_article"
+  ],
+  "2603.06662": [
+    "llm_continual_training"
   ],
   "2603.07024": [
     "agent_memory"
@@ -767,6 +1127,9 @@
   ],
   "2603.07670": [
     "agent_memory"
+  ],
+  "2603.07955": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2603.08166": [
     "journal_article"
@@ -786,8 +1149,17 @@
   "2603.10291": [
     "agent_memory"
   ],
+  "2603.10564": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2603.10600": [
     "agent_memory"
+  ],
+  "2603.11103": [
+    "llm_continual_training"
+  ],
+  "2603.11333": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2603.11768": [
     "agent_memory"
@@ -798,6 +1170,9 @@
   "2603.12631": [
     "agent_memory"
   ],
+  "2603.12658": [
+    "llm_continual_training"
+  ],
   "2603.12808": [
     "journal_article"
   ],
@@ -806,6 +1181,9 @@
   ],
   "2603.13099": [
     "journal_article"
+  ],
+  "2603.13131": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2603.13258": [
     "agent_memory"
@@ -825,6 +1203,9 @@
   "2603.15125": [
     "agent_memory"
   ],
+  "2603.15255": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2603.15280": [
     "agent_memory"
   ],
@@ -843,6 +1224,9 @@
   "2603.15666": [
     "agent_memory"
   ],
+  "2603.16065": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2603.16171": [
     "agent_memory"
   ],
@@ -858,8 +1242,14 @@
   "2603.17613": [
     "agent_memory"
   ],
+  "2603.17670": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2603.17787": [
     "agent_memory"
+  ],
+  "2603.18079": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2603.18272": [
     "agent_memory"
@@ -873,8 +1263,17 @@
   "2603.18743": [
     "agent_memory"
   ],
+  "2603.19310": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2603.19461": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2603.19595": [
     "agent_memory"
+  ],
+  "2603.19771": [
+    "llm_continual_training"
   ],
   "2603.19935": [
     "agent_memory"
@@ -888,8 +1287,17 @@
   "2603.20884": [
     "agent_memory"
   ],
+  "2603.21491": [
+    "llm_continual_training"
+  ],
+  "2603.21520": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2603.21564": [
     "agent_memory"
+  ],
+  "2603.22096": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2603.23013": [
     "agent_memory"
@@ -900,17 +1308,35 @@
   "2603.23840": [
     "agent_memory"
   ],
+  "2603.23910": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2603.23994": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2603.24257": [
     "agent_memory"
+  ],
+  "2603.24533": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2603.24564": [
     "agent_memory"
   ],
+  "2603.25687": [
+    "llm_continual_training"
+  ],
   "2603.25973": [
     "agent_memory"
   ],
+  "2603.26122": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2603.26182": [
     "agent_memory"
+  ],
+  "2603.26845": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2603.27910": [
     "agent_memory"
@@ -927,11 +1353,20 @@
   "2603.29493": [
     "agent_memory"
   ],
+  "2604.00004": [
+    "llm_continual_training"
+  ],
   "2604.00131": [
     "agent_memory"
   ],
+  "2604.00830": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2604.01007": [
     "agent_memory"
+  ],
+  "2604.01499": [
+    "llm_continual_training"
   ],
   "2604.01560": [
     "agent_memory"
@@ -939,8 +1374,14 @@
   "2604.01599": [
     "agent_memory"
   ],
+  "2604.01658": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2604.01670": [
     "agent_memory"
+  ],
+  "2604.01687": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2604.01707": [
     "agent_memory"
@@ -954,11 +1395,17 @@
   "2604.02734": [
     "agent_memory"
   ],
+  "2604.03098": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2604.03295": [
     "agent_memory"
   ],
   "2604.03588": [
     "agent_memory"
+  ],
+  "2604.04247": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2604.04503": [
     "agent_memory"
@@ -969,8 +1416,14 @@
   "2604.04660": [
     "agent_memory"
   ],
+  "2604.04804": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2604.04853": [
     "agent_memory"
+  ],
+  "2604.06435": [
+    "llm_continual_training"
   ],
   "2604.07269": [
     "agent_memory"
@@ -996,8 +1449,14 @@
   "2604.08224": [
     "agent_memory"
   ],
+  "2604.08340": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2604.09000": [
     "agent_memory"
+  ],
+  "2604.09297": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2604.09308": [
     "agent_memory"
@@ -1020,6 +1479,9 @@
   "2604.11610": [
     "agent_memory"
   ],
+  "2604.12126": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2604.12231": [
     "agent_memory",
     "journal_article"
@@ -1036,14 +1498,32 @@
   "2604.14004": [
     "agent_memory"
   ],
+  "2604.14016": [
+    "llm_continual_training"
+  ],
   "2604.14362": [
     "agent_memory"
+  ],
+  "2604.14972": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2604.15034": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2604.15082": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2604.15395": [
     "journal_article"
   ],
+  "2604.15574": [
+    "llm_continual_training"
+  ],
   "2604.15671": [
     "agent_memory"
+  ],
+  "2604.15678": [
+    "llm_continual_training"
   ],
   "2604.15774": [
     "agent_memory"
@@ -1057,6 +1537,15 @@
   "2604.16548": [
     "agent_memory"
   ],
+  "2604.16565": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2604.16625": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2604.16778": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2604.16839": [
     "agent_memory"
   ],
@@ -1066,14 +1555,34 @@
   "2604.16966": [
     "agent_memory"
   ],
+  "2604.17091": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2604.17265": [
     "agent_memory"
+  ],
+  "2604.17406": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2604.17658": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2604.18271": [
     "agent_memory"
   ],
+  "2604.18292": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
   "2604.18349": [
     "agent_memory"
+  ],
+  "2604.18394": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2604.18473": [
+    "llm_continual_training"
   ],
   "2604.19540": [
     "agent_memory"
@@ -1092,6 +1601,9 @@
   ],
   "2604.20117": [
     "agent_memory"
+  ],
+  "2604.20133": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2604.20136": [
     "agent_memory"
@@ -1114,6 +1626,15 @@
   "2604.20582": [
     "agent_memory"
   ],
+  "2604.20714": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2604.20987": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2604.21725": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2604.22085": [
     "agent_memory"
   ],
@@ -1132,6 +1653,9 @@
   "2604.26622": [
     "agent_memory"
   ],
+  "2604.26703": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2604.27003": [
     "agent_memory"
   ],
@@ -1147,6 +1671,12 @@
   "2604.27906": [
     "agent_memory"
   ],
+  "2605.00072": [
+    "llm_continual_training"
+  ],
+  "2605.01278": [
+    "llm_continual_training"
+  ],
   "2605.01386": [
     "agent_memory"
   ],
@@ -1155,6 +1685,18 @@
   ],
   "2605.01970": [
     "agent_memory"
+  ],
+  "2605.01973": [
+    "llm_continual_training"
+  ],
+  "2605.02317": [
+    "llm_continual_training"
+  ],
+  "2605.02411": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.03042": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2605.03228": [
     "agent_memory"
@@ -1174,11 +1716,17 @@
   "2605.03804": [
     "agent_memory"
   ],
+  "2605.04542": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.04811": [
     "agent_memory"
   ],
   "2605.04897": [
     "agent_memory"
+  ],
+  "2605.04970": [
+    "llm_continual_training"
   ],
   "2605.05583": [
     "agent_memory"
@@ -1189,6 +1737,9 @@
   "2605.06132": [
     "agent_memory"
   ],
+  "2605.06702": [
+    "llm_continual_training"
+  ],
   "2605.06716": [
     "agent_memory"
   ],
@@ -1198,8 +1749,17 @@
   "2605.07313": [
     "agent_memory"
   ],
+  "2605.07339": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.07554": [
+    "llm_continual_training"
+  ],
   "2605.07594": [
     "agent_memory"
+  ],
+  "2605.07977": [
+    "llm_continual_training"
   ],
   "2605.08374": [
     "agent_memory"
@@ -1207,8 +1767,21 @@
   "2605.08468": [
     "agent_memory"
   ],
+  "2605.08704": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.08876": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.09018": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.09033": [
     "agent_memory"
+  ],
+  "2605.09315": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
   ],
   "2605.09317": [
     "agent_memory"
@@ -1216,14 +1789,35 @@
   "2605.09330": [
     "agent_memory"
   ],
+  "2605.09359": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.09395": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.09530": [
     "agent_memory"
+  ],
+  "2605.09647": [
+    "llm_continual_training"
   ],
   "2605.09942": [
     "agent_memory"
   ],
+  "2605.10052": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.10064": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.10268": [
     "agent_memory"
+  ],
+  "2605.10754": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.10813": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2605.10870": [
     "agent_memory"
@@ -1231,8 +1825,23 @@
   "2605.11032": [
     "agent_memory"
   ],
+  "2605.11117": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.11169": [
+    "llm_continual_training"
+  ],
+  "2605.11608": [
+    "llm_continual_training"
+  ],
   "2605.11814": [
     "agent_memory"
+  ],
+  "2605.11891": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.12039": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2605.12061": [
     "agent_memory"
@@ -1243,6 +1852,12 @@
   "2605.12294": [
     "agent_memory"
   ],
+  "2605.12344": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.12484": [
+    "llm_continual_training"
+  ],
   "2605.12493": [
     "agent_memory"
   ],
@@ -1252,11 +1867,24 @@
   "2605.13438": [
     "agent_memory"
   ],
+  "2605.13775": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.13803": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.13831": [
+    "llm_continual_training"
+  ],
   "2605.13880": [
     "agent_memory"
   ],
   "2605.13941": [
     "agent_memory"
+  ],
+  "2605.14211": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2605.14421": [
     "agent_memory"
@@ -1267,8 +1895,14 @@
   "2605.14563": [
     "agent_memory"
   ],
+  "2605.14605": [
+    "llm_continual_training"
+  ],
   "2605.15128": [
     "agent_memory"
+  ],
+  "2605.15220": [
+    "llm_continual_training"
   ],
   "2605.15338": [
     "agent_memory"
@@ -1276,14 +1910,23 @@
   "2605.15701": [
     "agent_memory"
   ],
+  "2605.15706": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.15710": [
     "agent_memory"
   ],
   "2605.15759": [
     "agent_memory"
   ],
+  "2605.15871": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.16045": [
     "agent_memory"
+  ],
+  "2605.16363": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2605.16481": [
     "agent_memory"
@@ -1293,6 +1936,9 @@
   ],
   "2605.16883": [
     "agent_memory"
+  ],
+  "2605.17291": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2605.17444": [
     "agent_memory"
@@ -1308,6 +1954,9 @@
   ],
   "2605.17721": [
     "agent_memory"
+  ],
+  "2605.17734": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2605.17830": [
     "agent_memory"
@@ -1330,11 +1979,20 @@
   "2605.18930": [
     "agent_memory"
   ],
+  "2605.19576": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.19748": [
     "agent_memory"
   ],
   "2605.19952": [
     "agent_memory"
+  ],
+  "2605.20247": [
+    "llm_continual_training"
+  ],
+  "2605.20555": [
+    "llm_continual_training"
   ],
   "2605.20616": [
     "agent_memory"
@@ -1345,8 +2003,20 @@
   "2605.20833": [
     "agent_memory"
   ],
+  "2605.21240": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.21768": [
     "agent_memory"
+  ],
+  "2605.21951": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.22148": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.22208": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2605.22411": [
     "agent_memory"
@@ -1357,17 +2027,32 @@
   "2605.22842": [
     "agent_memory"
   ],
+  "2605.23061": [
+    "llm_continual_training"
+  ],
   "2605.23067": [
     "agent_memory"
   ],
   "2605.23723": [
     "agent_memory"
   ],
+  "2605.23904": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.23986": [
     "agent_memory"
   ],
+  "2605.23989": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.24426": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.24468": [
     "agent_memory"
+  ],
+  "2605.24539": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2605.24941": [
     "agent_memory"
@@ -1375,8 +2060,20 @@
   "2605.25002": [
     "agent_memory"
   ],
+  "2605.25246": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.25430": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.25535": [
     "agent_memory"
+  ],
+  "2605.25815": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.25832": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2605.25869": [
     "agent_memory"
@@ -1387,14 +2084,29 @@
   "2605.26252": [
     "agent_memory"
   ],
+  "2605.26494": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.26667": [
     "agent_memory"
   ],
   "2605.27240": [
     "agent_memory"
   ],
+  "2605.27276": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.27293": [
+    "llm_continual_training"
+  ],
   "2605.27366": [
     "agent_memory"
+  ],
+  "2605.27380": [
+    "llm_continual_training"
+  ],
+  "2605.27381": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2605.27437": [
     "agent_memory"
@@ -1408,17 +2120,41 @@
   "2605.28046": [
     "agent_memory"
   ],
+  "2605.28814": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.29268": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.29341": [
     "agent_memory"
   ],
   "2605.29630": [
     "agent_memory"
   ],
+  "2605.29653": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.29668": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.29790": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2605.29847": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.29960": [
     "agent_memory"
   ],
+  "2605.30105": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2605.30159": [
     "agent_memory"
+  ],
+  "2605.30621": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2605.30690": [
     "agent_memory"
@@ -1431,6 +2167,9 @@
   ],
   "2605.30858": [
     "agent_memory"
+  ],
+  "2605.30883": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2606.00095": [
     "journal_article"
@@ -1447,17 +2186,62 @@
   "2606.01138": [
     "agent_memory"
   ],
+  "2606.01279": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.01314": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.01435": [
     "agent_memory"
   ],
   "2606.01528": [
     "agent_memory"
   ],
+  "2606.01770": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.01993": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.02215": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.02372": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.03056": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.03099": [
     "agent_memory"
   ],
+  "2606.03108": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.03374": [
     "agent_memory"
+  ],
+  "2606.03509": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.03544": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.03678": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.03692": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.03841": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.03895": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.03963": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2606.04120": [
     "agent_memory"
@@ -1477,11 +2261,24 @@
   "2606.04555": [
     "agent_memory"
   ],
+  "2606.04703": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.04780": [
     "agent_memory"
   ],
+  "2606.04815": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.04990": [
     "agent_memory"
+  ],
+  "2606.05395": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.05513": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2606.05684": [
     "agent_memory"
@@ -1495,6 +2292,9 @@
   "2606.05828": [
     "agent_memory"
   ],
+  "2606.05922": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.06036": [
     "agent_memory"
   ],
@@ -1507,20 +2307,51 @@
   "2606.06090": [
     "agent_memory"
   ],
+  "2606.06114": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.06240": [
     "agent_memory"
+  ],
+  "2606.06286": [
+    "llm_continual_training"
   ],
   "2606.06448": [
     "agent_memory"
   ],
+  "2606.06473": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.06698": [
+    "llm_continual_training"
+  ],
   "2606.06787": [
     "agent_memory"
+  ],
+  "2606.06960": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.07001": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.07367": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.07711": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2606.07909": [
     "agent_memory"
   ],
+  "2606.08091": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.08151": [
     "agent_memory"
+  ],
+  "2606.08405": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2606.08656": [
     "agent_memory"
@@ -1531,17 +2362,29 @@
   "2606.09365": [
     "agent_memory"
   ],
+  "2606.09430": [
+    "llm_continual_training"
+  ],
   "2606.09461": [
     "agent_memory"
   ],
   "2606.09483": [
     "agent_memory"
   ],
+  "2606.09659": [
+    "llm_continual_training"
+  ],
+  "2606.09701": [
+    "llm_continual_training"
+  ],
   "2606.09900": [
     "agent_memory"
   ],
   "2606.10299": [
     "agent_memory"
+  ],
+  "2606.10316": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2606.10532": [
     "agent_memory"
@@ -1551,6 +2394,9 @@
   ],
   "2606.10677": [
     "agent_memory"
+  ],
+  "2606.10722": [
+    "llm_continual_training"
   ],
   "2606.10742": [
     "agent_memory"
@@ -1564,17 +2410,26 @@
   "2606.12703": [
     "agent_memory"
   ],
+  "2606.12780": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.12945": [
     "agent_memory"
   ],
   "2606.13177": [
     "agent_memory"
   ],
+  "2606.13317": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.13681": [
     "agent_memory"
   ],
   "2606.14106": [
     "agent_memory"
+  ],
+  "2606.14302": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2606.14470": [
     "agent_memory"
@@ -1585,17 +2440,32 @@
   "2606.15017": [
     "agent_memory"
   ],
+  "2606.15306": [
+    "llm_continual_training"
+  ],
   "2606.15609": [
     "agent_memory"
   ],
   "2606.15903": [
     "agent_memory"
   ],
+  "2606.16337": [
+    "llm_continual_training"
+  ],
   "2606.16707": [
     "agent_memory"
   ],
   "2606.17162": [
     "agent_memory"
+  ],
+  "2606.17546": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.17642": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.18235": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2606.18406": [
     "agent_memory"
@@ -1609,6 +2479,9 @@
   "2606.18950": [
     "agent_memory"
   ],
+  "2606.18967": [
+    "llm_continual_training"
+  ],
   "2606.19847": [
     "agent_memory"
   ],
@@ -1618,8 +2491,23 @@
   "2606.19926": [
     "agent_memory"
   ],
+  "2606.19980": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.20318": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.20621": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.20625": [
     "agent_memory"
+  ],
+  "2606.20638": [
+    "llm_continual_training"
+  ],
+  "2606.20683": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2606.20753": [
     "journal_article"
@@ -1627,11 +2515,20 @@
   "2606.20954": [
     "agent_memory"
   ],
+  "2606.21008": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.21649": [
     "agent_memory"
   ],
   "2606.22030": [
     "agent_memory"
+  ],
+  "2606.22272": [
+    "llm_continual_training"
+  ],
+  "2606.22305": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2606.22844": [
     "agent_memory"
@@ -1645,11 +2542,20 @@
   "2606.23195": [
     "agent_memory"
   ],
+  "2606.23487": [
+    "llm_continual_training"
+  ],
   "2606.23565": [
     "agent_memory"
   ],
+  "2606.23843": [
+    "llm_continual_training"
+  ],
   "2606.24322": [
     "agent_memory"
+  ],
+  "2606.24428": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2606.24437": [
     "agent_memory"
@@ -1666,6 +2572,9 @@
   "2606.24775": [
     "agent_memory"
   ],
+  "2606.24893": [
+    "llm_continual_training"
+  ],
   "2606.25115": [
     "agent_memory"
   ],
@@ -1678,11 +2587,23 @@
   "2606.25632": [
     "agent_memory"
   ],
+  "2606.26294": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.27472": [
     "agent_memory"
   ],
+  "2606.27492": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.27499": [
     "agent_memory"
+  ],
+  "2606.27634": [
+    "llm_continual_training"
+  ],
+  "2606.27733": [
+    "llm_continual_training"
   ],
   "2606.28349": [
     "agent_memory"
@@ -1693,11 +2614,17 @@
   "2606.28781": [
     "agent_memory"
   ],
+  "2606.28971": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.29030": [
     "agent_memory"
   ],
   "2606.29178": [
     "agent_memory"
+  ],
+  "2606.29315": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2606.29774": [
     "agent_memory"
@@ -1711,14 +2638,35 @@
   "2606.29914": [
     "agent_memory"
   ],
+  "2606.29932": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.29961": [
     "agent_memory"
+  ],
+  "2606.30015": [
+    "llm_continual_training"
+  ],
+  "2606.30266": [
+    "llm_continual_training"
+  ],
+  "2606.30296": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2606.30391": [
+    "llm_continual_training"
   ],
   "2606.30566": [
     "agent_memory"
   ],
+  "2606.30639": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2606.30893": [
     "journal_article"
+  ],
+  "2606.30949": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2606.31612": [
     "agent_memory"
@@ -1731,6 +2679,10 @@
   ],
   "2607.00233": [
     "agent_memory"
+  ],
+  "2607.00685": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
   ],
   "2607.01043": [
     "agent_memory"
@@ -1750,6 +2702,9 @@
   "2607.01935": [
     "agent_memory"
   ],
+  "2607.02118": [
+    "llm_continual_training"
+  ],
   "2607.02255": [
     "agent_memory"
   ],
@@ -1762,11 +2717,20 @@
   "2607.03228": [
     "agent_memory"
   ],
+  "2607.03441": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2607.03726": [
     "agent_memory"
   ],
   "2607.04089": [
     "agent_memory"
+  ],
+  "2607.04277": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.04364": [
+    "llm_continual_training"
   ],
   "2607.04391": [
     "agent_memory"
@@ -1774,11 +2738,23 @@
   "2607.04617": [
     "agent_memory"
   ],
+  "2607.04747": [
+    "llm_continual_training"
+  ],
   "2607.05029": [
     "agent_memory"
   ],
   "2607.05189": [
     "agent_memory"
+  ],
+  "2607.05202": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.05297": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.05458": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2607.05511": [
     "agent_memory"
@@ -1795,8 +2771,17 @@
   "2607.06595": [
     "agent_memory"
   ],
+  "2607.06974": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2607.07108": [
     "agent_memory"
+  ],
+  "2607.07436": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.07508": [
+    "llm_continual_training"
   ],
   "2607.07666": [
     "agent_memory"
@@ -1822,8 +2807,14 @@
   "2607.09822": [
     "agent_memory"
   ],
+  "2607.10110": [
+    "llm_continual_training"
+  ],
   "2607.10350": [
     "agent_memory"
+  ],
+  "2607.10526": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2607.10582": [
     "agent_memory"
@@ -1831,11 +2822,26 @@
   "2607.10608": [
     "agent_memory"
   ],
+  "2607.11020": [
+    "llm_continual_training"
+  ],
+  "2607.11175": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2607.11226": [
     "agent_memory"
   ],
+  "2607.12042": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.12227": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2607.12236": [
     "agent_memory"
+  ],
+  "2607.12254": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2607.12267": [
     "agent_memory"
@@ -1843,8 +2849,20 @@
   "2607.12385": [
     "agent_memory"
   ],
+  "2607.12397": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.12455": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2607.12625": [
     "agent_memory"
+  ],
+  "2607.12790": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.13104": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2607.13157": [
     "agent_memory"
@@ -1852,11 +2870,26 @@
   "2607.13591": [
     "agent_memory"
   ],
+  "2607.13683": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.13854": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2607.13884": [
     "agent_memory"
   ],
+  "2607.13940": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.14112": [
+    "llm_continual_training"
+  ],
   "2607.14159": [
     "agent_memory"
+  ],
+  "2607.14178": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2607.14390": [
     "agent_memory"
@@ -1870,6 +2903,9 @@
   "2607.14651": [
     "agent_memory"
   ],
+  "2607.15314": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2607.15657": [
     "agent_memory"
   ],
@@ -1879,8 +2915,23 @@
   "2607.16621": [
     "agent_memory"
   ],
+  "2607.16636": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2607.16716": [
     "agent_memory"
+  ],
+  "2607.16851": [
+    "llm_continual_training"
+  ],
+  "2607.17038": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.17250": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.17499": [
+    "llm_continual_training"
   ],
   "2607.17545": [
     "agent_memory"
@@ -1888,8 +2939,23 @@
   "2607.17621": [
     "agent_memory"
   ],
+  "2607.18639": [
+    "llm_continual_training"
+  ],
   "2607.19096": [
     "agent_memory"
+  ],
+  "2607.19223": [
+    "llm_continual_training"
+  ],
+  "2607.19395": [
+    "llm_continual_training"
+  ],
+  "2607.19686": [
+    "llm_continual_training"
+  ],
+  "2607.20064": [
+    "llm_continual_training"
   ],
   "2607.20268": [
     "journal_article"
@@ -1897,8 +2963,29 @@
   "2607.21106": [
     "agent_memory"
   ],
+  "2607.21461": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.21596": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2607.21604": [
     "agent_memory"
+  ],
+  "2607.21967": [
+    "llm_continual_training"
+  ],
+  "2607.22511": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.22529": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.22629": [
+    "llm_continual_training"
+  ],
+  "2607.22633": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2607.22690": [
     "agent_memory"
@@ -1906,11 +2993,44 @@
   "2607.23929": [
     "agent_memory"
   ],
+  "2607.24167": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.24312": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.24720": [
+    "llm_continual_training"
+  ],
+  "2607.25333": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.25886": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2607.25992": [
     "agent_memory"
   ],
+  "2607.26113": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.26117": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.26358": [
+    "llm_continual_training"
+  ],
   "2607.26410": [
     "agent_memory"
+  ],
+  "2607.26523": [
+    "llm_continual_training"
+  ],
+  "2607.26588": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.26598": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2607.26637": [
     "agent_memory"
@@ -1918,11 +3038,27 @@
   "2607.26760": [
     "agent_memory"
   ],
+  "2607.26784": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.26809": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2607.27056": [
     "agent_memory"
   ],
   "2607.27080": [
     "agent_memory"
+  ],
+  "2607.27443": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.27557": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.27687": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2607.27773": [
     "agent_memory"
@@ -1930,23 +3066,66 @@
   "2607.27834": [
     "agent_memory"
   ],
+  "2607.27958": [
+    "llm_continual_training"
+  ],
+  "2607.28050": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.28127": [
+    "llm_continual_training"
+  ],
   "2607.28156": [
     "agent_memory"
+  ],
+  "2607.28263": [
+    "llm_continual_training"
   ],
   "2607.28272": [
     "agent_memory"
   ],
+  "2607.28527": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.28568": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2607.28678": [
     "agent_memory"
+  ],
+  "2607.28692": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.28829": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.29010": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2607.29241": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2607.29377": [
     "agent_memory"
   ],
+  "2607.29468": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2607.29600": [
     "agent_memory"
   ],
+  "2608.00155": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.00303": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.00419": [
     "journal_article"
+  ],
+  "2608.00540": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.00962": [
     "agent_memory"
@@ -1954,8 +3133,17 @@
   "2608.00967": [
     "agent_memory"
   ],
+  "2608.00981": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.01234": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.01285": [
     "agent_memory"
+  ],
+  "2608.01366": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.01543": [
     "agent_memory"
@@ -1966,41 +3154,143 @@
   "2608.01619": [
     "agent_memory"
   ],
+  "2608.01630": [
+    "llm_continual_training"
+  ],
+  "2608.01672": [
+    "llm_continual_training"
+  ],
   "2608.01679": [
     "agent_memory"
   ],
   "2608.01708": [
     "agent_memory"
   ],
+  "2608.01851": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.01904": [
     "agent_memory"
+  ],
+  "2608.02216": [
+    "llm_continual_training"
+  ],
+  "2608.02391": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.02508": [
     "agent_memory"
   ],
+  "2608.02636": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.02843": [
     "agent_memory"
+  ],
+  "2608.03063": [
+    "llm_continual_training"
+  ],
+  "2608.03392": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.03413": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.03463": [
     "agent_memory"
   ],
+  "2608.03494": [
+    "llm_continual_training"
+  ],
+  "2608.03509": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.03764": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.03844": [
     "agent_memory"
+  ],
+  "2608.03874": [
+    "llm_continual_training"
+  ],
+  "2608.04003": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.04053": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.04289": [
     "agent_memory"
   ],
+  "2608.04505": [
+    "llm_continual_training"
+  ],
   "2608.04574": [
     "agent_memory"
+  ],
+  "2608.04587": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.04625": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.04746": [
     "agent_memory"
   ],
+  "2608.04761": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.04843": [
     "agent_memory"
   ],
+  "2608.04872": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.04968": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.05141": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.05144": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.05245": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.05510": [
+    "llm_continual_training"
+  ],
+  "2608.05563": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.05628": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.05784": [
     "agent_memory"
+  ],
+  "2608.05808": [
+    "llm_continual_training"
+  ],
+  "2608.05810": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.06020": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.06144": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.06216": [
+    "llm_continual_training"
+  ],
+  "2608.06410": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.06529": [
+    "llm_continual_training"
   ],
   "2608.06953": [
     "agent_memory"
@@ -2014,8 +3304,23 @@
   "2608.07228": [
     "agent_memory"
   ],
+  "2608.07449": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.07525": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.07545": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.07622": [
     "agent_memory"
+  ],
+  "2608.07645": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.07700": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.07810": [
     "agent_memory",
@@ -2024,29 +3329,128 @@
   "2608.07855": [
     "agent_memory"
   ],
+  "2608.07955": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.08037": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.08253": [
     "agent_memory"
+  ],
+  "2608.08303": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.08466": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.08471": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.08995": [
     "agent_memory"
   ],
+  "2608.09044": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.09096": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.09128": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.09184": [
+    "llm_continual_training"
+  ],
+  "2608.09185": [
+    "llm_continual_training"
+  ],
+  "2608.09217": [
+    "llm_continual_training"
+  ],
+  "2608.09273": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.09380": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.09476": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.09629": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.09819": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.10108": [
     "agent_memory"
+  ],
+  "2608.10157": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.10178": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.10224": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.10494": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.10502": [
     "agent_memory"
   ],
+  "2608.10504": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.10676": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.10850": [
+    "llm_continual_training"
+  ],
+  "2608.11079": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.11191": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.11248": [
     "agent_memory"
+  ],
+  "2608.11340": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.11350": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.11408": [
+    "llm_continual_training"
+  ],
+  "2608.11593": [
+    "llm_continual_training"
   ],
   "2608.11654": [
     "agent_memory"
   ],
+  "2608.11788": [
+    "llm_continual_training"
+  ],
   "2608.11879": [
     "agent_memory"
   ],
+  "2608.12290": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.12313": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.12365": [
     "agent_memory"
+  ],
+  "2608.12428": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.12476": [
     "agent_memory"
@@ -2060,20 +3464,56 @@
   "2608.12720": [
     "agent_memory"
   ],
+  "2608.12743": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.12841": [
     "agent_memory"
+  ],
+  "2608.12851": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.12888": [
     "agent_memory"
   ],
+  "2608.12977": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.12990": [
     "agent_memory"
+  ],
+  "2608.13040": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.13334": [
     "agent_memory"
   ],
+  "2608.13517": [
+    "llm_continual_training"
+  ],
+  "2608.13560": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.13608": [
+    "llm_continual_training"
+  ],
+  "2608.13833": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.13883": [
     "agent_memory"
+  ],
+  "2608.13900": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.13951": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.14036": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.14270": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.14441": [
     "agent_memory"
@@ -2081,29 +3521,117 @@
   "2608.14452": [
     "agent_memory"
   ],
+  "2608.14877": [
+    "llm_continual_training"
+  ],
+  "2608.14944": [
+    "llm_continual_training"
+  ],
   "2608.15008": [
     "agent_memory"
+  ],
+  "2608.15071": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.15089": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.15165": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.15445": [
+    "llm_continual_training"
   ],
   "2608.15844": [
     "agent_memory"
   ],
+  "2608.15893": [
+    "llm_continual_training"
+  ],
+  "2608.16075": [
+    "llm_continual_training"
+  ],
+  "2608.16114": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.16211": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.16357": [
     "agent_memory"
+  ],
+  "2608.16409": [
+    "llm_continual_training"
+  ],
+  "2608.16411": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.16465": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.16467": [
+    "llm_continual_training"
+  ],
+  "2608.16590": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.16721": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.17007": [
     "agent_memory"
   ],
+  "2608.17253": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.17530": [
+    "llm_continual_training"
+  ],
   "2608.17665": [
     "agent_memory"
+  ],
+  "2608.17684": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.17756": [
     "agent_memory"
   ],
+  "2608.17774": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.17933": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.18027": [
+    "llm_continual_training"
+  ],
   "2608.18066": [
     "agent_memory"
   ],
+  "2608.18263": [
+    "llm_continual_training"
+  ],
+  "2608.18386": [
+    "llm_continual_training"
+  ],
+  "2608.18933": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.19013": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.19072": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.19197": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.19652": [
     "agent_memory"
+  ],
+  "2608.19680": [
+    "llm_continual_training"
   ],
   "2608.19701": [
     "agent_memory"
@@ -2111,17 +3639,50 @@
   "2608.19794": [
     "journal_article"
   ],
+  "2608.19902": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.19982": [
+    "llm_continual_training"
+  ],
+  "2608.19998": [
+    "llm_continual_training"
+  ],
+  "2608.20318": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.20427": [
+    "llm_continual_training"
+  ],
   "2608.20631": [
     "agent_memory"
   ],
   "2608.20664": [
     "agent_memory"
   ],
+  "2608.20699": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.20709": [
+    "llm_continual_training"
+  ],
   "2608.20920": [
     "agent_memory"
   ],
+  "2608.20953": [
+    "llm_continual_training"
+  ],
+  "2608.21156": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.21230": [
     "agent_memory"
+  ],
+  "2608.21487": [
+    "llm_continual_training"
+  ],
+  "2608.21577": [
+    "llm_continual_training"
   ],
   "2608.21810": [
     "agent_memory"
@@ -2132,11 +3693,26 @@
   "2608.22061": [
     "agent_memory"
   ],
+  "2608.22132": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.22187": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.22215": [
     "agent_memory"
   ],
   "2608.22310": [
     "agent_memory"
+  ],
+  "2608.22339": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.22533": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.22610": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.22752": [
     "agent_memory"
@@ -2144,26 +3720,80 @@
   "2608.22767": [
     "agent_memory"
   ],
+  "2608.22793": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.22847": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.23152": [
     "agent_memory"
   ],
   "2608.23268": [
     "agent_memory"
   ],
+  "2608.23397": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.23471": [
     "agent_memory"
+  ],
+  "2608.23552": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.24302": [
     "agent_memory"
   ],
+  "2608.24735": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.24794": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.24876": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.25091": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.25329": [
     "agent_memory"
+  ],
+  "2608.25512": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.25553": [
     "agent_memory"
   ],
+  "2608.25570": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.25577": [
     "agent_memory"
+  ],
+  "2608.25593": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.25661": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.25770": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.25776": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.26008": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.26013": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.26530": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.26706": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.26895": [
     "agent_memory"
@@ -2171,23 +3801,116 @@
   "2608.26983": [
     "agent_memory"
   ],
+  "2608.27070": [
+    "llm_continual_training"
+  ],
+  "2608.27266": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.27454": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.27505": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.27763": [
+    "llm_continual_training"
+  ],
+  "2608.27866": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.27924": [
     "agent_memory"
+  ],
+  "2608.28237": [
+    "llm_continual_training"
+  ],
+  "2608.28363": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.28490": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.28632": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.28675": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2608.28978": [
     "agent_memory"
   ],
+  "2608.29481": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.29483": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2608.29528": [
     "agent_memory"
+  ],
+  "2608.29596": [
+    "llm_continual_training"
+  ],
+  "2608.29621": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.30158": [
+    "llm_continual_training"
   ],
   "2608.30177": [
     "agent_memory"
   ],
+  "2608.30207": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.30237": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.30369": [
+    "llm_continual_training"
+  ],
+  "2608.30429": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.30441": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.30541": [
+    "llm_continual_training"
+  ],
+  "2608.30609": [
+    "llm_continual_training"
+  ],
+  "2608.30760": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.30785": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.31100": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2608.31111": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.00069": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.00082": [
+    "llm_continual_training"
+  ],
   "2609.00243": [
     "agent_memory"
   ],
+  "2609.00251": [
+    "llm_continual_training"
+  ],
   "2609.00814": [
     "journal_article"
+  ],
+  "2609.00829": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.01111": [
     "agent_memory"
@@ -2201,6 +3924,27 @@
   "2609.01836": [
     "agent_memory"
   ],
+  "2609.02062": [
+    "llm_continual_training"
+  ],
+  "2609.02074": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.02094": [
+    "llm_continual_training"
+  ],
+  "2609.02217": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.02246": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.02253": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.02786": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.03340": [
     "agent_memory"
   ],
@@ -2210,14 +3954,55 @@
   "2609.03450": [
     "agent_memory"
   ],
+  "2609.03753": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.04280": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.07471": [
     "agent_memory"
+  ],
+  "2609.07529": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.08175": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.08183": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.08228": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.08273": [
     "agent_memory"
   ],
+  "2609.08404": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.08944": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.09153": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.09778": [
     "agent_memory"
+  ],
+  "2609.09901": [
+    "llm_continual_training"
+  ],
+  "2609.10121": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.10248": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.10922": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.11060": [
     "agent_memory"
@@ -2225,8 +4010,26 @@
   "2609.11108": [
     "agent_memory"
   ],
+  "2609.11677": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.11873": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.12394": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.13335": [
     "journal_article"
+  ],
+  "2609.13406": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.13543": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.14260": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.14327": [
     "journal_article"
@@ -2234,20 +4037,93 @@
   "2609.14356": [
     "agent_memory"
   ],
+  "2609.14857": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.14858": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.14896": [
+    "llm_continual_training"
+  ],
   "2609.14952": [
     "journal_article"
+  ],
+  "2609.15161": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.15309": [
+    "llm_continual_training"
+  ],
+  "2609.15364": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.15779": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.15820": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.16625": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.16800": [
+    "llm_continual_training"
   ],
   "2609.16817": [
     "journal_article"
   ],
+  "2609.16880": [
+    "llm_continual_training"
+  ],
+  "2609.17010": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.17088": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.17320": [
     "agent_memory"
+  ],
+  "2609.17346": [
+    "llm_continual_training"
+  ],
+  "2609.17523": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.17632": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.17653": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.17817": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.18088": [
     "journal_article"
   ],
   "2609.18182": [
     "agent_memory"
+  ],
+  "2609.18262": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.18304": [
+    "llm_continual_training"
+  ],
+  "2609.18496": [
+    "llm_continual_training"
+  ],
+  "2609.18520": [
+    "llm_continual_training"
+  ],
+  "2609.18642": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.18779": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.19128": [
     "agent_memory"
@@ -2258,11 +4134,38 @@
   "2609.19502": [
     "agent_memory"
   ],
+  "2609.19519": [
+    "llm_continual_training"
+  ],
+  "2609.19526": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.19656": [
     "agent_memory"
   ],
+  "2609.19664": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.19680": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.19985": [
+    "llm_continual_training"
+  ],
+  "2609.20089": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.20519": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.21081": [
     "agent_memory"
+  ],
+  "2609.21336": [
+    "llm_continual_training"
+  ],
+  "2609.21423": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.21533": [
     "agent_memory"
@@ -2270,20 +4173,65 @@
   "2609.22086": [
     "agent_memory"
   ],
+  "2609.22120": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.22218": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.22285": [
+    "llm_continual_training"
+  ],
+  "2609.22792": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.23449": [
     "agent_memory"
   ],
   "2609.23465": [
     "agent_memory"
   ],
+  "2609.23916": [
+    "llm_continual_training"
+  ],
   "2609.23986": [
     "agent_memory"
+  ],
+  "2609.24163": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.24259": [
     "agent_memory"
   ],
+  "2609.24271": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.24289": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.24510": [
+    "llm_continual_training"
+  ],
   "2609.24515": [
     "agent_memory"
+  ],
+  "2609.24631": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.24646": [
+    "llm_continual_training"
+  ],
+  "2609.24663": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.24813": [
+    "llm_continual_training"
+  ],
+  "2609.24838": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.24862": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.24906": [
     "journal_article"
@@ -2291,14 +4239,53 @@
   "2609.24971": [
     "agent_memory"
   ],
+  "2609.24972": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.25146": [
+    "llm_continual_training"
+  ],
+  "2609.25176": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.25563": [
     "agent_memory"
+  ],
+  "2609.25643": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.25645": [
+    "llm_continual_training"
+  ],
+  "2609.25841": [
+    "llm_continual_training"
   ],
   "2609.25913": [
     "agent_memory"
   ],
+  "2609.26175": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.26457": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.26499": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.26780": [
     "agent_memory"
+  ],
+  "2609.26863": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.26891": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.26951": [
+    "llm_continual_training"
+  ],
+  "2609.27175": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.27279": [
     "agent_memory"
@@ -2306,11 +4293,26 @@
   "2609.27334": [
     "agent_memory"
   ],
+  "2609.27336": [
+    "llm_continual_training"
+  ],
+  "2609.27389": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.27612": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.27743": [
     "journal_article"
   ],
+  "2609.28395": [
+    "llm_continual_training"
+  ],
   "2609.28575": [
     "agent_memory"
+  ],
+  "2609.28757": [
+    "llm_continual_training"
   ],
   "2609.28771": [
     "agent_memory"
@@ -2324,6 +4326,24 @@
   "2609.29175": [
     "journal_article"
   ],
+  "2609.29194": [
+    "llm_continual_training"
+  ],
+  "2609.29711": [
+    "llm_continual_training"
+  ],
+  "2609.29773": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.29892": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.30297": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.30450": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.30541": [
     "agent_memory"
   ],
@@ -2333,11 +4353,29 @@
   "2609.30813": [
     "agent_memory"
   ],
+  "2609.30935": [
+    "llm_continual_training"
+  ],
+  "2609.31186": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.31255": [
     "agent_memory"
   ],
   "2609.31292": [
     "journal_article"
+  ],
+  "2609.31568": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.31760": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.31789": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.31871": [
+    "llm_continual_training"
   ],
   "2609.31874": [
     "agent_memory"
@@ -2345,11 +4383,30 @@
   "2609.32049": [
     "agent_memory"
   ],
+  "2609.32069": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.32091": [
     "agent_memory"
   ],
+  "2609.32093": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.32172": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.32256": [
     "agent_memory"
+  ],
+  "2609.32473": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.32499": [
+    "llm_continual_training"
+  ],
+  "2609.32516": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.32521": [
     "agent_memory"
@@ -2357,11 +4414,63 @@
   "2609.32522": [
     "agent_memory"
   ],
+  "2609.32630": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.32677": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.32685": [
+    "llm_continual_training"
+  ],
+  "2609.32689": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.32698": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.32746": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.32771": [
+    "llm_continual_training"
+  ],
+  "2609.32785": [
+    "llm_continual_training"
+  ],
+  "2609.32862": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.32870": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.32886": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.32984": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.32990": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.32999": [
     "agent_memory"
   ],
   "2609.33013": [
     "agent_memory"
+  ],
+  "2609.33123": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.33180": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.33181": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.33192": [
+    "llm_continual_training"
   ],
   "2609.33221": [
     "journal_article"
@@ -2369,14 +4478,66 @@
   "2609.33244": [
     "agent_memory"
   ],
+  "2609.33295": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.33379": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.33398": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.33524": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.33565": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.33620": [
+    "llm_continual_training"
+  ],
+  "2609.33713": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.33725": [
+    "llm_continual_training"
+  ],
   "2609.33762": [
     "agent_memory"
+  ],
+  "2609.33768": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.33867": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.33898": [
+    "llm_continual_training"
+  ],
+  "2609.34069": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.34082": [
+    "llm_continual_training"
+  ],
+  "2609.34099": [
+    "llm_continual_training"
   ],
   "2609.34132": [
     "agent_memory"
   ],
+  "2609.34135": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.34151": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.34160": [
     "agent_memory"
+  ],
+  "2609.34205": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.34227": [
     "agent_memory"
@@ -2384,23 +4545,71 @@
   "2609.34242": [
     "agent_memory"
   ],
+  "2609.34279": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.34372": [
     "agent_memory"
   ],
   "2609.34385": [
     "agent_memory"
   ],
+  "2609.34397": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.34422": [
     "agent_memory"
+  ],
+  "2609.34557": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.34633": [
+    "agent_memory"
+  ],
+  "2609.34649": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.34682": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.34712": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.34764": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.34769": [
     "agent_memory"
   ],
+  "2609.34785": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.34798": [
+    "llm_continual_training"
+  ],
+  "2609.34823": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.34840": [
     "agent_memory"
   ],
+  "2609.34901": [
+    "llm_continual_training"
+  ],
+  "2609.34924": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.34975": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.34983": [
     "agent_memory"
+  ],
+  "2609.34988": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.35025": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.35141": [
     "journal_article"
@@ -2408,17 +4617,108 @@
   "2609.35233": [
     "agent_memory"
   ],
+  "2609.35291": [
+    "llm_continual_training"
+  ],
+  "2609.35316": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.35318": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.35328": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.35431": [
     "agent_memory"
+  ],
+  "2609.35432": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.35456": [
+    "llm_continual_training"
+  ],
+  "2609.35532": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.35561": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.35568": [
     "agent_memory"
   ],
+  "2609.35575": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.35596": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.35615": [
+    "llm_continual_training"
+  ],
+  "2609.35738": [
+    "llm_continual_training"
+  ],
+  "2609.35817": [
+    "llm_continual_training"
+  ],
+  "2609.35897": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.36012": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.36043": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.36136": [
+    "llm_continual_training"
+  ],
+  "2609.36235": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.36246": [
+    "llm_continual_training"
+  ],
+  "2609.36323": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.36373": [
     "agent_memory"
   ],
+  "2609.36393": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.36549": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.36580": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.36595": [
     "agent_memory"
+  ],
+  "2609.36603": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.36626": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.36630": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.36675": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.36746": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.36750": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.36804": [
     "journal_article"
@@ -2426,14 +4726,94 @@
   "2609.36805": [
     "agent_memory"
   ],
+  "2609.36892": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.37025": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.37041": [
+    "llm_continual_training"
+  ],
+  "2609.37105": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.37544": [
     "agent_memory"
+  ],
+  "2609.37583": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.37633": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.37825": [
+    "llm_continual_training"
+  ],
+  "2609.37834": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.37864": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.37889": [
+    "llm_continual_training"
+  ],
+  "2609.37950": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.37953": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.37968": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.37989": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.38078": [
+    "llm_continual_training"
+  ],
+  "2609.38143": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.38194": [
     "journal_article"
   ],
+  "2609.38288": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.38349": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.38353": [
+    "llm_continual_training"
+  ],
+  "2609.38372": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.38413": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.38458": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.38516": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.38639": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.38641": [
     "agent_memory"
+  ],
+  "2609.38660": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.38661": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.38723": [
     "agent_memory"
@@ -2441,11 +4821,51 @@
   "2609.38753": [
     "agent_memory"
   ],
+  "2609.38757": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2609.38778": [
     "agent_memory"
   ],
+  "2609.38905": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.39010": [
+    "llm_continual_training"
+  ],
+  "2609.39045": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.39102": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.39143": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.39148": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.39149": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.39207": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.39306": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.39383": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.39727": [
+    "llm_continual_training"
+  ],
   "2609.39765": [
     "agent_memory"
+  ],
+  "2609.40048": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2609.40079": [
     "agent_memory"
@@ -2455,6 +4875,18 @@
   ],
   "2609.40159": [
     "journal_article"
+  ],
+  "2609.40306": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.40324": [
+    "llm_continual_training"
+  ],
+  "2609.40330": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2609.40358": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.00010": [
     "agent_memory"
@@ -2469,8 +4901,35 @@
   "2610.00264": [
     "journal_article"
   ],
+  "2610.00431": [
+    "llm_continual_training"
+  ],
+  "2610.00650": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.00687": [
+    "llm_continual_training"
+  ],
+  "2610.00710": [
+    "llm_continual_training"
+  ],
   "2610.00872": [
     "agent_memory"
+  ],
+  "2610.00948": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.00972": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.01026": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.01073": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.01161": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.01260": [
     "journal_article"
@@ -2478,17 +4937,106 @@
   "2610.01705": [
     "agent_memory"
   ],
+  "2610.01766": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.01787": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.01833": [
+    "llm_continual_training"
+  ],
+  "2610.01921": [
+    "llm_continual_training"
+  ],
+  "2610.02038": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.02126": [
+    "llm_continual_training"
+  ],
   "2610.02150": [
     "agent_memory"
+  ],
+  "2610.02196": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.02204": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.02569": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.02687": [
     "agent_memory"
   ],
+  "2610.02793": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.02975": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.03476": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.03713": [
+    "llm_continual_training"
+  ],
+  "2610.04184": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.04693": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.04889": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.05151": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.05176": [
     "agent_memory"
   ],
+  "2610.05200": [
+    "llm_continual_training"
+  ],
+  "2610.05300": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.05303": [
+    "llm_continual_training"
+  ],
+  "2610.05402": [
+    "llm_continual_training"
+  ],
+  "2610.05437": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.05701": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.05923": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.06050": [
+    "llm_continual_training"
+  ],
+  "2610.06347": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.06358": [
+    "llm_continual_training"
+  ],
   "2610.06361": [
     "agent_memory"
+  ],
+  "2610.06671": [
+    "llm_continual_training"
+  ],
+  "2610.06729": [
+    "llm_continual_training"
   ],
   "2610.06830": [
     "agent_memory"
@@ -2505,8 +5053,33 @@
   "2610.07311": [
     "agent_memory"
   ],
+  "2610.07335": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.07645": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.07659": [
+    "llm_continual_training"
+  ],
   "2610.07782": [
     "agent_memory"
+  ],
+  "2610.07792": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.07842": [
+    "llm_continual_training"
+  ],
+  "2610.07935": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.07969": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.07979": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.08048": [
     "agent_memory"
@@ -2514,26 +5087,126 @@
   "2610.08101": [
     "agent_memory"
   ],
+  "2610.08215": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.08312": [
+    "llm_continual_training"
+  ],
+  "2610.08327": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.08432": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.08586": [
     "agent_memory"
+  ],
+  "2610.08630": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.08761": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.08784": [
+    "llm_continual_training"
+  ],
+  "2610.09197": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.09647": [
+    "llm_continual_training"
+  ],
+  "2610.09795": [
+    "llm_continual_training"
+  ],
+  "2610.09835": [
+    "llm_continual_training"
+  ],
+  "2610.09856": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.10071": [
     "agent_memory"
   ],
+  "2610.10088": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.10120": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.10164": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.10183": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.10256": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.10265": [
     "agent_memory"
+  ],
+  "2610.10310": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.10498": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.10611": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.10629": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.10778": [
     "agent_memory"
   ],
+  "2610.10782": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.11076": [
+    "llm_continual_training"
+  ],
   "2610.11152": [
     "agent_memory"
+  ],
+  "2610.11317": [
+    "llm_continual_training"
+  ],
+  "2610.11344": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.11345": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.11373": [
+    "llm_continual_training"
+  ],
+  "2610.11374": [
+    "llm_continual_training"
+  ],
+  "2610.11450": [
+    "llm_continual_training"
+  ],
+  "2610.11464": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.11552": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.11651": [
     "journal_article"
   ],
+  "2610.11655": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.11707": [
     "agent_memory"
+  ],
+  "2610.11781": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.11794": [
     "agent_memory"
@@ -2542,35 +5215,201 @@
     "agent_memory",
     "journal_article"
   ],
+  "2610.11959": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.12048": [
+    "llm_continual_training"
+  ],
+  "2610.12086": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.12095": [
     "journal_article"
+  ],
+  "2610.12124": [
+    "llm_continual_training"
+  ],
+  "2610.12176": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.12235": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.12289": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.12369": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.12374": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.12424": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.12536": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.12602": [
+    "llm_continual_training"
+  ],
+  "2610.12668": [
+    "llm_continual_training"
+  ],
+  "2610.12789": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.12793": [
     "agent_memory"
   ],
+  "2610.12855": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.12862": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.13021": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.13047": [
+    "llm_continual_training"
+  ],
+  "2610.13098": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.13194": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.13376": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.13672": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.13829": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.13886": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.13991": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.14730": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.16491": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.16935": [
     "agent_memory"
+  ],
+  "2610.17114": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.17130": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.17488": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.17544": [
     "agent_memory"
   ],
+  "2610.17609": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.17726": [
+    "llm_continual_training"
+  ],
   "2610.17763": [
     "agent_memory"
+  ],
+  "2610.17868": [
+    "llm_continual_training"
   ],
   "2610.18052": [
     "agent_memory"
   ],
+  "2610.18083": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.18097": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.18355": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.18484": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.18683": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.18684": [
     "agent_memory"
+  ],
+  "2610.18688": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.18813": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.18845": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.18867": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.18868": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.19424": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.19474": [
     "agent_memory"
   ],
+  "2610.19725": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.20191": [
     "agent_memory"
   ],
+  "2610.20294": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.20312": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.20431": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.20474": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.20560": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.20675": [
     "agent_memory"
+  ],
+  "2610.20786": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.20809": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.20845": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.20960": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.21055": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.21091": [
     "agent_memory"
@@ -2581,20 +5420,77 @@
   "2610.21170": [
     "agent_memory"
   ],
+  "2610.21171": [
+    "llm_continual_training"
+  ],
   "2610.21211": [
     "agent_memory"
+  ],
+  "2610.21320": [
+    "llm_continual_training"
+  ],
+  "2610.21336": [
+    "llm_continual_training"
+  ],
+  "2610.21375": [
+    "llm_continual_training"
   ],
   "2610.21405": [
     "agent_memory"
   ],
+  "2610.21458": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.21537": [
+    "llm_continual_training"
+  ],
   "2610.21539": [
     "journal_article"
+  ],
+  "2610.21646": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.21739": [
+    "llm_continual_training"
+  ],
+  "2610.21791": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.21887": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.21900": [
     "agent_memory"
   ],
+  "2610.22124": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.22137": [
+    "llm_continual_training"
+  ],
+  "2610.22192": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.22209": [
     "agent_memory"
+  ],
+  "2610.22293": [
+    "llm_continual_training"
+  ],
+  "2610.22344": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.22496": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.22561": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.22599": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.22621": [
+    "llm_continual_training"
   ],
   "2610.22686": [
     "agent_memory"
@@ -2602,29 +5498,111 @@
   "2610.22736": [
     "agent_memory"
   ],
+  "2610.22740": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.22797": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.22907": [
+    "llm_continual_training"
+  ],
   "2610.22959": [
     "agent_memory"
+  ],
+  "2610.22984": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.23098": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.23122": [
+    "llm_continual_training"
+  ],
+  "2610.23194": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.23266": [
     "agent_memory"
   ],
+  "2610.23288": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.23313": [
     "agent_memory"
+  ],
+  "2610.23319": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.23372": [
     "agent_memory"
   ],
+  "2610.23470": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.23574": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.23598": [
     "agent_memory"
+  ],
+  "2610.23599": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.23709": [
     "agent_memory"
   ],
+  "2610.23791": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.23812": [
+    "llm_continual_training"
+  ],
+  "2610.23839": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.24087": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.24137": [
+    "llm_continual_training"
+  ],
+  "2610.24177": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.24378": [
     "agent_memory"
   ],
+  "2610.24453": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.24469": [
+    "llm_continual_training"
+  ],
   "2610.24520": [
     "agent_memory"
+  ],
+  "2610.24630": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.24899": [
+    "llm_continual_training"
+  ],
+  "2610.24944": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.25012": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.25078": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.25100": [
+    "llm_continual_training"
+  ],
+  "2610.25114": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.25119": [
     "agent_memory"
@@ -2638,14 +5616,39 @@
   "2610.25561": [
     "agent_memory"
   ],
+  "2610.25600": [
+    "llm_continual_training"
+  ],
+  "2610.25604": [
+    "llm_continual_training"
+  ],
+  "2610.25705": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.25707": [
     "agent_memory"
+  ],
+  "2610.25751": [
+    "llm_continual_training"
   ],
   "2610.25801": [
     "agent_memory"
   ],
+  "2610.25836": [
+    "llm_continual_training"
+  ],
+  "2610.25858": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.25881": [
+    "llm_continual_training"
+  ],
   "2610.25970": [
     "agent_memory"
+  ],
+  "2610.26342": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.26433": [
     "agent_memory"
@@ -2653,20 +5656,179 @@
   "2610.26453": [
     "agent_memory"
   ],
+  "2610.26554": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.26770": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.26825": [
+    "llm_continual_training"
+  ],
+  "2610.26848": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.27735": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.28892": [
+    "llm_continual_training"
+  ],
+  "2610.28945": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.28987": [
     "agent_memory"
+  ],
+  "2610.29005": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.29121": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.29348": [
+    "llm_continual_training"
   ],
   "2610.29467": [
     "agent_memory"
   ],
+  "2610.29527": [
+    "llm_continual_training"
+  ],
+  "2610.29560": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.29590": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.29641": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.29677": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.29784": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.30017": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.30042": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.30116": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.30379": [
     "agent_memory"
+  ],
+  "2610.30429": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.30790": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.30851": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.30960": [
+    "llm_continual_training"
+  ],
+  "2610.31034": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.31192": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.31415": [
+    "llm_continual_training"
+  ],
+  "2610.31521": [
+    "llm_continual_training"
+  ],
+  "2610.31818": [
+    "llm_continual_training"
+  ],
+  "2610.32026": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.32101": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.32120": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.32245": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.32263": [
+    "llm_continual_training"
+  ],
+  "2610.32326": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.32465": [
+    "llm_continual_training"
+  ],
+  "2610.32481": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.32813": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.33106": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.33465": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.33487": [
     "agent_memory"
   ],
+  "2610.33496": [
+    "llm_continual_training"
+  ],
+  "2610.33517": [
+    "llm_continual_training"
+  ],
   "2610.33539": [
     "agent_memory"
+  ],
+  "2610.33624": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.33684": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.33799": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.33845": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.33920": [
+    "llm_continual_training"
+  ],
+  "2610.33929": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.33956": [
+    "llm_continual_training"
+  ],
+  "2610.34182": [
+    "llm_continual_training"
+  ],
+  "2610.34285": [
+    "llm_continual_training"
+  ],
+  "2610.34329": [
+    "llm_continual_training"
+  ],
+  "2610.34365": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.34450": [
     "agent_memory"
@@ -2674,20 +5836,232 @@
   "2610.34500": [
     "agent_memory"
   ],
+  "2610.34566": [
+    "llm_continual_training"
+  ],
+  "2610.34649": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.34938": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.34965": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.35051": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.35172": [
     "agent_memory"
+  ],
+  "2610.35316": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.35434": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.35453": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.35579": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.35598": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.35604": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.35997": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.36013": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.36077": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.36469": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.36509": [
+    "llm_continual_training"
+  ],
+  "2610.36578": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.36660": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.36734": [
+    "llm_continual_training"
+  ],
+  "2610.36826": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.36848": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.36925": [
+    "llm_continual_training"
+  ],
+  "2610.36994": [
+    "llm_continual_training"
+  ],
+  "2610.37228": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.37651": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.37905": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.37918": [
+    "llm_continual_training"
+  ],
+  "2610.38392": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.38546": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2610.38573": [
     "agent_memory"
   ],
+  "2610.38728": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2610.38796": [
     "agent_memory"
+  ],
+  "2610.38882": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.38946": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.39122": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.39158": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.39264": [
+    "llm_continual_training"
+  ],
+  "2610.39324": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.39417": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.39508": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.39682": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.39714": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.39840": [
+    "llm_continual_training"
+  ],
+  "2610.39884": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.40023": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.40191": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.40564": [
+    "llm_continual_training"
+  ],
+  "2610.40684": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.40721": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.40740": [
+    "llm_continual_training"
+  ],
+  "2610.40751": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.40758": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.40857": [
+    "llm_continual_training"
+  ],
+  "2610.40901": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.41169": [
+    "llm_continual_training"
+  ],
+  "2610.41210": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.41260": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2610.41359": [
+    "llm_continual_training"
   ],
   "2610.41482": [
     "agent_memory"
   ],
+  "2610.41792": [
+    "llm_continual_training"
+  ],
+  "2610.42054": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.00438": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.00463": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.00513": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.00544": [
+    "llm_continual_training"
+  ],
+  "2611.01304": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.01377": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.01386": [
+    "llm_continual_training"
+  ],
+  "2611.01415": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2611.01460": [
     "agent_memory"
+  ],
+  "2611.01581": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.01695": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.01736": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.01742": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2611.01747": [
     "agent_memory"
@@ -2695,11 +6069,85 @@
   "2611.01778": [
     "agent_memory"
   ],
+  "2611.01834": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.01840": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.01954": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.01977": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2611.02001": [
     "agent_memory"
   ],
+  "2611.02102": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.02132": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.02177": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2611.02216": [
     "agent_memory"
+  ],
+  "2611.02516": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.02746": [
+    "llm_continual_training"
+  ],
+  "2611.02797": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.02833": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.02839": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.03219": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.03754": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.04035": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.04180": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.04268": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.04277": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.04299": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.04437": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.04439": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.04952": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.04998": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.05287": [
+    "llm_continual_training"
   ],
   "2611.05313": [
     "agent_memory"
@@ -2707,8 +6155,99 @@
   "2611.06049": [
     "agent_memory"
   ],
+  "2611.06170": [
+    "llm_continual_training"
+  ],
+  "2611.06444": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.06518": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.06768": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.06858": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.06905": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.06972": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.07048": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.07461": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.07508": [
+    "llm_continual_training"
+  ],
+  "2611.07624": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2611.07631": [
     "agent_memory"
+  ],
+  "2611.07721": [
+    "llm_continual_training"
+  ],
+  "2611.07755": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.08318": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.08373": [
+    "llm_continual_training"
+  ],
+  "2611.08714": [
+    "llm_continual_training"
+  ],
+  "2611.08752": [
+    "llm_continual_training"
+  ],
+  "2611.08946": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.09084": [
+    "llm_continual_training"
+  ],
+  "2611.09203": [
+    "llm_continual_training"
+  ],
+  "2611.09218": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.09318": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.09385": [
+    "llm_continual_training"
+  ],
+  "2611.09770": [
+    "llm_continual_training"
+  ],
+  "2611.09872": [
+    "llm_continual_training"
+  ],
+  "2611.10026": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.10089": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.10224": [
+    "llm_continual_training"
+  ],
+  "2611.10230": [
+    "llm_continual_training"
+  ],
+  "2611.10292": [
+    "llm_continual_training"
   ],
   "2611.10382": [
     "agent_memory"
@@ -2716,41 +6255,455 @@
   "2611.10439": [
     "agent_memory"
   ],
+  "2611.10463": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.10510": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.10542": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.10553": [
+    "llm_continual_training"
+  ],
+  "2611.10578": [
+    "llm_continual_training"
+  ],
+  "2611.10719": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.10748": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.10787": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.10866": [
+    "llm_continual_training"
+  ],
+  "2611.10971": [
+    "llm_continual_training"
+  ],
+  "2611.11273": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.11342": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2611.11509": [
     "agent_memory"
+  ],
+  "2611.11558": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.11669": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.11684": [
+    "llm_continual_training"
+  ],
+  "2611.11960": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.12014": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.12288": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.12552": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.13034": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.13336": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.13388": [
+    "llm_continual_training"
+  ],
+  "2611.13524": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.13607": [
+    "llm_continual_training"
+  ],
+  "2611.13680": [
+    "llm_continual_training"
+  ],
+  "2611.13713": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.13818": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.13855": [
+    "llm_continual_training"
+  ],
+  "2611.14019": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.14256": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.14326": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.14518": [
+    "llm_continual_training"
+  ],
+  "2611.14949": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.15276": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.15481": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.15521": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.15651": [
+    "llm_continual_training"
+  ],
+  "2611.15700": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.15766": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.15885": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.16009": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.16748": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.16937": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.17191": [
+    "llm_continual_training"
+  ],
+  "2611.17539": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.17790": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.18006": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.18176": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.18397": [
+    "llm_continual_training"
+  ],
+  "2611.18417": [
+    "llm_continual_training"
+  ],
+  "2611.18891": [
+    "llm_continual_training"
+  ],
+  "2611.19151": [
+    "llm_continual_training"
+  ],
+  "2611.19230": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.19527": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.19871": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2611.19933": [
     "agent_memory"
   ],
+  "2611.20258": [
+    "llm_continual_training"
+  ],
+  "2611.20430": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.20584": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.20655": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.20891": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.21056": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.21152": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.21373": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.21688": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.21847": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.22164": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2611.22274": [
     "agent_memory"
+  ],
+  "2611.22299": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.22351": [
+    "llm_continual_training"
+  ],
+  "2611.22418": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.22432": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.22583": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.22584": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.22837": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.23067": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.23068": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.23142": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.23219": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.23229": [
+    "llm_continual_training"
+  ],
+  "2611.23357": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.23476": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2611.23588": [
     "agent_memory"
   ],
+  "2611.23651": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.23702": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.23890": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.24004": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.24302": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.24395": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.24518": [
+    "llm_continual_training"
+  ],
+  "2611.24590": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.24650": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.24651": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.24699": [
+    "llm_continual_training"
+  ],
+  "2611.24845": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2611.25235": [
     "agent_memory"
+  ],
+  "2611.25391": [
+    "llm_continual_training"
+  ],
+  "2611.25429": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.25475": [
+    "llm_continual_training"
   ],
   "2611.25583": [
     "agent_memory"
   ],
+  "2611.25619": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2611.25889": [
     "agent_memory"
+  ],
+  "2611.25891": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.25989": [
+    "llm_continual_training"
+  ],
+  "2611.26007": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.26132": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.26342": [
+    "llm_continual_training"
+  ],
+  "2611.26806": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.26910": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.26912": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2611.26983": [
     "agent_memory"
   ],
+  "2611.27006": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.27110": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.27116": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.27125": [
+    "llm_continual_training"
+  ],
+  "2611.27285": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.27306": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.27499": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.27605": [
+    "llm_continual_training"
+  ],
   "2611.27689": [
     "agent_memory"
+  ],
+  "2611.27780": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.27797": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.28239": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.28244": [
+    "self_improvement_without_model_training_evidence"
   ],
   "2611.28356": [
     "agent_memory"
   ],
+  "2611.28420": [
+    "self_improvement_without_model_training_evidence"
+  ],
   "2611.28574": [
     "agent_memory"
   ],
+  "2611.28680": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.29290": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.29303": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.29306": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.29513": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.29582": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.29716": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.29807": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.30101": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.30134": [
+    "llm_continual_training"
+  ],
+  "2611.30139": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.30151": [
+    "llm_continual_training"
+  ],
   "2611.30287": [
     "agent_memory"
+  ],
+  "2611.30405": [
+    "llm_continual_training"
+  ],
+  "2611.30507": [
+    "llm_continual_training"
+  ],
+  "2611.30662": [
+    "llm_continual_training"
+  ],
+  "2611.30667": [
+    "llm_continual_training"
+  ],
+  "2611.30671": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.30962": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.31098": [
+    "self_improvement_without_model_training_evidence"
+  ],
+  "2611.31117": [
+    "llm_continual_training",
+    "self_improvement_without_model_training_evidence"
   ],
   "2611.31173": [
     "agent_memory"

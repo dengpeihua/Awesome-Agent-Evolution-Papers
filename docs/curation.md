@@ -1,10 +1,9 @@
 # Curation and Verification Policy
 
-## Four research tracks
+## Three research tracks
 
-- Agent / LLM Self-Evolution and Self-Improvement.
+- Recursive Self-Improvement with explicit model-training evidence.
 - Long-Horizon Task Agents.
-- LLM Continual Training and Continual Learning.
 - Reinforcement Learning directly related to LLMs / language agents, including RLHF, RLAIF, RLVR, and GRPO.
 
 First publication must be on or after **2025-05-01**. Older papers remain excluded
@@ -14,8 +13,8 @@ comparisons and incidental survey mentions do not qualify. Historical RL labels
 are recomputed rather than trusted. See `data/rl_screening.json` for title/abstract
 evidence; these automated checks are not full-paper verification.
 
-All topical papers are eligible, including fresh preprints without citations or
-known affiliations. Priority labels do not change publication-date ordering.
+Papers meeting the scope and training-evidence rules are eligible, including fresh
+preprints without citations or known affiliations. Priority labels do not change publication-date ordering.
 The broad arXiv queries support recall; keyword matches can include peripheral
 papers and are not a guarantee of substantive relevance.
 
@@ -102,3 +101,26 @@ retains earlier versions; the current published lists use the new policy.
 
 Venue-name checks include TMLR abbreviations and journal series with proceedings-style names.
 For example, [ACM identifies PACMMOD as a journal](https://www.acm.org/binaries/content/assets/press-releases/2023/july/acm-pacmmod.pdf).
+
+
+## Training-based scope (2026-11-25)
+
+LLM Continual Training is retired and excluded entirely, including papers that
+also match RL, long-horizon agents, or explicit requests. Legacy category membership
+and title/abstract evidence both trigger exclusion. Its discovery query is removed.
+
+The public self-evolution category is now **Recursive Self-Improvement**. Its internal
+`agent-llm-self-evolution` key remains stable for old data and integrations. Inclusion
+requires explicit evidence of model or policy training (for example fine-tuning,
+reinforcement learning, or student-model distillation). API teachers are allowed
+when the method actually trains a student. API-only calls, frozen-model inference,
+prompt/harness/code-only evolution, and entries without sufficient training evidence
+are excluded from the entire repository, even if another category also matches.
+Independent RL or long-horizon evaluation papers are not subject to this RSI-only gate.
+
+`data/rsi_training_screening.json` records the evidence sentence and paper URL for
+each retained RSI entry. This is conservative title/abstract screening, not a claim
+of full-paper verification; missing evidence is distinguished from proof that a
+paper is API-only. Removed identifiers are persisted to prevent later cache/query
+reimports. Recuration rebuilds every daily/monthly index and prunes pending messages
+without advancing the last successful notification cursor.

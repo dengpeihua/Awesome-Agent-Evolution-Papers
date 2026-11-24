@@ -1,0 +1,24 @@
+{
+  "updated_on": "2026-11-25",
+  "previous_total": 3293,
+  "removed_unique": 1301,
+  "current_total": 1992,
+  "removed_continual_training": 409,
+  "removed_reason_counts_overlapping": {
+    "llm_continual_training": 409,
+    "self_improvement_without_model_training_evidence": 941
+  },
+  "current_topics": {
+    "reinforcement-learning": 716,
+    "long-horizon-agent": 1361,
+    "agent-llm-self-evolution": 76,
+    "user-requested": 4
+  },
+  "training_evidence": "data/rsi_training_screening.json",
+  "notes": [
+    "Missing training evidence is not proof of API-only operation. Such entries are excluded conservatively.",
+    "Historical removals include all cross-topic occurrences and are protected by the exclusion registry.",
+    "Additional existing exclusion applied to GenMem (2609.34633): Agent Memory.",
+    "Successful notification cursor preserved; removed pending IDs pruned."
+  ]
+}

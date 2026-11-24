@@ -34,7 +34,6 @@ def test_build_query_contains_precise_topic_terms() -> None:
 
     assert set(queries) == {
         "agent-llm-self-evolution",
-        "llm-continual-training",
         "reinforcement-learning",
         "long-horizon-agent",
     }
@@ -42,10 +41,6 @@ def test_build_query_contains_precise_topic_terms() -> None:
     assert '"recursive self-improvement"' in queries["agent-llm-self-evolution"]
     assert '"self-improving language model"' in queries["agent-llm-self-evolution"]
     assert '"self-generated feedback"' in queries["agent-llm-self-evolution"]
-    assert '"large language model"' in queries["llm-continual-training"]
-    assert '"continual pre-training"' in queries["llm-continual-training"]
-    assert '"continual post-training"' in queries["llm-continual-training"]
-    assert '"life-long learning"' in queries["llm-continual-training"]
 
 
 @pytest.mark.asyncio

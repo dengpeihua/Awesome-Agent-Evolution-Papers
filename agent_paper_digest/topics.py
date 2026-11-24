@@ -16,23 +16,18 @@ MIN_PUBLICATION_DATE: Final = datetime(2025, 5, 1, tzinfo=UTC)
 
 TOPIC_ORDER: Final = (
     SELF_EVOLUTION_TOPIC,
-    CONTINUAL_TRAINING_TOPIC,
     REINFORCEMENT_LEARNING_TOPIC,
     LONG_HORIZON_TOPIC,
     REQUESTED_TOPIC,
 )
 TOPIC_TITLES: Final = {
-    SELF_EVOLUTION_TOPIC: (
-        "Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement"
-    ),
-    CONTINUAL_TRAINING_TOPIC: "LLM Continual Training & Continual Learning",
+    SELF_EVOLUTION_TOPIC: "Recursive Self-Improvement",
     REINFORCEMENT_LEARNING_TOPIC: "Reinforcement Learning",
     LONG_HORIZON_TOPIC: "Long-Horizon Task Agents",
     REQUESTED_TOPIC: "Explicitly Requested Papers",
 }
 TOPIC_SHORT: Final = {
-    SELF_EVOLUTION_TOPIC: "Agent/LLM Self-Improvement",
-    CONTINUAL_TRAINING_TOPIC: "LLM Continual Training",
+    SELF_EVOLUTION_TOPIC: "Recursive Self-Improvement",
     REINFORCEMENT_LEARNING_TOPIC: "Reinforcement Learning",
     LONG_HORIZON_TOPIC: "Long-Horizon Task Agents",
     REQUESTED_TOPIC: "Explicitly Requested Papers",
@@ -164,7 +159,11 @@ def infer_topics_from_text(
 ) -> tuple[str, ...]:
     """Infer the requested directions while requiring an Agent/LLM context."""
     text = f"{title}\n{abstract}"
-    topics = set(normalize_topics(existing)) - {REINFORCEMENT_LEARNING_TOPIC, LONG_HORIZON_TOPIC}
+    topics = set(normalize_topics(existing)) - {
+        SELF_EVOLUTION_TOPIC,
+        REINFORCEMENT_LEARNING_TOPIC,
+        LONG_HORIZON_TOPIC,
+    }
     if (
         LANGUAGE_CONTEXT.search(text)
         and re.search(r"\bagent(?:s|ic)?\b", text, re.I)
@@ -178,10 +177,12 @@ def infer_topics_from_text(
         )
     ):
         topics.add(LONG_HORIZON_TOPIC)
-    if AGENT_LLM_PATTERN.search(text) and SELF_EVOLUTION_PATTERN.search(text):
+    if (
+        AGENT_LLM_PATTERN.search(text)
+        and SELF_EVOLUTION_PATTERN.search(text)
+        and model_training_evidence(title, abstract)
+    ):
         topics.add(SELF_EVOLUTION_TOPIC)
-    if LLM_PATTERN.search(text) and CONTINUAL_TRAINING_PATTERN.search(text):
-        topics.add(CONTINUAL_TRAINING_TOPIC)
     if rl_relevance_evidence(title, abstract):
         topics.add(REINFORCEMENT_LEARNING_TOPIC)
     return tuple(topic for topic in TOPIC_ORDER if topic in topics)
@@ -202,3 +203,129 @@ def is_agent_memory(paper: Paper) -> bool:
     return AGENT_MEMORY_TOPIC in paper.topics or bool(
         AGENT_LLM_PATTERN.search(text) and AGENT_MEMORY_PATTERN.search(text)
     )
+
+
+def is_continual_training(paper: Paper) -> bool:
+    """Exclude the retired track even when another topic also matches."""
+    text = f"{paper.title}\n{paper.abstract}"
+    return CONTINUAL_TRAINING_TOPIC in paper.topics or bool(
+        LLM_PATTERN.search(text) and CONTINUAL_TRAINING_PATTERN.search(text)
+    )
+
+
+def is_self_improvement(paper: Paper) -> bool:
+    """Include legacy labels when checking the training requirement."""
+    return SELF_EVOLUTION_TOPIC in normalize_topics(paper.topics) or bool(
+        AGENT_LLM_PATTERN.search(f"{paper.title}\n{paper.abstract}")
+        and SELF_EVOLUTION_PATTERN.search(f"{paper.title}\n{paper.abstract}")
+    )
+
+
+def model_training_evidence(title: str, abstract: str) -> str:
+    """Return an explicit method sentence about training the language model/policy.
+
+    Missing evidence is not proof of API-only operation: it is insufficient for
+    admission. Baseline training, prompt/code optimization, and inference-only
+    refinement cannot establish model training. Keep the evidence for auditing.
+    """
+    if not LANGUAGE_CONTEXT.search(f"{title}\n{abstract}"):
+        return ""
+    if re.search(r"\b(?:training[- ]free|tuning[- ]free|inference[- ]only|survey)\b", title, re.I):
+        return ""
+    method_started = False
+    for sentence in re.split(r"(?<=[.!?])\s+|\n+", abstract):
+        method_started = method_started or bool(
+            re.search(
+                r"\b(?:we\s+(?:\w+\s+){0,2}(?:propose|introduce|present|develop|train|"
+                r"fine[- ]tune|study|investigate|distill|update|fix|reformulate|address|construct)|"
+                r"our (?:method|framework|"
+                r"approach|model|self[- ]improving agent))\b",
+                sentence,
+                re.I,
+            )
+        )
+        if re.search(
+            r"\b(?:training[- ]free|tuning[- ]free|gradient[- ]free|inference[- ]only|"
+            r"parameter[- ]update[- ]free|rather than|instead of|"
+            r"without\b.{0,70}(?:train\w*|tun\w*|gradient\w*|updat\w*)|"
+            r"without\b.{0,70}chang\w*.{0,35}(?:parameter|weight)\w*|"
+            r"(?:no|does not|do not|never)\b.{0,35}(?:train\w*|tun\w*|updat\w*)|"
+            r"(?:unlike|prior work|previous work|existing (?:methods|agents)|"
+            r"baseline\w*|future work))\b",
+            sentence,
+            re.I,
+        ):
+            continue
+        # Require a claim about this method, not a background statement that RL
+        # or training generally improves LLMs.
+        if not method_started:
+            continue
+        training_sentence = re.sub(r"\bpre[- ]?trained\b", "existing", sentence, flags=re.I)
+        if re.search(
+            r"\b(?:optimi[sz]\w*|updat\w*|evol\w*)\s+(?:the |our |a |an )?"
+            r"(?:prompts?|harness\w*|workflows?|code|programs?|instructions?)\b",
+            training_sentence,
+            re.I,
+        ) and not re.search(
+            r"\b(?:fine[- ]?tun\w*|retrain\w*|distill\w*)\b", training_sentence, re.I
+        ):
+            continue
+        if re.search(
+            r"\b(?:train|trains|fine[- ]?tun\w*|retrain\w*)\s+"
+            r"(?:(?!(?:data|setup|environment|procedure|capability|signal|prompt|harness)\b)"
+            r"[\w-]+\s+){0,7}(?:models?|llms?|vlms?|students?|polic(?:y|ies)|"
+            r"adapters?|LoRA|Qwen\w*|Llama\w*|GLM\w*|DeepSeek\w*|Gemma\w*)\b|"
+            r"\b(?:update|optimi[sz]e)\s+(?:the |our |model )*(?:parameters|weights)\b|"
+            r"\bdistill\w*\s+(?:a |the |our )?(?:small |language )*student\b|"
+            r"\bdistill\w*\b.{0,100}\b(?:into|back into)\s+(?:the |a |our )?"
+            r"(?:base |student |policy )?(?:model|policy|weights)\b",
+            training_sentence,
+            re.I,
+        ) or re.search(
+            r"\b(?:model|llm|vlm|student|agent|policy)\w*\b.{0,70}"
+            r"\b(?:fine[- ]?tun\w*|retrain\w*|self[- ]train\w*|"
+            r"(?:uses?|using|via|with|through)\s+(?:\w+\s+){0,3}"
+            r"(?:reinforcement learning|GRPO|RLHF|RLVR|PPO|supervised fine[- ]?tuning))\b",
+            training_sentence,
+            re.I,
+        ):
+            return sentence.strip()
+        if re.search(
+            r"\b(?:performs?|applies?|coordinates?)\s+(?:joint |alternating )?"
+            r"(?:parameter|weight) updates\b",
+            training_sentence,
+            re.I,
+        ):
+            return sentence.strip()
+        if re.search(r"\b(?:apply|use)\b.{0,40}\bloss masking\b", training_sentence, re.I):
+            return sentence.strip()
+        if (
+            re.search(
+                r"\b(?:supervised fine[- ]?tuning|on[- ]policy (?:self[- ])?distillation|"
+                r"policy gradients?|GRPO|RLHF|RLVR|OPD|SFT)\b",
+                training_sentence,
+                re.I,
+            )
+            and re.search(
+                r"\b(?:we|our|train\w*|updat\w*|learn\w*|optimi[sz]\w*|"
+                r"propos\w*|introduc\w*|framework|method)\b",
+                training_sentence,
+                re.I,
+            )
+            and not re.search(
+                r"\b(?:compar\w*|outperform\w*|versus|vs|better than|over|TF[- ]GRPO)\b",
+                training_sentence,
+                re.I,
+            )
+        ):
+            return sentence.strip()
+    return ""
+
+
+def scope_exclusion_reasons(paper: Paper) -> tuple[str, ...]:
+    reasons = []
+    if is_continual_training(paper):
+        reasons.append("llm_continual_training")
+    if is_self_improvement(paper) and not model_training_evidence(paper.title, paper.abstract):
+        reasons.append("self_improvement_without_model_training_evidence")
+    return tuple(reasons)

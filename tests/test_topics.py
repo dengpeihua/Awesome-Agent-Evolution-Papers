@@ -21,7 +21,7 @@ def test_detects_recursive_llm_self_improvement() -> None:
     paper = replace(
         make_paper("2609.10001", topics=()),
         title="Recursive Self-Improvement for Large Language Models",
-        abstract="The language model edits its own training procedure over repeated cycles.",
+        abstract="We fine-tune the language model on its own solutions over repeated cycles.",
     )
 
     assert SELF_EVOLUTION_TOPIC in infer_topics(paper)
@@ -44,7 +44,7 @@ def test_detects_llm_reinforcement_from_self_generated_feedback() -> None:
     paper = replace(
         make_paper("2609.10006", topics=()),
         title="Reinforcement Learning from Self-Generated Feedback",
-        abstract="A language model learns a stronger policy from its own critiques.",
+        abstract="We train a language model with reinforcement learning from its own critiques.",
     )
 
     assert infer_topics(paper) == ("agent-llm-self-evolution", "reinforcement-learning")
@@ -57,7 +57,7 @@ def test_detects_llm_continual_post_training() -> None:
         abstract="We mitigate catastrophic forgetting during lifelong model adaptation.",
     )
 
-    assert infer_topics(paper) == ("llm-continual-training",)
+    assert infer_topics(paper) == ()
 
 
 def test_detects_hyphenated_life_long_learning_in_agent_world() -> None:
@@ -73,10 +73,7 @@ def test_detects_hyphenated_life_long_learning_in_agent_world() -> None:
         ),
     )
 
-    assert infer_topics(paper) == (
-        "agent-llm-self-evolution",
-        "llm-continual-training",
-    )
+    assert infer_topics(paper) == ()
 
 
 def test_does_not_treat_generic_evolutionary_optimization_as_self_improvement() -> None:

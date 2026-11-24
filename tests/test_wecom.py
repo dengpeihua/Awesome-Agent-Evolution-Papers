@@ -18,7 +18,7 @@ def test_digest_markdown_groups_topics_and_limits_papers() -> None:
     )
 
     assert markdown.count("https://arxiv.org/abs/") == 5
-    assert "Self-Evolution" in markdown
+    assert "Recursive Self-Improvement" in markdown
     assert "7 more paper(s)" in markdown
     assert "查看完整归档" in markdown
 

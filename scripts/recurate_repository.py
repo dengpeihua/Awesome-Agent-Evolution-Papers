@@ -21,8 +21,11 @@ from agent_paper_digest.models import Paper  # noqa: E402
 from agent_paper_digest.topics import (  # noqa: E402
     MIN_PUBLICATION_DATE,
     REINFORCEMENT_LEARNING_TOPIC,
+    SELF_EVOLUTION_TOPIC,
     TOPIC_TITLES,
+    model_training_evidence,
     rl_relevance_evidence,
+    scope_exclusion_reasons,
 )
 
 
@@ -43,6 +46,8 @@ def _write_audit(root: Path, candidates: list[Paper], papers: tuple[Paper, ...])
             "code_stars_are_qualifying": False,
             "exclude_agent_memory": True,
             "exclude_journals": True,
+            "exclude_continual_training": True,
+            "self_improvement_requires_model_training": True,
         },
         "candidate_count": len(candidates),
         "candidate_topic_counts": {
@@ -55,7 +60,7 @@ def _write_audit(root: Path, candidates: list[Paper], papers: tuple[Paper, ...])
         "qualification_counts": dict(sorted(reason_counts.items())),
         "notes": [
             "Qualification counts overlap when one paper meets multiple criteria.",
-            "All topical papers are public; highlight signals do not gate inclusion.",
+            "Papers must pass scope and training checks; highlight signals do not gate inclusion.",
             "Citation counts are source-attributed snapshots and may change over time.",
         ],
     }
@@ -85,6 +90,28 @@ def _write_audit(root: Path, candidates: list[Paper], papers: tuple[Paper, ...])
         + "\n",
         encoding="utf-8",
     )
+    (root / "data" / "rsi_training_screening.json").write_text(
+        json.dumps(
+            {
+                "policy": "Explicit model/policy training evidence required for RSI; "
+                "API-only and unverified training excluded across topics",
+                "evidence_level": "Conservative title/abstract screening, not full-paper review",
+                "papers": [
+                    {
+                        "id": p.arxiv_id,
+                        "source": p.url,
+                        "evidence": model_training_evidence(p.title, p.abstract),
+                    }
+                    for p in papers
+                    if SELF_EVOLUTION_TOPIC in p.topics
+                ],
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
 
 
 def _write_report(root: Path, candidates: list[Paper], papers: tuple[Paper, ...]) -> None:
@@ -94,10 +121,9 @@ def _write_report(root: Path, candidates: list[Paper], papers: tuple[Paper, ...]
         "",
         "## Scope",
         "",
-        "The public corpus covers four directions plus explicit requests: "
-        "papers address Agent/LLM "
-        "self-evolution, self-improving systems, recursive self-improvement, "
-        "LLM continual training, language-model/agent Reinforcement Learning, "
+        "The public corpus covers three directions plus explicit requests: "
+        "papers address Recursive Self-Improvement with model training, "
+        "language-model/agent Reinforcement Learning, "
         "or long-horizon agents. "
         "First publication must be on or after 2025-05-01. Priority evidence is optional.",
         "",
@@ -132,9 +158,37 @@ def run(root: Path) -> tuple[Paper, ...]:
     archive = ArchiveRepository(root)
     candidates = CandidateRepository(root)
     pool = candidates.merge(archive._load())
+    # Persist exclusions before removing legacy topic labels or candidate records.
+    # This prevents later alternate queries with less metadata from restoring them.
+    exclusions_path = root / "data" / "excluded_paper_ids.json"
+    exclusions = json.loads(exclusions_path.read_text("utf-8")) if exclusions_path.exists() else {}
+    for paper in pool:
+        reasons = scope_exclusion_reasons(paper)
+        if reasons:
+            exclusions[paper.arxiv_id] = sorted(
+                set(exclusions.get(paper.arxiv_id, [])) | set(reasons)
+            )
+    exclusions_path.parent.mkdir(parents=True, exist_ok=True)
+    exclusions_path.write_text(
+        json.dumps(dict(sorted(exclusions.items())), ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     classified = [classify_highlights(paper) for paper in pool]
     candidates.save([p for p in classified if is_eligible(p)])
     public = archive.replace_dataset(classified)
+    from dataclasses import replace
+
+    from agent_paper_digest.state import DigestStateStore
+
+    state_store = DigestStateStore(root)
+    state = state_store.load()
+    eligible_ids = {p.arxiv_id for p in public}
+    state_store.restore(
+        replace(
+            state,
+            pending_paper_ids=tuple(pid for pid in state.pending_paper_ids if pid in eligible_ids),
+        )
+    )
     _write_audit(root, classified, public)
     _write_report(root, classified, public)
     return public

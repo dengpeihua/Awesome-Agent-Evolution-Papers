@@ -20,11 +20,12 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from agent_paper_digest.archive import ArchiveRepository  # noqa: E402
 from agent_paper_digest.arxiv import ArxivSource  # noqa: E402
 from agent_paper_digest.candidates import CandidateRepository  # noqa: E402
-from agent_paper_digest.highlight import classify_highlights  # noqa: E402
+from agent_paper_digest.highlight import classify_highlights, is_eligible  # noqa: E402
 from agent_paper_digest.models import Paper  # noqa: E402
 from agent_paper_digest.scholar import SemanticScholarEnricher  # noqa: E402
 from agent_paper_digest.topics import (  # noqa: E402
     SELF_EVOLUTION_TOPIC,
+    TOPIC_ORDER,
     infer_topics_from_text,
 )
 
@@ -37,7 +38,6 @@ DISCOVERY_SOURCES = {
         "https://raw.githubusercontent.com/selfimproving-agent/"
         "Awesome-Self-Improving-Agents/main/README.md"
     ),
-
 }
 
 EXTRA_ARXIV_TOPICS = {
@@ -69,9 +69,10 @@ EXTRA_ARXIV_TOPICS = {
     "2608.03463": ("agent-memory",),
 }
 EXTRA_ARXIV_TOPICS = {
-    key: topics for key, topics in EXTRA_ARXIV_TOPICS.items() if "agent-memory" not in topics
+    key: topics
+    for key, topics in EXTRA_ARXIV_TOPICS.items()
+    if not {"agent-memory", "llm-continual-training"}.intersection(topics)
 }
-
 
 
 @dataclass(frozen=True, slots=True)
@@ -321,10 +322,7 @@ def _paper_from_external(candidate: ExternalCandidate, page: str) -> Paper:
         or _meta_values(page, "citation_date")
         or ["2026-07-02"]
     )[0]
-    pdf_url = (
-        _meta_values(page, "citation_pdf_url")
-        or [candidate.url.rstrip("/") + ".pdf"]
-    )[0]
+    pdf_url = (_meta_values(page, "citation_pdf_url") or [candidate.url.rstrip("/") + ".pdf"])[0]
     return Paper(
         arxiv_id=candidate.identifier,
         title=title,
@@ -516,9 +514,7 @@ async def enrich_citations(client: httpx.AsyncClient, papers: list[Paper]) -> li
             replace(
                 paper,
                 citation_count=count if count is not None else paper.citation_count,
-                citation_source=(
-                    "Google Scholar" if count is not None else paper.citation_source
-                ),
+                citation_source=("Google Scholar" if count is not None else paper.citation_source),
             )
         )
         await asyncio.sleep(1.5)
@@ -567,24 +563,18 @@ async def run(root: Path, *, skip_citations: bool) -> tuple[Paper, ...]:
         if not skip_citations:
             papers = await enrich_citations(client, papers)
     papers = [classify_highlights(paper) for paper in papers]
-    CandidateRepository(root).save(papers)
+    CandidateRepository(root).save([p for p in papers if is_eligible(p)])
     result = ArchiveRepository(root).replace_dataset(papers)
     audit = {
         "cutoff": CUTOFF.isoformat(),
         "generated_at": datetime.now(UTC).isoformat(),
         "paper_count": len(result),
         "topic_counts": {
-            topic: sum(topic in paper.topics for paper in result)
-            for topic in (
-                SELF_EVOLUTION_TOPIC,
-                "agent-memory",
-                "llm-continual-training",
-            )
+            topic: sum(topic in paper.topics for paper in result) for topic in TOPIC_ORDER
         },
         "month_counts": {
             f"2026-{month:02d}": sum(
-                paper.published.year == 2026 and paper.published.month == month
-                for paper in result
+                paper.published.year == 2026 and paper.published.month == month for paper in result
             )
             for month in range(1, 9)
         },
@@ -592,9 +582,7 @@ async def run(root: Path, *, skip_citations: bool) -> tuple[Paper, ...]:
         "citation_metrics": sum(paper.citation_count is not None for paper in result),
         "industry_flags": sum(bool(paper.industry_affiliations) for paper in result),
         "ccf_a_flags": sum(paper.venue_tier == "ccf-a" for paper in result),
-        "eccv_emnlp_flags": sum(
-            paper.venue_tier == "selected-extra" for paper in result
-        ),
+        "eccv_emnlp_flags": sum(paper.venue_tier == "selected-extra" for paper in result),
         "discovery_sources": [ArxivSource.API_URL, *DISCOVERY_SOURCES.values()],
         "notes": [
             "Discovery lists provide recall only; metadata is rechecked on paper pages.",

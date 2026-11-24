@@ -1,8 +1,8 @@
 name: agent_paper_digest
 display_name: Agent Paper Digest
-desc: 每日检索 Agent Self-Evolving、LLM Continual Training 、Reinforcement Learning 和 Long-Horizon Task Agents，标注大厂与顶会证据，完整补推并归档到 GitHub。
-short_desc: 四方向论文日报、大厂与顶会标注、离线补推及 GitHub 倒序归档。
-version: v0.7.0
+desc: 每日检索 Recursive Self-Improvement（需模型训练）、Reinforcement Learning 和 Long-Horizon Task Agents，标注大厂与顶会证据，完整补推并归档到 GitHub。
+short_desc: 三方向论文日报、大厂与顶会标注、离线补推及 GitHub 倒序归档。
+version: v0.8.0
 author: Agent Paper Digest
 repo: ""
 astrbot_version: ">=4.16,<5"

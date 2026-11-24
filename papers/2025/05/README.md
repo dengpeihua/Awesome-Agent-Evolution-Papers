@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 31 unique papers · Agent/LLM Self-Improvement 1 · Continual Training 3 · Reinforcement Learning 9 · Long-Horizon 24
+> 27 unique papers · Recursive Self-Improvement 0 · Reinforcement Learning 8 · Long-Horizon 23
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -10,17 +10,13 @@
 | 2025-05-31 | Long-Horizon Task Agents | [Dyna-Think: Synergizing Reasoning, Acting, and World Model Simulation in AI Agents](https://arxiv.org/abs/2506.00320v3)<br>[PDF](https://arxiv.org/pdf/2506.00320v3) | arXiv.org | 📈 Highly cited | Citations: 13 (Semantic Scholar) |
 | 2025-05-30 | Long-Horizon Task Agents | [Breakpoint: Scalable evaluation of system-level reasoning in LLM code agents](https://arxiv.org/abs/2506.00172v1)<br>[PDF](https://arxiv.org/pdf/2506.00172v1) | arXiv.org | — | Citations: 5 (Semantic Scholar) |
 | 2025-05-30 | Long-Horizon Task Agents | [VideoCAD: A Dataset and Model for Learning Long-Horizon 3D CAD UI Interactions from Video](https://arxiv.org/abs/2505.24838v2)<br>[PDF](https://arxiv.org/pdf/2505.24838v2) | Neural Information Processing Systems | 📈 Highly cited | Citations: 16 (Semantic Scholar) |
-| 2025-05-30 | LLM Continual Training | [Advantageous Parameter Expansion Training Makes Better Large Language Models](https://arxiv.org/abs/2505.24241v2)<br>[PDF](https://arxiv.org/pdf/2505.24241v2) | arXiv.org | — | Citations: 0 (Semantic Scholar) |
 | 2025-05-30 | Long-Horizon Task Agents | [Experience-based Knowledge Correction for Robust Planning in Minecraft](https://arxiv.org/abs/2505.24157v3)<br>[PDF](https://arxiv.org/pdf/2505.24157v3) | arXiv | — | Citations: 1 (Semantic Scholar) |
 | 2025-05-30 | Reinforcement Learning | [HARDTESTGEN: A High-Quality RL Verifier Generation Pipeline for LLM Algorithmic Coding](https://arxiv.org/abs/2505.24098v2)<br>[PDF](https://arxiv.org/pdf/2505.24098v2) | ICLR 2026 | 🏅 Selected top venue: ICLR 2026<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | — |
 | 2025-05-29 | Reinforcement Learning | [VisualSphinx: Large-Scale Synthetic Vision Logic Puzzles for RL](https://arxiv.org/abs/2505.23977v2)<br>[PDF](https://arxiv.org/pdf/2505.23977v2) | arXiv | — | — |
 | 2025-05-29 | Long-Horizon Task Agents | [Socratic-PRMBench: Benchmarking Process Reward Models with Systematic Reasoning Patterns](https://arxiv.org/abs/2505.23474v1)<br>[PDF](https://arxiv.org/pdf/2505.23474v1) | arXiv.org | — | Citations: 3 (Semantic Scholar) |
 | 2025-05-28 | Long-Horizon Task Agents | [3DLLM-Mem: Long-Term Spatial-Temporal Memory for Embodied 3D Large Language Model](https://arxiv.org/abs/2505.22657v2)<br>[PDF](https://arxiv.org/pdf/2505.22657v2) | Neural Information Processing Systems | 📈 Highly cited | Citations: 31 (Semantic Scholar) |
-| 2025-05-28 | LLM Continual Training | [Learning Composable Chains-of-Thought](https://arxiv.org/abs/2505.22635v2)<br>[PDF](https://arxiv.org/pdf/2505.22635v2) | arXiv.org | — | Citations: 2 (Semantic Scholar) |
 | 2025-05-28 | Reinforcement Learning<br>Long-Horizon Task Agents | [Reinforced Reasoning for Embodied Planning](https://arxiv.org/abs/2505.22050v2)<br>[PDF](https://arxiv.org/pdf/2505.22050v2) | arXiv.org | 📈 Highly cited | Citations: 14 (Semantic Scholar) |
-| 2025-05-28 | Agent/LLM Self-Improvement | [OSPO: Object-Centric Self-Improving Preference Optimization for Text-to-Image Generation](https://arxiv.org/abs/2506.02015v4)<br>[PDF](https://arxiv.org/pdf/2506.02015v4) | CVPR 2026 | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Citations: 1 (Semantic Scholar) |
 | 2025-05-27 | Long-Horizon Task Agents | [RRO: LLM Agent Optimization Through Rising Reward Trajectories](https://arxiv.org/abs/2505.20737v1)<br>[PDF](https://arxiv.org/pdf/2505.20737v1) | arXiv.org | — | Citations: 6 (Semantic Scholar) |
-| 2025-05-26 | LLM Continual Training<br>Reinforcement Learning<br>Long-Horizon Task Agents | [Divide and Conquer: Grounding LLMs as Efficient Decision-Making Agents via Offline Hierarchical Reinforcement Learning](https://arxiv.org/abs/2505.19761v1)<br>[PDF](https://arxiv.org/pdf/2505.19761v1) | ICML 2025 | 🏆 CCF-A: ICML 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Citations: 0 (Semantic Scholar) |
 | 2025-05-23 | Long-Horizon Task Agents | [Single-agent or Multi-agent Systems? Why Not Both?](https://arxiv.org/abs/2505.18286v1)<br>[PDF](https://arxiv.org/pdf/2505.18286v1) | arXiv.org | 📈 Highly cited | Citations: 40 (Semantic Scholar) |
 | 2025-05-23 | Long-Horizon Task Agents | [Planning without Search: Refining Frontier LLMs with Offline Goal-Conditioned RL](https://arxiv.org/abs/2505.18098v2)<br>[PDF](https://arxiv.org/pdf/2505.18098v2) | NeurIPS 2025 | 📈 Highly cited<br>🏆 CCF-A: NeurIPS 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Citations: 11 (Semantic Scholar) |
 | 2025-05-23 | Long-Horizon Task Agents | [Get Experience from Practice: LLM Agents with Record & Replay](https://arxiv.org/abs/2505.17716v1)<br>[PDF](https://arxiv.org/pdf/2505.17716v1) | arXiv.org | 📈 Highly cited | Citations: 28 (Semantic Scholar) |

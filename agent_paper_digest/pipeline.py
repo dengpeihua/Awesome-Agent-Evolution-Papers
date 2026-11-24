@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from dataclasses import replace
 from datetime import datetime, timedelta
 from typing import Any
 
@@ -79,6 +80,16 @@ class DailyDigestPipeline:
         papers = [classify_highlights(paper) for paper in papers]
         papers.sort(key=lambda p: (p.published, p.updated, p.arxiv_id), reverse=True)
         candidate_repository.save([p for p in papers if is_eligible(p)])
+        eligible_ids = {p.arxiv_id for p in papers if is_eligible(p)}
+        previous_state = state_store.load()
+        state_store.restore(
+            replace(
+                previous_state,
+                pending_paper_ids=tuple(
+                    pid for pid in previous_state.pending_paper_ids if pid in eligible_ids
+                ),
+            )
+        )
         known = {p.arxiv_id: classify_highlights(p) for p in self.archive._load()}
         # Persist intent before writing the dataset so a crash during rendering
         # cannot turn an undelivered paper into an apparently completed one.
@@ -96,7 +107,7 @@ class DailyDigestPipeline:
         )
         result = self.archive.update(
             now.date(),
-            [paper for paper in papers if is_eligible(paper)],
+            papers,
             carryover_ids=queued.pending_paper_ids,
             coverage_start=since,
             coverage_end=now,

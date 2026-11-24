@@ -13,7 +13,11 @@ def make_paper(arxiv_id: str, *, topics: tuple[str, ...]) -> Paper:
         abstract=(
             "We train large language models with reinforcement learning."
             if "reinforcement-learning" in topics
-            else "A concise abstract."
+            else (
+                "We fine-tune a self-improving language model on its own verified solutions."
+                if "agent-llm-self-evolution" in topics
+                else "A concise abstract."
+            )
         ),
         authors=("A. Researcher",),
         published=datetime(2026, 7, 15, tzinfo=UTC),
@@ -45,7 +49,7 @@ def test_update_creates_daily_archive_dataset_and_awesome_index(tmp_path) -> Non
     daily = tmp_path / "papers" / "2026" / "07" / "2026-07-16.md"
     assert result.daily_path == daily
     assert daily.exists()
-    assert "## Agent & LLM Self-Evolution" in daily.read_text(encoding="utf-8")
+    assert "## Recursive Self-Improvement" in daily.read_text(encoding="utf-8")
     monthly = tmp_path / "papers" / "2026" / "07" / "README.md"
     assert monthly.exists()
     assert "# 2026-07 Agent Evolution Papers" in monthly.read_text(encoding="utf-8")
