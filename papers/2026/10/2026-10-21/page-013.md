@@ -14,7 +14,7 @@
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
 | 2026-06-30 | Long-Horizon Task Agents | [SmoothAgent: Efficient Long-Horizon LLM-Based Agent Serving with Lookahead Context Engineering](https://arxiv.org/abs/2607.00151v1) | — |
-| 2026-06-30 | Long-Horizon Task Agents | [QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents](https://arxiv.org/abs/2606.32034v1) | — |
+| 2026-06-30 | Long-Horizon Task Agents | [QVal: Evaluating Dense Supervision Signals for Long-Horizon LLM Agents](https://arxiv.org/abs/2606.32034v2) | — |
 | 2026-06-30 | Long-Horizon Task Agents | [A Lifecycle and Application-Stack Survey of Large Language Model Vulnerabilities: Attacks, Risks, Defenses, and Open Problems](https://arxiv.org/abs/2606.31639v1) | — |
 | 2026-06-30 | Long-Horizon Task Agents | [AutoTrainess: Teaching Language Models to Improve Language Models Autonomously](https://arxiv.org/abs/2606.31551v1) | — |
 | 2026-06-30 | Long-Horizon Task Agents | [FinPersona-Bench: A Benchmark for Longitudinal Psychometric Stability of Autonomous Financial Agents](https://arxiv.org/abs/2606.31522v2) | — |
@@ -33,13 +33,13 @@
 | 2026-06-28 | Long-Horizon Task Agents | [From Outcomes to Actions: Leveraging Hindsight for Long-Horizon Language Agent Training](https://arxiv.org/abs/2607.16257v1) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
 | 2026-06-27 | Long-Horizon Task Agents | [Characterizing Large Language Model Agentic Workflows: A Study on N8n Ecosystem](https://arxiv.org/abs/2606.29116v2) | — |
 | 2026-06-26 | Long-Horizon Task Agents | [ToolPrivacyBench: Benchmarking Purpose-Bound Privacy in Tool-Using LLM Agents](https://arxiv.org/abs/2606.28061v1) | — |
-| 2026-06-26 | Long-Horizon Task Agents | [ATOD: Annealed Turn-Aware On-Policy Distillation for Multi-Turn Agentic Tasks](https://arxiv.org/abs/2606.27814v6) | — |
+| 2026-06-26 | Long-Horizon Task Agents | [ATOD: Annealed Turn-Aware On-Policy Distillation for Multi-Turn Agentic Tasks](https://arxiv.org/abs/2606.27814v6) | 📈 Highly cited |
 | 2026-06-26 | Long-Horizon Task Agents | [Agent vs. Parametric World Models: Hybrid Planning for Reliable Language Agents](https://arxiv.org/abs/2606.27806v3) | — |
 | 2026-06-25 | Long-Horizon Task Agents | [Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning](https://arxiv.org/abs/2606.27483v1) | — |
 | 2026-06-25 | Reinforcement Learning | [Paved with True Intents: Intent-Aware Training Improves LLM Safety Classification Across Training Regimes](https://arxiv.org/abs/2606.27210v2) | — |
 | 2026-06-24 | Long-Horizon Task Agents | [WatchAct: A Benchmark for Behavior-Grounded Robot Manipulation](https://arxiv.org/abs/2606.26443v1) | — |
-| 2026-06-24 | Long-Horizon Task Agents | [OpenFinGym: A Verifiable Multi-Task Gym Environment for Evaluating Quant Agents](https://arxiv.org/abs/2606.26350v2) | — |
-| 2026-06-24 | Long-Horizon Task Agents | [Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents](https://arxiv.org/abs/2606.26080v1) | — |
+| 2026-06-24 | Long-Horizon Task Agents | [OpenFinGym: A Verifiable Multi-Task Gym Environment for Evaluating Quant Agents](https://arxiv.org/abs/2606.26350v3) | — |
+| 2026-06-24 | Long-Horizon Task Agents | [Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents](https://arxiv.org/abs/2606.26080v2) | — |
 | 2026-06-24 | Reinforcement Learning, Long-Horizon Task Agents | [Semantic Consistency Policy Optimization for Reinforcement Learning of LLM Agents](https://arxiv.org/abs/2606.25852v1) | — |
 | 2026-06-24 | Long-Horizon Task Agents | [Beyond Function Calling: Benchmarking Tool-Using Agents under Tool-Environment Unreliability](https://arxiv.org/abs/2606.25819v2) | — |
 | 2026-06-24 | Long-Horizon Task Agents | [SidConArena: An Environment Evaluating Agents in Open-Ended,Positive-Sum Bargaining Game](https://arxiv.org/abs/2606.27397v1) | — |
@@ -72,6 +72,7 @@
 | [MOPD: Multi-Teacher On-Policy Distillation for Capability Integration in LLM Post-Training](https://arxiv.org/abs/2606.30406v1) | 🚨 First-author industry affiliation: Xiaomi | First author: Peking University, LLM Core, Xiaomi (internship) (Official paper: https://arxiv.org/html/2606.30406) |
 | [Bridging VideoQA and Video-Guided Agentic Tasks via Generalized Keyframe Extraction](https://arxiv.org/abs/2606.29445v1) | 🏅 Selected top venue: ECCV 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted by ECCV 2026. Project Page: https://vg-gui-tasker.github.io/ |
 | [From Outcomes to Actions: Leveraging Hindsight for Long-Horizon Language Agent Training](https://arxiv.org/abs/2607.16257v1) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted at ICML 2026 |
+| [ATOD: Annealed Turn-Aware On-Policy Distillation for Multi-Turn Agentic Tasks](https://arxiv.org/abs/2606.27814v6) | 📈 Highly cited | Tsinghua University |
 | [Beyond Static Endpoints: Tool Programs as an Interface for Flexible Agentic Web Services](https://arxiv.org/abs/2606.19992v1) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted by ICML 2026 |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
@@ -212,7 +213,7 @@ Natural language understanding often depends on meanings that are implied rather
 
 LLM-based agents execute multi-turn workflows with continuously growing contexts, where LLM calls are interleaved with tool invocations and environment feedback. To maintain model quality, modern agent frameworks rely on context engineering strategies such as offloading, reduction, and isolation to control the context length. However, these strategies introduce significant context transformation overhead: each transformation invalidates existing KV caches and triggers re-prefill, leading to increased time-to-first-token (TTFT). In this paper, we identify that context transformations are segment-decomposable, where the transformation of a prefix is independent of future tokens. This property enables transformations to be executed ahead of time. Based on this insight, we propose a lookahead programming model that allows agent frameworks to express context transformations as asynchronous operations without modifying their execution logic. The runtime proactively executes these transformations and prepares transformed KV caches in advance, enabling direct context replacement without blocking. We further design a lookahead-aware scheduler in LLM serving systems to support these asynchronous requests alongside latency-critical workloads with controlled interference. We implement our approach to support representative context engineering strategies and integrate it into existing agent frameworks and LLM serving systems. Experiments show that our approach effectively eliminates transformation overhead and reduces TTFT by up to 11.9x.
 
-### [QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents](https://arxiv.org/abs/2606.32034v1)
+### [QVal: Evaluating Dense Supervision Signals for Long-Horizon LLM Agents](https://arxiv.org/abs/2606.32034v2)
 
 - **Authors:** Sergio Hernández-Gutiérrez, Matteo Merler, Ilze Amanda Auzina, Joschka Strüber, Ameya Prabhu, Matthias Bethge
 - **Published:** 2026-06-30
@@ -220,9 +221,9 @@ LLM-based agents execute multi-turn workflows with continuously growing contexts
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2606.32034v1) · [PDF](https://arxiv.org/pdf/2606.32034v1)
+- **Links:** [Paper](https://arxiv.org/abs/2606.32034v2) · [PDF](https://arxiv.org/pdf/2606.32034v2)
 
-LLM agents increasingly act over long horizons, where a single trajectory can contain hundreds or thousands of actions. In these settings, outcome-only rewards provide too sparse guidance, failing to inform the model about the goodness of intermediate actions. Dense supervision methods aim to solve this problem by scoring intermediate steps, from intrinsic confidence to self-distillation and embedding similarities. However, it is common practice to evaluate them by measuring the downstream performance of a training pipeline that integrates them. This is expensive, conflates supervision quality with training engineering confounders, and renders different methodological families requiring distinct training setups incomparable. As a result, dense supervision methods are rarely benchmarked on common ground. We introduce QVal, a training-free testbed for directly evaluating dense supervision signals. Given a state-action pair, QVal measures how well a method's score is Q-aligned: whether it orders actions according to the Q-values of a strong reference-policy. This lets us compare signals before any training run and separate signal quality from other engineering choices. We instantiate QVal as QVal-v1.0, benchmarking 21 dense supervision methods across four diverse environments and seven methodological families, with over 1.2K evaluation experiments across six open-weight model backbones. We find that simple prompting baselines consistently outperform recent dense supervision methods from the literature, and that performance clusters strongly by family. These findings hold across model sizes, environments, and observation modalities. QVal is designed to be easily extensible to new environments and methods, enabling researchers to iterate on dense supervision methods before any training run.
+LLM agents increasingly act over long horizons, where outcome-only rewards say little about which intermediate actions were good. Dense supervision methods address this by scoring intermediate steps, but they are usually evaluated through the downstream performance of a full training pipeline. This is expensive, confounds signal quality with other training choices, and means that methods are rarely compared on common ground. We introduce QVal, a training-free testbed that measures the $Q$-alignment of a dense signal: whether it orders the candidate actions in each state the same way as their returns under a reference policy do. We benchmark 21 methods from seven families with six open-weight backbones in four environments. Simple prompting baselines are the most $Q$-aligned on average, and performance clusters strongly by family. Code-generated signals do well only in small state and action spaces; embedding-based signals are weak; self-distillation signals are anti-aligned; and no method is $Q$-aligned in open-ended environments. When five of these signals guide an actor at test time by choosing among four proposed actions, $Q$-alignment strongly correlates with the gain in task success. QVal is designed to be easily extensible to new environments and methods, enabling researchers to compare new signals cheaply before committing to a training run.
 
 ### [A Lifecycle and Application-Stack Survey of Large Language Model Vulnerabilities: Attacks, Risks, Defenses, and Open Problems](https://arxiv.org/abs/2606.31639v1)
 
@@ -408,9 +409,9 @@ Large language models (LLMs) have increasingly moved from standalone text genera
 
 - **Authors:** Qitai Tan, Zefang Zong, Mo Li, Yipeng Shi, Yang Li, Peng Chen
 - **Published:** 2026-06-26
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Tsinghua University
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2606.27814v6) · [PDF](https://arxiv.org/pdf/2606.27814v6)
 
@@ -452,7 +453,7 @@ Large language model (LLM) agents have demonstrated strong capability in sequent
 
 A robot working alongside people must reason about what they have done, in what order, and with what intent. Video carries the spatial layouts, object histories, and gestures that language leaves underspecified, yet today's manipulation benchmarks pair an instruction with a single current image, offering no way to evaluate reasoning over observed human behavior. We introduce WatchAct, a benchmark for robot manipulation grounded in observed human behavior. Each instance pairs a real-world human-action video and a language instruction with an aligned simulator scene and an executable LIBERO task, enabling scalable and reproducible evaluation. WatchAct comprises 3,000 long-horizon instances across 14 tasks in four capability domains drawn from the cognitive demands of watching another agent: parsing events (Event Grounding), recovering procedural structure (Procedural Reasoning), inferring unstated intent (Implicit Intent Inference), and tracking how the scene was changed (Episodic Reasoning). We further propose a disentangled evaluation protocol that separately measures (i)~video-to-plan reasoning by vision-language models, (ii)~policy execution under oracle plans, and (iii)~full task completion by integrated planner--policy pipelines. In both simulation and on a Franka Research 3 robot, current systems remain far from solving WatchAct. The best pipeline, Gemini-3.1-Pro with $π_{0.5}$, reaches only 16.3% Success Rate (SR) in simulation and 14.0% on the real robot. Gemini-3.1-Pro attains just 36.8% Plan SR (vs. 97.1% for humans), while $π_{0.5}$ reaches only 21.5% Task SR under oracle plans and drops to 10.6% on out-of-domain scenarios. Dataset and code are available at https://baiqi-li.github.io/watchact_page/.
 
-### [OpenFinGym: A Verifiable Multi-Task Gym Environment for Evaluating Quant Agents](https://arxiv.org/abs/2606.26350v2)
+### [OpenFinGym: A Verifiable Multi-Task Gym Environment for Evaluating Quant Agents](https://arxiv.org/abs/2606.26350v3)
 
 - **Authors:** Kaicheng Zhang, Wen Ge, Lei Jiang, Weixin Yang, Jordan Langham-Lopez, Jialin Yu, Lukasz Szpruch, Hao Ni
 - **Published:** 2026-06-24
@@ -460,11 +461,11 @@ A robot working alongside people must reason about what they have done, in what 
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.AI, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2606.26350v2) · [PDF](https://arxiv.org/pdf/2606.26350v2)
+- **Links:** [Paper](https://arxiv.org/abs/2606.26350v3) · [PDF](https://arxiv.org/pdf/2606.26350v3)
 
-Although large language model agents are increasingly applied to quantitative-finance workflows, their evaluation remains fragmented across isolated tasks, while the financial relevance of benchmark tasks is often overlooked. Yet financial workflows are inherently multi-stage, spanning interdependent tasks such as forecasting, strategy construction, risk management, and trading. Existing platforms typically focus on a single task, and can therefore overstate agent competence and fail to reveal weaknesses in generalization, real-market interaction, and financially meaningful decision-making. We introduce OpenFinGym, a unified gym environment for quantitative-finance agent development that covers forecasting, market generation, real-time trading, and fraud detection under a single execution and verification interface. OpenFinGym additionally provides an automated task-construction pipeline that turns quantitative finance publications into executable task packages; a containerised runtime with a host-side verifier service that supports scalable agent rollouts and prevents runtime train-test leakage; a paper trading engine with a low-latency data-stream design; deferred-resolution support for long-horizon and event-market forecasts; and integration for SFT and RL post-training
+Although large language model agents are increasingly applied to quantitative-finance workflows, their evaluation remains fragmented across isolated tasks, while the financial relevance of benchmark tasks is often overlooked. Yet financial workflows are inherently multi-stage, spanning interdependent tasks such as forecasting, strategy construction, risk management, and trading. Existing platforms typically focus on a single task, and can therefore overstate agent competence and fail to reveal weaknesses in generalization, real-market interaction, and financially meaningful decision-making. We introduce OpenFinGym, a unified gym environment for quantitative-finance agent development that covers forecasting, market generation, real-time trading, and fraud detection under a single execution and verification interface. OpenFinGym additionally provides an automated task-construction pipeline that turns quantitative finance publications into executable task packages; a containerised runtime with a host-side verifier service that supports scalable agent rollouts and prevents runtime train-test leakage; a paper trading engine with a low-latency data-stream design; deferred-resolution support for long-horizon and event-market forecasts; and integration for SFT and RL post-training.
 
-### [Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents](https://arxiv.org/abs/2606.26080v1)
+### [Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents](https://arxiv.org/abs/2606.26080v2)
 
 - **Authors:** Changdae Oh, Wendi Li, Seongheon Park, Samuel Yeh, Tanwi Mallick, Sharon Li
 - **Published:** 2026-06-24
@@ -472,7 +473,7 @@ Although large language model agents are increasingly applied to quantitative-fi
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2606.26080v1) · [PDF](https://arxiv.org/pdf/2606.26080v1)
+- **Links:** [Paper](https://arxiv.org/abs/2606.26080v2) · [PDF](https://arxiv.org/pdf/2606.26080v2)
 
 Process reward models enable fine-grained, step-level evaluation of LLMs, yet building them for agentic settings remains prohibitively difficult: long-horizon interactions, irreversible actions, and stochastic environment feedback make both human annotation and Monte Carlo estimation infeasible at scale. In this work, we show that reinforcement learning (RL) post-training already provides the ingredients for effective step-level scoring, eliminating the need for dedicated reward model training altogether. Concretely, we derive an implicit advantage under a general stochastic Markov decision process, which we term progress advantage -- log-probability ratio between the RL-trained policy and its reference policy exactly recovers the optimal advantage function. This formulation makes the resulting signal annotation-free, domain-agnostic, and available as a byproduct of the standard RL post-training pipeline. We validate the effectiveness of the progress advantage across three different applications: test-time scaling, uncertainty quantification, and failure attribution on five benchmarks and four model families. Across all settings, it consistently outperforms confidence-based baselines and, despite requiring no task-specific training, surpasses dedicated trained reward models. We complement these results with deeper analyses on characteristics of progress advantage, offering practical guidance for adoption in real-world agentic systems.
 

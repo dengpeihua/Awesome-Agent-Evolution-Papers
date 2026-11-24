@@ -493,7 +493,7 @@ Large language model (LLM) agents frequently fail on multi-step tasks involving 
 - **Published:** 2026-05-24
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Tsinghua University
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.25160v2) · [PDF](https://arxiv.org/pdf/2605.25160v2)
 

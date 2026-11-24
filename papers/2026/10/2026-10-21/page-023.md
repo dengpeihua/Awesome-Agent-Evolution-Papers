@@ -18,8 +18,8 @@
 | 2026-02-06 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Lemon Agent Technical Report](https://arxiv.org/abs/2602.07092v1) | — |
 | 2026-02-06 | LLM Continual Training, Long-Horizon Task Agents | [AgentCPM-Explore: Realizing Long-Horizon Deep Exploration for Edge-Scale Agents](https://arxiv.org/abs/2602.06485v1) | — |
 | 2026-02-06 | Agent/LLM Self-Improvement | [ReBeCA: Causality-Inspired Behavior Analysis for Understanding the Self-Reflection of Language Models](https://arxiv.org/abs/2602.06373v4) | — |
-| 2026-02-05 | Long-Horizon Task Agents | [AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions](https://arxiv.org/abs/2602.06008v1) | — |
-| 2026-02-05 | Long-Horizon Task Agents | [OdysseyArena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions](https://arxiv.org/abs/2602.05843v2) | — |
+| 2026-02-05 | Long-Horizon Task Agents | [AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions](https://arxiv.org/abs/2602.06008v1) | 📈 Highly cited |
+| 2026-02-05 | Long-Horizon Task Agents | [OdysseyArena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions](https://arxiv.org/abs/2602.05843v4) | — |
 | 2026-02-05 | Long-Horizon Task Agents | [Sparse Video Generation Propels Real-World Beyond-the-View Vision-Language Navigation](https://arxiv.org/abs/2602.05827v1) | — |
 | 2026-02-05 | Long-Horizon Task Agents | [VLN-Pilot: Large Vision-Language Model as an Autonomous Indoor Drone Operator](https://arxiv.org/abs/2602.05552v1) | — |
 | 2026-02-05 | Reinforcement Learning, Long-Horizon Task Agents | [ProAct: Agentic Lookahead in Interactive Environments](https://arxiv.org/abs/2602.05327v1) | — |
@@ -46,13 +46,13 @@
 | 2026-02-02 | Long-Horizon Task Agents | [Hunt Instead of Wait: Evaluating Deep Data Research on Large Language Models](https://arxiv.org/abs/2602.02039v2) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
 | 2026-02-02 | Long-Horizon Task Agents | [Boosting metacognition in entangled human-AI interaction to navigate cognitive-behavioral drift](https://arxiv.org/abs/2602.01959v2) | — |
 | 2026-02-02 | Long-Horizon Task Agents | [TRIP-Bench: A Benchmark for Long-Horizon Interactive Agents in Real-World Scenarios](https://arxiv.org/abs/2602.01675v1) | — |
-| 2026-02-02 | Long-Horizon Task Agents | [FlowSteer: Towards Agents Designing Agentic Workflows via Reinforced Progressive Canvas Editing](https://arxiv.org/abs/2602.01664v4) | — |
+| 2026-02-02 | Long-Horizon Task Agents | [FlowSteer: Towards Agents Designing Agentic Workflows via Reinforced Progressive Canvas Editing](https://arxiv.org/abs/2602.01664v4) | 📈 Highly cited |
 | 2026-02-02 | Long-Horizon Task Agents | [PLanAR: Planning-Language-Grounded Agentic Reasoning for Robot Manipulation](https://arxiv.org/abs/2602.01662v4) | — |
 | 2026-02-02 | Long-Horizon Task Agents | [From Perception to Action: Spatial AI Agents and World Models](https://arxiv.org/abs/2602.01644v1) | — |
 | 2026-02-02 | Long-Horizon Task Agents | [FS-Researcher: Test-Time Scaling for Long-Horizon Research Tasks with File-System-Based Agents](https://arxiv.org/abs/2602.01566v2) | 🏆 CCF-A: ACL 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
 | 2026-02-02 | Long-Horizon Task Agents | [How Implicit Bias Accumulates and Propagates in LLM Long-term Memory](https://arxiv.org/abs/2602.01558v1) | — |
 | 2026-02-02 | Agent/LLM Self-Improvement, LLM Continual Training, Long-Horizon Task Agents | [S1-NexusAgent: a Self-Evolving Agent Framework for Multidisciplinary Scientific Research](https://arxiv.org/abs/2602.01550v2) | — |
-| 2026-02-01 | Long-Horizon Task Agents | [A-MapReduce: Executing Wide Search via Agentic MapReduce](https://arxiv.org/abs/2602.01331v1) | — |
+| 2026-02-01 | Long-Horizon Task Agents | [A-MapReduce: Executing Wide Search via Agentic MapReduce](https://arxiv.org/abs/2602.01331v2) | — |
 | 2026-02-01 | Long-Horizon Task Agents | [ASTER: Agentic Scaling with Tool-integrated Extended Reasoning](https://arxiv.org/abs/2602.01204v1) | — |
 | 2026-02-01 | Long-Horizon Task Agents | [Calibrating Behavioral Parameters with Large Language Models](https://arxiv.org/abs/2602.01022v3) | — |
 | 2026-02-01 | Long-Horizon Task Agents | [Symphony-Coord: Adaptive Routing for Multi-Agent LLM Systems](https://arxiv.org/abs/2602.00966v2) | — |
@@ -68,9 +68,11 @@
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions](https://arxiv.org/abs/2602.06008v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios](https://arxiv.org/abs/2602.03255v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: 50 pages. Accepted at NeurIPS 2026, Evaluations and Datasets Track. Revised benchmark description, skill-augmented evaluation, evaluator validation, and appendices |
 | [AgentRx: Diagnosing AI Agent Failures from Execution Trajectories](https://arxiv.org/abs/2602.02475v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Hunt Instead of Wait: Evaluating Deep Data Research on Large Language Models](https://arxiv.org/abs/2602.02039v2) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: 14 pages, 7 tables, 8 figures, accepted by ICML 2026 |
+| [FlowSteer: Towards Agents Designing Agentic Workflows via Reinforced Progressive Canvas Editing](https://arxiv.org/abs/2602.01664v4) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [FS-Researcher: Test-Time Scaling for Long-Horizon Research Tasks with File-System-Based Agents](https://arxiv.org/abs/2602.01566v2) | 🏆 CCF-A: ACL 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: 22 pages, 6 figures; Accepted to ACL 2026 |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
@@ -313,7 +315,7 @@ While Large Language Model (LLM)-based agents have shown remarkable potential fo
 
 - **Authors:** Xianyang Liu, Shangding Gu, Dawn Song
 - **Published:** 2026-02-05
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI, cs.LG
@@ -321,17 +323,17 @@ While Large Language Model (LLM)-based agents have shown remarkable potential fo
 
 Large language model (LLM)-based agents are increasingly expected to negotiate, coordinate, and transact autonomously, yet existing benchmarks lack principled settings for evaluating language-mediated economic interaction among multiple agents. We introduce AgenticPay, a benchmark and simulation framework for multi-agent buyer-seller negotiation driven by natural language. AgenticPay models markets in which buyers and sellers possess private constraints and product-dependent valuations, and must reach agreements through multi-round linguistic negotiation rather than numeric bidding alone. The framework supports a diverse suite of over 110 tasks ranging from bilateral bargaining to many-to-many markets, with structured action extraction and metrics for feasibility, efficiency, and welfare. Benchmarking state-of-the-art proprietary and open-weight LLMs reveals substantial gaps in negotiation performance and highlights challenges in long-horizon strategic reasoning, establishing AgenticPay as a foundation for studying agentic commerce and language-based market interaction. Code and dataset are available at the link: https://github.com/SafeRL-Lab/AgenticPay.
 
-### [OdysseyArena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions](https://arxiv.org/abs/2602.05843v2)
+### [OdysseyArena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions](https://arxiv.org/abs/2602.05843v4)
 
-- **Authors:** Hang Yan, Fangzhi Xu, Qiushi Sun, Jinyang Wu, Zixian Huang, Muye Huang, Jingyang Gong, Zichen Ding, Kanzhi Cheng, Yian Wang, Xinyu Che, Zeyi Sun, Jian Zhang, Zhangyue Yin, Haoran Luo, Ben Kao, Qika Lin
+- **Authors:** Fangzhi Xu, Hang Yan, Qiushi Sun, Jinyang Wu, Zixian Huang, Muye Huang, Jingyang Gong, Zichen Ding, Kanzhi Cheng, Yian Wang, Xinyu Che, Zeyi Sun, Jian Zhang, Zhangyue Yin, Haoran Luo, Ben Kao, Qika Lin
 - **Published:** 2026-02-05
 - **Priority:** —
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2602.05843v2) · [PDF](https://arxiv.org/pdf/2602.05843v2)
+- **Links:** [Paper](https://arxiv.org/abs/2602.05843v4) · [PDF](https://arxiv.org/pdf/2602.05843v4)
 
-The rapid advancement of Large Language Models (LLMs) has catalyzed the development of autonomous agents capable of navigating complex environments. However, existing evaluations primarily adopt a deductive paradigm, where agents execute tasks based on explicitly provided rules and static goals, often within limited planning horizons. Crucially, this neglects the inductive necessity for agents to discover latent transition laws from experience autonomously, which is the cornerstone for enabling agentic foresight and sustaining strategic coherence. To bridge this gap, we introduce OdysseyArena, which re-centers agent evaluation on long-horizon, active, and inductive interactions. We formalize and instantiate four primitives, translating abstract transition dynamics into concrete interactive environments. Building upon this, we establish OdysseyArena-Lite for standardized benchmarking, providing a set of 120 tasks to measure an agent's inductive efficiency and long-horizon discovery. Pushing further, we introduce OdysseyArena-Challenge to stress-test agent stability across extreme interaction horizons (e.g., > 200 steps). Extensive experiments on 15+ leading LLMs reveal that even frontier models exhibit a deficiency in inductive scenarios, identifying a critical bottleneck in the pursuit of autonomous discovery in complex environments. Our code and data are available at https://github.com/xufangzhi/Odyssey-Arena
+The advancement of Large Language Models (LLMs) has catalyzed the development of autonomous agents capable of navigating complex environments. However, existing evaluations primarily adopt a deductive paradigm, where agents execute tasks based on explicitly provided rules and static goals, often within limited planning horizons. Crucially, this neglects the inductive necessity for agents to discover latent transition laws from experience autonomously, which is the cornerstone for enabling agentic foresight and sustaining strategic coherence. To bridge this gap, we introduce OdysseyArena, which re-centers agent evaluation on long-horizon, active, and inductive interactions. We formalize and instantiate four primitives, translating abstract transition dynamics into concrete interactive environments. Building upon this, we establish OdysseyArena-Lite for standardized benchmarking, providing a set of 120 tasks to measure an agent's inductive efficiency and long-horizon discovery. Pushing further, we introduce OdysseyArena-Challenge to stress-test agent stability across extreme interaction horizons (e.g., > 200 steps). Extensive experiments on 15+ leading LLMs reveal that even frontier models exhibit a deficiency in inductive scenarios, identifying a critical bottleneck in the pursuit of autonomous discovery in complex environments. Project homepage: https://os-copilot.github.io/OdysseyArena-Home/
 
 ### [Sparse Video Generation Propels Real-World Beyond-the-View Vision-Language Navigation](https://arxiv.org/abs/2602.05827v1)
 
@@ -637,7 +639,7 @@ As LLM-based agents are deployed in increasingly complex real-world settings, ex
 
 - **Authors:** Mingda Zhang, Wenjin Liu, Tiesunlong Shen, Qika Lin, Rui Mao, Erik Cambria, Xiaoying Tang, Haoran Luo
 - **Published:** 2026-02-02
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI, cs.LG
@@ -705,15 +707,15 @@ Long-term memory mechanisms enable Large Language Models (LLMs) to maintain cont
 
 Modern scientific research relies on large-scale data, complex workflows, and specialized tools, which existing LLMs and tool-based agents struggle to handle due to limitations in long-horizon planning, robust goal maintenance, and continual learning from execution. To address these issues, in this work, we propose S1-NexusAgent, a self-evolving agent framework designed for multidisciplinary scientific research. S1-NexusAgent adopts a hierarchical Plan-and-CodeAct execution paradigm, decoupling global scientific planning from subtask-level tool execution through a dual-loop architecture, thereby enabling stable modeling of complex research workflows. The system natively supports the Model Context Protocol (MCP), integrates up to thousands of cross-disciplinary scientific tools, and achieves efficient orchestration of heterogeneous research tools via intention-aware dynamic tool retrieval and hot-plug mechanisms. To address long-context and large-scale data challenges in scientific settings, S1-NexusAgent introduces object-reference-based sparse context management, which enables sub-task context isolation and intermediate result compression. Building on this, a Critic Agent automatically evaluates complete execution trajectories and distills high-quality research paths into reusable Scientific Skills, forming a closed loop for continuous self-evolution, which is valuable for sustainable and long-horizon scientific research. Experiments on authoritative scientific benchmarks involving long-horizon planning and complex specialized tool orchestration, including biomini-eval (biology), ChemBench (chemistry), and MatSciBench (material science), demonstrate that S1-NexusAgent achieves state-of-the-art performance, validating its effectiveness and generalization capability in complex scientific tasks.
 
-### [A-MapReduce: Executing Wide Search via Agentic MapReduce](https://arxiv.org/abs/2602.01331v1)
+### [A-MapReduce: Executing Wide Search via Agentic MapReduce](https://arxiv.org/abs/2602.01331v2)
 
-- **Authors:** Mingju Chen, Guibin Zhang, Heng Chang, Yuchen Guo, Shiji Zhou
+- **Authors:** Mingju Chen, Guibin Zhang, Heng Chang, Xiao Wang, Shiji Zhou
 - **Published:** 2026-02-01
 - **Priority:** —
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.MA, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2602.01331v1) · [PDF](https://arxiv.org/pdf/2602.01331v1)
+- **Links:** [Paper](https://arxiv.org/abs/2602.01331v2) · [PDF](https://arxiv.org/pdf/2602.01331v2)
 
 Contemporary large language model (LLM)-based multi-agent systems exhibit systematic advantages in deep research tasks, which emphasize iterative, vertically structured information seeking. However, when confronted with wide search tasks characterized by large-scale, breadth-oriented retrieval, existing agentic frameworks, primarily designed around sequential, vertically structured reasoning, remain stuck in expansive search objectives and inefficient long-horizon execution. To bridge this gap, we propose A-MapReduce, a MapReduce paradigm-inspired multi-agent execution framework that recasts wide search as a horizontally structured retrieval problem. Concretely, A-MapReduce implements parallel processing of massive retrieval targets through task-adaptive decomposition and structured result aggregation. Meanwhile, it leverages experiential memory to drive the continual evolution of query-conditioned task allocation and recomposition, enabling progressive improvement in large-scale wide-search regimes. Extensive experiments on five agentic benchmarks demonstrate that A-MapReduce is (i) high-performing, achieving state-of-the-art performance on WideSearch and DeepWideSearch, and delivering 5.11% - 17.50% average Item F1 improvements compared with strong baselines with OpenAI o3 or Gemini 2.5 Pro backbones; (ii) cost-effective and efficient, delivering superior cost-performance trade-offs and reducing running time by 45.8\% compared to representative multi-agent baselines. The code is available at https://github.com/mingju-c/AMapReduce.
 

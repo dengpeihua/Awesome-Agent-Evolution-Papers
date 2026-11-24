@@ -28,7 +28,7 @@
 | 2026-07-13 | Long-Horizon Task Agents | [Compile, Then Page: Executable SOP Programs and a Capability-Gated Runtime for Procedural LLM Agents](https://arxiv.org/abs/2607.11346v3) | — |
 | 2026-07-13 | Long-Horizon Task Agents | [A Multi-Agent Framework for Zero-Dimensional Reduced-Order Model Planning](https://arxiv.org/abs/2607.10994v1) | — |
 | 2026-07-12 | Long-Horizon Task Agents | [Distributed Agent System: Fault-Tolerant Collaboration Among Embodied Agents](https://arxiv.org/abs/2607.10811v1) | — |
-| 2026-07-12 | Long-Horizon Task Agents | [World Model Science: Self-Organized Criticality, Weak Chaos, and Metastable Belief Dynamics in Long-Horizon LLM Agents](https://arxiv.org/abs/2609.17419v1) | — |
+| 2026-07-12 | Long-Horizon Task Agents | [World Model Science: Self-Organized Criticality, Weak Chaos, and Metastable Belief Dynamics in Long-Horizon LLM Agents](https://arxiv.org/abs/2609.17419v2) | — |
 | 2026-07-10 | Long-Horizon Task Agents | [Scoped Verification for Reliable Long-Horizon Agentic Context Evolution under Distribution Shift](https://arxiv.org/abs/2607.09175v2) | — |
 | 2026-07-09 | Long-Horizon Task Agents | [GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning](https://arxiv.org/abs/2607.08894v1) | — |
 | 2026-07-09 | Long-Horizon Task Agents | [TRACE: A Two-Channel Robust Attribution Watermark via Complementary Embeddings for LLM-Agent Trajectories](https://arxiv.org/abs/2607.08400v1) | — |
@@ -57,7 +57,7 @@
 | 2026-07-05 | Long-Horizon Task Agents | [Spinning Straw into Gold: Relabeling LLM Agent Trajectories in Hindsight for Successful Demonstrations](https://arxiv.org/abs/2607.04235v1) | 🏅 Selected top venue: ICLR 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
 | 2026-07-04 | Long-Horizon Task Agents | [Agent Reinforcement Learning via Pivotal-Aware Self-Feedback Retry](https://arxiv.org/abs/2607.03702v1) | — |
 | 2026-07-03 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [No Time Like the Present: Agentic Test-Time Training for LLM Agents](https://arxiv.org/abs/2607.03441v1) | — |
-| 2026-07-03 | Reinforcement Learning, Long-Horizon Task Agents | [From Trajectories to Prefixes: Reusing Teacher Trajectories via Replayed Prefixes and Online Continuation](https://arxiv.org/abs/2607.19395v1) | — |
+| 2026-07-03 | LLM Continual Training, Reinforcement Learning, Long-Horizon Task Agents | [From Trajectories to Prefixes: Reusing Teacher Trajectories via Replayed Prefixes and Online Continuation](https://arxiv.org/abs/2607.19395v2) | — |
 | 2026-07-02 | Long-Horizon Task Agents | [Atomic Task Graph: A Unified Framework for Agentic Planning and Execution](https://arxiv.org/abs/2607.01942v1) | — |
 | 2026-07-02 | Long-Horizon Task Agents | [Repair the Amplifier, Not the Symptom: Stable World-Model Correction for Agent Rollouts](https://arxiv.org/abs/2607.01767v2) | — |
 | 2026-07-01 | Long-Horizon Task Agents | [AutoMem: Automated Learning of Memory as a Cognitive Skill](https://arxiv.org/abs/2607.01224v1) | — |
@@ -160,6 +160,18 @@ Reinforcement learning (RL) is becoming increasingly important for post-training
 
 Survival analysis on Whole Slide Images (WSIs) is important in computational pathology for prognosis estimation and treatment planning. However, existing survival models are typically trained independently for each cancer cohort, making continual adaptation computationally expensive for gigapixel-scale WSIs. In this study, we propose MergeSurv, a merging-based continual learning framework for WSI survival analysis. A pathology vision-language foundation model is independently fine-tuned on each task, and the learned parameters are sequentially merged into a unified model without storing previous training data. We further investigate two inference strategies: One-for-All (OFA) and Voting-Expert Aggregation (VEA). Experiments on four TCGA cohorts demonstrate that MergeSurv outperforms naive fine-tuning as well as representative regularization-based and rehearsal-based continual learning methods, while effectively reducing catastrophic forgetting. The results suggest that model merging is a promising direction for scalable and privacy-preserving continual learning in computational pathology.
 
+### [From Trajectories to Prefixes: Reusing Teacher Trajectories via Replayed Prefixes and Online Continuation](https://arxiv.org/abs/2607.19395v2)
+
+- **Authors:** Yihan Wang, Zhong Guan, Haoran Sun, Jiale Huang, Likang Wu, Hongke Zhao
+- **Published:** 2026-07-03
+- **Priority:** —
+- **Venue:** arXiv
+- **Affiliations:** n/a
+- **Categories:** cs.LG, cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.19395v2) · [PDF](https://arxiv.org/pdf/2607.19395v2)
+
+Small language models are attractive backbones for interactive agents, but direct distillation from strong teacher trajectories often turns rich multi-turn behavior into one-shot imitation targets. This is inefficient in long-horizon environments, where early decisions shape later states and rewards. We propose Prefix-GRPO, a reinforcement learning framework that decomposes teacher trajectories into replay-aligned prefix queries and online continuations. Each prefix is replayed in the environment to recover a valid intermediate state, after which the student continues online interaction and receives task reward. Unlike response-only GRPO, Prefix-GRPO also applies clipped policy updates to historical assistant tokens inside the replayed prefix, using a policy-distilled SFT checkpoint to estimate their old log-probabilities. This unifies prefix learning and continuation learning within the same policy-optimization form. Experiments on TextCraft, BabyAI, and ALFWorld show that Prefix-GRPO improves small-model agents over distillation and standard RL baselines, while ablations show that replay alone is insufficient without explicit prefix-token optimization. The implementation and reproduction scripts are available at https://github.com/HappynessI/Prefix_GRPO.
+
 ## Reinforcement Learning
 
 ### [Process Reward Informed Tree Rollout for Effective Multi-Turn RL](https://arxiv.org/abs/2607.15610v1)
@@ -234,7 +246,7 @@ Reinforcement learning holds significant potential for training large language m
 
 The execution harness is a critical component of LLM agents, shaping how the agent interacts with its environment and organizes multi-step execution. Prior work has shown that improving tools, workflows, and other harness components can substantially improve agent performance. This suggests that the harness can be treated as a learnable control layer that adapts execution decisions from experience, rather than as a predetermined execution configuration. In this work, we introduce HarnessMDP, a learning-based framework that makes harness control itself learnable. HarnessMDP formulates agent execution as a finite-horizon Markov decision process, where the harness learns to select structural execution actions from the evolving agent state. The harness policy is learned offline from collected trajectories using task performance and deployed online to adaptively control new executions. Extensive experiments on coding tasks, $τ$-bench, AgentBench, and other agent evaluation settings show that HarnessMDP consistently improves execution behavior and final task performance over baseline harnesses. These results demonstrate the effectiveness of HarnessMDP and establish learnable harness control as a practical mechanism for improving LLM agents through better execution. Our code is available at https://github.com/Hik289/Agentic-RL-harness.git.
 
-### [From Trajectories to Prefixes: Reusing Teacher Trajectories via Replayed Prefixes and Online Continuation](https://arxiv.org/abs/2607.19395v1)
+### [From Trajectories to Prefixes: Reusing Teacher Trajectories via Replayed Prefixes and Online Continuation](https://arxiv.org/abs/2607.19395v2)
 
 - **Authors:** Yihan Wang, Zhong Guan, Haoran Sun, Jiale Huang, Likang Wu, Hongke Zhao
 - **Published:** 2026-07-03
@@ -242,7 +254,7 @@ The execution harness is a critical component of LLM agents, shaping how the age
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.19395v1) · [PDF](https://arxiv.org/pdf/2607.19395v1)
+- **Links:** [Paper](https://arxiv.org/abs/2607.19395v2) · [PDF](https://arxiv.org/pdf/2607.19395v2)
 
 Small language models are attractive backbones for interactive agents, but direct distillation from strong teacher trajectories often turns rich multi-turn behavior into one-shot imitation targets. This is inefficient in long-horizon environments, where early decisions shape later states and rewards. We propose Prefix-GRPO, a reinforcement learning framework that decomposes teacher trajectories into replay-aligned prefix queries and online continuations. Each prefix is replayed in the environment to recover a valid intermediate state, after which the student continues online interaction and receives task reward. Unlike response-only GRPO, Prefix-GRPO also applies clipped policy updates to historical assistant tokens inside the replayed prefix, using a policy-distilled SFT checkpoint to estimate their old log-probabilities. This unifies prefix learning and continuation learning within the same policy-optimization form. Experiments on TextCraft, BabyAI, and ALFWorld show that Prefix-GRPO improves small-model agents over distillation and standard RL baselines, while ablations show that replay alone is insufficient without explicit prefix-token optimization. The implementation and reproduction scripts are available at https://github.com/HappynessI/Prefix_GRPO.
 
@@ -440,7 +452,7 @@ Zero-dimensional reduced-order models (0D ROMs) are central to multi-dimensional
 
 AI engineering is shifting from passive text generation by large language models (LLMs) to agent-driven task execution, creating new reliability challenges for long-horizon tasks under resource constraints and environmental uncertainty. Conventional error-elimination optimization strategies fail to address cumulative error propagation. This paper proposes Distributed Agent System (DAS), a device-edge-cloud framework for fault-tolerant collaboration among heterogeneous agents. We redefine agent reliability as system-level fault tolerance rather than single-turn zero-error accuracy, and present a two-layer fault-tolerance architecture: single-agent execution reliability via fault-tolerant alignment, and cross-agent communication reliability via semi-formal language protocols. This framework provides a practical engineering pathway for reliable heterogeneous embodied agents collaboration in industrial scenarios.
 
-### [World Model Science: Self-Organized Criticality, Weak Chaos, and Metastable Belief Dynamics in Long-Horizon LLM Agents](https://arxiv.org/abs/2609.17419v1)
+### [World Model Science: Self-Organized Criticality, Weak Chaos, and Metastable Belief Dynamics in Long-Horizon LLM Agents](https://arxiv.org/abs/2609.17419v2)
 
 - **Authors:** Xinyuan Song, Zekun Cai
 - **Published:** 2026-07-12
@@ -448,9 +460,9 @@ AI engineering is shifting from passive text generation by large language models
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.17419v1) · [PDF](https://arxiv.org/pdf/2609.17419v1)
+- **Links:** [Paper](https://arxiv.org/abs/2609.17419v2) · [PDF](https://arxiv.org/pdf/2609.17419v2)
 
-Long-horizon LLM agents must maintain task state across extended sequences of observations, actions, tool calls, and intermediate beliefs. We study these trajectories through three dynamical views: self-organized criticality, weak chaos, and metastable belief dynamics. Our framework aligns agent-implied states with benchmark-grounded states and measures stress accumulation, error avalanches, temporal dependence, local--global mismatch, bounded divergence, belief-basin transitions, and finite-size scaling under explicit null models. Across 22 experiments spanning controlled puzzles, tool use, embodied tasks, multi-hop retrieval, general-assistant reasoning, and Game of Life, we find that locally valid actions can persist after global state fidelity fails, stress can trigger abrupt collapse, error sequences exhibit long memory, dependency depth changes the propagation regime, and larger horizons support larger avalanches. At the same time, divergence remains bounded, belief states show metastable rather than fully chaotic behavior, and stronger claims of universal power laws, critical points, or shared intervention optima are not supported. These results suggest a science of agent world models based on trajectory-level dynamical diagnostics rather than terminal reward alone.
+Long-horizon LLM agents must maintain and update a world model over extended sequences of observations, actions, decisions and tool calls. We study the dynamics of long horizon agents from three perspectives: self-organized criticality, weak chaos, and metastable belief dynamics. Through extensive experiments on controlled puzzles, tool-use tasks, embodied environments, multi-hop retrieval, general-assistant reasoning, and Game of Life, we study how world-model errors develop over long interactions. We find that externally increased task pressure can sharply raise the probability of collapse, while naturally occurring pressure is only a modest predictor of later failure. Errors are temporally correlated rather than independent, and their propagation changes with dependency depth while remaining bounded in finite tasks. We also find that locally valid actions can continue after the agent's overall task state has become incorrect, that error structure depends on task topology and horizon, and that belief states in embodied tasks are shallow rather than strongly trapped in incorrect states. Larger horizons allow larger error cascades, but their scale remains constrained by the task and the model's capability. Overall, we observe power-law behavior, bounded divergence consistent with weak chaos, and metastable belief dynamics across long-horizon agent interactions. We call this perspective world model science: the empirical study of self organized criticality in long-horizon agent world models.
 
 ### [Scoped Verification for Reliable Long-Horizon Agentic Context Evolution under Distribution Shift](https://arxiv.org/abs/2607.09175v2)
 
@@ -752,7 +764,7 @@ Large language model (LLM) agents have shown strong decision-making capabilities
 
 LLM agents often degrade over long episodes: as trajectories grow, they revisit explored states, repeat failed actions, and lose strategies that previously worked. Test-time training (TTT) offers a way to adapt model weights to the evolving task state, but existing LLM TTT methods largely adapt once to a fixed input. We study continuous TTT in multi-turn agent episodes, where each update changes the policy that generates later training text. This creates a self-training loop that helps when new trajectory information appears, but can amplify drift when the agent gets stuck and repeatedly trains on similar text. We find that update-text repetition distinguishes these regimes and introduce Agentic Test-Time Training (aTTT), a token-level reweighting method that downweights the loss on tokens appearing in repeated $n$-grams from prior updates while leaving novel tokens fully weighted. To run such updates inside live episodes, we build a concurrent serving system using vLLM's runtime LoRA API, limiting overhead to 1.9$\times$ the no-TTT cost. aTTT improves success by up to 5.0 points on ALFWorld and 4.9 points on SWE-bench Lite. The gains concentrate where models already have task competence but drift over long trajectories, suggesting that aTTT mainly preserves existing competence rather than teaching new abilities.
 
-### [From Trajectories to Prefixes: Reusing Teacher Trajectories via Replayed Prefixes and Online Continuation](https://arxiv.org/abs/2607.19395v1)
+### [From Trajectories to Prefixes: Reusing Teacher Trajectories via Replayed Prefixes and Online Continuation](https://arxiv.org/abs/2607.19395v2)
 
 - **Authors:** Yihan Wang, Zhong Guan, Haoran Sun, Jiale Huang, Likang Wu, Hongke Zhao
 - **Published:** 2026-07-03
@@ -760,7 +772,7 @@ LLM agents often degrade over long episodes: as trajectories grow, they revisit 
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.19395v1) · [PDF](https://arxiv.org/pdf/2607.19395v1)
+- **Links:** [Paper](https://arxiv.org/abs/2607.19395v2) · [PDF](https://arxiv.org/pdf/2607.19395v2)
 
 Small language models are attractive backbones for interactive agents, but direct distillation from strong teacher trajectories often turns rich multi-turn behavior into one-shot imitation targets. This is inefficient in long-horizon environments, where early decisions shape later states and rewards. We propose Prefix-GRPO, a reinforcement learning framework that decomposes teacher trajectories into replay-aligned prefix queries and online continuations. Each prefix is replayed in the environment to recover a valid intermediate state, after which the student continues online interaction and receives task reward. Unlike response-only GRPO, Prefix-GRPO also applies clipped policy updates to historical assistant tokens inside the replayed prefix, using a policy-distilled SFT checkpoint to estimate their old log-probabilities. This unifies prefix learning and continuation learning within the same policy-optimization form. Experiments on TextCraft, BabyAI, and ALFWorld show that Prefix-GRPO improves small-model agents over distillation and standard RL baselines, while ablations show that replay alone is insufficient without explicit prefix-token optimization. The implementation and reproduction scripts are available at https://github.com/HappynessI/Prefix_GRPO.
 

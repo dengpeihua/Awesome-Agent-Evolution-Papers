@@ -43,7 +43,7 @@
 | 2026-09-24 | Long-Horizon Task Agents | [The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge](https://arxiv.org/abs/2609.30604v1) | — |
 | 2026-09-24 | Long-Horizon Task Agents | [When Can Agents Forget Their Reasoning? ICLR for Long-Horizon Agent Context Compression](https://arxiv.org/abs/2609.29875v1) | — |
 | 2026-09-24 | Long-Horizon Task Agents | [IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis](https://arxiv.org/abs/2609.29444v1) | — |
-| 2026-09-24 | Long-Horizon Task Agents | [HarnessPAI: An Evolving Harness for Physical AI](https://arxiv.org/abs/2609.29166v1) | — |
+| 2026-09-24 | Long-Horizon Task Agents | [HarnessPAI: An Evolving Harness for Physical AI](https://arxiv.org/abs/2609.29166v1) | 📈 Highly cited |
 | 2026-09-23 | Long-Horizon Task Agents | [Agent-Editing World Model: Rethinking World Modeling for LLM Agents](https://arxiv.org/abs/2609.28416v1) | — |
 | 2026-09-23 | Long-Horizon Task Agents | [Learning from Failures: Heterogeneous Graph Memory for Small Language Model Tool-Using Agents](https://arxiv.org/abs/2609.28003v1) | — |
 | 2026-09-23 | Long-Horizon Task Agents | [Pistis Technical Report](https://arxiv.org/abs/2609.28554v1) | — |
@@ -56,7 +56,7 @@
 | 2026-09-21 | Agent/LLM Self-Improvement | [RRSI: Regularized Recursive Self-Improvement of Agent Harnesses](https://arxiv.org/abs/2609.24972v2) | 📈 Highly cited |
 | 2026-09-21 | Long-Horizon Task Agents | [Emergent Collusion in Long-Horizon LLM Agent Interaction](https://arxiv.org/abs/2609.24967v2) | — |
 | 2026-09-21 | Long-Horizon Task Agents | [ActGov: Governing LLM Agent Actions via Policy-Constrained Validation](https://arxiv.org/abs/2609.24446v2) | — |
-| 2026-09-21 | Reinforcement Learning | [Taming CoT Obfuscation in VLMs: From Mechanistic Evidence to Activation-Level Enforcement](https://arxiv.org/abs/2609.24243v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
+| 2026-09-21 | Reinforcement Learning | [Taming CoT Obfuscation in VLMs: From Mechanistic Evidence to Activation-Level Enforcement](https://arxiv.org/abs/2609.24243v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
 | 2026-09-21 | Long-Horizon Task Agents | [CREDO: Variance-Guided Rubric Evolution for Replay-Corrected Credit Assignment](https://arxiv.org/abs/2609.24174v1) | — |
 | 2026-09-20 | Long-Horizon Task Agents | [Connecting the Dots in Agentic AI Security: A Cross-Dimensional Threat Taxonomy, Evaluation Maturity, and Open Challenges](https://arxiv.org/abs/2609.23894v1) | — |
 | 2026-09-20 | Long-Horizon Task Agents | [FLARE: A Full-Lifecycle Dense Supervision Paradigm for Long-Horizon Coding Agents via Generative Reward Model](https://arxiv.org/abs/2609.23808v1) | — |
@@ -71,8 +71,9 @@
 | [Agentic Multi-Turn Reasoning: A Fairness Approach](https://arxiv.org/abs/2609.33323v1) | 🏆 CCF-A: NeurIPS<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS'26 |
 | [SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery](https://arxiv.org/abs/2609.31507v1) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted at NeurIPS 2026, Track on Evaluations and Datasets. 32 pages, 16 figures. Project page: https://eku127.github.io/SatNav/ |
 | [MOPD-Router: Rethinking Teacher Routing in Multi-Teacher On-Policy Distillation](https://arxiv.org/abs/2609.30837v2) | 🏢 Industry: Alibaba | First author: Shanghai Jiao Tong University, GAIR (Official paper: https://arxiv.org/html/2609.30837) |
+| [HarnessPAI: An Evolving Harness for Physical AI](https://arxiv.org/abs/2609.29166v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [RRSI: Regularized Recursive Self-Improvement of Agent Harnesses](https://arxiv.org/abs/2609.24972v2) | 📈 Highly cited | First author: UNC-Chapel Hill (Semantic Scholar author profiles) |
-| [Taming CoT Obfuscation in VLMs: From Mechanistic Evidence to Activation-Level Enforcement](https://arxiv.org/abs/2609.24243v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026. Camera-ready version; the behavioral loss is now written out term by term |
+| [Taming CoT Obfuscation in VLMs: From Mechanistic Evidence to Activation-Level Enforcement](https://arxiv.org/abs/2609.24243v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026. Camera-ready version with layout cleanup; the behavioral loss is now written out term by term |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -102,7 +103,7 @@ An LLM agent's capability is largely magnified by its harness, namely the prompt
 
 ## Reinforcement Learning
 
-### [Taming CoT Obfuscation in VLMs: From Mechanistic Evidence to Activation-Level Enforcement](https://arxiv.org/abs/2609.24243v2)
+### [Taming CoT Obfuscation in VLMs: From Mechanistic Evidence to Activation-Level Enforcement](https://arxiv.org/abs/2609.24243v3)
 
 - **Authors:** Xutao Mao, Jianing Zhu, Jinman Zhao, Tongliang Liu, Xiaowen Chu, Cong Wang, Bo Han
 - **Published:** 2026-09-21
@@ -110,7 +111,7 @@ An LLM agent's capability is largely magnified by its harness, namely the prompt
 - **Venue:** NeurIPS 2026
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2609.24243v2) · [PDF](https://arxiv.org/pdf/2609.24243v2)
+- **Links:** [Paper](https://arxiv.org/abs/2609.24243v3) · [PDF](https://arxiv.org/pdf/2609.24243v3)
 
 Reinforcement learning (RL) has substantially improved the reasoning capabilities of vision-language models (VLMs), yet it can induce chain-of-thought (CoT) obfuscation, an operational, non-intentional regime where models achieve high accuracy while producing reasoning traces that are less grounded and harder to monitor. While prior work documents this decay at the behavioral level, the underlying representational correlates of such drift remain poorly understood. In this work, we find that obfuscation is accompanied by a representational shift, where RL-induced optimization makes task-agnostic template features less separable from visually grounded content in the model's activation space. Based on this insight, we propose TAME, an activation-level intervention framework that leverages Sparse Autoencoders (SAEs) to regularize VLM internal features during RL training. Specifically, TAME utilizes an anti-obfuscation feedback loop to reduce behavioral obfuscation and applies an asymmetric SAE constraint to specific internal directions, penalizing template activations while preserving visual evidence. By directly intervening on the features associated with obfuscation, our method improves the transparency and visual grounding of reasoning traces. Experiments on the VIRL-39k and SPA-VL benchmarks across two model families show that TAME improves CoT monitorability (by up to +30.9 points on VIRL and +16.7 points on SPA-VL over GRPO), while largely preserving task accuracy and general-capability performance across four standard VLM benchmarks, with task-specific trade-offs. Our code is available at https://github.com/henrymao2004/TAME.
 
@@ -456,7 +457,7 @@ Deep search requires LLM agents to decompose complex queries, search for evidenc
 
 - **Authors:** Xin Wang, Wenhao Wu, Menghao Zhang, Zhi Wang, Kun Shao, Jian Luan, Yang Li, Qing Li, Shangding Gu, Huichi Zhou, Shuqing Shi, Fei Ni, Shuo Lu, Weicheng Meng, Kang Li, Jin Wu, Kang Zhao, Shangmin Guo, Gen Li, Yongqiang Tang, Zhizhong Zhang, Yuan Xie, Heng Qu
 - **Published:** 2026-09-24
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.RO, cs.AI

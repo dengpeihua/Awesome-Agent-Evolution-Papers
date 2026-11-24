@@ -20,7 +20,7 @@
 | 2026-05-07 | Long-Horizon Task Agents | [MANTRA: Synthesizing SMT-Validated Compliance Benchmarks for Tool-Using LLM Agents](https://arxiv.org/abs/2605.06334v1) | — |
 | 2026-05-07 | Long-Horizon Task Agents | [When Routine Chats Turn Toxic: Unintended Long-Term State Poisoning in Personalized Agents](https://arxiv.org/abs/2605.06731v1) | — |
 | 2026-05-07 | Reinforcement Learning, Long-Horizon Task Agents | [Milestone-Guided Policy Learning for Long-Horizon Language Agents](https://arxiv.org/abs/2605.06078v1) | — |
-| 2026-05-07 | Long-Horizon Task Agents | [TACT: Mitigating Overthinking and Overacting in Coding Agents via Activation Steering](https://arxiv.org/abs/2605.05980v1) | — |
+| 2026-05-07 | Long-Horizon Task Agents | [TACT: Mitigating Overthinking and Overacting in Coding Agents via Activation Steering](https://arxiv.org/abs/2605.05980v3) | — |
 | 2026-05-06 | Long-Horizon Task Agents | [SODE: Analyzing Social Dynamics in LLM Agents](https://arxiv.org/abs/2605.23949v1) | — |
 | 2026-05-06 | Long-Horizon Task Agents | [Self-Induced Outcome Potential: Turn-Level Credit Assignment for Agents without Verifiers](https://arxiv.org/abs/2605.04984v1) | — |
 | 2026-05-06 | Agent/LLM Self-Improvement, Reinforcement Learning | [Power Distribution Bridges Sampling, Self-Reward RL, and Self-Distillation](https://arxiv.org/abs/2605.04542v2) | — |
@@ -48,7 +48,7 @@
 | 2026-04-27 | Long-Horizon Task Agents | [Agentic AI for Remote Sensing: Technical Challenges and Research Directions](https://arxiv.org/abs/2604.24919v3) | — |
 | 2026-04-26 | Long-Horizon Task Agents | [KISS Sorcar: A Stupidly-Simple General-Purpose and Software Engineering AI Assistant](https://arxiv.org/abs/2604.23822v2) | — |
 | 2026-04-26 | Long-Horizon Task Agents | [DRACULA: Hunting for the Actions Users Want Deep Research Agents to Execute](https://arxiv.org/abs/2604.23815v1) | — |
-| 2026-04-25 | Long-Horizon Task Agents | [A Systematic Survey of Security Threats and Defenses in LLM-Based AI Agents: A Layered Attack Surface Framework](https://arxiv.org/abs/2604.23338v2) | — |
+| 2026-04-25 | Long-Horizon Task Agents | [A Systematic Survey of Security Threats and Defenses in LLM-Based AI Agents: A Layered Attack Surface Framework](https://arxiv.org/abs/2604.23338v2) | 📈 Highly cited |
 | 2026-04-25 | Long-Horizon Task Agents | [From Coarse to Fine: Self-Adaptive Hierarchical Planning for LLM Agents](https://arxiv.org/abs/2604.23194v1) | — |
 | 2026-04-24 | Long-Horizon Task Agents | [SOLAR-RL: Semi-Online Long-horizon Assignment Reinforcement Learning](https://arxiv.org/abs/2604.22558v1) | — |
 | 2026-04-23 | Long-Horizon Task Agents | [StructMem: Structured Memory for Long-Horizon Behavior in LLMs](https://arxiv.org/abs/2604.21748v1) | 🏆 CCF-A: ACL 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
@@ -59,7 +59,7 @@
 | 2026-04-21 | Long-Horizon Task Agents | [DR-Venus: Towards Frontier Edge-Scale Deep Research Agents with Only 10K Open Data](https://arxiv.org/abs/2604.19859v1) | — |
 | 2026-04-21 | Long-Horizon Task Agents | [Explore Like Humans: Autonomous Exploration with Online SG-Memo Construction for Embodied Agents](https://arxiv.org/abs/2604.19034v1) | — |
 | 2026-04-20 | LLM Continual Training | [Train Separately, Merge Together: Modular Post-Training with Mixture-of-Experts](https://arxiv.org/abs/2604.18473v2) | — |
-| 2026-04-20 | Reinforcement Learning, Long-Horizon Task Agents | [CAPO: Critic-Guided Action-Aligned Policy Optimization for Advancing LLM Agent Capabilities](https://arxiv.org/abs/2604.18401v5) | — |
+| 2026-04-20 | Reinforcement Learning, Long-Horizon Task Agents | [CAPO: Critic-Guided Action-Aligned Policy Optimization for Advancing LLM Agent Capabilities](https://arxiv.org/abs/2604.18401v5) | 📈 Highly cited |
 | 2026-04-20 | Long-Horizon Task Agents | [WebUncertainty: Dual-Level Uncertainty Driven Planning and Reasoning For Autonomous Web Agent](https://arxiv.org/abs/2604.17821v2) | — |
 | 2026-04-19 | Long-Horizon Task Agents | [Dual-Anchoring: Addressing State Drift in Vision-Language Navigation](https://arxiv.org/abs/2604.17473v4) | — |
 | 2026-04-19 | Long-Horizon Task Agents | [TrafficClaw: A Generalizable LLM Agent in the Unified Physical Environment for Urban Traffic Control](https://arxiv.org/abs/2604.17456v2) | — |
@@ -70,7 +70,9 @@
 | --- | --- | --- |
 | [On Training Large Language Models for Long-Horizon Tasks: An Empirical Study of Horizon Length](https://arxiv.org/abs/2605.02572v1) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted to ICML 2026 |
 | [Reward Hacking Benchmark: Measuring Exploits in LLM Agents with Tool Use](https://arxiv.org/abs/2605.02964v1) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: 16 pages, 2 figures. Accepted to ICML 2026 |
+| [A Systematic Survey of Security Threats and Defenses in LLM-Based AI Agents: A Layered Attack Surface Framework](https://arxiv.org/abs/2604.23338v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [StructMem: Structured Memory for Long-Horizon Behavior in LLMs](https://arxiv.org/abs/2604.21748v1) | 🏆 CCF-A: ACL 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted by ACL 2026 main conference |
+| [CAPO: Critic-Guided Action-Aligned Policy Optimization for Advancing LLM Agent Capabilities](https://arxiv.org/abs/2604.18401v5) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -202,7 +204,7 @@ Given the rapidly growing capabilities of vision-language models (VLMs), extendi
 
 - **Authors:** Daoyu Wang, Qingchuan Li, Mingyue Cheng, Jie Ouyang, Shuo Yu, Chunli Liu, Shijin Wang, Qi Liu, Enhong Chen
 - **Published:** 2026-04-20
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.CL
@@ -296,7 +298,7 @@ Personalized LLM agents maintain persistent cross-session state to support long-
 
 While long-horizon agentic tasks require language agents to perform dozens of sequential decisions, training such agents with reinforcement learning remains challenging. We identify two root causes: credit misattribution, where correct early actions are penalized due to terminal failures, and sample inefficiency, where scarce successful trajectories result in near-total loss of learning signal. We introduce a milestone-guided policy learning framework, BEACON, that leverages the compositional structure of long-horizon tasks to ensure precise credit assignment. BEACON partitions trajectories at milestone boundaries, applies temporal reward shaping within segments to credit partial progress, and estimates advantages at dual scales to prevent distant failures from corrupting the evaluation of local actions. On ALFWorld, WebShop, and ScienceWorld, BEACON consistently outperforms GRPO and GiGPO. Notably, on long-horizon ALFWorld tasks, BEACON achieves 92.9% success rate, nearly doubling GRPO's 53.5%, while improving effective sample utilization from 23.7% to 82.0%. These results establish milestone-anchored credit assignment as an effective paradigm for training long-horizon language agents. Code is available at https://github.com/ZJU-REAL/BEACON.
 
-### [TACT: Mitigating Overthinking and Overacting in Coding Agents via Activation Steering](https://arxiv.org/abs/2605.05980v1)
+### [TACT: Mitigating Overthinking and Overacting in Coding Agents via Activation Steering](https://arxiv.org/abs/2605.05980v3)
 
 - **Authors:** Yuan Sui, Yulin Chen, Yibo Li, Xue Jiang, Yufei He, Yihong Dong, Xiaoxin He, Tianyu Gao, Bryan Hooi
 - **Published:** 2026-05-07
@@ -304,7 +306,7 @@ While long-horizon agentic tasks require language agents to perform dozens of se
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2605.05980v1) · [PDF](https://arxiv.org/pdf/2605.05980v1)
+- **Links:** [Paper](https://arxiv.org/abs/2605.05980v3) · [PDF](https://arxiv.org/pdf/2605.05980v3)
 
 When language model agents tackle complex software engineering tasks, they often degrade over long trajectories, which we define as *agent drift*. We focus on two recurring failure modes *overthinking* and *overacting*, i.e., where the agent repeatedly reasons over information it already has, and where it issues tool calls without integrating recent observations or acquiring new evidence. In this paper, we introduce TACT (Think-Act Calibration via activation Steering), to detect and mitigate agent drift in the residual stream before it surfaces as a behavioral failure. In specific, we label trajectory steps as overthinking, overacting, or calibrated, and find that their hidden states can separate linearly along two *drift axes*, pointing from calibrated behavior toward each failure mode (AUC $\approx$ 0.9). To mitigate agent drift, we project each step's activation onto these axes at test time and pull drifted ones back toward the calibrated region. Experiments show that TACT outperforms unsteered baselines across SWE-bench Verified, Terminal-Bench 2.0, and CLAW-Eval, lifting average resolve rate by $+5.8$ pp on Qwen3.5-27B and $+4.8$ pp on Gemma-4-26B-A4B-it while cutting steps-to-resolve by up to $26\%$. These gains frame agent drift as a steerable direction in the residual stream, and position TACT as a viable handle for reliable long-horizon agents.
 
@@ -624,7 +626,7 @@ Scientific Deep Research (DR) agents answer user queries by synthesizing researc
 
 - **Authors:** Kexin Chu
 - **Published:** 2026-04-25
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.CR, cs.LG
@@ -744,7 +746,7 @@ Constructing structured spatial memory is essential for enabling long-horizon re
 
 - **Authors:** Daoyu Wang, Qingchuan Li, Mingyue Cheng, Jie Ouyang, Shuo Yu, Chunli Liu, Shijin Wang, Qi Liu, Enhong Chen
 - **Published:** 2026-04-20
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.CL
@@ -782,7 +784,7 @@ Vision-Language Navigation(VLN) requires an agent to navigate through 3D environ
 - **Published:** 2026-04-19
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** The Hong Kong University of Science and Technology (Guangzhou)
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2604.17456v2) · [PDF](https://arxiv.org/pdf/2604.17456v2)
 

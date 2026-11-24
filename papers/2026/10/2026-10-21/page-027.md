@@ -41,7 +41,7 @@
 | 2025-10-08 | Long-Horizon Task Agents | [A Multi-Agent Framework for Stateful Inference-Time Search](https://arxiv.org/abs/2510.07147v1) | — |
 | 2025-10-08 | Long-Horizon Task Agents | [The Cognitive Bandwidth Bottleneck: Shifting Long-Horizon Agent from Planning with Actions to Planning with Schemas](https://arxiv.org/abs/2510.07091v1) | — |
 | 2025-10-08 | Reinforcement Learning, Long-Horizon Task Agents | [Scaling LLM Multi-turn RL with End-to-end Summarization-based Context Management](https://arxiv.org/abs/2510.06727v1) | 📈 Highly cited |
-| 2025-10-08 | Long-Horizon Task Agents | [Your Harness is Not Secure: Benchmarking Real-world Threat of Command Line Interface Agent](https://arxiv.org/abs/2510.06607v3) | — |
+| 2025-10-08 | Long-Horizon Task Agents | [Your Harness is Not Secure: Benchmarking Real-world Threat of Command Line Interface Agent](https://arxiv.org/abs/2510.06607v3) | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) |
 | 2025-10-08 | Long-Horizon Task Agents | [WebDART: Dynamic Decomposition and Re-planning for Complex Web Tasks](https://arxiv.org/abs/2510.06587v1) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
 | 2025-10-07 | Long-Horizon Task Agents | [Agent+P: Guiding UI Agents via Symbolic Planning](https://arxiv.org/abs/2510.06042v3) | — |
 | 2025-10-07 | Long-Horizon Task Agents | [A Goal Without a Plan Is Just a Wish: Efficient and Effective Global Planner Training for Long-Horizon Agent Tasks](https://arxiv.org/abs/2510.05608v3) | — |
@@ -76,6 +76,7 @@
 | [Learning on the Job: An Experience-Driven Self-Evolving Agent for Long-Horizon Tasks](https://arxiv.org/abs/2510.08002v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Drift No More? Context Equilibria in Multi-Turn LLM Interactions](https://arxiv.org/abs/2510.07777v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Scaling LLM Multi-turn RL with End-to-end Summarization-based Context Management](https://arxiv.org/abs/2510.06727v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Your Harness is Not Secure: Benchmarking Real-world Threat of Command Line Interface Agent](https://arxiv.org/abs/2510.06607v3) | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | Semantic Scholar publication metadata: Conference on Empirical Methods in Natural Language Processing<br>First author: The Ohio State University (Semantic Scholar author profiles) |
 | [WebDART: Dynamic Decomposition and Re-planning for Complex Web Tasks](https://arxiv.org/abs/2510.06587v1) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [In-the-Flow Agentic System Optimization for Effective Planning and Tool Use](https://arxiv.org/abs/2510.05592v2) | 🏅 Selected top venue: ICLR 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: 47 pages, 12 figures. ICLR 2026 Oral. Project website: https://agentflow.stanford.edu/ |
 | [Small Language Models for Agentic Systems: A Survey of Architectures, Capabilities, and Deployment Trade offs](https://arxiv.org/abs/2510.03847v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
@@ -129,7 +130,7 @@ Large Language Models have demonstrated remarkable capabilities across diverse d
 - **Published:** 2025-10-05
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** ServiceNow
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2510.04373v2) · [PDF](https://arxiv.org/pdf/2510.04373v2)
 
@@ -527,9 +528,9 @@ We study reinforcement learning (RL) fine-tuning of large language model (LLM) a
 
 - **Authors:** Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, Bin Hu, Hung-Chun Chiu, Siyuan Ma, Yizhe Zhang, Xusheng Xiao, Yinzhi Cao, Zhen Xiang, Chaowei Xiao
 - **Published:** 2025-10-08
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified)
+- **Venue:** Conference on Empirical Methods in Natural Language Processing
+- **Affiliations:** Johns Hopkins University, The Ohio State University, University of Maryland, College Park, University of Wisconsin-Madison
 - **Categories:** cs.CR
 - **Links:** [Paper](https://arxiv.org/abs/2510.06607v3) · [PDF](https://arxiv.org/pdf/2510.06607v3)
 
@@ -601,7 +602,7 @@ Today's AI models learn primarily through mimicry and refining, so it is not sur
 - **Published:** 2025-10-05
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** ServiceNow
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2510.04373v2) · [PDF](https://arxiv.org/pdf/2510.04373v2)
 

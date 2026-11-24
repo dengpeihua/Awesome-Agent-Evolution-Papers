@@ -19,8 +19,8 @@
 | 2026-10-13 | Long-Horizon Task Agents | [Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution](https://arxiv.org/abs/2610.17816v2) | — |
 | 2026-10-13 | Long-Horizon Task Agents | [Can Agents Truly Forget? Explore Machine Unlearning for LLM Agents](https://arxiv.org/abs/2610.17659v1) | — |
 | 2026-10-13 | Long-Horizon Task Agents | [EdgeWise: Bringing Long-Horizon Agents to the Edge via Selective Cloud Delegation](https://arxiv.org/abs/2610.17560v2) | — |
-| 2026-10-12 | Long-Horizon Task Agents | [MADDIE: Multi-Agent Drug Discovery Engine](https://arxiv.org/abs/2610.16975v1) | — |
-| 2026-10-12 | Reinforcement Learning, Long-Horizon Task Agents | [LoongSage: A Production-Grade, High-Efficiency Agentic RL Framework for Frontier LLMs with Validated Recipes](https://arxiv.org/abs/2610.16352v2) | — |
+| 2026-10-12 | Long-Horizon Task Agents | [MADDIE: Multi-Agent Drug Discovery Engine](https://arxiv.org/abs/2610.16975v3) | — |
+| 2026-10-12 | Reinforcement Learning, Long-Horizon Task Agents | [LoongSage: A Production-Grade, High-Efficiency Agentic RL Framework for Frontier LLMs with Validated Recipes](https://arxiv.org/abs/2610.16352v3) | — |
 | 2026-10-11 | Long-Horizon Task Agents | [LLM Value Functions for Credit Assignment in Agentic RL](https://arxiv.org/abs/2610.15840v1) | — |
 | 2026-10-11 | Long-Horizon Task Agents | [SurgiCLAW: An Interpretable Atomic-Skill Agent for Precision Robotic Micromanipulation](https://arxiv.org/abs/2610.15766v1) | — |
 | 2026-10-11 | Long-Horizon Task Agents | [Agent-Canary-Mas: End-to-End Evaluation of Protocol Risk in Long-Horizon Multi-Agent Systems](https://arxiv.org/abs/2610.15529v2) | — |
@@ -29,7 +29,7 @@
 | 2026-10-10 | Reinforcement Learning | [AlphaRLM: Aligning Language Models for Literature-Grounded Symbolic Factor Discovery](https://arxiv.org/abs/2610.14959v3) | — |
 | 2026-10-10 | Long-Horizon Task Agents | [ProgAgent: Learning Tool Orchestration through Programmatic Training](https://arxiv.org/abs/2610.14774v1) | — |
 | 2026-10-10 | Long-Horizon Task Agents | [PTGPO: Prefix Tree Group Policy Optimization](https://arxiv.org/abs/2610.14737v1) | — |
-| 2026-10-10 | Agent/LLM Self-Improvement | [Self-improving data synthesis enables scalable adaptation of embedding models](https://arxiv.org/abs/2610.14730v2) | — |
+| 2026-10-10 | Agent/LLM Self-Improvement | [Self-improving data synthesis can scale embedding-model adaptation across domains and tasks](https://arxiv.org/abs/2610.14730v3) | — |
 | 2026-10-09 | Long-Horizon Task Agents | [SPROUT: Scaling Agentic Reinforcement Learning for Long-Horizon Software Engineering](https://arxiv.org/abs/2610.14405v1) | — |
 | 2026-10-09 | Long-Horizon Task Agents | [Matched-Context Group Policy Optimization for LLM Agent Training](https://arxiv.org/abs/2610.13755v1) | — |
 | 2026-10-09 | Long-Horizon Task Agents | [Humanize Olympiad Agents: A Multi-Session Workflow for Olympiad Problem Solving with Solve, Review, Wiki, Verify](https://arxiv.org/abs/2610.13632v1) | — |
@@ -42,14 +42,14 @@
 | 2026-10-09 | Long-Horizon Task Agents | [Temporal Evidence Forests for Long-Horizon Multi-Party Conversational Memory](https://arxiv.org/abs/2610.12874v1) | — |
 | 2026-10-08 | Long-Horizon Task Agents | [SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire](https://arxiv.org/abs/2610.12596v1) | — |
 | 2026-10-08 | Long-Horizon Task Agents | [SWE-Journey: Towards More Realistic Evaluation of Coding Assistants through Long-Horizon, Multi-Turn Interaction](https://arxiv.org/abs/2610.11559v1) | — |
-| 2026-10-08 | Long-Horizon Task Agents | [REMORY: Learning Residual Memory for Context Compaction](https://arxiv.org/abs/2610.11287v2) | — |
+| 2026-10-08 | Long-Horizon Task Agents | [REMORY: Learning Residual Memory for Context Compaction](https://arxiv.org/abs/2610.11287v3) | — |
 | 2026-10-08 | Long-Horizon Task Agents | [ReTTT: Reflection-Driven Test-Time Training via Experience-Based Parametric Memory](https://arxiv.org/abs/2610.23942v1) | — |
 | 2026-10-07 | Long-Horizon Task Agents | [Stochastic Teacher Intervention for Agentic On-Policy Distillation](https://arxiv.org/abs/2610.10878v1) | — |
 | 2026-10-07 | Long-Horizon Task Agents | [Plan-and-Patch: Diffusion Language Models for Agentic Planning](https://arxiv.org/abs/2610.10786v1) | — |
 | 2026-10-07 | Long-Horizon Task Agents | [Loud Failures, Quiet Failures: Fault Detection and Recovery in Tool-Using Language Model Agents](https://arxiv.org/abs/2610.10062v1) | — |
 | 2026-10-07 | Long-Horizon Task Agents | [Training Advisors for LLM Agents from Task Outcomes](https://arxiv.org/abs/2610.09858v1) | — |
 | 2026-10-07 | Long-Horizon Task Agents | [World Potential Model: Pretrained World Knowledge as Progress Potentials](https://arxiv.org/abs/2610.09560v1) | — |
-| 2026-10-06 | Long-Horizon Task Agents | [TAP: Efficient Long-Horizon Agent Pruning via Trajectory-Anchored Recovery](https://arxiv.org/abs/2610.09074v1) | — |
+| 2026-10-06 | Long-Horizon Task Agents | [TAP: Efficient Long-Horizon Agent Pruning via Trajectory-Anchored Recovery](https://arxiv.org/abs/2610.09074v2) | — |
 | 2026-10-06 | Long-Horizon Task Agents | [SquidAgent: Parallelize Wisely, Coordinate Efficiently](https://arxiv.org/abs/2610.08647v1) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
 | 2026-10-06 | Long-Horizon Task Agents | [Transect: Retaining Observability for Long-Horizon LLM Agent Evaluations](https://arxiv.org/abs/2610.08364v2) | — |
 | 2026-10-06 | Long-Horizon Task Agents | [SpeedrunBench: Challenging LLM Agents with Video Game Speedrunning](https://arxiv.org/abs/2610.08076v1) | — |
@@ -73,7 +73,7 @@
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
-### [Self-improving data synthesis enables scalable adaptation of embedding models](https://arxiv.org/abs/2610.14730v2)
+### [Self-improving data synthesis can scale embedding-model adaptation across domains and tasks](https://arxiv.org/abs/2610.14730v3)
 
 - **Authors:** Zucan Lyu, Rui Tang, Jianlyu Chen, Peisheng Jin, Defu Lian
 - **Published:** 2026-10-10
@@ -81,13 +81,13 @@
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.IR, cs.AI, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2610.14730v2) · [PDF](https://arxiv.org/pdf/2610.14730v2)
+- **Links:** [Paper](https://arxiv.org/abs/2610.14730v3) · [PDF](https://arxiv.org/pdf/2610.14730v3)
 
-AI agents require specialised retrieval across domains and tasks, but adapting embedding models is constrained by costly manual training-data design. Here we introduce SYNTRA, a self-improving agentic framework that turns a few retrieval examples into reusable synthesis instructions. Given an unlabelled corpus and a few relevant query-document pairs, SYNTRA infers implicit information needs and relevance criteria, then uses feedback on trial outputs to refine instructions for query generation and relevance assessment. Experiments across 24 datasets spanning 15 domains demonstrate that the same synthesis workflow produces effective training data, benefiting even strong embedding models with and without existing labelled training sets. Self-improvement strengthens this supervision on all six evaluated tasks, yielding better retrieval than human calibration on four. The training value persists at larger scales: on MS MARCO, retrieval gains continue across a 32-fold range of synthetic training-data sizes. SYNTRA thus enables scalable embedding-model adaptation with minimal human intervention.
+AI agents require specialised retrieval across domains and tasks, but adapting embedding models is constrained by costly manual training-data design. Here we introduce SYNTRA, a self-improving agentic data synthesis framework that turns a few retrieval examples into reusable synthesis instructions. Given an unlabelled corpus and a few relevant query-document pairs, SYNTRA infers implicit information needs and relevance criteria, then uses feedback on trial outputs to refine instructions for query generation and relevance assessment. Experiments across 24 datasets spanning 15 domains demonstrate that the same synthesis workflow produces effective training data, benefiting even strong embedding models with and without existing labelled training sets. Self-improvement strengthens this supervision on all six evaluated tasks, yielding better retrieval than human calibration on four. The training value persists at larger scales: on MS MARCO, retrieval gains continue across a 32-fold range of synthetic training-data sizes. SYNTRA thus enables scalable embedding-model adaptation with minimal human intervention.
 
 ## Reinforcement Learning
 
-### [LoongSage: A Production-Grade, High-Efficiency Agentic RL Framework for Frontier LLMs with Validated Recipes](https://arxiv.org/abs/2610.16352v2)
+### [LoongSage: A Production-Grade, High-Efficiency Agentic RL Framework for Frontier LLMs with Validated Recipes](https://arxiv.org/abs/2610.16352v3)
 
 - **Authors:** LoongSage Team, Bowei Song, Caiwei Zhao, Chuwen Liu, Dechuang Gu, Dong Fang, Feiyu Xie, Huaiyu Li, Hui Zhang, Jian Tian, Jian Wang, Jie Zhao, Liguang Li, Maoyun Wang, Meiyan Yang, Minghan Zhu, Pai Liu, Pandeng Yao, Renbao Tian, Ru Yang, Shuai Jia, Shuai Tan, Shuailong Li, Shuliang Li, Teng Jin, Tianze Yang, Wenbo Cui, Wenjing Bai, Wenkang Wu, Xiaowei Jiang, Xiaoyi Dong, Yanpeng Wang, Yanwen Wang, Yaohui Ma, Yawen Wang, Yihang Zhang, Yingjie Yan, Zhanbiao Lian, Zhenyu Lu, Zhida Hu, Zhihui Hao, Zhihui Hu, Zhiwen Xiao, Zhiyi Gao, Zhongwei Qi, Zhuangzhuang Wu, Ziqian Liu, Ziyue Zheng
 - **Published:** 2026-10-12
@@ -95,7 +95,7 @@ AI agents require specialised retrieval across domains and tasks, but adapting e
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2610.16352v2) · [PDF](https://arxiv.org/pdf/2610.16352v2)
+- **Links:** [Paper](https://arxiv.org/abs/2610.16352v3) · [PDF](https://arxiv.org/pdf/2610.16352v3)
 
 Reinforcement learning (RL) has emerged as a critical phase in the post-training pipeline of large language models (LLMs). As the frontier of LLM capabilities shifts from static reasoning to agentic tasks--characterized by external tool invocation, multi-turn interactions, and long-horizon decision-making--existing mainstream RL frameworks have grown increasingly unwieldy, raising the overhead of adoption, usage, and debugging. To address these challenges, we present LoongSage, an agent-native, fully asynchronous RL framework with a lightweight core of roughly 14K lines of code. Built upon Megatron for distributed training and SGLang for high-throughput inference, LoongSage centralizes orchestration within a single controller process and encapsulates all GPU-resident components as Ray actors. It introduces AgentFlow, a unified execution paradigm that orchestrates both white-box and black-box agents. For asynchronous execution, it integrates sliding-window strategies that bound trajectory staleness, and employs TransferMesh, a topology-aware synchronization mechanism that routes weights after each step over the fastest transport available to each receiver. Beyond agentic RL, LoongSage incorporates a memory-efficient Teacher Manager that decouples the scaling of teacher models from GPU memory constraints, natively supporting Multi-Teacher On-Policy Distillation. Extensive evaluations across four complete training runs, spanning complex reinforcement learning and multi-teacher distillation, demonstrate that task rewards improve steadily while the train-inference gap is kept under continuous control, and the fully asynchronous pipeline removes synchronous idle bubbles, sustaining hardware utilization.
 
@@ -197,7 +197,7 @@ Large language model (LLM) agents have shown strong capabilities in interactive 
 
 Complex and long-horizon agent tasks often rely on frontier models deployed in the cloud to achieve strong performance. However, using these models for every step of a long-horizon trajectory incurs substantial inference cost, even though not all steps may require the same level of model capability. In this paper, we find that allocating the LLM to only a small subset of key steps can achieve performance comparable to full LLM execution while significantly reducing inference cost. Motivated by this observation, we propose EdgeWise, an edge-cloud collaboration framework that deploys an SLM on the local device as the primary solver and selectively delegates critical steps to a cloud LLM when stronger model capacity is needed. To enable autonomous delegation without additional models at inference time, we introduce a step-level RL method that jointly optimizes task solving and delegation, with fine-grained credit assignment for individual delegation decisions. We also introduce an external judge-based delegation strategy and use it to systematically investigate key design choices in edge-cloud collaboration, including when to delegate, how delegation decisions should be made, what context should be shared, and how frequently the cloud LLM should be invoked. Experiments show that EdgeWise matches or outperforms pure-LLM execution while reducing inference cost up to 62% on SWE-Rebench and 34% on Terminal-Bench 2.1. We further deploy EdgeWise on a local workstation, demonstrating comparable cost savings in a practical edge-cloud setting.
 
-### [MADDIE: Multi-Agent Drug Discovery Engine](https://arxiv.org/abs/2610.16975v1)
+### [MADDIE: Multi-Agent Drug Discovery Engine](https://arxiv.org/abs/2610.16975v3)
 
 - **Authors:** Ye Liu, Reza Averly, Avery Meyer, Frazier N. Baker, Ruoxi Gao, Daniel Adu-Ampratwum, Xia Ning
 - **Published:** 2026-10-12
@@ -205,11 +205,11 @@ Complex and long-horizon agent tasks often rely on frontier models deployed in t
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2610.16975v1) · [PDF](https://arxiv.org/pdf/2610.16975v1)
+- **Links:** [Paper](https://arxiv.org/abs/2610.16975v3) · [PDF](https://arxiv.org/pdf/2610.16975v3)
 
 Drug discovery remains a resource-intensive and time-consuming process, involving billions of dollars and a decade of development to advance a drug to market. While many in silico tools have accelerated this process, operating them still demands substantial time, effort, and expertise from medicinal chemists. Autonomous systems built on Large Language Models (LLMs) have emerged as a promising solution, yet current designs limit their performance. Existing single-agent systems scale poorly to long-horizon, multi-step, and realistic tasks, whereas multi-agent systems typically execute predefined workflows that cannot capture the iterative, non-linear nature of a real drug discovery campaign. Here, we present MADDIE, a multi-agent drug discovery engine. It comprises a central agent, Orchestrator, and four specialized worker agents: HitIdentifier, LeadOptimizer, Synthesizer, and Evaluator, each representing a critical step in a drug discovery campaign. Under Orchestrator's orchestration and coordination, these worker agents are composed into flexible workflows, enabling MADDIE to adapt its strategy and navigate the drug discovery pipeline end-to-end. Across 50 protein targets, MADDIE produces molecules satisfying key property requirements and their synthesis routes, outperforming existing agentic systems, generative models, and general-purpose LLMs by a wide margin. Our analysis reveals how these agents collaborate and that MADDIE can employ different strategies across targets to achieve the campaign's goal, while still being efficient in time and tokens. Together, they demonstrate MADDIE as a low-cost, effective, and efficient autonomous engine for accelerating drug discovery. Code and dataset is available via https://github.com/ninglab/MADDIE.
 
-### [LoongSage: A Production-Grade, High-Efficiency Agentic RL Framework for Frontier LLMs with Validated Recipes](https://arxiv.org/abs/2610.16352v2)
+### [LoongSage: A Production-Grade, High-Efficiency Agentic RL Framework for Frontier LLMs with Validated Recipes](https://arxiv.org/abs/2610.16352v3)
 
 - **Authors:** LoongSage Team, Bowei Song, Caiwei Zhao, Chuwen Liu, Dechuang Gu, Dong Fang, Feiyu Xie, Huaiyu Li, Hui Zhang, Jian Tian, Jian Wang, Jie Zhao, Liguang Li, Maoyun Wang, Meiyan Yang, Minghan Zhu, Pai Liu, Pandeng Yao, Renbao Tian, Ru Yang, Shuai Jia, Shuai Tan, Shuailong Li, Shuliang Li, Teng Jin, Tianze Yang, Wenbo Cui, Wenjing Bai, Wenkang Wu, Xiaowei Jiang, Xiaoyi Dong, Yanpeng Wang, Yanwen Wang, Yaohui Ma, Yawen Wang, Yihang Zhang, Yingjie Yan, Zhanbiao Lian, Zhenyu Lu, Zhida Hu, Zhihui Hao, Zhihui Hu, Zhiwen Xiao, Zhiyi Gao, Zhongwei Qi, Zhuangzhuang Wu, Ziqian Liu, Ziyue Zheng
 - **Published:** 2026-10-12
@@ -217,7 +217,7 @@ Drug discovery remains a resource-intensive and time-consuming process, involvin
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2610.16352v2) · [PDF](https://arxiv.org/pdf/2610.16352v2)
+- **Links:** [Paper](https://arxiv.org/abs/2610.16352v3) · [PDF](https://arxiv.org/pdf/2610.16352v3)
 
 Reinforcement learning (RL) has emerged as a critical phase in the post-training pipeline of large language models (LLMs). As the frontier of LLM capabilities shifts from static reasoning to agentic tasks--characterized by external tool invocation, multi-turn interactions, and long-horizon decision-making--existing mainstream RL frameworks have grown increasingly unwieldy, raising the overhead of adoption, usage, and debugging. To address these challenges, we present LoongSage, an agent-native, fully asynchronous RL framework with a lightweight core of roughly 14K lines of code. Built upon Megatron for distributed training and SGLang for high-throughput inference, LoongSage centralizes orchestration within a single controller process and encapsulates all GPU-resident components as Ray actors. It introduces AgentFlow, a unified execution paradigm that orchestrates both white-box and black-box agents. For asynchronous execution, it integrates sliding-window strategies that bound trajectory staleness, and employs TransferMesh, a topology-aware synchronization mechanism that routes weights after each step over the fastest transport available to each receiver. Beyond agentic RL, LoongSage incorporates a memory-efficient Teacher Manager that decouples the scaling of teacher models from GPU memory constraints, natively supporting Multi-Teacher On-Policy Distillation. Extensive evaluations across four complete training runs, spanning complex reinforcement learning and multi-teacher distillation, demonstrate that task rewards improve steadily while the train-inference gap is kept under continuous control, and the fully asynchronous pipeline removes synchronous idle bubbles, sustaining hardware utilization.
 
@@ -449,7 +449,7 @@ Agentic large language models now tackle complex tasks, yet strategic reasoning 
 
 Coding assistants such as Claude Code and Codex have become a major application of LLM agents, yet existing benchmarks remain far from real-world use, particularly in task horizon and interaction length. Code assistants require completing long chains of development work in continuously evolving repositories, while repeatedly clarifying requirements and adapting implementations through multi-turn interaction. To address these gaps, we introduce SWE-Journey, a benchmark for more realistic evaluation of coding assistants. To address the task-horizon gap, we propose a weak-to-strong synthesis pipeline that automatically constructs long-horizon coding tasks. To address the interaction gap, we mine four representative user personas from real interaction data and build a user-simulation agent to reproduce realistic code-assistance interactions. On average, models pass over 75% of tests for requested functionality with software architects, but fewer than 25% with non-coders. These results show that current coding assistants still fall short of enabling reliable coding for non-coders. We further analyze the reasons for this gap and identify asking right, finding right, and fixing right as key capabilities during interaction.
 
-### [REMORY: Learning Residual Memory for Context Compaction](https://arxiv.org/abs/2610.11287v2)
+### [REMORY: Learning Residual Memory for Context Compaction](https://arxiv.org/abs/2610.11287v3)
 
 - **Authors:** Hanchen Xia, Baoyou Chen, Yutang Ge, Naihao Deng, Senqiao Yang, Zilong Dong, Weihao Yuan, Siyu Zhu
 - **Published:** 2026-10-08
@@ -457,7 +457,7 @@ Coding assistants such as Claude Code and Codex have become a major application 
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.CL, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2610.11287v2) · [PDF](https://arxiv.org/pdf/2610.11287v2)
+- **Links:** [Paper](https://arxiv.org/abs/2610.11287v3) · [PDF](https://arxiv.org/pdf/2610.11287v3)
 
 Long-horizon agents compact their history to continue within a finite context window, but a textual summary alone may not support every subsequent decision. We introduce REMORY, a neural memory network that supplements the summary with a bounded sequence of soft memory tokens. Given the history and summary, the network learns to generate tokens that help a frozen LLM approximate the continuation it would produce with the full history. The tokens are conditioned on the summary and appended after it, forming an analogue of a residual connection along the sequence dimension. On SummHay, REMORY improves source attribution at nearly unchanged insight coverage and approaches the full-context joint score using only 5.2% of the input positions. Across long-horizon agent benchmarks, Qwen3.8-27B and GLM-5.3-Flash show consistent gains with residual memory. Both models also exhibit substantially fewer repeated tool outputs and tool errors on BrowseComp and Terminal-Bench 2.1.
 
@@ -533,7 +533,7 @@ Large language model agents tackle multi-step tasks by interleaving reasoning an
 
 Long-horizon language agents often receive supervision only from terminal task outcomes, leaving little signal for distinguishing productive intermediate behavior from stagnation or even regression. Rather than learning a separate value function or process reward model for every task, we ask whether pretrained models can recognize task progress from their existing world knowledge. We formalize this capability with a World Potential Model (WPM), a goal-conditioned evaluator of task-relative realized progress in agent contexts. In ALFWorld and ScienceWorld, off-the-shelf pretrained models substantially outperform chance at recovering realized-progress structure without task-specific evaluator fine-tuning. We further anchor these progress judgments to task-specific milestones to obtain scalar world potentials, whose temporal differences provide process-sensitive step-level credit for policy optimization. Under matched comparisons, WPM-guided optimization improves success over outcome-only GRPO across all evaluated configurations. Together, these results provide initial evidence that pretrained world knowledge can support reusable realized-progress evaluation and provide useful supervision for long-horizon agents.
 
-### [TAP: Efficient Long-Horizon Agent Pruning via Trajectory-Anchored Recovery](https://arxiv.org/abs/2610.09074v1)
+### [TAP: Efficient Long-Horizon Agent Pruning via Trajectory-Anchored Recovery](https://arxiv.org/abs/2610.09074v2)
 
 - **Authors:** Yuanzhe Li, Pengxin Wang, Yuxin Ren, Jianing Deng, Jingtong Hu, Song Wang, Jingdi Chen, Huanrui Yang
 - **Published:** 2026-10-06
@@ -541,7 +541,7 @@ Long-horizon language agents often receive supervision only from terminal task o
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2610.09074v1) · [PDF](https://arxiv.org/pdf/2610.09074v1)
+- **Links:** [Paper](https://arxiv.org/abs/2610.09074v2) · [PDF](https://arxiv.org/pdf/2610.09074v2)
 
 Emerging long-horizon agentic tasks require repeated model calls, worsening the inference cost of already-costly language models. While narrow agentic tasks suggest potential for aggressive model pruning without performance drop, empirical results show existing methods proposed for question answering tasks severely degrade task performance when applied to agentic models. We trace this failure to two decisions: what to prune and how to recover. For pruning, one-shot importance estimates fail to track how the pruned model adapts. For recovery, offline distillation covers only teacher prefixes, while full-trajectory on-policy distillation causes student errors to compound across turns. In this work, we propose Trajectory-Anchored Pruning (TAP), the first structural pruning framework for reinforcement learning (RL)-trained agents. TAP couples structural pruning with efficient on-policy recovery, anchoring interactions to teacher trajectories while allowing the student to generate each reasoning-action response. A frozen dense teacher supervises the student's response prefixes, addressing within-response training-inference mismatch while preventing student-induced deviations from propagating across training turns. Instead of one-shot pruning, TAP re-scores channels using gradients of the recovery objective on the recovered student, connecting iterative channel selection to the evolving policy. With 60% of FFN channels removed, TAP retains 99.2% and 88.0% of the dense 7B agents' task success rates on ALFWorld and WebShop, respectively, while reducing GPU time per successful task by approximately 22% and 17%. These results demonstrate effective structural compression of long-horizon agents under a limited recovery budget.
 

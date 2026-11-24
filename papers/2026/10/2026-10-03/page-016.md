@@ -16,7 +16,7 @@
 | 2026-04-16 | Agent/LLM Self-Improvement | [SAGER: Self-Evolving User Policy Skills for Recommendation Agent](https://arxiv.org/abs/2604.14972) | — |
 | 2026-04-16 | Agent/LLM Self-Improvement | [Autonomous Evolution of EDA Tools: Multi-Agent Self-Evolved ABC](https://arxiv.org/abs/2604.15082) | 📈 Highly cited |
 | 2026-04-10 | Reinforcement Learning | [TensorHub: Scalable and Elastic Weight Transfer for LLM RL Training](https://arxiv.org/abs/2604.09107v2) | — |
-| 2026-04-09 | LLM Continual Training | [BioELX: Context-Aware Cross-lingual Biomedical Entity Linking without Task-Specific Supervision](https://arxiv.org/abs/2605.27380v2) | — |
+| 2026-04-09 | LLM Continual Training | [BioELX: Context-Aware Cross-lingual Biomedical Entity Linking without Task-Specific Supervision](https://arxiv.org/abs/2605.27380v4) | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) |
 | 2026-04-09 | Reinforcement Learning | [LLM-Guided Dynamic Action Spaces for Synthesizable Molecular Optimization](https://arxiv.org/abs/2604.07669v3) | — |
 | 2026-04-09 | Reinforcement Learning | [An Imperfect Verifier is Good Enough: Learning with Noisy Rewards](https://arxiv.org/abs/2604.07666v2) | 📈 Highly cited |
 | 2026-04-07 | LLM Continual Training | [Continual Visual Anomaly Detection on the Edge: Benchmark and Efficient Solutions](https://arxiv.org/abs/2604.06435v2) | — |
@@ -29,7 +29,7 @@
 | 2026-03-27 | Agent/LLM Self-Improvement | [SkinGPT-X: A Self-Evolving Collaborative Multi-Agent System for Transparent and Trustworthy Dermatological Diagnosis](https://arxiv.org/abs/2603.26122) | — |
 | 2026-03-25 | Agent/LLM Self-Improvement | [AnalogAgent: Self-Improving Analog Circuit Design Automation with LLM Agents](https://arxiv.org/abs/2603.23910) | — |
 | 2026-03-24 | Reinforcement Learning | [From Morality Installation in LLMs to LLMs in Morality-as-a-System](https://arxiv.org/abs/2603.22944v2) | — |
-| 2026-03-23 | LLM Continual Training, Reinforcement Learning | [Stable but Wrong: When Learning Stabilizes Away from the Truth](https://arxiv.org/abs/2603.21491v2) | — |
+| 2026-03-23 | LLM Continual Training, Reinforcement Learning | [Stable but Wrong: When Learning Stabilizes Away from the Truth](https://arxiv.org/abs/2603.21491v3) | — |
 | 2026-03-23 | Agent/LLM Self-Improvement | [GSEM: Graph-based Self-Evolving Memory for Experience Augmented Clinical Reasoning](https://arxiv.org/abs/2603.22096) | — |
 | 2026-03-23 | Agent/LLM Self-Improvement | [Generalizable Self-Evolving Memory for Automatic Prompt Optimization](https://arxiv.org/abs/2603.21520) | — |
 | 2026-03-22 | Reinforcement Learning | [Benchmarking Bengali Dialectal Bias: A Multi-Stage Framework Integrating RAG-Based Translation and Human-Augmented RLAIF](https://arxiv.org/abs/2603.21359v2) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
@@ -59,7 +59,7 @@
 | 2026-02-06 | LLM Continual Training | [When RL Meets Adaptive Speculative Training: A Unified Training-Serving System](https://arxiv.org/abs/2602.06932v5) | — |
 | 2026-02-05 | Reinforcement Learning | [Unveiling Implicit Advantage Symmetry: Why GRPO Struggles with Exploration and Difficulty Adaptation](https://arxiv.org/abs/2602.05548v4) | — |
 | 2026-02-05 | Agent/LLM Self-Improvement | [TIDE: Temporal Incremental Draft Engine for Self-Improving LLM Inference](https://arxiv.org/abs/2602.05145v2) | — |
-| 2026-02-04 | LLM Continual Training | [Modular Expert Merging for Biomedical Retrieval](https://arxiv.org/abs/2602.04731v3) | — |
+| 2026-02-04 | LLM Continual Training | [Modular Expert Merging for Biomedical Retrieval](https://arxiv.org/abs/2602.04731v3) | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) |
 | 2026-02-04 | Reinforcement Learning | [QUATRO: Query-Adaptive Trust Region Policy Optimization for LLM Fine-tuning](https://arxiv.org/abs/2602.04620v3) | — |
 | 2026-02-04 | Agent/LLM Self-Improvement | [Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing](https://arxiv.org/abs/2602.04837) | 📈 Highly cited |
 | 2026-02-04 | Agent/LLM Self-Improvement | [Self-evolving Embodied AI](https://arxiv.org/abs/2602.04411) | — |
@@ -69,6 +69,7 @@
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
 | [Autonomous Evolution of EDA Tools: Multi-Agent Self-Evolved ABC](https://arxiv.org/abs/2604.15082) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [BioELX: Context-Aware Cross-lingual Biomedical Entity Linking without Task-Specific Supervision](https://arxiv.org/abs/2605.27380v4) | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | Semantic Scholar publication metadata: Conference on Empirical Methods in Natural Language Processing |
 | [An Imperfect Verifier is Good Enough: Learning with Noisy Rewards](https://arxiv.org/abs/2604.07666v2) | 📈 Highly cited | First author: ETH Zurich (Semantic Scholar author profiles) |
 | [Benchmarking Bengali Dialectal Bias: A Multi-Stage Framework Integrating RAG-Based Translation and Human-Augmented RLAIF](https://arxiv.org/abs/2603.21359v2) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to the 2026 Main Conference on Empirical Methods in Natural Language Processing (EMNLP) |
 | [HumorGen: Cognitive Synergy for Humor Generation in Large Language Models via Persona-Based Distillation](https://arxiv.org/abs/2604.09629v3) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted at EMNLP 2026 Main Conference |
@@ -78,6 +79,7 @@
 | [Zombie Agents: Persistent Control of Self-Evolving LLM Agents via Self-Reinforcing Injections](https://arxiv.org/abs/2602.15654v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Dr. MAS: Stable Reinforcement Learning for Multi-Agent LLM Systems](https://arxiv.org/abs/2602.08847v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [TTSR: Test-Time Self-Evolving via Reflection](https://arxiv.org/abs/2603.03297v3) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: EMNLP 2026 Main Conference |
+| [Modular Expert Merging for Biomedical Retrieval](https://arxiv.org/abs/2602.04731v3) | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | Semantic Scholar publication metadata: Conference on Empirical Methods in Natural Language Processing |
 | [Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing](https://arxiv.org/abs/2602.04837) | 📈 Highly cited | University of California, Santa Barbara |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
@@ -348,17 +350,17 @@ Embodied Artificial Intelligence (AI) is an intelligent system formed by agents 
 
 ## LLM Continual Training & Continual Learning
 
-### [BioELX: Context-Aware Cross-lingual Biomedical Entity Linking without Task-Specific Supervision](https://arxiv.org/abs/2605.27380v2)
+### [BioELX: Context-Aware Cross-lingual Biomedical Entity Linking without Task-Specific Supervision](https://arxiv.org/abs/2605.27380v4)
 
 - **Authors:** Yi Wang, Corina Dima, Liangyu Zhong, Steffen Staab
 - **Published:** 2026-04-09
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified)
+- **Venue:** Conference on Empirical Methods in Natural Language Processing
 - **Affiliations:** n/a
 - **Categories:** cs.CL, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2605.27380v2) · [PDF](https://arxiv.org/pdf/2605.27380v2)
+- **Links:** [Paper](https://arxiv.org/abs/2605.27380v4) · [PDF](https://arxiv.org/pdf/2605.27380v4)
 
-Cross-lingual biomedical entity linking (BEL) maps mentions in any language to unique identifiers in a biomedical knowledge base, supporting clinical and biomedical NLP applications. We identify two issues affecting current systems. First, the UMLS (Bodenreider,2004) aliases used to train cross-lingual BEL retrievers are heavily skewed toward English, so retrievers generalize poorly to non-English mentions. Second, although context is often necessary for disambiguation, naively injecting context into retrievers trained only to align aliases severely degrades retrieval. We propose BioELX, a retrieve-rerank framework that addresses both issues. For retrieval, we continue training SapBERT_multi (Liu et al., 2021b) using Wikidata-derived cross-lingual alias supervision, forming shared concept neighborhoods across languages. For reranking, we adapt pretrained LLM rerankers to entity linking through mention-anchored prompting, which marks the target mention so that rerankers score candidates with respect to the intended mention rather than other salient tokens in the context. Experiments show that BioELX achieves new state-of-the-art results on four cross-lingual BEL benchmarks, improving Recall@1 by 4.8 to 18.2 percentage points over prior best results, without any task-specific BEL annotations. Our code and resources are available at https://github.com/AI4MedCode/BioELX.
+Cross-lingual biomedical entity linking (BEL) maps mentions in any language to unique identifiers in a biomedical knowledge base, supporting clinical and biomedical NLP applications. We identify two issues affecting current systems. First, the UMLS (Bodenreider,2004) aliases used to train cross-lingual BEL retrievers are heavily skewed toward English, so retrievers generalize poorly to non-English mentions. Second, although context is often necessary for disambiguation, naively injecting context into retrievers trained only to align aliases severely degrades retrieval. We propose BioELX, a retrieve-rerank framework that addresses both issues. For retrieval, we continue training SapBERT_multi (Liu et al., 2021b) using Wikidata-derived cross-lingual alias supervision, forming shared concept neighborhoods across languages. For reranking, we adapt pretrained LLM rerankers to entity linking through mention-anchored prompting, which marks the target mention so that rerankers score candidates with respect to the intended mention rather than other salient tokens in the context. Experiments show that BioELX achieves new state-of-the-art results on four cross-lingual BEL benchmarks, improving Recall@1 by 4.9 to 18.2 percentage points over prior best results, without any task-specific BEL annotations. Our code and resources are available at https://github.com/AI4MedCode/BioELX.
 
 ### [Continual Visual Anomaly Detection on the Edge: Benchmark and Efficient Solutions](https://arxiv.org/abs/2604.06435v2)
 
@@ -384,17 +386,17 @@ Visual Anomaly Detection (VAD) is a critical task for many applications includin
 
 Evolution Strategies (ES) have emerged as a scalable gradient-free alternative to reinforcement learning based LLM fine-tuning, but it remains unclear whether comparable task performance implies comparable solutions in parameter space. We compare ES and Group Relative Policy Optimization (GRPO) across four tasks in both single-task and sequential continual-learning settings. ES matches or exceeds GRPO in single-task accuracy and remains competitive sequentially when its iteration budget is controlled. Despite this similarity in task performance, the two methods produce markedly different model updates: ES makes much larger changes and induces broader off-task KL drift, whereas GRPO makes smaller, more localized updates. Strikingly, the ES and GRPO solutions are linearly connected with no loss barrier, even though their update directions are nearly orthogonal. We develop an analytical theory of ES that explains all these phenomena within a unified framework, showing how ES can accumulate large off-task movement on weakly informative directions while still making enough progress on the task to match gradient-based RL in downstream accuracy. These results show that gradient-free and gradient-based fine-tuning can reach similarly accurate yet geometrically distinct solutions, with important consequences for forgetting and knowledge preservation. The source code is publicly available: https://github.com/Bhoy1/ESvsGRPO.
 
-### [Stable but Wrong: When Learning Stabilizes Away from the Truth](https://arxiv.org/abs/2603.21491v2)
+### [Stable but Wrong: When Learning Stabilizes Away from the Truth](https://arxiv.org/abs/2603.21491v3)
 
-- **Authors:** Zhipeng Zhang
+- **Authors:** Zhipeng Zhang, Fujie Ren, Kai Li, Bo Qiu
 - **Published:** 2026-03-23
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** China Mobile GBA, China Mobile Research Institute, Beijing, China, University of Electronic Science and Technology of China, Chengdu, China, University of Science and Technology Beijing, Beijing, China
 - **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2603.21491v2) · [PDF](https://arxiv.org/pdf/2603.21491v2)
+- **Links:** [Paper](https://arxiv.org/abs/2603.21491v3) · [PDF](https://arxiv.org/pdf/2603.21491v3)
 
-Stable training is often treated as evidence that learning is succeeding, but stability characterizes optimization behavior rather than correctness relative to an external objective. We study what happens when the signal being optimized remains persistently biased. We define Stable but Wrong (SBW) as a learning state in which the learning process remains stable under a task-appropriate operational criterion while the learned outcome remains systematically displaced from an independently defined objective. A minimal strongly convex model shows that a persistent bias in the update direction can shift the unique convergence point away from the true optimum. Controlled experiments in reinforcement learning, supervised learning, and continual fine-tuning of a large language model reveal a recurring separation between apparently normal optimization and correctness under static and feedback-coupled biases. Recovery-stage clean-data access and exploration interventions further show that subsequent trajectories can remain modifiable, although the interventions differ in protocol and do not imply a shared mechanism. The results expose a basic limit of optimization stability as a reliability signal in persistent and feedback-coupled learning systems.
+Stable training is often treated as evidence that learning is succeeding, but stability characterizes optimization behavior rather than correctness relative to an external objective. We study what happens when the signal being optimized remains persistently biased. We define Stable but Wrong (SBW) as a learning state in which optimization remains active or stabilizes while the learned outcome stays systematically displaced from an independently defined objective. A minimal theoretical model shows that persistent systematic bias can separate a stable convergence point from the true objective even under standard conditions for stable convergence. We then introduce static and dynamic bias in reinforcement learning, supervised learning, and continual fine-tuning of large language models. Across these settings, optimization of the current learning signal continues or stabilizes while correctness relative to the external objective declines or remains displaced. Finally, two controlled challenge-correction experiments with external ground truth test whether a prespecified error can be exposed and changed. In controlled scientific discovery and CIFAR-10, targeted evidence corrects or reduces established errors more effectively than equal-budget general evidence, with no evident harm to paired correct states under the tested protocols. These experiments do not provide a general method for automatically discovering unknown errors. Overall, SBW identifies a basic limit of convergence and other internal optimization metrics as evidence of correctness in systems that learn through persistent bias and feedback.
 
 ### [Neither Here Nor There: Cross-Lingual Representation Dynamics of Code-Mixed Text in Multilingual Encoders](https://arxiv.org/abs/2603.19771v2)
 
@@ -520,8 +522,8 @@ Speculative decoding can significantly accelerate LLM serving, yet most deployme
 
 - **Authors:** Sameh Khattab, Jean-Philippe Corbeil, Osman Alperen Çinar-Koraş, Amin Dada, Julian Friedrich, Jiawei He, Douglas Teodoro, Jens Kleesiek
 - **Published:** 2026-02-04
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified)
+- **Venue:** Conference on Empirical Methods in Natural Language Processing
 - **Affiliations:** n/a
 - **Categories:** cs.CL, cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2602.04731v3) · [PDF](https://arxiv.org/pdf/2602.04731v3)
@@ -614,17 +616,17 @@ Acute poly-substance intoxication requires rapid, life-saving decisions under su
 
 Work on morality in large language models (LLMs) has progressed via constitutional AI, reinforcement learning from human feedback (RLHF) and systematic benchmarking, yet it still lacks tools to connect internal moral representations to regulatory obligations, to design cultural plurality across the full development stack, and to monitor how moral properties drift over the lifecycle of a deployed system. These difficulties reflect a shared root. Morality is installed in a model at training time. I propose instead a morality-as-a-system framework, grounded in Niklas Luhmann's social systems theory, that treats LLM morality as a dynamic, emergent property of a sociotechnical system. Moral behaviour in a deployed LLM is not fixed at training. It is continuously reproduced through interactions among seven structurally coupled components spanning the neural substrate, training data, alignment procedures, system prompts, moderation, runtime dynamics, and user interface. This is a conceptual framework paper, not an empirical study. It philosophically reframes three known challenges, the interpretability-governance gap, the cross-component plurality problem, and the absence of lifecycle monitoring, as structural coupling failures that the installation paradigm cannot diagnose. For technical researchers, it explores three illustrative hypotheses about cross-component representational inconsistency, representation-level drift as an early safety signal, and the governance advantage of lifecycle monitoring. For philosophers and governance specialists, it offers a vocabulary for specifying substrate-level monitoring obligations within existing governance frameworks. The morality-as-a-system framework does not displace elements such as constitutional AI or RLHF it embeds them within a larger temporal and structural account and specifies the additional infrastructure those methods require.
 
-### [Stable but Wrong: When Learning Stabilizes Away from the Truth](https://arxiv.org/abs/2603.21491v2)
+### [Stable but Wrong: When Learning Stabilizes Away from the Truth](https://arxiv.org/abs/2603.21491v3)
 
-- **Authors:** Zhipeng Zhang
+- **Authors:** Zhipeng Zhang, Fujie Ren, Kai Li, Bo Qiu
 - **Published:** 2026-03-23
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** China Mobile GBA, China Mobile Research Institute, Beijing, China, University of Electronic Science and Technology of China, Chengdu, China, University of Science and Technology Beijing, Beijing, China
 - **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2603.21491v2) · [PDF](https://arxiv.org/pdf/2603.21491v2)
+- **Links:** [Paper](https://arxiv.org/abs/2603.21491v3) · [PDF](https://arxiv.org/pdf/2603.21491v3)
 
-Stable training is often treated as evidence that learning is succeeding, but stability characterizes optimization behavior rather than correctness relative to an external objective. We study what happens when the signal being optimized remains persistently biased. We define Stable but Wrong (SBW) as a learning state in which the learning process remains stable under a task-appropriate operational criterion while the learned outcome remains systematically displaced from an independently defined objective. A minimal strongly convex model shows that a persistent bias in the update direction can shift the unique convergence point away from the true optimum. Controlled experiments in reinforcement learning, supervised learning, and continual fine-tuning of a large language model reveal a recurring separation between apparently normal optimization and correctness under static and feedback-coupled biases. Recovery-stage clean-data access and exploration interventions further show that subsequent trajectories can remain modifiable, although the interventions differ in protocol and do not imply a shared mechanism. The results expose a basic limit of optimization stability as a reliability signal in persistent and feedback-coupled learning systems.
+Stable training is often treated as evidence that learning is succeeding, but stability characterizes optimization behavior rather than correctness relative to an external objective. We study what happens when the signal being optimized remains persistently biased. We define Stable but Wrong (SBW) as a learning state in which optimization remains active or stabilizes while the learned outcome stays systematically displaced from an independently defined objective. A minimal theoretical model shows that persistent systematic bias can separate a stable convergence point from the true objective even under standard conditions for stable convergence. We then introduce static and dynamic bias in reinforcement learning, supervised learning, and continual fine-tuning of large language models. Across these settings, optimization of the current learning signal continues or stabilizes while correctness relative to the external objective declines or remains displaced. Finally, two controlled challenge-correction experiments with external ground truth test whether a prespecified error can be exposed and changed. In controlled scientific discovery and CIFAR-10, targeted evidence corrects or reduces established errors more effectively than equal-budget general evidence, with no evident harm to paired correct states under the tested protocols. These experiments do not provide a general method for automatically discovering unknown errors. Overall, SBW identifies a basic limit of convergence and other internal optimization metrics as evidence of correctness in systems that learn through persistent bias and feedback.
 
 ### [Benchmarking Bengali Dialectal Bias: A Multi-Stage Framework Integrating RAG-Based Translation and Human-Augmented RLAIF](https://arxiv.org/abs/2603.21359v2)
 

@@ -38,7 +38,7 @@
 | 2025-12-18 | Reinforcement Learning, Long-Horizon Task Agents | [Turn-PPO: Turn-Level Advantage Estimation with PPO for Improved Multi-Turn RL in Agentic LLMs](https://arxiv.org/abs/2512.17008v2) | — |
 | 2025-12-18 | Reinforcement Learning, Long-Horizon Task Agents | [Meta-RL Induces Exploration in Language Agents](https://arxiv.org/abs/2512.16848v2) | — |
 | 2025-12-18 | Long-Horizon Task Agents | [PAACE: A Plan-Aware Automated Agent Context Engineering Framework](https://arxiv.org/abs/2512.16970v1) | — |
-| 2025-12-17 | Long-Horizon Task Agents | [HEPTAPOD: Orchestrating High Energy Physics Workflows Towards Autonomous Agency](https://arxiv.org/abs/2512.15867v2) | — |
+| 2025-12-17 | Long-Horizon Task Agents | [HEPTAPOD: Orchestrating High Energy Physics Workflows Towards Autonomous Agency](https://arxiv.org/abs/2512.15867v2) | 📈 Highly cited |
 | 2025-12-16 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models](https://arxiv.org/abs/2512.14666v1) | 📈 Highly cited |
 | 2025-12-15 | Long-Horizon Task Agents | [AgentIAD: Agentic Industrial Anomaly Detection via Adaptive Memory Augmentation](https://arxiv.org/abs/2512.13671v2) | — |
 | 2025-12-15 | Long-Horizon Task Agents | [Finch: Benchmarking Finance & Accounting across Spreadsheet-Centric Enterprise Workflows](https://arxiv.org/abs/2512.13168v5) | — |
@@ -54,7 +54,7 @@
 | 2025-12-07 | Long-Horizon Task Agents | [The Evolution of Agentic AI in Cybersecurity: From Single LLM Reasoners to Multi-Agent Systems and Autonomous Pipelines](https://arxiv.org/abs/2512.06659v1) | — |
 | 2025-12-05 | Long-Horizon Task Agents | [ARCANE: A Multi-Agent Framework for Interpretable and Configurable Alignment](https://arxiv.org/abs/2512.06196v1) | — |
 | 2025-12-04 | Long-Horizon Task Agents | [When AI Agents Compete for Jobs: Strategic Capabilities and Economic Dynamics of AI Labour Markets](https://arxiv.org/abs/2512.04988v2) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
-| 2025-12-04 | Long-Horizon Task Agents | [Natural Language Actor-Critic: Scalable Off-Policy Learning in Language Space](https://arxiv.org/abs/2512.04601v2) | — |
+| 2025-12-04 | Long-Horizon Task Agents | [Natural Language Actor-Critic: Scalable Off-Policy Learning in Language Space](https://arxiv.org/abs/2512.04601v3) | — |
 | 2025-12-04 | Long-Horizon Task Agents | [Automating Complex Document Workflows via Stepwise and Rollback-Enabled Operation Orchestration](https://arxiv.org/abs/2512.04445v1) | 🏆 CCF-A: AAAI 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
 | 2025-12-04 | Long-Horizon Task Agents | [AgentBay: A Hybrid Interaction Sandbox for Seamless Human-AI Intervention in Agentic Systems](https://arxiv.org/abs/2512.04367v1) | — |
 | 2025-12-02 | Long-Horizon Task Agents | [PPTArena: A Benchmark for PowerPoint Editing](https://arxiv.org/abs/2512.03042v3) | — |
@@ -72,6 +72,7 @@
 | [Context as a Tool: Context Management for Long-Horizon SWE-Agents](https://arxiv.org/abs/2512.22087v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Towards Responsible and Explainable AI Agents with Consensus-Driven Reasoning](https://arxiv.org/abs/2512.21699v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Step-DeepResearch Technical Report](https://arxiv.org/abs/2512.20491v4) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [HEPTAPOD: Orchestrating High Energy Physics Workflows Towards Autonomous Agency](https://arxiv.org/abs/2512.15867v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models](https://arxiv.org/abs/2512.14666v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [GTR-Turbo: Merged Checkpoint is Secretly a Free Teacher for Agentic VLM Training](https://arxiv.org/abs/2512.13043v2) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted by CVPR 2026 |
 | [A Practical Guide for Designing, Developing, and Deploying Production-Grade Agentic AI Workflows](https://arxiv.org/abs/2512.08769v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
@@ -523,7 +524,7 @@ Large Language Model (LLM) agents are increasingly deployed in complex, multi-st
 
 - **Authors:** Tony Menzo, Alexander Roman, Sergei Gleyzer, Konstantin Matchev, George T. Fleming, Stefan Höche, Stephen Mrenna, Prasanth Shyamsundar
 - **Published:** 2025-12-17
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** hep-ph, hep-ex
@@ -711,7 +712,7 @@ As agents based on large language models are increasingly deployed to long-horiz
 
 Emerging agentic marketplaces provide the economic infrastructure for matching and coordinating the large amounts of AI agents used in agentic swarms. Unlike human workers, AI agents can operate on multiple jobs simultaneously, acquire skills rapidly, and labor without wage floors. These differences introduce a new segment of $\textbf{AI labor markets}$, where AI agents interact with each other at a much higher frequency than human markets. Yet we lack frameworks to understand how such markets behave in light of economic forces that shape labor markets, such as adverse selection and reputation dynamics. To explore this, we introduce $\texttt{AI-Work}$, a tractable, simulated gig economy where Large Language Model (LLM) agents compete for jobs, develop skills, and adapt their strategies under uncertainty and competitive pressure. Our experiments examine three domains of capabilities that successful agents possess: $\textbf{metacognition}$ (accurate self-assessment of skills), $\textbf{competitive awareness}$ (modeling rivals and market dynamics), and $\textbf{long-horizon strategic planning}$. Agents with these capabilities consistently achieve higher profits, market share, and stronger adaptation than competing agents. Through $\texttt{AI-Work}$, we hope to provide a foundation to explore the microeconomic properties of AI-only labor markets, and a conceptual framework to study the strategic reasoning capabilities of participating AI agents.
 
-### [Natural Language Actor-Critic: Scalable Off-Policy Learning in Language Space](https://arxiv.org/abs/2512.04601v2)
+### [Natural Language Actor-Critic: Scalable Off-Policy Learning in Language Space](https://arxiv.org/abs/2512.04601v3)
 
 - **Authors:** Joey Hong, Kang Liu, Zhan Ling, Jiecao Chen, Sergey Levine
 - **Published:** 2025-12-04
@@ -719,7 +720,7 @@ Emerging agentic marketplaces provide the economic infrastructure for matching a
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2512.04601v2) · [PDF](https://arxiv.org/pdf/2512.04601v2)
+- **Links:** [Paper](https://arxiv.org/abs/2512.04601v3) · [PDF](https://arxiv.org/pdf/2512.04601v3)
 
 Large language model (LLM) agents -- LLMs that dynamically interact with an environment over long horizons -- have become an increasingly important area of research, enabling automation in complex tasks involving tool-use, web browsing, and dialogue with people. In the absence of expert demonstrations, training LLM agents has relied on policy gradient methods that optimize LLM policies with respect to an (often sparse) reward function. However, in long-horizon tasks with sparse rewards, learning from trajectory-level rewards can be noisy, leading to training that is unstable and has high sample complexity. Furthermore, policy improvement hinges on discovering better actions through exploration, which can be difficult when actions lie in natural language space. In this paper, we propose Natural Language Actor-Critic (NLAC), a novel actor-critic algorithm that trains LLM policies using a generative LLM critic that produces natural language rather than scalar values. This approach leverages the inherent strengths of LLMs to provide a richer and more actionable training signal; particularly, in tasks with large, open-ended action spaces, natural language explanations for why an action is suboptimal can be immensely useful for LLM policies to reason how to improve their actions, without relying on random exploration. Furthermore, our approach can be trained off-policy without policy gradients, offering a more data-efficient and stable alternative to existing on-policy methods. We present results on a mixture of reasoning, web browsing, and tool-use with dialogue tasks, demonstrating that NLAC shows promise in outperforming existing training approaches and offers a more scalable and stable training paradigm for LLM agents.
 

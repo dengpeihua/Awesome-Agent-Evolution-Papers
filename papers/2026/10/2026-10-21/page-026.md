@@ -22,9 +22,9 @@
 | 2025-11-23 | Long-Horizon Task Agents | [Hierarchical Deep Research with Local-Web RAG: Toward Automated System-Level Materials Discovery](https://arxiv.org/abs/2511.18303v2) | — |
 | 2025-11-23 | Long-Horizon Task Agents | [Z-Space: A Multi-Agent Tool Orchestration Framework for Enterprise-Grade LLM Automation](https://arxiv.org/abs/2511.19483v1) | — |
 | 2025-11-21 | Long-Horizon Task Agents | [A Simple Yet Strong Baseline for Long-Term Conversational Memory of LLM Agents](https://arxiv.org/abs/2511.17208v2) | 📈 Highly cited |
-| 2025-11-20 | Long-Horizon Task Agents | [SWITCH: Benchmarking Modeling and Handling of Tangible Interfaces in Long-horizon Embodied Scenarios](https://arxiv.org/abs/2511.17649v5) | — |
+| 2025-11-20 | Long-Horizon Task Agents | [SWITCH: Benchmarking Modeling and Handling of Tangible Interfaces in Long-horizon Embodied Scenarios](https://arxiv.org/abs/2511.17649v5) | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) |
 | 2025-11-20 | Long-Horizon Task Agents | [SkyRL-Agent: Efficient RL Training for Multi-turn LLM Agent](https://arxiv.org/abs/2511.16108v1) | 📈 Highly cited |
-| 2025-11-18 | Long-Horizon Task Agents | [Agent-R1: A Unified and Modular Framework for Agentic Reinforcement Learning](https://arxiv.org/abs/2511.14460v2) | — |
+| 2025-11-18 | Long-Horizon Task Agents | [Agent-R1: A Unified and Modular Framework for Agentic Reinforcement Learning](https://arxiv.org/abs/2511.14460v2) | 📈 Highly cited |
 | 2025-11-18 | Long-Horizon Task Agents | [Agentic Video Intelligence: A Flexible Framework for Advanced Video Exploration and Understanding](https://arxiv.org/abs/2511.14446v1) | — |
 | 2025-11-17 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents](https://arxiv.org/abs/2511.13593v3) | 📈 Highly cited |
 | 2025-11-17 | Long-Horizon Task Agents | [ENGRAM: Effective, Lightweight Memory Orchestration for Conversational Agents](https://arxiv.org/abs/2511.12960v2) | — |
@@ -45,7 +45,7 @@
 | 2025-10-30 | Long-Horizon Task Agents | [Graph-Enhanced Policy Optimization in LLM Agent Training](https://arxiv.org/abs/2510.26270v2) | — |
 | 2025-10-29 | Long-Horizon Task Agents | [The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution](https://arxiv.org/abs/2510.25726v2) | — |
 | 2025-10-29 | Long-Horizon Task Agents | [Grounded in Reality: Learning and Deploying Proactive LLM from Offline Logs](https://arxiv.org/abs/2510.25441v2) | — |
-| 2025-10-28 | Long-Horizon Task Agents | [Tongyi DeepResearch Technical Report](https://arxiv.org/abs/2510.24701v3) | — |
+| 2025-10-28 | Long-Horizon Task Agents | [Tongyi DeepResearch Technical Report](https://arxiv.org/abs/2510.24701v3) | 📈 Highly cited |
 | 2025-10-28 | LLM Continual Training, Long-Horizon Task Agents | [AgentFold: Long-Horizon Web Agents with Proactive Context Management](https://arxiv.org/abs/2510.24699v1) | 📈 Highly cited |
 | 2025-10-28 | Long-Horizon Task Agents | [MGA: Memory-Driven GUI Agent for Observation-Centric Interaction](https://arxiv.org/abs/2510.24168v3) | — |
 | 2025-10-28 | Long-Horizon Task Agents | [Reinforcement Learning for Long-Horizon Multi-Turn Search Agents](https://arxiv.org/abs/2510.24126v1) | — |
@@ -71,14 +71,17 @@
 | [Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation](https://arxiv.org/abs/2511.22235v2) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted to CVPR 2026 |
 | [SABER: Small Actions, Big Errors -- Safeguarding Mutating Steps in LLM Agents](https://arxiv.org/abs/2512.07850v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [A Simple Yet Strong Baseline for Long-Term Conversational Memory of LLM Agents](https://arxiv.org/abs/2511.17208v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [SWITCH: Benchmarking Modeling and Handling of Tangible Interfaces in Long-horizon Embodied Scenarios](https://arxiv.org/abs/2511.17649v5) | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | Semantic Scholar publication metadata: Conference on Empirical Methods in Natural Language Processing<br>Beijing Academy of Artificial Intelligence (BAAI) |
 | [SkyRL-Agent: Efficient RL Training for Multi-turn LLM Agent](https://arxiv.org/abs/2511.16108v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Agent-R1: A Unified and Modular Framework for Agentic Reinforcement Learning](https://arxiv.org/abs/2511.14460v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents](https://arxiv.org/abs/2511.13593v3) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [History-Aware Reasoning for GUI Agents](https://arxiv.org/abs/2511.09127v1) | 📈 Highly cited<br>🏆 CCF-A: AAAI 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Paper accepted to AAAI 2026 |
-| [PAN: A World Model for General, Actionable, and Long-Horizon World Simulation](https://arxiv.org/abs/2511.09057v4) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [PAN: A World Model for General, Actionable, and Long-Horizon World Simulation](https://arxiv.org/abs/2511.09057v4) | 📈 Highly cited | Carnegie Mellon University, Machine Learning Department, UC San Diego, University of California San Diego |
 | [Expand Your SCOPE: Semantic Cognition over Potential-Based Exploration for Embodied Visual Navigation](https://arxiv.org/abs/2511.08935v2) | 🏆 CCF-A: AAAI 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted to AAAI 2026 |
 | [UniVA: Universal Video Agent towards Open-Source Next-Generation Video Generalist](https://arxiv.org/abs/2511.08521v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [InnovatorBench: Evaluating Agents' Ability to Conduct Innovative LLM Research](https://arxiv.org/abs/2510.27598v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [ToolScope: An Agentic Framework for Vision-Guided and Long-Horizon Tool Use](https://arxiv.org/abs/2510.27363v1) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
+| [Tongyi DeepResearch Technical Report](https://arxiv.org/abs/2510.24701v3) | 📈 Highly cited | Alibaba Group, UNC-Chapel Hill |
 | [AgentFold: Long-Horizon Web Agents with Proactive Context Management](https://arxiv.org/abs/2510.24699v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Co-Sight: Enhancing LLM-Based Agents via Conflict-Aware Meta-Verification and Trustworthy Reasoning with Structured Facts](https://arxiv.org/abs/2510.21557v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [SALT: Step-level Advantage Assignment for Long-horizon Agents via Trajectory Graph](https://arxiv.org/abs/2510.20022v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
@@ -290,9 +293,9 @@ LLM-based conversational agents still struggle to maintain coherent, personalize
 
 - **Authors:** Juntao Cheng, Wanyue Zhang, Zhiwei Yu, Shuo Ren, Zheqi He, Shaoxuan Xie, Guocai Yao, Jieru Lin, Börje F. Karlsson, Jiajun Zhang
 - **Published:** 2025-11-20
-- **Priority:** —
-- **Venue:** arXiv
-- **Affiliations:** n/a
+- **Priority:** 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified)
+- **Venue:** Conference on Empirical Methods in Natural Language Processing
+- **Affiliations:** Beijing Academy of Artificial Intelligence (BAAI)
 - **Categories:** cs.CV, cs.AI, cs.RO
 - **Links:** [Paper](https://arxiv.org/abs/2511.17649v5) · [PDF](https://arxiv.org/pdf/2511.17649v5)
 
@@ -314,8 +317,8 @@ We introduce SkyRL-Agent, a framework for efficient, multi-turn, long-horizon ag
 
 - **Authors:** Mingyue Cheng, Shuo Yu, Daoyu Wang, Qingchuan Li, Xiaoyu Tao, Jie Ouyang, Yucong Luo, Yitong Zhou, Qi Liu, Enhong Chen
 - **Published:** 2025-11-18
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 📈 Highly cited
+- **Venue:** Proceedings of the 35th ACM International Conference on Information and Knowledge Management
 - **Affiliations:** n/a
 - **Categories:** cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2511.14460v2) · [PDF](https://arxiv.org/pdf/2511.14460v2)
@@ -388,7 +391,7 @@ Advances in Multimodal Large Language Models have significantly enhanced Graphic
 - **Published:** 2025-11-12
 - **Priority:** 📈 Highly cited
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Carnegie Mellon University, Machine Learning Department, UC San Diego, University of California San Diego
 - **Categories:** cs.CV, cs.AI, cs.CL, cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2511.09057v4) · [PDF](https://arxiv.org/pdf/2511.09057v4)
 
@@ -566,9 +569,9 @@ Large Language Models (LLMs) excel as passive responders, but teaching them to b
 
 - **Authors:** Tongyi DeepResearch Team, Baixuan Li, Bo Zhang, Dingchu Zhang, Fei Huang, Guangyu Li, Guoxin Chen, Huifeng Yin, Jialong Wu, Jingren Zhou, Kuan Li, Liangcai Su, Litu Ou, Liwen Zhang, Pengjun Xie, Rui Ye, Wenbiao Yin, Xinmiao Yu, Xinyu Wang, Xixi Wu, Xuanzhong Chen, Yida Zhao, Zhen Zhang, Zhengwei Tao, Zhongwang Zhang, Zile Qiao, Chenxi Wang, Donglei Yu, Gang Fu, Haiyang Shen, Jiayin Yang, Jun Lin, Junkai Zhang, Kui Zeng, Li Yang, Hailong Yin, Maojia Song, Ming Yan, Minpeng Liao, Peng Xia, Qian Xiao, Rui Min, Ruixue Ding, Runnan Fang, Shaowei Chen, Shen Huang, Shihang Wang, Shihao Cai, Weizhou Shen, Xiaobin Wang, Xin Guan, Xinyu Geng, Yingcheng Shi, Yuning Wu, Zhuo Chen, Zijian Li, Yong Jiang
 - **Published:** 2025-10-28
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Alibaba Group, UNC-Chapel Hill
 - **Categories:** cs.CL, cs.AI, cs.IR, cs.LG, cs.MA
 - **Links:** [Paper](https://arxiv.org/abs/2510.24701v3) · [PDF](https://arxiv.org/pdf/2510.24701v3)
 

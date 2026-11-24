@@ -755,7 +755,7 @@ Critique-guided reinforcement learning (RL) has emerged as a powerful paradigm f
 - **Published:** 2026-01-10
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Harbin Institute of Technology (Shenzhen), Zhejiang University
 - **Categories:** cs.CL, cs.AI, cs.HC
 - **Links:** [Paper](https://arxiv.org/abs/2601.06676v3) · [PDF](https://arxiv.org/pdf/2601.06676v3)
 

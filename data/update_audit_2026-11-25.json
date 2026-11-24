@@ -1,0 +1,22 @@
+{
+  "updated_on": "2026-11-25",
+  "coverage_start": "2026-10-21T02:29:20.628748+08:00",
+  "coverage_end": "2026-11-25T02:26:21.960682+08:00",
+  "before_count": 2550,
+  "added_count": 743,
+  "total_count": 3293,
+  "new_topic_counts": {
+    "reinforcement-learning": 261,
+    "agent-llm-self-evolution": 285,
+    "llm-continual-training": 111,
+    "long-horizon-agent": 134
+  },
+  "new_top_conference_labels": 41,
+  "new_industry_labels": 5,
+  "metadata_note": "Semantic Scholar enrichment partially rate-limited (HTTP 429); absent affiliations/venues are not inferred. Acceptance first observed is not the actual acceptance date.",
+  "delivery_note": "Repository-only manual update. Notifications remain pending and last successful delivery cursor is preserved.",
+  "manual_memory_exclusions": 37,
+  "verified_affiliation_sources": {
+    "2611.30662": "https://arxiv.org/html/2611.30662v1"
+  }
+}

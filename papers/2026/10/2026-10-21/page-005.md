@@ -13,8 +13,8 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
-| 2026-10-04 | Long-Horizon Task Agents | [Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy](https://arxiv.org/abs/2610.05162v1) | — |
-| 2026-10-04 | Long-Horizon Task Agents | [PreAct-Nav: Agentic Reasoning Before Action for Urban Navigation](https://arxiv.org/abs/2610.04916v1) | — |
+| 2026-10-04 | Long-Horizon Task Agents | [Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy](https://arxiv.org/abs/2610.05162v2) | — |
+| 2026-10-04 | Long-Horizon Task Agents | [Visual Foresight for Agentic Reasoning Before Action in Urban Navigation](https://arxiv.org/abs/2610.04916v2) | — |
 | 2026-10-04 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [ForkPilot: Self-Evolving Policy for Retrospective Search in Long-Horizon Agents](https://arxiv.org/abs/2610.04889v1) | — |
 | 2026-10-03 | Long-Horizon Task Agents | [ROMA: LLM System for Real-World Object-Centric Multi-Sensory Active Perception](https://arxiv.org/abs/2610.06955v2) | — |
 | 2026-10-03 | Long-Horizon Task Agents | [Asynchrony Is Nearly Free for Evolution Strategies on Long-Horizon LLM Agentic Tasks](https://arxiv.org/abs/2610.04196v2) | — |
@@ -57,7 +57,7 @@
 | 2026-09-28 | Long-Horizon Task Agents | [SkillWeaver: Agentic Exploration over Neural Interaction Skills for Scalable Robot Data Generation](https://arxiv.org/abs/2609.36171v1) | — |
 | 2026-09-28 | Long-Horizon Task Agents | [AerialDojo-200K: A Large-Scale Benchmark Suite for Open-World Aerial Object-Goal Search](https://arxiv.org/abs/2609.36066v1) | — |
 | 2026-09-28 | Long-Horizon Task Agents | [AI Agent Swarms as Researchers: Progress, Challenges, and Open Questions](https://arxiv.org/abs/2609.35719v1) | — |
-| 2026-09-28 | Long-Horizon Task Agents | [SRHarness: A Harness for Agentic Symbolic Regression](https://arxiv.org/abs/2609.35501v1) | — |
+| 2026-09-28 | Long-Horizon Task Agents | [SRHarness: A Harness for Agentic Symbolic Regression](https://arxiv.org/abs/2609.35501v2) | — |
 | 2026-09-28 | Long-Horizon Task Agents | [GraphHCA: Closed-Form Hindsight Credit Assignment for Long-Horizon LLM Agents](https://arxiv.org/abs/2609.35084v1) | — |
 | 2026-09-28 | Long-Horizon Task Agents | [PDEU-Bench: Benchmarking the Personalized Planning Lifecycle of Tool-Calling LLM Agents](https://arxiv.org/abs/2609.34930v1) | — |
 | 2026-09-28 | Long-Horizon Task Agents | [CEO Arena: Evaluating Long-Horizon Multi-Agent Decision-Making in Competitive Markets](https://arxiv.org/abs/2609.34821v1) | — |
@@ -162,7 +162,7 @@ Adaptive LLM reinforcement-learning post-training changes multiple training actu
 
 ## Long-Horizon Task Agents
 
-### [Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy](https://arxiv.org/abs/2610.05162v1)
+### [Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy](https://arxiv.org/abs/2610.05162v2)
 
 - **Authors:** Ruqing Ning, Haibo Meng, Zhishang Xiang, Zerui Chen, Jinsong Su, Xin Wang, Qinggang Zhang
 - **Published:** 2026-10-04
@@ -170,11 +170,11 @@ Adaptive LLM reinforcement-learning post-training changes multiple training actu
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2610.05162v1) · [PDF](https://arxiv.org/pdf/2610.05162v1)
+- **Links:** [Paper](https://arxiv.org/abs/2610.05162v2) · [PDF](https://arxiv.org/pdf/2610.05162v2)
 
 Long-term memory enables LLM-based agents to retain and reuse information across tasks and sessions, supporting personalization and long-horizon interactions. However, persistent memories can also induce sycophancy, causing agents to over-align with users' historical beliefs even when they are inaccurate, outdated, or inconsistent with objective evidence. Existing mitigation methods assume that memory-induced sycophancy originates from biased or incorrect memories and attempt to reduce this risk by filtering such memories at different stages of the memory pipeline. However, in the real world, objective and correct memories can still induce sycophancy, and the same memory can warrant different influence across different contexts. To this end, we propose MemAdapter, a novel framework that adaptively integrates retrieved memories to support objective and reliable reasoning. Specifically, MemAdapter consists of three components: (i) Counterfactual Induction, which leverages counterfactual reasoning to uncover the potential risk of retrieved memories; (ii) Context-Aware Reflection, which calibrates the inferential influence of each retrieved memory in light of the current task via self-reflection; and (iii) Evidence-Based Reasoning, which grounds the final response in appropriate evidence while preserving the legitimate influence of memory. Extensive experiments on three benchmarks demonstrate that MemAdapter consistently improves memory reliability across diverse scenarios. Our code is available at https://github.com/DEEP-JLU/MemAdapter.
 
-### [PreAct-Nav: Agentic Reasoning Before Action for Urban Navigation](https://arxiv.org/abs/2610.04916v1)
+### [Visual Foresight for Agentic Reasoning Before Action in Urban Navigation](https://arxiv.org/abs/2610.04916v2)
 
 - **Authors:** Jing Xie, Shouwei Ruan, Yubin Wang, Yuxiang Zhang, Junwei Yang, Songchang Jin, Dianxi Shi
 - **Published:** 2026-10-04
@@ -182,9 +182,9 @@ Long-term memory enables LLM-based agents to retain and reuse information across
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.RO, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2610.04916v1) · [PDF](https://arxiv.org/pdf/2610.04916v1)
+- **Links:** [Paper](https://arxiv.org/abs/2610.04916v2) · [PDF](https://arxiv.org/pdf/2610.04916v2)
 
-Urban navigation requires embodied agents to pursue long-horizon goals through local decisions based on egocentric observations. However, existing agentic navigation methods often struggle to translate distant goals into coherent local decisions in large-scale physical environments. Their reliance on linguistic reasoning over transient observations or limited history constrains anticipation of the consequences of actions and future conditions, despite the importance of such foresight for navigating long and complex urban routes. To bridge this gap, we propose PreAct-Nav, an agentic navigation framework that equips frozen policies with anticipatory reasoning for robust urban navigation. Our central idea is to anchor local decisions in persistent medium-horizon subgoals, assess the consequences of predicted actions before execution, and continually update the reasoning context using actual outcomes. At its core, a navigation memory module maintains the active subgoal and relevant experience across decisions, translating distant goals into actionable intermediate objectives. We further introduce a predictive world sandbox that uses an action-conditioned world model (AC-WM) to forecast world dynamics conditioned on candidate movements. A vision-language model (VLM) reasoner interprets these predictions under the current subgoal to retain or revise actions. After execution, real observations are used to assess outcomes, correct inconsistent assumptions, and update memory to continue or reformulate the subgoal. Extensive evaluations demonstrate that the proposed PreAct-Nav improves action selection through memory updates and visual prediction, with more pronounced gains on longer routes and routes with more turns.
+Urban navigation requires embodied agents to pursue long-horizon goals through local decisions based on egocentric observations. However, existing agentic navigation methods often struggle to translate distant goals into coherent local decisions. Their reliance on linguistic reasoning over transient observations or limited history constrains anticipation of action consequences, despite the importance of such foresight for navigating long and complex urban routes. To bridge this gap, we propose PreAct-Nav, a training-free agentic navigation framework that equips frozen policies with visual foresight for reasoning before action. Our central idea is to use predicted future views to assess proposed actions in the context of persistent medium-horizon subgoals and observed experience. At its core, a navigation memory module maintains the active subgoal and relevant experience across decisions, translating distant goals into actionable intermediate objectives. To enable visual foresight, a predictive world sandbox uses an action-conditioned world model (AC-WM) to generate future views of proposed movements, providing visual cues for reasoning about their consequences beyond the current observation. A vision-language model (VLM) reasoner interprets these predictions using the subgoal and accumulated experience to retain or revise actions. After execution, real observations are used to assess outcomes, correct inconsistent assumptions, and update memory to continue or reformulate the subgoal. Extensive evaluations demonstrate that the proposed PreAct-Nav improves action selection through memory updates and visual prediction, with more pronounced gains on longer routes and routes with more turns.
 
 ### [ForkPilot: Self-Evolving Policy for Retrospective Search in Long-Horizon Agents](https://arxiv.org/abs/2610.04889v1)
 
@@ -666,7 +666,7 @@ Open-world aerial object-goal search is a foundational yet challenging task, req
 
 Artificial intelligence (AI) agents, language models connected to tools and run in a loop, can now carry out long, multi-step tasks with little supervision. We gave swarms of off-the-shelf coding agents a short statement of scope, from a narrow topic to a whole field, access to the literature and to computing tools, and one standing instruction: make real, correct, useful progress, and do not stop. We supplied no scientific ideas. Within weeks, the agents produced a large body of research notes, paper-length drafts, and formal proofs in five areas of optimization theory and physical science, and proposed untested laboratory experiments in a sixth. We do not claim that all of it is correct or new, but it is not noise: in what we have checked so far, we found no major scientific error, and several results are proved in a proof assistant. The agents produced results faster than we could review them; we estimate that a full review would take us months. Together with two widely discussed 2026 results in mathematics obtained with swarms, our runs suggest that agents can already do a large part of routine theoretical research, at least in areas that we experimented with. This raises questions we cannot yet answer: how to trust results when review, not production, is the scarce resource; what credit and publication counts mean when the human input is a prompt, and why institutions would pay researchers rather than buy computing time; and how people can learn a field, add to what agents do, and stay in control of research they cannot keep up with. Research institutions are not ready: models improve faster than institutions change, so they should decide now how to respond as capabilities increase. We offer tentative positions, release the agents' unedited output as of 25 September 2026, and invite readers to repeat the experiment in their own fields.
 
-### [SRHarness: A Harness for Agentic Symbolic Regression](https://arxiv.org/abs/2609.35501v1)
+### [SRHarness: A Harness for Agentic Symbolic Regression](https://arxiv.org/abs/2609.35501v2)
 
 - **Authors:** Zihan Yu, Shixuan Zhou, Hao Huang, Jingtao Ding, Yong Li
 - **Published:** 2026-09-28
@@ -674,7 +674,7 @@ Artificial intelligence (AI) agents, language models connected to tools and run 
 - **Venue:** arXiv
 - **Affiliations:** Tsinghua University
 - **Categories:** cs.AI, cs.LG, cs.SC
-- **Links:** [Paper](https://arxiv.org/abs/2609.35501v1) · [PDF](https://arxiv.org/pdf/2609.35501v1)
+- **Links:** [Paper](https://arxiv.org/abs/2609.35501v2) · [PDF](https://arxiv.org/pdf/2609.35501v2)
 
 Recent agentic symbolic regression approaches increasingly rely on large language models to analyze data, select scientific operations, and refine hypotheses over long search trajectories. In such systems, performance depends not only on the underlying model and search strategy, but also on the runtime infrastructure that supports scientific search. We introduce SRHarness, a domain-specific harness for agentic symbolic regression built around three mechanisms: composable scientific actions that provide a common interface over raw, transformed, and candidate-derived quantities; persistent scientific state that retains evaluated hypotheses and exposes compact model-facing views; and trajectory lifecycle management that coordinates continuation, branching, restart, and termination. On LLM-SRBench, SRHarness consistently improves both numerical generalization and symbolic recovery under matched LLM backbones. With DeepSeek-v4-flash-0731, it achieves 93.69% symbolic accuracy on LSR-Transform, compared with 62.16% for SR-Scientist, and retains 72.97% accuracy on an anonymized variant that removes scientific descriptions and variable semantics, versus 39.64% for SR-Scientist. Under the same DeepSeek-v4-flash-0731 backbone, SRHarness also substantially outperforms Codex (72.97% vs. 20.72%) and reaches performance comparable to Codex with GPT-5.5, while simply providing Codex with the same scientific tools does not reproduce this advantage. These results show that effective agentic symbolic regression depends not only on models or tools, but also on structured runtime support for organizing scientific actions, accumulated hypotheses, and long-horizon search.
 

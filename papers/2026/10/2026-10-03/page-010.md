@@ -50,7 +50,7 @@
 | 2026-08-13 | Agent/LLM Self-Improvement | [Practice Makes Unsafe: Skill Misevolution in Self-Improving LLM Agents](https://arxiv.org/abs/2608.12851v1) | — |
 | 2026-08-13 | Agent/LLM Self-Improvement | [Spatial Memory Agent: Experience-Grounded Procedural Memory for Spatial Intelligence](https://arxiv.org/abs/2608.12743v3) | — |
 | 2026-08-12 | Agent/LLM Self-Improvement | [AVA-Encoder: Towards Agent-Native Video Representation Learning](https://arxiv.org/abs/2608.12313v2) | — |
-| 2026-08-12 | Agent/LLM Self-Improvement | [Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence](https://arxiv.org/abs/2608.12290v1) | — |
+| 2026-08-12 | Agent/LLM Self-Improvement | [Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence](https://arxiv.org/abs/2608.12290v2) | — |
 | 2026-08-12 | Agent/LLM Self-Improvement | [MindMemOS: A Portable and Self-Evolving Memory Operating Layer for AI Agents](https://arxiv.org/abs/2608.12428v1) | — |
 | 2026-08-12 | LLM Continual Training | [TELLME: Test-Enhanced Learning for Language Model Enrichment](https://arxiv.org/abs/2608.11788v1) | — |
 | 2026-08-12 | LLM Continual Training | [Luna-TTS Family Technical Report](https://arxiv.org/abs/2608.11593v1) | — |
@@ -362,7 +362,7 @@ Spatial intelligence is becoming a foundation for embodied agents, robotic plann
 
 Video creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipulation. To address the challenge, we propose the Agentic Video Auto-Encoder (AVA-Encoder), a novel auto-encoding framework driven by agentic self-evolution to learn agent-native video representations. AVA-Encoder transforms a video into a Film Knowledge Graph (KG) representation and then reconstructs it back into video. This Film KG representation explicitly captures entities, events, assets, and their multimodal relationships in a structured form that can be easily understood, queried, and manipulated by agents. The reconstruction residual drives a dual-loop textual-gradient optimization framework that jointly improves the Film KG representation and the Agentic Video Encoder. Extensive experiments show that AVA-Encoder achieves a 20.7-percentage-point absolute gain, or a 73.1% relative improvement, over the strongest external baseline. In the controlled policy-only setting, its pseudo-trained Agentic Video Encoder policy also outperforms a carefully human-tuned policy while using 74.3% fewer shot-level and 70.1% fewer keyframe-level system-prompt tokens. We release the complete AVA-Encoder framework, a reliable agentic video reconstruction benchmark, and the first dataset of high-quality Film KG representations.
 
-### [Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence](https://arxiv.org/abs/2608.12290v1)
+### [Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence](https://arxiv.org/abs/2608.12290v2)
 
 - **Authors:** Aman Tyagi, Hemanth Boinpally, Jonathan Chen, Douglas Gebert, Steven Hickson
 - **Published:** 2026-08-12
@@ -370,7 +370,7 @@ Video creative agents still lack an effective way to learn from high-quality hum
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.CV, cs.AI, cs.MM
-- **Links:** [Paper](https://arxiv.org/abs/2608.12290v1) · [PDF](https://arxiv.org/pdf/2608.12290v1)
+- **Links:** [Paper](https://arxiv.org/abs/2608.12290v2) · [PDF](https://arxiv.org/pdf/2608.12290v2)
 
 Modern black-box Image-to-Video (I2V) models offer powerful capabilities in automated content creation, yet their lack of fine-grained control and reliability presents significant challenges in professional workflows. Their inherent stochasticity causes minor variations in textual prompts or hyperparameters to yield drastically different outputs often necessitating inefficient, brute-force trial-and-error processes. To address these limitations, we introduce the ``Agentic Self-Improvement" framework, which reframes video synthesis into a closed-loop, goal-directed optimization. Our framework systematically navigates the generation parameter space using a novel two-stage approach. In the first stage, an iterative prompt optimization loop uses a multimodal Large Language Model (mLLM) to refine the input prompt. This refinement implements two automated evaluations: Davidsonian Scene Graph (DSG) queries ensure semantic adherence, and Common Mistake Questions (CMQ) for artifact detection. At the second stage, we use Bayesian optimization to efficiently co-optimize stochastic seeds and CFG scales. This search is guided by a suite of quality metrics, including the novel Video-Text Adherence (VTA) score derived from the DSG and CMQ evaluations. Our framework significantly outperforms unguided search methods: in human preference studies, videos generated via our agentic approach were strongly preferred over baseline outputs, achieving win rates up to 69\%. This work provides a practical and extensible methodology for enhancing the predictability and control of state-of-the-art video generation models, moving the field beyond speculative curiosities toward reliable, production-ready tools.
 

@@ -2,7 +2,7 @@
 
 [← Back to main index](../../../README.md)
 
-> 31 unique papers · Agent/LLM Self-Improvement 4 · Continual Training 3 · Reinforcement Learning 4 · Long-Horizon 24
+> 33 unique papers · Agent/LLM Self-Improvement 5 · Continual Training 3 · Reinforcement Learning 6 · Long-Horizon 24
 
 | Date | Track | Paper | Venue | Signals | Metrics |
 | --- | --- | --- | --- | --- | --- |
@@ -11,6 +11,7 @@
 | 2025-08-28 | Long-Horizon Task Agents | [MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers](https://arxiv.org/abs/2508.20453v1)<br>[PDF](https://arxiv.org/pdf/2508.20453v1) | arXiv.org | 📈 Highly cited | Citations: 122 (Semantic Scholar) |
 | 2025-08-27 | Long-Horizon Task Agents | [Secure Multi-LLM Agentic AI and Agentification for Edge General Intelligence by Zero-Trust: A Survey](https://arxiv.org/abs/2508.19870v1)<br>[PDF](https://arxiv.org/pdf/2508.19870v1) | arXiv.org | 📈 Highly cited | Citations: 30 (Semantic Scholar) |
 | 2025-08-27 | Reinforcement Learning<br>Long-Horizon Task Agents | [Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning](https://arxiv.org/abs/2508.19828v5)<br>[PDF](https://arxiv.org/pdf/2508.19828v5) | arXiv | — | — |
+| 2025-08-27 | Agent/LLM Self-Improvement<br>Reinforcement Learning | [ReST-RL: Reinforcing LLM Reasoning through Unified Self-Training and Value-Guided Search](https://arxiv.org/abs/2508.19576v4)<br>[PDF](https://arxiv.org/pdf/2508.19576v4) | NeurIPS 2026 | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | Citations: 7 (Semantic Scholar) |
 | 2025-08-27 | Agent/LLM Self-Improvement<br>Long-Horizon Task Agents | [Learning Game-Playing Agents with Generative Code Optimization](https://arxiv.org/abs/2508.19506v1)<br>[PDF](https://arxiv.org/pdf/2508.19506v1) | arXiv.org | — | Citations: 9 (Semantic Scholar) |
 | 2025-08-26 | Long-Horizon Task Agents | [HiPlan: Hierarchical Planning for LLM-Based Agents with Adaptive Global-Local Guidance](https://arxiv.org/abs/2508.19076v1)<br>[PDF](https://arxiv.org/pdf/2508.19076v1) | arXiv.org | 📈 Highly cited | Citations: 14 (Semantic Scholar) |
 | 2025-08-25 | Long-Horizon Task Agents | [The AI in the Mirror: LLM Self-Recognition in an Iterated Public Goods Game](https://arxiv.org/abs/2508.18467v1)<br>[PDF](https://arxiv.org/pdf/2508.18467v1) | arXiv.org | — | Citations: 1 (Semantic Scholar) |
@@ -30,12 +31,13 @@
 | 2025-08-07 | Long-Horizon Task Agents | [Mixed-Initiative Dialog for Human-Robot Collaborative Manipulation](https://arxiv.org/abs/2508.05535v2)<br>[PDF](https://arxiv.org/pdf/2508.05535v2) | arXiv | — | — |
 | 2025-08-06 | Long-Horizon Task Agents | [There are Levels to It: Red Teaming Dialogue With Hierarchical Reinforcement Learning](https://arxiv.org/abs/2508.04451v2)<br>[PDF](https://arxiv.org/pdf/2508.04451v2) | arXiv.org | — | Citations: 6 (Semantic Scholar) |
 | 2025-08-06 | LLM Continual Training | [Continual Learning for VLMs: A Survey and Taxonomy Beyond Forgetting](https://arxiv.org/abs/2508.04227v3)<br>[PDF](https://arxiv.org/pdf/2508.04227v3) | arXiv.org | 📈 Highly cited | Citations: 22 (Semantic Scholar) |
-| 2025-08-06 | Agent/LLM Self-Improvement<br>Long-Horizon Task Agents | [Evolving in Tasks: Empowering the Multi-modality Large Language Model as the Computer Use Agent](https://arxiv.org/abs/2508.04037v2)<br>[PDF](https://arxiv.org/pdf/2508.04037v2) | arXiv | — | — |
-| 2025-08-06 | Long-Horizon Task Agents | [VeriWeb: Verifiable Long-Chain Web Benchmark for Agentic Information-Seeking](https://arxiv.org/abs/2508.04026v2)<br>[PDF](https://arxiv.org/pdf/2508.04026v2) | arXiv | — | — |
+| 2025-08-06 | Agent/LLM Self-Improvement<br>Long-Horizon Task Agents | [Evolving in Tasks: Empowering the Multi-modality Large Language Model as the Computer Use Agent](https://arxiv.org/abs/2508.04037v2)<br>[PDF](https://arxiv.org/pdf/2508.04037v2) | arXiv | 📈 Highly cited | Citations: 10 (Semantic Scholar) |
+| 2025-08-06 | Long-Horizon Task Agents | [VeriWeb: Verifiable Long-Chain Web Benchmark for Agentic Information-Seeking](https://arxiv.org/abs/2508.04026v2)<br>[PDF](https://arxiv.org/pdf/2508.04026v2) | arXiv | 📈 Highly cited | Citations: 11 (Semantic Scholar) |
 | 2025-08-05 | Long-Horizon Task Agents | [CookBench: A Long-Horizon Embodied Planning Benchmark for Complex Cooking Scenarios](https://arxiv.org/abs/2508.03232v1)<br>[PDF](https://arxiv.org/pdf/2508.03232v1) | arXiv.org | 📈 Highly cited | Citations: 13 (Semantic Scholar) |
-| 2025-08-04 | Reinforcement Learning | [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v7)<br>[PDF](https://arxiv.org/pdf/2508.02833v7) | arXiv | 📈 Highly cited | Citations: 12 (Semantic Scholar) |
+| 2025-08-04 | Reinforcement Learning | [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v8)<br>[PDF](https://arxiv.org/pdf/2508.02833v8) | arXiv | 📈 Highly cited | Citations: 12 (Semantic Scholar) |
+| 2025-08-04 | Reinforcement Learning | [CRINN: Contrastive Reinforcement Learning for Approximate Nearest Neighbor Search](https://arxiv.org/abs/2508.02091v5)<br>[PDF](https://arxiv.org/pdf/2508.02091v5) | arXiv | — | — |
 | 2025-08-02 | Long-Horizon Task Agents | [NaturalGAIA: A Verifiable Benchmark and Hierarchical Framework for Long-Horizon GUI Tasks](https://arxiv.org/abs/2508.01330v4)<br>[PDF](https://arxiv.org/pdf/2508.01330v4) | arXiv | — | — |
-| 2025-08-01 | Long-Horizon Task Agents | [ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction](https://arxiv.org/abs/2508.00500v4)<br>[PDF](https://arxiv.org/pdf/2508.00500v4) | arXiv | — | — |
+| 2025-08-01 | Long-Horizon Task Agents | [ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction](https://arxiv.org/abs/2508.00500v4)<br>[PDF](https://arxiv.org/pdf/2508.00500v4) | Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering | 📈 Highly cited | Citations: 43 (Semantic Scholar) |
 | 2025-08-01 | Reinforcement Learning<br>Long-Horizon Task Agents | [PilotRL: Training Language Model Agents via Global Planning-Guided Progressive Reinforcement Learning](https://arxiv.org/abs/2508.00344v5)<br>[PDF](https://arxiv.org/pdf/2508.00344v5) | arXiv | — | — |
 
 ## Notes

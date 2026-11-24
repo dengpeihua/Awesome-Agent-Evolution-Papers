@@ -52,7 +52,7 @@
 | [VideoCAD: A Dataset and Model for Learning Long-Horizon 3D CAD UI Interactions from Video](https://arxiv.org/abs/2505.24838v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [3DLLM-Mem: Long-Term Spatial-Temporal Memory for Embodied 3D Large Language Model](https://arxiv.org/abs/2505.22657v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Reinforced Reasoning for Embodied Planning](https://arxiv.org/abs/2505.22050v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [Divide and Conquer: Grounding LLMs as Efficient Decision-Making Agents via Offline Hierarchical Reinforcement Learning](https://arxiv.org/abs/2505.19761v1) | 🏆 CCF-A: ICML 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted by ICML 2025, 21 pages |
+| [Divide and Conquer: Grounding LLMs as Efficient Decision-Making Agents via Offline Hierarchical Reinforcement Learning](https://arxiv.org/abs/2505.19761v1) | 🏆 CCF-A: ICML 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted by ICML 2025, 21 pages<br>The Hong Kong University of Science and Technology |
 | [Single-agent or Multi-agent Systems? Why Not Both?](https://arxiv.org/abs/2505.18286v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Planning without Search: Refining Frontier LLMs with Offline Goal-Conditioned RL](https://arxiv.org/abs/2505.18098v2) | 📈 Highly cited<br>🏆 CCF-A: NeurIPS 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Published at NeurIPS 2025; 18 pages, 4 figures, 2 tables |
 | [Get Experience from Practice: LLM Agents with Record & Replay](https://arxiv.org/abs/2505.17716v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
@@ -61,7 +61,7 @@
 | [Web-Shepherd: Advancing PRMs for Reinforcing Web Agents](https://arxiv.org/abs/2505.15277v2) | 📈 Highly cited<br>🏆 CCF-A: NeurIPS 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: NeurIPS 2025 Spotlight |
 | [Guided Search Strategies in Non-Serializable Environments with Applications to Software Engineering Agents](https://arxiv.org/abs/2505.13652v1) | 📈 Highly cited<br>🏆 CCF-A: International Conference on Machine Learning<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Semantic Scholar publication metadata: International Conference on Machine Learning |
 | [Reinforcing Multi-Turn Reasoning in LLM Agents via Fine-Grained Reward Structure and Credit Assignment](https://arxiv.org/abs/2505.11821v3) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [Group-in-Group Policy Optimization for LLM Agent Training](https://arxiv.org/abs/2505.10978v3) | 📈 Highly cited<br>🏆 CCF-A: NeurIPS 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: Published at NeurIPS 2025: https://papers.nips.cc/paper_files/paper/2025/file/420c9f777c0b4f78d515e53cf74d58b2-Paper-Conference.pdf<br>First author: Nanyang Technological University (https://openreview.net/pdf?id=QXEhBMNrCW) |
+| [Group-in-Group Policy Optimization for LLM Agent Training](https://arxiv.org/abs/2505.10978v3) | 📈 Highly cited<br>🏆 CCF-A: NeurIPS 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: verified evidence: Published at NeurIPS 2025: https://papers.nips.cc/paper_files/paper/2025/file/420c9f777c0b4f78d515e53cf74d58b2-Paper-Con<br>First author: Nanyang Technological University (https://openreview.net/pdf?id=QXEhBMNrCW) |
 | [AutoPentest: Enhancing Vulnerability Management With Autonomous LLM Agents](https://arxiv.org/abs/2505.10321v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering](https://arxiv.org/abs/2505.07782v1) | 📈 Highly cited | Georgia Institute of Technology |
 
@@ -111,7 +111,7 @@ We address the long-horizon gap in large language model (LLM) agents by enabling
 - **Published:** 2025-05-26
 - **Priority:** 🏆 CCF-A: ICML 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
 - **Venue:** ICML 2025
-- **Affiliations:** n/a
+- **Affiliations:** The Hong Kong University of Science and Technology
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2505.19761v1) · [PDF](https://arxiv.org/pdf/2505.19761v1)
 
@@ -137,7 +137,7 @@ Embodied planning requires agents to make coherent multi-step decisions based on
 - **Published:** 2025-05-26
 - **Priority:** 🏆 CCF-A: ICML 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
 - **Venue:** ICML 2025
-- **Affiliations:** n/a
+- **Affiliations:** The Hong Kong University of Science and Technology
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2505.19761v1) · [PDF](https://arxiv.org/pdf/2505.19761v1)
 
@@ -343,7 +343,7 @@ Large language models (LLMs) have exhibited extraordinary performance in a varie
 - **Published:** 2025-05-26
 - **Priority:** 🏆 CCF-A: ICML 2025<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified)
 - **Venue:** ICML 2025
-- **Affiliations:** n/a
+- **Affiliations:** The Hong Kong University of Science and Technology
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2505.19761v1) · [PDF](https://arxiv.org/pdf/2505.19761v1)
 

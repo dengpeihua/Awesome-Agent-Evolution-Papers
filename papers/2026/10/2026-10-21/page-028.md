@@ -35,7 +35,7 @@
 | 2025-09-16 | Reinforcement Learning, Long-Horizon Task Agents | [Tool-R1: Sample-Efficient Reinforcement Learning for Agentic Tool Use](https://arxiv.org/abs/2509.12867v1) | 📈 Highly cited |
 | 2025-09-14 | Long-Horizon Task Agents | [Text2Mem: A Unified Memory Operation Language for Memory Operating System](https://arxiv.org/abs/2509.11145v2) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) |
 | 2025-09-12 | Reinforcement Learning, Long-Horizon Task Agents | [DeepDive: Advancing Deep Search Agents with Knowledge Graphs and Multi-Turn RL](https://arxiv.org/abs/2509.10446v2) | 📈 Highly cited |
-| 2025-09-12 | Long-Horizon Task Agents | [QuantHarness: Price-Driven Multi-Agent LLMs for High-Frequency Trading](https://arxiv.org/abs/2509.09995v4) | — |
+| 2025-09-12 | Long-Horizon Task Agents | [QuantHarness: Price-Driven Multi-Agent LLMs for High-Frequency Trading](https://arxiv.org/abs/2509.09995v4) | 📈 Highly cited |
 | 2025-09-11 | Long-Horizon Task Agents | [Harnessing Uncertainty: Entropy-Modulated Policy Gradients for Long-Horizon LLM Agents](https://arxiv.org/abs/2509.09265v1) | 📈 Highly cited |
 | 2025-09-10 | Reinforcement Learning, Long-Horizon Task Agents | [AgentGym-RL: Training LLM Agents for Long-Horizon Decision Making through Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2509.08755v1) | 📈 Highly cited |
 | 2025-09-10 | Long-Horizon Task Agents | [Architecting Resilient LLM Agents: A Guide to Secure Plan-then-Execute Implementations](https://arxiv.org/abs/2509.08646v1) | 📈 Highly cited |
@@ -77,6 +77,7 @@
 | [Tool-R1: Sample-Efficient Reinforcement Learning for Agentic Tool Use](https://arxiv.org/abs/2509.12867v1) | 📈 Highly cited | First author: Harbin Institute of Technology (Semantic Scholar author profiles) |
 | [Text2Mem: A Unified Memory Operation Language for Memory Operating System](https://arxiv.org/abs/2509.11145v2) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
 | [DeepDive: Advancing Deep Search Agents with Knowledge Graphs and Multi-Turn RL](https://arxiv.org/abs/2509.10446v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [QuantHarness: Price-Driven Multi-Agent LLMs for High-Frequency Trading](https://arxiv.org/abs/2509.09995v4) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Harnessing Uncertainty: Entropy-Modulated Policy Gradients for Long-Horizon LLM Agents](https://arxiv.org/abs/2509.09265v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [AgentGym-RL: Training LLM Agents for Long-Horizon Decision Making through Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2509.08755v1) | 📈 Highly cited | Fudan University |
 | [Architecting Resilient LLM Agents: A Guide to Secure Plan-then-Execute Implementations](https://arxiv.org/abs/2509.08646v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
@@ -496,7 +497,7 @@ Augmenting large language models (LLMs) with browsing tools substantially improv
 
 - **Authors:** Fei Xiong, Xiang Zhang, Aosong Feng, Siqi Sun, Chenyu You
 - **Published:** 2025-09-12
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.CE

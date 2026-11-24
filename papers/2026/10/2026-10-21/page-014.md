@@ -13,7 +13,7 @@
 
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
-| 2026-06-16 | Long-Horizon Task Agents | [Guava: Distilling Frontier VLMs into a Compact Agent through a Robotic Manipulation Harness](https://arxiv.org/abs/2606.18363v3) | — |
+| 2026-06-16 | Long-Horizon Task Agents | [Guava: Distilling Frontier VLMs into a Compact Agent through a Robotic Manipulation Harness](https://arxiv.org/abs/2606.18363v3) | 📈 Highly cited |
 | 2026-06-16 | Long-Horizon Task Agents | [LongWebBench: Evaluating Structural and Functional Webpage Generation in Long-Horizon Settings](https://arxiv.org/abs/2606.17727v1) | — |
 | 2026-06-16 | Long-Horizon Task Agents | [EComAgentBench: Benchmarking Shopping Agents on Long-Horizon Tasks with Distributed Hidden Intent](https://arxiv.org/abs/2606.17698v3) | — |
 | 2026-06-16 | Reinforcement Learning, Long-Horizon Task Agents | [EnvRL: Learn from Environment Dynamics in Agentic Reinforcement Learning](https://arxiv.org/abs/2606.17680v1) | — |
@@ -68,6 +68,7 @@
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [Guava: Distilling Frontier VLMs into a Compact Agent through a Robotic Manipulation Harness](https://arxiv.org/abs/2606.18363v3) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Efficient Skill Grounding via Code Refactoring with Small Language Models](https://arxiv.org/abs/2606.07999v1) | 🏆 CCF-A: ICML 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted to ICML 2026 |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
@@ -178,7 +179,7 @@ Understanding customer shopping trajectories is essential for enabling personali
 
 - **Authors:** Haowen Liu, Xirui Li, Shaoxiong Yao, Peng Shi, Tianyi Zhou, Jia-Bin Huang, Furong Huang, Jiayuan Mao
 - **Published:** 2026-06-16
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.RO, cs.AI

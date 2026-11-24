@@ -25,7 +25,7 @@
 | 2026-02-20 | Long-Horizon Task Agents | [Alignment in Time: Peak-Aware Orchestration for Long-Horizon Agentic Systems](https://arxiv.org/abs/2602.17910v1) | — |
 | 2026-02-19 | Long-Horizon Task Agents | [KLong: Training LLM Agent for Extremely Long-horizon Tasks](https://arxiv.org/abs/2602.17547v3) | — |
 | 2026-02-18 | Long-Horizon Task Agents | [AgentLAB: Benchmarking LLM Agents against Long-Horizon Attacks](https://arxiv.org/abs/2602.16901v1) | — |
-| 2026-02-18 | Long-Horizon Task Agents | [TabAgent: A Framework for Replacing Agentic Generative Components with Tabular-Textual Classifiers](https://arxiv.org/abs/2602.16429v1) | — |
+| 2026-02-18 | Long-Horizon Task Agents | [TabAgent: Distilling LLM Agent Components into Cheap Classifiers](https://arxiv.org/abs/2602.16429v3) | — |
 | 2026-02-18 | Reinforcement Learning, Long-Horizon Task Agents | [HiPER: Hierarchical Reinforcement Learning with Explicit Credit Assignment for Large Language Model Agents](https://arxiv.org/abs/2602.16165v2) | — |
 | 2026-02-17 | Long-Horizon Task Agents | [What Are You Doing? Effects of Intermediate Feedback from Agentic LLM In-Car Assistants During Multi-Step Processing](https://arxiv.org/abs/2602.15569v2) | — |
 | 2026-02-17 | Long-Horizon Task Agents | [HIMM: Human-Inspired Long-Term Memory Modeling for Embodied Exploration and Question Answering](https://arxiv.org/abs/2602.15513v2) | — |
@@ -319,15 +319,15 @@ This paper introduces KLong, an open-source LLM agent trained to solve extremely
 
 LLM agents are increasingly deployed in long-horizon, complex environments to solve challenging problems, but this expansion exposes them to long-horizon attacks that exploit multi-turn user-agent-environment interactions to achieve objectives infeasible in single-turn settings. To measure agent vulnerabilities to such risks, we present AgentLAB, the first benchmark dedicated to evaluating LLM agent susceptibility to adaptive, long-horizon attacks. Currently, AgentLAB supports five novel attack types including intent hijacking, tool chaining, task injection, objective drifting, and memory poisoning, spanning 28 realistic agentic environments, and 644 security test cases. Leveraging AgentLAB, we evaluate representative LLM agents and find that they remain highly susceptible to long-horizon attacks; moreover, defenses designed for single-turn interactions fail to reliably mitigate long-horizon threats. We anticipate that AgentLAB will serve as a valuable benchmark for tracking progress on securing LLM agents in practical settings. The benchmark is publicly available at https://tanqiujiang.github.io/AgentLAB_main.
 
-### [TabAgent: A Framework for Replacing Agentic Generative Components with Tabular-Textual Classifiers](https://arxiv.org/abs/2602.16429v1)
+### [TabAgent: Distilling LLM Agent Components into Cheap Classifiers](https://arxiv.org/abs/2602.16429v3)
 
-- **Authors:** Ido Levy, Eilam Shapira, Yinon Goldshtein, Avi Yaeli, Nir Mashkif, Segev Shlomov
+- **Authors:** Ido Levy, Segev Shlomov, Avi Yaeli, Nir Mashkif, Asaf Adi, Yinon Goldshtein, Eilam Shapira, Leshem Choshen
 - **Published:** 2026-02-18
 - **Priority:** —
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2602.16429v1) · [PDF](https://arxiv.org/pdf/2602.16429v1)
+- **Links:** [Paper](https://arxiv.org/abs/2602.16429v3) · [PDF](https://arxiv.org/pdf/2602.16429v3)
 
 Agentic systems, AI architectures that autonomously execute multi-step workflows to achieve complex goals, are often built using repeated large language model (LLM) calls for closed-set decision tasks such as routing, shortlisting, gating, and verification. While convenient, this design makes deployments slow and expensive due to cumulative latency and token usage. We propose TabAgent, a framework for replacing generative decision components in closed-set selection tasks with a compact textual-tabular classifier trained on execution traces. TabAgent (i) extracts structured schema, state, and dependency features from trajectories (TabSchema), (ii) augments coverage with schema-aligned synthetic supervision (TabSynth), and (iii) scores candidates with a lightweight classifier (TabHead). On the long-horizon AppWorld benchmark, TabAgent maintains task-level success while eliminating shortlist-time LLM calls, reducing latency by approximately 95% and inference cost by 85-91%. Beyond tool shortlisting, TabAgent generalizes to other agentic decision heads, establishing a paradigm for learned discriminative replacements of generative bottlenecks in production agent architectures.
 

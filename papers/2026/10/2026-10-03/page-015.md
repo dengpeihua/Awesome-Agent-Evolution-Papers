@@ -17,7 +17,7 @@
 | 2026-05-15 | Reinforcement Learning | [ReAlign: Generalizable Image Forgery Detection via Reasoning-Aligned Representation](https://arxiv.org/abs/2605.16080v3) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-05-14 | Reinforcement Learning | [COLLATOR: Compositional Multi-Agent Orchestration with Counterfactual Reinforcement Learning](https://arxiv.org/abs/2605.14483v2) | — |
 | 2026-05-14 | Reinforcement Learning | [Diagnosing Training Inference Mismatch in LLM Reinforcement Learning via a Zero-Mismatch Reference](https://arxiv.org/abs/2605.14220v2) | — |
-| 2026-05-14 | Agent/LLM Self-Improvement | [ASH: Agents that Self-Hone in Long-Horizon Worlds](https://arxiv.org/abs/2605.14211v4) | — |
+| 2026-05-14 | Agent/LLM Self-Improvement | [ASH: Agents that Self-Hone in Long-Horizon Worlds](https://arxiv.org/abs/2605.14211v7) | — |
 | 2026-05-13 | Reinforcement Learning | [Revisiting Reinforcement Learning with Verifiable Rewards from a Contrastive Perspective](https://arxiv.org/abs/2605.12969v5) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
 | 2026-05-12 | Agent/LLM Self-Improvement | [Optimized but Unowned: How AI-Authored Goals Undermine the Motivation They Are Meant to Drive](https://arxiv.org/abs/2605.12344v3) | — |
 | 2026-05-12 | Reinforcement Learning | [Missing Old Logits in Asynchronous Agentic RL: Semantic Mismatch and Repair Methods for Off-Policy Correction](https://arxiv.org/abs/2605.12070v3) | — |
@@ -50,7 +50,7 @@
 | 2026-05-04 | LLM Continual Training | [Anon: Extrapolating Adaptivity Beyond SGD and Adam](https://arxiv.org/abs/2605.02317v3) | — |
 | 2026-05-02 | LLM Continual Training | [Valley3: Scaling Omni Foundation Models for E-commerce](https://arxiv.org/abs/2605.01278v3) | — |
 | 2026-04-29 | Agent/LLM Self-Improvement | [Discovering physical mechanisms from experiment-simulation mismatches](https://arxiv.org/abs/2604.26703v2) | — |
-| 2026-04-23 | Agent/LLM Self-Improvement | [AEL: Evolving Agent Harness in Open-Ended Environments](https://arxiv.org/abs/2604.21725v2) | — |
+| 2026-04-23 | Agent/LLM Self-Improvement | [AEL: Evolving Agent Harness in Open-Ended Environments](https://arxiv.org/abs/2604.21725v2) | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) |
 | 2026-04-22 | Agent/LLM Self-Improvement | [Learning to Evolve: A Self-Improving Framework for Multi-Agent Systems via Textual Parameter Graph Optimization](https://arxiv.org/abs/2604.20714) | — |
 | 2026-04-20 | Agent/LLM Self-Improvement, LLM Continual Training, Reinforcement Learning | [OpenGame: Open Agentic Coding for Games](https://arxiv.org/abs/2604.18394v2) | 📈 Highly cited |
 | 2026-04-20 | Agent/LLM Self-Improvement, LLM Continual Training | [Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence](https://arxiv.org/abs/2604.18292) | 📈 Highly cited<br>🏢 Industry: ByteDance |
@@ -72,6 +72,7 @@
 | [Revisiting Reinforcement Learning with Verifiable Rewards from a Contrastive Perspective](https://arxiv.org/abs/2605.12969v5) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted by EMNLP 2026 Main Conference |
 | [Your Language Model is Its Own Critic: Reinforcement Learning with Value Estimation from Actor's Internal States](https://arxiv.org/abs/2605.07579v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026; Project Page: https://elijah0430.github.io/poise/ |
 | [Tools as Continuous Flow for Evolving Agentic Reasoning](https://arxiv.org/abs/2605.07339v3) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-21 (actual acceptance date unverified) | arXiv comment: Accepted by NeurIPS 2026 |
+| [AEL: Evolving Agent Harness in Open-Ended Environments](https://arxiv.org/abs/2604.21725v2) | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | Semantic Scholar publication metadata: Conference on Empirical Methods in Natural Language Processing |
 | [OpenGame: Open Agentic Coding for Games](https://arxiv.org/abs/2604.18394v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence](https://arxiv.org/abs/2604.18292) | 📈 Highly cited<br>🏢 Industry: ByteDance | First author: Gaoling School of Artificial Intelligence, Renmin University of China (Official arXiv HTML and project page) |
 | [Towards Self-Improving Error Diagnosis in Multi-Agent Systems](https://arxiv.org/abs/2604.17658) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
@@ -92,7 +93,7 @@
 
 Equipping LLM agents with reusable skills derived from past experience has become a popular and successful approach for tackling complex and long-horizon tasks. However, such lessons are often encoded as textual guidance that remains largely advisory, lacking explicit mechanisms for when and how to intervene in the agent loop. To bridge the gap, we introduce HASP(Harnessing LLM Agents with Skill Programs), a new framework that upgrades skills into executable Program Functions (PFs). Rather than offering passive advice, PFs act as executable guardrails that activate on failure-prone states and modify the next action or inject corrective context. HASP is highly modular: it can be applied at inference time for direct agent-loop intervention, during post-training to provide structured supervision, or for self-improvement by evolving validated, teacher-reviewed PFs. Empirically, HASP drives substantial gains compared to both training-free and training-based methods on web-search, math reasoning, and coding tasks. For example, on web-search reasoning, inference-time PFs alone improve the average performance by 25% compared to (multi-loop) ReAct Agent, while post-training and controlled evolution achieve a 30.4% gain over Search-R1. To provide deeper insights into HASP, our mechanism analysis reveals how PFs trigger and intervene, how skills are internalized, and the requirement for stable skill library evolution.
 
-### [ASH: Agents that Self-Hone in Long-Horizon Worlds](https://arxiv.org/abs/2605.14211v4)
+### [ASH: Agents that Self-Hone in Long-Horizon Worlds](https://arxiv.org/abs/2605.14211v7)
 
 - **Authors:** Benjamin Schneider, Xavier Schneider, Victor Zhong, Sun Sun
 - **Published:** 2026-05-14
@@ -100,9 +101,9 @@ Equipping LLM agents with reusable skills derived from past experience has becom
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI, cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2605.14211v4) · [PDF](https://arxiv.org/pdf/2605.14211v4)
+- **Links:** [Paper](https://arxiv.org/abs/2605.14211v7) · [PDF](https://arxiv.org/pdf/2605.14211v7)
 
-Long-horizon visuomotor tasks remain a fundamental challenge in AI, as current methods rely on hand-engineered rewards or action-labeled demonstrations, neither of which scales. We introduce ASH, an agentic system that learns a long-horizon policy from unlabeled, noisy internet video, without reward shaping or expert annotation. ASH follows a self-improvement loop; when it gets stuck, ASH learns an Inverse Dynamics Model (IDM) from its own trajectories, and uses its IDM to extract supervision from relevant internet video. ASH uses unsupervised learning to identify key moments from large-scale internet video and retains them as long-term memory - allowing it to tackle long-horizon problems. We evaluate ASH on two complementary environments demanding multi-hour planning: Pokemon Emerald, a turn-based RPG, and The Legend of Zelda: The Minish Cap, a real-time action-adventure game. In both games, behavioral cloning, retrieval-augmented and zero-shot foundation-model baselines plateau, while ASH sustains progression across our 8-hour evaluation. ASH reaches an average of 11.2/12 milestones in Pokemon Emerald and 9.9/12 in Legend of Zelda, while the strongest baseline gets stuck in both environments at an average of 9.3/12 and 7.8/12 milestones, respectively. We demonstrate that self-improving agents are a scalable recipe for learning in long-horizon worlds.
+Long-horizon visuomotor tasks remain a fundamental challenge in AI, as current methods rely on hand-engineered rewards or action-labeled demonstrations, neither of which scales. We introduce ASH, an agentic system that learns a long-horizon policy from unlabeled, noisy internet video, without reward shaping or expert annotation. ASH follows a self-improvement loop; when it gets stuck, ASH learns an Inverse Dynamics Model (IDM) from its own trajectories, and uses its IDM to extract supervision from relevant internet video. ASH uses unsupervised learning to identify key moments from large-scale internet video and retains them as long-term memory - allowing it to tackle long-horizon problems. We evaluate ASH on two complementary environments demanding multi-hour planning: Pokemon Emerald, a turn-based RPG, and The Legend of Zelda: The Minish Cap, a real-time action-adventure game. In both games, behavioral cloning, retrieval-augmented and zero-shot foundation-model baselines plateau, while ASH sustains progression across our 8-hour evaluation. ASH reaches an average of 11.2/12 milestones in Pokemon Emerald and 9.9/12 in Legend of Zelda, while the strongest baseline gets stuck in both environments at an average of 9.3/12 and 7.8/12 milestones, respectively. We demonstrate that self-improving agents are a scalable recipe for learning in long-horizon worlds. Our project page is https://toolbox-hq.github.io/ASH
 
 ### [Optimized but Unowned: How AI-Authored Goals Undermine the Motivation They Are Meant to Drive](https://arxiv.org/abs/2605.12344v3)
 
@@ -288,8 +289,8 @@ Scientific discovery often begins where observation and prediction disagree. As 
 
 - **Authors:** Wujiang Xu, Jiaojiao Han, Minghao Guo, Kai Mei, Xi Zhu, Han Zhang, Dimitris N. Metaxas
 - **Published:** 2026-04-23
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified)
+- **Venue:** Conference on Empirical Methods in Natural Language Processing
 - **Affiliations:** n/a
 - **Categories:** cs.CL, cs.AI, cs.CE
 - **Links:** [Paper](https://arxiv.org/abs/2604.21725v2) · [PDF](https://arxiv.org/pdf/2604.21725v2)
@@ -582,7 +583,7 @@ The rise of AI-generated images (AIGIs) poses growing challenges for digital aut
 - **Published:** 2026-05-14
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** Arizona State University
 - **Categories:** cs.AI
 - **Links:** [Paper](https://arxiv.org/abs/2605.14483v2) · [PDF](https://arxiv.org/pdf/2605.14483v2)
 
@@ -714,7 +715,7 @@ Text-based role-playing models can imitate character styles, but often fail to c
 - **Published:** 2026-05-04
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** University of Macau
 - **Categories:** cs.AI, cs.LG
 - **Links:** [Paper](https://arxiv.org/abs/2605.02320v3) · [PDF](https://arxiv.org/pdf/2605.02320v3)
 

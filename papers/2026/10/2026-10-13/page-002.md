@@ -17,7 +17,7 @@
 | 2026-10-07 | Agent/LLM Self-Improvement, Reinforcement Learning | [VICO: Visual Environments Co-Evolving for Vision-Language Model Reasoning](https://arxiv.org/abs/2610.10782v1) | — |
 | 2026-10-07 | Reinforcement Learning | [Decoupling Exploration from Optimization in RLVR](https://arxiv.org/abs/2610.10536v1) | — |
 | 2026-10-07 | Reinforcement Learning | [RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing](https://arxiv.org/abs/2610.10507v1) | — |
-| 2026-10-07 | Agent/LLM Self-Improvement | [EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution](https://arxiv.org/abs/2610.10498v1) | — |
+| 2026-10-07 | Agent/LLM Self-Improvement | [EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution](https://arxiv.org/abs/2610.10498v2) | 📈 Highly cited |
 | 2026-10-07 | Reinforcement Learning | [Which Rollout Taught It That? BehaviorTrace and the Limits of Training-Data Attribution in Online RL](https://arxiv.org/abs/2610.10422v1) | — |
 | 2026-10-07 | Agent/LLM Self-Improvement | [RSIGym: A Flexible Environment for Recursive Self-Improvement](https://arxiv.org/abs/2610.10310v1) | — |
 | 2026-10-07 | Agent/LLM Self-Improvement | [OOM-RL II: Reality Is an Oracle, Not a Debugger Provenance-Constrained Diagnosis in Continually Evolving Agent-Engineered Systems](https://arxiv.org/abs/2610.10256v1) | — |
@@ -36,7 +36,7 @@
 | 2026-10-07 | Reinforcement Learning | [COPC: Coupled Off-Policy Correction for Asynchronous LLM Reinforcement Learning](https://arxiv.org/abs/2610.09597v1) | — |
 | 2026-09-22 | Agent/LLM Self-Improvement | [Towards Strategy-Level RSI for Skill-Augmented Agents: Learning When to Reuse Skills from Execution Feedback](https://arxiv.org/abs/2609.26863v3) | — |
 | 2026-09-20 | Reinforcement Learning | [Do Language Models Need Music Supervision? Verifiable Rewards for Multi-Constraint Symbolic Music Generation](https://arxiv.org/abs/2609.23665v3) | — |
-| 2026-08-31 | LLM Continual Training | [CPR for LLMs: Critical-Point Routing against Catastrophic Forgetting in Domain Adaptation](https://arxiv.org/abs/2608.30158v3) | — |
+| 2026-08-31 | LLM Continual Training | [CPR for LLMs: Critical-Point Routing against Catastrophic Forgetting in Domain Adaptation](https://arxiv.org/abs/2608.30158v4) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) |
 | 2026-08-25 | Reinforcement Learning | [On-policy Distillation with Verifiable Reward](https://arxiv.org/abs/2608.24696v4) | 📈 Highly cited |
 | 2026-08-20 | Agent/LLM Self-Improvement | [AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement](https://arxiv.org/abs/2608.20318v1) | 📈 Highly cited |
 | 2026-08-17 | Agent/LLM Self-Improvement | [Zetta $ζ$: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence](https://arxiv.org/abs/2608.16590v1) | 📈 Highly cited |
@@ -68,7 +68,9 @@
 
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
+| [EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution](https://arxiv.org/abs/2610.10498v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles](https://arxiv.org/abs/2610.09832v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-13 (actual acceptance date unverified) | arXiv comment: Accepted at NeurIPS 2026<br>First author: Institute of Computing Technology (Semantic Scholar author profiles) |
+| [CPR for LLMs: Critical-Point Routing against Catastrophic Forgetting in Domain Adaptation](https://arxiv.org/abs/2608.30158v4) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | arXiv comment: EMNLP 2026 (Oral) |
 | [On-policy Distillation with Verifiable Reward](https://arxiv.org/abs/2608.24696v4) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement](https://arxiv.org/abs/2608.20318v1) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Zetta $ζ$: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence](https://arxiv.org/abs/2608.16590v1) | 📈 Highly cited | Institue for AI Industry Research (AIR), Tsinghua University |
@@ -97,15 +99,15 @@
 
 Reinforcement learning with verifiable rewards (RLVR) has become a standard recipe for post-training vision-language models (VLMs), but it typically assumes a static training environment. As the actor improves, fixed tasks drift out of its learning frontier: many become trivial, others remain unsolvable; and the learning signal collapses. We argue that VLM post-training should evolve the visual environment alongside the actor, not just the actor itself. We propose VICO, a co-evolutionary framework in which an actor and an Environment-as-Rewriter (EnvRewriter) are trained jointly: the EnvRewriter edits verifiable image-side structures, such as scene graphs, chart tables, or protected region masks, and re-renders them to produce label-valid training samples whose difficulty is calibrated to the actor's current ability through a pass-rate-based reward. This loop continuously realigns task difficulty with actor capability without any additional human annotation. Across nine multimodal benchmarks spanning mathematical reasoning and visually grounded understanding, VICO-8B improves over its base model by up to +5.0% on out-of-domain tasks, surpasses the strongest self-evolution and text-editing co-evolution baselines by +4.3% and +8.4% respectively, and stays comparable to chart-specialized RLVR methods using 16-160 times fewer labeled samples. By shifting from human-labeled supervision to image-editing co-evolution, VICO offers a scalable path beyond static-corpus RLVR for visual reasoning.
 
-### [EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution](https://arxiv.org/abs/2610.10498v1)
+### [EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution](https://arxiv.org/abs/2610.10498v2)
 
 - **Authors:** Python Song, Zhixuan Liang, Kelsey Fu, Mengdi Wang, Junfeng Yang, Shilong Liu
 - **Published:** 2026-10-07
-- **Priority:** —
+- **Priority:** 📈 Highly cited
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2610.10498v1) · [PDF](https://arxiv.org/pdf/2610.10498v1)
+- **Links:** [Paper](https://arxiv.org/abs/2610.10498v2) · [PDF](https://arxiv.org/pdf/2610.10498v2)
 
 Robot foundation models provide strong visuomotor control, yet their performance can degrade when object positions or task instructions change. Further improvements often require post-training on substantial robot data, which can be costly to collect through methods such as teleoperation. Agentic harnesses can adapt around the model, but current self-evolving harnesses use robot trials inefficiently when deciding which code and skill changes to pursue. We introduce EmbodiedRSI, a self-evolving agentic harness that autonomously decides where to explore next and turns the resulting physical interaction into improved code and skills. EmbodiedRSI realizes this through a Fast-Slow Dual-System Architecture, in which competing code and skill hypotheses are maintained in a Hypothesis Graph. Value-of-Information Experiment Selection chooses physical experiments that can distinguish these hypotheses. Their outcomes guide Code-Skill Co-Evolution. The Slow System builds Hierarchical Memory, and Reward-Grounded Memory Learning selects effective memory according to their value for later Fast-System improvement. On RoboCasa365, EmbodiedRSI reaches 77.0% overall success and 71.3% on Composite-Unseen, compared with 40.1% for the best baseline. EmbodiedRSI also reaches 86.8% overall success on LIBERO-Pro. Beyond benchmark performance, EmbodiedRSI transfers zero-shot to real-world robot, achieving 71.3% overall success across multiple challenging tasks.
 
@@ -423,15 +425,15 @@ The demand for personalized LLMs is shifting from style imitation toward content
 
 Post-training adapts language models in non-stationary environments. Practitioners monitor representation health with RankMe and related spectral statistics, often assuming that rank falls when representations degrade. We show that this assumption is unsafe for LLM post-training. In a controlled study of Qwen3-0.6B with four degradation modes and three seeds, data duplication worsens held-out loss by 75% relative to healthy while increasing both original and centred RankMe; the latter changes by 13.5 pooled standard deviations. Covariance effective rank rises to nearly twice its healthy value. This failure is spectral dispersion rather than collapse, so a one-sided monitor rates the worst checkpoint as the healthiest. By contrast, a learning-rate misconfiguration lowers centred RankMe and k95, while uncentred RankMe is inconsistent across seeds. Direction is therefore a property of the regime-statistic pair and cannot be fixed by recalibration alone. We also distinguish two often-conflated statistics: RankMe normalises singular values, whereas covariance effective rank normalises eigenvalues. On raw intermediate-layer states in the pretrained model, massive activations pin the latter near 1 out of dimension d while RankMe retains usable range. We then test a two-sided, multichannel sequential monitor with separate calibration and test data. In a pre-registered shared-prefix, leave-one-seed-out evaluation, it detects all three damage regimes in every fold 10 to 60 steps after the fork and separates dispersion from downward-rank damage by firing direction. However, it never precedes held-out probe loss, and calibration with two seeds produces false alarms on the held-out healthy seed. Spectral monitoring can diagnose failure regimes, but it does not warn earlier than held-out loss, and validity claims require held-out healthy data.
 
-### [CPR for LLMs: Critical-Point Routing against Catastrophic Forgetting in Domain Adaptation](https://arxiv.org/abs/2608.30158v3)
+### [CPR for LLMs: Critical-Point Routing against Catastrophic Forgetting in Domain Adaptation](https://arxiv.org/abs/2608.30158v4)
 
 - **Authors:** Kwangmin Ki, Yunhun Nam, Jongheon Jeong, Jaehyung Kim
 - **Published:** 2026-08-31
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified)
+- **Venue:** EMNLP 2026
 - **Affiliations:** n/a
 - **Categories:** cs.CL, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2608.30158v3) · [PDF](https://arxiv.org/pdf/2608.30158v3)
+- **Links:** [Paper](https://arxiv.org/abs/2608.30158v4) · [PDF](https://arxiv.org/pdf/2608.30158v4)
 
 Supervised fine-tuning (SFT) is the de facto standard for adapting large language models (LLMs) to target domains, but it often degrades the model's general capabilities, a phenomenon known as catastrophic forgetting. Existing approaches typically modify the SFT loss to mitigate forgetting, but they inevitably operate along a domain-generality trade-off. In this work, we step outside this trade-off by decoupling the two capabilities at the model level: we keep the original base model for general capability, and selectively invoke the SFT expert only when domain-specific knowledge is required. Specifically, we propose CPR (Critical-Point Routing), a token-level routing framework between a base model and its expert derivative, based on critical tokens where the base model fails but the expert succeeds. We train a lightweight hierarchical router that estimates the expert-call probability per token, and pair it with a tailored inference procedure that combines momentum smoothing and threshold gating. Across diverse model-domain configurations, CPR achieves state-of-the-art across all settings, surpassing SFT expert by 1.4-5.5% in domain performance while recovering its general-capability drop from 3.4-14.5% to at most 0.5%, with minimal overhead from invoking the expert on only one-third of tokens.
 

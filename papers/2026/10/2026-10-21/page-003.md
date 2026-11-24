@@ -20,7 +20,7 @@
 | 2026-10-15 | Agent/LLM Self-Improvement | [MetaExp: Learning to Self-Improve through Experience via Verifiable Cross-Task Environment Scaling](https://arxiv.org/abs/2610.21492v1) | — |
 | 2026-10-15 | Agent/LLM Self-Improvement | [What Survives Self-Evolution: Provenance Marks in Copied Agent Harnesses](https://arxiv.org/abs/2610.21458v1) | — |
 | 2026-10-15 | Reinforcement Learning | [Multi-Reward Hacking: From Aggregation-Induced Drift to Trust-Anchored Defense](https://arxiv.org/abs/2610.21404v1) | — |
-| 2026-10-15 | LLM Continual Training | [Memorilla: Latent Semantic Memory for LLMs](https://arxiv.org/abs/2610.21375v1) | — |
+| 2026-10-15 | LLM Continual Training | [Memorilla: Latent Semantic Memory for LLMs](https://arxiv.org/abs/2610.21375v3) | — |
 | 2026-10-15 | LLM Continual Training, Reinforcement Learning | [Ranking and Partitioning of Attention Heads for Sparse and Continual Reinforcement Learning Fine-tuning](https://arxiv.org/abs/2610.21336v1) | — |
 | 2026-10-15 | LLM Continual Training | [ZoomCap: Evidence-Routed Visual Zooming for Recoverable Visual Information Transfer](https://arxiv.org/abs/2610.21320v1) | — |
 | 2026-10-15 | Reinforcement Learning | [Judging the Judges: Confidence and Disagreement in Rubrics as Rewards](https://arxiv.org/abs/2610.21179v1) | — |
@@ -29,7 +29,7 @@
 | 2026-10-15 | Reinforcement Learning | [Bellman-Consistent Trajectory RL for LLM Arithmetic Reasoning](https://arxiv.org/abs/2610.21060v1) | — |
 | 2026-10-15 | Agent/LLM Self-Improvement | [Athanor: An Agent-Native System for Autonomous Post-Training Research](https://arxiv.org/abs/2610.21055v1) | — |
 | 2026-10-14 | Agent/LLM Self-Improvement | [StepSafe: Learning Timely Intervention with Context-Aware Safety Reasoning](https://arxiv.org/abs/2610.20960v1) | — |
-| 2026-10-14 | Long-Horizon Task Agents | [Same Context, Different Agents: A Behavioral Study of Semantic Layers, Orchestration and Compaction in Data Agents](https://arxiv.org/abs/2610.20959v1) | — |
+| 2026-10-14 | Long-Horizon Task Agents | [Same Context, Different Agents: A Behavioral Study of Semantic Layers, Multi-Agent Orchestration and Memory Compaction in Data Agents](https://arxiv.org/abs/2610.20959v2) | — |
 | 2026-10-14 | Long-Horizon Task Agents | [Prune the Summary, Not the History: Source-Judged Compaction for Long-Horizon Agents](https://arxiv.org/abs/2610.20927v1) | — |
 | 2026-10-14 | Agent/LLM Self-Improvement | [Evolving Together, Failing Apart: The Skill-Policy Co-evolution Trap in Self-Improving Agents](https://arxiv.org/abs/2610.20845v1) | — |
 | 2026-10-14 | Reinforcement Learning | [Gibbs-Gap Policy Optimization for Off-Policy RL with Verifiable Rewards](https://arxiv.org/abs/2610.20814v1) | — |
@@ -39,8 +39,8 @@
 | 2026-10-14 | Agent/LLM Self-Improvement, Reinforcement Learning, Long-Horizon Task Agents | [Co-Evolving Acting and Forecasting for Language Agents](https://arxiv.org/abs/2610.20597v2) | — |
 | 2026-10-14 | Agent/LLM Self-Improvement | [PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition](https://arxiv.org/abs/2610.20560v1) | — |
 | 2026-10-14 | Reinforcement Learning | [Hindsight-Privileged RLVR: Single-Rollout Token Credit Without Group Sampling](https://arxiv.org/abs/2610.20497v2) | — |
-| 2026-10-14 | Agent/LLM Self-Improvement | [AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents](https://arxiv.org/abs/2610.20474v1) | — |
-| 2026-10-14 | Agent/LLM Self-Improvement | [SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm](https://arxiv.org/abs/2610.20431v2) | — |
+| 2026-10-14 | Agent/LLM Self-Improvement | [AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents](https://arxiv.org/abs/2610.20474v2) | — |
+| 2026-10-14 | Agent/LLM Self-Improvement | [SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm](https://arxiv.org/abs/2610.20431v3) | — |
 | 2026-10-14 | Reinforcement Learning | [When Does Momentum Help in Reinforcement Learning with Verifiable Rewards?](https://arxiv.org/abs/2610.20413v1) | — |
 | 2026-10-14 | Reinforcement Learning | [ReferFlow: Beyond Final-Target Localization for Complex Referring Expressions](https://arxiv.org/abs/2610.20352v1) | — |
 | 2026-10-14 | Long-Horizon Task Agents | [Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents](https://arxiv.org/abs/2610.20344v1) | — |
@@ -186,19 +186,19 @@ Training language agents is bottlenecked by the high cost of long-horizon rollou
 
 3D object composition is pivotal to digital content creation and robot simulation, while also serving as a critical testbed for physical intelligence in foundation models. Previous methods either leverage large language models to directly predict object coordinates, or utilize generative diffusion priors to synthesize composite images for visual alignment, both of which rely on static priors in digital spaces. However, these methods consistently struggle with complex compositions such as precise hanging, gravity-driven settling and hidden containment, as these tasks require interactive construction processes involving global planning, fine-grained alignment, and physical simulation. To address these challenges, we propose PhySGA, a Physics-Space Grounded Agentic Framework for 3D composition via agent exploration and physical simulation, enabling the universal interactive assembly of rigid, articulated, and deformable objects. Directly applying vanilla LLMs or VLMs to this task proves insufficient, as current models inherently lack grounded physical understanding and interactive construction experience. To overcome this limitation, we design a collaborative feedforward-feedback architecture: an Assembly Agent focuses on geometric and kinematic reasoning for global step planning and coarse adjustment, while a Critic Agent reasons over contact dynamics for simulator state diagnosis and fine-grained closed-loop correction. Furthermore, Action Routers map semantic planning and analysis onto executable physical primitives within the simulator, while a task-specific Self-Evolving Skill Library distills historical trial-and-error feedback into reusable experiences, boosting success rates and minimizing exploration attempts. Extensive experiments within Isaac Sim demonstrate that PhySGA significantly surpasses existing methods in relation fidelity, physical plausibility, and visual quality.
 
-### [AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents](https://arxiv.org/abs/2610.20474v1)
+### [AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents](https://arxiv.org/abs/2610.20474v2)
 
-- **Authors:** Peidong Wang, Ying Chang, Zhiming Ma, Xiaocui Yang, Shi Feng, Daqi Liu, Yuzhe Yang, Xu Cao, Chuang Wang, Jian Su, Daling Wang
+- **Authors:** Peidong Wang, Ying Chang, Zhiming Ma, Lirong Che, Zihao Liu, Xiaocui Yang, Shi Feng, Daqi Liu, Yuzhe Yang, Xu Cao, Chuang Wang, Jian Su, Daling Wang
 - **Published:** 2026-10-14
 - **Priority:** —
 - **Venue:** arXiv
-- **Affiliations:** n/a
+- **Affiliations:** The Chinese University of Hong Kong, Shenzhen, University of Chinese Academy of Sciences
 - **Categories:** cs.CL, cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2610.20474v1) · [PDF](https://arxiv.org/pdf/2610.20474v1)
+- **Links:** [Paper](https://arxiv.org/abs/2610.20474v2) · [PDF](https://arxiv.org/pdf/2610.20474v2)
 
-Pretrained vision-language-action models (VLAs) often fail midway through unseen long-horizon tasks. Recursive self-improvement (RSI) offers a remedy, but embodied RSI methods either refine the harness around a frozen executor and so cannot add a missing motion, or train the executor on persistent failures without asking whether a failure lies in how the executor is called or in what it can do. We ask when a self-improving embodied system should change the weights of its executor, and propose AdaRSI, an on-demand RSI framework for embodied agents. A coding agent first improves its skills and harness, then attributes persistent failures by retrying failing sub-steps from saved states, and fine-tunes only the sub-steps that remain unreliable, with demonstrations it collects itself and experience carried over from earlier tasks. On all 50 target tasks of RoboCasa365, with GR00T N1.5 as the executor and no human demonstrations, AdaRSI improves the VLA on all three suites and raises its success on unseen composite tasks from 4.6% to 13.8%. Compared with fine-tuning every sub-step, it reaches slightly higher success while using only 28% of the GPU time and 22% of the self-collected demonstrations, and fine-tuning without a harness trains more yet gains far less.
+Failures in long-horizon embodied tasks can arise from how a vision-language-action model (VLA) is called or from its execution capabilities. We introduce AdaRSI, an on-demand recursive self-improvement framework in which a coding agent first refines its tools and procedures, then adapts sub-steps that remain unreliable after testing alternative instructions and approaches. The agent collects demonstrations, tests their utility through temporary fine-tuning probes, and pools accepted data across tasks to train a specialist VLA that works alongside the original executor. At the end of each development round, its records are summarized into shared experience that guides subsequent diagnosis and data collection. On unseen composite tasks in RoboCasa365, AdaRSI raises success from 4.6% to 13.3%. On perturbed LIBERO-Pro 2.0 tasks, success rises from 32.9% to 49.1%. On RoboCasa365's Composite-Unseen suite, it achieves higher success than adapting every manipulation sub-step, using 34% of the GPU time and 36% of the demonstrations. On a real robot, the agent autonomously collects demonstrations and adapts the executor to recover fallen bottles, improving task completion.
 
-### [SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm](https://arxiv.org/abs/2610.20431v2)
+### [SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm](https://arxiv.org/abs/2610.20431v3)
 
 - **Authors:** Qianru Meng, Xi Zhang, Konstantinos Papakostas, Congfeng Cao, Wenxiang Hu, Tianyi Lu, Xiao Zhang, Lun Zhou, Zaiqiao Meng, Zhaochun Ren, Xiaohui Yan, Yougang Lyu
 - **Published:** 2026-10-14
@@ -206,7 +206,7 @@ Pretrained vision-language-action models (VLAs) often fail midway through unseen
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.AI, cs.CL
-- **Links:** [Paper](https://arxiv.org/abs/2610.20431v2) · [PDF](https://arxiv.org/pdf/2610.20431v2)
+- **Links:** [Paper](https://arxiv.org/abs/2610.20431v3) · [PDF](https://arxiv.org/pdf/2610.20431v3)
 
 Recursive self-improvement (RSI) in scientific research aims to improve agents' research capabilities through their own experimental experience. Scientific agent swarms can combine evidence and implementations from different research directions to guide their agents' subsequent experiments. However, poor experimental results can leave unclear whether to revise a hypothesis or its implementation, while overall program scores can hide components useful to other agents. To address these challenges, we introduce SwarmRSI, a framework that evolves scientific agent swarms for recursive self-improvement. We devise Feedback-Guided Swarm Mutation to refine hypotheses and their implementations using experimental feedback from other agents. We also propose Complementary Swarm Recombination to reuse retained hypotheses and complementary program components across agents, allowing partial results to support new research. Recursive Swarm Evolution integrates both mechanisms into a feedback loop, using new experimental evidence to guide subsequent research. Experiments on OpenProblems, NatureBench and MLE-Bench Lite demonstrate SwarmRSI's state-of-the-art (SOTA) performance. Further evaluations show that accumulated research experience improves performance on held-out tasks. Biologists also reproduce its programs for follow-up biological analyses.
 
@@ -284,7 +284,7 @@ As agents powered by foundation models move into open-ended environments, contin
 
 Biological intelligence continually adapts to new information while retaining prior skills through localized plasticity. In contrast, continual learning in large language models (LLMs) remains vulnerable to catastrophic forgetting. A promising direction is to identify functionally specialized subnetworks within LLMs that enable targeted and resource-efficient adaptation. Using gradient-attribution profiling, we localize cognition-associated functional subnetworks exhibiting extremely low mutual overlap. Building on this finding, we propose Function-isolated Memory-Efficient Optimization (CiMEO), a continual learning framework that routes each training example to its corresponding functional subnetwork, restricting parameter updates and optimizer states to selected regions. Across 1.4 million sequential instructions, CiMEO achieves the highest average performance among the compared methods on five generative benchmarks spanning programming, examination-style tasks, and mathematical reasoning, while mitigating catastrophic forgetting. Subspace-overlap and principal-angle analyses further indicate that localized updates help preserve pre-trained representations, highlighting functional subnetwork localization as a practical approach to efficient and stable continual learning in LLMs.
 
-### [Memorilla: Latent Semantic Memory for LLMs](https://arxiv.org/abs/2610.21375v1)
+### [Memorilla: Latent Semantic Memory for LLMs](https://arxiv.org/abs/2610.21375v3)
 
 - **Authors:** Adibvafa Fallahpour, Parsa Idehpour, Vignesh Kothapalli, Nikita Mounier, Shirley Wu, Shayan Pardis, Jure Leskovec
 - **Published:** 2026-10-15
@@ -292,7 +292,7 @@ Biological intelligence continually adapts to new information while retaining pr
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2610.21375v1) · [PDF](https://arxiv.org/pdf/2610.21375v1)
+- **Links:** [Paper](https://arxiv.org/abs/2610.21375v3) · [PDF](https://arxiv.org/pdf/2610.21375v3)
 
 Memory enables large language models (LLMs) to use information beyond their parameters, such as past user conversations, long documents, or an agent's earlier actions. For a frozen LLM, access to this accumulated knowledge is limited to what a memory system places in its context window. However, gathering and combining relevant information needed for each query while keeping the model's context short remains challenging for existing systems. Here we introduce Memorilla, a memory system that gathers information from an entire document collection into a fixed number of query-dependent 'memory tokens' for a frozen LLM. Memorilla encodes documents (such as user chats, book chapters) once into reusable embeddings, then learns to retrieve and place query-specific information in the LLM's input embedding space. Using only 16 memory tokens, Memorilla achieves the best performance against baselines including Mem0 and MemoRAG on five of eight benchmarks spanning personalization, long-document and knowledge-intensive question answering. Notably, on FactKG, it reaches 84.33% accuracy versus 80.43% with full-context inference, while using 108x fewer tokens to represent the source documents. Furthermore, Memorilla can facilitate continual learning in agentic systems where the document count (the agent's past turns) increases throughout the trajectory. In a TextWorld environment, we show that Memorilla reduces the agent's tendency to wander between rooms it has already explored, and improves its average success rate from 18.6% with full-history in-context learning to 24.2%. Overall, Memorilla aids frozen LLMs in accumulating and using knowledge effectively across long-context interactions and takes a step towards building continually learning AI systems.
 
@@ -516,7 +516,7 @@ Large Language Model agents operate through closed-loop action policies whose de
 
 Large language models increasingly rely on external memory to answer queries grounded in long-horizon histories such as multi-session dialogues and lengthy documents. However, existing memory methods often optimize retrieval and memory construction separately, without a shared reward space for evaluating search, writing, and stopping decisions. To address this, we propose All-in-One Memory (AiO-Mem), which organizes these operations as transitions over a shared evidence state and directly evaluates the semantic quality of each action in a unified reward space. AiO-Mem compiles heterogeneous histories into source-traceable multi-view events, providing a shared substrate for retrieval and memory writing. A unified memory policy actor then rolls out complete interaction trajectories over this shared evidence state. A separate trajectory-conditioned process reward model is trained through evidence-grounded supervised fine-tuning and trajectory-level DPO to assign process scores to the collected trajectories. These scores are aggregated into an action-balanced trajectory reward and used by Process-Aligned DAPO (PA-DAPO) to optimize the memory policy. Across long-context memory benchmarks, AiO-Mem consistently improves answer accuracy over both static memory systems and RL-trained memory agents.
 
-### [Same Context, Different Agents: A Behavioral Study of Semantic Layers, Orchestration and Compaction in Data Agents](https://arxiv.org/abs/2610.20959v1)
+### [Same Context, Different Agents: A Behavioral Study of Semantic Layers, Multi-Agent Orchestration and Memory Compaction in Data Agents](https://arxiv.org/abs/2610.20959v2)
 
 - **Authors:** Zhivar Sourati, Marianne Menglin Liu, Zheng Wang, Rongguang Wang, Sai Ashish Somayajula, Tao Sheng, Kyu J. Han, Sujith Ravi, Dan Roth
 - **Published:** 2026-10-14
@@ -524,7 +524,7 @@ Large language models increasingly rely on external memory to answer queries gro
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.CL, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2610.20959v1) · [PDF](https://arxiv.org/pdf/2610.20959v1)
+- **Links:** [Paper](https://arxiv.org/abs/2610.20959v2) · [PDF](https://arxiv.org/pdf/2610.20959v2)
 
 Answering questions over heterogeneous data means combining evidence from files, databases, documents and the web. Data agents automate this, but their success depends on context. Three context-engineering techniques (CETs) help by shaping it: semantic layers describe the data, orchestration splits work among agents, and compaction condenses interaction history. Existing studies validate each CET alone, leaving open how agent behavior shapes its effect. We present a comprehensive analysis of the three CETs, alone and combined, with seven large language models (LLMs) on 1,514 long-horizon tasks from five benchmarks, covering behavior, accuracy and cost. We find that data agents without CETs form three behavior groups: investigators, premature answerers that answer without inspecting data, and early stoppers that give up. Each CET delivers its known benefit, from more investigation to smaller prompts, but only the behavior group it matches turns that benefit into accuracy, such as premature answerers under orchestration. For investigators, the same CETs can hurt: the semantic layer stops them from looking, orchestration makes them overconfident, costing 5 percentage points, and compaction makes them repeat steps. Combining CETs yields smaller gains and losses than their sum. We derive guidance for choosing CETs by agent behavior, task demands and accuracy-cost trade-offs.
 

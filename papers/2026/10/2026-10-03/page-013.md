@@ -20,10 +20,10 @@
 | 2026-07-16 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777v1) | ⭐ Popular code<br>📈 Highly cited |
 | 2026-07-16 | Reinforcement Learning | [A Continuous-Time Reinforcement Learning Framework for Fine-Tuning Discrete Diffusion Models](https://arxiv.org/abs/2607.14522v2) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement | [Cura 1T: Healthcare Foundation Model via Recursive Self-Improvement](https://arxiv.org/abs/2607.15314v3) | — |
+| 2026-07-15 | Agent/LLM Self-Improvement | [A Self-Evolving Agent for Longitudinal Personal Health Management](https://arxiv.org/abs/2607.13940v2) | ⭐ Popular code |
 | 2026-07-15 | Agent/LLM Self-Improvement | [SPyCE: Skill-Policy Co-evolution for Multimodal Agents](https://arxiv.org/abs/2607.13854v2) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement | [ReasFlow: Assisting Reasoning-Centric Scientific Discovery in Applied Mathematics via a Knowledge-Based Multi-Agent System](https://arxiv.org/abs/2607.14178v3) | — |
 | 2026-07-15 | Agent/LLM Self-Improvement | [HarnessBank: Semantic Gene-Bank Search with Gated Verification for Agent-Harness Self-Evolution](https://arxiv.org/abs/2607.13683v2) | 📈 Highly cited |
-| 2026-07-15 | Agent/LLM Self-Improvement | [A Self-Evolving Agent for Longitudinal Personal Health Management](https://arxiv.org/abs/2607.13940) | ⭐ Popular code |
 | 2026-07-14 | Agent/LLM Self-Improvement | [Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents](https://arxiv.org/abs/2607.12790v2) | — |
 | 2026-07-14 | Agent/LLM Self-Improvement | [Critic Experience Bank: Self-Evolving Step-Level Confidence Estimation for LLM Agents](https://arxiv.org/abs/2607.12397v2) | — |
 | 2026-07-14 | Agent/LLM Self-Improvement | [Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104) | ⭐ Popular code<br>📈 Highly cited |
@@ -36,7 +36,7 @@
 | 2026-07-08 | Agent/LLM Self-Improvement | [The Blind Curator: How a Biased Judge Silently Disables Skill Retirement in Self-Evolving Agents](https://arxiv.org/abs/2607.07436v2) | — |
 | 2026-07-08 | Agent/LLM Self-Improvement | [MILES: Modular Instruction Memory with Learnable Selection for Self-Improving LLM Reasoning](https://arxiv.org/abs/2607.06974) | — |
 | 2026-07-06 | Reinforcement Learning, Long-Horizon Task Agents | [CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents](https://arxiv.org/abs/2607.05378v2) | 📈 Highly cited |
-| 2026-07-05 | LLM Continual Training | [RL Forgets! Towards Continual Policy Optimization](https://arxiv.org/abs/2607.04364v3) | — |
+| 2026-07-05 | LLM Continual Training | [RL Forgets! Towards Continual Policy Optimization](https://arxiv.org/abs/2607.04364v4) | — |
 | 2026-07-05 | Agent/LLM Self-Improvement | [Self-Reference in Large Language Models: The Introspection Threshold for Recursive Self-Improvement](https://arxiv.org/abs/2607.04277v2) | — |
 | 2026-07-02 | LLM Continual Training | [Enhancing Fitness Intelligence through Domain-Specific LLM Post-Training](https://arxiv.org/abs/2607.02118v2) | — |
 | 2026-07-01 | Reinforcement Learning | [Scaling Laws for Collapse in Asynchronous GRPO](https://arxiv.org/abs/2607.01083v3) | — |
@@ -44,8 +44,8 @@
 | 2026-07-01 | Agent/LLM Self-Improvement | [Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://aclanthology.org/2026.findings-acl.483/) | 📈 Highly cited |
 | 2026-06-29 | Agent/LLM Self-Improvement | [AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance](https://arxiv.org/abs/2606.30949v2) | — |
 | 2026-06-29 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2) | 📈 Highly cited |
+| 2026-06-29 | Agent/LLM Self-Improvement | [ManimAgent: Self-Evolving Multimodal Agents for Visual Education](https://arxiv.org/abs/2606.30296v3) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) |
 | 2026-06-29 | Reinforcement Learning | [Are We Measuring Strategy or Phrasing? The Gap Between Surface- and Approach-Level Diversity in LLM Math Reasoning](https://arxiv.org/abs/2606.29985v2) | — |
-| 2026-06-29 | Agent/LLM Self-Improvement | [ManimAgent: Self-Evolving Multimodal Agents for Visual Education](https://arxiv.org/abs/2606.30296) | — |
 | 2026-06-27 | Agent/LLM Self-Improvement, Long-Horizon Task Agents | [Self-Evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution](https://arxiv.org/abs/2606.28971v2) | — |
 | 2026-06-26 | LLM Continual Training | [BashCoder-R1: Towards Robust and Explainable Bash Code Generation with Robustness-Aware Group Relative Policy Optimization](https://arxiv.org/abs/2606.27733v3) | — |
 | 2026-06-26 | LLM Continual Training | [Continual Learning for Sequential Personalization of Small Language Models: A Stability Monitoring Analysis](https://arxiv.org/abs/2606.27634v2) | — |
@@ -76,6 +76,7 @@
 | [CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents](https://arxiv.org/abs/2607.05378v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://aclanthology.org/2026.findings-acl.483/) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Self-Evolving World Models for LLM Agent Planning](https://arxiv.org/abs/2606.30639v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [ManimAgent: Self-Evolving Multimodal Agents for Visual Education](https://arxiv.org/abs/2606.30296v3) | 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | arXiv comment: Accepted to EMNLP 2026 (Main Conference). Project page: https://manimagent.github.io/ |
 | [ENPIRE: Agentic Robot Policy Self-Improvement in the Real World](https://arxiv.org/abs/2606.19980v2) | 📈 Highly cited | California Institute of Technology |
 | [EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts](https://arxiv.org/abs/2606.18967v2) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026; Project Page: https://github.com/furiosa-ai/EfficientRollout |
 
@@ -117,6 +118,18 @@ Large language models are increasingly trained as interactive agents for long-ho
 
 Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized language models that cover these use cases together remain limited. A healthcare model must handle patient consultation, clinical reasoning over text and images, interactive diagnosis, and electronic health record (EHR) tool use. These capabilities fail in different ways, and a narrow update for one task can degrade another. We present Cura 1T, a healthcare foundation model trained through recursive self-improvement (RSI). In each RSI round, the RSI harness runs the current model on healthcare benchmarks, evaluates the trajectories to locate capability gaps, and refines the training mixture by synthesizing training data. On 6 healthcare benchmarks, Cura 1T scores highest on MedAgentBench, HealthBench Professional, HealthBench Hard, MedXpertQA text, and AgentClinic, and second on MedXpertQA multimodal. It preserves performances on out-of-domain reasoning and agentic benchmarks including AIME, GPQA-Diamond, and $τ^2$-Bench.
 
+### [A Self-Evolving Agent for Longitudinal Personal Health Management](https://arxiv.org/abs/2607.13940v2)
+
+- **Authors:** Haoran Li, Jiebi Deng, Tong Jin, Jinghong Han, Yuxin Wang, Zexin Wang, Jinyu Sun, Qingyi Si, Weikang Gong, Xiahai Zhuang, Jia You, Wei Cheng, Jianfeng Feng, Hongcheng Guo
+- **Published:** 2026-07-15
+- **Priority:** ⭐ Popular code
+- **Venue:** arXiv.org
+- **Affiliations:** n/a
+- **Categories:** cs.AI
+- **Links:** [Paper](https://arxiv.org/abs/2607.13940v2) · [PDF](https://arxiv.org/pdf/2607.13940v2) · [Code](https://github.com/HC-Guo/HealthClaw)
+
+Medical large language models and agents show strong single-encounter question answering and evidence interpretation but struggle to accumulate and govern experience across encounters. We present HealthJev, an open-source agent separating shared safety rules and medical knowledge from a private longitudinal memory and distilling lessons from completed cases. To filter out erroneous lessons before they affect future behaviour, we self-train JevGate, a lightweight System-One model that decides which lessons enter memory; each decision takes a median of 86 milliseconds and about 1,000 input tokens, sustaining experience accumulation at negligible run-time overhead. On a longitudinal benchmark of 90-day simulated daily interactions for 20 users built from real MIMIC-IV trajectories, HealthJev outperformed a memory-free ReAct agent and three memory-augmented frameworks, with all paired comparisons significant. Across six tasks spanning clinical records, medical imaging, genomics and clinical text, HealthJev improved every task with a mean gain of 13.3 percentage points over the base condition, surpassing all baselines. The frozen library transferred to six further backbones with macro-average gains of 6.8 to 15.1 percentage points, and one task's library brought gains on other tasks. These results indicate that governed, self-evolving memory supports longitudinal personal health management beyond single encounters. HealthJev is publicly available at https://github.com/HC-Guo/Self-Evolving_HealthJev.
+
 ### [SPyCE: Skill-Policy Co-evolution for Multimodal Agents](https://arxiv.org/abs/2607.13854v2)
 
 - **Authors:** Ru Zhang, Weijie Qiu
@@ -152,18 +165,6 @@ Recent advances in Large Language Models have fueled autonomous AI agents capabl
 - **Links:** [Paper](https://arxiv.org/abs/2607.13683v2) · [PDF](https://arxiv.org/pdf/2607.13683v2)
 
 Large Language Models (LLMs) have enabled capable agents across diverse applications. Beyond the foundation model, the performance of an agent is governed by the surrounding agent harness, including prompts, tools, control loops, etc. Automatically evolving this harness offers a promising pathway to agent improvement, yet existing approaches typically rely on greedy candidate selection and noisy self-generated feedback, rendering their gains susceptible to search collapse, task-specific overfitting, and poor verifiability. To tackle these challenges, we introduce HarnessBank, a trustworthy agent-harness self-evolution framework that pairs a task agent with a separate evolver agent for iterative failure diagnosis, harness generation, and evolution verification. HarnessBank maintains a Harness Gene Bank composed of high-performing harnesses of different semantic coordinates. Those harnesses are reinvented, recombined, screened, and selected during the self-evolution procedure. Moreover, we propose a Gated Harness Screening mechanism to efficiently filter high-quality harnesses and reduce the cost of evaluating numerous offspring harnesses. Across seven agent benchmarks, HarnessBank produces consistent performance improvements from 5.1% to 15.4%. Cross-model experiments further verify that the improvements come from the model-specific self-evolving process, instead of a universally optimal harness. Our code will be publicly available upon acceptance.
-
-### [A Self-Evolving Agent for Longitudinal Personal Health Management](https://arxiv.org/abs/2607.13940)
-
-- **Authors:** Li, Haoran, Deng, Jiebi, Jin, Tong, Han, Jinghong, Wang, Yuxin, Wang, Zexin, Si, Qingyi, Gong, Weikang, Zhuang, Xiahai, You, Jia, Cheng, Wei, Feng, Jianfeng, Guo, Hongcheng
-- **Published:** 2026-07-15
-- **Priority:** ⭐ Popular code
-- **Venue:** arXiv.org
-- **Affiliations:** n/a
-- **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2607.13940) · [PDF](https://arxiv.org/pdf/2607.13940) · [Code](https://github.com/HC-Guo/HealthClaw)
-
-Personal health management unfolds over repeated encounters, yet most health AI systems treat each request in isolation. We developed HealthClaw, an open-source agent architecture that updates support as a person's routines, preferences, measurements and risks change. It separates shared safety rules and medical knowledge from private longitudinal memory containing profile facts, reusable procedures and episodic traces. After each episode, induction determines what should update the profile, revise a procedure, remain episodic or be excluded. We evaluated HealthClaw with a synthetic year-long benchmark and nine 200-case biomedical tasks. Across 900 longitudinal support probes, answer accuracy increased from 0.2% with current-query prompting to 45.7% with HealthClaw, while prompt-side context exposure was 71.7% lower than with full-history prompting. In 100 privacy probes, HealthClaw produced higher privacy-aware answer quality and fewer unsafe disclosures than both baselines. Across the biomedical tasks, the mean absolute gain in the task-specific primary metric was 27.0 percentage points, and seven gains remained significant after false-discovery-rate correction. These offline benchmarks support governed, self-evolving memory for longitudinal personal health agents, although clinical effectiveness requires prospective evaluation. HealthClaw is publicly available at https://github.com/HC-Guo/HealthClaw.
 
 ### [Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents](https://arxiv.org/abs/2607.12790v2)
 
@@ -321,17 +322,17 @@ High-Level Synthesis (HLS) provides a fast path from concepts to silicon, but co
 
 World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world model framework that revises its deployment-time context while keeping the downstream agent and all model parameters frozen. WorldEvolver integrates three modules: (i) Episodic Memory, which exploits real action transitions through retrieval-based simulation; (ii) Semantic Memory, which extracts persistent heuristic rules from prediction-observation mismatches; and (iii) Selective Foresight, which filters low-confidence predictions before integrating them into agent reasoning context. We evaluate WorldEvolver on ALFWorld and ScienceWorld, measuring world model prediction accuracy on Word2World and downstream agent success rate on AgentBoard. Extensive experiments show that WorldEvolver achieves the highest prediction accuracy across three backbones and leads other world model baselines on downstream agent success rate, demonstrating that test-time memory revision enhances both predictive fidelity and planning performance.
 
-### [ManimAgent: Self-Evolving Multimodal Agents for Visual Education](https://arxiv.org/abs/2606.30296)
+### [ManimAgent: Self-Evolving Multimodal Agents for Visual Education](https://arxiv.org/abs/2606.30296v3)
 
-- **Authors:** Jiang, Wenjia, Cai, Zongyuan, Shao, Yuanhang, Wang, Chenru, Han, Boyan, Song, Zhixue, Chen, Keyu, An, Shengwei, Yang, Xu, Yang, Zhou
+- **Authors:** Wenjia Jiang, Zongyuan Cai, Yuanhang Shao, Chenru Wang, Boyan Han, Zhixue Song, Keyu Chen, Shengwei An, Xu Yang, Zhou Yang
 - **Published:** 2026-06-29
-- **Priority:** —
-- **Venue:** arXiv.org
+- **Priority:** 🏅 Selected top venue: EMNLP 2026<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified)
+- **Venue:** EMNLP 2026
 - **Affiliations:** n/a
 - **Categories:** cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2606.30296) · [PDF](https://arxiv.org/pdf/2606.30296) · [Code](https://github.com/jwj1342/Paper2Manim)
+- **Links:** [Paper](https://arxiv.org/abs/2606.30296v3) · [PDF](https://arxiv.org/pdf/2606.30296v3) · [Code](https://github.com/jwj1342/Paper2Manim)
 
-Multi-round reflection lets agents built on large language models recover from failures within a single task, but each task remains an isolated episode: lessons learned across many reflection rounds on one task are discarded before the next begins. We study this gap on a code-generation task: from a scientific paper section, the agent writes Python in the open-source Manim library to render a mathematical animation. We present ManimAgent, a self-evolving multimodal agent that carries reflection experience across tasks through a dual-channel Episodic Memory Bank grown entirely from its own task stream, with no weight updates and no human seeds. After each animation converges, a vision-language model scores the rendered keyframes; the resulting signals populate a positive channel M+ that stores success rationales as soft Reference Examples, and a negative channel M- that stores validated failure patterns as hard Known Pitfalls. On a fixed-probe evaluation against no-memory, matched-budget retrieval-augmented generation, and shuffled-memory baselines, blind human Pass@1 rises and reflection rounds fall as memory size grows. We will release the code, frozen memory snapshots, and the task stream.
+Multi-round reflection lets agents built on large language models recover from failures within a single task, but each task remains an isolated episode: lessons learned across many reflection rounds on one task are discarded before the next begins. We study this gap on a code-generation task: from a scientific paper section, the agent writes Python in the open-source Manim library to render a mathematical animation. We present ManimAgent, a self-evolving multimodal agent that carries reflection experience across tasks through a dual-channel Episodic Memory Bank grown entirely from its own task stream, with no weight updates and no human seeds. After each animation converges, a vision-language model scores the rendered keyframes; the resulting signals populate a positive channel M+ that stores success rationales as soft Reference Examples, and a negative channel M- that stores validated failure patterns as hard Known Pitfalls. On a fixed-probe evaluation against no-memory, matched-budget retrieval-augmented generation, and shuffled-memory baselines, blind human Pass@1 rises and reflection rounds fall as memory size grows.
 
 ### [Self-Evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution](https://arxiv.org/abs/2606.28971v2)
 
@@ -443,7 +444,7 @@ Deploying LLM agents typically requires a compact test-time student, even if a s
 
 Recent work on looped language models suggests that many reasoning problems benefit from greater computational depth rather than from additional independent parameters. Existing studies, however, focus almost exclusively on Transformer backbones, leaving open whether this principle also applies to state-space language models. We investigate Looped Mamba and Looped Hybrid Mamba-Transformer architectures, which repeatedly apply a shared Mamba (or hybrid) block to introduce explicit finite-depth recurrent computation. On two controlled reasoning tasks-Mano (modular-arithmetic manipulation) and p-hop induction-Looped Mamba consistently outperforms parameter-matched non-looped baselines and, in several settings, matches or exceeds non-looped models of equal effective depth. We then extend the study to language model pre-training under matched iso-parameter and iso-FLOPs protocols, which jointly disentangle the effects of parameter sharing and effective depth: looped models remain competitive on downstream benchmarks with substantially fewer distinct parameters, although deeper non-looped models retain an advantage in validation perplexity under strict iso-FLOPs comparisons. Finally, we adapt Ouro's two-stage exit gate to Looped Mamba for threshold-controlled selection among recurrent-step outputs. Executing such exits on a state-space backbone, however, leaves the recurrent state without its deeper updates, and validation perplexity then degrades severely. We therefore introduce a cache-hole adaptation that aligns continued training with skipped-state inference. At the scales studied, the adapted model keeps perplexity close to full computation and matches or exceeds full-compute exit-state selection on downstream benchmarks while executing roughly half of the recurrent steps, which translates into measured inference speedups once the prefill is compute-bound.
 
-### [RL Forgets! Towards Continual Policy Optimization](https://arxiv.org/abs/2607.04364v3)
+### [RL Forgets! Towards Continual Policy Optimization](https://arxiv.org/abs/2607.04364v4)
 
 - **Authors:** Mao-Lin Luo, Zhe-Xu Wang, Zi-Hao Zhou, Bo Ye, Jian Zhao, Min-Ling Zhang, Tong Wei
 - **Published:** 2026-07-05
@@ -451,7 +452,7 @@ Recent work on looped language models suggests that many reasoning problems bene
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2607.04364v3) · [PDF](https://arxiv.org/pdf/2607.04364v3)
+- **Links:** [Paper](https://arxiv.org/abs/2607.04364v4) · [PDF](https://arxiv.org/pdf/2607.04364v4)
 
 Continual post-training is becoming a central paradigm for adapting vision-language models to evolving tasks. Recent studies report that reinforcement learning is less prone to forgetting than supervised fine-tuning, motivating the view that RL is inherently resistant to forgetting. However, this view remains insufficiently validated, as existing evidence is largely drawn from outdated or homogeneous benchmarks. We revisit this assumption by introducing MRCL, a Multimodal Reasoning Continual Learning benchmark built from recent and diverse multimodal reasoning tasks. Experiments on MRCL show that standard reinforcement learning still suffers from catastrophic forgetting during continual post-training. We trace the failure to an objective mismatch. The KL regularization used in common policy optimization methods is evaluated on current-task data, whereas forgetting is caused by behavioral drift on prior-task distributions. To address this problem, we propose Continual Policy Optimization (CPO), a replay-free method grounded in a prior-task behavioral KL objective. CPO derives a local Fisher surrogate from the historical KL objective and uses parameter movement as a gradient-free proxy for Fisher sensitivity, enabling sparse regularization with negligible additional overhead. Experiments on three model scales and comparisons with multiple RL baselines show that CPO consistently reduces forgetting while maintaining effective adaptation and preserving broader pretrained capabilities. The implementation code is available at https://github.com/MaolinLuo/CPO.
 

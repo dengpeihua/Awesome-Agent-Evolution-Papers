@@ -14,9 +14,9 @@
 | Published | Track | Paper | Signals |
 | --- | --- | --- | --- |
 | 2026-04-16 | Agent/LLM Self-Improvement | [Autogenesis: A Self-Evolving Agent Protocol](https://arxiv.org/abs/2604.15034v6) | 📈 Highly cited |
-| 2026-04-15 | Agent/LLM Self-Improvement, Reinforcement Learning | [FiRe: Fine-grained Multimodal Reasoning for Enhanced Image Generation](https://arxiv.org/abs/2604.13491v4) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-13 (actual acceptance date unverified) |
+| 2026-04-15 | Agent/LLM Self-Improvement, Reinforcement Learning | [FiRe: Fine-grained Multimodal Reasoning for Enhanced Image Generation](https://arxiv.org/abs/2604.13491v5) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-13 (actual acceptance date unverified) |
 | 2026-04-13 | Reinforcement Learning | [OOM-RL: Out-of-Money Reinforcement Learning Market-Driven Alignment for LLM-Based Multi-Agent Systems](https://arxiv.org/abs/2604.11477v2) | — |
-| 2026-04-09 | Agent/LLM Self-Improvement | [A Relative-Computability Theory of Self-Improving Agents](https://arxiv.org/abs/2605.27381v3) | — |
+| 2026-04-09 | Agent/LLM Self-Improvement | [A Relative-Computability Theory of Self-Improving Agents](https://arxiv.org/abs/2605.27381v4) | — |
 | 2026-04-09 | Reinforcement Learning | [An Imperfect Verifier is Good Enough: Learning with Noisy Rewards](https://arxiv.org/abs/2604.07666v2) | 📈 Highly cited |
 | 2026-03-17 | Agent/LLM Self-Improvement | [Large Reward Models: Generalizable Online Robot Reward Generation with Vision-Language Models](https://arxiv.org/abs/2603.16065v3) | 📈 Highly cited |
 | 2026-03-09 | Reinforcement Learning | [Agentic Critical Training](https://arxiv.org/abs/2603.08706v2) | — |
@@ -26,7 +26,7 @@
 | 2025-10-01 | Reinforcement Learning | [Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers](https://arxiv.org/abs/2510.00915v5) | 📈 Highly cited |
 | 2025-09-23 | LLM Continual Training | [Robotic Ultra-Long-Horizon Manipulation Skills via Human-guided Lifelong Code Generation](https://arxiv.org/abs/2509.18597v3) | — |
 | 2025-08-11 | LLM Continual Training | [Optimal Transport Depth Up-Scaling](https://arxiv.org/abs/2508.08011v2) | — |
-| 2025-08-04 | Reinforcement Learning | [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v7) | 📈 Highly cited |
+| 2025-08-04 | Reinforcement Learning | [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v8) | 📈 Highly cited |
 | 2025-07-20 | Reinforcement Learning | [AgentFly: Scaling Agentic Reinforcement Learning with Unified Resource System](https://arxiv.org/abs/2507.14897v2) | — |
 
 ## 🚨 Priority Watch
@@ -34,12 +34,12 @@
 | Paper | Signals | Venue / affiliation evidence |
 | --- | --- | --- |
 | [Autogenesis: A Self-Evolving Agent Protocol](https://arxiv.org/abs/2604.15034v6) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [FiRe: Fine-grained Multimodal Reasoning for Enhanced Image Generation](https://arxiv.org/abs/2604.13491v4) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-13 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026 |
+| [FiRe: Fine-grained Multimodal Reasoning for Enhanced Image Generation](https://arxiv.org/abs/2604.13491v5) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-13 (actual acceptance date unverified) | arXiv comment: Accepted to NeurIPS 2026 |
 | [An Imperfect Verifier is Good Enough: Learning with Noisy Rewards](https://arxiv.org/abs/2604.07666v2) | 📈 Highly cited | First author: ETH Zurich (Semantic Scholar author profiles) |
 | [Large Reward Models: Generalizable Online Robot Reward Generation with Vision-Language Models](https://arxiv.org/abs/2603.16065v3) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Why GRPO Needs Normalization: A Local-Curvature Perspective on Adaptive Gradients](https://arxiv.org/abs/2601.23135v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers](https://arxiv.org/abs/2510.00915v5) | 📈 Highly cited | RIKEN Center for Advanced Intelligence Project |
-| [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v7) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v8) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
 
@@ -55,7 +55,7 @@
 
 LLM-based agent systems can adapt by revising prompts, constructing tools, and changing other runtime resources. Managing these heterogeneous updates requires a shared lifecycle for identifying targets, assessing candidates, and retaining accepted versions, complementing communication protocols such as A2A and MCP. We introduce AUTOGENESIS PROTOCOL (AGP), which decouples what evolves from how updates are proposed. Its Resource Substrate Protocol Layer (RSPL) represents prompts, agents, tools, environments, and memory as protocol-registered resources with explicit state and versioned interfaces. Its Self-Evolution Protocol Layer (SEPL) specifies candidate proposal, assessment, and commit, with auditable histories and support for restoring retained resource states. We instantiate AGP in AUTOGENESIS SYSTEM (AGS), a self-evolving multi-agent system that retrieves, instantiates, and refines resources during execution. Across reasoning, tool-use, and coding benchmarks, AGS improves over its non-evolving configuration, and repeated reasoning runs report the accompanying output-token cost. Execution cases show a shared update lifecycle across all five resource types.
 
-### [FiRe: Fine-grained Multimodal Reasoning for Enhanced Image Generation](https://arxiv.org/abs/2604.13491v4)
+### [FiRe: Fine-grained Multimodal Reasoning for Enhanced Image Generation](https://arxiv.org/abs/2604.13491v5)
 
 - **Authors:** Yongjin Kim, Yoonjin Oh, Yerin Kim, Hyomin Kim, Jeeyoung Yun, Yujung Heo, Minjun Kim, Sungwoong Kim
 - **Published:** 2026-04-15
@@ -63,11 +63,11 @@ LLM-based agent systems can adapt by revising prompts, constructing tools, and c
 - **Venue:** NeurIPS 2026
 - **Affiliations:** n/a
 - **Categories:** cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2604.13491v4) · [PDF](https://arxiv.org/pdf/2604.13491v4)
+- **Links:** [Paper](https://arxiv.org/abs/2604.13491v5) · [PDF](https://arxiv.org/pdf/2604.13491v5)
 
 With the rapid progress of Multimodal Large Language Models (MLLMs), unified MLLMs that jointly perform image understanding and generation have advanced significantly. However, despite the inherent reasoning capabilities of unified MLLMs for self-reflection and self-refinement, their use in text-to-image generation remains largely underexplored. Meanwhile, existing multimodal reasoning-based image generation methods mostly rely on prompt augmentation or holistic image-text alignment judgments, without fine-grained reflection and refinement of detailed prompt attributes, leading to limited fine-grained control. To address this limitation, we propose FiRe, a Fine-grained Multimodal Reasoning method for enhanced image generation by MLLM. In specific, FiRe performs a fine-grained multi-step reasoning by first decomposing the prompt into key visual requirements and then self-judging their satisfaction in the generated image, followed by localized refinement according to self-generated precise feedback. In addition, to further strengthen the MLLM's multimodal reasoning ability, we introduce FiRe-GRPO, a reinforcement learning method tailored to FiRe. Since standard Group Relative Policy Optimization (GRPO) suffers from sparse, outcome-based rewards in multi-step reasoning, we formulate our reasoning process as a step-level decision-making problem, design step-specific rewards, and compute step-level advantages for granular credit assignment within GRPO. Extensive experiments demonstrate that FiRe consistently outperforms competitive text-to-image baselines, including existing reasoning-based methods, with particularly substantial gains on compositional text-to-image benchmarks. Our project page is available at https://ku-agi.github.io/FiRe/
 
-### [A Relative-Computability Theory of Self-Improving Agents](https://arxiv.org/abs/2605.27381v3)
+### [A Relative-Computability Theory of Self-Improving Agents](https://arxiv.org/abs/2605.27381v4)
 
 - **Authors:** Chien-Ping Lu
 - **Published:** 2026-04-09
@@ -75,9 +75,9 @@ With the rapid progress of Multimodal Large Language Models (MLLMs), unified MLL
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.CC, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2605.27381v3) · [PDF](https://arxiv.org/pdf/2605.27381v3)
+- **Links:** [Paper](https://arxiv.org/abs/2605.27381v4) · [PDF](https://arxiv.org/pdf/2605.27381v4)
 
-Agents increasingly modify the procedures by which they solve tasks and improve themselves. Autonomy over improvement, gains in practical capability, and enlargement of computational reach are distinct properties. We develop an oracle-relative model with mutable solvers, evaluators, and improvers. Uniform simulation keeps every total decision procedure produced by effective self-revision over $A$ within $\mathcal{C}(A)=\{D:D\leq_T A\}$; oracle joins account for additional access, while the relativized limit lemma separates limiting answers from effective completion. A worked model of Boolean rule acquisition makes the distinction constructive. For a known finite-dimensional feature language, we characterize exactly which answers a query history determines, obtain a sharp teacher-query bound, and give a terminating protocol that permits revisions to the query proposer. The learned solver can dispense with the teacher on every input while remaining in the same computability layer. However, uniformly constructing the required feature-span specification from arbitrary effective feature programs is already as hard as the relative halting problem. We also give a conditional criterion for strict ascent and distinguish it from finite behavioral evidence. The framework thus separates acquisition, certification, and computability ascent, identifying both a positive route to verified support removal and the assumptions on which it depends.
+Self-improving agents can acquire a procedure without knowing when its supporting teacher can safely be removed. We extend an oracle-relative model of evolving agents with explicit acquisition and completion contracts, separating learning a solver from certifying its independence. For a known finite-dimensional Boolean feature language, a query history determines exactly the answers in its feature span. A guarded protocol permits query-proposer revision while guaranteeing completion with the optimal number of teacher calls, and a supplied separating specification gives a finite-family extension. The resulting solver answers every input without its teacher and remains in the baseline computability layer. The central obstruction concerns supplying the completion specification: no baseline-effective procedure can extract a valid span or separating specification uniformly from arbitrary total programs, already in one feature dimension or with two candidate descriptions. Classical relative computation and limiting-revision results locate these claims without imposing a ceiling on practical improvement. Controlled experiments distinguish exact teacher removal from low-risk stopping and measure adaptation benefits and costs against a stronger greedy baseline. The framework makes the information required to acquire, certify, and deploy a capability explicit.
 
 ### [Large Reward Models: Generalizable Online Robot Reward Generation with Vision-Language Models](https://arxiv.org/abs/2603.16065v3)
 
@@ -119,7 +119,7 @@ Pre-training Large Language Models (LLMs) from scratch at larger scales yields r
 
 ## Reinforcement Learning
 
-### [FiRe: Fine-grained Multimodal Reasoning for Enhanced Image Generation](https://arxiv.org/abs/2604.13491v4)
+### [FiRe: Fine-grained Multimodal Reasoning for Enhanced Image Generation](https://arxiv.org/abs/2604.13491v5)
 
 - **Authors:** Yongjin Kim, Yoonjin Oh, Yerin Kim, Hyomin Kim, Jeeyoung Yun, Yujung Heo, Minjun Kim, Sungwoong Kim
 - **Published:** 2026-04-15
@@ -127,7 +127,7 @@ Pre-training Large Language Models (LLMs) from scratch at larger scales yields r
 - **Venue:** NeurIPS 2026
 - **Affiliations:** n/a
 - **Categories:** cs.CV
-- **Links:** [Paper](https://arxiv.org/abs/2604.13491v4) · [PDF](https://arxiv.org/pdf/2604.13491v4)
+- **Links:** [Paper](https://arxiv.org/abs/2604.13491v5) · [PDF](https://arxiv.org/pdf/2604.13491v5)
 
 With the rapid progress of Multimodal Large Language Models (MLLMs), unified MLLMs that jointly perform image understanding and generation have advanced significantly. However, despite the inherent reasoning capabilities of unified MLLMs for self-reflection and self-refinement, their use in text-to-image generation remains largely underexplored. Meanwhile, existing multimodal reasoning-based image generation methods mostly rely on prompt augmentation or holistic image-text alignment judgments, without fine-grained reflection and refinement of detailed prompt attributes, leading to limited fine-grained control. To address this limitation, we propose FiRe, a Fine-grained Multimodal Reasoning method for enhanced image generation by MLLM. In specific, FiRe performs a fine-grained multi-step reasoning by first decomposing the prompt into key visual requirements and then self-judging their satisfaction in the generated image, followed by localized refinement according to self-generated precise feedback. In addition, to further strengthen the MLLM's multimodal reasoning ability, we introduce FiRe-GRPO, a reinforcement learning method tailored to FiRe. Since standard Group Relative Policy Optimization (GRPO) suffers from sparse, outcome-based rewards in multi-step reasoning, we formulate our reasoning process as a step-level decision-making problem, design step-specific rewards, and compute step-level advantages for granular credit assignment within GRPO. Extensive experiments demonstrate that FiRe consistently outperforms competitive text-to-image baselines, including existing reasoning-based methods, with particularly substantial gains on compositional text-to-image benchmarks. Our project page is available at https://ku-agi.github.io/FiRe/
 
@@ -215,7 +215,7 @@ Reinforcement learning (RL) has become a key driver of language model reasoning.
 
 Reinforcement Learning with Verifiable Rewards (RLVR) replaces costly human labeling with automated verifiers. To reduce verifier hacking, many RLVR systems binarize rewards to $\{0,1\}$, but imperfect verifiers inevitably introduce \emph{false negatives} (rejecting correct answers) and \emph{false positives} (accepting incorrect ones). We formalize verifier unreliability as a stochastic reward channel with asymmetric noise rates $ρ_0$ and $ρ_1$ -- the FP rate and the FN rate, respectively. From this abstraction we derive two lightweight corrections: (i) a \emph{backward} correction that yields an unbiased surrogate reward and thus an unbiased policy-gradient estimator in expectation, and (ii) a \emph{forward} correction that reweights score-function terms so the expected update aligns with the clean gradient direction and requires only the FN rate. We implement both as lightweight hooks in a group relative policy optimization pipeline, both corrections improve RLVR for math reasoning under synthetic and real verifier noise, with the forward variant being more stable under heavier noise. Finally, an appeals mechanism with a lightweight LLM verifier estimates the FN rate online and further improves performance.
 
-### [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v7)
+### [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v8)
 
 - **Authors:** Lei Pang, Jun Luo, Ruinan Jin
 - **Published:** 2025-08-04
@@ -223,7 +223,7 @@ Reinforcement Learning with Verifiable Rewards (RLVR) replaces costly human labe
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2508.02833v7) · [PDF](https://arxiv.org/pdf/2508.02833v7)
+- **Links:** [Paper](https://arxiv.org/abs/2508.02833v8) · [PDF](https://arxiv.org/pdf/2508.02833v8)
 
 Group Relative Policy Optimization (GRPO) trains language models without a value critic using rewards centered within sampled response groups. We study how importance weighting, clipping, and length normalization affect its stochastic updates and propose Trajectory-level Importance-Corrected GRPO (TIC-GRPO), combining an upper importance-ratio cap with a full-trajectory likelihood ratio. Under common maximum-length normalization, a trajectory change of measure gives a score second moment proportional to the response horizon. We propagate this estimate through the actual empirical baseline and all inner updates. With separately optimized constant steps, the sampling term in TIC's stationarity bound has a linear horizon coefficient, versus order three halves for token-level GRPO$_2$. Matching upper and lower bounds separate the capped methods' worst-case response-level variances by a factor $T$. The bounds track prompt count, response-group size, vocabulary size, reward scale, and score regularity; per-response-normalized GRPO also retains a length-covariance term. Experiments at two Qwen3 scales on four reasoning and coding benchmarks evaluate both mechanisms in sampled-token-normalized training.
 

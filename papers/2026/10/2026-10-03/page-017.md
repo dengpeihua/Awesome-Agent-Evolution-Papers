@@ -33,14 +33,14 @@
 | 2026-01-09 | Agent/LLM Self-Improvement | [Self-Evolving Distributed Memory Architecture for Scalable AI Systems](https://arxiv.org/abs/2601.05569) | — |
 | 2026-01-09 | LLM Continual Training | [Continual-learning for Modelling Low-Resource Languages from Large Language Models](https://arxiv.org/abs/2601.05874) | — |
 | 2026-01-05 | Agent/LLM Self-Improvement | [Large Language Models are Shannon Lossy Compressors Not Solomonoff Induction Estimators: Self-improvement and Singularity Are Not Near Without Symbolic Model Synthesis](https://arxiv.org/abs/2601.05280v6) | — |
-| 2026-01-01 | Agent/LLM Self-Improvement | [ClinicalReTrial: Clinical Trial Redesign with Self-Evolving Agents](https://arxiv.org/abs/2601.00290v3) | — |
+| 2026-01-01 | Agent/LLM Self-Improvement | [ClinicalReTrial: Clinical Trial Redesign with Self-Evolving Agents](https://arxiv.org/abs/2601.00290v3) | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) |
 | 2025-12-31 | LLM Continual Training | [When to Ponder: Adaptive Compute Allocation for Code Generation via Test-Time Training](https://arxiv.org/abs/2601.00894v2) | — |
-| 2025-12-10 | LLM Continual Training | [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3) | 📈 Highly cited |
+| 2025-12-10 | LLM Continual Training | [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v4) | 📈 Highly cited |
 | 2025-12-09 | LLM Continual Training | [Prompt-Based Continual Compositional Zero-Shot Learning](https://arxiv.org/abs/2512.09172v3) | — |
 | 2025-12-05 | LLM Continual Training | [K2-V2: A 360-Open, Reasoning-Enhanced LLM](https://arxiv.org/abs/2512.06201v3) | — |
 | 2025-12-02 | Agent/LLM Self-Improvement | [Think, Then Look: Active Spatial Reasoning for House-Scale 3D Scene Understanding](https://arxiv.org/abs/2512.03284v2) | — |
 | 2025-11-27 | Agent/LLM Self-Improvement | [Co-Evolving Agents: Learning from Failures as Hard Negatives](https://arxiv.org/abs/2511.22254v5) | — |
-| 2025-11-24 | Reinforcement Learning | [SLMFix: Leveraging Small Language Models for Domain Specific Language Error Fixing with Reinforcement Learning](https://arxiv.org/abs/2511.19422v2) | — |
+| 2025-11-24 | Reinforcement Learning | [SLMFix: Leveraging Small Language Models for Domain Specific Language Error Fixing with Reinforcement Learning](https://arxiv.org/abs/2511.19422v2) | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) |
 | 2025-11-20 | Agent/LLM Self-Improvement, Reinforcement Learning | [Agent0: Unleashing Self-Evolving Agents from Zero Data via Tool-Integrated Reasoning](https://arxiv.org/abs/2511.16043v2) | 📈 Highly cited |
 | 2025-11-19 | LLM Continual Training | [Parameter Importance-Driven Continual Learning for Foundation Models](https://arxiv.org/abs/2511.15375v2) | — |
 | 2025-10-24 | LLM Continual Training | [Memory-Free Continual Learning with Null Space Adaptation for Zero-Shot Vision-Language Models](https://arxiv.org/abs/2510.21175v2) | 🏅 Selected top venue: ICLR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
@@ -52,8 +52,8 @@
 | 2025-09-10 | Reinforcement Learning | [HumanAgencyBench: Scalable Evaluation of Human Agency Support in AI Assistants](https://arxiv.org/abs/2509.08494v2) | 📈 Highly cited |
 | 2025-08-21 | Agent/LLM Self-Improvement | [Language-Guided Tuning: Configuration Optimization for Automated ML Research](https://arxiv.org/abs/2508.15757v2) | — |
 | 2025-08-13 | Agent/LLM Self-Improvement | [EvoCurr: Self-evolving Curriculum with Behavior Code Generation for Complex Decision-making](https://arxiv.org/abs/2508.09586v3) | — |
-| 2025-08-04 | Reinforcement Learning | [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v7) | 📈 Highly cited |
-| 2025-07-29 | Reinforcement Learning | [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v2) | 📈 Highly cited |
+| 2025-08-04 | Reinforcement Learning | [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v8) | 📈 Highly cited |
+| 2025-07-29 | Reinforcement Learning | [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v3) | 📈 Highly cited |
 | 2025-05-30 | LLM Continual Training | [Advantageous Parameter Expansion Training Makes Better Large Language Models](https://arxiv.org/abs/2505.24241v2) | — |
 | 2025-05-28 | LLM Continual Training | [Learning Composable Chains-of-Thought](https://arxiv.org/abs/2505.22635v2) | — |
 | 2025-05-28 | Agent/LLM Self-Improvement | [OSPO: Object-Centric Self-Improving Preference Optimization for Text-to-Image Generation](https://arxiv.org/abs/2506.02015v4) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) |
@@ -65,13 +65,15 @@
 | [Why GRPO Needs Normalization: A Local-Curvature Perspective on Adaptive Gradients](https://arxiv.org/abs/2601.23135v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [Just-In-Time Reinforcement Learning: Continual Learning in LLM Agents Without Gradient Updates](https://arxiv.org/abs/2601.18510v4) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
 | [DarwinTOD: LLM-driven Lifelong Self-evolution for Task-oriented Dialog Systems](https://arxiv.org/abs/2601.07248) | 🏆 CCF-A: Annual Meeting of the Association for Computational Linguistics<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | Semantic Scholar publication metadata: Annual Meeting of the Association for Computational Linguistics |
-| [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [ClinicalReTrial: Clinical Trial Redesign with Self-Evolving Agents](https://arxiv.org/abs/2601.00290v3) | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | Semantic Scholar publication metadata: Conference on Empirical Methods in Natural Language Processing<br>Nanjing University |
+| [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v4) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [SLMFix: Leveraging Small Language Models for Domain Specific Language Error Fixing with Reinforcement Learning](https://arxiv.org/abs/2511.19422v2) | 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified) | Semantic Scholar publication metadata: Conference on Empirical Methods in Natural Language Processing |
 | [Agent0: Unleashing Self-Evolving Agents from Zero Data via Tool-Integrated Reasoning](https://arxiv.org/abs/2511.16043v2) | 📈 Highly cited | First author: UNC-Chapel Hill (Semantic Scholar author profiles) |
 | [Memory-Free Continual Learning with Null Space Adaptation for Zero-Shot Vision-Language Models](https://arxiv.org/abs/2510.21175v2) | 🏅 Selected top venue: ICLR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Published at ICLR 2026. Code: https://github.com/ZoYujin/NuSA-CL |
 | [What Drives Compositional Generalization in Visual Generative Models? The Importance of Continuous Training Objectives](https://arxiv.org/abs/2510.03075v4) | 🏆 CCF-A: NeurIPS 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted at NeurIPS 2026 |
 | [HumanAgencyBench: Scalable Evaluation of Human Agency Support in AI Assistants](https://arxiv.org/abs/2509.08494v2) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v7) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
-| [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v2) | 📈 Highly cited | Heinrich-Heine-University Düsseldorf, Heinrich-Heine-Universität Düsseldorf |
+| [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v8) | 📈 Highly cited | Verified metrics snapshot; see Metrics |
+| [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v3) | 📈 Highly cited | Heinrich-Heine-University Düsseldorf, Heinrich-Heine-Universität Düsseldorf |
 | [OSPO: Object-Centric Self-Improving Preference Optimization for Text-to-Image Generation](https://arxiv.org/abs/2506.02015v4) | 🏆 CCF-A: CVPR 2026<br>📣 Acceptance first observed: 2026-10-03 (actual acceptance date unverified) | arXiv comment: Accepted to CVPR 2026 (camera-ready version) |
 
 ## Agent & LLM Self-Evolution / Self-Improving / Recursive Self-Improvement
@@ -224,8 +226,8 @@ We connect two questions in Algorithmic Information Theory (AIT), Machine Learni
 
 - **Authors:** Sixue Xing, Kerui Wu, Xuanye Xia, Haoyu He, Meng Jiang, Jintai Chen, Tianfan Fu
 - **Published:** 2026-01-01
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified)
+- **Venue:** Conference on Empirical Methods in Natural Language Processing
 - **Affiliations:** Nanjing University
 - **Categories:** cs.AI, cs.MA
 - **Links:** [Paper](https://arxiv.org/abs/2601.00290v3) · [PDF](https://arxiv.org/pdf/2601.00290v3) · [Code](https://github.com/xingsixue123/ClinicalFailureReasonReTrial)
@@ -390,7 +392,7 @@ Modelling a language model for a multi-lingual scenario includes several potenti
 
 Large language models apply uniform computation to all inputs, regardless of difficulty. We propose PonderTTT, a gating strategy using the TTT layer's self-supervised reconstruction loss to selectively trigger Test-Time Training (TTT) updates. The gating decision itself is training-free--requiring no learned classifier or auxiliary networks; only a single scalar threshold is initially calibrated on unlabeled data and continuously adapted via EMA to maintain target update rates. Our experiments with GPT-2 models (124M to 1.5B) on code language modeling (The Stack v2, teacher-forced perplexity) demonstrate that this signal is inference-compatible, requiring no ground-truth labels. Our Reconstruction Gating achieves 82-89% Oracle Recovery while being fully training-free, significantly outperforming Random Skip baselines (up to 16% lower loss on OOD languages).
 
-### [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v3)
+### [Safe Learning for Contact-Rich Robot Tasks: A Survey from Classical Learning-Based Methods to Safe Foundation Models](https://arxiv.org/abs/2512.11908v4)
 
 - **Authors:** Heng Zhang, Rui Dai, Gokhan Solak, Pokuang Zhou, Nikos Tsagarakis, Yu She, Arash Ajoudani
 - **Published:** 2025-12-10
@@ -398,7 +400,7 @@ Large language models apply uniform computation to all inputs, regardless of dif
 - **Venue:** arXiv.org
 - **Affiliations:** n/a
 - **Categories:** cs.RO
-- **Links:** [Paper](https://arxiv.org/abs/2512.11908v3) · [PDF](https://arxiv.org/pdf/2512.11908v3)
+- **Links:** [Paper](https://arxiv.org/abs/2512.11908v4) · [PDF](https://arxiv.org/pdf/2512.11908v4)
 
 Contact-rich tasks pose significant challenges for robotic systems due to inherent uncertainty, complex dynamics, and the high risk of damage during interaction. Recent advances in learning-based control have shown great potential in enabling robots to acquire and generalize complex manipulation skills in such environments, but ensuring safety, both during exploration and execution, remains a critical bottleneck for reliable real-world deployment. This survey provides a comprehensive overview of safe learning-based methods for robot contact-rich tasks. We categorize existing approaches into two main domains: safe exploration and safe execution. We review key techniques, including constrained reinforcement learning, risk-sensitive optimization, uncertainty-aware modeling, control barrier functions, and model predictive safety shields, and highlight how these methods incorporate prior knowledge, task structure, and online adaptation to balance safety and efficiency. A particular emphasis of this survey is on how these safe learning principles extend to and interact with emerging robotic foundation models, especially vision-language models (VLMs) and vision-language-action models (VLAs), which unify perception, language, and control for contact-rich manipulation. We discuss both the new safety opportunities enabled by VLM/VLA-based methods, such as language-level specification of constraints and multimodal grounding of safety signals, and the amplified risks and evaluation challenges they introduce. Finally, we outline current limitations and promising future directions toward deploying reliable, safety-aligned, and foundation-model-enabled robots in complex contact-rich environments. More details and materials are available at our \href{ https://github.com/jack-sherman01/Awesome-Learning4Safe-Contact-rich-tasks}{Project GitHub Repository}.
 
@@ -576,8 +578,8 @@ While Large Language Model (LLM) agents excel at general tasks, they inherently 
 
 - **Authors:** David Jiahao Fu, Aryan Gupta, Aaron Councilman, Yu-Xiong Wang, Vikram Adve
 - **Published:** 2025-11-24
-- **Priority:** —
-- **Venue:** arXiv
+- **Priority:** 🏅 Selected top venue: Conference on Empirical Methods in Natural Language Processing<br>📣 Acceptance first observed: 2026-11-25 (actual acceptance date unverified)
+- **Venue:** Conference on Empirical Methods in Natural Language Processing
 - **Affiliations:** n/a
 - **Categories:** cs.SE, cs.AI, cs.PL
 - **Links:** [Paper](https://arxiv.org/abs/2511.19422v2) · [PDF](https://arxiv.org/pdf/2511.19422v2)
@@ -601,7 +603,7 @@ Large Language Model (LLM) Agents, often trained with Reinforcement Learning (RL
 - **Authors:** Yincen Qu, Huan Xiao, Feng Li, Gregory Li, Hui Zhou, Xiangying Dai, Xiaoru Dai, Xuan Huang
 - **Published:** 2025-10-10
 - **Priority:** —
-- **Venue:** arXiv
+- **Venue:** Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing: Industry Track
 - **Affiliations:** n/a
 - **Categories:** cs.AI, cs.CL
 - **Links:** [Paper](https://arxiv.org/abs/2510.09011v4) · [PDF](https://arxiv.org/pdf/2510.09011v4)
@@ -632,7 +634,7 @@ This paper considers the smooth bilevel optimization in which the lower-level pr
 
 As humans delegate more tasks and decisions to artificial intelligence (AI), we risk losing control of our individual and collective futures. Relatively simple algorithmic systems already steer human decision-making, such as social media feed algorithms that lead people to unintentionally and absent-mindedly scroll through engagement-optimized content. In this paper, we develop the idea of human agency by integrating philosophical and scientific theories of agency with AI-assisted evaluation methods: using large language models (LLMs) to simulate and validate user queries and to evaluate AI responses. We develop HumanAgencyBench (HAB), a scalable and adaptive diagnostic tool for six behaviors related to human agency. HAB measures the tendency of an AI assistant to Ask Clarifying Questions, Avoid Value Manipulation, Correct Misinformation, Defer Important Decisions, Encourage Learning, and Maintain Social Boundaries. We find low-to-moderate agency support in contemporary LLM-based assistants, with substantial variation across system developers and behaviors. For example, while Anthropic LLMs most support human agency overall, they are the least supportive LLMs in terms of Avoid Value Manipulation. These behaviors do not appear to consistently result from increasing LLM capabilities or instruction-following (e.g., RLHF); we encourage further study of these behaviors so that developers and users can better understand the complexities of modern human-AI interaction.
 
-### [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v7)
+### [TIC-GRPO: Provable and Efficient Optimization for Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2508.02833v8)
 
 - **Authors:** Lei Pang, Jun Luo, Ruinan Jin
 - **Published:** 2025-08-04
@@ -640,11 +642,11 @@ As humans delegate more tasks and decisions to artificial intelligence (AI), we 
 - **Venue:** arXiv
 - **Affiliations:** n/a
 - **Categories:** cs.LG
-- **Links:** [Paper](https://arxiv.org/abs/2508.02833v7) · [PDF](https://arxiv.org/pdf/2508.02833v7)
+- **Links:** [Paper](https://arxiv.org/abs/2508.02833v8) · [PDF](https://arxiv.org/pdf/2508.02833v8)
 
 Group Relative Policy Optimization (GRPO) trains language models without a value critic using rewards centered within sampled response groups. We study how importance weighting, clipping, and length normalization affect its stochastic updates and propose Trajectory-level Importance-Corrected GRPO (TIC-GRPO), combining an upper importance-ratio cap with a full-trajectory likelihood ratio. Under common maximum-length normalization, a trajectory change of measure gives a score second moment proportional to the response horizon. We propagate this estimate through the actual empirical baseline and all inner updates. With separately optimized constant steps, the sampling term in TIC's stationarity bound has a linear horizon coefficient, versus order three halves for token-level GRPO$_2$. Matching upper and lower bounds separate the capped methods' worst-case response-level variances by a factor $T$. The bounds track prompt count, response-group size, vocabulary size, reward scale, and score regularity; per-response-normalized GRPO also retains a length-covariance term. Experiments at two Qwen3 scales on four reasoning and coding benchmarks evaluate both mechanisms in sampled-token-normalized training.
 
-### [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v2)
+### [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931v3)
 
 - **Authors:** Carel van Niekerk, Renato Vukovic, Benjamin Ruppik, Hsien-chin Lin, Shutong Feng, Milica Gašić
 - **Published:** 2025-07-29
@@ -652,6 +654,6 @@ Group Relative Policy Optimization (GRPO) trains language models without a value
 - **Venue:** arXiv.org
 - **Affiliations:** Heinrich-Heine-University Düsseldorf, Heinrich-Heine-Universität Düsseldorf
 - **Categories:** cs.CL, cs.AI
-- **Links:** [Paper](https://arxiv.org/abs/2507.21931v2) · [PDF](https://arxiv.org/pdf/2507.21931v2)
+- **Links:** [Paper](https://arxiv.org/abs/2507.21931v3) · [PDF](https://arxiv.org/pdf/2507.21931v3)
 
 Large Language Models (LLMs) often produce plausible but poorly-calibrated answers, limiting their reliability on reasoning-intensive tasks. Recent research suggests that Chain-of-Thought (CoT) reasoning paths are inherent in pre-trained LLMs and can be elicited by simply altering the decoding process, where the presence of a CoT path correlates with higher answer confidence. Building on these insights, we present Reinforcement Learning from Self-Feedback (RLSF), a post-training stage that utilises the model's intrinsic confidence as a self-generated reward. By generating multiple CoT decoding beams from a frozen LLM, we compute the confidence of each final answer span and rank the resulting traces accordingly to create synthetic preferences. These preferences are subsequently utilised to fine-tune the policy through standard preference optimisation, requiring no human labels, gold answers, or externally curated rewards. RLSF simultaneously (i) refines the model's probability estimates--restoring well-behaved calibration--and (ii) strengthens step-by-step reasoning, yielding improved performance on arithmetic reasoning and multiple-choice question answering. By converting a model's own uncertainty into structured self-feedback, RLSF affirms reinforcement learning on intrinsic model behaviour as a principled and data-efficient component of the LLM post-training pipeline. Our results demonstrate that leveraging these inherent reasoning capabilities provides a robust path for enhancing model reliability without manual prompt engineering or external supervision.

@@ -6,12 +6,12 @@ The public corpus covers four directions plus explicit requests: papers address 
 
 ## Current result
 
-- Topic candidates evaluated: **2559**
-- Papers retained in the public repository: **2550**
-- CCF-A (Artificial Intelligence): **94**
-- Selected top venues: **42**
-- Big-tech affiliation: **12**
-- At least 10 citations: **173**
+- Topic candidates evaluated: **3330**
+- Papers retained in the public repository: **3293**
+- CCF-A (Artificial Intelligence): **135**
+- Selected top venues: **57**
+- Big-tech affiliation: **13**
+- At least 10 citations: **194**
 
 Counts overlap because one paper may satisfy multiple qualifiers. GitHub stars are displayed as context but do not qualify a paper for inclusion.
 
